@@ -76,7 +76,7 @@ The first step is to enable GitHub Pages on this [repository](https://docs.githu
   Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
 -->
 
-<details id=2 open>
+<details id=2>
 <summary><h2>Step 2: Configure your site</h2></summary>
 
 _You turned on GitHub Pages! :tada:_
@@ -109,7 +109,7 @@ We need to use a blog-ready theme. For this activity, we will use a theme named 
   Historic note: previous version checked the homepage content was not empty.
 -->
 
-<details id=3>
+<details id=3 open>
 <summary><h2>Step 3: Customize your homepage</h2></summary>
 
 _Nice work setting the theme! :sparkles:_
