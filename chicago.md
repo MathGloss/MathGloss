@@ -1,0 +1,129 @@
+---
+ layout: page
+ title: Chicago
+ permalink: /chicago
+---
+
+Chicago notes are notes from an undergraduate math degree at the University of Chicago. The corpus can be found [here](https://github.com/lucyhorowitz/MathRepository).
+
+The following is a list of terms that were _not_ found in Wikidata, even though this mapping was done manually.
+- averaging of vector-valued function
+- star of an object
+- action of a group on power sets
+- extension of a function to R^n
+- free group action
+- syntactic proof
+- infimum
+- subinterval
+- simple region
+- Lebesgue integral of characteristic function
+- map of covering of groupoid
+- component interval
+- group of automorphisms of a cover
+- derived series of a Lie algebra
+- multiplicative norm
+- strong (p,q)
+- colimit of a D-shaped diagram
+- automorphism group of coverings
+- NDR pair
+- model
+- symmetric differential basis
+- positive variation
+- partition of a rectangle
+- bounded measure space
+- Young subgroup
+- equivalent group representations
+- self-normalizing
+- weak (p,q)
+- rank of a module
+- short exact sequence of chain complexes
+- generate a topology
+- transitive group action
+- formal language of propositional logic
+- sum of ring ideals
+- characteristic map of open simplex
+- category of canonical orbits
+- ∆-complex.
+- diameter of a set
+- p-norm
+- vector-valued integral
+- compact support
+- cycle type
+- symmetric with respect to the subspace x=0
+- numerable
+- lattice complement
+- opposite topology
+- stabilizer under group action
+- measurable hull
+- volume of compact topological space
+- averaging
+- product of ring ideals
+- category of spaces under A
+- equivalent absolute values
+- local degree of map between spheres
+- G-space
+- centralizer of a Lie algebra
+- category of groupoids
+- symplectic algebra
+- D-shaped diagram
+- Lebesgue integral of a simple function
+- map of coverings of a space
+- Haar integral
+- associate elements in an integral domain
+- supremum
+- attracting fixed point
+- negative variation
+- action of a group on quotient by subgroup
+- equivalent metrics
+- universal covering of groupoids
+- box product of representations
+- abelian Lie algebra
+- metric completion
+- morphism of group representations
+- proper ring ideal
+- countable
+- upper integral
+- complex differentiable
+- sum of modules
+- comaximal ring ideals
+- integral of n-form
+- strong differential basis
+- category of coverings of groupoids
+- lower integral
+- circular mean value
+- relative boundary
+- conjugate subgroups
+- reduced edge path
+- upper sum
+- L2 inner product on group functions
+- chain map
+- regular family
+- faithful group action
+- diameter of an n-simplex
+- category of spaces over B
+- algebra of polynomial differential operators
+- generate an algebra ideal
+- right algebra ideal
+- derived series of a group
+- lower sum
+- regular covering of groupoids
+- orientation-preserving
+- mesh
+- transitive functor
+- subrectangle
+- category of objects under x
+- component function
+- curly P
+- graded algebra ideal
+- graded subalgebra
+- continuous group representation
+- generate a ring ideal
+- Basic Additive Character
+- generate a σ-algebra
+- differentiability in closed half-space
+- density topology
+- G-harmonic polynomial
+- ad-nilpotent
+- graded vector subspace
+- measure density
+- differential basis
