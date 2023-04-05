@@ -1,8 +1,6 @@
----
 layout: page
 title: 'Database'
 permalink: /database
----
 
 Here is the stuff for the database.
 
