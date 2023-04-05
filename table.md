@@ -1,5 +1,6 @@
 ---
  layout: default
+ permalink: /database
 ---
 
 Here is the stuff for the database.
