@@ -1,6 +1,7 @@
 ---
  layout: default
  permalink: /database
+ title: "Database"
 ---
 
 Here is the stuff for the database.
