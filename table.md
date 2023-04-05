@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Database"
+title: 'Database'
 permalink: /database
 ---
 
