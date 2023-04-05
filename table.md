@@ -1,10 +1,5 @@
 ---
- layout: page
- title: 'Database'
- permalink: /database
- remote_theme: pages-themes/dinky@v0.2.0
- plugins:
- - jekyll-remote-theme
+ layout: default
 ---
 
 Here is the stuff for the database.
