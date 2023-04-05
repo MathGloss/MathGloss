@@ -4,7 +4,9 @@
  title: "Database"
 ---
 
-| Wikidata ID         | France                                                                 |      Chicago                                                   |     ProofNet                          | TAC                          |
+This table contains Wikidata ID numbers and the corresponding term from each corpus. To see terms from the corpora that were not mapped to Wikidata, click on the links in the headers.
+
+| Wikidata ID | [France](https://defsmath.github.io/DefsMath/france)|[Chicago](https://defsmath.github.io/DefsMath/chicago) | [ProofNet](https://defsmath.github.io/DefsMath/proofnet) | [TAC](https://defsmath.github.io/DefsMath/tac)                          |
 | ---------- | --------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------- | ---------------------------------- |
 | Q1000660   | associative algebra over a commutative ring                                 | algebra over a field                                    | Algebras                      | Algebras                           |
 | Q1004172   |                                                                             |                                                         |                               | Fröhlich                           |
