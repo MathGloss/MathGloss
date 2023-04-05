@@ -1,3 +1,7 @@
+layout: page
+title: "Database"
+permalink: /database
+
 | Wikidata ID         | France                                                                 |      Chicago                                                   |     ProofNet                          | TAC                          |
 | ---------- | --------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------- | ---------------------------------- |
 | Q1000660   | associative algebra over a commutative ring                                 | algebra over a field                                    | Algebras                      | Algebras                           |
