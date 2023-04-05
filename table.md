@@ -4,6 +4,8 @@ title: "Database"
 permalink: /database
 ---
 
+Here is the stuff for the database.
+
 | Wikidata ID         | France                                                                 |      Chicago                                                   |     ProofNet                          | TAC                          |
 | ---------- | --------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------- | ---------------------------------- |
 | Q1000660   | associative algebra over a commutative ring                                 | algebra over a field                                    | Algebras                      | Algebras                           |
