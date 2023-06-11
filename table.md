@@ -8,1690 +8,1142 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 
 | Wikidata ID                                            |           [Chicago](https://defsmath.github.io/DefsMath/chicago)                                                            |   [France UG](https://defsmath.github.io/DefsMath/france)                                                 | [ProofNet](https://defsmath.github.io/DefsMath/proofnet)                        | [TAC](https://defsmath.github.io/DefsMath/tac)                                  |
 | ------------------------------------------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------- | ---------------------------------- | 
-| [Q181296](https://www.wikidata.org/wiki/Q181296)       | abelian                                                 |                                   | finite abelian group       | abelian group                      |
-| [Q318737](https://www.wikidata.org/wiki/Q318737)       |                                                         |                                   |                            | abelian category                   |
-| [Q318751](https://www.wikidata.org/wiki/Q318751)       |                                                         |                                   |                            | abelian variety                    |
-| [Q318598](https://www.wikidata.org/wiki/Q318598)       | abelianization                                          |                                   |                            |
-| [Q332504](https://www.wikidata.org/wiki/Q332504)       | absolute continuity                                     |                                   |                            |                                    |
-| [Q20827138](https://www.wikidata.org/wiki/Q20827138)   | absolute continuity of measure                          |                                   |                            |                                    |
-| [Q332465](https://www.wikidata.org/wiki/Q332465)       | absolute convergence                                    | absolute convergence              |                            |
-| [Q120812](https://www.wikidata.org/wiki/Q120812)       | absolute value                                          |                                   |                            |
-| [Q4669982](https://www.wikidata.org/wiki/Q4669982)     |                                                         |                                   |                            | abstraction                        |
-| [Q4672496](https://www.wikidata.org/wiki/Q4672496)     |                                                         |                                   |                            | accessible functor                 |
-| [Q32043](https://www.wikidata.org/wiki/Q32043)         |                                                         |                                   | addition                   | addition                           |
-| [Q4681343](https://www.wikidata.org/wiki/Q4681343)     |                                                         |                                   |                            | additive category                  |
-| [Q2099981](https://www.wikidata.org/wiki/Q2099981)     |                                                         |                                   |                            | additive functor                   |
-| [Q17001823](https://www.wikidata.org/wiki/Q17001823)   |                                                         |                                   |                            | adhesive category                  |
-| [Q26261926](https://www.wikidata.org/wiki/Q26261926)   |                                                         |                                   | adjoint                    | adjoint                            |
-| [Q1017106](https://www.wikidata.org/wiki/Q1017106)     | adjoint map of a lie algebra                            | adjoint endomorphism              | adjoint action             |
-| [Q2858846](https://www.wikidata.org/wiki/Q2858846)     | adjoint of a linear transformation                      |                                   |
-| [Q4379157](https://www.wikidata.org/wiki/Q4379157)     | adjoint representation of a lie algebra                 |                                   |
-| [Q357858](https://www.wikidata.org/wiki/Q357858)       |                                                         |                                   |                            | adjointness                        |
-| [Q225107](https://www.wikidata.org/wiki/Q225107)       | adjugate                                                |                                   |                            |                                    |
-| [Q1903435](https://www.wikidata.org/wiki/Q1903435)     |                                                         |                                   |                            | advantage                          |
-| [Q1219045](https://www.wikidata.org/wiki/Q1219045)     |                                                         |                                   |                            | affine                             |
-| [Q686291](https://www.wikidata.org/wiki/Q686291)       |                                                         | affine group                      |                            |                                    |
-| [Q382698](https://www.wikidata.org/wiki/Q382698)       |                                                         | affine property                   |                            |
-| [Q382504](https://www.wikidata.org/wiki/Q382504)       |                                                         | affine span                       |                            |                                    |
-| [Q3532117](https://www.wikidata.org/wiki/Q3532117)     | alexandroff space                                       |                                   |                            |
-| [Q3968](https://www.wikidata.org/wiki/Q3968)           |                                                         |                                   |                            | algebra                            |
-| [Q382497](https://www.wikidata.org/wiki/Q382497)       | algebra homomorphism                                    | affine function                   |                            |
-| [Q44649](https://www.wikidata.org/wiki/Q44649)         | algebra ideal                                           |                                   |                            |
-| [Q10565797](https://www.wikidata.org/wiki/Q10565797)   | algebra of subsets                                      |                                   |                            |
-| [Q1000660](https://www.wikidata.org/wiki/Q1000660)     | algebra over a field                                    | algebra over a commutative ring   |
-| [Q3502010](https://www.wikidata.org/wiki/Q3502010)     |                                                         |                                   |                            | algebraic category                 |
-| [Q162608](https://www.wikidata.org/wiki/Q162608)       | algebraic element of an algebra                         | transcendental element            |                            |
-| [Q550791](https://www.wikidata.org/wiki/Q550791)       |                                                         | algebraic extension               |                            |
-| [Q180969](https://www.wikidata.org/wiki/Q180969)       |                                                         |                                   |                            | algebraic geometry                 |
-| [Q646245](https://www.wikidata.org/wiki/Q646245)       | algebraic integer                                       |                                   |                            |
-| [Q5155306](https://www.wikidata.org/wiki/Q5155306)     |                                                         |                                   |                            | algebraic lattice                  |
-| [Q168817](https://www.wikidata.org/wiki/Q168817)       | algebraic number                                        |                                   |                            |
-| [Q205464](https://www.wikidata.org/wiki/Q205464)       |                                                         |                                   |                            | algebraic structure                |
-| [Q4724020](https://www.wikidata.org/wiki/Q4724020)     |                                                         |                                   |                            | algebraic theory                   |
-| [Q212803](https://www.wikidata.org/wiki/Q212803)       |                                                         |                                   |                            | algebraic topology                 |
-| [Q1047547](https://www.wikidata.org/wiki/Q1047547)     | algebraically closed                                    | algebraically closed field        |                            |
-| [Q4731385](https://www.wikidata.org/wiki/Q4731385)     |                                                         |                                   |                            | allegory                           |
-| [Q1139334](https://www.wikidata.org/wiki/Q1139334)     | almost everywhere                                       |                                   |                            |
-| [Q25377974](https://www.wikidata.org/wiki/Q25377974)   | almost uniform convergence                              |                                   |
-| [Q837924](https://www.wikidata.org/wiki/Q837924)       |                                                         | alternating bilinear form         |                            |
-| [Q438814](https://www.wikidata.org/wiki/Q438814)       | alternating group                                       |                                   |                            |
-| [Q393567](https://www.wikidata.org/wiki/Q393567)       |                                                         |                                   |                            | alternation                        |
-| [Q452862](https://www.wikidata.org/wiki/Q452862)       |                                                         |                                   |                            | amalgamation                       |
-| [Q4739384](https://www.wikidata.org/wiki/Q4739384)     |                                                         |                                   |                            | amalgamation property              |
-| [Q7754](https://www.wikidata.org/wiki/Q7754)           |                                                         |                                   |                            | analysis                           |
-| [Q215084](https://www.wikidata.org/wiki/Q215084)       | analytic                                                |                                   |                            |                                    |
-| [Q567083](https://www.wikidata.org/wiki/Q567083)       | annihilator of a submodule                              |                                   |
-| [Q114326](https://www.wikidata.org/wiki/Q114326)       |                                                         | antiderivative                    |                            |
-| [Q4781718](https://www.wikidata.org/wiki/Q4781718)     |                                                         |                                   |                            | approach space                     |
-| [Q27058](https://www.wikidata.org/wiki/Q27058)         |                                                         |                                   |                            | approximation                      |
-| [Q11500](https://www.wikidata.org/wiki/Q11500)         |                                                         |                                   |                            | area                               |
-| [Q1315869](https://www.wikidata.org/wiki/Q1315869)     |                                                         |                                   |                            | arity                              |
-| [Q1948412](https://www.wikidata.org/wiki/Q1948412)     |                                                         |                                   |                            | arrow                              |
-| [Q1780005](https://www.wikidata.org/wiki/Q1780005)     |                                                         |                                   |                            | arrow category                     |
-| [Q177251](https://www.wikidata.org/wiki/Q177251)       | associative                                             |                                   | associativity              | associative                        |
-| [Q744960](https://www.wikidata.org/wiki/Q744960)       | associative algebra                                     |                                   | associative algebra        |
-| [Q2405805](https://www.wikidata.org/wiki/Q2405805)     |                                                         |                                   |                            | associator                         |
-| [Q1303310](https://www.wikidata.org/wiki/Q1303310)     | atlas                                                   |                                   |                            | atlas                              |
-| [Q507187](https://www.wikidata.org/wiki/Q507187)       |                                                         |                                   |                            | attractor                          |
-| [Q4820423](https://www.wikidata.org/wiki/Q4820423)     | augmentation ideal                                      |                                   |                            |
-| [Q16039868](https://www.wikidata.org/wiki/Q16039868)   |                                                         |                                   |                            | automata                           |
-| [Q782566](https://www.wikidata.org/wiki/Q782566)       | automorphism                                            | automorphism                      | automorphism               |
-| [Q60790315](https://www.wikidata.org/wiki/Q60790315)   | automorphism group                                      |                                   |                            |
-| [Q4826844](https://www.wikidata.org/wiki/Q4826844)     |                                                         |                                   |                            | autonomous category                |
-| [Q17736](https://www.wikidata.org/wiki/Q17736)         |                                                         |                                   | axiom                      | axiomatic                          |
-| [Q792542](https://www.wikidata.org/wiki/Q792542)       |                                                         |                                   |                            | axiomatisation                     |
-| [Q2835923](https://www.wikidata.org/wiki/Q2835923)     |                                                         |                                   |                            | azumaya algebra                    |
-| [Q133279](https://www.wikidata.org/wiki/Q133279)       |                                                         |                                   |                            | back                               |
-| [Q1619726](https://www.wikidata.org/wiki/Q1619726)     |                                                         |                                   |                            | background                         |
-| [Q2976036](https://www.wikidata.org/wiki/Q2976036)     | baire class                                             |                                   |                            |                                    |
-| [Q803931](https://www.wikidata.org/wiki/Q803931)       | baire property                                          |                                   |                            |
-| [Q1150180](https://www.wikidata.org/wiki/Q1150180)     | baire space                                              |                                   |                            |                                    |
-| [Q838611](https://www.wikidata.org/wiki/Q838611)       |                                                         |                                   | ball                       | ball                               |
-| [Q806066](https://www.wikidata.org/wiki/Q806066)       | banach algebra                                          |                                   |                            |
-| [Q194397](https://www.wikidata.org/wiki/Q194397)       | banach space                                            |                                   |                            |
-| [Q3459695](https://www.wikidata.org/wiki/Q3459695)     | banach-mazur game                                       |                                   |                            |
-| [Q809690](https://www.wikidata.org/wiki/Q809690)       |                                                         | barycenter                        |                            |                                    |
-| [Q5786321](https://www.wikidata.org/wiki/Q5786321)     | barycentric coordinates                                 |                                   |                            |
-| [Q4078260](https://www.wikidata.org/wiki/Q4078260)     | barycentric subdivision                                 |                                   |                            |
-| [Q791586](https://www.wikidata.org/wiki/Q791586)       |                                                         |                                   |                            | basal                              |
-| [Q575724](https://www.wikidata.org/wiki/Q575724)       |                                                         | base                              | base                       | base                               |
-| [Q4866381](https://www.wikidata.org/wiki/Q4866381)     |                                                         |                                   | base case                  |                                    |
-| [Q4866384](https://www.wikidata.org/wiki/Q4866384)     |                                                         |                                   |                            | base change                        |
-| [Q1154996](https://www.wikidata.org/wiki/Q1154996)     |                                                         |                                   |                            | base space                         |
-| [Q1419329](https://www.wikidata.org/wiki/Q1419329)     | based topological space                                 |                                   | pointed space              |
-| [Q4867023](https://www.wikidata.org/wiki/Q4867023)     |                                                         |                                   |                            | basic category                     |
-| [Q810193](https://www.wikidata.org/wiki/Q810193)       | basis for abelian group                                 |                                   |                            |
-| [Q9332](https://www.wikidata.org/wiki/Q9332)           |                                                         |                                   |                            | behaviour                          |
-| [Q207485](https://www.wikidata.org/wiki/Q207485)       |                                                         |                                   |                            | bi                                 |
-| [Q494141](https://www.wikidata.org/wiki/Q494141)       |                                                         |                                   |                            | bialgebra                          |
-| [Q38545926](https://www.wikidata.org/wiki/Q38545926)   |                                                         |                                   |                            | bialgebroid                        |
-| [Q4903541](https://www.wikidata.org/wiki/Q4903541)     |                                                         |                                   |                            | bicategory                         |
-| [Q180907](https://www.wikidata.org/wiki/Q180907)       | bijective                                               |                                   |                            | bijection                          |
-| [Q4907764](https://www.wikidata.org/wiki/Q4907764)     |                                                         |                                   |                            | bilinear                           |
-| [Q2903821](https://www.wikidata.org/wiki/Q2903821)     |                                                         |                                   |                            | bimodule                           |
-| [Q6901645](https://www.wikidata.org/wiki/Q6901645)     |                                                         |                                   |                            | bimonad                            |
-| [Q164307](https://www.wikidata.org/wiki/Q164307)       | binary operation                                        |                                   | partial operation          |
-| [Q130901](https://www.wikidata.org/wiki/Q130901)       | binary relation                                         | relation                          | correspondence             |
-| [Q8799](https://www.wikidata.org/wiki/Q8799)           |                                                         |                                   |                            | binary term                        |
-| [Q4915506](https://www.wikidata.org/wiki/Q4915506)     |                                                         |                                   |                            | biproduct                          |
-| [Q866300](https://www.wikidata.org/wiki/Q866300)       |                                                         | bisection method                  |                            |
-| [Q658204](https://www.wikidata.org/wiki/Q658204)       |                                                         |                                   |                            | blowup                             |
-| [Q468391](https://www.wikidata.org/wiki/Q468391)       |                                                         | bolzano-weierstrass theorem       |
-| [Q571](https://www.wikidata.org/wiki/Q571)             |                                                         |                                   |                            | book                               |
-| [Q173183](https://www.wikidata.org/wiki/Q173183)       |                                                         |                                   |                            | boolean algebra                    |
-| [Q516776](https://www.wikidata.org/wiki/Q516776)       | borel function                                          | measurable function               |                            |
-| [Q3058218](https://www.wikidata.org/wiki/Q3058218)     | borel space                                             | measurable space                  |                            |
-| [Q1080067](https://www.wikidata.org/wiki/Q1080067)     | borel œÉ-algebra                                        | borel sigma-algebra               |                            |
-| [Q1202763](https://www.wikidata.org/wiki/Q1202763)     |                                                         |                                   |                            | bottleneck                         |
-| [Q875399](https://www.wikidata.org/wiki/Q875399)       | boundary                                                |                                   |                            |                                    |
-| [Q671064](https://www.wikidata.org/wiki/Q671064)       |                                                         |                                   |                            | boundary                           |
-| [Q78323465](https://www.wikidata.org/wiki/Q78323465)   | boundary homomorphism                                   |                                   |
-| [Q726212](https://www.wikidata.org/wiki/Q726212)       | bounded                                                 |                                   |                            |                                    |
-| [Q829653](https://www.wikidata.org/wiki/Q829653)       | bounded variation                                       |                                   |                            |
-| [Q17003697](https://www.wikidata.org/wiki/Q17003697)   |                                                         |                                   |                            | bousfield localization             |
-| [Q188075](https://www.wikidata.org/wiki/Q188075)       |                                                         |                                   |                            | box                                |
-| [Q32112](https://www.wikidata.org/wiki/Q32112)         |                                                         |                                   |                            | boxing                             |
-| [Q220409](https://www.wikidata.org/wiki/Q220409)       |                                                         |                                   |                            | braid                              |
-| [Q5876926](https://www.wikidata.org/wiki/Q5876926)     |                                                         |                                   |                            | branched                           |
-| [Q4956410](https://www.wikidata.org/wiki/Q4956410)     |                                                         |                                   |                            | branched cover                     |
-| [Q900456](https://www.wikidata.org/wiki/Q900456)       |                                                         |                                   |                            | brauer group                       |
-| [Q4963535](https://www.wikidata.org/wiki/Q4963535)     |                                                         |                                   |                            | brian day                          |
-| [Q9299950](https://www.wikidata.org/wiki/Q9299950)     |                                                         | brute force method                |                            |
-| [Q1047307](https://www.wikidata.org/wiki/Q1047307)     | bundle                                                  |                                   |                            | bundle                             |
-| [Q1020771](https://www.wikidata.org/wiki/Q1020771)     |                                                         |                                   |                            | bundle gerbes                      |
-| [Q11946202](https://www.wikidata.org/wiki/Q11946202)   |                                                         |                                   |                            | butterfly                          |
-| [Q513028](https://www.wikidata.org/wiki/Q513028)       |                                                         | b√©zout's identity                |                            |
-| [Q3552958](https://www.wikidata.org/wiki/Q3552958)     | c^r-form                                                |                                   |                            | smooth manifold                    |
-| [Q622821](https://www.wikidata.org/wiki/Q622821)       |                                                         |                                   | calculation                | calculation                        |
-| [Q149972](https://www.wikidata.org/wiki/Q149972)       |                                                         |                                   |                            | calculus                           |
-| [Q407264](https://www.wikidata.org/wiki/Q407264)       |                                                         |                                   |                            | call                               |
-| [Q444936](https://www.wikidata.org/wiki/Q444936)       |                                                         |                                   |                            | canonical                          |
-| [Q273188](https://www.wikidata.org/wiki/Q273188)       | cantor set                                              |                                   |                            |                                    |
-| [Q6147804](https://www.wikidata.org/wiki/Q6147804)     |                                                         |                                   |                            | cap                                |
-| [Q163875](https://www.wikidata.org/wiki/Q163875)       | cardinal number                                         |                                   | cardinal                   |
-| [Q4049983](https://www.wikidata.org/wiki/Q4049983)     |                                                         |                                   | cardinality                |                                    |
-| [Q1734581](https://www.wikidata.org/wiki/Q1734581)     |                                                         |                                   |                            | cartesian                          |
-| [Q1725874](https://www.wikidata.org/wiki/Q1725874)     |                                                         |                                   |                            | cartesian closed                   |
-| [Q229806](https://www.wikidata.org/wiki/Q229806)       |                                                         |                                   | case                       | case                               |
-| [Q146](https://www.wikidata.org/wiki/Q146)             |                                                         |                                   |                            | cat                                |
-| [Q17029637](https://www.wikidata.org/wiki/Q17029637)   |                                                         |                                   |                            | categorical algebra                |
-| [Q4118499](https://www.wikidata.org/wiki/Q4118499)     |                                                         |                                   |                            | categorical framework              |
-| [Q15830473](https://www.wikidata.org/wiki/Q15830473)   |                                                         |                                   |                            | categorical theory                 |
-| [Q5051825](https://www.wikidata.org/wiki/Q5051825)     |                                                         |                                   |                            | categorification                   |
-| [Q719395](https://www.wikidata.org/wiki/Q719395)       | category                                                |                                   |                            | category                           |
-| [Q2518298](https://www.wikidata.org/wiki/Q2518298)     | category of sets                                        |                                   |                            |
-| [Q2000555](https://www.wikidata.org/wiki/Q2000555)     | category of topological spaces                          |                                   |
-| [Q217413](https://www.wikidata.org/wiki/Q217413)       |                                                         |                                   |                            | category theory                    |
-| [Q8814](https://www.wikidata.org/wiki/Q8814)           |                                                         |                                   | cauchy                     | cauchy                             |
-| [Q913764](https://www.wikidata.org/wiki/Q913764)       |                                                         | cauchy formula                    |                            |
-| [Q769374](https://www.wikidata.org/wiki/Q769374)       |                                                         | cauchy principal value            |                            |
-| [Q217847](https://www.wikidata.org/wiki/Q217847)       | cauchy sequence                                         | cauchy sequence                   | cauchy sequence            |
-| [Q1412436](https://www.wikidata.org/wiki/Q1412436)     |                                                         | cauchy's problem                  |                            |
-| [Q622741](https://www.wikidata.org/wiki/Q622741)       |                                                         | cauchy-riemann equations          |
-| [Q190546](https://www.wikidata.org/wiki/Q190546)       |                                                         | cauchy-schwarz inequality         |
-| [Q5009980](https://www.wikidata.org/wiki/Q5009980)     |                                                         |                                   | cdot                       |                                    |
-| [Q3139849](https://www.wikidata.org/wiki/Q3139849)     | cellular chain complex                                  |                                   |                            |
-| [Q62207](https://www.wikidata.org/wiki/Q62207)         |                                                         |                                   | center                     | center                             |
-| [Q1195852](https://www.wikidata.org/wiki/Q1195852)     | center of a group                                       |                                   |                            |
-| [Q191166](https://www.wikidata.org/wiki/Q191166)       | center of an algebra                                    |                                   |                            |
-| [Q190391](https://www.wikidata.org/wiki/Q190391)       |                                                         | central limit theorem             |                            |
-| [Q5062194](https://www.wikidata.org/wiki/Q5062194)     |                                                         |                                   |                            | centrality                         |
-| [Q190629](https://www.wikidata.org/wiki/Q190629)       | centralizer of a subset                                 | centralizer                       | normalizer                 |
-| [Q511093](https://www.wikidata.org/wiki/Q511093)       | centroid                                                |                                   |                            |                                    |
-| [Q13580448](https://www.wikidata.org/wiki/Q13580448)   |                                                         |                                   |                            | cetera                             |
-| [Q230797](https://www.wikidata.org/wiki/Q230797)       |                                                         |                                   |                            | chain                              |
-| [Q1143328](https://www.wikidata.org/wiki/Q1143328)     | chain complex                                           |                                   | cochain                    |
-| [Q207455](https://www.wikidata.org/wiki/Q207455)       |                                                         | chain rule                        |                            | chain rule                         |
-| [Q1934165](https://www.wikidata.org/wiki/Q1934165)     |                                                         | change of variables               |                            |
-| [Q1062934](https://www.wikidata.org/wiki/Q1062934)     |                                                         |                                   |                            | character                          |
-| [Q600043](https://www.wikidata.org/wiki/Q600043)       | character of a representation                           |                                   |
-| [Q11498021](https://www.wikidata.org/wiki/Q11498021)   | character table                                         |                                   |                            |
-| [Q2937829](https://www.wikidata.org/wiki/Q2937829)     |                                                         |                                   |                            | characterisation                   |
-| [Q360446](https://www.wikidata.org/wiki/Q360446)       |                                                         |                                   |                            | characteristic                     |
-| [Q361254](https://www.wikidata.org/wiki/Q361254)       |                                                         | characteristic function           |                            |
-| [Q849705](https://www.wikidata.org/wiki/Q849705)       | characteristic polynomial                               | characteristic polynomial         |                            |
-| [Q747027](https://www.wikidata.org/wiki/Q747027)       | characteristic subgroup                                 |                                   |                            |
-| [Q836088](https://www.wikidata.org/wiki/Q836088)       |                                                         | characteristic zero               |                            |
-| [Q3828144](https://www.wikidata.org/wiki/Q3828144)     | chart                                                   |                                   |                            |                                    |
-| [Q1069192](https://www.wikidata.org/wiki/Q1069192)     |                                                         |                                   |                            | chemical reaction network          |
-| [Q1775867](https://www.wikidata.org/wiki/Q1775867)     |                                                         |                                   | choice                     | choice                             |
-| [Q18205969](https://www.wikidata.org/wiki/Q18205969)   | choquet game                                            |                                   |                            |
-| [Q1308502](https://www.wikidata.org/wiki/Q1308502)     |                                                         |                                   |                            | church-rosser                      |
-| [Q17278](https://www.wikidata.org/wiki/Q17278)         |                                                         |                                   | circle                     | circle                             |
-| [Q105356493](https://www.wikidata.org/wiki/Q105356493) | circle group                                            |                                   |                            |                                    |
-| [Q474704](https://www.wikidata.org/wiki/Q474704)       |                                                         |                                   |                            | circuit                            |
-| [Q1045991](https://www.wikidata.org/wiki/Q1045991)     |                                                         |                                   |                            | circuit diagram                    |
-| [Q5121762](https://www.wikidata.org/wiki/Q5121762)     |                                                         |                                   |                            | circumstance                       |
-| [Q1094717](https://www.wikidata.org/wiki/Q1094717)     |                                                         |                                   | claim                      |                                    |
-| [Q2138760](https://www.wikidata.org/wiki/Q2138760)     | class                                                   |                                   |                            |                                    |
-| [Q217594](https://www.wikidata.org/wiki/Q217594)       |                                                         |                                   | class                      | class                              |
-| [Q986909](https://www.wikidata.org/wiki/Q986909)       | class function                                          |                                   |                            |
-| [Q236975](https://www.wikidata.org/wiki/Q236975)       |                                                         |                                   |                            | classical logic                    |
-| [Q81745](https://www.wikidata.org/wiki/Q81745)         |                                                         |                                   |                            | classical theory                   |
-| [Q1744625](https://www.wikidata.org/wiki/Q1744625)     |                                                         |                                   |                            | classification                     |
-| [Q1744628](https://www.wikidata.org/wiki/Q1744628)     |                                                         |                                   |                            | classifier                         |
-| [Q24896331](https://www.wikidata.org/wiki/Q24896331)   |                                                         |                                   |                            | clean ring                         |
-| [Q674689](https://www.wikidata.org/wiki/Q674689)       |                                                         |                                   |                            | clifford group                     |
-| [Q1671976](https://www.wikidata.org/wiki/Q1671976)     |                                                         |                                   | clik                       |                                    |
-| [Q320357](https://www.wikidata.org/wiki/Q320357)       | closed                                                  |                                   | closed set                 |                                    |
-| [Q5135329](https://www.wikidata.org/wiki/Q5135329)     |                                                         |                                   |                            | closed category                    |
-| [Q4558786](https://www.wikidata.org/wiki/Q4558786)     | closed edge path                                        |                                   |                            |
-| [Q644719](https://www.wikidata.org/wiki/Q644719)       | closed half-space                                       |                                   |                            |
-| [Q2632649](https://www.wikidata.org/wiki/Q2632649)     |                                                         |                                   | open map                   | closed map                         |
-| [Q320346](https://www.wikidata.org/wiki/Q320346)       | closure                                                 |                                   |                            |                                    |
-| [Q4720939](https://www.wikidata.org/wiki/Q4720939)     |                                                         |                                   | closure                    | closure                            |
-| [Q10564851](https://www.wikidata.org/wiki/Q10564851)   |                                                         |                                   |                            | closure space                      |
-| [Q182949](https://www.wikidata.org/wiki/Q182949)       |                                                         |                                   |                            | club                               |
-| [Q224419](https://www.wikidata.org/wiki/Q224419)       |                                                         |                                   |                            | cluster                            |
-| [Q3062935](https://www.wikidata.org/wiki/Q3062935)     |                                                         |                                   |                            | coalgebra                          |
-| [Q2546666](https://www.wikidata.org/wiki/Q2546666)     |                                                         |                                   |                            | cobordism                          |
-| [Q47007889](https://www.wikidata.org/wiki/Q47007889)   | cocomplete category                                     |                                   |                            |
-| [Q5139921](https://www.wikidata.org/wiki/Q5139921)     |                                                         |                                   |                            | cocycle                            |
-| [Q199006](https://www.wikidata.org/wiki/Q199006)       |                                                         |                                   |                            | codomain                           |
-| [Q50700](https://www.wikidata.org/wiki/Q50700)         |                                                         |                                   | coefficient                | coefficient                        |
-| [Q5140810](https://www.wikidata.org/wiki/Q5140810)     |                                                         |                                   |                            | coequalizer                        |
-| [Q1048949](https://www.wikidata.org/wiki/Q1048949)     | cofibration                                             |                                   |                            | cofibration                        |
-| [Q177528](https://www.wikidata.org/wiki/Q177528)       |                                                         |                                   |                            | coherence                          |
-| [Q5141339](https://www.wikidata.org/wiki/Q5141339)     |                                                         |                                   |                            | coherence property                 |
-| [Q5141363](https://www.wikidata.org/wiki/Q5141363)     |                                                         |                                   |                            | coherent space                     |
-| [Q294876](https://www.wikidata.org/wiki/Q294876)       |                                                         |                                   |                            | cohesion                           |
-| [Q1198376](https://www.wikidata.org/wiki/Q1198376)     |                                                         |                                   |                            | cohomology                         |
-| [Q2308809](https://www.wikidata.org/wiki/Q2308809)     |                                                         |                                   |                            | coincide                           |
-| [Q2156511](https://www.wikidata.org/wiki/Q2156511)     |                                                         |                                   |                            | cokernel                           |
-| [Q1779341](https://www.wikidata.org/wiki/Q1779341)     |                                                         |                                   | collection                 | collection                         |
-| [Q5147828](https://www.wikidata.org/wiki/Q5147828)     |                                                         |                                   |                            | colocalization                     |
-| [Q6934590](https://www.wikidata.org/wiki/Q6934590)     |                                                         |                                   |                            | colored operad                     |
-| [Q202805](https://www.wikidata.org/wiki/Q202805)       |                                                         |                                   | combination                | combination                        |
-| [Q76592](https://www.wikidata.org/wiki/Q76592)         |                                                         |                                   |                            | combinatoric                       |
-| [Q1481571](https://www.wikidata.org/wiki/Q1481571)     |                                                         |                                   |                            | combinatory algebra                |
-| [Q165474](https://www.wikidata.org/wiki/Q165474)       | commutative                                             |                                   | commutation                |
-| [Q727659](https://www.wikidata.org/wiki/Q727659)       |                                                         |                                   |                            | commutative algebra                |
-| [Q858656](https://www.wikidata.org/wiki/Q858656)       |                                                         |                                   |                            | commutative ring                   |
-| [Q7574800](https://www.wikidata.org/wiki/Q7574800)     |                                                         |                                   |                            | commutative semigroup              |
-| [Q621542](https://www.wikidata.org/wiki/Q621542)       |                                                         |                                   |                            | commutative square                 |
-| [Q2989763](https://www.wikidata.org/wiki/Q2989763)     |                                                         |                                   |                            | commutator                         |
-| [Q522216](https://www.wikidata.org/wiki/Q522216)       | commutator subgroup                                     |                                   |                            |
-| [Q5155179](https://www.wikidata.org/wiki/Q5155179)     |                                                         |                                   |                            | comodule                           |
-| [Q1630568](https://www.wikidata.org/wiki/Q1630568)     |                                                         |                                   |                            | comonad                            |
-| [Q2785361](https://www.wikidata.org/wiki/Q2785361)     |                                                         |                                   |                            | comonoid                           |
-| [Q381892](https://www.wikidata.org/wiki/Q381892)       | compact                                                 |                                   | compactness                | compact space                      |
-| [Q5155301](https://www.wikidata.org/wiki/Q5155301)     |                                                         |                                   |                            | compact closed category            |
-| [Q1887083](https://www.wikidata.org/wiki/Q1887083)     | compact lie group                                       |                                   |                            |
-| [Q1780743](https://www.wikidata.org/wiki/Q1780743)     | compact linear transformation                           |                                   |
-| [Q5155316](https://www.wikidata.org/wiki/Q5155316)     |                                                         |                                   |                            | compact quantum group              |
-| [Q78484790](https://www.wikidata.org/wiki/Q78484790)   | compact symplectic group                                |                                   |
-| [Q546145](https://www.wikidata.org/wiki/Q546145)       |                                                         |                                   |                            | compactification                   |
-| [Q1738274](https://www.wikidata.org/wiki/Q1738274)     | compactly closed                                        |                                   |                            |
-| [Q4230004](https://www.wikidata.org/wiki/Q4230004)     |                                                         |                                   |                            | companion                          |
-| [Q17129258](https://www.wikidata.org/wiki/Q17129258)   |                                                         | comparison test                   |                            |
-| [Q296074](https://www.wikidata.org/wiki/Q296074)       |                                                         |                                   |                            | compatibility                      |
-| [Q19924622](https://www.wikidata.org/wiki/Q19924622)   |                                                         |                                   | complement                 | complement                         |
-| [Q5156434](https://www.wikidata.org/wiki/Q5156434)     | complemented lattice                                    |                                   |                            |
-| [Q4370335](https://www.wikidata.org/wiki/Q4370335)     | complete category                                       |                                   | cocomplete category        |
-| [Q5156529](https://www.wikidata.org/wiki/Q5156529)     |                                                         |                                   |                            | complete distributivity            |
-| [Q2362924](https://www.wikidata.org/wiki/Q2362924)     |                                                         |                                   |                            | complete lattice                   |
-| [Q848569](https://www.wikidata.org/wiki/Q848569)       | complete metric space                                   | complete metric space             | cauchy completion          |
-| [Q3082805](https://www.wikidata.org/wiki/Q3082805)     |                                                         |                                   |                            | complete partial order             |
-| [Q81376506](https://www.wikidata.org/wiki/Q81376506)   | complete reducibility                                   |                                   |                            |
-| [Q178518](https://www.wikidata.org/wiki/Q178518)       |                                                         |                                   |                            | completeness                       |
-| [Q1651094](https://www.wikidata.org/wiki/Q1651094)     |                                                         |                                   |                            | completion                         |
-| [Q28839103](https://www.wikidata.org/wiki/Q28839103)   |                                                         |                                   |                            | complex                            |
-| [Q381040](https://www.wikidata.org/wiki/Q381040)       | complex conjugate                                       |                                   |                            |
-| [Q184871](https://www.wikidata.org/wiki/Q184871)       |                                                         | complex exponential               |                            |
-| [Q5156554](https://www.wikidata.org/wiki/Q5156554)     | complex lie group                                       |                                   |                            |
-| [Q11567](https://www.wikidata.org/wiki/Q11567)         |                                                         |                                   | complex number             |
-| [Q1783179](https://www.wikidata.org/wiki/Q1783179)     | complex orthogonal group                                | special orthogonal group          |                            |
-| [Q936434](https://www.wikidata.org/wiki/Q936434)       | complex symplectic group                                |                                   |
-| [Q445569](https://www.wikidata.org/wiki/Q445569)       | complexification of a vector space                      | complexification                  |
-| [Q723897](https://www.wikidata.org/wiki/Q723897)       |                                                         |                                   |                            | complexity                         |
-| [Q226635](https://www.wikidata.org/wiki/Q226635)       |                                                         |                                   | component                  | component                          |
-| [Q299069](https://www.wikidata.org/wiki/Q299069)       |                                                         |                                   |                            | composite                          |
-| [Q244761](https://www.wikidata.org/wiki/Q244761)       |                                                         |                                   |                            | composition                        |
-| [Q2525646](https://www.wikidata.org/wiki/Q2525646)     | composition series of a group                           |                                   |
-| [Q16769650](https://www.wikidata.org/wiki/Q16769650)   |                                                         |                                   |                            | comprehension                      |
-| [Q12525525](https://www.wikidata.org/wiki/Q12525525)   |                                                         |                                   |                            | computation                        |
-| [Q68](https://www.wikidata.org/wiki/Q68)               |                                                         |                                   |                            | computer                           |
-| [Q21198](https://www.wikidata.org/wiki/Q21198)         |                                                         |                                   |                            | computer science                   |
-| [Q126002](https://www.wikidata.org/wiki/Q126002)       |                                                         |                                   |                            | concatenation                      |
-| [Q151885](https://www.wikidata.org/wiki/Q151885)       |                                                         |                                   |                            | concept                            |
-| [Q1399174](https://www.wikidata.org/wiki/Q1399174)     |                                                         |                                   | conclusion                 | conclusion                         |
-| [Q166583](https://www.wikidata.org/wiki/Q166583)       |                                                         |                                   | condensation               |
-| [Q3014744](https://www.wikidata.org/wiki/Q3014744)     |                                                         |                                   | condensation point         |
-| [Q417488](https://www.wikidata.org/wiki/Q417488)       |                                                         |                                   | condition                  | condition                          |
-| [Q2425336](https://www.wikidata.org/wiki/Q2425336)     |                                                         | conditional convergence           |                            |
-| [Q772232](https://www.wikidata.org/wiki/Q772232)       |                                                         |                                   |                            | conditional expectation            |
-| [Q420629](https://www.wikidata.org/wiki/Q420629)       |                                                         | conditioning                      |                            |                                    |
-| [Q1635267](https://www.wikidata.org/wiki/Q1635267)     | cone                                                    |                                   |                            |                                    |
-| [Q42344](https://www.wikidata.org/wiki/Q42344)         |                                                         |                                   |                            | cone                               |
-| [Q1191271](https://www.wikidata.org/wiki/Q1191271)     |                                                         |                                   |                            | conformal field theory             |
-| [Q299600](https://www.wikidata.org/wiki/Q299600)       |                                                         |                                   |                            | congruence                         |
-| [Q319141](https://www.wikidata.org/wiki/Q319141)       |                                                         |                                   |                            | conjecture                         |
-| [Q5161134](https://www.wikidata.org/wiki/Q5161134)     |                                                         |                                   |                            | conjoint                           |
-| [Q1353233](https://www.wikidata.org/wiki/Q1353233)     | conjugacy classes                                       |                                   |                            |
-| [Q2051983](https://www.wikidata.org/wiki/Q2051983)     | conjugate transpose                                     |                                   |                            |
-| [Q250417](https://www.wikidata.org/wiki/Q250417)       |                                                         |                                   | conjugation                | conjugation                        |
-| [Q1491995](https://www.wikidata.org/wiki/Q1491995)     | connected                                               |                                   |                            |                                    |
-| [Q5161408](https://www.wikidata.org/wiki/Q5161408)     | connected category                                      |                                   |                            |
-| [Q230646](https://www.wikidata.org/wiki/Q230646)       |                                                         | connected component               | connected component        |
-| [Q91050456](https://www.wikidata.org/wiki/Q91050456)   | connected component                                     |                                   |                            |
-| [Q230655](https://www.wikidata.org/wiki/Q230655)       | connected graph                                         |                                   |                            |
-| [Q253405](https://www.wikidata.org/wiki/Q253405)       |                                                         |                                   |                            | connectedness                      |
-| [Q31924](https://www.wikidata.org/wiki/Q31924)         |                                                         |                                   |                            | connection                         |
-| [Q5161702](https://www.wikidata.org/wiki/Q5161702)     |                                                         |                                   |                            | connective                         |
-| [Q5161711](https://www.wikidata.org/wiki/Q5161711)     |                                                         |                                   |                            | connector                          |
-| [Q1175608](https://www.wikidata.org/wiki/Q1175608)     |                                                         |                                   |                            | consequence                        |
-| [Q1344851](https://www.wikidata.org/wiki/Q1344851)     |                                                         |                                   |                            | consideration                      |
-| [Q2303305](https://www.wikidata.org/wiki/Q2303305)     |                                                         |                                   |                            | constraint                         |
-| [Q5164389](https://www.wikidata.org/wiki/Q5164389)     |                                                         |                                   |                            | construct                          |
-| [Q385378](https://www.wikidata.org/wiki/Q385378)       |                                                         |                                   | construction               | construction                       |
-| [Q3044470](https://www.wikidata.org/wiki/Q3044470)     |                                                         |                                   |                            | constructive proof                 |
-| [Q260620](https://www.wikidata.org/wiki/Q260620)       |                                                         |                                   |                            | constructor                        |
-| [Q1382703](https://www.wikidata.org/wiki/Q1382703)     |                                                         |                                   |                            | context                            |
-| [Q1128903](https://www.wikidata.org/wiki/Q1128903)     |                                                         |                                   |                            | continuation                       |
-| [Q5165409](https://www.wikidata.org/wiki/Q5165409)     |                                                         | continuity                        | continuity                 | continuity                         |
-| [Q170058](https://www.wikidata.org/wiki/Q170058)       | continuous                                              | continuous function               | continuous map             | continuous function                |
-| [Q216320](https://www.wikidata.org/wiki/Q216320)       |                                                         |                                   |                            | continuous flow                    |
-| [Q1091024](https://www.wikidata.org/wiki/Q1091024)     |                                                         | continuous linear map             |                            |
-| [Q856103](https://www.wikidata.org/wiki/Q856103)       |                                                         | contour integral                  |                            |
-| [Q230689](https://www.wikidata.org/wiki/Q230689)       | contractible                                            |                                   |                            |                                    |
-| [Q1131116](https://www.wikidata.org/wiki/Q1131116)     | contracting sequence of sets in a metric space          |
-| [Q403082](https://www.wikidata.org/wiki/Q403082)       |                                                         |                                   |                            | contraction                        |
-| [Q515173](https://www.wikidata.org/wiki/Q515173)       | contraction mapping                                     |                                   |                            |
-| [Q363948](https://www.wikidata.org/wiki/Q363948)       |                                                         |                                   | contradiction              |
-| [Q3427408](https://www.wikidata.org/wiki/Q3427408)     | contragradient representation                           |                                   |
-| [Q295554](https://www.wikidata.org/wiki/Q295554)       |                                                         |                                   |                            | contrast                           |
-| [Q237302](https://www.wikidata.org/wiki/Q237302)       |                                                         |                                   |                            | contribution                       |
-| [Q417861](https://www.wikidata.org/wiki/Q417861)       |                                                         |                                   |                            | control                            |
-| [Q6501221](https://www.wikidata.org/wiki/Q6501221)     |                                                         |                                   |                            | control theory                     |
-| [Q5166129](https://www.wikidata.org/wiki/Q5166129)     |                                                         |                                   |                            | convenience                        |
-| [Q5166347](https://www.wikidata.org/wiki/Q5166347)     |                                                         |                                   | converge                   |                                    |
-| [Q1211057](https://www.wikidata.org/wiki/Q1211057)     |                                                         | convergence                       | convergence                | convergence                        |
-| [Q768656](https://www.wikidata.org/wiki/Q768656)       | convergence in measure                                  |                                   |                            |
-| [Q578985](https://www.wikidata.org/wiki/Q578985)       |                                                         | convergence in probability        |
-| [Q2996392](https://www.wikidata.org/wiki/Q2996392)     |                                                         |                                   | convergent                 | convergent                         |
-| [Q1375963](https://www.wikidata.org/wiki/Q1375963)     |                                                         |                                   |                            | converse                           |
-| [Q319913](https://www.wikidata.org/wiki/Q319913)       |                                                         | convex function                   |                            |
-| [Q193657](https://www.wikidata.org/wiki/Q193657)       | convex set                                              | convex subset                     |                            |
-| [Q210857](https://www.wikidata.org/wiki/Q210857)       |                                                         | convolution                       |                            | convolution                        |
-| [Q104752](https://www.wikidata.org/wiki/Q104752)       | coprime                                                 |                                   |                            |                                    |
-| [Q692689](https://www.wikidata.org/wiki/Q692689)       |                                                         |                                   |                            | coproduct                          |
-| [Q232469](https://www.wikidata.org/wiki/Q232469)       |                                                         |                                   |                            | core                               |
-| [Q6101219](https://www.wikidata.org/wiki/Q6101219)     |                                                         |                                   |                            | coreflective subcategory           |
-| [Q186290](https://www.wikidata.org/wiki/Q186290)       |                                                         |                                   |                            | corelation                         |
-| [Q345306](https://www.wikidata.org/wiki/Q345306)       |                                                         |                                   |                            | corner                             |
-| [Q1343870](https://www.wikidata.org/wiki/Q1343870)     |                                                         |                                   | corollary                  | corollary                          |
-| [Q5172812](https://www.wikidata.org/wiki/Q5172812)     |                                                         |                                   |                            | correctness                        |
-| [Q7573053](https://www.wikidata.org/wiki/Q7573053)     |                                                         |                                   |                            | cospan                             |
-| [Q777879](https://www.wikidata.org/wiki/Q777879)       |                                                         |                                   | countable basis            |
-| [Q185478](https://www.wikidata.org/wiki/Q185478)       |                                                         |                                   | countable set              |
-| [Q247144](https://www.wikidata.org/wiki/Q247144)       |                                                         |                                   |                            | counter                            |
-| [Q596077](https://www.wikidata.org/wiki/Q596077)       |                                                         |                                   |                            | counterexample                     |
-| [Q1137078](https://www.wikidata.org/wiki/Q1137078)     |                                                         |                                   |                            | counterpart                        |
-| [Q247204](https://www.wikidata.org/wiki/Q247204)       |                                                         | counting measure                  |                            |
-| [Q15643227](https://www.wikidata.org/wiki/Q15643227)   |                                                         |                                   |                            | couple                             |
-| [Q331481](https://www.wikidata.org/wiki/Q331481)       |                                                         |                                   | open covering              | cover                              |
-| [Q5179248](https://www.wikidata.org/wiki/Q5179248)     |                                                         |                                   | covering                   | covering                           |
-| [Q332648](https://www.wikidata.org/wiki/Q332648)       | covering space                                          |                                   | covering space             |
-| [Q435371](https://www.wikidata.org/wiki/Q435371)       |                                                         |                                   |                            | criterion                          |
-| [Q577705](https://www.wikidata.org/wiki/Q577705)       | critical point                                          |                                   |                            |
-| [Q3754024](https://www.wikidata.org/wiki/Q3754024)     | critical value                                          |                                   |                            |
-| [Q178192](https://www.wikidata.org/wiki/Q178192)       |                                                         | cross product                     |                            |
-| [Q5188565](https://www.wikidata.org/wiki/Q5188565)     |                                                         |                                   |                            | crossed module                     |
-| [Q3406705](https://www.wikidata.org/wiki/Q3406705)     |                                                         |                                   |                            | crossed product                    |
-| [Q812880](https://www.wikidata.org/wiki/Q812880)       |                                                         |                                   |                            | cube                               |
-| [Q1774143](https://www.wikidata.org/wiki/Q1774143)     |                                                         |                                   | cube root                  |                                    |
-| [Q25098845](https://www.wikidata.org/wiki/Q25098845)   |                                                         |                                   |                            | cubical set                        |
-| [Q3001145](https://www.wikidata.org/wiki/Q3001145)     |                                                         |                                   |                            | current                            |
-| [Q214881](https://www.wikidata.org/wiki/Q214881)       |                                                         |                                   |                            | curvature                          |
-| [Q20659690](https://www.wikidata.org/wiki/Q20659690)   |                                                         |                                   |                            | cut                                |
-| [Q226368](https://www.wikidata.org/wiki/Q226368)       |                                                         |                                   |                            | cw                                 |
-| [Q189061](https://www.wikidata.org/wiki/Q189061)       | cw complex                                              |                                   |                            | cw-complex                         |
-| [Q212130](https://www.wikidata.org/wiki/Q212130)       | cycle                                                   |                                   |                            | transposition                      |
-| [Q225014](https://www.wikidata.org/wiki/Q225014)       |                                                         |                                   | cycle                      | cycle                              |
-| [Q5198202](https://www.wikidata.org/wiki/Q5198202)     |                                                         |                                   |                            | cyclic                             |
-| [Q245462](https://www.wikidata.org/wiki/Q245462)       | cyclic group                                            | cyclic group                      | cyclic group               |                                    |
-| [Q182780](https://www.wikidata.org/wiki/Q182780)       |                                                         |                                   |                            | dagger                             |
-| [Q8513](https://www.wikidata.org/wiki/Q8513)           |                                                         |                                   |                            | database                           |
-| [Q42848](https://www.wikidata.org/wiki/Q42848)         |                                                         |                                   |                            | datum                              |
-| [Q973405](https://www.wikidata.org/wiki/Q973405)       |                                                         |                                   |                            | decision                           |
-| [Q3262192](https://www.wikidata.org/wiki/Q3262192)     |                                                         |                                   |                            | decision procedure                 |
-| [Q296949](https://www.wikidata.org/wiki/Q296949)       |                                                         |                                   | decomposition              | decomposition                      |
-| [Q3043042](https://www.wikidata.org/wiki/Q3043042)     |                                                         |                                   |                            | deduction                          |
-| [Q649732](https://www.wikidata.org/wiki/Q649732)       |                                                         |                                   |                            | deductive system                   |
-| [Q52653](https://www.wikidata.org/wiki/Q52653)         |                                                         |                                   |                            | defect                             |
-| [Q101072](https://www.wikidata.org/wiki/Q101072)       |                                                         |                                   | definition                 | definition                         |
-| [Q1219573](https://www.wikidata.org/wiki/Q1219573)     |                                                         |                                   |                            | deformation                        |
-| [Q2141963](https://www.wikidata.org/wiki/Q2141963)     | deformation retraction                                  |                                   |                            |
-| [Q5251702](https://www.wikidata.org/wiki/Q5251702)     |                                                         |                                   |                            | deformation theory                 |
-| [Q917661](https://www.wikidata.org/wiki/Q917661)       |                                                         |                                   |                            | degeneracy                         |
-| [Q383185](https://www.wikidata.org/wiki/Q383185)       |                                                         |                                   | degree                     | degree                             |
-| [Q306564](https://www.wikidata.org/wiki/Q306564)       | degree of map between spheres                           |                                   |
-| [Q1473607](https://www.wikidata.org/wiki/Q1473607)     | degree of polynomial                                    |                                   |                            |
-| [Q899089](https://www.wikidata.org/wiki/Q899089)       |                                                         |                                   |                            | delocalization                     |
-| [Q416665](https://www.wikidata.org/wiki/Q416665)       |                                                         |                                   |                            | den                                |
-| [Q673444](https://www.wikidata.org/wiki/Q673444)       | dense                                                   |                                   | dense subset               |
-| [Q29539](https://www.wikidata.org/wiki/Q29539)         |                                                         |                                   |                            | density                            |
-| [Q451323](https://www.wikidata.org/wiki/Q451323)       | derivation                                              |                                   |                            |                                    |
-| [Q398804](https://www.wikidata.org/wiki/Q398804)       |                                                         |                                   |                            | derivation                         |
-| [Q5262625](https://www.wikidata.org/wiki/Q5262625)     |                                                         |                                   |                            | derivator                          |
-| [Q109314515](https://www.wikidata.org/wiki/Q109314515) | descending central series                               |                                   |                            |
-| [Q5263725](https://www.wikidata.org/wiki/Q5263725)     |                                                         |                                   |                            | descent                            |
-| [Q1200750](https://www.wikidata.org/wiki/Q1200750)     |                                                         |                                   |                            | description                        |
-| [Q82604](https://www.wikidata.org/wiki/Q82604)         |                                                         |                                   |                            | design                             |
-| [Q1184933](https://www.wikidata.org/wiki/Q1184933)     |                                                         |                                   |                            | detail                             |
-| [Q178546](https://www.wikidata.org/wiki/Q178546)       | determinant                                             | determinant                       |                            |
-| [Q7623687](https://www.wikidata.org/wiki/Q7623687)     | determined                                              |                                   |                            |                                    |
-| [Q340724](https://www.wikidata.org/wiki/Q340724)       |                                                         |                                   |                            | development                        |
-| [Q189791](https://www.wikidata.org/wiki/Q189791)       |                                                         |                                   | diagonal                   | diagonal                           |
-| [Q1208187](https://www.wikidata.org/wiki/Q1208187)     |                                                         |                                   |                            | diagonal functor                   |
-| [Q1208191](https://www.wikidata.org/wiki/Q1208191)     |                                                         | diagonalization                   |                            |
-| [Q843237](https://www.wikidata.org/wiki/Q843237)       |                                                         |                                   |                            | diagram                            |
-| [Q1208617](https://www.wikidata.org/wiki/Q1208617)     |                                                         |                                   | diameter                   |                                    |
-| [Q5275263](https://www.wikidata.org/wiki/Q5275263)     |                                                         |                                   |                            | diffeological space                |
-| [Q1058314](https://www.wikidata.org/wiki/Q1058314)     | diffeomorphism                                          | diffeomorphism                    | diffeomorphism             |
-| [Q40754](https://www.wikidata.org/wiki/Q40754)         |                                                         |                                   | difference                 | difference                         |
-| [Q783507](https://www.wikidata.org/wiki/Q783507)       |                                                         | differentiable function           | differentiable function    | differentiability                  |
-| [Q636889](https://www.wikidata.org/wiki/Q636889)       | differentiable                                          |                                   |                            |
-| [Q5130428](https://www.wikidata.org/wiki/Q5130428)     |                                                         |                                   |                            | differential                       |
-| [Q11214](https://www.wikidata.org/wiki/Q11214)         |                                                         |                                   |                            | differential equation              |
-| [Q188444](https://www.wikidata.org/wiki/Q188444)       |                                                         |                                   |                            | differential geometry              |
-| [Q1047080](https://www.wikidata.org/wiki/Q1047080)     | differential k-form                                     |                                   | differential form          |
-| [Q1754547](https://www.wikidata.org/wiki/Q1754547)     | differential of a k-form                                |                                   |                            |
-| [Q1058681](https://www.wikidata.org/wiki/Q1058681)     |                                                         |                                   |                            | differential operator              |
-| [Q29175](https://www.wikidata.org/wiki/Q29175)         |                                                         |                                   | derivative                 | differentiation                    |
-| [Q4440864](https://www.wikidata.org/wiki/Q4440864)     |                                                         |                                   | dimension                  | dimension                          |
-| [Q929302](https://www.wikidata.org/wiki/Q929302)       | dimension of vector space                               |                                   |
-| [Q385599](https://www.wikidata.org/wiki/Q385599)       |                                                         | dirac comb                        |                            |                                    |
-| [Q1227387](https://www.wikidata.org/wiki/Q1227387)     |                                                         | dirac measure                     |                            |
-| [Q1778193](https://www.wikidata.org/wiki/Q1778193)     |                                                         |                                   |                            | direct product                     |
-| [Q3240280](https://www.wikidata.org/wiki/Q3240280)     |                                                         |                                   |                            | direct proof                       |
-| [Q13582243](https://www.wikidata.org/wiki/Q13582243)   | direct sum of group representations                     | direct sum                        |                            | direct sum                         |
-| [Q1142861](https://www.wikidata.org/wiki/Q1142861)     | direct sum of modules                                   | complementary subspace            | complementary subspace     |
-| [Q344762](https://www.wikidata.org/wiki/Q344762)       |                                                         |                                   | direction                  | direction                          |
-| [Q383851](https://www.wikidata.org/wiki/Q383851)       | directional derivative                                  | directional derivative            |                            |
-| [Q1217467](https://www.wikidata.org/wiki/Q1217467)     |                                                         | dirichlet theorem                 |                            |
-| [Q1228863](https://www.wikidata.org/wiki/Q1228863)     |                                                         |                                   |                            | discrete                           |
-| [Q1228851](https://www.wikidata.org/wiki/Q1228851)     | discrete category                                       |                                   |                            |
-| [Q2878](https://www.wikidata.org/wiki/Q2878)           |                                                         | discrete fourier transform        |
-| [Q1361055](https://www.wikidata.org/wiki/Q1361055)     |                                                         |                                   |                            | discrete group                     |
-| [Q175116](https://www.wikidata.org/wiki/Q175116)       |                                                         |                                   |                            | discrete space                     |
-| [Q91267214](https://www.wikidata.org/wiki/Q91267214)   | discrete topology                                       |                                   |                            |
-| [Q52943](https://www.wikidata.org/wiki/Q52943)         |                                                         |                                   |                            | discussion                         |
-| [Q338707](https://www.wikidata.org/wiki/Q338707)       |                                                         |                                   | disjoint                   | disjoint                           |
-| [Q842620](https://www.wikidata.org/wiki/Q842620)       |                                                         |                                   |                            | disjoint union                     |
-| [Q1651704](https://www.wikidata.org/wiki/Q1651704)     |                                                         |                                   |                            | disjunction                        |
-| [Q238231](https://www.wikidata.org/wiki/Q238231)       |                                                         |                                   |                            | disk                               |
-| [Q126017](https://www.wikidata.org/wiki/Q126017)       |                                                         |                                   |                            | distance                           |
-| [Q1501997](https://www.wikidata.org/wiki/Q1501997)     | distance from a point to a set                          |                                   |
-| [Q1229509](https://www.wikidata.org/wiki/Q1229509)     |                                                         |                                   |                            | distinction                        |
-| [Q2363730](https://www.wikidata.org/wiki/Q2363730)     | distributed lattice                                     |                                   | distributive lattice       |
-| [Q865811](https://www.wikidata.org/wiki/Q865811)       |                                                         | distribution                      |                            | distribution                       |
-| [Q225802](https://www.wikidata.org/wiki/Q225802)       |                                                         |                                   |                            | distribution theory                |
-| [Q5283210](https://www.wikidata.org/wiki/Q5283210)     |                                                         |                                   |                            | distributive category              |
-| [Q187959](https://www.wikidata.org/wiki/Q187959)       |                                                         |                                   |                            | distributivity                     |
-| [Q226703](https://www.wikidata.org/wiki/Q226703)       |                                                         |                                   | diverge                    |                                    |
-| [Q189000](https://www.wikidata.org/wiki/Q189000)       |                                                         |                                   |                            | divergence                         |
-| [Q358711](https://www.wikidata.org/wiki/Q358711)       |                                                         |                                   | divide                     |                                    |
-| [Q1782332](https://www.wikidata.org/wiki/Q1782332)     | divisible group                                         |                                   |                            |
-| [Q1231309](https://www.wikidata.org/wiki/Q1231309)     | division algebra                                        |                                   |                            |
-| [Q1226939](https://www.wikidata.org/wiki/Q1226939)     | division in a ring                                      |                                   |                            |
-| [Q650741](https://www.wikidata.org/wiki/Q650741)       | division ring                                           |                                   |                            |                                    |
-| [Q50708](https://www.wikidata.org/wiki/Q50708)         |                                                         |                                   | divisor                    |                                    |
-| [Q4596935](https://www.wikidata.org/wiki/Q4596935)     |                                                         |                                   |                            | doctrine                           |
-| [Q192439](https://www.wikidata.org/wiki/Q192439)       |                                                         |                                   |                            | domain                             |
-| [Q1079166](https://www.wikidata.org/wiki/Q1079166)     |                                                         |                                   |                            | domain theory                      |
-| [Q1067156](https://www.wikidata.org/wiki/Q1067156)     |                                                         | dominated convergence theorem     |
-| [Q17008126](https://www.wikidata.org/wiki/Q17008126)   |                                                         |                                   |                            | double groupoid                    |
-| [Q57209250](https://www.wikidata.org/wiki/Q57209250)   |                                                         |                                   |                            | downset                            |
-| [Q1755512](https://www.wikidata.org/wiki/Q1755512)     |                                                         |                                   |                            | dual                               |
-| [Q2361385](https://www.wikidata.org/wiki/Q2361385)     |                                                         |                                   |                            | dual category                      |
-| [Q752487](https://www.wikidata.org/wiki/Q752487)       | dual space                                              | dual space                        |                            |                                    |
-| [Q30085855](https://www.wikidata.org/wiki/Q30085855)   |                                                         |                                   |                            | dynamic                            |
-| [Q638328](https://www.wikidata.org/wiki/Q638328)       |                                                         |                                   |                            | dynamical system                   |
-| [Q5319218](https://www.wikidata.org/wiki/Q5319218)     |                                                         |                                   |                            | dynkin diagram                     |
-| [Q104486](https://www.wikidata.org/wiki/Q104486)       |                                                         | eccentricity                      |                            |                                    |
-| [Q218743](https://www.wikidata.org/wiki/Q218743)       |                                                         |                                   |                            | edge                               |
-| [Q1415372](https://www.wikidata.org/wiki/Q1415372)     | edge path                                               |                                   |                            |                                    |
-| [Q5347211](https://www.wikidata.org/wiki/Q5347211)     |                                                         |                                   |                            | effacement                         |
-| [Q252022](https://www.wikidata.org/wiki/Q252022)       |                                                         |                                   |                            | effect                             |
-| [Q3049084](https://www.wikidata.org/wiki/Q3049084)     |                                                         |                                   |                            | effort                             |
-| [Q3553768](https://www.wikidata.org/wiki/Q3553768)     | eigenvalue                                              |                                   |                            |                                    |
-| [Q190524](https://www.wikidata.org/wiki/Q190524)       |                                                         | eigenvector                       | eigenvector                |                                    |
-| [Q3555174](https://www.wikidata.org/wiki/Q3555174)     | eigenvector                                             |                                   |                            |                                    |
-| [Q1057416](https://www.wikidata.org/wiki/Q1057416)     |                                                         | eisenstein's criterion            |                            |
-| [Q132629](https://www.wikidata.org/wiki/Q132629)       |                                                         |                                   |                            | electrical circuit                 |
-| [Q379825](https://www.wikidata.org/wiki/Q379825)       |                                                         |                                   | element                    | element                            |
-| [Q1017231](https://www.wikidata.org/wiki/Q1017231)     | elementary abelian p-group                              |                                   |
-| [Q246947](https://www.wikidata.org/wiki/Q246947)       |                                                         |                                   |                            | elimination                        |
-| [Q1333611](https://www.wikidata.org/wiki/Q1333611)     | embedded m-dimensional manifold with boundary           |
-| [Q980509](https://www.wikidata.org/wiki/Q980509)       | embedding                                               |                                   |                            | embedding                          |
-| [Q1339251](https://www.wikidata.org/wiki/Q1339251)     |                                                         |                                   |                            | emphasis                           |
-| [Q226183](https://www.wikidata.org/wiki/Q226183)       |                                                         |                                   | empty subset               |
-| [Q876096](https://www.wikidata.org/wiki/Q876096)       |                                                         |                                   |                            | enchilada                          |
-| [Q5375781](https://www.wikidata.org/wiki/Q5375781)     |                                                         |                                   |                            | end                                |
-| [Q1340800](https://www.wikidata.org/wiki/Q1340800)     | endomorphism                                            |                                   | endomorphism               |
-| [Q11023](https://www.wikidata.org/wiki/Q11023)         |                                                         |                                   |                            | engineering                        |
-| [Q5379054](https://www.wikidata.org/wiki/Q5379054)     |                                                         |                                   |                            | enlargement                        |
-| [Q5379515](https://www.wikidata.org/wiki/Q5379515)     |                                                         |                                   |                            | enriched category                  |
-| [Q1343694](https://www.wikidata.org/wiki/Q1343694)     |                                                         |                                   |                            | enrichment                         |
-| [Q45003](https://www.wikidata.org/wiki/Q45003)         |                                                         |                                   |                            | entropic                           |
-| [Q80936](https://www.wikidata.org/wiki/Q80936)         |                                                         |                                   |                            | entropy                            |
-| [Q5380814](https://www.wikidata.org/wiki/Q5380814)     |                                                         |                                   | entry                      | entry                              |
-| [Q16775581](https://www.wikidata.org/wiki/Q16775581)   |                                                         |                                   |                            | environment                        |
-| [Q297152](https://www.wikidata.org/wiki/Q297152)       |                                                         |                                   |                            | epi                                |
-| [Q1347208](https://www.wikidata.org/wiki/Q1347208)     | epimorphism                                             |                                   | epimorphism                |
-| [Q14392](https://www.wikidata.org/wiki/Q14392)         |                                                         |                                   |                            | epsilon                            |
-| [Q1224487](https://www.wikidata.org/wiki/Q1224487)     |                                                         |                                   |                            | equaliser                          |
-| [Q842346](https://www.wikidata.org/wiki/Q842346)       |                                                         |                                   | equality                   | equality                           |
-| [Q11345](https://www.wikidata.org/wiki/Q11345)         |                                                         |                                   | equation                   | equation                           |
-| [Q1636734](https://www.wikidata.org/wiki/Q1636734)     |                                                         |                                   |                            | equational theory                  |
-| [Q779859](https://www.wikidata.org/wiki/Q779859)       |                                                         |                                   |                            | equipment                          |
-| [Q235935](https://www.wikidata.org/wiki/Q235935)       |                                                         |                                   | equivalence                | equivalence                        |
-| [Q1211071](https://www.wikidata.org/wiki/Q1211071)     | equivalence class                                       | equivalence class                 | equivalence class          |
-| [Q130998](https://www.wikidata.org/wiki/Q130998)       | equivalence relation                                    | equivalence relation              | identification             |
-| [Q256355](https://www.wikidata.org/wiki/Q256355)       | equivariant map                                         |                                   | intertwiner                |
-| [Q15734022](https://www.wikidata.org/wiki/Q15734022)   |                                                         |                                   |                            | equivariant sheaf                  |
-| [Q16908668](https://www.wikidata.org/wiki/Q16908668)   |                                                         |                                   |                            | equivariant stable homotopy theory |
-| [Q1969054](https://www.wikidata.org/wiki/Q1969054)     | essentially bounded                                     |                                   |                            |
-| [Q537953](https://www.wikidata.org/wiki/Q537953)       |                                                         |                                   |                            | et                                 |
-| [Q845653](https://www.wikidata.org/wiki/Q845653)       |                                                         |                                   |                            | et cetera                          |
-| [Q867345](https://www.wikidata.org/wiki/Q867345)       | euclidean domain                                        | euclidean ring                    |                            |
-| [Q181365](https://www.wikidata.org/wiki/Q181365)       | euclidean inner product                                 |                                   |                            |
-| [Q17295](https://www.wikidata.org/wiki/Q17295)         |                                                         | euclidean vector space            |                            |
-| [Q852973](https://www.wikidata.org/wiki/Q852973)       | euler characteristic of a graph                         | euler characteristic              |
-| [Q190026](https://www.wikidata.org/wiki/Q190026)       | euler's totient function                                |                                   |                            |
-| [Q230967](https://www.wikidata.org/wiki/Q230967)       |                                                         |                                   | even number                |
-| [Q1297532](https://www.wikidata.org/wiki/Q1297532)     |                                                         | event                             |                            |                                    |
-| [Q1347572](https://www.wikidata.org/wiki/Q1347572)     |                                                         |                                   |                            | evidence                           |
-| [Q5419218](https://www.wikidata.org/wiki/Q5419218)     |                                                         |                                   |                            | exact category                     |
-| [Q28403300](https://www.wikidata.org/wiki/Q28403300)   |                                                         |                                   |                            | exact completion                   |
-| [Q1326955](https://www.wikidata.org/wiki/Q1326955)     | exact sequence                                          |                                   | exact sequence             |
-| [Q16782158](https://www.wikidata.org/wiki/Q16782158)   |                                                         |                                   |                            | exactness                          |
-| [Q29864097](https://www.wikidata.org/wiki/Q29864097)   |                                                         |                                   | example                    | example                            |
-| [Q8454](https://www.wikidata.org/wiki/Q8454)           |                                                         |                                   |                            | execution                          |
-| [Q5420020](https://www.wikidata.org/wiki/Q5420020)     |                                                         |                                   | exercise                   |                                    |
-| [Q5420343](https://www.wikidata.org/wiki/Q5420343)     |                                                         |                                   |                            | exist                              |
-| [Q468777](https://www.wikidata.org/wiki/Q468777)       |                                                         |                                   |                            | existence                          |
-| [Q253338](https://www.wikidata.org/wiki/Q253338)       |                                                         |                                   | expansion                  |                                    |
-| [Q200125](https://www.wikidata.org/wiki/Q200125)       |                                                         |                                   |                            | expectation                        |
-| [Q7958](https://www.wikidata.org/wiki/Q7958)           |                                                         |                                   |                            | explanation                        |
-| [Q777407](https://www.wikidata.org/wiki/Q777407)       |                                                         |                                   |                            | explicit formulae                  |
-| [Q32998717](https://www.wikidata.org/wiki/Q32998717)   | exponent of a finite group                              |                                   |
-| [Q4391173](https://www.wikidata.org/wiki/Q4391173)     |                                                         | exponential                       |                            | exponential                        |
-| [Q582659](https://www.wikidata.org/wiki/Q582659)       |                                                         | exponential law                   |                            |
-| [Q346571](https://www.wikidata.org/wiki/Q346571)       |                                                         |                                   |                            | exposition                         |
-| [Q6498784](https://www.wikidata.org/wiki/Q6498784)     |                                                         |                                   |                            | expression                         |
-| [Q295785](https://www.wikidata.org/wiki/Q295785)       |                                                         |                                   | extension                  | extension                          |
-| [Q55611299](https://www.wikidata.org/wiki/Q55611299)   |                                                         |                                   |                            | extensive category                 |
-| [Q911916](https://www.wikidata.org/wiki/Q911916)       |                                                         |                                   |                            | extensive quantity                 |
-| [Q5421978](https://www.wikidata.org/wiki/Q5421978)     |                                                         |                                   |                            | extent                             |
-| [Q1322786](https://www.wikidata.org/wiki/Q1322786)     | exterior                                                |                                   |                            |                                    |
-| [Q13408581](https://www.wikidata.org/wiki/Q13408581)   | exterior power of linear transformation                 |
-| [Q5422217](https://www.wikidata.org/wiki/Q5422217)     |                                                         |                                   |                            | extranatural transformation        |
-| [Q3064117](https://www.wikidata.org/wiki/Q3064117)     |                                                         |                                   |                            | face                               |
-| [Q188572](https://www.wikidata.org/wiki/Q188572)       |                                                         |                                   | fact                       | fact                               |
-| [Q1393757](https://www.wikidata.org/wiki/Q1393757)     |                                                         |                                   | factor                     | factor                             |
-| [Q188804](https://www.wikidata.org/wiki/Q188804)       |                                                         |                                   |                            | factorisation                      |
-| [Q5428747](https://www.wikidata.org/wiki/Q5428747)     |                                                         |                                   |                            | factorisation system               |
-| [Q1064276](https://www.wikidata.org/wiki/Q1064276)     |                                                         |                                   |                            | faithful functor                   |
-| [Q8960830](https://www.wikidata.org/wiki/Q8960830)     |                                                         |                                   | family                     | family                             |
-| [Q12684](https://www.wikidata.org/wiki/Q12684)         |                                                         |                                   |                            | fashion                            |
-| [Q1068118](https://www.wikidata.org/wiki/Q1068118)     |                                                         | fatou's lemma                     |                            |
-| [Q16782317](https://www.wikidata.org/wiki/Q16782317)   |                                                         |                                   |                            | feature                            |
-| [Q571154](https://www.wikidata.org/wiki/Q571154)       |                                                         | fejer theorem                     |                            |
-| [Q386272](https://www.wikidata.org/wiki/Q386272)       |                                                         |                                   |                            | feynman diagram                    |
-| [Q1640811](https://www.wikidata.org/wiki/Q1640811)     | fiber                                                   |                                   |                            | fiber                              |
-| [Q16897605](https://www.wikidata.org/wiki/Q16897605)   | fiber translation functor                               |                                   |                            |
-| [Q5446408](https://www.wikidata.org/wiki/Q5446408)     |                                                         |                                   |                            | fibrant object                     |
-| [Q493941](https://www.wikidata.org/wiki/Q493941)       | fibration                                               |                                   |                            | fibration                          |
-| [Q14240380](https://www.wikidata.org/wiki/Q14240380)   |                                                         |                                   |                            | fibre                              |
-| [Q5446431](https://www.wikidata.org/wiki/Q5446431)     |                                                         |                                   |                            | fibred category                    |
-| [Q190109](https://www.wikidata.org/wiki/Q190109)       | field                                                   | field                             | field                      | field                              |
-| [Q5448799](https://www.wikidata.org/wiki/Q5448799)     | filled julia set                                        |                                   |                            |
-| [Q122674](https://www.wikidata.org/wiki/Q122674)       |                                                         |                                   |                            | filler                             |
-| [Q1052692](https://www.wikidata.org/wiki/Q1052692)     |                                                         |                                   |                            | filter                             |
-| [Q18207102](https://www.wikidata.org/wiki/Q18207102)   |                                                         |                                   |                            | final functor                      |
-| [Q529752](https://www.wikidata.org/wiki/Q529752)       |                                                         |                                   |                            | final object                       |
-| [Q11516722](https://www.wikidata.org/wiki/Q11516722)   |                                                         |                                   | finite                     | finite                             |
-| [Q603880](https://www.wikidata.org/wiki/Q603880)       |                                                         | finite field                      | finite field               |                                    |
-| [Q1057968](https://www.wikidata.org/wiki/Q1057968)     |                                                         |                                   | finite group               | finite group                       |
-| [Q1761084](https://www.wikidata.org/wiki/Q1761084)     | finite length r-module                                  |                                   |                            |
-| [Q272404](https://www.wikidata.org/wiki/Q272404)       |                                                         |                                   |                            | finite set                         |
-| [Q1340572](https://www.wikidata.org/wiki/Q1340572)     | finitely generated r-module                             |                                   |
-| [Q6508397](https://www.wikidata.org/wiki/Q6508397)     |                                                         |                                   |                            | first author                       |
-| [Q1426191](https://www.wikidata.org/wiki/Q1426191)     |                                                         |                                   |                            | flat module                        |
-| [Q8563679](https://www.wikidata.org/wiki/Q8563679)     |                                                         |                                   |                            | flatness                           |
-| [Q4173974](https://www.wikidata.org/wiki/Q4173974)     |                                                         |                                   |                            | flavor                             |
-| [Q1434290](https://www.wikidata.org/wiki/Q1434290)     |                                                         |                                   |                            | flow                               |
-| [Q1434291](https://www.wikidata.org/wiki/Q1434291)     |                                                         |                                   |                            | flow diagram                       |
-| [Q3568](https://www.wikidata.org/wiki/Q3568)           |                                                         | focus                             |                            |                                    |
-| [Q11402](https://www.wikidata.org/wiki/Q11402)         |                                                         |                                   |                            | force                              |
-| [Q4421](https://www.wikidata.org/wiki/Q4421)           |                                                         |                                   |                            | forest                             |
-| [Q2646117](https://www.wikidata.org/wiki/Q2646117)     |                                                         |                                   |                            | forgetful functor                  |
-| [Q1474074](https://www.wikidata.org/wiki/Q1474074)     |                                                         |                                   | form                       | form                               |
-| [Q1437394](https://www.wikidata.org/wiki/Q1437394)     |                                                         |                                   |                            | formal concept analysis            |
-| [Q5469975](https://www.wikidata.org/wiki/Q5469975)     |                                                         |                                   |                            | formal theory                      |
-| [Q1433067](https://www.wikidata.org/wiki/Q1433067)     |                                                         |                                   |                            | formalism                          |
-| [Q342542](https://www.wikidata.org/wiki/Q342542)       |                                                         |                                   |                            | formation                          |
-| [Q976981](https://www.wikidata.org/wiki/Q976981)       |                                                         |                                   | formula                    | formulae                           |
-| [Q3077570](https://www.wikidata.org/wiki/Q3077570)     |                                                         |                                   |                            | formulation                        |
-| [Q341613](https://www.wikidata.org/wiki/Q341613)       |                                                         |                                   |                            | forward                            |
-| [Q227744](https://www.wikidata.org/wiki/Q227744)       |                                                         |                                   |                            | foundation                         |
-| [Q6520159](https://www.wikidata.org/wiki/Q6520159)     | fourier transform over qp                               | fourier transform                 |                            |
-| [Q199691](https://www.wikidata.org/wiki/Q199691)       |                                                         | fourier-laplace transform         |                            |
-| [Q66055](https://www.wikidata.org/wiki/Q66055)         |                                                         |                                   | denominator                | fraction                           |
-| [Q289093](https://www.wikidata.org/wiki/Q289093)       | fraction ring                                           |                                   |                            |                                    |
-| [Q354717](https://www.wikidata.org/wiki/Q354717)       |                                                         |                                   |                            | fragment                           |
-| [Q294490](https://www.wikidata.org/wiki/Q294490)       |                                                         |                                   |                            | frame                              |
-| [Q1289773](https://www.wikidata.org/wiki/Q1289773)     |                                                         |                                   |                            | framework                          |
-| [Q176244](https://www.wikidata.org/wiki/Q176244)       | frattini subgroup                                       |                                   |                            |
-| [Q5500180](https://www.wikidata.org/wiki/Q5500180)     |                                                         |                                   |                            | free algebra                       |
-| [Q5500202](https://www.wikidata.org/wiki/Q5500202)     |                                                         |                                   |                            | free category                      |
-| [Q431078](https://www.wikidata.org/wiki/Q431078)       | free group                                              |                                   |                            | free group                         |
-| [Q1292333](https://www.wikidata.org/wiki/Q1292333)     | free module                                             |                                   |                            |                                    |
-| [Q5500266](https://www.wikidata.org/wiki/Q5500266)     |                                                         |                                   |                            | free monoid                        |
-| [Q5500272](https://www.wikidata.org/wiki/Q5500272)     |                                                         |                                   |                            | free object                        |
-| [Q769124](https://www.wikidata.org/wiki/Q769124)       |                                                         | frobenius morphism                |                            |
-| [Q5505100](https://www.wikidata.org/wiki/Q5505100)     |                                                         |                                   |                            | frobenius object                   |
-| [Q1149022](https://www.wikidata.org/wiki/Q1149022)     |                                                         | fubini's theorem                  |                            |
-| [Q579600](https://www.wikidata.org/wiki/Q579600)       | functional                                              |                                   |                            |                                    |
-| [Q864475](https://www.wikidata.org/wiki/Q864475)       | functor                                                 |                                   |                            | functorial                         |
-| [Q2007878](https://www.wikidata.org/wiki/Q2007878)     |                                                         |                                   |                            | functor category                   |
-| [Q662830](https://www.wikidata.org/wiki/Q662830)       | fundamental group                                       |                                   | fundamental group          |
-| [Q85174068](https://www.wikidata.org/wiki/Q85174068)   | fundamental groupoid                                    |                                   |                            |
-| [Q219285](https://www.wikidata.org/wiki/Q219285)       |                                                         |                                   |                            | fusion                             |
-| [Q9739](https://www.wikidata.org/wiki/Q9739)           |                                                         |                                   | g                          |                                    |
-| [Q188211](https://www.wikidata.org/wiki/Q188211)       | g-invariant function                                    |                                   | invariance                 |
-| [Q4944906](https://www.wikidata.org/wiki/Q4944906)     | gale-stewart game                                       |                                   |                            |
-| [Q25098891](https://www.wikidata.org/wiki/Q25098891)   |                                                         |                                   |                            | galois descent                     |
-| [Q2020004](https://www.wikidata.org/wiki/Q2020004)     |                                                         |                                   |                            | galois extension                   |
-| [Q92552](https://www.wikidata.org/wiki/Q92552)         |                                                         |                                   |                            | galois theory                      |
-| [Q15079592](https://www.wikidata.org/wiki/Q15079592)   | game                                                    |                                   |                            |                                    |
-| [Q1507104](https://www.wikidata.org/wiki/Q1507104)     |                                                         |                                   |                            | game                               |
-| [Q224083](https://www.wikidata.org/wiki/Q224083)       |                                                         |                                   |                            | gap                                |
-| [Q214850](https://www.wikidata.org/wiki/Q214850)       |                                                         |                                   |                            | gauge theory                       |
-| [Q2658](https://www.wikidata.org/wiki/Q2658)           |                                                         | gaussian elimination              |                            |
-| [Q1054475](https://www.wikidata.org/wiki/Q1054475)     |                                                         | gaussian function                 |                            |
-| [Q724975](https://www.wikidata.org/wiki/Q724975)       | gaussian integers                                       |                                   |                            |
-| [Q17521172](https://www.wikidata.org/wiki/Q17521172)   | general linear algebra                                  |                                   |                            |
-| [Q524607](https://www.wikidata.org/wiki/Q524607)       | general linear group                                    | general linear group              |                            |
-| [Q1111474](https://www.wikidata.org/wiki/Q1111474)     |                                                         |                                   |                            | general theory                     |
-| [Q16783743](https://www.wikidata.org/wiki/Q16783743)   |                                                         |                                   |                            | generality                         |
-| [Q5364991](https://www.wikidata.org/wiki/Q5364991)     |                                                         |                                   |                            | generalization                     |
-| [Q170084](https://www.wikidata.org/wiki/Q170084)       |                                                         |                                   |                            | generalize                         |
-| [Q970767](https://www.wikidata.org/wiki/Q970767)       |                                                         | generalized eigenspace            |                            |
-| [Q11061828](https://www.wikidata.org/wiki/Q11061828)   | generalized orthogonal group                            |                                   |
-| [Q643669](https://www.wikidata.org/wiki/Q643669)       | generate an associative algebra                         | generating set                    | generator                  | generator                          |
-| [Q25106477](https://www.wikidata.org/wiki/Q25106477)   | generate an r-module                                    |                                   |                            |
-| [Q5532552](https://www.wikidata.org/wiki/Q5532552)     |                                                         |                                   |                            | generating                         |
-| [Q734209](https://www.wikidata.org/wiki/Q734209)       | generating set of a group                               |                                   |                            |
-| [Q1247963](https://www.wikidata.org/wiki/Q1247963)     |                                                         |                                   |                            | genetic                            |
-| [Q1467124](https://www.wikidata.org/wiki/Q1467124)     |                                                         |                                   |                            | geometric realization              |
-| [Q8087](https://www.wikidata.org/wiki/Q8087)           |                                                         |                                   |                            | geometry                           |
-| [Q118705](https://www.wikidata.org/wiki/Q118705)       |                                                         |                                   |                            | gerbe                              |
-| [Q36918764](https://www.wikidata.org/wiki/Q36918764)   |                                                         |                                   |                            | gleave                             |
-| [Q48970634](https://www.wikidata.org/wiki/Q48970634)   |                                                         |                                   |                            | globular set                       |
-| [Q4503831](https://www.wikidata.org/wiki/Q4503831)     |                                                         |                                   |                            | goal                               |
-| [Q1055058](https://www.wikidata.org/wiki/Q1055058)     |                                                         |                                   |                            | goguen category                    |
-| [Q15534632](https://www.wikidata.org/wiki/Q15534632)   | graded algebra                                          |                                   |                            |
-| [Q3058206](https://www.wikidata.org/wiki/Q3058206)     | graded vector space                                     |                                   |                            |
-| [Q173582](https://www.wikidata.org/wiki/Q173582)       | gradient                                                | gradient                          |                            |                                    |
-| [Q3480045](https://www.wikidata.org/wiki/Q3480045)     |                                                         |                                   |                            | graining                           |
-| [Q141488](https://www.wikidata.org/wiki/Q141488)       | graph                                                   |                                   |                            | finite graph                       |
-| [Q363874](https://www.wikidata.org/wiki/Q363874)       |                                                         |                                   |                            | graph                              |
-| [Q182598](https://www.wikidata.org/wiki/Q182598)       | graph of a function                                     |                                   |                            |
-| [Q1027879](https://www.wikidata.org/wiki/Q1027879)     |                                                         |                                   |                            | graphic                            |
-| [Q131752](https://www.wikidata.org/wiki/Q131752)       | greatest common divisor                                 | greatest common divisor           |                            |
-| [Q14493119](https://www.wikidata.org/wiki/Q14493119)   |                                                         |                                   |                            | ground                             |
-| [Q83478](https://www.wikidata.org/wiki/Q83478)         | group                                                   | group                             | group                      | group                              |
-| [Q288465](https://www.wikidata.org/wiki/Q288465)       | group action                                            | group action                      | isotropy group             |
-| [Q217608](https://www.wikidata.org/wiki/Q217608)       | group action invariants                                 |                                   | fixpoint                   |
-| [Q17019511](https://www.wikidata.org/wiki/Q17019511)   | group algebra                                           |                                   |                            |
-| [Q765994](https://www.wikidata.org/wiki/Q765994)       |                                                         |                                   |                            | group object                       |
-| [Q1055807](https://www.wikidata.org/wiki/Q1055807)     | group representation                                    |                                   |                            |
-| [Q2602722](https://www.wikidata.org/wiki/Q2602722)     | group ring                                              |                                   |                            |                                    |
-| [Q874405](https://www.wikidata.org/wiki/Q874405)       |                                                         |                                   |                            | group structure                    |
-| [Q874429](https://www.wikidata.org/wiki/Q874429)       |                                                         |                                   |                            | group theory                       |
-| [Q10944557](https://www.wikidata.org/wiki/Q10944557)   | group word                                              |                                   | word                       | word                               |
-| [Q1196038](https://www.wikidata.org/wiki/Q1196038)     | groupoid                                                |                                   |                            | groupoid                           |
-| [Q5642657](https://www.wikidata.org/wiki/Q5642657)     |                                                         |                                   |                            | hall algebra                       |
-| [Q189569](https://www.wikidata.org/wiki/Q189569)       | hamel basis                                             |                                   | basis                      | basis                              |
-| [Q33767](https://www.wikidata.org/wiki/Q33767)         |                                                         |                                   | hand                       | hand                               |
-| [Q3075250](https://www.wikidata.org/wiki/Q3075250)     | hardy-littlewood maximal operator                       |                                   |
-| [Q599027](https://www.wikidata.org/wiki/Q599027)       | harmonic function                                       |                                   |                            |
-| [Q190070](https://www.wikidata.org/wiki/Q190070)       |                                                         |                                   |                            | harmonic oscillator                |
-| [Q4133834](https://www.wikidata.org/wiki/Q4133834)     | harmonic polynomial                                     |                                   |                            |
-| [Q326908](https://www.wikidata.org/wiki/Q326908)       | hausdorff                                               |                                   |                            | hausdorff space                    |
-| [Q5696378](https://www.wikidata.org/wiki/Q5696378)     |                                                         |                                   |                            | hecke algebra                      |
-| [Q765987](https://www.wikidata.org/wiki/Q765987)       |                                                         | heine-cantor theorem              |                            |
-| [Q77583424](https://www.wikidata.org/wiki/Q77583424)   | hermitian inner product                                 |                                   |                            |
-| [Q620495](https://www.wikidata.org/wiki/Q620495)       | hessian matrix                                          | hessian matrix                    |                            |
-| [Q5753139](https://www.wikidata.org/wiki/Q5753139)     |                                                         |                                   |                            | hierarchy                          |
-| [Q5761206](https://www.wikidata.org/wiki/Q5761206)     |                                                         | hilbert basis                     |                            |                                    |
-| [Q5761182](https://www.wikidata.org/wiki/Q5761182)     |                                                         |                                   |                            | hilbert module                     |
-| [Q3527215](https://www.wikidata.org/wiki/Q3527215)     |                                                         | hilbert projection theorem        |
-| [Q190056](https://www.wikidata.org/wiki/Q190056)       | hilbert space                                           |                                   | hilbert space              |
-| [Q1206893](https://www.wikidata.org/wiki/Q1206893)     |                                                         |                                   | hint                       |                                    |
-| [Q731894](https://www.wikidata.org/wiki/Q731894)       |                                                         | holder's inequality               |                            |
-| [Q3139500](https://www.wikidata.org/wiki/Q3139500)     | holomorph of a group                                    |                                   |                            |
-| [Q207476](https://www.wikidata.org/wiki/Q207476)       | holomorphic                                             | holomorphic function              |                            |
-| [Q907926](https://www.wikidata.org/wiki/Q907926)       |                                                         |                                   |                            | holonomy                           |
-| [Q406687](https://www.wikidata.org/wiki/Q406687)       |                                                         |                                   |                            | hom                                |
-| [Q202906](https://www.wikidata.org/wiki/Q202906)       | homeomorphism                                           | homeomorphism                     | homeomorphism              | homeomorphism                      |
-| [Q54938846](https://www.wikidata.org/wiki/Q54938846)   | homogeneous relation                                    |                                   |                            |
-| [Q1324364](https://www.wikidata.org/wiki/Q1324364)     |                                                         |                                   |                            | homogeneous space                  |
-| [Q579978](https://www.wikidata.org/wiki/Q579978)       |                                                         |                                   |                            | homological algebra                |
-| [Q12715503](https://www.wikidata.org/wiki/Q12715503)   | homology class                                          |                                   |                            |
-| [Q1144780](https://www.wikidata.org/wiki/Q1144780)     | homology group                                          |                                   | homology                   |
-| [Q868169](https://www.wikidata.org/wiki/Q868169)       | homomorphism of lie groups                              | group morphism                    |                            |
-| [Q746083](https://www.wikidata.org/wiki/Q746083)       | homotopy                                                |                                   |                            | homotopic                          |
-| [Q14775269](https://www.wikidata.org/wiki/Q14775269)   | homotopy category                                       |                                   | homotopy category          |
-| [Q306560](https://www.wikidata.org/wiki/Q306560)       | homotopy cofiber                                        |                                   | cofiber                    |
-| [Q1626409](https://www.wikidata.org/wiki/Q1626409)     | homotopy equivalence of paths                           |                                   |
-| [Q1626416](https://www.wikidata.org/wiki/Q1626416)     |                                                         |                                   |                            | homotopy group                     |
-| [Q17030678](https://www.wikidata.org/wiki/Q17030678)   |                                                         |                                   |                            | homotopy pushout                   |
-| [Q28150683](https://www.wikidata.org/wiki/Q28150683)   |                                                         |                                   |                            | hopf                               |
-| [Q1627597](https://www.wikidata.org/wiki/Q1627597)     |                                                         |                                   |                            | hopf algebra                       |
-| [Q224077](https://www.wikidata.org/wiki/Q224077)       |                                                         |                                   |                            | horn                               |
-| [Q218212](https://www.wikidata.org/wiki/Q218212)       |                                                         |                                   |                            | hull                               |
-| [Q204034](https://www.wikidata.org/wiki/Q204034)       |                                                         | hyperbolic trigonometric function |
-| [Q41719](https://www.wikidata.org/wiki/Q41719)         |                                                         |                                   | hypothesis                 | hypothesis                         |
-| [Q27273](https://www.wikidata.org/wiki/Q27273)         |                                                         |                                   |                            | i                                  |
-| [Q131841](https://www.wikidata.org/wiki/Q131841)       |                                                         |                                   |                            | idea                               |
-| [Q224884](https://www.wikidata.org/wiki/Q224884)       |                                                         |                                   | ideal                      | ideal                              |
-| [Q2243424](https://www.wikidata.org/wiki/Q2243424)     | idempotent                                              |                                   |                            |                                    |
-| [Q368988](https://www.wikidata.org/wiki/Q368988)       |                                                         |                                   |                            | idempotent                         |
-| [Q609647](https://www.wikidata.org/wiki/Q609647)       |                                                         |                                   | identity                   | identity                           |
-| [Q5988368](https://www.wikidata.org/wiki/Q5988368)     | identity component                                      |                                   |                            |
-| [Q193794](https://www.wikidata.org/wiki/Q193794)       | identity matrix                                         |                                   |                            |
-| [Q321119](https://www.wikidata.org/wiki/Q321119)       |                                                         |                                   | identity operator          |
-| [Q949972](https://www.wikidata.org/wiki/Q949972)       |                                                         |                                   | iff                        |                                    |
-| [Q227951](https://www.wikidata.org/wiki/Q227951)       |                                                         |                                   |                            | ii                                 |
-| [Q347130](https://www.wikidata.org/wiki/Q347130)       |                                                         |                                   |                            | iii                                |
-| [Q178659](https://www.wikidata.org/wiki/Q178659)       |                                                         |                                   |                            | illustration                       |
-| [Q860623](https://www.wikidata.org/wiki/Q860623)       | image                                                   |                                   | image                      | image                              |
-| [Q1215266](https://www.wikidata.org/wiki/Q1215266)     |                                                         |                                   |                            | implication                        |
-| [Q16886469](https://www.wikidata.org/wiki/Q16886469)   |                                                         |                                   |                            | importance                         |
-| [Q464118](https://www.wikidata.org/wiki/Q464118)       |                                                         | improper integrals                |                            |
-| [Q1671857](https://www.wikidata.org/wiki/Q1671857)     |                                                         |                                   |                            | incidence                          |
-| [Q371133](https://www.wikidata.org/wiki/Q371133)       |                                                         |                                   |                            | incidence algebra                  |
-| [Q1663694](https://www.wikidata.org/wiki/Q1663694)     |                                                         |                                   | inclusion                  | inclusion                          |
-| [Q1319773](https://www.wikidata.org/wiki/Q1319773)     | inconsistent                                            | consistency                       |                            |                                    |
-| [Q294486](https://www.wikidata.org/wiki/Q294486)       |                                                         |                                   |                            | ind                                |
-| [Q625303](https://www.wikidata.org/wiki/Q625303)       |                                                         | independent event                 |                            |
-| [Q1464168](https://www.wikidata.org/wiki/Q1464168)     | index of a subgroup                                     |                                   |                            |
-| [Q25099576](https://www.wikidata.org/wiki/Q25099576)   |                                                         |                                   |                            | indexed category                   |
-| [Q11712088](https://www.wikidata.org/wiki/Q11712088)   |                                                         |                                   | index                      | indexing                           |
-| [Q17098095](https://www.wikidata.org/wiki/Q17098095)   | induced homomorphism on fundamental group               |
-| [Q17130880](https://www.wikidata.org/wiki/Q17130880)   |                                                         | induced topology                  |                            |
-| [Q178377](https://www.wikidata.org/wiki/Q178377)       |                                                         |                                   | induction                  |                                    |
-| [Q28113351](https://www.wikidata.org/wiki/Q28113351)   |                                                         |                                   | inequality                 | inequality                         |
-| [Q408386](https://www.wikidata.org/wiki/Q408386)       |                                                         |                                   |                            | inference                          |
-| [Q1068763](https://www.wikidata.org/wiki/Q1068763)     |                                                         |                                   |                            | inference rule                     |
-| [Q205140](https://www.wikidata.org/wiki/Q205140)       |                                                         |                                   |                            | infinite set                       |
-| [Q193885](https://www.wikidata.org/wiki/Q193885)       |                                                         |                                   |                            | infinitesimal                      |
-| [Q205](https://www.wikidata.org/wiki/Q205)             |                                                         |                                   | infinity                   | infinity                           |
-| [Q7269442](https://www.wikidata.org/wiki/Q7269442)     |                                                         |                                   |                            | infinity-category                  |
-| [Q11028](https://www.wikidata.org/wiki/Q11028)         |                                                         |                                   |                            | information                        |
-| [Q121182](https://www.wikidata.org/wiki/Q121182)       |                                                         |                                   |                            | information system                 |
-| [Q10675206](https://www.wikidata.org/wiki/Q10675206)   |                                                         |                                   |                            | ingredient                         |
-| [Q16797633](https://www.wikidata.org/wiki/Q16797633)   |                                                         |                                   | inherit                    |                                    |
-| [Q182003](https://www.wikidata.org/wiki/Q182003)       | injective                                               |                                   |                            | injection                          |
-| [Q6034324](https://www.wikidata.org/wiki/Q6034324)     |                                                         |                                   |                            | injective hull                     |
-| [Q1625040](https://www.wikidata.org/wiki/Q1625040)     |                                                         |                                   |                            | injective object                   |
-| [Q1139583](https://www.wikidata.org/wiki/Q1139583)     | inner automorphism of a group                           |                                   |
-| [Q23924662](https://www.wikidata.org/wiki/Q23924662)   | inner product                                           |                                   |                            |
-| [Q214159](https://www.wikidata.org/wiki/Q214159)       | inner product space                                     | inner product space               |
-| [Q976375](https://www.wikidata.org/wiki/Q976375)       | inner regular                                           |                                   |                            |
-| [Q3799056](https://www.wikidata.org/wiki/Q3799056)     |                                                         |                                   |                            | input                              |
-| [Q915985](https://www.wikidata.org/wiki/Q915985)       |                                                         | inscribed angle theorem           |                            |
-| [Q346679](https://www.wikidata.org/wiki/Q346679)       |                                                         |                                   |                            | inspiration                        |
-| [Q437448](https://www.wikidata.org/wiki/Q437448)       |                                                         |                                   |                            | instance                           |
-| [Q12503](https://www.wikidata.org/wiki/Q12503)         |                                                         |                                   | integer                    | integer                            |
-| [Q628792](https://www.wikidata.org/wiki/Q628792)       | integral domain                                         |                                   | integral domain            |
-| [Q80091](https://www.wikidata.org/wiki/Q80091)         | integral of m-form on manifold                          | integrable function               | integral                   | integration                        |
-| [Q273328](https://www.wikidata.org/wiki/Q273328)       |                                                         | integration by part               |                            |
-| [Q52948](https://www.wikidata.org/wiki/Q52948)         |                                                         |                                   |                            | interaction                        |
-| [Q6045688](https://www.wikidata.org/wiki/Q6045688)     |                                                         |                                   |                            | interchange                        |
-| [Q1665949](https://www.wikidata.org/wiki/Q1665949)     |                                                         |                                   |                            | interconnection                    |
-| [Q170924](https://www.wikidata.org/wiki/Q170924)       |                                                         |                                   |                            | interest                           |
-| [Q862761](https://www.wikidata.org/wiki/Q862761)       | interior                                                |                                   |                            |                                    |
-| [Q245098](https://www.wikidata.org/wiki/Q245098)       |                                                         | intermediate value theorem        | intermediate value theorem |
-| [Q6047782](https://www.wikidata.org/wiki/Q6047782)     |                                                         |                                   |                            | internal category                  |
-| [Q5887297](https://www.wikidata.org/wiki/Q5887297)     |                                                         |                                   |                            | internal hom                       |
-| [Q6047933](https://www.wikidata.org/wiki/Q6047933)     |                                                         |                                   |                            | internal set                       |
-| [Q1339807](https://www.wikidata.org/wiki/Q1339807)     |                                                         |                                   |                            | internalization                    |
-| [Q1441198](https://www.wikidata.org/wiki/Q1441198)     |                                                         |                                   |                            | interplay                          |
-| [Q651448](https://www.wikidata.org/wiki/Q651448)       |                                                         |                                   |                            | interpretation                     |
-| [Q1180277](https://www.wikidata.org/wiki/Q1180277)     |                                                         |                                   | intersect                  |                                    |
-| [Q17141489](https://www.wikidata.org/wiki/Q17141489)   |                                                         |                                   | intersection               | intersection                       |
-| [Q185148](https://www.wikidata.org/wiki/Q185148)       | interval                                                |                                   | interval                   | interval                           |
-| [Q1387137](https://www.wikidata.org/wiki/Q1387137)     |                                                         |                                   |                            | introduction                       |
-| [Q189222](https://www.wikidata.org/wiki/Q189222)       |                                                         |                                   |                            | intuition                          |
-| [Q176786](https://www.wikidata.org/wiki/Q176786)       |                                                         |                                   |                            | intuitionistic logic               |
-| [Q2920801](https://www.wikidata.org/wiki/Q2920801)     | invariant polynomials under group action                |
-| [Q2706744](https://www.wikidata.org/wiki/Q2706744)     | invariant subspace                                      |                                   |                            |
-| [Q18119757](https://www.wikidata.org/wiki/Q18119757)   |                                                         |                                   |                            | invention                          |
-| [Q224353](https://www.wikidata.org/wiki/Q224353)       |                                                         |                                   | inverse                    | inverse                            |
-| [Q3022118](https://www.wikidata.org/wiki/Q3022118)     |                                                         |                                   |                            | inverse category                   |
-| [Q338057](https://www.wikidata.org/wiki/Q338057)       | inverse element                                         |                                   |                            |
-| [Q3984053](https://www.wikidata.org/wiki/Q3984053)     |                                                         | inverse fourier transform         |                            |
-| [Q191884](https://www.wikidata.org/wiki/Q191884)       | inverse function                                        |                                   |                            |
-| [Q931001](https://www.wikidata.org/wiki/Q931001)       |                                                         | inverse function theorem          |                            |
-| [Q17123743](https://www.wikidata.org/wiki/Q17123743)   | inverse matrix                                          |                                   |                            |
-| [Q674533](https://www.wikidata.org/wiki/Q674533)       |                                                         | inverse trigonometric function    |
-| [Q1097601](https://www.wikidata.org/wiki/Q1097601)     |                                                         |                                   |                            | inversion                          |
-| [Q242188](https://www.wikidata.org/wiki/Q242188)       |                                                         |                                   |                            | invertibility                      |
-| [Q3893077](https://www.wikidata.org/wiki/Q3893077)     |                                                         |                                   |                            | inverting                          |
-| [Q345847](https://www.wikidata.org/wiki/Q345847)       |                                                         |                                   |                            | investigation                      |
-| [Q846862](https://www.wikidata.org/wiki/Q846862)       |                                                         |                                   |                            | involution                         |
-| [Q2989575](https://www.wikidata.org/wiki/Q2989575)     | irreducible element of an integral domain               | irreducible element               |                            |
-| [Q1476663](https://www.wikidata.org/wiki/Q1476663)     |                                                         | irreducible polynomial            |                            |
-| [Q13690522](https://www.wikidata.org/wiki/Q13690522)   | irreducible representation                              | irreducible representation        |
-| [Q1142889](https://www.wikidata.org/wiki/Q1142889)     | isolated point                                          |                                   |                            |
-| [Q740207](https://www.wikidata.org/wiki/Q740207)       | isometry                                                |                                   |                            |                                    |
-| [Q16799755](https://www.wikidata.org/wiki/Q16799755)   |                                                         |                                   | isometry                   |                                    |
-| [Q8346687](https://www.wikidata.org/wiki/Q8346687)     |                                                         |                                   |                            | isomorphism class                  |
-| [Q189112](https://www.wikidata.org/wiki/Q189112)       | isomorphism of group representations                    | isomorphism                       | isomorphism                |
-| [Q273163](https://www.wikidata.org/wiki/Q273163)       |                                                         |                                   |                            | isotropy                           |
-| [Q17098238](https://www.wikidata.org/wiki/Q17098238)   | isotypic component                                      |                                   |                            |
-| [Q1247982](https://www.wikidata.org/wiki/Q1247982)     |                                                         |                                   |                            | issue                              |
-| [Q651022](https://www.wikidata.org/wiki/Q651022)       |                                                         |                                   |                            | iteration                          |
-| [Q1474543](https://www.wikidata.org/wiki/Q1474543)     | jacobian determinant                                    |                                   |                            |
-| [Q506041](https://www.wikidata.org/wiki/Q506041)       | jacobian matrix                                         | jacobian matrix                   |                            |
-| [Q923480](https://www.wikidata.org/wiki/Q923480)       |                                                         |                                   |                            | jet                                |
-| [Q6269005](https://www.wikidata.org/wiki/Q6269005)     |                                                         |                                   |                            | join                               |
-| [Q838495](https://www.wikidata.org/wiki/Q838495)       |                                                         | jordan normal form                |                            |
-| [Q12621536](https://www.wikidata.org/wiki/Q12621536)   |                                                         |                                   |                            | judgement                          |
-| [Q3915873](https://www.wikidata.org/wiki/Q3915873)     |                                                         |                                   |                            | kan complex                        |
-| [Q1723418](https://www.wikidata.org/wiki/Q1723418)     |                                                         |                                   |                            | kan extension                      |
-| [Q202400](https://www.wikidata.org/wiki/Q202400)       |                                                         |                                   | kernel                     | kernel                             |
-| [Q574844](https://www.wikidata.org/wiki/Q574844)       | kernel of group homomorphism                            |                                   |
-| [Q1178576](https://www.wikidata.org/wiki/Q1178576)     |                                                         |                                   |                            | kind                               |
-| [Q1773982](https://www.wikidata.org/wiki/Q1773982)     |                                                         |                                   |                            | kleisli category                   |
-| [Q192826](https://www.wikidata.org/wiki/Q192826)       | kronecker delta                                         |                                   |                            |
-| [Q1799745](https://www.wikidata.org/wiki/Q1799745)     |                                                         |                                   |                            | lack                               |
-| [Q861606](https://www.wikidata.org/wiki/Q861606)       |                                                         | lagrange interpolation            |                            |
-| [Q598870](https://www.wikidata.org/wiki/Q598870)       |                                                         | lagrange multipliers              |                            |
-| [Q242028](https://www.wikidata.org/wiki/Q242028)       |                                                         |                                   |                            | lambda calculus                    |
-| [Q192161](https://www.wikidata.org/wiki/Q192161)       |                                                         |                                   |                            | language                           |
-| [Q339444](https://www.wikidata.org/wiki/Q339444)       |                                                         | laplace equations                 |                            |
-| [Q203484](https://www.wikidata.org/wiki/Q203484)       | laplacian                                               |                                   |                            |                                    |
-| [Q595364](https://www.wikidata.org/wiki/Q595364)       | lattice                                                 |                                   |                            |                                    |
-| [Q2754968](https://www.wikidata.org/wiki/Q2754968)     |                                                         |                                   |                            | lattice                            |
-| [Q425432](https://www.wikidata.org/wiki/Q425432)       |                                                         | laurent series                    |                            |
-| [Q7748](https://www.wikidata.org/wiki/Q7748)           |                                                         |                                   | law                        | law                                |
-| [Q1989192](https://www.wikidata.org/wiki/Q1989192)     |                                                         | law of total probability          |                            |
-| [Q6505076](https://www.wikidata.org/wiki/Q6505076)     |                                                         |                                   |                            | lawvere theory                     |
-| [Q229140](https://www.wikidata.org/wiki/Q229140)       |                                                         |                                   |                            | lax                                |
-| [Q18345526](https://www.wikidata.org/wiki/Q18345526)   |                                                         |                                   |                            | lax functor                        |
-| [Q25304046](https://www.wikidata.org/wiki/Q25304046)   |                                                         |                                   |                            | lax natural transformation         |
-| [Q102761](https://www.wikidata.org/wiki/Q102761)       |                                                         | least common multiple             |                            |
-| [Q853831](https://www.wikidata.org/wiki/Q853831)       | lebesgue integral                                       |                                   |                            |
-| [Q827230](https://www.wikidata.org/wiki/Q827230)       | lebesgue measure                                        | lebesgue measure                  |                            |
-| [Q25447455](https://www.wikidata.org/wiki/Q25447455)   | lebesgue outer measure                                  |                                   |                            |
-| [Q657469](https://www.wikidata.org/wiki/Q657469)       |                                                         |                                   |                            | lefschetz number                   |
-| [Q3485002](https://www.wikidata.org/wiki/Q3485002)     |                                                         |                                   |                            | left                               |
-| [Q185813](https://www.wikidata.org/wiki/Q185813)       | left identity element                                   | identity element                  |
-| [Q14565197](https://www.wikidata.org/wiki/Q14565197)   |                                                         |                                   | left side                  |                                    |
-| [Q133105](https://www.wikidata.org/wiki/Q133105)       |                                                         |                                   |                            | leg                                |
-| [Q159736](https://www.wikidata.org/wiki/Q159736)       |                                                         |                                   |                            | leinster                           |
-| [Q207505](https://www.wikidata.org/wiki/Q207505)       |                                                         |                                   | lemma                      | lemma                              |
-| [Q670036](https://www.wikidata.org/wiki/Q670036)       |                                                         | curve length                      |                            | length                             |
-| [Q251898](https://www.wikidata.org/wiki/Q251898)       |                                                         |                                   |                            | level                              |
-| [Q4925193](https://www.wikidata.org/wiki/Q4925193)     |                                                         |                                   |                            | lie                                |
-| [Q664495](https://www.wikidata.org/wiki/Q664495)       | lie algebra                                             |                                   |                            | lie algebra                        |
-| [Q3882299](https://www.wikidata.org/wiki/Q3882299)     | lie algebra homomorphism                                |                                   |
-| [Q1136782](https://www.wikidata.org/wiki/Q1136782)     | lie algebra representation                              |                                   |
-| [Q18353697](https://www.wikidata.org/wiki/Q18353697)   | lie correspondence                                      |                                   |                            |
-| [Q6543824](https://www.wikidata.org/wiki/Q6543824)     |                                                         |                                   |                            | lie groupoid                       |
-| [Q6545604](https://www.wikidata.org/wiki/Q6545604)     | lift                                                    |                                   |                            | lift                               |
-| [Q30672450](https://www.wikidata.org/wiki/Q30672450)   |                                                         |                                   |                            | lifting property                   |
-| [Q9128](https://www.wikidata.org/wiki/Q9128)           |                                                         |                                   |                            | light                              |
-| [Q3249878](https://www.wikidata.org/wiki/Q3249878)     |                                                         |                                   |                            | like                               |
-| [Q177239](https://www.wikidata.org/wiki/Q177239)       |                                                         | limit                             | limit                      | limit                              |
-| [Q1322614](https://www.wikidata.org/wiki/Q1322614)     | limit of a d-shaped diagram                             | colimit                           |
-| [Q858223](https://www.wikidata.org/wiki/Q858223)       | limit point                                             | cluster point                     | limit point                |                                    |
-| [Q37105](https://www.wikidata.org/wiki/Q37105)         |                                                         |                                   |                            | line                               |
-| [Q467699](https://www.wikidata.org/wiki/Q467699)       |                                                         | line integral                     |                            |                                    |
-| [Q1753188](https://www.wikidata.org/wiki/Q1753188)     |                                                         |                                   |                            | linear                             |
-| [Q13635346](https://www.wikidata.org/wiki/Q13635346)   |                                                         |                                   |                            | linear category                    |
-| [Q27628](https://www.wikidata.org/wiki/Q27628)         |                                                         |                                   | linear combination         |
-| [Q484637](https://www.wikidata.org/wiki/Q484637)       |                                                         |                                   |                            | linear equation                    |
-| [Q15854269](https://www.wikidata.org/wiki/Q15854269)   |                                                         |                                   | linear factor              |                                    |
-| [Q16977077](https://www.wikidata.org/wiki/Q16977077)   | linear lie algebra                                      |                                   |                            |
-| [Q841728](https://www.wikidata.org/wiki/Q841728)       |                                                         |                                   |                            | linear logic                       |
-| [Q207643](https://www.wikidata.org/wiki/Q207643)       | linear transformation                                   | linear map                        |                            | linear map                         |
-| [Q211981](https://www.wikidata.org/wiki/Q211981)       |                                                         | linearisation theorem             |                            |
-| [Q111783780](https://www.wikidata.org/wiki/Q111783780) | linearly dependent                                      |                                   |                            |
-| [Q27670](https://www.wikidata.org/wiki/Q27670)         | linearly independent                                    | linear independence               |                            |
-| [Q224246](https://www.wikidata.org/wiki/Q224246)       |                                                         |                                   |                            | link                               |
-| [Q652707](https://www.wikidata.org/wiki/Q652707)       |                                                         | lipschitz function                |                            |
-| [Q162032](https://www.wikidata.org/wiki/Q162032)       |                                                         |                                   |                            | list                               |
-| [Q8242](https://www.wikidata.org/wiki/Q8242)           |                                                         |                                   |                            | literature                         |
-| [Q865967](https://www.wikidata.org/wiki/Q865967)       |                                                         |                                   |                            | local connectedness                |
-| [Q1052761](https://www.wikidata.org/wiki/Q1052761)     |                                                         |                                   |                            | local homeomorphism                |
-| [Q4265744](https://www.wikidata.org/wiki/Q4265744)     | local homology groups                                   |                                   |                            |
-| [Q91052280](https://www.wikidata.org/wiki/Q91052280)   | local maximum                                           |                                   |                            |
-| [Q91052291](https://www.wikidata.org/wiki/Q91052291)   | local minimum                                           |                                   |                            |
-| [Q6664549](https://www.wikidata.org/wiki/Q6664549)     |                                                         |                                   |                            | local symmetry                     |
-| [Q5156470](https://www.wikidata.org/wiki/Q5156470)     |                                                         |                                   |                            | locale                             |
-| [Q251307](https://www.wikidata.org/wiki/Q251307)       |                                                         |                                   |                            | localization                       |
-| [Q2147620](https://www.wikidata.org/wiki/Q2147620)     | locally compact group                                   |                                   |                            |
-| [Q643300](https://www.wikidata.org/wiki/Q643300)       | locally finite cover                                    |                                   |                            |
-| [Q16920337](https://www.wikidata.org/wiki/Q16920337)   | locally finite graph                                    |                                   |                            |
-| [Q2136937](https://www.wikidata.org/wiki/Q2136937)     | locally finite measure                                  |                                   |                            |
-| [Q194404](https://www.wikidata.org/wiki/Q194404)       | locally monotonic                                       |                                   |                            |
-| [Q16671984](https://www.wikidata.org/wiki/Q16671984)   | locally path-connected                                  |                                   |                            |
-| [Q11197](https://www.wikidata.org/wiki/Q11197)         |                                                         | logarithm                         |                            |                                    |
-| [Q1166618](https://www.wikidata.org/wiki/Q1166618)     |                                                         |                                   |                            | logic                              |
-| [Q349894](https://www.wikidata.org/wiki/Q349894)       |                                                         |                                   |                            | look                               |
-| [Q2066070](https://www.wikidata.org/wiki/Q2066070)     |                                                         |                                   |                            | loop space                         |
-| [Q1334417](https://www.wikidata.org/wiki/Q1334417)     | lorentz group                                           |                                   |                            |
-| [Q215020](https://www.wikidata.org/wiki/Q215020)       |                                                         |                                   |                            | lot                                |
-| [Q13222579](https://www.wikidata.org/wiki/Q13222579)   | lower bound                                             |                                   |                            |
-| [Q305936](https://www.wikidata.org/wiki/Q305936)       | lp space                                                |                                   |                            |                                    |
-| [Q833089](https://www.wikidata.org/wiki/Q833089)       |                                                         | lu decomposition                  |                            |
-| [Q1361393](https://www.wikidata.org/wiki/Q1361393)     | lusin function                                          |                                   |                            |
-| [Q441223](https://www.wikidata.org/wiki/Q441223)       |                                                         |                                   |                            | mac lane                           |
-| [Q11019](https://www.wikidata.org/wiki/Q11019)         |                                                         |                                   |                            | machinery                          |
-| [Q5249756](https://www.wikidata.org/wiki/Q5249756)     |                                                         |                                   |                            | macneille completion               |
-| [Q679903](https://www.wikidata.org/wiki/Q679903)       | magma                                                   |                                   |                            |                                    |
-| [Q219708](https://www.wikidata.org/wiki/Q219708)       |                                                         |                                   |                            | magnetic monopole                  |
-| [Q2091629](https://www.wikidata.org/wiki/Q2091629)     |                                                         |                                   |                            | magnitude                          |
-| [Q7382648](https://www.wikidata.org/wiki/Q7382648)     |                                                         |                                   |                            | majority                           |
-| [Q5691503](https://www.wikidata.org/wiki/Q5691503)     |                                                         |                                   |                            | maltsev operation                  |
-| [Q257](https://www.wikidata.org/wiki/Q257)             | mandelbrot set                                          |                                   |                            |
-| [Q203920](https://www.wikidata.org/wiki/Q203920)       | manifold                                                |                                   |                            | manifold                           |
-| [Q1620068](https://www.wikidata.org/wiki/Q1620068)     |                                                         |                                   |                            | manner                             |
-| [Q370502](https://www.wikidata.org/wiki/Q370502)       |                                                         |                                   | mapping                    | mapping                            |
-| [Q6754177](https://www.wikidata.org/wiki/Q6754177)     |                                                         |                                   |                            | mapping cone                       |
-| [Q1014869](https://www.wikidata.org/wiki/Q1014869)     | mapping cylinder                                        |                                   |                            |
-| [Q842436](https://www.wikidata.org/wiki/Q842436)       |                                                         | markov inequality                 |                            |
-| [Q176645](https://www.wikidata.org/wiki/Q176645)       |                                                         |                                   |                            | markov process                     |
-| [Q656198](https://www.wikidata.org/wiki/Q656198)       |                                                         | maschke theorem                   |                            |
-| [Q395](https://www.wikidata.org/wiki/Q395)             |                                                         |                                   |                            | mathematic                         |
-| [Q44337](https://www.wikidata.org/wiki/Q44337)         | matrix                                                  |                                   | matrix                     | matrix                             |
-| [Q622679](https://www.wikidata.org/wiki/Q622679)       | matrix lie group                                        |                                   | lie group                  |
-| [Q902017](https://www.wikidata.org/wiki/Q902017)       | matrix logarithm                                        |                                   |                            |
-| [Q1049914](https://www.wikidata.org/wiki/Q1049914)     | matrix multiplication                                   |                                   |                            |
-| [Q6787889](https://www.wikidata.org/wiki/Q6787889)     |                                                         | matrix representation             |                            |
-| [Q223683](https://www.wikidata.org/wiki/Q223683)       | matrix transpose                                        |                                   |                            |
-| [Q1203540](https://www.wikidata.org/wiki/Q1203540)     | maximal ring ideal                                      | maximal ideal                     |                            |
-| [Q16908484](https://www.wikidata.org/wiki/Q16908484)   | maximal subgroup                                        |                                   |                            |
-| [Q831672](https://www.wikidata.org/wiki/Q831672)       | maximal subtree                                         |                                   |                            |
-| [Q1914255](https://www.wikidata.org/wiki/Q1914255)     |                                                         | maximum principle                 |                            |
-| [Q2421905](https://www.wikidata.org/wiki/Q2421905)     | mayer-vietoris sequence                                 |                                   |                            |
-| [Q2796622](https://www.wikidata.org/wiki/Q2796622)     |                                                         |                                   |                            | mean                               |
-| [Q189136](https://www.wikidata.org/wiki/Q189136)       |                                                         | mean value theorem                |                            |
-| [Q813854](https://www.wikidata.org/wiki/Q813854)       |                                                         |                                   |                            | meaning                            |
-| [Q3054889](https://www.wikidata.org/wiki/Q3054889)     | measurable                                              |                                   |                            |                                    |
-| [Q192276](https://www.wikidata.org/wiki/Q192276)       |                                                         | positive measure                  | measure                    |
-| [Q3058212](https://www.wikidata.org/wiki/Q3058212)     | measure space                                           |                                   |                            |
-| [Q1201815](https://www.wikidata.org/wiki/Q1201815)     | measure zero                                            |                                   |                            |
-| [Q12453](https://www.wikidata.org/wiki/Q12453)         |                                                         |                                   |                            | measurement                        |
-| [Q327029](https://www.wikidata.org/wiki/Q327029)       |                                                         |                                   |                            | mechanic                           |
-| [Q393987](https://www.wikidata.org/wiki/Q393987)       |                                                         |                                   |                            | mechanism                          |
-| [Q1323078](https://www.wikidata.org/wiki/Q1323078)     |                                                         |                                   |                            | merging                            |
-| [Q217616](https://www.wikidata.org/wiki/Q217616)       |                                                         | meromorphic function              |                            |
-| [Q28146826](https://www.wikidata.org/wiki/Q28146826)   |                                                         |                                   |                            | method                             |
-| [Q865746](https://www.wikidata.org/wiki/Q865746)       |                                                         |                                   | metric                     | metric                             |
-| [Q180953](https://www.wikidata.org/wiki/Q180953)       | metric space                                            | metric space                      | metric space               |
-| [Q630649](https://www.wikidata.org/wiki/Q630649)       |                                                         | metric structure                  |                            |
-| [Q1194053](https://www.wikidata.org/wiki/Q1194053)     |                                                         |                                   | metrisable space           |
-| [Q3395694](https://www.wikidata.org/wiki/Q3395694)     |                                                         | minimal polynomial                |                            |
-| [Q845060](https://www.wikidata.org/wiki/Q845060)       |                                                         | local extrema                     | minimum                    |
-| [Q1341061](https://www.wikidata.org/wiki/Q1341061)     | minor                                                   |                                   |                            |                                    |
-| [Q225750](https://www.wikidata.org/wiki/Q225750)       |                                                         |                                   | mod                        |                                    |
-| [Q345621](https://www.wikidata.org/wiki/Q345621)       |                                                         |                                   |                            | modality                           |
-| [Q234018](https://www.wikidata.org/wiki/Q234018)       |                                                         |                                   |                            | model                              |
-| [Q1941896](https://www.wikidata.org/wiki/Q1941896)     |                                                         |                                   |                            | model category                     |
-| [Q467606](https://www.wikidata.org/wiki/Q467606)       |                                                         |                                   |                            | model theory                       |
-| [Q6889353](https://www.wikidata.org/wiki/Q6889353)     |                                                         |                                   |                            | modification                       |
-| [Q170474](https://www.wikidata.org/wiki/Q170474)       |                                                         |                                   |                            | modulation                         |
-| [Q5051857](https://www.wikidata.org/wiki/Q5051857)     |                                                         |                                   |                            | module category                    |
-| [Q215111](https://www.wikidata.org/wiki/Q215111)       | module homomorphism                                     | homomorphism                      | homomorphism               |
-| [Q18848](https://www.wikidata.org/wiki/Q18848)         | module over a lie algebra                               |                                   | module                     |
-| [Q411185](https://www.wikidata.org/wiki/Q411185)       |                                                         |                                   | modulo                     |                                    |
-| [Q235787](https://www.wikidata.org/wiki/Q235787)       |                                                         |                                   | modulus                    |                                    |
-| [Q638982](https://www.wikidata.org/wiki/Q638982)       |                                                         | moment                            |                            |                                    |
-| [Q229941](https://www.wikidata.org/wiki/Q229941)       |                                                         |                                   |                            | monad                              |
-| [Q3099696](https://www.wikidata.org/wiki/Q3099696)     | monic                                                   |                                   |                            |                                    |
-| [Q224501](https://www.wikidata.org/wiki/Q224501)       |                                                         |                                   |                            | mono                               |
-| [Q208237](https://www.wikidata.org/wiki/Q208237)       | monoid                                                  |                                   |                            | commutative monoid                 |
-| [Q6901642](https://www.wikidata.org/wiki/Q6901642)     |                                                         |                                   |                            | monoidal functor                   |
-| [Q1945067](https://www.wikidata.org/wiki/Q1945067)     | monomorphism                                            |                                   | monomorphism               |
-| [Q6901866](https://www.wikidata.org/wiki/Q6901866)     |                                                         |                                   |                            | monopole                           |
-| [Q234936](https://www.wikidata.org/wiki/Q234936)       |                                                         |                                   |                            | monotone                           |
-| [Q1153584](https://www.wikidata.org/wiki/Q1153584)     |                                                         | monotone convergence theorem      |
-| [Q232207](https://www.wikidata.org/wiki/Q232207)       |                                                         | monte-carlo method                |                            |
-| [Q25036778](https://www.wikidata.org/wiki/Q25036778)   |                                                         |                                   |                            | moore complex                      |
-| [Q6912366](https://www.wikidata.org/wiki/Q6912366)     |                                                         |                                   |                            | morita equivalent                  |
-| [Q644302](https://www.wikidata.org/wiki/Q644302)       |                                                         |                                   |                            | motivation                         |
-| [Q436163](https://www.wikidata.org/wiki/Q436163)       |                                                         |                                   |                            | multi                              |
-| [Q1952404](https://www.wikidata.org/wiki/Q1952404)     | multilinear                                             | multilinear map                   | multilinear                |
-| [Q1055293](https://www.wikidata.org/wiki/Q1055293)     |                                                         |                                   | multiple                   |                                    |
-| [Q40276](https://www.wikidata.org/wiki/Q40276)         |                                                         |                                   | multiplication             | multiplication                     |
-| [Q17099189](https://www.wikidata.org/wiki/Q17099189)   | multiplicative character                                |                                   |                            |
-| [Q2228257](https://www.wikidata.org/wiki/Q2228257)     | multiplicity of simple module in semisimple module      | multiplicity                      | multiple root              |
-| [Q42918](https://www.wikidata.org/wiki/Q42918)         |                                                         |                                   |                            | mutation                           |
-| [Q4504468](https://www.wikidata.org/wiki/Q4504468)     | n-chain                                                 |                                   |                            |                                    |
-| [Q82799](https://www.wikidata.org/wiki/Q82799)         |                                                         |                                   |                            | name                               |
-| [Q21199](https://www.wikidata.org/wiki/Q21199)         |                                                         |                                   | positive integer           | natural number                     |
-| [Q6980740](https://www.wikidata.org/wiki/Q6980740)     |                                                         |                                   |                            | natural number object              |
-| [Q6980793](https://www.wikidata.org/wiki/Q6980793)     |                                                         |                                   |                            | natural topology                   |
-| [Q1442189](https://www.wikidata.org/wiki/Q1442189)     | natural transformation                                  |                                   | natural isomorphism        |
-| [Q7860](https://www.wikidata.org/wiki/Q7860)           |                                                         |                                   |                            | nature                             |
-| [Q875267](https://www.wikidata.org/wiki/Q875267)       |                                                         |                                   |                            | necessary condition                |
-| [Q190558](https://www.wikidata.org/wiki/Q190558)       |                                                         |                                   |                            | negation                           |
-| [Q2478475](https://www.wikidata.org/wiki/Q2478475)     | neighborhood                                            | neighbourhood                     | neighbourhood              |
-| [Q17099363](https://www.wikidata.org/wiki/Q17099363)   |                                                         |                                   |                            | nerve                              |
-| [Q1191147](https://www.wikidata.org/wiki/Q1191147)     |                                                         |                                   |                            | net                                |
-| [Q1412924](https://www.wikidata.org/wiki/Q1412924)     |                                                         |                                   |                            | network                            |
-| [Q997453](https://www.wikidata.org/wiki/Q997453)       |                                                         |                                   |                            | new class                          |
-| [Q482793](https://www.wikidata.org/wiki/Q482793)       |                                                         |                                   |                            | new type                           |
-| [Q7012361](https://www.wikidata.org/wiki/Q7012361)     |                                                         |                                   |                            | new way                            |
-| [Q1749812](https://www.wikidata.org/wiki/Q1749812)     |                                                         | newton's identities               |                            |
-| [Q840023](https://www.wikidata.org/wiki/Q840023)       | nilpotent                                               |                                   |                            |                                    |
-| [Q1755242](https://www.wikidata.org/wiki/Q1755242)     | nilpotent group                                         |                                   |                            |
-| [Q15148889](https://www.wikidata.org/wiki/Q15148889)   | nilpotent lie algebra                                   |                                   |                            |
-| [Q2444982](https://www.wikidata.org/wiki/Q2444982)     | noetherian module                                       |                                   |                            |
-| [Q582271](https://www.wikidata.org/wiki/Q582271)       | noetherian ring                                         |                                   |                            |
-| [Q7048717](https://www.wikidata.org/wiki/Q7048717)     | non-archimedean absolute value                          |                                   |
-| [Q592651](https://www.wikidata.org/wiki/Q592651)       |                                                         |                                   | nonabelian group           |
-| [Q27961566](https://www.wikidata.org/wiki/Q27961566)   |                                                         | nondegenerate form                |                            |
-| [Q395712](https://www.wikidata.org/wiki/Q395712)       |                                                         |                                   | none                       |                                    |
-| [Q97623888](https://www.wikidata.org/wiki/Q97623888)   | nonmeager                                               |                                   |                            |                                    |
-| [Q7049087](https://www.wikidata.org/wiki/Q7049087)     |                                                         |                                   | nonzero                    |                                    |
-| [Q956437](https://www.wikidata.org/wiki/Q956437)       | norm                                                    | equivalent norms                  | gauge                      |
-| [Q1512559](https://www.wikidata.org/wiki/Q1512559)     |                                                         | normal convergence                |                            |
-| [Q854946](https://www.wikidata.org/wiki/Q854946)       |                                                         |                                   | normal operator            |
-| [Q743179](https://www.wikidata.org/wiki/Q743179)       | normal subgroup                                         | normal subgroup                   | normal subgroup            |
-| [Q1069099](https://www.wikidata.org/wiki/Q1069099)     | normal-form game                                        |                                   |                            |
-| [Q2173405](https://www.wikidata.org/wiki/Q2173405)     |                                                         |                                   |                            | normality                          |
-| [Q248604](https://www.wikidata.org/wiki/Q248604)       |                                                         |                                   |                            | normalization                      |
-| [Q1761121](https://www.wikidata.org/wiki/Q1761121)     | normalizer of a group                                   |                                   |                            |
-| [Q2001982](https://www.wikidata.org/wiki/Q2001982)     |                                                         |                                   |                            | notation                           |
-| [Q2002118](https://www.wikidata.org/wiki/Q2002118)     |                                                         |                                   |                            | note                               |
-| [Q7063001](https://www.wikidata.org/wiki/Q7063001)     |                                                         |                                   | notice                     |                                    |
-| [Q7063046](https://www.wikidata.org/wiki/Q7063046)     |                                                         |                                   |                            | notion                             |
-| [Q1991405](https://www.wikidata.org/wiki/Q1991405)     | nowhere dense                                           |                                   |                            |
-| [Q2740624](https://www.wikidata.org/wiki/Q2740624)     |                                                         |                                   |                            | nucleus                            |
-| [Q2914509](https://www.wikidata.org/wiki/Q2914509)     | nullity                                                 |                                   |                            |                                    |
-| [Q11563](https://www.wikidata.org/wiki/Q11563)         |                                                         |                                   | number                     | number                             |
-| [Q246672](https://www.wikidata.org/wiki/Q246672)       |                                                         |                                   |                            | object                             |
-| [Q193181](https://www.wikidata.org/wiki/Q193181)       |                                                         |                                   |                            | observation                        |
-| [Q421560](https://www.wikidata.org/wiki/Q421560)       |                                                         |                                   |                            | obstruction                        |
-| [Q225746](https://www.wikidata.org/wiki/Q225746)       |                                                         |                                   |                            | omega                              |
-| [Q199](https://www.wikidata.org/wiki/Q199)             |                                                         |                                   |                            | one                                |
-| [Q226362](https://www.wikidata.org/wiki/Q226362)       |                                                         |                                   |                            | op                                 |
-| [Q213363](https://www.wikidata.org/wiki/Q213363)       | open                                                    |                                   | open set                   | open subset                        |
-| [Q41509136](https://www.wikidata.org/wiki/Q41509136)   | open cover                                              |                                   |                            |                                    |
-| [Q1321906](https://www.wikidata.org/wiki/Q1321906)     |                                                         |                                   |                            | open question                      |
-| [Q331350](https://www.wikidata.org/wiki/Q331350)       | open simplex                                            |                                   | simplex                    |
-| [Q842072](https://www.wikidata.org/wiki/Q842072)       |                                                         |                                   |                            | operad                             |
-| [Q3884033](https://www.wikidata.org/wiki/Q3884033)     |                                                         |                                   |                            | operation                          |
-| [Q131030](https://www.wikidata.org/wiki/Q131030)       |                                                         |                                   | operator                   | operator                           |
-| [Q48970630](https://www.wikidata.org/wiki/Q48970630)   |                                                         |                                   |                            | opetope                            |
-| [Q715358](https://www.wikidata.org/wiki/Q715358)       |                                                         |                                   |                            | opposite                           |
-| [Q7098616](https://www.wikidata.org/wiki/Q7098616)     | opposite category                                       |                                   |                            |
-| [Q40460](https://www.wikidata.org/wiki/Q40460)         |                                                         |                                   |                            | orbifold                           |
-| [Q230664](https://www.wikidata.org/wiki/Q230664)       |                                                         | orbit                             |                            | orbit                              |
-| [Q17859776](https://www.wikidata.org/wiki/Q17859776)   | orbit                                                   |                                   |                            |                                    |
-| [Q1345055](https://www.wikidata.org/wiki/Q1345055)     |                                                         | orde                              |                            |                                    |
-| [Q1820515](https://www.wikidata.org/wiki/Q1820515)     |                                                         | order                             | order                      | order                              |
-| [Q18408315](https://www.wikidata.org/wiki/Q18408315)   | order of a group                                        |                                   |                            |
-| [Q54555759](https://www.wikidata.org/wiki/Q54555759)   | order of a group element                                |                                   |                            |
-| [Q24175351](https://www.wikidata.org/wiki/Q24175351)   |                                                         |                                   |                            | order structure                    |
-| [Q1321469](https://www.wikidata.org/wiki/Q1321469)     |                                                         |                                   | order topology             |
-| [Q2029226](https://www.wikidata.org/wiki/Q2029226)     |                                                         |                                   |                            | ordering                           |
-| [Q191780](https://www.wikidata.org/wiki/Q191780)       |                                                         |                                   |                            | ordinal                            |
-| [Q860609](https://www.wikidata.org/wiki/Q860609)       | ordinary generating function                            |                                   |
-| [Q1137726](https://www.wikidata.org/wiki/Q1137726)     | oriented edge                                           |                                   |                            |
-| [Q215067](https://www.wikidata.org/wiki/Q215067)       | orthogonal                                              | orthogonality                     | orthogonality              |
-| [Q52088805](https://www.wikidata.org/wiki/Q52088805)   | orthogonal algebra                                      |                                   |                            |
-| [Q1780921](https://www.wikidata.org/wiki/Q1780921)     | orthogonal complement                                   | orthogonal complement             |                            |
-| [Q333871](https://www.wikidata.org/wiki/Q333871)       | orthogonal matrix                                       |                                   |                            |
-| [Q1411166](https://www.wikidata.org/wiki/Q1411166)     | orthonormal                                             |                                   |                            |
-| [Q2365325](https://www.wikidata.org/wiki/Q2365325)     |                                                         |                                   | orthonormal basis          |
-| [Q170475](https://www.wikidata.org/wiki/Q170475)       | oscillation                                             |                                   |                            | oscillator                         |
-| [Q2873063](https://www.wikidata.org/wiki/Q2873063)     |                                                         |                                   |                            | other                              |
-| [Q258374](https://www.wikidata.org/wiki/Q258374)       | outer measure                                           |                                   |                            |
-| [Q26851733](https://www.wikidata.org/wiki/Q26851733)   | outer regular                                           |                                   |                            |
-| [Q11348](https://www.wikidata.org/wiki/Q11348)         |                                                         |                                   | function                   | output                             |
-| [Q2748415](https://www.wikidata.org/wiki/Q2748415)     | outward pointing                                        |                                   |                            |
-| [Q11756524](https://www.wikidata.org/wiki/Q11756524)   | p-adic integers                                         |                                   |                            |
-| [Q286972](https://www.wikidata.org/wiki/Q286972)       | p-group                                                 |                                   |                            |                                    |
-| [Q1057919](https://www.wikidata.org/wiki/Q1057919)     |                                                         |                                   | p-subgroup                 |                                    |
-| [Q224749](https://www.wikidata.org/wiki/Q224749)       |                                                         |                                   |                            | page                               |
-| [Q191290](https://www.wikidata.org/wiki/Q191290)       |                                                         |                                   | pair                       | pair                               |
-| [Q11681459](https://www.wikidata.org/wiki/Q11681459)   |                                                         |                                   |                            | pairing                            |
-| [Q7125151](https://www.wikidata.org/wiki/Q7125151)     |                                                         |                                   | pairwise                   |                                    |
-| [Q11472](https://www.wikidata.org/wiki/Q11472)         |                                                         |                                   |                            | paper                              |
-| [Q230125](https://www.wikidata.org/wiki/Q230125)       |                                                         |                                   |                            | par                                |
-| [Q28643](https://www.wikidata.org/wiki/Q28643)         |                                                         |                                   |                            | paradigm                           |
-| [Q7134470](https://www.wikidata.org/wiki/Q7134470)     | paradoxical set                                         |                                   |                            |
-| [Q3363481](https://www.wikidata.org/wiki/Q3363481)     |                                                         |                                   |                            | parallel                           |
-| [Q1814838](https://www.wikidata.org/wiki/Q1814838)     |                                                         |                                   |                            | parallel transport                 |
-| [Q45867](https://www.wikidata.org/wiki/Q45867)         |                                                         |                                   | parallelogram              |
-| [Q1413083](https://www.wikidata.org/wiki/Q1413083)     |                                                         |                                   |                            | parameter                          |
-| [Q17144895](https://www.wikidata.org/wiki/Q17144895)   |                                                         |                                   |                            | parametricity                      |
-| [Q174565](https://www.wikidata.org/wiki/Q174565)       |                                                         |                                   | parenthesis                |                                    |
-| [Q1194916](https://www.wikidata.org/wiki/Q1194916)     |                                                         |                                   | part                       | part                               |
-| [Q186475](https://www.wikidata.org/wiki/Q186475)       | partial derivative                                      | partial derivative                |                            |
-| [Q431617](https://www.wikidata.org/wiki/Q431617)       |                                                         | partial fraction decomposition    |
-| [Q474715](https://www.wikidata.org/wiki/Q474715)       | partially ordered set                                   |                                   | poset                      |
-| [Q6632024](https://www.wikidata.org/wiki/Q6632024)     |                                                         |                                   |                            | partition                          |
-| [Q381060](https://www.wikidata.org/wiki/Q381060)       | partition of a set                                      |                                   |                            |
-| [Q1082910](https://www.wikidata.org/wiki/Q1082910)     | partition of an integer                                 |                                   |                            |
-| [Q191690](https://www.wikidata.org/wiki/Q191690)       | partition of unity                                      | partitions of unity               |                            |
-| [Q257010](https://www.wikidata.org/wiki/Q257010)       |                                                         |                                   |                            | passage                            |
-| [Q192630](https://www.wikidata.org/wiki/Q192630)       |                                                         |                                   |                            | past                               |
-| [Q249741](https://www.wikidata.org/wiki/Q249741)       |                                                         |                                   |                            | pasting                            |
-| [Q1366002](https://www.wikidata.org/wiki/Q1366002)     | path                                                    |                                   |                            |                                    |
-| [Q341826](https://www.wikidata.org/wiki/Q341826)       |                                                         |                                   |                            | path                               |
-| [Q954246](https://www.wikidata.org/wiki/Q954246)       |                                                         |                                   |                            | path space                         |
-| [Q3487687](https://www.wikidata.org/wiki/Q3487687)     | path-connected                                          |                                   |                            |
-| [Q2083958](https://www.wikidata.org/wiki/Q2083958)     |                                                         |                                   |                            | pattern                            |
-| [Q7168101](https://www.wikidata.org/wiki/Q7168101)     | perfect set                                             |                                   |                            |                                    |
-| [Q7168102](https://www.wikidata.org/wiki/Q7168102)     |                                                         |                                   | perfect square             |
-| [Q184743](https://www.wikidata.org/wiki/Q184743)       |                                                         | periodic function                 |                            |
-| [Q161519](https://www.wikidata.org/wiki/Q161519)       | permutation                                             | permutation                       |
-| [Q60792472](https://www.wikidata.org/wiki/Q60792472)   |                                                         |                                   | permutation representation |
-| [Q185499](https://www.wikidata.org/wiki/Q185499)       |                                                         |                                   |                            | persistence                        |
-| [Q398683](https://www.wikidata.org/wiki/Q398683)       |                                                         |                                   |                            | perspective                        |
-| [Q281921](https://www.wikidata.org/wiki/Q281921)       |                                                         |                                   |                            | petit                              |
-| [Q752297](https://www.wikidata.org/wiki/Q752297)       |                                                         |                                   |                            | phd                                |
-| [Q483247](https://www.wikidata.org/wiki/Q483247)       |                                                         |                                   |                            | phenomenon                         |
-| [Q7190519](https://www.wikidata.org/wiki/Q7190519)     |                                                         |                                   |                            | picard-vessiot ring                |
-| [Q613048](https://www.wikidata.org/wiki/Q613048)       |                                                         |                                   |                            | place                              |
-| [Q397813](https://www.wikidata.org/wiki/Q397813)       |                                                         |                                   |                            | play                               |
-| [Q353589](https://www.wikidata.org/wiki/Q353589)       |                                                         |                                   |                            | player                             |
-| [Q44946](https://www.wikidata.org/wiki/Q44946)         |                                                         |                                   | point                      | point                              |
-| [Q9248237](https://www.wikidata.org/wiki/Q9248237)     |                                                         |                                   |                            | pointwise                          |
-| [Q1778098](https://www.wikidata.org/wiki/Q1778098)     |                                                         | pointwise convergence             |                            |
-| [Q2101158](https://www.wikidata.org/wiki/Q2101158)     |                                                         | polar decomposition               |                            |
-| [Q7226477](https://www.wikidata.org/wiki/Q7226477)     |                                                         |                                   |                            | polygraph                          |
-| [Q43260](https://www.wikidata.org/wiki/Q43260)         |                                                         | polynomial function               | polynomial                 | polynomial                         |
-| [Q1455652](https://www.wikidata.org/wiki/Q1455652)     | polynomial ring                                         |                                   |                            |
-| [Q1632419](https://www.wikidata.org/wiki/Q1632419)     | pontryagin dual                                         |                                   |                            |
-| [Q192388](https://www.wikidata.org/wiki/Q192388)       |                                                         |                                   |                            | position                           |
-| [Q1052034](https://www.wikidata.org/wiki/Q1052034)     | positive definite                                       |                                   |                            |
-| [Q7233418](https://www.wikidata.org/wiki/Q7233418)     |                                                         |                                   | possibility                | possibility                        |
-| [Q1202245](https://www.wikidata.org/wiki/Q1202245)     |                                                         |                                   |                            | potential                          |
-| [Q33456](https://www.wikidata.org/wiki/Q33456)         |                                                         | power function                    | power                      | power                              |
-| [Q206925](https://www.wikidata.org/wiki/Q206925)       |                                                         |                                   | power series               |
-| [Q205170](https://www.wikidata.org/wiki/Q205170)       | power set                                               |                                   |                            | powerset                           |
-| [Q17152552](https://www.wikidata.org/wiki/Q17152552)   |                                                         |                                   |                            | powerdomain                        |
-| [Q442627](https://www.wikidata.org/wiki/Q442627)       |                                                         |                                   |                            | pre                                |
-| [Q1393014](https://www.wikidata.org/wiki/Q1393014)     | pre-measure                                             |                                   |                            |
-| [Q7239914](https://www.wikidata.org/wiki/Q7239914)     |                                                         |                                   |                            | pregroup                           |
-| [Q1425985](https://www.wikidata.org/wiki/Q1425985)     |                                                         |                                   |                            | preorder                           |
-| [Q580922](https://www.wikidata.org/wiki/Q580922)       |                                                         |                                   |                            | preprint                           |
-| [Q62395707](https://www.wikidata.org/wiki/Q62395707)   |                                                         |                                   |                            | presence                           |
-| [Q604733](https://www.wikidata.org/wiki/Q604733)       |                                                         |                                   |                            | presentation                       |
-| [Q1178810](https://www.wikidata.org/wiki/Q1178810)     |                                                         |                                   |                            | preservation                       |
-| [Q595298](https://www.wikidata.org/wiki/Q595298)       |                                                         |                                   |                            | presheaf                           |
-| [Q7241077](https://www.wikidata.org/wiki/Q7241077)     |                                                         |                                   |                            | presheaf category                  |
-| [Q30588174](https://www.wikidata.org/wiki/Q30588174)   |                                                         |                                   |                            | prestack                           |
-| [Q7242162](https://www.wikidata.org/wiki/Q7242162)     |                                                         |                                   |                            | pretopology                        |
-| [Q240651](https://www.wikidata.org/wiki/Q240651)       | prime element of an integral domain                     |                                   |
-| [Q863912](https://www.wikidata.org/wiki/Q863912)       | prime ideal                                             | prime ideal                       |                            |                                    |
-| [Q49008](https://www.wikidata.org/wiki/Q49008)         | prime number                                            | prime number                      | prime                      |                                    |
-| [Q1365548](https://www.wikidata.org/wiki/Q1365548)     |                                                         |                                   |                            | principal bundle                   |
-| [Q44382](https://www.wikidata.org/wiki/Q44382)         | principal ideal                                         |                                   |                            |
-| [Q1143969](https://www.wikidata.org/wiki/Q1143969)     | principal ideal domain                                  | principal ideal domain            |                            |
-| [Q211364](https://www.wikidata.org/wiki/Q211364)       |                                                         |                                   | principle                  | principle                          |
-| [Q9492](https://www.wikidata.org/wiki/Q9492)           |                                                         |                                   |                            | probability                        |
-| [Q207522](https://www.wikidata.org/wiki/Q207522)       |                                                         | probability density function      |
-| [Q200726](https://www.wikidata.org/wiki/Q200726)       |                                                         |                                   |                            | probability distribution           |
-| [Q355020](https://www.wikidata.org/wiki/Q355020)       |                                                         | probability measure               |                            |
-| [Q1166625](https://www.wikidata.org/wiki/Q1166625)     |                                                         |                                   | problem                    | problem                            |
-| [Q14167404](https://www.wikidata.org/wiki/Q14167404)   |                                                         |                                   |                            | procedure                          |
-| [Q229289](https://www.wikidata.org/wiki/Q229289)       |                                                         |                                   |                            | process                            |
-| [Q901718](https://www.wikidata.org/wiki/Q901718)       |                                                         |                                   | product                    | product                            |
-| [Q1572094](https://www.wikidata.org/wiki/Q1572094)     | product measure                                         | product measure                   |                            |
-| [Q3406712](https://www.wikidata.org/wiki/Q3406712)     |                                                         | product of ring                   |                            |
-| [Q1070472](https://www.wikidata.org/wiki/Q1070472)     | product topology                                        | product space                     |
-| [Q1428923](https://www.wikidata.org/wiki/Q1428923)     |                                                         |                                   |                            | profinite                          |
-| [Q7248328](https://www.wikidata.org/wiki/Q7248328)     |                                                         |                                   |                            | profunctor                         |
-| [Q768396](https://www.wikidata.org/wiki/Q768396)       |                                                         |                                   |                            | program                            |
-| [Q170584](https://www.wikidata.org/wiki/Q170584)       |                                                         |                                   |                            | project                            |
-| [Q519967](https://www.wikidata.org/wiki/Q519967)       | projection                                              |                                   |                            |                                    |
-| [Q13415428](https://www.wikidata.org/wiki/Q13415428)   |                                                         |                                   |                            | projection                         |
-| [Q7249461](https://www.wikidata.org/wiki/Q7249461)     |                                                         |                                   |                            | projective                         |
-| [Q177409](https://www.wikidata.org/wiki/Q177409)       |                                                         |                                   |                            | projective geometry                |
-| [Q942423](https://www.wikidata.org/wiki/Q942423)       |                                                         |                                   |                            | projective module                  |
-| [Q2112502](https://www.wikidata.org/wiki/Q2112502)     |                                                         |                                   |                            | projective object                  |
-| [Q2112539](https://www.wikidata.org/wiki/Q2112539)     |                                                         |                                   |                            | projectivity                       |
-| [Q7249479](https://www.wikidata.org/wiki/Q7249479)     | projectivization                                        |                                   |                            |
-| [Q311666](https://www.wikidata.org/wiki/Q311666)       |                                                         |                                   |                            | projector                          |
-| [Q11538](https://www.wikidata.org/wiki/Q11538)         |                                                         |                                   | proof                      | proof                              |
-| [Q3457091](https://www.wikidata.org/wiki/Q3457091)     |                                                         |                                   |                            | proof net                          |
-| [Q1194437](https://www.wikidata.org/wiki/Q1194437)     |                                                         |                                   |                            | prop                               |
-| [Q3924032](https://www.wikidata.org/wiki/Q3924032)     |                                                         |                                   | property                   | property                           |
-| [Q65943](https://www.wikidata.org/wiki/Q65943)         |                                                         |                                   |                            | proposition                        |
-| [Q27790922](https://www.wikidata.org/wiki/Q27790922)   |                                                         |                                   |                            | proximity                          |
-| [Q2598033](https://www.wikidata.org/wiki/Q2598033)     |                                                         |                                   |                            | pseudo                             |
-| [Q16919007](https://www.wikidata.org/wiki/Q16919007)   |                                                         |                                   |                            | pseudofunctor                      |
-| [Q19927749](https://www.wikidata.org/wiki/Q19927749)   |                                                         |                                   |                            | pseudomonad                        |
-| [Q1397439](https://www.wikidata.org/wiki/Q1397439)     |                                                         |                                   |                            | pullback                           |
-| [Q978505](https://www.wikidata.org/wiki/Q978505)       | pullback along a diffeomorphism                         |                                   |
-| [Q706622](https://www.wikidata.org/wiki/Q706622)       |                                                         |                                   |                            | purpose                            |
-| [Q406475](https://www.wikidata.org/wiki/Q406475)       |                                                         |                                   |                            | push                               |
-| [Q1633079](https://www.wikidata.org/wiki/Q1633079)     | pushout                                                 |                                   |                            | pushout                            |
-| [Q736753](https://www.wikidata.org/wiki/Q736753)       |                                                         | quadratic form                    |                            |
-| [Q803531](https://www.wikidata.org/wiki/Q803531)       | quadratic integers                                      |                                   |                            |
-| [Q878259](https://www.wikidata.org/wiki/Q878259)       |                                                         |                                   | quadratic residue          |
-| [Q298413](https://www.wikidata.org/wiki/Q298413)       |                                                         |                                   |                            | quality                            |
-| [Q7279807](https://www.wikidata.org/wiki/Q7279807)     |                                                         |                                   |                            | quandle                            |
-| [Q7268888](https://www.wikidata.org/wiki/Q7268888)     |                                                         |                                   |                            | quantale                           |
-| [Q7268889](https://www.wikidata.org/wiki/Q7268889)     |                                                         |                                   |                            | quantaloid                         |
-| [Q17989098](https://www.wikidata.org/wiki/Q17989098)   |                                                         |                                   |                            | quantifier                         |
-| [Q309314](https://www.wikidata.org/wiki/Q309314)       |                                                         |                                   |                            | quantity                           |
-| [Q46344](https://www.wikidata.org/wiki/Q46344)         |                                                         |                                   |                            | quantum                            |
-| [Q54505](https://www.wikidata.org/wiki/Q54505)         |                                                         |                                   |                            | quantum field theory               |
-| [Q2122223](https://www.wikidata.org/wiki/Q2122223)     |                                                         |                                   |                            | quantum group                      |
-| [Q944](https://www.wikidata.org/wiki/Q944)             |                                                         |                                   |                            | quantum mechanic                   |
-| [Q7269434](https://www.wikidata.org/wiki/Q7269434)     |                                                         |                                   |                            | quasi                              |
-| [Q1503423](https://www.wikidata.org/wiki/Q1503423)     |                                                         |                                   |                            | quasigroup                         |
-| [Q30590669](https://www.wikidata.org/wiki/Q30590669)   |                                                         |                                   |                            | quasitopos                         |
-| [Q2752716](https://www.wikidata.org/wiki/Q2752716)     |                                                         |                                   |                            | quasivariety                       |
-| [Q173853](https://www.wikidata.org/wiki/Q173853)       | quaternion algebra                                      |                                   |                            |
-| [Q7385](https://www.wikidata.org/wiki/Q7385)           |                                                         |                                   |                            | query                              |
-| [Q735234](https://www.wikidata.org/wiki/Q735234)       |                                                         |                                   |                            | quest                              |
-| [Q189756](https://www.wikidata.org/wiki/Q189756)       |                                                         |                                   |                            | question                           |
-| [Q7271995](https://www.wikidata.org/wiki/Q7271995)     |                                                         |                                   |                            | quillen equivalent                 |
-| [Q493980](https://www.wikidata.org/wiki/Q493980)       |                                                         |                                   |                            | quiver                             |
-| [Q13107493](https://www.wikidata.org/wiki/Q13107493)   |                                                         |                                   |                            | quotient                           |
-| [Q3966112](https://www.wikidata.org/wiki/Q3966112)     | quotient by equivalence relation                        |                                   |
-| [Q1138961](https://www.wikidata.org/wiki/Q1138961)     | quotient by normal subgroup                             | quotient group                    |                            |
-| [Q7272896](https://www.wikidata.org/wiki/Q7272896)     |                                                         |                                   |                            | quotient category                  |
-| [Q2589508](https://www.wikidata.org/wiki/Q2589508)     | quotient of lie algebra by ideal                        | maltsev variety                   |
-| [Q1432554](https://www.wikidata.org/wiki/Q1432554)     | quotient of modules                                     |                                   |                            |
-| [Q1139111](https://www.wikidata.org/wiki/Q1139111)     | quotient of topological spaces                          | quotient map                      | quotient map               |
-| [Q619436](https://www.wikidata.org/wiki/Q619436)       | quotient ring                                           | quotient ring                     |                            |
-| [Q63101327](https://www.wikidata.org/wiki/Q63101327)   |                                                         | quotient space                    |                            |
-| [Q1393796](https://www.wikidata.org/wiki/Q1393796)     | quotient vector space                                   |                                   |                            |
-| [Q17046402](https://www.wikidata.org/wiki/Q17046402)   | radical of a lie algebra                                |                                   |                            |
-| [Q1428097](https://www.wikidata.org/wiki/Q1428097)     |                                                         | radius of convergence             |                            |
-| [Q2126650](https://www.wikidata.org/wiki/Q2126650)     | radon measure                                           |                                   |                            |
-| [Q1191319](https://www.wikidata.org/wiki/Q1191319)     | radon-nikodym derivative                                |                                   |                            |
-| [Q225527](https://www.wikidata.org/wiki/Q225527)       |                                                         |                                   |                            | ramification                       |
-| [Q1806121](https://www.wikidata.org/wiki/Q1806121)     |                                                         |                                   | range                      | range                              |
-| [Q656784](https://www.wikidata.org/wiki/Q656784)       | rank                                                    | rank of a matrix                  |                            |
-| [Q4389919](https://www.wikidata.org/wiki/Q4389919)     |                                                         |                                   |                            | rank                               |
-| [Q1260803](https://www.wikidata.org/wiki/Q1260803)     | rank of a finitely generated abelian group              |
-| [Q1783502](https://www.wikidata.org/wiki/Q1783502)     |                                                         | rate of convergence               |                            |
-| [Q41237](https://www.wikidata.org/wiki/Q41237)         |                                                         | rational function                 | rational function          |
-| [Q180345](https://www.wikidata.org/wiki/Q180345)       |                                                         |                                   | rational root              |
-| [Q15568811](https://www.wikidata.org/wiki/Q15568811)   |                                                         |                                   |                            | reader                             |
-| [Q1579126](https://www.wikidata.org/wiki/Q1579126)     |                                                         |                                   |                            | real                               |
-| [Q861681](https://www.wikidata.org/wiki/Q861681)       |                                                         |                                   | real function              |
-| [Q12916](https://www.wikidata.org/wiki/Q12916)         |                                                         |                                   | real number                | real number                        |
-| [Q2597317](https://www.wikidata.org/wiki/Q2597317)     | real projective space                                   |                                   |                            |
-| [Q3454417](https://www.wikidata.org/wiki/Q3454417)     |                                                         |                                   |                            | realizability                      |
-| [Q7301281](https://www.wikidata.org/wiki/Q7301281)     |                                                         |                                   |                            | realization                        |
-| [Q178354](https://www.wikidata.org/wiki/Q178354)       |                                                         |                                   |                            | reasoning                          |
-| [Q13725110](https://www.wikidata.org/wiki/Q13725110)   |                                                         |                                   |                            | recognition                        |
-| [Q342068](https://www.wikidata.org/wiki/Q342068)       |                                                         |                                   |                            | reconstruction                     |
-| [Q209](https://www.wikidata.org/wiki/Q209)             | rectangle                                               |                                   |                            | rectangle                          |
-| [Q1156903](https://www.wikidata.org/wiki/Q1156903)     |                                                         | rectangle method                  |                            |
-| [Q3038340](https://www.wikidata.org/wiki/Q3038340)     | rectifiable                                             |                                   |                            |                                    |
-| [Q7303265](https://www.wikidata.org/wiki/Q7303265)     |                                                         | recurrent sequence                |                            |
-| [Q740970](https://www.wikidata.org/wiki/Q740970)       |                                                         |                                   |                            | recursion                          |
-| [Q7306331](https://www.wikidata.org/wiki/Q7306331)     | reduced homology group                                  |                                   |                            |
-| [Q121769](https://www.wikidata.org/wiki/Q121769)       |                                                         |                                   |                            | reference                          |
-| [Q55631370](https://www.wikidata.org/wiki/Q55631370)   | refinement                                              |                                   |                            | refinement                         |
-| [Q426221](https://www.wikidata.org/wiki/Q426221)       |                                                         |                                   |                            | reflector                          |
-| [Q120429](https://www.wikidata.org/wiki/Q120429)       |                                                         |                                   |                            | reflexion                          |
-| [Q621850](https://www.wikidata.org/wiki/Q621850)       | reflexive                                               |                                   |                            |                                    |
-| [Q2032198](https://www.wikidata.org/wiki/Q2032198)     |                                                         |                                   |                            | reflexive space                    |
-| [Q21072833](https://www.wikidata.org/wiki/Q21072833)   |                                                         |                                   |                            | reflexivity                        |
-| [Q1428110](https://www.wikidata.org/wiki/Q1428110)     | regular                                                 |                                   |                            |                                    |
-| [Q1193137](https://www.wikidata.org/wiki/Q1193137)     |                                                         |                                   |                            | regular cardinal                   |
-| [Q2844249](https://www.wikidata.org/wiki/Q2844249)     |                                                         |                                   |                            | regular category                   |
-| [Q7309599](https://www.wikidata.org/wiki/Q7309599)     |                                                         |                                   |                            | regular extension                  |
-| [Q714886](https://www.wikidata.org/wiki/Q714886)       |                                                         | regular polygons                  |                            |
-| [Q408620](https://www.wikidata.org/wiki/Q408620)       |                                                         |                                   |                            | regularity                         |
-| [Q7276347](https://www.wikidata.org/wiki/Q7276347)     |                                                         |                                   |                            | rel                                |
-| [Q62075492](https://www.wikidata.org/wiki/Q62075492)   |                                                         |                                   |                            | relationship                       |
-| [Q1176086](https://www.wikidata.org/wiki/Q1176086)     |                                                         |                                   |                            | relative                           |
-| [Q55643339](https://www.wikidata.org/wiki/Q55643339)   | relative cycle                                          |                                   |                            |
-| [Q255166](https://www.wikidata.org/wiki/Q255166)       |                                                         |                                   |                            | relative entropy                   |
-| [Q1959911](https://www.wikidata.org/wiki/Q1959911)     | relative homology groups                                |                                   |                            |
-| [Q1074648](https://www.wikidata.org/wiki/Q1074648)     |                                                         |                                   |                            | relevance                          |
-| [Q846677](https://www.wikidata.org/wiki/Q846677)       |                                                         |                                   | remainder                  |                                    |
-| [Q1496085](https://www.wikidata.org/wiki/Q1496085)     |                                                         |                                   | remark                     |                                    |
-| [Q7314193](https://www.wikidata.org/wiki/Q7314193)     |                                                         |                                   |                            | representability                   |
-| [Q386320](https://www.wikidata.org/wiki/Q386320)       |                                                         |                                   |                            | representable functor              |
-| [Q2905654](https://www.wikidata.org/wiki/Q2905654)     |                                                         |                                   | representation             | representation                     |
-| [Q13220368](https://www.wikidata.org/wiki/Q13220368)   |                                                         |                                   |                            | representation theory              |
-| [Q3427349](https://www.wikidata.org/wiki/Q3427349)     |                                                         |                                   |                            | representative                     |
-| [Q774228](https://www.wikidata.org/wiki/Q774228)       |                                                         |                                   |                            | requirement                        |
-| [Q753375](https://www.wikidata.org/wiki/Q753375)       |                                                         |                                   | residue                    |                                    |
-| [Q830513](https://www.wikidata.org/wiki/Q830513)       |                                                         | residue theorem                   |                            |
-| [Q5321](https://www.wikidata.org/wiki/Q5321)           |                                                         |                                   |                            | resistor                           |
-| [Q6593274](https://www.wikidata.org/wiki/Q6593274)     |                                                         |                                   |                            | resolution                         |
-| [Q28510](https://www.wikidata.org/wiki/Q28510)         |                                                         |                                   | respect                    | respect                            |
-| [Q1308999](https://www.wikidata.org/wiki/Q1308999)     |                                                         |                                   |                            | restriction                        |
-| [Q2995644](https://www.wikidata.org/wiki/Q2995644)     |                                                         |                                   | result                     | result                             |
-| [Q17103180](https://www.wikidata.org/wiki/Q17103180)   |                                                         |                                   |                            | retract                            |
-| [Q265158](https://www.wikidata.org/wiki/Q265158)       |                                                         |                                   |                            | review                             |
-| [Q3428811](https://www.wikidata.org/wiki/Q3428811)     |                                                         |                                   |                            | rewrite                            |
-| [Q17121801](https://www.wikidata.org/wiki/Q17121801)   |                                                         |                                   |                            | ribbon                             |
-| [Q697181](https://www.wikidata.org/wiki/Q697181)       | riemann integrable                                      |                                   |                            |
-| [Q825857](https://www.wikidata.org/wiki/Q825857)       | riemann sphere                                          |                                   |                            |
-| [Q1187640](https://www.wikidata.org/wiki/Q1187640)     |                                                         | riemann-lebesgue lemma            |
-| [Q1357684](https://www.wikidata.org/wiki/Q1357684)     |                                                         | riesz representation theorem      |
-| [Q1333055](https://www.wikidata.org/wiki/Q1333055)     |                                                         |                                   |                            | rig                                |
-| [Q780687](https://www.wikidata.org/wiki/Q780687)       |                                                         |                                   | right                      | right                              |
-| [Q7333591](https://www.wikidata.org/wiki/Q7333591)     |                                                         |                                   |                            | right action                       |
-| [Q751969](https://www.wikidata.org/wiki/Q751969)       | right coset                                             |                                   |                            |                                    |
-| [Q381725](https://www.wikidata.org/wiki/Q381725)       |                                                         |                                   |                            | right exact functor                |
-| [Q161172](https://www.wikidata.org/wiki/Q161172)       | ring                                                    | ring                              | ring                       | ring                               |
-| [Q1194212](https://www.wikidata.org/wiki/Q1194212)     | ring homomorphism                                       | ring morphism                     |                            |
-| [Q110571247](https://www.wikidata.org/wiki/Q110571247) | ring norm                                               |                                   |                            |                                    |
-| [Q2064647](https://www.wikidata.org/wiki/Q2064647)     | ring of subsets                                         |                                   |                            |
-| [Q1208658](https://www.wikidata.org/wiki/Q1208658)     |                                                         |                                   |                            | ring theory                        |
-| [Q413593](https://www.wikidata.org/wiki/Q413593)       |                                                         |                                   |                            | rise                               |
-| [Q17102802](https://www.wikidata.org/wiki/Q17102802)   | rng                                                     |                                   |                            |                                    |
-| [Q214339](https://www.wikidata.org/wiki/Q214339)       |                                                         |                                   | role                       | role                               |
-| [Q193286](https://www.wikidata.org/wiki/Q193286)       |                                                         | rolle's theorem                   |                            |
-| [Q351030](https://www.wikidata.org/wiki/Q351030)       |                                                         |                                   | root                       |                                    |
-| [Q848368](https://www.wikidata.org/wiki/Q848368)       |                                                         |                                   |                            | rotation                           |
-| [Q609566](https://www.wikidata.org/wiki/Q609566)       | row operations                                          | elementary row operations         |
-| [Q230037](https://www.wikidata.org/wiki/Q230037)       |                                                         |                                   |                            | rule                               |
-| [Q557624](https://www.wikidata.org/wiki/Q557624)       | rule of product                                         |                                   |                            |
-| [Q2360148](https://www.wikidata.org/wiki/Q2360148)     | rule of sum                                             |                                   |                            |                                    |
-| [Q2997763](https://www.wikidata.org/wiki/Q2997763)     |                                                         | rupture field                     |                            |
-| [Q3255006](https://www.wikidata.org/wiki/Q3255006)     |                                                         |                                   |                            | same time                          |
-| [Q1289248](https://www.wikidata.org/wiki/Q1289248)     |                                                         |                                   |                            | scalar                             |
-| [Q126736](https://www.wikidata.org/wiki/Q126736)       |                                                         |                                   | scalar multiple            |
-| [Q1155772](https://www.wikidata.org/wiki/Q1155772)     |                                                         |                                   |                            | scheme                             |
-| [Q4298935](https://www.wikidata.org/wiki/Q4298935)     | schur polynomials                                       |                                   |                            |
-| [Q1369621](https://www.wikidata.org/wiki/Q1369621)     | schwartz space                                          |                                   |                            |
-| [Q336](https://www.wikidata.org/wiki/Q336)             |                                                         |                                   |                            | science                            |
-| [Q895815](https://www.wikidata.org/wiki/Q895815)       |                                                         |                                   |                            | scott topology                     |
-| [Q1267283](https://www.wikidata.org/wiki/Q1267283)     |                                                         |                                   |                            | search                             |
-| [Q11574](https://www.wikidata.org/wiki/Q11574)         |                                                         |                                   |                            | second                             |
-| [Q1363919](https://www.wikidata.org/wiki/Q1363919)     | second-countable                                        |                                   |                            |
-| [Q189171](https://www.wikidata.org/wiki/Q189171)       |                                                         |                                   |                            | section                            |
-| [Q3236990](https://www.wikidata.org/wiki/Q3236990)     |                                                         |                                   | self                       | self                               |
-| [Q7448009](https://www.wikidata.org/wiki/Q7448009)     | self-adjoint                                            |                                   | self-adjoint               |                                    |
-| [Q39645](https://www.wikidata.org/wiki/Q39645)         |                                                         |                                   |                            | semantic                           |
-| [Q7449101](https://www.wikidata.org/wiki/Q7449101)     | semantic notion of truth                                |                                   |                            |
-| [Q30715304](https://www.wikidata.org/wiki/Q30715304)   |                                                         |                                   |                            | semi-abelian category              |
-| [Q7449310](https://www.wikidata.org/wiki/Q7449310)     | semi-locally simply connected                           |                                   |
-| [Q2851437](https://www.wikidata.org/wiki/Q2851437)     |                                                         |                                   |                            | semi-simple algebra                |
-| [Q291126](https://www.wikidata.org/wiki/Q291126)       | semidirect product                                      |                                   | semidirect                 |
-| [Q207348](https://www.wikidata.org/wiki/Q207348)       | semigroup                                               |                                   |                            | semigroup                          |
-| [Q834585](https://www.wikidata.org/wiki/Q834585)       |                                                         |                                   |                            | semilattice                        |
-| [Q765289](https://www.wikidata.org/wiki/Q765289)       |                                                         |                                   |                            | semiprime                          |
-| [Q2269249](https://www.wikidata.org/wiki/Q2269249)     |                                                         |                                   |                            | semiprime ring                     |
-| [Q2366896](https://www.wikidata.org/wiki/Q2366896)     | semisimple lie algebra                                  |                                   |                            |
-| [Q1485102](https://www.wikidata.org/wiki/Q1485102)     | semisimple module                                       |                                   |                            |
-| [Q173253](https://www.wikidata.org/wiki/Q173253)       |                                                         |                                   |                            | sense                              |
-| [Q680081](https://www.wikidata.org/wiki/Q680081)       | separable                                               |                                   |                            |                                    |
-| [Q1194912](https://www.wikidata.org/wiki/Q1194912)     |                                                         |                                   |                            | separable                          |
-| [Q360590](https://www.wikidata.org/wiki/Q360590)       |                                                         |                                   | separation                 | separation                         |
-| [Q261636](https://www.wikidata.org/wiki/Q261636)       |                                                         |                                   |                            | sequel                             |
-| [Q133250](https://www.wikidata.org/wiki/Q133250)       |                                                         |                                   | sequence                   | sequence                           |
-| [Q2996364](https://www.wikidata.org/wiki/Q2996364)     | sequence convergence                                    |                                   |                            |
-| [Q1135427](https://www.wikidata.org/wiki/Q1135427)     | sequentially compact                                    |                                   |                            |
-| [Q170198](https://www.wikidata.org/wiki/Q170198)       |                                                         |                                   | series                     | series                             |
-| [Q36161](https://www.wikidata.org/wiki/Q36161)         |                                                         |                                   | set                        | set                                |
-| [Q12482](https://www.wikidata.org/wiki/Q12482)         |                                                         |                                   |                            | set theory                         |
-| [Q351657](https://www.wikidata.org/wiki/Q351657)       |                                                         |                                   |                            | setting                            |
-| [Q207961](https://www.wikidata.org/wiki/Q207961)       |                                                         |                                   |                            | shape                              |
-| [Q224038](https://www.wikidata.org/wiki/Q224038)       |                                                         |                                   |                            | shell                              |
-| [Q2713824](https://www.wikidata.org/wiki/Q2713824)     |                                                         |                                   |                            | short map                          |
-| [Q1930567](https://www.wikidata.org/wiki/Q1930567)     |                                                         |                                   |                            | shuffle                            |
-| [Q188637](https://www.wikidata.org/wiki/Q188637)       |                                                         | si                                |                            |                                    |
-| [Q395237](https://www.wikidata.org/wiki/Q395237)       |                                                         |                                   | side                       | side                               |
-| [Q1064405](https://www.wikidata.org/wiki/Q1064405)     | sign of permutation                                     |                                   |                            |
-| [Q174984](https://www.wikidata.org/wiki/Q174984)       |                                                         |                                   |                            | signal                             |
-| [Q298582](https://www.wikidata.org/wiki/Q298582)       |                                                         | signature                         |                            | signature                          |
-| [Q1764371](https://www.wikidata.org/wiki/Q1764371)     | signed measure                                          |                                   |                            |
-| [Q254390](https://www.wikidata.org/wiki/Q254390)       |                                                         |                                   |                            | similarity                         |
-| [Q1405695](https://www.wikidata.org/wiki/Q1405695)     |                                                         |                                   |                            | simple algebra                     |
-| [Q913022](https://www.wikidata.org/wiki/Q913022)       | simple function                                         |                                   |                            |
-| [Q571124](https://www.wikidata.org/wiki/Q571124)       | simple group                                            |                                   |                            |
-| [Q85801231](https://www.wikidata.org/wiki/Q85801231)   | simple lie algebra                                      |                                   |                            |
-| [Q956233](https://www.wikidata.org/wiki/Q956233)       | simple module                                           |                                   |                            |
-| [Q994399](https://www.wikidata.org/wiki/Q994399)       | simplicial complex                                      |                                   |                            |
-| [Q16976808](https://www.wikidata.org/wiki/Q16976808)   |                                                         |                                   |                            | simplicial group                   |
-| [Q16911578](https://www.wikidata.org/wiki/Q16911578)   |                                                         |                                   |                            | simplicial groupoid                |
-| [Q7520902](https://www.wikidata.org/wiki/Q7520902)     | simplicial homology group                               |                                   |
-| [Q7520928](https://www.wikidata.org/wiki/Q7520928)     |                                                         |                                   |                            | simplification                     |
-| [Q912058](https://www.wikidata.org/wiki/Q912058)       | simply connected                                        |                                   |                            |
-| [Q60227](https://www.wikidata.org/wiki/Q60227)         |                                                         | sin                               |                            |                                    |
-| [Q1095056](https://www.wikidata.org/wiki/Q1095056)     | singular complex                                        |                                   | singular chain complex     |
-| [Q1824450](https://www.wikidata.org/wiki/Q1824450)     | singular measure                                        |                                   |                            |
-| [Q420904](https://www.wikidata.org/wiki/Q420904)       |                                                         | singular value decomposition      |
-| [Q863349](https://www.wikidata.org/wiki/Q863349)       |                                                         |                                   | singularity                |                                    |
-| [Q1062242](https://www.wikidata.org/wiki/Q1062242)     |                                                         |                                   |                            | site                               |
-| [Q342306](https://www.wikidata.org/wiki/Q342306)       |                                                         |                                   |                            | situation                          |
-| [Q322481](https://www.wikidata.org/wiki/Q322481)       |                                                         |                                   |                            | size                               |
-| [Q2291918](https://www.wikidata.org/wiki/Q2291918)     | skeleton of a category                                  |                                   |                            |
-| [Q7534724](https://www.wikidata.org/wiki/Q7534724)     |                                                         |                                   |                            | sketch                             |
-| [Q358349](https://www.wikidata.org/wiki/Q358349)       |                                                         |                                   |                            | skew                               |
-| [Q419057](https://www.wikidata.org/wiki/Q419057)       |                                                         |                                   |                            | slice                              |
-| [Q27792031](https://www.wikidata.org/wiki/Q27792031)   |                                                         |                                   | small ball                 |                                    |
-| [Q19619110](https://www.wikidata.org/wiki/Q19619110)   | small category                                          |                                   |                            |
-| [Q7543576](https://www.wikidata.org/wiki/Q7543576)     |                                                         |                                   |                            | small set                          |
-| [Q254250](https://www.wikidata.org/wiki/Q254250)       |                                                         |                                   |                            | smash                              |
-| [Q2295009](https://www.wikidata.org/wiki/Q2295009)     |                                                         |                                   |                            | smash product                      |
-| [Q868473](https://www.wikidata.org/wiki/Q868473)       | smooth                                                  | c^k function                      |                            | smoothness                         |
-| [Q78338964](https://www.wikidata.org/wiki/Q78338964)   | smooth topological m-dimensional manifold with boundary |
-| [Q308841](https://www.wikidata.org/wiki/Q308841)       |                                                         |                                   |                            | snail                              |
-| [Q2102](https://www.wikidata.org/wiki/Q2102)           |                                                         |                                   |                            | snake                              |
-| [Q1064342](https://www.wikidata.org/wiki/Q1064342)     |                                                         |                                   |                            | snake lemma                        |
-| [Q1791388](https://www.wikidata.org/wiki/Q1791388)     |                                                         |                                   |                            | sobriety                           |
-| [Q1879820](https://www.wikidata.org/wiki/Q1879820)     |                                                         |                                   | solution                   | solution                           |
-| [Q759832](https://www.wikidata.org/wiki/Q759832)       | solvable group                                          |                                   |                            |
-| [Q7558992](https://www.wikidata.org/wiki/Q7558992)     | solvable lie algebra                                    |                                   |                            |
-| [Q347599](https://www.wikidata.org/wiki/Q347599)       |                                                         |                                   |                            | sort                               |
-| [Q11461](https://www.wikidata.org/wiki/Q11461)         |                                                         |                                   |                            | sound                              |
-| [Q693083](https://www.wikidata.org/wiki/Q693083)       |                                                         |                                   |                            | soundness                          |
-| [Q224772](https://www.wikidata.org/wiki/Q224772)       |                                                         |                                   |                            | source                             |
-| [Q472971](https://www.wikidata.org/wiki/Q472971)       |                                                         |                                   | space                      | space                              |
-| [Q209812](https://www.wikidata.org/wiki/Q209812)       | span                                                    |                                   |                            | span                               |
-| [Q7573622](https://www.wikidata.org/wiki/Q7573622)     |                                                         |                                   |                            | spark                              |
-| [Q7574439](https://www.wikidata.org/wiki/Q7574439)     | specht module                                           |                                   |                            |
-| [Q2890061](https://www.wikidata.org/wiki/Q2890061)     |                                                         |                                   |                            | special case                       |
-| [Q7574831](https://www.wikidata.org/wiki/Q7574831)     | special linear algebra                                  |                                   |                            |
-| [Q2140900](https://www.wikidata.org/wiki/Q2140900)     | special linear group                                    | special linear group              |                            |
-| [Q3117934](https://www.wikidata.org/wiki/Q3117934)     | special orthogonal group                                |                                   |                            |
-| [Q684363](https://www.wikidata.org/wiki/Q684363)       | special unitary group                                   | special unitary group             |                            |
-| [Q1838004](https://www.wikidata.org/wiki/Q1838004)     |                                                         |                                   |                            | specialization                     |
-| [Q7574949](https://www.wikidata.org/wiki/Q7574949)     |                                                         |                                   |                            | specie                             |
-| [Q2101564](https://www.wikidata.org/wiki/Q2101564)     |                                                         |                                   |                            | specification                      |
-| [Q7575154](https://www.wikidata.org/wiki/Q7575154)     |                                                         |                                   |                            | spectra                            |
-| [Q7575210](https://www.wikidata.org/wiki/Q7575210)     |                                                         |                                   |                            | spectral space                     |
-| [Q1154351](https://www.wikidata.org/wiki/Q1154351)     | spectrum                                                |                                   |                            |                                    |
-| [Q6640640](https://www.wikidata.org/wiki/Q6640640)     |                                                         |                                   |                            | spectrum                           |
-| [Q12507](https://www.wikidata.org/wiki/Q12507)         |                                                         |                                   |                            | sphere                             |
-| [Q229949](https://www.wikidata.org/wiki/Q229949)       |                                                         |                                   |                            | spin                               |
-| [Q193291](https://www.wikidata.org/wiki/Q193291)       |                                                         |                                   |                            | spirit                             |
-| [Q2757856](https://www.wikidata.org/wiki/Q2757856)     |                                                         |                                   |                            | split                              |
-| [Q3041173](https://www.wikidata.org/wiki/Q3041173)     |                                                         |                                   |                            | split extension                    |
-| [Q1270054](https://www.wikidata.org/wiki/Q1270054)     |                                                         |                                   |                            | splitting                          |
-| [Q1996100](https://www.wikidata.org/wiki/Q1996100)     |                                                         | splitting field                   |                            |
-| [Q1510102](https://www.wikidata.org/wiki/Q1510102)     |                                                         |                                   |                            | spread                             |
-| [Q164](https://www.wikidata.org/wiki/Q164)             |                                                         |                                   | square                     | square                             |
-| [Q134237](https://www.wikidata.org/wiki/Q134237)       |                                                         |                                   | square root                |                                    |
-| [Q1756677](https://www.wikidata.org/wiki/Q1756677)     |                                                         | stability                         |                            | stability                          |
-| [Q7575269](https://www.wikidata.org/wiki/Q7575269)     |                                                         |                                   |                            | stable homotopy category           |
-| [Q7595767](https://www.wikidata.org/wiki/Q7595767)     |                                                         |                                   |                            | stable homotopy theory             |
-| [Q7595945](https://www.wikidata.org/wiki/Q7595945)     |                                                         |                                   |                            | stack                              |
-| [Q15629907](https://www.wikidata.org/wiki/Q15629907)   |                                                         |                                   | standard topology          |
-| [Q523](https://www.wikidata.org/wiki/Q523)             |                                                         |                                   |                            | star                               |
-| [Q15622206](https://www.wikidata.org/wiki/Q15622206)   |                                                         |                                   |                            | state                              |
-| [Q230930](https://www.wikidata.org/wiki/Q230930)       |                                                         |                                   |                            | state space                        |
-| [Q1456029](https://www.wikidata.org/wiki/Q1456029)     |                                                         |                                   | statement                  | statement                          |
-| [Q5788637](https://www.wikidata.org/wiki/Q5788637)     |                                                         |                                   |                            | steady state                       |
-| [Q594799](https://www.wikidata.org/wiki/Q594799)       |                                                         |                                   | step                       | step                               |
-| [Q2601117](https://www.wikidata.org/wiki/Q2601117)     | stirling numbers of the second kind                     |                                   |
-| [Q7619060](https://www.wikidata.org/wiki/Q7619060)     |                                                         |                                   |                            | stone duality                      |
-| [Q30587585](https://www.wikidata.org/wiki/Q30587585)   |                                                         |                                   |                            | stone space                        |
-| [Q13108060](https://www.wikidata.org/wiki/Q13108060)   |                                                         |                                   |                            | storage                            |
-| [Q185451](https://www.wikidata.org/wiki/Q185451)       |                                                         |                                   |                            | strategy                           |
-| [Q7825045](https://www.wikidata.org/wiki/Q7825045)     |                                                         |                                   |                            | stratified manifold                |
-| [Q1989404](https://www.wikidata.org/wiki/Q1989404)     |                                                         |                                   |                            | strength                           |
-| [Q226673](https://www.wikidata.org/wiki/Q226673)       |                                                         |                                   |                            | string                             |
-| [Q7623974](https://www.wikidata.org/wiki/Q7623974)     |                                                         |                                   |                            | string diagram                     |
-| [Q7977944](https://www.wikidata.org/wiki/Q7977944)     |                                                         |                                   |                            | strong equivalence                 |
-| [Q48971638](https://www.wikidata.org/wiki/Q48971638)   |                                                         |                                   |                            | strong monomorphism                |
-| [Q748349](https://www.wikidata.org/wiki/Q748349)       |                                                         |                                   | structure                  | structure                          |
-| [Q7625098](https://www.wikidata.org/wiki/Q7625098)     | structure constants                                     |                                   |                            |
-| [Q340383](https://www.wikidata.org/wiki/Q340383)       |                                                         |                                   |                            | study                              |
-| [Q402577](https://www.wikidata.org/wiki/Q402577)       |                                                         |                                   |                            | stuff                              |
-| [Q224350](https://www.wikidata.org/wiki/Q224350)       |                                                         |                                   |                            | style                              |
-| [Q438656](https://www.wikidata.org/wiki/Q438656)       |                                                         |                                   |                            | sub                                |
-| [Q629933](https://www.wikidata.org/wiki/Q629933)       | subalgebra                                              |                                   |                            |                                    |
-| [Q2739990](https://www.wikidata.org/wiki/Q2739990)     | subbasis                                                |                                   | subbasis                   |                                    |
-| [Q541563](https://www.wikidata.org/wiki/Q541563)       |                                                         |                                   |                            | subcategory                        |
-| [Q421980](https://www.wikidata.org/wiki/Q421980)       |                                                         |                                   |                            | subclass                           |
-| [Q577835](https://www.wikidata.org/wiki/Q577835)       |                                                         | subfield                          |                            |                                    |
-| [Q7631151](https://www.wikidata.org/wiki/Q7631151)     | subgraph                                                |                                   |                            |                                    |
-| [Q466109](https://www.wikidata.org/wiki/Q466109)       | subgroup                                                | subgroup                          | subgroup                   | subgroup                           |
-| [Q2202182](https://www.wikidata.org/wiki/Q2202182)     |                                                         |                                   |                            | subject                            |
-| [Q2498094](https://www.wikidata.org/wiki/Q2498094)     | submodule                                               |                                   |                            |                                    |
-| [Q360830](https://www.wikidata.org/wiki/Q360830)       | subnormal series                                        |                                   |                            |
-| [Q2547089](https://www.wikidata.org/wiki/Q2547089)     |                                                         |                                   |                            | subobject                          |
-| [Q7631737](https://www.wikidata.org/wiki/Q7631737)     |                                                         |                                   |                            | subobject classifier               |
-| [Q55648664](https://www.wikidata.org/wiki/Q55648664)   | subrepresentation                                       |                                   |                            |
-| [Q1332977](https://www.wikidata.org/wiki/Q1332977)     |                                                         |                                   | subsequence                |
-| [Q177646](https://www.wikidata.org/wiki/Q177646)       |                                                         |                                   | subset                     | subset                             |
-| [Q52314](https://www.wikidata.org/wiki/Q52314)         |                                                         |                                   | subspace                   | subspace                           |
-| [Q660730](https://www.wikidata.org/wiki/Q660730)       | subspace topology                                       |                                   |                            |
-| [Q648995](https://www.wikidata.org/wiki/Q648995)       |                                                         |                                   |                            | subvariety                         |
-| [Q218005](https://www.wikidata.org/wiki/Q218005)       |                                                         |                                   | sum                        | sum                                |
-| [Q348502](https://www.wikidata.org/wiki/Q348502)       |                                                         |                                   |                            | sup                                |
-| [Q3977654](https://www.wikidata.org/wiki/Q3977654)     |                                                         |                                   |                            | superalgebra                       |
-| [Q3611545](https://www.wikidata.org/wiki/Q3611545)     |                                                         |                                   |                            | supercommutative algebra           |
-| [Q1136376](https://www.wikidata.org/wiki/Q1136376)     | support                                                 | support of a distribution         | support                    |
-| [Q484298](https://www.wikidata.org/wiki/Q484298)       | surface                                                 |                                   |                            | closed surface                     |
-| [Q3505239](https://www.wikidata.org/wiki/Q3505239)     |                                                         |                                   |                            | surface                            |
-| [Q229102](https://www.wikidata.org/wiki/Q229102)       | surjective                                              |                                   |                            | surjection                         |
-| [Q1510180](https://www.wikidata.org/wiki/Q1510180)     |                                                         |                                   |                            | survey                             |
-| [Q1307987](https://www.wikidata.org/wiki/Q1307987)     | suspension                                              |                                   |                            | suspension                         |
-| [Q78269866](https://www.wikidata.org/wiki/Q78269866)   | sylow p-subgroup                                        |                                   |                            |
-| [Q1752621](https://www.wikidata.org/wiki/Q1752621)     |                                                         | sylvester's law of inertia        |                            |
-| [Q621461](https://www.wikidata.org/wiki/Q621461)       | symmetric                                               |                                   |                            |                                    |
-| [Q2100018](https://www.wikidata.org/wiki/Q2100018)     |                                                         | symmetric bilinear form           |                            |
-| [Q3773126](https://www.wikidata.org/wiki/Q3773126)     | symmetric derivative                                    |                                   |                            |
-| [Q1147242](https://www.wikidata.org/wiki/Q1147242)     | symmetric difference                                    |                                   |                            |
-| [Q849512](https://www.wikidata.org/wiki/Q849512)       | symmetric group                                         |                                   |                            |
-| [Q17103860](https://www.wikidata.org/wiki/Q17103860)   |                                                         |                                   |                            | symmetric monoidal category        |
-| [Q930499](https://www.wikidata.org/wiki/Q930499)       |                                                         | symmetric polynomial              |                            |
-| [Q55643402](https://www.wikidata.org/wiki/Q55643402)   | symmetric power of vector spaces                        |                                   |
-| [Q60767281](https://www.wikidata.org/wiki/Q60767281)   |                                                         |                                   |                            | symmetric sequence                 |
-| [Q2431134](https://www.wikidata.org/wiki/Q2431134)     |                                                         |                                   |                            | symmetry                           |
-| [Q7662747](https://www.wikidata.org/wiki/Q7662747)     |                                                         |                                   |                            | synthetic differential geometry    |
-| [Q58778](https://www.wikidata.org/wiki/Q58778)         |                                                         |                                   |                            | system                             |
-| [Q1148924](https://www.wikidata.org/wiki/Q1148924)     | t0 space                                                |                                   |                            |                                    |
-| [Q284347](https://www.wikidata.org/wiki/Q284347)       | t1 space                                                |                                   |                            |                                    |
-| [Q131251](https://www.wikidata.org/wiki/Q131251)       |                                                         |                                   |                            | tangent                            |
-| [Q746550](https://www.wikidata.org/wiki/Q746550)       |                                                         |                                   |                            | tangent bundle                     |
-| [Q909601](https://www.wikidata.org/wiki/Q909601)       | tangent space                                           | tangent space                     |                            |
-| [Q7683003](https://www.wikidata.org/wiki/Q7683003)     |                                                         |                                   |                            | tangle                             |
-| [Q230479](https://www.wikidata.org/wiki/Q230479)       |                                                         |                                   |                            | target                             |
-| [Q16521](https://www.wikidata.org/wiki/Q16521)         |                                                         |                                   |                            | taxon                              |
-| [Q7689676](https://www.wikidata.org/wiki/Q7689676)     |                                                         |                                   |                            | taxonomy                           |
-| [Q131187](https://www.wikidata.org/wiki/Q131187)       |                                                         | taylor series expansion           |                            |
-| [Q1137206](https://www.wikidata.org/wiki/Q1137206)     |                                                         | taylor's theorem                  |                            |
-| [Q211857](https://www.wikidata.org/wiki/Q211857)       |                                                         |                                   |                            | technique                          |
-| [Q3030799](https://www.wikidata.org/wiki/Q3030799)     |                                                         | tempered distribution             |                            |
-| [Q438331](https://www.wikidata.org/wiki/Q438331)       |                                                         |                                   |                            | template                           |
-| [Q188524](https://www.wikidata.org/wiki/Q188524)       |                                                         |                                   |                            | tensor                             |
-| [Q1945014](https://www.wikidata.org/wiki/Q1945014)     |                                                         |                                   |                            | tensor category                    |
-| [Q1163016](https://www.wikidata.org/wiki/Q1163016)     |                                                         |                                   |                            | tensor product                     |
-| [Q48995828](https://www.wikidata.org/wiki/Q48995828)   | tensor product of group representations                 |
-| [Q3406761](https://www.wikidata.org/wiki/Q3406761)     | tensor product of vector spaces                         |                                   |
-| [Q1318370](https://www.wikidata.org/wiki/Q1318370)     |                                                         |                                   | term                       | term                               |
-| [Q210481](https://www.wikidata.org/wiki/Q210481)       |                                                         |                                   |                            | terminal                           |
-| [Q1725664](https://www.wikidata.org/wiki/Q1725664)     |                                                         |                                   |                            | terminology                        |
-| [Q224615](https://www.wikidata.org/wiki/Q224615)       |                                                         |                                   | test                       | test                               |
-| [Q1689278](https://www.wikidata.org/wiki/Q1689278)     |                                                         |                                   | text                       | text                               |
-| [Q17737](https://www.wikidata.org/wiki/Q17737)         |                                                         |                                   |                            | theorist                           |
-| [Q17988630](https://www.wikidata.org/wiki/Q17988630)   |                                                         |                                   | theory                     | theory                             |
-| [Q1266946](https://www.wikidata.org/wiki/Q1266946)     |                                                         |                                   |                            | thesis                             |
-| [Q12452291](https://www.wikidata.org/wiki/Q12452291)   |                                                         |                                   |                            | thing                              |
-| [Q7801637](https://www.wikidata.org/wiki/Q7801637)     |                                                         |                                   |                            | tight span                         |
-| [Q214856](https://www.wikidata.org/wiki/Q214856)       |                                                         |                                   |                            | tiling                             |
-| [Q7803018](https://www.wikidata.org/wiki/Q7803018)     |                                                         |                                   |                            | tilting                            |
-| [Q11471](https://www.wikidata.org/wiki/Q11471)         |                                                         |                                   | time                       | time                               |
-| [Q216353](https://www.wikidata.org/wiki/Q216353)       |                                                         |                                   |                            | title                              |
-| [Q39546](https://www.wikidata.org/wiki/Q39546)         |                                                         |                                   |                            | tool                               |
-| [Q2443272](https://www.wikidata.org/wiki/Q2443272)     |                                                         |                                   |                            | topic                              |
-| [Q356743](https://www.wikidata.org/wiki/Q356743)       |                                                         |                                   |                            | topo                               |
-| [Q7825020](https://www.wikidata.org/wiki/Q7825020)     |                                                         |                                   |                            | topological abelian group          |
-| [Q810214](https://www.wikidata.org/wiki/Q810214)       | topological basis                                       | countable base                    |
-| [Q7825025](https://www.wikidata.org/wiki/Q7825025)     |                                                         |                                   |                            | topological complexity             |
-| [Q10260753](https://www.wikidata.org/wiki/Q10260753)   | topological field                                       |                                   |                            |
-| [Q7825035](https://www.wikidata.org/wiki/Q7825035)     | topological game                                        |                                   |                            |
-| [Q1046291](https://www.wikidata.org/wiki/Q1046291)     | topological group                                       |                                   | topological group          |
-| [Q721094](https://www.wikidata.org/wiki/Q721094)       |                                                         |                                   |                            | topological quantum field theory   |
-| [Q922339](https://www.wikidata.org/wiki/Q922339)       | topological ring                                        |                                   |                            |
-| [Q179899](https://www.wikidata.org/wiki/Q179899)       | topological space                                       |                                   | topological space          |
-| [Q1455249](https://www.wikidata.org/wiki/Q1455249)     |                                                         |                                   |                            | topological vector space           |
-| [Q42989](https://www.wikidata.org/wiki/Q42989)         |                                                         |                                   | topology                   | topology                           |
-| [Q5282259](https://www.wikidata.org/wiki/Q5282259)     | topology of the union                                   |                                   |                            |
-| [Q2143621](https://www.wikidata.org/wiki/Q2143621)     |                                                         |                                   |                            | topos                              |
-| [Q355152](https://www.wikidata.org/wiki/Q355152)       |                                                         |                                   |                            | torsion                            |
-| [Q7827200](https://www.wikidata.org/wiki/Q7827200)     | torsion free module                                     |                                   |                            |
-| [Q2293759](https://www.wikidata.org/wiki/Q2293759)     | torsion subgroup                                        |                                   |                            |
-| [Q3755543](https://www.wikidata.org/wiki/Q3755543)     |                                                         |                                   |                            | torsor                             |
-| [Q1936288](https://www.wikidata.org/wiki/Q1936288)     | total variation                                         |                                   |                            |
-| [Q1362228](https://www.wikidata.org/wiki/Q1362228)     | totally bounded                                         |                                   |                            |
-| [Q1544261](https://www.wikidata.org/wiki/Q1544261)     | totally disconnected                                    |                                   |                            |
-| [Q7829620](https://www.wikidata.org/wiki/Q7829620)     |                                                         |                                   |                            | tower                              |
-| [Q321102](https://www.wikidata.org/wiki/Q321102)       | trace                                                   |                                   |                            | trace                              |
-| [Q351303](https://www.wikidata.org/wiki/Q351303)       |                                                         |                                   |                            | track                              |
-| [Q12202238](https://www.wikidata.org/wiki/Q12202238)   |                                                         |                                   |                            | transform                          |
-| [Q405416](https://www.wikidata.org/wiki/Q405416)       |                                                         |                                   |                            | transition                         |
-| [Q176468](https://www.wikidata.org/wiki/Q176468)       |                                                         |                                   |                            | transition system                  |
-| [Q64861](https://www.wikidata.org/wiki/Q64861)         | transitive                                              |                                   |                            |                                    |
-| [Q211459](https://www.wikidata.org/wiki/Q211459)       |                                                         |                                   |                            | translation                        |
-| [Q7590](https://www.wikidata.org/wiki/Q7590)           |                                                         |                                   |                            | transport                          |
-| [Q2666112](https://www.wikidata.org/wiki/Q2666112)     | transposition                                           |                                   |                            |
-| [Q347910](https://www.wikidata.org/wiki/Q347910)       |                                                         |                                   |                            | treatment                          |
-| [Q272735](https://www.wikidata.org/wiki/Q272735)       | tree                                                    |                                   |                            | tree                               |
-| [Q19821](https://www.wikidata.org/wiki/Q19821)         |                                                         |                                   | triangle                   | triangle                           |
-| [Q208216](https://www.wikidata.org/wiki/Q208216)       |                                                         |                                   | triangle inequality        |
-| [Q188056](https://www.wikidata.org/wiki/Q188056)       |                                                         |                                   |                            | triangulation                      |
-| [Q16958581](https://www.wikidata.org/wiki/Q16958581)   |                                                         |                                   |                            | tricategory                        |
-| [Q93344](https://www.wikidata.org/wiki/Q93344)         |                                                         | trigonometric function            |                            |
-| [Q600590](https://www.wikidata.org/wiki/Q600590)       |                                                         |                                   |                            | triple                             |
-| [Q7844662](https://www.wikidata.org/wiki/Q7844662)     | trivial group representation                            |                                   |
-| [Q1080547](https://www.wikidata.org/wiki/Q1080547)     |                                                         |                                   |                            | truncation                         |
-| [Q243046](https://www.wikidata.org/wiki/Q243046)       |                                                         |                                   |                            | tube                               |
-| [Q411785](https://www.wikidata.org/wiki/Q411785)       |                                                         |                                   |                            | turn                               |
-| [Q258460](https://www.wikidata.org/wiki/Q258460)       |                                                         |                                   |                            | twisting                           |
-| [Q1191433](https://www.wikidata.org/wiki/Q1191433)     |                                                         |                                   |                            | tychonoff space                    |
-| [Q1056428](https://www.wikidata.org/wiki/Q1056428)     |                                                         |                                   |                            | type                               |
-| [Q865760](https://www.wikidata.org/wiki/Q865760)       |                                                         |                                   |                            | type equivalence                   |
-| [Q1747745](https://www.wikidata.org/wiki/Q1747745)     | typical                                                 |                                   |                            |                                    |
-| [Q1571831](https://www.wikidata.org/wiki/Q1571831)     |                                                         |                                   |                            | ultrafilter                        |
-| [Q657596](https://www.wikidata.org/wiki/Q657596)       |                                                         |                                   |                            | unary operation                    |
-| [Q1128796](https://www.wikidata.org/wiki/Q1128796)     | uncountable                                             |                                   |                            |                                    |
-| [Q46744](https://www.wikidata.org/wiki/Q46744)         |                                                         |                                   |                            | understanding                      |
-| [Q17053202](https://www.wikidata.org/wiki/Q17053202)   |                                                         |                                   |                            | unified framework                  |
-| [Q1411887](https://www.wikidata.org/wiki/Q1411887)     |                                                         | uniform convergence               |                            |
-| [Q16862633](https://www.wikidata.org/wiki/Q16862633)   |                                                         | uniform law                       |                            |                                    |
-| [Q652446](https://www.wikidata.org/wiki/Q652446)       |                                                         |                                   |                            | uniform structure                  |
-| [Q7885122](https://www.wikidata.org/wiki/Q7885122)     |                                                         |                                   | uniform topology           |
-| [Q7885132](https://www.wikidata.org/wiki/Q7885132)     |                                                         |                                   |                            | uniformity                         |
-| [Q741865](https://www.wikidata.org/wiki/Q741865)       | uniformly continuous                                    | uniformly continuous function     |
-| [Q185359](https://www.wikidata.org/wiki/Q185359)       |                                                         |                                   | union                      | union                              |
-| [Q1052579](https://www.wikidata.org/wiki/Q1052579)     | unique factorization domain                             |                                   |
-| [Q24962672](https://www.wikidata.org/wiki/Q24962672)   |                                                         |                                   |                            | uniqueness                         |
-| [Q203425](https://www.wikidata.org/wiki/Q203425)       |                                                         |                                   | unit circle                |                                    |
-| [Q1987578](https://www.wikidata.org/wiki/Q1987578)     |                                                         |                                   |                            | unit interval                      |
-| [Q118084](https://www.wikidata.org/wiki/Q118084)       | unit of a ring                                          | invertible element                | unit                       | unit                               |
-| [Q7887168](https://www.wikidata.org/wiki/Q7887168)     |                                                         |                                   |                            | unital                             |
-| [Q929536](https://www.wikidata.org/wiki/Q929536)       | unital subring                                          | subring                           |                            |                                    |
-| [Q1500617](https://www.wikidata.org/wiki/Q1500617)     | unitary group                                           | unitary group                     |                            |
-| [Q10359539](https://www.wikidata.org/wiki/Q10359539)   | unitary group representation                            |                                   |
-| [Q727103](https://www.wikidata.org/wiki/Q727103)       | unitary matrix                                          |                                   |                            |
-| [Q2495534](https://www.wikidata.org/wiki/Q2495534)     | unitary transformation                                  |                                   |                            |
-| [Q1417809](https://www.wikidata.org/wiki/Q1417809)     |                                                         |                                   |                            | universal construction             |
-| [Q4475749](https://www.wikidata.org/wiki/Q4475749)     | universal covering space                                |                                   |                            |
-| [Q1673406](https://www.wikidata.org/wiki/Q1673406)     | universal enveloping algebra                            |                                   |
-| [Q597663](https://www.wikidata.org/wiki/Q597663)       |                                                         |                                   |                            | universe                           |
-| [Q5062152](https://www.wikidata.org/wiki/Q5062152)     | upper central series                                    |                                   |                            |
-| [Q1294087](https://www.wikidata.org/wiki/Q1294087)     |                                                         |                                   | use                        | use                                |
-| [Q2912517](https://www.wikidata.org/wiki/Q2912517)     |                                                         |                                   | value                      | value                              |
-| [Q56546896](https://www.wikidata.org/wiki/Q56546896)   |                                                         |                                   |                            | van kampen                         |
-| [Q579544](https://www.wikidata.org/wiki/Q579544)       | vandermonde determinant                                 |                                   |
-| [Q50701](https://www.wikidata.org/wiki/Q50701)         |                                                         |                                   |                            | variable                           |
-| [Q3554759](https://www.wikidata.org/wiki/Q3554759)     |                                                         |                                   |                            | variant                            |
-| [Q224581](https://www.wikidata.org/wiki/Q224581)       |                                                         |                                   |                            | variation                          |
-| [Q19623879](https://www.wikidata.org/wiki/Q19623879)   |                                                         |                                   |                            | variety                            |
-| [Q13471665](https://www.wikidata.org/wiki/Q13471665)   |                                                         |                                   | vector                     | vector                             |
-| [Q658429](https://www.wikidata.org/wiki/Q658429)       |                                                         |                                   |                            | vector bundle                      |
-| [Q186247](https://www.wikidata.org/wiki/Q186247)       |                                                         |                                   |                            | vector field                       |
-| [Q2152570](https://www.wikidata.org/wiki/Q2152570)     |                                                         |                                   |                            | vector lattice                     |
-| [Q125977](https://www.wikidata.org/wiki/Q125977)       | vector space                                            | vector space                      | vector space               | vector space                       |
-| [Q728435](https://www.wikidata.org/wiki/Q728435)       | vector subspace                                         | vector subspace                   |                            |
-| [Q16280097](https://www.wikidata.org/wiki/Q16280097)   |                                                         |                                   |                            | version                            |
-| [Q419329](https://www.wikidata.org/wiki/Q419329)       |                                                         |                                   |                            | view                               |
-| [Q17000190](https://www.wikidata.org/wiki/Q17000190)   |                                                         |                                   |                            | viewpoint                          |
-| [Q3229352](https://www.wikidata.org/wiki/Q3229352)     | vitali covering                                         |                                   |                            |
-| [Q39297](https://www.wikidata.org/wiki/Q39297)         | volume of a rectifiable set                             |                                   |
-| [Q142065](https://www.wikidata.org/wiki/Q142065)       |                                                         |                                   |                            | von neumann                        |
-| [Q6537379](https://www.wikidata.org/wiki/Q6537379)     |                                                         |                                   |                            | walk                               |
-| [Q37172](https://www.wikidata.org/wiki/Q37172)         |                                                         |                                   |                            | wave                               |
-| [Q414987](https://www.wikidata.org/wiki/Q414987)       |                                                         |                                   | way                        | way                                |
-| [Q20850777](https://www.wikidata.org/wiki/Q20850777)   | weak convergence                                        |                                   |                            |
-| [Q7977947](https://www.wikidata.org/wiki/Q7977947)     |                                                         |                                   |                            | weak form                          |
-| [Q7977932](https://www.wikidata.org/wiki/Q7977932)     | weak hausdorff                                          |                                   |                            |
-| [Q17104639](https://www.wikidata.org/wiki/Q17104639)   |                                                         |                                   |                            | weak homotopy equivalence          |
-| [Q7977954](https://www.wikidata.org/wiki/Q7977954)     |                                                         |                                   |                            | weak inverse                       |
-| [Q207952](https://www.wikidata.org/wiki/Q207952)       |                                                         | weak law of large numbers         |
-| [Q27787163](https://www.wikidata.org/wiki/Q27787163)   |                                                         |                                   |                            | weakening                          |
-| [Q1781358](https://www.wikidata.org/wiki/Q1781358)     | wedge sum                                               |                                   |                            |                                    |
-| [Q856577](https://www.wikidata.org/wiki/Q856577)       |                                                         |                                   |                            | weight                             |
-| [Q72535212](https://www.wikidata.org/wiki/Q72535212)   | weight space                                            |                                   |                            |
-| [Q768074](https://www.wikidata.org/wiki/Q768074)       | weyl group                                              |                                   |                            |                                    |
-| [Q35059](https://www.wikidata.org/wiki/Q35059)         | width                                                   |                                   |                            |                                    |
-| [Q576728](https://www.wikidata.org/wiki/Q576728)       |                                                         | winding number                    |                            |
-| [Q551997](https://www.wikidata.org/wiki/Q551997)       |                                                         |                                   |                            | wire                               |
-| [Q192043](https://www.wikidata.org/wiki/Q192043)       |                                                         |                                   |                            | wiring                             |
-| [Q255362](https://www.wikidata.org/wiki/Q255362)       |                                                         |                                   |                            | wiring diagram                     |
-| [Q1756171](https://www.wikidata.org/wiki/Q1756171)     |                                                         |                                   |                            | witt vector                        |
-| [Q3406273](https://www.wikidata.org/wiki/Q3406273)     |                                                         |                                   |                            | word problem                       |
-| [Q188561](https://www.wikidata.org/wiki/Q188561)       |                                                         |                                   |                            | work                               |
-| [Q16502](https://www.wikidata.org/wiki/Q16502)         |                                                         |                                   |                            | world                              |
-| [Q1201922](https://www.wikidata.org/wiki/Q1201922)     |                                                         |                                   |                            | wreath                             |
-| [Q1786640](https://www.wikidata.org/wiki/Q1786640)     |                                                         |                                   |                            | wreath product                     |
-| [Q4476530](https://www.wikidata.org/wiki/Q4476530)     |                                                         |                                   |                            | yang-baxter equation               |
-| [Q577](https://www.wikidata.org/wiki/Q577)             |                                                         |                                   |                            | year                               |
-| [Q596465](https://www.wikidata.org/wiki/Q596465)       |                                                         |                                   |                            | yield                              |
-| [Q204](https://www.wikidata.org/wiki/Q204)             |                                                         |                                   | zero                       |                                    |
-| [Q828111](https://www.wikidata.org/wiki/Q828111)       | zero divisor                                            |                                   |                            |                                    |
-| [Q217357](https://www.wikidata.org/wiki/Q217357)       | σ-algebra                                              | sigma-algebra                     |                            |
-| [Q291430](https://www.wikidata.org/wiki/Q291430)       | σ-finite                                               |                                   |                            |                                    |
-| [Q5254799](https://www.wikidata.org/wiki/Q5254799)     | ∆-complex                                             |
+| [Q14481419](https://www.wikidata.org/wiki/Q14481419)                   | 0-1 law                                                 |                                       |                              |
+| [Q181296](https://www.wikidata.org/wiki/Q181296)                       | abelian                                                 |                                       | finite abelian group         |
+| [Q318737](https://www.wikidata.org/wiki/Q318737)                       | abelian category                                        |
+| [Q318598](https://www.wikidata.org/wiki/Q318598)                       | abelianization                                          |                                       |                              |
+| [Q332504](https://www.wikidata.org/wiki/Q332504)                       | absolute continuity                                     |                                       |                              |
+| [Q20827138](https://www.wikidata.org/wiki/Q20827138)                   | absolute continuity of measure                          |                                       |
+| [Q332465](https://www.wikidata.org/wiki/Q332465)                       | absolute convergence                                    | absolute convergence                  |
+| [Q120812](https://www.wikidata.org/wiki/Q120812)                       | absolute value                                          | absolute value (mathematics)          |
+| [Q555097](https://www.wikidata.org/wiki/Q555097)                       | accessibility                                           |
+| [Q4672496](https://www.wikidata.org/wiki/Q4672496)                     | accessible category                                     |
+| [Q343542](https://www.wikidata.org/wiki/Q343542)                       | action (mathematics)                                    |
+| [Q33999](https://www.wikidata.org/wiki/Q33999)                         | actor                                                   |
+| [Q32043](https://www.wikidata.org/wiki/Q32043)                         | addition (mathematics)                                  |
+| [Q4681343](https://www.wikidata.org/wiki/Q4681343)                     | additive category                                       |
+| [Q404330](https://www.wikidata.org/wiki/Q404330)                       | additivity                                              |                                       |
+| [Q26261926](https://www.wikidata.org/wiki/Q26261926)                   | adjoint                                                 | adjoint                               |
+| [Q2858846](https://www.wikidata.org/wiki/Q2858846)                     | adjoint of a linear transformation                      |                                       |
+| [Q4379157](https://www.wikidata.org/wiki/Q4379157)                     | adjoint representation of a lie algebra                 |                                       |
+| [Q1017106](https://www.wikidata.org/wiki/Q1017106)                     | adjoint representation of a lie group                   | adjoint endomorphism                  |                              |
+| [Q225107](https://www.wikidata.org/wiki/Q225107)                       | adjugate                                                |                                       |                              |  |
+| [Q357858](https://www.wikidata.org/wiki/Q357858)                       | unit (category theory)                                  | adjunction (category theory)          |
+| [Q18205396](https://www.wikidata.org/wiki/Q18205396)                   | adjunction (set theory)                                 |
+| [Q686291](https://www.wikidata.org/wiki/Q686291)                       | affine group                                            |                                       |                              |
+| [Q382698](https://www.wikidata.org/wiki/Q382698)                       | affine property                                         |                                       |
+| [Q382504](https://www.wikidata.org/wiki/Q382504)                       | affine span                                             |                                       |                              |
+| [Q382497](https://www.wikidata.org/wiki/Q382497)                       | algebra homomorphism                                    | affine function                       |                              |
+| [Q10565797](https://www.wikidata.org/wiki/Q10565797)                   | algebra of subsets                                      |                                       |                              |
+| [Q17993117](https://www.wikidata.org/wiki/Q17993117)                   | algebra of subsets                                      |                                       |                              |
+| [Q246506](https://www.wikidata.org/wiki/Q246506)                       | algebra of subsets                                      |                                       |                              |
+| [Q1000660](https://www.wikidata.org/wiki/Q1000660)                     | algebra over a field                                    | algebra over a commutative ring       |
+| [Q180969](https://www.wikidata.org/wiki/Q180969)                       | algebraic geometry                                      |
+| [Q168817](https://www.wikidata.org/wiki/Q168817)                       | algebraic number                                        |
+| [Q212803](https://www.wikidata.org/wiki/Q212803)                       | algebraic topology                                      |
+| [Q8366](https://www.wikidata.org/wiki/Q8366)                           | algorithm                                               |                                       |
+| [Q1139334](https://www.wikidata.org/wiki/Q1139334)                     | almost everywhere                                       |                                       |                              |
+| [Q25377974](https://www.wikidata.org/wiki/Q25377974)                   | almost uniform convergence                              |                                       |
+| [Q438814](https://www.wikidata.org/wiki/Q438814)                       | alternating group                                       |                                       |                              |
+| [Q185816](https://www.wikidata.org/wiki/Q185816)                       | analogy                                                 |
+| [Q567083](https://www.wikidata.org/wiki/Q567083)                       | annihilator of a submodule                              |                                       |
+| [Q114326](https://www.wikidata.org/wiki/Q114326)                       | antiderivative                                          |                                       |
+| [Q11500](https://www.wikidata.org/wiki/Q11500)                         | area (mathematics)                                      |
+| [Q651343](https://www.wikidata.org/wiki/Q651343)                       | argument (mathematics)                                  |
+| [Q177251](https://www.wikidata.org/wiki/Q177251)                       | associative                                             |                                       | associativity                |  |
+| [Q744960](https://www.wikidata.org/wiki/Q744960)                       | associative algebra                                     |                                       | associative algebra          |
+| [Q4820423](https://www.wikidata.org/wiki/Q4820423)                     | augmentation ideal                                      |                                       |                              |
+| [Q782566](https://www.wikidata.org/wiki/Q782566)                       | automorphism                                            | automorphism                          | automorphism                 |
+| [Q60790315](https://www.wikidata.org/wiki/Q60790315)                   | automorphism group                                      |                                       |                              |
+| [Q17736](https://www.wikidata.org/wiki/Q17736)                         | axiom                                                   |                                       |
+| [Q2976036](https://www.wikidata.org/wiki/Q2976036)                     | baire class                                             |                                       |                              |  |
+| [Q838611](https://www.wikidata.org/wiki/Q838611)                       | ball (topology)                                         |
+| [Q194397](https://www.wikidata.org/wiki/Q194397)                       | banach space                                            |                                       |                              |
+| [Q3459695](https://www.wikidata.org/wiki/Q3459695)                     | banach-mazur game                                       |                                       |                              |
+| [Q809690](https://www.wikidata.org/wiki/Q809690)                       | barycenter                                              |                                       |                              |
+| [Q5786321](https://www.wikidata.org/wiki/Q5786321)                     | barycentric coordinates                                 |                                       |                              |
+| [Q738422](https://www.wikidata.org/wiki/Q738422)                       | barycentric coordinates                                 |                                       |                              |
+| [Q4078260](https://www.wikidata.org/wiki/Q4078260)                     | barycentric subdivision                                 |                                       |                              |
+| [Q4866358](https://www.wikidata.org/wiki/Q4866358)                     | base (group theory)                                     |
+| [Q575724](https://www.wikidata.org/wiki/Q575724)                       | base (mathematics)                                      |
+| [Q4866381](https://www.wikidata.org/wiki/Q4866381)                     | base case                                               |                                       |
+| [Q810214](https://www.wikidata.org/wiki/Q810214)                       | base (topology)                                         | basis (topology)                      |
+| [Q810193](https://www.wikidata.org/wiki/Q810193)                       | basis for abelian group                                 |                                       |                              |
+| [Q494141](https://www.wikidata.org/wiki/Q494141)                       | bialgebra                                               |
+| [Q4903541](https://www.wikidata.org/wiki/Q4903541)                     | bicategory                                              |
+| [Q180907](https://www.wikidata.org/wiki/Q180907)                       | bijective                                               |                                       | bijection (mathematics)      |
+| [Q6901645](https://www.wikidata.org/wiki/Q6901645)                     | bimonad                                                 |
+| [Q164307](https://www.wikidata.org/wiki/Q164307)                       | binary operation                                        |                                       |                              |
+| [Q130901](https://www.wikidata.org/wiki/Q130901)                       | binary relation                                         | relation (mathematics)                | relation (mathematics)       |
+| [Q26708](https://www.wikidata.org/wiki/Q26708)                         | binomial theorem                                        |
+| [Q866300](https://www.wikidata.org/wiki/Q866300)                       | bisection method                                        |                                       |
+| [Q468391](https://www.wikidata.org/wiki/Q468391)                       | bolzano-weierstrass theorem                             |
+| [Q173183](https://www.wikidata.org/wiki/Q173183)                       | boolean algebra                                         |
+| [Q1080067](https://www.wikidata.org/wiki/Q1080067)                     | borel σ-algebra                                         |                                       |                              |
+| [Q875399](https://www.wikidata.org/wiki/Q875399)                       | boundary                                                |                                       |                              | boundary (topology) |
+| [Q78323465](https://www.wikidata.org/wiki/Q78323465)                   | boundary homomorphism                                   |                                       |
+| [Q726212](https://www.wikidata.org/wiki/Q726212)                       | bounded                                                 |                                       |                              |  |
+| [Q829653](https://www.wikidata.org/wiki/Q829653)                       | bounded variation                                       |                                       |                              |
+| [Q1209494](https://www.wikidata.org/wiki/Q1209494)                     | brute force                                             |                                       |
+| [Q9299950](https://www.wikidata.org/wiki/Q9299950)                     | brute force method                                      |                                       |
+| [Q1047307](https://www.wikidata.org/wiki/Q1047307)                     | bundle                                                  |                                       |                              |  |
+| [Q11946202](https://www.wikidata.org/wiki/Q11946202)                   | butterfly                                               |
+| [Q513028](https://www.wikidata.org/wiki/Q513028)                       | bézout's identity                                       |                                       |
+| [Q3552958](https://www.wikidata.org/wiki/Q3552958)                     | c^r-form                                                |                                       |                              | smooth manifold |
+| [Q622821](https://www.wikidata.org/wiki/Q622821)                       | calculation                                             | calculation                           |
+| [Q31087](https://www.wikidata.org/wiki/Q31087)                         | calculator                                              |                                       |
+| [Q2298524](https://www.wikidata.org/wiki/Q2298524)                     | cancellation law                                        |
+| [Q444936](https://www.wikidata.org/wiki/Q444936)                       | canonical                                               |
+| [Q273188](https://www.wikidata.org/wiki/Q273188)                       | cantor set                                              |                                       |                              |  |
+| [Q163875](https://www.wikidata.org/wiki/Q163875)                       | cardinal (mathematics)                                  |
+| [Q4049983](https://www.wikidata.org/wiki/Q4049983)                     | cardinality                                             |                                       |
+| [Q1734581](https://www.wikidata.org/wiki/Q1734581)                     | cartesian                                               |
+| [Q1725874](https://www.wikidata.org/wiki/Q1725874)                     | cartesian closed category                               |
+| [Q15830473](https://www.wikidata.org/wiki/Q15830473)                   | categorical model                                       |
+| [Q5051825](https://www.wikidata.org/wiki/Q5051825)                     | categorification                                        |
+| [Q719395](https://www.wikidata.org/wiki/Q719395)                       | category                                                |                                       |                              |  |
+| [Q2518298](https://www.wikidata.org/wiki/Q2518298)                     | category of sets                                        | set (category theory)                 |
+| [Q8814](https://www.wikidata.org/wiki/Q8814)                           | cauchy                                                  | cauchy                                |
+| [Q769374](https://www.wikidata.org/wiki/Q769374)                       | cauchy principal value                                  |                                       |
+| [Q1051404](https://www.wikidata.org/wiki/Q1051404)                     | cauchy product                                          |
+| [Q217847](https://www.wikidata.org/wiki/Q217847)                       | cauchy sequence                                         | cauchy sequence                       | cauchy sequence              |
+| [Q1412436](https://www.wikidata.org/wiki/Q1412436)                     | cauchy's problem                                        |                                       |
+| [Q622741](https://www.wikidata.org/wiki/Q622741)                       | cauchy-riemann equations                                | cauchy-riemann equation               |
+| [Q190546](https://www.wikidata.org/wiki/Q190546)                       | cauchy-schwarz inequality                               | cauchy-schwarz inequality             |
+| [Q3139849](https://www.wikidata.org/wiki/Q3139849)                     | cellular homology groups                                |                                       |                              |
+| [Q5062222](https://www.wikidata.org/wiki/Q5062222)                     | center (category theory)                                |
+| [Q62207](https://www.wikidata.org/wiki/Q62207)                         | center (mathematics)                                    |
+| [Q30603786](https://www.wikidata.org/wiki/Q30603786)                   | center (ring theory)                                    |
+| [Q1195852](https://www.wikidata.org/wiki/Q1195852)                     | center of a group                                       | center (group theory)                 | centre (group theory)        |
+| [Q190391](https://www.wikidata.org/wiki/Q190391)                       | central limit theorem                                   |                                       |
+| [](https://www.wikidata.org/wiki/)                                     | centralizer of a lie algebra                            |                                       |
+| [Q190629](https://www.wikidata.org/wiki/Q190629)                       | centralizer of a subset                                 | centralizer (ring theory)             |
+| [Q511093](https://www.wikidata.org/wiki/Q511093)                       | centroid                                                |                                       |                              |  |
+| [Q1143328](https://www.wikidata.org/wiki/Q1143328)                     | chain complex                                           |                                       | chain complex                |
+| [Q17004731](https://www.wikidata.org/wiki/Q17004731)                   | chain rule (probability)                                |                                       |
+| [Q810255](https://www.wikidata.org/wiki/Q810255)                       | change of basis                                         |                                       |
+| [Q1934165](https://www.wikidata.org/wiki/Q1934165)                     | change of variables                                     |                                       |
+| [Q1062934](https://www.wikidata.org/wiki/Q1062934)                     | character (group theory)                                |
+| [Q600043](https://www.wikidata.org/wiki/Q600043)                       | character (representation theory)                       |
+| [Q4352241](https://www.wikidata.org/wiki/Q4352241)                     | character (topology)                                    |
+| [Q11498021](https://www.wikidata.org/wiki/Q11498021)                   | character table                                         |                                       |                              |
+| [Q836088](https://www.wikidata.org/wiki/Q836088)                       | characteristic zero                                     | characteristic (field theory)         |
+| [Q360446](https://www.wikidata.org/wiki/Q360446)                       | characteristic (mathematics)                            |
+| [Q822139](https://www.wikidata.org/wiki/Q822139)                       | characteristic function (probability)                   | characteristic function (probability) |
+| [Q849705](https://www.wikidata.org/wiki/Q849705)                       | characteristic polynomial                               | characteristic polynomial             |                              |
+| [Q747027](https://www.wikidata.org/wiki/Q747027)                       | characteristic subgroup                                 | characteristic subgroup               |
+| [Q2937829](https://www.wikidata.org/wiki/Q2937829)                     | characterization (mathematics)                          |
+| [Q3828144](https://www.wikidata.org/wiki/Q3828144)                     | chart                                                   |                                       |                              |  |
+| [Q1775867](https://www.wikidata.org/wiki/Q1775867)                     | choice                                                  |                                       |
+| [Q2513496](https://www.wikidata.org/wiki/Q2513496)                     | choice function                                         |
+| [Q18205969](https://www.wikidata.org/wiki/Q18205969)                   | choquet game                                            |                                       |                              |
+| [Q17278](https://www.wikidata.org/wiki/Q17278)                         | circle (mathematics)                                    |
+| [Q306610](https://www.wikidata.org/wiki/Q306610)                       | circle (topology)                                       |
+| [Q105356493](https://www.wikidata.org/wiki/Q105356493)                 | circle group                                            |                                       |                              |  |
+| [Q1094717](https://www.wikidata.org/wiki/Q1094717)                     | claim                                                   |                                       |
+| [Q2138760](https://www.wikidata.org/wiki/Q2138760)                     | class                                                   |                                       |                              |  |
+| [Q217594](https://www.wikidata.org/wiki/Q217594)                       | class (set theory)                                      |
+| [Q986909](https://www.wikidata.org/wiki/Q986909)                       | class function                                          |                                       |                              |
+| [Q3075177](https://www.wikidata.org/wiki/Q3075177)                     | class function                                          |                                       |                              |
+| [Q1744628](https://www.wikidata.org/wiki/Q1744628)                     | classifier (mathematics)                                |
+| [Q320357](https://www.wikidata.org/wiki/Q320357)                       | closed                                                  |                                       | closed subset                |
+| [Q4558786](https://www.wikidata.org/wiki/Q4558786)                     | closed edge path                                        |                                       |                              |
+| [Q644719](https://www.wikidata.org/wiki/Q644719)                       | closed half-space                                       |                                       |                              |
+| [Q320346](https://www.wikidata.org/wiki/Q320346)                       | closure                                                 |                                       | closure (topology)           |
+| [Q4720939](https://www.wikidata.org/wiki/Q4720939)                     | closure (mathematics)                                   |
+| [Q10564851](https://www.wikidata.org/wiki/Q10564851)                   | closure operator                                        |
+| [Q2546666](https://www.wikidata.org/wiki/Q2546666)                     | cobordism                                               |
+| [Q47007889](https://www.wikidata.org/wiki/Q47007889)                   | cocomplete category                                     |                                       |                              |
+| [Q199006](https://www.wikidata.org/wiki/Q199006)                       | codomain (mathematics)                                  | codomain (mathematics)                |
+| [Q50700](https://www.wikidata.org/wiki/Q50700)                         | coefficient                                             |                                       |
+| [Q1048949](https://www.wikidata.org/wiki/Q1048949)                     | cofibration                                             |                                       |                              |  |
+| [Q5141339](https://www.wikidata.org/wiki/Q5141339)                     | coherence theorem                                       |
+| [Q294876](https://www.wikidata.org/wiki/Q294876)                       | cohesion                                                |
+| [Q1198376](https://www.wikidata.org/wiki/Q1198376)                     | cohomology class                                        |
+| [Q2156511](https://www.wikidata.org/wiki/Q2156511)                     | cokernel (category theory)                              |
+| [Q1779341](https://www.wikidata.org/wiki/Q1779341)                     | collection (mathematics)                                | collection (mathematics)              |
+| [Q202805](https://www.wikidata.org/wiki/Q202805)                       | combination (mathematics)                               | combination (mathematics)             |
+| [Q76592](https://www.wikidata.org/wiki/Q76592)                         | combinatoric                                            |
+| [Q165474](https://www.wikidata.org/wiki/Q165474)                       | commutative                                             | commute (mathematics)                 |
+| [Q858656](https://www.wikidata.org/wiki/Q858656)                       | commutative ring                                        |
+| [Q522216](https://www.wikidata.org/wiki/Q522216)                       | commutator subgroup                                     |                                       |                              |
+| [Q5155179](https://www.wikidata.org/wiki/Q5155179)                     | comodule                                                |
+| [Q381892](https://www.wikidata.org/wiki/Q381892)                       | compact                                                 |                                       | compact (topology)           |
+| [Q1780743](https://www.wikidata.org/wiki/Q1780743)                     | compact linear transformation                           |                                       |
+| [Q78484790](https://www.wikidata.org/wiki/Q78484790)                   | compact symplectic group                                |                                       |
+| [Q546145](https://www.wikidata.org/wiki/Q546145)                       | compactification (topology)                             |
+| [Q1738274](https://www.wikidata.org/wiki/Q1738274)                     | compactly generated                                     |                                       |                              |
+| [Q28113351](https://www.wikidata.org/wiki/Q28113351)                   | comparison (mathematics)                                |
+| [Q17129258](https://www.wikidata.org/wiki/Q17129258)                   | comparison test                                         |                                       |
+| [Q902252](https://www.wikidata.org/wiki/Q902252)                       | complement (graph theory)                               | complement (graph theory)             |
+| [Q2990581](https://www.wikidata.org/wiki/Q2990581)                     | complement (group theory)                               | complement (group theory)             |
+| [Q19924622](https://www.wikidata.org/wiki/Q19924622)                   | complement (mathematics)                                | complement (mathematics)              |
+| [Q595364](https://www.wikidata.org/wiki/Q595364)                       | complement (order theory)                               | complement (order theory)             |
+| [Q4370335](https://www.wikidata.org/wiki/Q4370335)                     | complete category                                       |                                       |                              |
+| [Q848569](https://www.wikidata.org/wiki/Q848569)                       | complete metric space                                   | complete metric space                 | completion (topology)        |
+| [Q851333](https://www.wikidata.org/wiki/Q851333)                       | completion (order theory)                               |
+| [Q3685258](https://www.wikidata.org/wiki/Q3685258)                     | completion (ring theory)                                |
+| [Q381040](https://www.wikidata.org/wiki/Q381040)                       | complex conjugate                                       |                                       |                              |
+| [Q184871](https://www.wikidata.org/wiki/Q184871)                       | complex exponential                                     |                                       |
+| [Q5156554](https://www.wikidata.org/wiki/Q5156554)                     | complex lie group                                       |                                       |                              |
+| [Q445569](https://www.wikidata.org/wiki/Q445569)                       | complexification of a vector space                      |                                       |
+| [Q2997928](https://www.wikidata.org/wiki/Q2997928)                     | component (graph theory)                                |
+| [Q5156688](https://www.wikidata.org/wiki/Q5156688)                     | component (group theory)                                |
+| [Q244761](https://www.wikidata.org/wiki/Q244761)                       | composition (mathematics)                               |
+| [Q2525646](https://www.wikidata.org/wiki/Q2525646)                     | composition series of a group                           |                                       |
+| [Q16769650](https://www.wikidata.org/wiki/Q16769650)                   | comprehension                                           |
+| [Q12525525](https://www.wikidata.org/wiki/Q12525525)                   | computation                                             | computation                           |
+| [Q151885](https://www.wikidata.org/wiki/Q151885)                       | concept                                                 |
+| [Q1399174](https://www.wikidata.org/wiki/Q1399174)                     | conclusion                                              |                                       |
+| [Q2003238](https://www.wikidata.org/wiki/Q2003238)                     | condensation (graph theory)                             |
+| [Q3014744](https://www.wikidata.org/wiki/Q3014744)                     | condensation point                                      |
+| [Q417488](https://www.wikidata.org/wiki/Q417488)                       | condition                                               |                                       |
+| [Q2425336](https://www.wikidata.org/wiki/Q2425336)                     | conditional convergence                                 |                                       |
+| [Q5159291](https://www.wikidata.org/wiki/Q5159291)                     | conditioning (probability)                              |                                       |
+| [Q1635267](https://www.wikidata.org/wiki/Q1635267)                     | cone                                                    |                                       |                              | cone (topology) |
+| [Q25352175](https://www.wikidata.org/wiki/Q25352175)                   | cone (algebraic geometry)                               |
+| [Q1850712](https://www.wikidata.org/wiki/Q1850712)                     | cone (category theory)                                  |
+| [Q26789594](https://www.wikidata.org/wiki/Q26789594)                   | cone (graph theory)                                     |
+| [Q2256541](https://www.wikidata.org/wiki/Q2256541)                     | cone (linear algebra)                                   |
+| [Q42344](https://www.wikidata.org/wiki/Q42344)                         | cone (mathematics)                                      |
+| [Q299600](https://www.wikidata.org/wiki/Q299600)                       | congruent                                               |                                       |
+| [Q5161134](https://www.wikidata.org/wiki/Q5161134)                     | conjoint                                                |
+| [Q1353233](https://www.wikidata.org/wiki/Q1353233)                     | conjugacy classes                                       | conjugation (group theory)            |
+| [Q1378376](https://www.wikidata.org/wiki/Q1378376)                     | conjugate (graph theory)                                |
+| [Q714220](https://www.wikidata.org/wiki/Q714220)                       | conjugate element (field theory)                        |
+| [Q2051983](https://www.wikidata.org/wiki/Q2051983)                     | conjugate transpose                                     |                                       |                              |
+| [Q250417](https://www.wikidata.org/wiki/Q250417)                       | conjugation (mathematics)                               |
+| [Q1491995](https://www.wikidata.org/wiki/Q1491995)                     | connected                                               | path connectedness                    | connected space              |
+| [Q5161408](https://www.wikidata.org/wiki/Q5161408)                     | connected category                                      |                                       |                              |
+| [Q91050456](https://www.wikidata.org/wiki/Q91050456)                   | connected component                                     |                                       |                              |
+| [Q230646](https://www.wikidata.org/wiki/Q230646)                       | connected components                                    |                                       |
+| [Q230655](https://www.wikidata.org/wiki/Q230655)                       | connected graph                                         | connectedness (graph theory)          |
+| [Q1344851](https://www.wikidata.org/wiki/Q1344851)                     | consideration                                           | consideration                         |
+| [Q5163218](https://www.wikidata.org/wiki/Q5163218)                     | consistency (statistics)                                |                                       |
+| [Q188248](https://www.wikidata.org/wiki/Q188248)                       | constant (mathematics)                                  |
+| [Q5165409](https://www.wikidata.org/wiki/Q5165409)                     | continuity (mathematics)                                | continuity (mathematics)              | continuity (mathematics)     |
+| [Q5165476](https://www.wikidata.org/wiki/Q5165476)                     | continuity (set theory)                                 | continuity (set theory)               | continuity (set theory)      |
+| [Q170058](https://www.wikidata.org/wiki/Q170058)                       | continuous                                              | continuous functions                  | continuity (topology)        | continuity (topology) |
+| [Q856103](https://www.wikidata.org/wiki/Q856103)                       | contour integral                                        |                                       |
+| [Q230689](https://www.wikidata.org/wiki/Q230689)                       | contractible                                            |                                       |                              |  |
+| [Q1131116](https://www.wikidata.org/wiki/Q1131116)                     | contracting sequence of sets in a metric space          |
+| [Q1397646](https://www.wikidata.org/wiki/Q1397646)                     | contraction (graph theory)                              |
+| [Q403082](https://www.wikidata.org/wiki/Q403082)                       | contraction (mathematics)                               |
+| [Q515173](https://www.wikidata.org/wiki/Q515173)                       | contraction mapping                                     |                                       |                              |
+| [Q363948](https://www.wikidata.org/wiki/Q363948)                       | contradiction                                           |
+| [Q4381774](https://www.wikidata.org/wiki/Q4381774)                     | contrary                                                |                                       |
+| [Q19969914](https://www.wikidata.org/wiki/Q19969914)                   | convention                                              |                                       |
+| [Q1211057](https://www.wikidata.org/wiki/Q1211057)                     | convergence (mathematics)                               | convergence (mathematics)             |
+| [Q768656](https://www.wikidata.org/wiki/Q768656)                       | convergence in measure                                  |                                       |                              |
+| [Q578985](https://www.wikidata.org/wiki/Q578985)                       | convergence in probability                              |
+| [Q2996392](https://www.wikidata.org/wiki/Q2996392)                     | convergent                                              |                                       |
+| [Q847204](https://www.wikidata.org/wiki/Q847204)                       | convergent sequence                                     |
+| [Q1375963](https://www.wikidata.org/wiki/Q1375963)                     | converse (mathematics)                                  | converse (mathematics)                |
+| [Q319913](https://www.wikidata.org/wiki/Q319913)                       | convex function                                         |                                       |
+| [Q193657](https://www.wikidata.org/wiki/Q193657)                       | convex set                                              | convex subset                         |                              |
+| [Q210857](https://www.wikidata.org/wiki/Q210857)                       | convolution (mathematics)                               | convolution (mathematics)             |
+| [Q104752](https://www.wikidata.org/wiki/Q104752)                       | coprime                                                 |                                       |                              |  |
+| [Q186290](https://www.wikidata.org/wiki/Q186290)                       | corelation                                              |
+| [Q1343870](https://www.wikidata.org/wiki/Q1343870)                     | corollary                                               |                                       |
+| [Q777879](https://www.wikidata.org/wiki/Q777879)                       | countable basis                                         |
+| [Q859275](https://www.wikidata.org/wiki/Q859275)                       | countable compactness                                   |
+| [Q185478](https://www.wikidata.org/wiki/Q185478)                       | countable set                                           |
+| [Q596077](https://www.wikidata.org/wiki/Q596077)                       | counterexample                                          |
+| [Q1137078](https://www.wikidata.org/wiki/Q1137078)                     | counterpart                                             |
+| [Q247204](https://www.wikidata.org/wiki/Q247204)                       | counting measure                                        |                                       |
+| [Q5179248](https://www.wikidata.org/wiki/Q5179248)                     | covering (graph theory)                                 |
+| [Q332648](https://www.wikidata.org/wiki/Q332648)                       | covering space                                          |                                       |                              |
+| [Q435371](https://www.wikidata.org/wiki/Q435371)                       | criterion                                               |                                       |
+| [Q577705](https://www.wikidata.org/wiki/Q577705)                       | critical point                                          |                                       |                              |
+| [Q3754024](https://www.wikidata.org/wiki/Q3754024)                     | critical value                                          |                                       |                              |
+| [Q178192](https://www.wikidata.org/wiki/Q178192)                       | cross product                                           |                                       |
+| [Q812880](https://www.wikidata.org/wiki/Q812880)                       | cube                                                    |                                       |
+| [Q1774143](https://www.wikidata.org/wiki/Q1774143)                     | cube root                                               |                                       |
+| [Q161973](https://www.wikidata.org/wiki/Q161973)                       | curve (mathematics)                                     |
+| [Q189061](https://www.wikidata.org/wiki/Q189061)                       | cw complex                                              |                                       |                              |  |
+| [Q212130](https://www.wikidata.org/wiki/Q212130)                       | cycle                                                   |                                       |                              |  |
+| [Q245595](https://www.wikidata.org/wiki/Q245595)                       | cycle (graph theory)                                    |
+| [Q225014](https://www.wikidata.org/wiki/Q225014)                       | cycle (mathematics)                                     |
+| [Q5198158](https://www.wikidata.org/wiki/Q5198158)                     | cycle decomposition (graph theory)                      |
+| [Q245462](https://www.wikidata.org/wiki/Q245462)                       | cyclic group                                            | cyclic group                          | cyclic group                 |  |
+| [Q8513](https://www.wikidata.org/wiki/Q8513)                           | database                                                |
+| [Q296949](https://www.wikidata.org/wiki/Q296949)                       | decomposition (mathematics)                             | decomposition (mathematics)           |
+| [Q101072](https://www.wikidata.org/wiki/Q101072)                       | definition                                              | definition                            |
+| [Q1219573](https://www.wikidata.org/wiki/Q1219573)                     | deformation                                             |
+| [Q2141963](https://www.wikidata.org/wiki/Q2141963)                     | deformation retraction                                  |                                       |                              |
+| [Q5251838](https://www.wikidata.org/wiki/Q5251838)                     | degree (algebraic geometry)                             | degree (algebraic geometry)           |
+| [Q577835](https://www.wikidata.org/wiki/Q577835)                       | subfield (mathematics)                                  | degree (field theory)                 |
+| [Q383444](https://www.wikidata.org/wiki/Q383444)                       | degree (graph theory)                                   | degree (graph theory)                 |
+| [Q383185](https://www.wikidata.org/wiki/Q383185)                       | degree (mathematics)                                    | degree (mathematics)                  |
+| [Q1473607](https://www.wikidata.org/wiki/Q1473607)                     | degree of polynomial                                    |                                       |                              |
+| [Q673444](https://www.wikidata.org/wiki/Q673444)                       | dense                                                   |                                       | dense subset                 |
+| [Q3085841](https://www.wikidata.org/wiki/Q3085841)                     | density (graph theory)                                  |
+| [Q451323](https://www.wikidata.org/wiki/Q451323)                       | derivation                                              |                                       |                              |  |
+| [Q29175](https://www.wikidata.org/wiki/Q29175)                         | derivative (calculus)                                   | derivation (calculus)                 |
+| [Q7051810](https://www.wikidata.org/wiki/Q7051810)                     | derivative (set theory)                                 |
+| [Q5262625](https://www.wikidata.org/wiki/Q5262625)                     | derivator                                               |
+| [Q109314515](https://www.wikidata.org/wiki/Q109314515)                 | descending central series                               |                                       |                              |
+| [Q5263725](https://www.wikidata.org/wiki/Q5263725)                     | descent theory                                          |
+| [Q1200750](https://www.wikidata.org/wiki/Q1200750)                     | description                                             |
+| [Q178546](https://www.wikidata.org/wiki/Q178546)                       | determinant                                             | determinant (mathematics)             |
+| [Q189791](https://www.wikidata.org/wiki/Q189791)                       | diagonal                                                |                                       |
+| [Q332791](https://www.wikidata.org/wiki/Q332791)                       | diagonal matrix                                         |
+| [Q1208191](https://www.wikidata.org/wiki/Q1208191)                     | diagonalization                                         |                                       |
+| [Q843237](https://www.wikidata.org/wiki/Q843237)                       | diagram (category theory)                               |
+| [Q25099359](https://www.wikidata.org/wiki/Q25099359)                   | diameter (group theory)                                 |
+| [Q1208617](https://www.wikidata.org/wiki/Q1208617)                     | diameter (mathematics)                                  |
+| [Q1058314](https://www.wikidata.org/wiki/Q1058314)                     | diffeomorphism                                          | diffeomorphisms                       |                              |
+| [Q40754](https://www.wikidata.org/wiki/Q40754)                         | difference (mathematics)                                | difference (mathematics)              |
+| [Q242767](https://www.wikidata.org/wiki/Q242767)                       | difference (set theory)                                 | difference (set theory)               |
+| [Q636889](https://www.wikidata.org/wiki/Q636889)                       | differentiable                                          |                                       |                              |
+| [Q783507](https://www.wikidata.org/wiki/Q783507)                       | differentiable functions                                | differentiable function               |
+| [Q5130428](https://www.wikidata.org/wiki/Q5130428)                     | differential (calculus)                                 |
+| [Q1047080](https://www.wikidata.org/wiki/Q1047080)                     | differential k-form                                     |                                       |                              |
+| [Q13415176](https://www.wikidata.org/wiki/Q13415176)                   | dimension (graph theory)                                |
+| [Q3253731](https://www.wikidata.org/wiki/Q3253731)                     | dimension (statistics)                                  |
+| [Q4440864](https://www.wikidata.org/wiki/Q4440864)                     | dimension (topology)                                    |
+| [Q929302](https://www.wikidata.org/wiki/Q929302)                       | dimension of vector space                               | dimension (linear algebra)            |
+| [Q385599](https://www.wikidata.org/wiki/Q385599)                       | dirac comb                                              |                                       |                              |
+| [Q1227387](https://www.wikidata.org/wiki/Q1227387)                     | dirac measure                                           |                                       |
+| [Q2725924](https://www.wikidata.org/wiki/Q2725924)                     | direct product of groups                                |                                       |
+| [Q3240280](https://www.wikidata.org/wiki/Q3240280)                     | direct proof                                            |                                       |
+| [Q13582243](https://www.wikidata.org/wiki/Q13582243)                   | direct sum of group representations                     |                                       |
+| [Q1142861](https://www.wikidata.org/wiki/Q1142861)                     | direct sum of module homomorphisms                      | complementary subspaces               | complementary subspace       |
+| [Q344762](https://www.wikidata.org/wiki/Q344762)                       | direction                                               | direction                             |
+| [Q383851](https://www.wikidata.org/wiki/Q383851)                       | directional derivative                                  | directional derivative                |                              |
+| [Q1217467](https://www.wikidata.org/wiki/Q1217467)                     | dirichlet theorem                                       |                                       |
+| [Q1228851](https://www.wikidata.org/wiki/Q1228851)                     | discrete category                                       |                                       |                              |
+| [Q2878](https://www.wikidata.org/wiki/Q2878)                           | discrete fourier transform                              |
+| [Q91267214](https://www.wikidata.org/wiki/Q91267214)                   | discrete topology                                       |                                       |                              |
+| [Q175116](https://www.wikidata.org/wiki/Q175116)                       | discrete topology                                       |
+| [Q192487](https://www.wikidata.org/wiki/Q192487)                       | discriminant                                            |
+| [Q338707](https://www.wikidata.org/wiki/Q338707)                       | disjoint                                                |                                       |
+| [Q215382](https://www.wikidata.org/wiki/Q215382)                       | disjoint set                                            |                                       |
+| [Q5282259](https://www.wikidata.org/wiki/Q5282259)                     | direct sum (topology)                                   | disjoint union (topology)             |
+| [Q238231](https://www.wikidata.org/wiki/Q238231)                       | disk (mathematics)                                      |
+| [Q2742711](https://www.wikidata.org/wiki/Q2742711)                     | eccentricity (graph theory)                             | distance (graph theory)               |
+| [Q1229509](https://www.wikidata.org/wiki/Q1229509)                     | distinction                                             |
+| [Q564835](https://www.wikidata.org/wiki/Q564835)                       | distribution (differential geometry)                    |
+| [Q865811](https://www.wikidata.org/wiki/Q865811)                       | distribution (mathematics)                              |
+| [Q5283210](https://www.wikidata.org/wiki/Q5283210)                     | distributive category                                   |
+| [Q2363730](https://www.wikidata.org/wiki/Q2363730)                     | distributive lattice                                    |
+| [Q5283219](https://www.wikidata.org/wiki/Q5283219)                     | distributivity (order theory)                           |
+| [Q1782332](https://www.wikidata.org/wiki/Q1782332)                     | divisible group                                         |                                       |                              |
+| [Q1231309](https://www.wikidata.org/wiki/Q1231309)                     | division algebra                                        |                                       |                              |
+| [Q3526714](https://www.wikidata.org/wiki/Q3526714)                     | division algorithm                                      |
+| [Q1226939](https://www.wikidata.org/wiki/Q1226939)                     | division in a ring                                      |                                       |                              |
+| [Q650741](https://www.wikidata.org/wiki/Q650741)                       | division ring                                           |                                       |                              |  |
+| [Q909669](https://www.wikidata.org/wiki/Q909669)                       | divisor (algebraic geometry)                            |
+| [Q5284415](https://www.wikidata.org/wiki/Q5284415)                     | divisor (ring theory)                                   |
+| [Q192439](https://www.wikidata.org/wiki/Q192439)                       | domain (mathematics)                                    |
+| [Q2851442](https://www.wikidata.org/wiki/Q2851442)                     | domain (ring theory)                                    |
+| [Q1067156](https://www.wikidata.org/wiki/Q1067156)                     | dominated convergence theorem                           |
+| [Q2361385](https://www.wikidata.org/wiki/Q2361385)                     | dual (category theory)                                  |
+| [Q1755512](https://www.wikidata.org/wiki/Q1755512)                     | dual (mathematics)                                      |
+| [Q2297777](https://www.wikidata.org/wiki/Q2297777)                     | dual basis                                              |                                       |                              |
+| [Q3427408](https://www.wikidata.org/wiki/Q3427408)                     | dual representation of a lie algebra                    |                                       |
+| [Q752487](https://www.wikidata.org/wiki/Q752487)                       | dual space                                              | dual space                            |                              | dual (linear algebra) |
+| [Q104486](https://www.wikidata.org/wiki/Q104486)                       | eccentricity (mathematics)                              |
+| [Q1415372](https://www.wikidata.org/wiki/Q1415372)                     | edge path                                               |                                       |                              |  |
+| [Q252022](https://www.wikidata.org/wiki/Q252022)                       | effect                                                  |
+| [Q3553768](https://www.wikidata.org/wiki/Q3553768)                     | eigenvalue                                              |                                       |                              |  |
+| [Q190524](https://www.wikidata.org/wiki/Q190524)                       | eigenvector                                             | eigenvector                           |                              |
+| [Q3555174](https://www.wikidata.org/wiki/Q3555174)                     | eigenvector                                             |                                       |                              |  |
+| [Q1630568](https://www.wikidata.org/wiki/Q1630568)                     | eilenberg-moore algebra                                 |
+| [Q1057416](https://www.wikidata.org/wiki/Q1057416)                     | eisenstein's criterion                                  |                                       |
+| [Q5358816](https://www.wikidata.org/wiki/Q5358816)                     | element (category theory)                               |
+| [Q379825](https://www.wikidata.org/wiki/Q379825)                       | element (set theory)                                    |
+| [Q1017231](https://www.wikidata.org/wiki/Q1017231)                     | elementary abelian p-group                              |                                       |
+| [Q609566](https://www.wikidata.org/wiki/Q609566)                       | elementary matrix                                       | elementary row operations             |
+| [Q1333611](https://www.wikidata.org/wiki/Q1333611)                     | embedded m-dimensional manifold with boundary           |
+| [Q980509](https://www.wikidata.org/wiki/Q980509)                       | embedding                                               |                                       |                              |  |
+| [Q5375781](https://www.wikidata.org/wiki/Q5375781)                     | end (category theory)                                   | end (category theory)                 |
+| [Q5375783](https://www.wikidata.org/wiki/Q5375783)                     | end (graph theory)                                      | end (graph theory)                    |
+| [Q5375784](https://www.wikidata.org/wiki/Q5375784)                     | end (topology)                                          | end (topology)                        |
+| [Q1340800](https://www.wikidata.org/wiki/Q1340800)                     | endomorphism                                            |                                       |                              |
+| [Q5379515](https://www.wikidata.org/wiki/Q5379515)                     | enriched category                                       |
+| [Q215084](https://www.wikidata.org/wiki/Q215084)                       | entire                                                  |                                       | analytic function            |
+| [Q847600](https://www.wikidata.org/wiki/Q847600)                       | entire function                                         |
+| [Q45003](https://www.wikidata.org/wiki/Q45003)                         | entropic                                                |
+| [Q1347208](https://www.wikidata.org/wiki/Q1347208)                     | epimorphism                                             |                                       |                              |
+| [Q842346](https://www.wikidata.org/wiki/Q842346)                       | equality (mathematics)                                  | equality (mathematics)                |
+| [Q11345](https://www.wikidata.org/wiki/Q11345)                         | equation (mathematics)                                  |
+| [Q1082992](https://www.wikidata.org/wiki/Q1082992)                     | equivalence (category theory)                           |
+| [Q235935](https://www.wikidata.org/wiki/Q235935)                       | equivalence (mathematics)                               |
+| [Q1211071](https://www.wikidata.org/wiki/Q1211071)                     | equivalence class                                       | equivalence class                     |
+| [Q130998](https://www.wikidata.org/wiki/Q130998)                       | equivalence relation                                    | equivalence relation                  |
+| [Q256355](https://www.wikidata.org/wiki/Q256355)                       | equivariant map                                         |                                       |                              |
+| [Q1876526](https://www.wikidata.org/wiki/Q1876526)                     | essential singularity                                   |
+| [Q1969054](https://www.wikidata.org/wiki/Q1969054)                     | essentially bounded                                     |                                       |                              |
+| [Q230848](https://www.wikidata.org/wiki/Q230848)                       | euclidean algorithm                                     |
+| [Q867345](https://www.wikidata.org/wiki/Q867345)                       | euclidean domain                                        | euclidean domain                      |
+| [Q181365](https://www.wikidata.org/wiki/Q181365)                       | euclidean inner product                                 |                                       |                              |
+| [Q852973](https://www.wikidata.org/wiki/Q852973)                       | euler characteristic of a graph                         | euler characteristic                  |
+| [Q190026](https://www.wikidata.org/wiki/Q190026)                       | euler's totient function                                | totient                               |                              |
+| [Q1326955](https://www.wikidata.org/wiki/Q1326955)                     | exact sequence                                          |                                       |                              |
+| [Q29864097](https://www.wikidata.org/wiki/Q29864097)                   | example                                                 |                                       |
+| [Q1383909](https://www.wikidata.org/wiki/Q1383909)                     | exclusion                                               |                                       |
+| [Q5420020](https://www.wikidata.org/wiki/Q5420020)                     | exercise (mathematics)                                  |
+| [Q5420343](https://www.wikidata.org/wiki/Q5420343)                     | exist                                                   |                                       |
+| [Q253338](https://www.wikidata.org/wiki/Q253338)                       | expansion                                               |                                       |
+| [Q32998717](https://www.wikidata.org/wiki/Q32998717)                   | exponent of a finite group                              |                                       |
+| [Q4391173](https://www.wikidata.org/wiki/Q4391173)                     | exponential (category theory)                           |
+| [Q582659](https://www.wikidata.org/wiki/Q582659)                       | exponential law                                         |                                       |
+| [Q295785](https://www.wikidata.org/wiki/Q295785)                       | extended                                                | extension (mathematics)               |
+| [Q1322786](https://www.wikidata.org/wiki/Q1322786)                     | exterior                                                |                                       |                              |  |
+| [Q13408581](https://www.wikidata.org/wiki/Q13408581)                   | exterior power of linear transformation                 |
+| [Q3064117](https://www.wikidata.org/wiki/Q3064117)                     | face (mathematics)                                      |
+| [Q188572](https://www.wikidata.org/wiki/Q188572)                       | fact                                                    |                                       |
+| [Q5597083](https://www.wikidata.org/wiki/Q5597083)                     | factor (graph theory)                                   |
+| [Q1393757](https://www.wikidata.org/wiki/Q1393757)                     | factor (mathematics)                                    |
+| [Q188804](https://www.wikidata.org/wiki/Q188804)                       | factorization                                           |
+| [Q1064276](https://www.wikidata.org/wiki/Q1064276)                     | faithful functor                                        |
+| [Q8960830](https://www.wikidata.org/wiki/Q8960830)                     | family (mathematics)                                    |
+| [Q21285678](https://www.wikidata.org/wiki/Q21285678)                   | family (set theory)                                     |
+| [Q623950Vector_spac](https://www.wikidata.org/wiki/Q623950Vector_spac) | fast fourier transform                                  |                                       |
+| [Q623950](https://www.wikidata.org/wiki/Q623950)                       | fast fourier transform                                  |                                       |
+| [Q1068118](https://www.wikidata.org/wiki/Q1068118)                     | fatou's lemma                                           |                                       |
+| [Q16782317](https://www.wikidata.org/wiki/Q16782317)                   | feature                                                 |
+| [Q571154](https://www.wikidata.org/wiki/Q571154)                       | fejer theorem                                           |                                       |
+| [Q207264](https://www.wikidata.org/wiki/Q207264)                       | fermat prime                                            |
+| [Q386272](https://www.wikidata.org/wiki/Q386272)                       | feynman diagram                                         |
+| [Q1640811](https://www.wikidata.org/wiki/Q1640811)                     | fiber                                                   |                                       |                              | fiber (algebraic geometry) |
+| [Q16897605](https://www.wikidata.org/wiki/Q16897605)                   | fiber translation functor                               |                                       |                              |
+| [Q47577](https://www.wikidata.org/wiki/Q47577)                         | fibonacci sequence                                      |
+| [Q5446408](https://www.wikidata.org/wiki/Q5446408)                     | fibrant object                                          |
+| [Q493941](https://www.wikidata.org/wiki/Q493941)                       | fibration                                               |                                       |                              |  |
+| [Q190109](https://www.wikidata.org/wiki/Q190109)                       | field                                                   |                                       | field (mathematics)          | field theory (mathematics) |
+| [Q5448799](https://www.wikidata.org/wiki/Q5448799)                     | filled julia set                                        |                                       |                              |
+| [Q11516722](https://www.wikidata.org/wiki/Q11516722)                   | finite                                                  | finite                                |
+| [Q603880](https://www.wikidata.org/wiki/Q603880)                       | finite fields                                           | finite field                          |                              |
+| [Q1057968](https://www.wikidata.org/wiki/Q1057968)                     | finite group                                            | finite group                          |
+| [Q1761084](https://www.wikidata.org/wiki/Q1761084)                     | finite length r-module                                  |                                       |                              |
+| [Q22349746](https://www.wikidata.org/wiki/Q22349746)                   | finite number                                           |
+| [Q272404](https://www.wikidata.org/wiki/Q272404)                       | finite set                                              |
+| [Q1340572](https://www.wikidata.org/wiki/Q1340572)                     | finitely generated r-module                             |                                       |
+| [Q6508397](https://www.wikidata.org/wiki/Q6508397)                     | first author                                            |
+| [Q1065966](https://www.wikidata.org/wiki/Q1065966)                     | first isomorphism theorem                               |
+| [Q3568](https://www.wikidata.org/wiki/Q3568)                           | focus (mathematics)                                     |                                       |
+| [Q11402](https://www.wikidata.org/wiki/Q11402)                         | force                                                   |                                       |
+| [Q2646117](https://www.wikidata.org/wiki/Q2646117)                     | forgetful functor                                       |
+| [Q1474074](https://www.wikidata.org/wiki/Q1474074)                     | form (mathematics)                                      |
+| [Q1955819](https://www.wikidata.org/wiki/Q1955819)                     | formal derivative                                       |
+| [Q1433067](https://www.wikidata.org/wiki/Q1433067)                     | formalism (mathematics)                                 |
+| [Q976981](https://www.wikidata.org/wiki/Q976981)                       | formula                                                 |                                       |
+| [Q6520159](https://www.wikidata.org/wiki/Q6520159)                     | fourier transform                                       |                                       |
+| [Q199691](https://www.wikidata.org/wiki/Q199691)                       | fourier-laplace transform                               |                                       |
+| [Q8352226](https://www.wikidata.org/wiki/Q8352226)                     | fourth                                                  |                                       |
+| [Q66055](https://www.wikidata.org/wiki/Q66055)                         | fraction (mathematics)                                  | fraction (mathematics)                |
+| [Q354717](https://www.wikidata.org/wiki/Q354717)                       | fragment                                                |
+| [Q6927157](https://www.wikidata.org/wiki/Q6927157)                     | frame (differential geometry)                           |
+| [Q5477875](https://www.wikidata.org/wiki/Q5477875)                     | frame (linear algebra)                                  |
+| [Q5156470](https://www.wikidata.org/wiki/Q5156470)                     | frame (order theory)                                    |
+| [Q176244](https://www.wikidata.org/wiki/Q176244)                       | frattini subgroup                                       |                                       |                              |
+| [Q5500180](https://www.wikidata.org/wiki/Q5500180)                     | free algebra                                            |
+| [Q431078](https://www.wikidata.org/wiki/Q431078)                       | free group                                              |                                       |                              |  |
+| [Q1292333](https://www.wikidata.org/wiki/Q1292333)                     | free module                                             |                                       |                              |  |
+| [Q5505100](https://www.wikidata.org/wiki/Q5505100)                     | frobenius object                                        |
+| [Q1149022](https://www.wikidata.org/wiki/Q1149022)                     | fubini's theorem                                        |                                       |
+| [Q579600](https://www.wikidata.org/wiki/Q579600)                       | functional                                              |                                       |                              |  |
+| [Q864475](https://www.wikidata.org/wiki/Q864475)                       | functor                                                 |                                       |                              | functoriality |
+| [Q2007878](https://www.wikidata.org/wiki/Q2007878)                     | functor category                                        |
+| [Q662830](https://www.wikidata.org/wiki/Q662830)                       | fundamental group                                       |                                       | fundamental groupoid         |
+| [Q85174068](https://www.wikidata.org/wiki/Q85174068)                   | fundamental groupoid                                    |                                       |                              |
+| [Q430271](https://www.wikidata.org/wiki/Q430271)                       | fundamental theorem                                     |
+| [Q219285](https://www.wikidata.org/wiki/Q219285)                       | fusion                                                  |
+| [Q4944906](https://www.wikidata.org/wiki/Q4944906)                     | gale-stewart game                                       |                                       |                              |
+| [Q15079592](https://www.wikidata.org/wiki/Q15079592)                   | game                                                    |                                       |                              |  |
+| [Q1507104](https://www.wikidata.org/wiki/Q1507104)                     | game (mathematics)                                      |
+| [Q2658](https://www.wikidata.org/wiki/Q2658)                           | gaussian elimination                                    |                                       |
+| [Q1054475](https://www.wikidata.org/wiki/Q1054475)                     | gaussian function                                       |                                       |
+| [Q724975](https://www.wikidata.org/wiki/Q724975)                       | gaussian integers                                       |                                       |                              |
+| [Q17521172](https://www.wikidata.org/wiki/Q17521172)                   | general linear algebra                                  |                                       |                              |
+| [Q524607](https://www.wikidata.org/wiki/Q524607)                       | general linear group                                    | general linear group                  |                              |
+| [Q1111474](https://www.wikidata.org/wiki/Q1111474)                     | general theory                                          |
+| [Q170084](https://www.wikidata.org/wiki/Q170084)                       | generalisation                                          |
+| [Q16783743](https://www.wikidata.org/wiki/Q16783743)                   | generality                                              |                                       |
+| [Q970767](https://www.wikidata.org/wiki/Q970767)                       | generalized eigenspace                                  |                                       |
+| [Q643669](https://www.wikidata.org/wiki/Q643669)                       | generate (mathematics)                                  |
+| [Q25106477](https://www.wikidata.org/wiki/Q25106477)                   | generate an r-module                                    |                                       |                              |
+| [Q5532552](https://www.wikidata.org/wiki/Q5532552)                     | generating                                              |
+| [Q734209](https://www.wikidata.org/wiki/Q734209)                       | generating set of a group                               | cyclic subgroup                       |
+| [Q17000267](https://www.wikidata.org/wiki/Q17000267)                   | generator (category theory)                             |
+| [Q1306887](https://www.wikidata.org/wiki/Q1306887)                     | geometric series                                        |                                       |
+| [Q173582](https://www.wikidata.org/wiki/Q173582)                       | gradient                                                | gradient (calculus)                   |                              |
+| [Q141488](https://www.wikidata.org/wiki/Q141488)                       | graph                                                   | order (graph theory)                  | order (graph theory)         | order (graph theory) |
+| [Q182598](https://www.wikidata.org/wiki/Q182598)                       | graph of a function                                     |                                       |                              |
+| [Q131752](https://www.wikidata.org/wiki/Q131752)                       | greatest common divisor                                 | greatest common divisor               | common divisor               |
+| [Q14493119](https://www.wikidata.org/wiki/Q14493119)                   | ground                                                  |
+| [Q83478](https://www.wikidata.org/wiki/Q83478)                         | group                                                   | group (mathematics)                   | group (mathematics)          |
+| [Q288465](https://www.wikidata.org/wiki/Q288465)                       | group action                                            | orbit (group theory)                  | action (group theory)        | orbit (group theory) |
+| [Q217608](https://www.wikidata.org/wiki/Q217608)                       | group action invariants                                 |                                       |                              |
+| [Q17019511](https://www.wikidata.org/wiki/Q17019511)                   | group algebra                                           |                                       |                              |
+| [Q108307](https://www.wikidata.org/wiki/Q108307)                       | group element                                           |
+| [Q1055807](https://www.wikidata.org/wiki/Q1055807)                     | group representation                                    | representation (group theory)         |
+| [Q2602722](https://www.wikidata.org/wiki/Q2602722)                     | group ring                                              |                                       |                              |  |
+| [Q1196038](https://www.wikidata.org/wiki/Q1196038)                     | groupoid                                                |                                       |                              |  |
+| [Q19921713](https://www.wikidata.org/wiki/Q19921713)                   | guess                                                   |                                       |
+| [Q189569](https://www.wikidata.org/wiki/Q189569)                       | hamel basis                                             |                                       | basis (linear algebra)       | basis (linear algebra) |
+| [Q33767](https://www.wikidata.org/wiki/Q33767)                         | hand                                                    | hand                                  |
+| [Q599027](https://www.wikidata.org/wiki/Q599027)                       | harmonic function                                       |                                       |                              |
+| [Q464100](https://www.wikidata.org/wiki/Q464100)                       | harmonic series (mathematics)                           |
+| [Q326908](https://www.wikidata.org/wiki/Q326908)                       | hausdorff                                               |                                       |                              |  |
+| [Q765987](https://www.wikidata.org/wiki/Q765987)                       | heine-cantor theorem                                    |                                       |
+| [Q77583424](https://www.wikidata.org/wiki/Q77583424)                   | hermitian inner product                                 |                                       |                              |
+| [Q620495](https://www.wikidata.org/wiki/Q620495)                       | hessian matrix                                          | hessian matrix                        |                              |
+| [Q5761206](https://www.wikidata.org/wiki/Q5761206)                     | hilbert basis                                           |                                       |                              |
+| [Q3527215](https://www.wikidata.org/wiki/Q3527215)                     | hilbert projection theorem                              |
+| [Q190056](https://www.wikidata.org/wiki/Q190056)                       | hilbert space                                           |                                       |                              |
+| [Q731894](https://www.wikidata.org/wiki/Q731894)                       | holder's inequality                                     |                                       |
+| [Q3139500](https://www.wikidata.org/wiki/Q3139500)                     | holomorph of a group                                    |                                       |                              |
+| [Q207476](https://www.wikidata.org/wiki/Q207476)                       | holomorphic functions                                   | holomorphic                           |
+| [Q907926](https://www.wikidata.org/wiki/Q907926)                       | holonomy                                                |
+| [Q202906](https://www.wikidata.org/wiki/Q202906)                       | homeomorphism                                           | homeomorphisms                        |                              |
+| [Q584521](https://www.wikidata.org/wiki/Q584521)                       | homeomorphism (graph theory)                            |
+| [Q579978](https://www.wikidata.org/wiki/Q579978)                       | homological algebra                                     |
+| [Q12715503](https://www.wikidata.org/wiki/Q12715503)                   | homology class                                          |                                       |                              |
+| [Q1144780](https://www.wikidata.org/wiki/Q1144780)                     | homology group                                          |                                       | homology theory              |
+| [Q3385162](https://www.wikidata.org/wiki/Q3385162)                     | homomorphism (graph theory)                             |
+| [Q868169](https://www.wikidata.org/wiki/Q868169)                       | homomorphism of lie groups                              | group morphism                        |                              |
+| [Q746083](https://www.wikidata.org/wiki/Q746083)                       | homotopy                                                |                                       |                              | homotopy equivalence |
+| [Q14775269](https://www.wikidata.org/wiki/Q14775269)                   | homotopy category                                       |                                       |                              |
+| [Q306560](https://www.wikidata.org/wiki/Q306560)                       | homotopy cofiber                                        |                                       |                              |
+| [Q17030678](https://www.wikidata.org/wiki/Q17030678)                   | homotopy colimit                                        |
+| [Q1626409](https://www.wikidata.org/wiki/Q1626409)                     | homotopy equivalence of paths                           |                                       |
+| [Q204034](https://www.wikidata.org/wiki/Q204034)                       | hyperbolic trigonometric functions                      |
+| [Q41719](https://www.wikidata.org/wiki/Q41719)                         | hypothesis                                              |                                       |
+| [Q224884](https://www.wikidata.org/wiki/Q224884)                       | ideal (mathematics)                                     |
+| [Q1656686](https://www.wikidata.org/wiki/Q1656686)                     | ideal (order theory)                                    |
+| [Q5987925](https://www.wikidata.org/wiki/Q5987925)                     | ideal (set theory)                                      |
+| [Q2243424](https://www.wikidata.org/wiki/Q2243424)                     | idempotent                                              |                                       |                              | idempotent (ring theory) |
+| [Q609647](https://www.wikidata.org/wiki/Q609647)                       | identity (mathematics)                                  |
+| [Q5988368](https://www.wikidata.org/wiki/Q5988368)                     | identity component                                      |                                       |                              |
+| [Q193794](https://www.wikidata.org/wiki/Q193794)                       | identity matrix                                         |                                       |                              |
+| [Q321119](https://www.wikidata.org/wiki/Q321119)                       | identity operator                                       |
+| [Q949972](https://www.wikidata.org/wiki/Q949972)                       | iff                                                     |                                       |
+| [Q860623](https://www.wikidata.org/wiki/Q860623)                       | image                                                   |                                       | preimage                     |  |
+| [Q860530](https://www.wikidata.org/wiki/Q860530)                       | image (category theory)                                 |
+| [Q11348](https://www.wikidata.org/wiki/Q11348)                         | image (set theory)                                      |
+| [Q11567](https://www.wikidata.org/wiki/Q11567)                         | imaginary part                                          |
+| [Q1035899](https://www.wikidata.org/wiki/Q1035899)                     | imbedding                                               |                                       |
+| [Q1215266](https://www.wikidata.org/wiki/Q1215266)                     | implication                                             | implication                           |
+| [Q315562](https://www.wikidata.org/wiki/Q315562)                       | impossibility                                           |
+| [Q464118](https://www.wikidata.org/wiki/Q464118)                       | improper integrals                                      |                                       |
+| [Q1663694](https://www.wikidata.org/wiki/Q1663694)                     | inclusion (mathematics)                                 |
+| [Q177646](https://www.wikidata.org/wiki/Q177646)                       | inclusion (set theory)                                  |
+| [Q849335](https://www.wikidata.org/wiki/Q849335)                       | inclusion-exclusion principle                           |
+| [Q625303](https://www.wikidata.org/wiki/Q625303)                       | independence of random variables                        |
+| [Q11712088](https://www.wikidata.org/wiki/Q11712088)                   | index (mathematics)                                     |
+| [Q18208028](https://www.wikidata.org/wiki/Q18208028)                   | index (statistics)                                      |
+| [Q1464168](https://www.wikidata.org/wiki/Q1464168)                     | index of a subgroup                                     | index (group theory)                  |
+| [Q17130880](https://www.wikidata.org/wiki/Q17130880)                   | induced topology                                        |                                       |
+| [Q178377](https://www.wikidata.org/wiki/Q178377)                       | induction (mathematics)                                 |
+| [Q2574205](https://www.wikidata.org/wiki/Q2574205)                     | infinite                                                |                                       |
+| [Q205](https://www.wikidata.org/wiki/Q205)                             | infinity (mathematics)                                  | infinity (mathematics)                |
+| [Q16797633](https://www.wikidata.org/wiki/Q16797633)                   | inherit                                                 |                                       |
+| [Q182003](https://www.wikidata.org/wiki/Q182003)                       | injective                                               |                                       |                              | injectivity |
+| [Q6034324](https://www.wikidata.org/wiki/Q6034324)                     | injective hull                                          |
+| [Q1139583](https://www.wikidata.org/wiki/Q1139583)                     | inner automorphism of a group                           |                                       |
+| [Q23924662](https://www.wikidata.org/wiki/Q23924662)                   | inner product                                           |                                       |                              |
+| [Q214159](https://www.wikidata.org/wiki/Q214159)                       | inner product space                                     | inner product space                   |
+| [Q976375](https://www.wikidata.org/wiki/Q976375)                       | inner regular                                           |                                       |                              |
+| [Q915985](https://www.wikidata.org/wiki/Q915985)                       | inscribed angle theorem                                 |                                       |
+| [Q437448](https://www.wikidata.org/wiki/Q437448)                       | instance                                                |                                       |
+| [Q12503](https://www.wikidata.org/wiki/Q12503)                         | integer                                                 | integer                               |
+| [Q80091](https://www.wikidata.org/wiki/Q80091)                         | integral (calculus)                                     |
+| [Q1493740](https://www.wikidata.org/wiki/Q1493740)                     | integral (ring theory)                                  |
+| [Q628792](https://www.wikidata.org/wiki/Q628792)                       | integral domain                                         |                                       |                              |
+| [Q1155313](https://www.wikidata.org/wiki/Q1155313)                     | integral test                                           |                                       |
+| [Q273328](https://www.wikidata.org/wiki/Q273328)                       | integration by part                                     |                                       |
+| [Q1665869](https://www.wikidata.org/wiki/Q1665869)                     | interaction (statistics)                                |
+| [Q862761](https://www.wikidata.org/wiki/Q862761)                       | interior                                                |                                       |                              |  |
+| [Q245098](https://www.wikidata.org/wiki/Q245098)                       | intermediate value theorem                              | intermediate value theorem            |
+| [Q133980](https://www.wikidata.org/wiki/Q133980)                       | internalization                                         |
+| [Q17141489](https://www.wikidata.org/wiki/Q17141489)                   | intersection (mathematics)                              | intersection (mathematics)            |
+| [Q185837](https://www.wikidata.org/wiki/Q185837)                       | intersect (set theory)                                  | intersection (set theory)             |
+| [Q185148](https://www.wikidata.org/wiki/Q185148)                       | interval                                                |                                       | interval (mathematics)       | interval (mathematics) |
+| [Q17092623](https://www.wikidata.org/wiki/Q17092623)                   | interval (graph theory)                                 | interval (graph theory)               |
+| [Q3300636](https://www.wikidata.org/wiki/Q3300636)                     | interval (statistics)                                   | interval (statistics)                 |
+| [Q188211](https://www.wikidata.org/wiki/Q188211)                       | invariance (mathematics)                                |
+| [Q2706744](https://www.wikidata.org/wiki/Q2706744)                     | invariant subspace                                      |                                       |                              |
+| [Q224353](https://www.wikidata.org/wiki/Q224353)                       | inverse (mathematics)                                   | inverse (mathematics)                 |
+| [Q338057](https://www.wikidata.org/wiki/Q338057)                       | inverse element                                         | inverse (ring theory)                 | inverse (ring theory)        |
+| [Q3984053](https://www.wikidata.org/wiki/Q3984053)                     | inverse fourier transform                               |                                       |
+| [Q191884](https://www.wikidata.org/wiki/Q191884)                       | inverse function                                        |                                       |                              |
+| [Q931001](https://www.wikidata.org/wiki/Q931001)                       | inverse function theorem                                |                                       |
+| [Q17123743](https://www.wikidata.org/wiki/Q17123743)                   | inverse matrix                                          |                                       |                              |
+| [Q3022118](https://www.wikidata.org/wiki/Q3022118)                     | inverse semigroup                                       |
+| [Q674533](https://www.wikidata.org/wiki/Q674533)                       | inverse trigonometric functions                         |
+| [Q1097601](https://www.wikidata.org/wiki/Q1097601)                     | inversion (mathematics)                                 |
+| [Q345847](https://www.wikidata.org/wiki/Q345847)                       | investigation                                           |
+| [Q846862](https://www.wikidata.org/wiki/Q846862)                       | involution (group theory)                               |
+| [Q2989575](https://www.wikidata.org/wiki/Q2989575)                     | irreducible element of an integral domain               |
+| [Q1476663](https://www.wikidata.org/wiki/Q1476663)                     | irreducible polynomial                                  |                                       |
+| [Q13690522](https://www.wikidata.org/wiki/Q13690522)                   | irreducible representation                              | irreducible representation            |
+| [Q1142889](https://www.wikidata.org/wiki/Q1142889)                     | isolated point                                          |                                       |                              |
+| [Q740207](https://www.wikidata.org/wiki/Q740207)                       | isometry                                                |                                       |                              |  |
+| [Q16799755](https://www.wikidata.org/wiki/Q16799755)                   | isometry (mathematics)                                  |
+| [Q189112](https://www.wikidata.org/wiki/Q189112)                       | isomorphism of group representations                    | isomorphism                           |
+| [Q273163](https://www.wikidata.org/wiki/Q273163)                       | isotropy                                                |
+| [Q17098238](https://www.wikidata.org/wiki/Q17098238)                   | isotypic component                                      |                                       |                              |
+| [Q651022](https://www.wikidata.org/wiki/Q651022)                       | iteration                                               |
+| [Q1474543](https://www.wikidata.org/wiki/Q1474543)                     | jacobian determinant                                    |                                       |                              |
+| [Q506041](https://www.wikidata.org/wiki/Q506041)                       | jacobian matrix                                         | jacobian matrix                       |                              |
+| [Q838495](https://www.wikidata.org/wiki/Q838495)                       | jordan normal form                                      |                                       |
+| [Q202400](https://www.wikidata.org/wiki/Q202400)                       | kernel (mathematics)                                    |
+| [Q687704](https://www.wikidata.org/wiki/Q687704)                       | kernel (set theory)                                     |
+| [Q3345662](https://www.wikidata.org/wiki/Q3345662)                     | kernel (statistics)                                     |
+| [Q574844](https://www.wikidata.org/wiki/Q574844)                       | kernel of group homomorphism                            | kernel (ring theory)                  |
+| [Q2920416](https://www.wikidata.org/wiki/Q2920416)                     | kernel of group homomorphism                            | kernel (category theory)              |
+| [Q192826](https://www.wikidata.org/wiki/Q192826)                       | kronecker delta                                         |                                       |                              |
+| [Q80222](https://www.wikidata.org/wiki/Q80222)                         | lagrange                                                |                                       |
+| [Q861606](https://www.wikidata.org/wiki/Q861606)                       | lagrange interpolation                                  |                                       |
+| [Q598870](https://www.wikidata.org/wiki/Q598870)                       | lagrange multipliers                                    |                                       |
+| [Q339444](https://www.wikidata.org/wiki/Q339444)                       | laplace equations                                       |                                       |
+| [Q203484](https://www.wikidata.org/wiki/Q203484)                       | laplacian                                               |                                       |                              |  |
+| [Q6497088](https://www.wikidata.org/wiki/Q6497088)                     | lattice (group theory)                                  |
+| [Q2754968](https://www.wikidata.org/wiki/Q2754968)                     | lattice (mathematics)                                   |
+| [Q425432](https://www.wikidata.org/wiki/Q425432)                       | laurent series                                          |                                       |
+| [Q7748](https://www.wikidata.org/wiki/Q7748)                           | law                                                     | law                                   |
+| [Q1989192](https://www.wikidata.org/wiki/Q1989192)                     | law of total probability                                |                                       |
+| [Q6505076](https://www.wikidata.org/wiki/Q6505076)                     | lawvere theory                                          |
+| [Q18345526](https://www.wikidata.org/wiki/Q18345526)                   | lax functor                                             |
+| [Q102761](https://www.wikidata.org/wiki/Q102761)                       | least common multiple                                   |                                       |
+| [Q516776](https://www.wikidata.org/wiki/Q516776)                       | lebesgue measurable function                            |                                       |
+| [Q827230](https://www.wikidata.org/wiki/Q827230)                       | lebesgue measure                                        | lebesgue measure                      |                              |
+| [Q25447455](https://www.wikidata.org/wiki/Q25447455)                   | lebesgue outer measure                                  |                                       |                              |
+| [Q185813](https://www.wikidata.org/wiki/Q185813)                       | left identity element                                   | identity element                      |
+| [Q44649](https://www.wikidata.org/wiki/Q44649)                         | left ring ideal                                         | ideal (ring theory)                   |
+| [Q14565197](https://www.wikidata.org/wiki/Q14565197)                   | left side                                               |                                       |
+| [Q207505](https://www.wikidata.org/wiki/Q207505)                       | lemma (mathematics)                                     |
+| [Q670036](https://www.wikidata.org/wiki/Q670036)                       | curve length                                            | length (mathematics)                  |
+| [Q664495](https://www.wikidata.org/wiki/Q664495)                       | lie algebra                                             |                                       |                              | lie algebra |
+| [Q3882299](https://www.wikidata.org/wiki/Q3882299)                     | lie algebra homomorphism                                |                                       |
+| [Q1136782](https://www.wikidata.org/wiki/Q1136782)                     | lie algebra representation                              |                                       |
+| [Q6543824](https://www.wikidata.org/wiki/Q6543824)                     | lie groupoid                                            |
+| [Q9128](https://www.wikidata.org/wiki/Q9128)                           | light                                                   |
+| [Q177239](https://www.wikidata.org/wiki/Q177239)                       | converge (topology)                                     | limit (topology)                      |
+| [Q1322614](https://www.wikidata.org/wiki/Q1322614)                     | limit of a d-shaped diagram                             | continuity (category theory)          | continuity (category theory) | continuity (category theory) |
+| [Q858223](https://www.wikidata.org/wiki/Q858223)                       | limit point                                             | limit point                           | limit point                  |  |
+| [Q246639](https://www.wikidata.org/wiki/Q246639)                       | limits                                                  |                                       |                              |
+| [Q467699](https://www.wikidata.org/wiki/Q467699)                       | line integral                                           |                                       |                              |
+| [Q27628](https://www.wikidata.org/wiki/Q27628)                         | linear combination                                      |
+| [Q15854269](https://www.wikidata.org/wiki/Q15854269)                   | linear factor                                           |                                       |
+| [Q16977077](https://www.wikidata.org/wiki/Q16977077)                   | linear lie algebra                                      |                                       |                              |
+| [Q841728](https://www.wikidata.org/wiki/Q841728)                       | linear logic                                            |
+| [Q207643](https://www.wikidata.org/wiki/Q207643)                       | linear transformation                                   | linear map                            |                              |  |
+| [Q211981](https://www.wikidata.org/wiki/Q211981)                       | linearisation theorem                                   |                                       |
+| [Q1753188](https://www.wikidata.org/wiki/Q1753188)                     | linearity                                               |                                       |
+| [Q111783780](https://www.wikidata.org/wiki/Q111783780)                 | linearly dependent                                      |                                       |                              |
+| [Q27670](https://www.wikidata.org/wiki/Q27670)                         | linearly independent                                    | linear independence                   |                              |
+| [Q652707](https://www.wikidata.org/wiki/Q652707)                       | lipschitz functions                                     |                                       |
+| [Q845060](https://www.wikidata.org/wiki/Q845060)                       | local extrema                                           |                                       |
+| [Q4265744](https://www.wikidata.org/wiki/Q4265744)                     | local homology groups                                   |                                       |                              |
+| [Q91052280](https://www.wikidata.org/wiki/Q91052280)                   | local maximum                                           |                                       |                              |
+| [Q91052291](https://www.wikidata.org/wiki/Q91052291)                   | local minimum                                           |                                       |                              |
+| [Q2147620](https://www.wikidata.org/wiki/Q2147620)                     | locally compact group                                   |                                       |                              |
+| [Q643300](https://www.wikidata.org/wiki/Q643300)                       | locally finite cover                                    |                                       |                              |
+| [Q2136937](https://www.wikidata.org/wiki/Q2136937)                     | locally finite measure                                  |                                       |                              |
+| [Q16671984](https://www.wikidata.org/wiki/Q16671984)                   | locally path-connected                                  |                                       |                              |
+| [Q11197](https://www.wikidata.org/wiki/Q11197)                         | logarithms                                              |                                       |                              |
+| [Q1334417](https://www.wikidata.org/wiki/Q1334417)                     | lorentz group                                           |                                       |                              |
+| [Q1692143](https://www.wikidata.org/wiki/Q1692143)                     | loss                                                    |                                       |
+| [Q305936](https://www.wikidata.org/wiki/Q305936)                       | lp space                                                |                                       |                              |  |
+| [Q833089](https://www.wikidata.org/wiki/Q833089)                       | lu decomposition                                        |                                       |
+| [Q1361393](https://www.wikidata.org/wiki/Q1361393)                     | lusin function                                          |                                       |                              |
+| [Q11019](https://www.wikidata.org/wiki/Q11019)                         | machinery                                               |
+| [Q679903](https://www.wikidata.org/wiki/Q679903)                       | magma                                                   |                                       |                              |  |
+| [Q257](https://www.wikidata.org/wiki/Q257)                             | mandelbrot set                                          |                                       |                              |
+| [Q203920](https://www.wikidata.org/wiki/Q203920)                       | manifold                                                |                                       |                              |  |
+| [Q1620068](https://www.wikidata.org/wiki/Q1620068)                     | manner                                                  |
+| [Q573980](https://www.wikidata.org/wiki/Q573980)                       | map (topology)                                          |
+| [Q370502](https://www.wikidata.org/wiki/Q370502)                       | mapping (mathematics)                                   | mapping (mathematics)                 |
+| [Q1014869](https://www.wikidata.org/wiki/Q1014869)                     | mapping cylinder                                        |                                       |                              |
+| [Q91777214](https://www.wikidata.org/wiki/Q91777214)                   | mapping cylinder                                        |                                       |                              |
+| [Q842436](https://www.wikidata.org/wiki/Q842436)                       | markov inequality                                       |                                       |
+| [Q176645](https://www.wikidata.org/wiki/Q176645)                       | markov process                                          |
+| [Q656198](https://www.wikidata.org/wiki/Q656198)                       | maschke theorem                                         |                                       |
+| [Q44337](https://www.wikidata.org/wiki/Q44337)                         | matrix                                                  |                                       | matrix (mathematics)         | matrix (mathematics) |
+| [Q622679](https://www.wikidata.org/wiki/Q622679)                       | matrix lie group                                        |                                       |                              |
+| [Q902017](https://www.wikidata.org/wiki/Q902017)                       | matrix logarithm                                        |                                       |                              |
+| [Q1049914](https://www.wikidata.org/wiki/Q1049914)                     | matrix multiplication                                   |                                       |                              |
+| [Q6787889](https://www.wikidata.org/wiki/Q6787889)                     | matrix representation                                   |                                       |
+| [Q223683](https://www.wikidata.org/wiki/Q223683)                       | matrix transpose                                        | transpose                             |                              |
+| [Q1203540](https://www.wikidata.org/wiki/Q1203540)                     | maximal ring ideal                                      |                                       |                              |
+| [Q16908484](https://www.wikidata.org/wiki/Q16908484)                   | maximal subgroup                                        |                                       |                              |
+| [Q831672](https://www.wikidata.org/wiki/Q831672)                       | maximal subtree                                         |                                       |                              |
+| [Q1914255](https://www.wikidata.org/wiki/Q1914255)                     | maximum principle                                       |                                       |
+| [Q1747745](https://www.wikidata.org/wiki/Q1747745)                     | meager                                                  |                                       |                              |  |
+| [Q189136](https://www.wikidata.org/wiki/Q189136)                       | mean value theorem                                      | mean value theorem                    |
+| [Q3058218](https://www.wikidata.org/wiki/Q3058218)                     | measurable                                              |                                       |                              |  |
+| [Q3054889](https://www.wikidata.org/wiki/Q3054889)                     | measurable                                              |                                       |                              |  |
+| [Q3058212](https://www.wikidata.org/wiki/Q3058212)                     | measure space                                           |                                       |                              |
+| [Q1201815](https://www.wikidata.org/wiki/Q1201815)                     | measure zero                                            |                                       |                              |
+| [Q6269005](https://www.wikidata.org/wiki/Q6269005)                     | meet (mathematics)                                      |
+| [Q217616](https://www.wikidata.org/wiki/Q217616)                       | meromorphic function                                    |                                       |
+| [Q865746](https://www.wikidata.org/wiki/Q865746)                       | metric (mathematics)                                    |
+| [Q180953](https://www.wikidata.org/wiki/Q180953)                       | metric space                                            | compact metric space                  |
+| [Q630649](https://www.wikidata.org/wiki/Q630649)                       | metric structure                                        |                                       |
+| [Q1194053](https://www.wikidata.org/wiki/Q1194053)                     | metrisable space                                        |
+| [Q450](https://www.wikidata.org/wiki/Q450)                             | mind                                                    |                                       |
+| [Q2242730](https://www.wikidata.org/wiki/Q2242730)                     | minimal polynomial (field theory)                       |
+| [Q1163608](https://www.wikidata.org/wiki/Q1163608)                     | minimal polynomial (linear algebra)                     |
+| [Q1341061](https://www.wikidata.org/wiki/Q1341061)                     | minor                                                   |                                       |                              |  |
+| [Q6889353](https://www.wikidata.org/wiki/Q6889353)                     | modification                                            |
+| [Q5051857](https://www.wikidata.org/wiki/Q5051857)                     | module category                                         |
+| [Q215111](https://www.wikidata.org/wiki/Q215111)                       | module homomorphism                                     |                                       |                              |
+| [Q18848](https://www.wikidata.org/wiki/Q18848)                         | module over a lie algebra                               |                                       |                              |
+| [Q411185](https://www.wikidata.org/wiki/Q411185)                       | modulo                                                  |                                       |
+| [Q235787](https://www.wikidata.org/wiki/Q235787)                       | modulus                                                 |                                       |
+| [Q1451745](https://www.wikidata.org/wiki/Q1451745)                     | moments                                                 |                                       |                              |
+| [Q208237](https://www.wikidata.org/wiki/Q208237)                       | monoid                                                  |                                       |                              |  |
+| [Q2785361](https://www.wikidata.org/wiki/Q2785361)                     | monoid (category theory)                                |
+| [Q1945067](https://www.wikidata.org/wiki/Q1945067)                     | monomorphism                                            |                                       |                              |
+| [Q1153584](https://www.wikidata.org/wiki/Q1153584)                     | monotone convergence theorem                            |
+| [Q232207](https://www.wikidata.org/wiki/Q232207)                       | monte-carlo method                                      |                                       |
+| [Q6912366](https://www.wikidata.org/wiki/Q6912366)                     | morita equivalence                                      |
+| [Q644302](https://www.wikidata.org/wiki/Q644302)                       | motivation                                              |
+| [Q1952404](https://www.wikidata.org/wiki/Q1952404)                     | multilinear                                             | multilinear map                       |                              |
+| [Q98929882](https://www.wikidata.org/wiki/Q98929882)                   | multilinear                                             |                                       |                              |  |
+| [Q1055293](https://www.wikidata.org/wiki/Q1055293)                     | multiple (mathematics)                                  |
+| [Q2228257](https://www.wikidata.org/wiki/Q2228257)                     | multiplicity (mathematics)                              | multiple root                         |
+| [Q40276](https://www.wikidata.org/wiki/Q40276)                         | multiplier (mathematics)                                | multiplication (mathematics)          |
+| [Q17099189](https://www.wikidata.org/wiki/Q17099189)                   | multiplicative character                                |                                       |                              |
+| [Q216906](https://www.wikidata.org/wiki/Q216906)                       | multiplicative inverse                                  |
+| [Q1048447](https://www.wikidata.org/wiki/Q1048447)                     | multiplicativity                                        |
+| [Q4504468](https://www.wikidata.org/wiki/Q4504468)                     | n-chain                                                 |                                       | cycle (algebraic topology)   |
+| [Q21199](https://www.wikidata.org/wiki/Q21199)                         | natural number                                          |
+| [Q1442189](https://www.wikidata.org/wiki/Q1442189)                     | natural transformation                                  |                                       |                              |
+| [Q7860](https://www.wikidata.org/wiki/Q7860)                           | nature                                                  |                                       |
+| [Q875267](https://www.wikidata.org/wiki/Q875267)                       | necessary condition                                     |
+| [Q2478475](https://www.wikidata.org/wiki/Q2478475)                     | neighborhood                                            | neighbourhood (topology)              | neighbourhood (topology)     |
+| [Q1354987](https://www.wikidata.org/wiki/Q1354987)                     | neighbourhood (graph theory)                            | neighbourhood (graph theory)          |
+| [Q1749812](https://www.wikidata.org/wiki/Q1749812)                     | newton's identities                                     |                                       |
+| [Q840023](https://www.wikidata.org/wiki/Q840023)                       | nilpotent                                               |                                       |                              |  |
+| [Q1755242](https://www.wikidata.org/wiki/Q1755242)                     | nilpotent group                                         |                                       |                              |
+| [Q15148889](https://www.wikidata.org/wiki/Q15148889)                   | nilpotent lie algebra                                   |                                       |                              |
+| [Q2444982](https://www.wikidata.org/wiki/Q2444982)                     | noetherian module                                       |                                       |                              |
+| [Q582271](https://www.wikidata.org/wiki/Q582271)                       | noetherian ring                                         |                                       |                              |
+| [Q7048717](https://www.wikidata.org/wiki/Q7048717)                     | non-archimedean absolute value                          |                                       |
+| [Q1897429](https://www.wikidata.org/wiki/Q1897429)                     | non-archimedean absolute value                          |                                       |
+| [Q592651](https://www.wikidata.org/wiki/Q592651)                       | nonabelian group                                        |
+| [Q395712](https://www.wikidata.org/wiki/Q395712)                       | none                                                    |                                       |
+| [Q226183](https://www.wikidata.org/wiki/Q226183)                       | nonempty                                                |                                       |
+| [Q97623888](https://www.wikidata.org/wiki/Q97623888)                   | nonmeager                                               |                                       |                              |  |
+| [Q7049087](https://www.wikidata.org/wiki/Q7049087)                     | nonzero                                                 |                                       |
+| [Q956437](https://www.wikidata.org/wiki/Q956437)                       | norm                                                    | equivalent norms                      | norm (mathematics)           |
+| [Q1512559](https://www.wikidata.org/wiki/Q1512559)                     | normal convergence                                      |                                       |
+| [Q2173405](https://www.wikidata.org/wiki/Q2173405)                     | normal monomorphism                                     |
+| [Q854946](https://www.wikidata.org/wiki/Q854946)                       | normal operator                                         |
+| [Q743179](https://www.wikidata.org/wiki/Q743179)                       | normal subgroup                                         | normal subgroup                       | normal subgroup              |
+| [Q1069099](https://www.wikidata.org/wiki/Q1069099)                     | normal-form game                                        |                                       |                              |
+| [Q1761121](https://www.wikidata.org/wiki/Q1761121)                     | normalizer of a group                                   |                                       |                              |
+| [Q1991405](https://www.wikidata.org/wiki/Q1991405)                     | nowhere dense                                           |                                       |                              |
+| [Q2914509](https://www.wikidata.org/wiki/Q2914509)                     | nullity                                                 |                                       | kernel (linear algebra)      |
+| [Q11563](https://www.wikidata.org/wiki/Q11563)                         | number (mathematics)                                    |
+| [Q13611879](https://www.wikidata.org/wiki/Q13611879)                   | observation (statistics)                                |
+| [Q230967](https://www.wikidata.org/wiki/Q230967)                       | odd integer                                             |                                       |
+| [Q225746](https://www.wikidata.org/wiki/Q225746)                       | omega (mathematics)                                     |
+| [Q191780](https://www.wikidata.org/wiki/Q191780)                       | omega (set theory)                                      |
+| [Q4906086](https://www.wikidata.org/wiki/Q4906086)                     | op (statistics)                                         |
+| [Q213363](https://www.wikidata.org/wiki/Q213363)                       | open                                                    |                                       | open subset                  | open set |
+| [Q41509136](https://www.wikidata.org/wiki/Q41509136)                   | open cover                                              |                                       |                              |  |
+| [Q2632649](https://www.wikidata.org/wiki/Q2632649)                     | open mapping                                            |
+| [Q331350](https://www.wikidata.org/wiki/Q331350)                       | open simplex                                            |                                       | simplicial                   |
+| [Q842072](https://www.wikidata.org/wiki/Q842072)                       | operad (category theory)                                |
+| [Q3884033](https://www.wikidata.org/wiki/Q3884033)                     | operation (mathematics)                                 |
+| [Q131030](https://www.wikidata.org/wiki/Q131030)                       | operator (mathematics)                                  |
+| [Q7098616](https://www.wikidata.org/wiki/Q7098616)                     | opposite category                                       |                                       |                              |
+| [Q40460](https://www.wikidata.org/wiki/Q40460)                         | orbifold                                                |
+| [Q17859776](https://www.wikidata.org/wiki/Q17859776)                   | orbit                                                   |                                       |                              |  |
+| [Q230664](https://www.wikidata.org/wiki/Q230664)                       | orbit (mathematics)                                     | orbit (mathematics)                   |
+| [Q589491](https://www.wikidata.org/wiki/Q589491)                       | order (group theory)                                    | order (group theory)                  | order (group theory)         |
+| [Q1820515](https://www.wikidata.org/wiki/Q1820515)                     | order (mathematics)                                     | order (mathematics)                   | order (mathematics)          |
+| [Q1431456](https://www.wikidata.org/wiki/Q1431456)                     | order (ring theory)                                     | order (ring theory)                   | order (ring theory)          |
+| [Q18408315](https://www.wikidata.org/wiki/Q18408315)                   | order of a group                                        |                                       |                              |
+| [Q54555759](https://www.wikidata.org/wiki/Q54555759)                   | order of a group element                                |                                       |                              |
+| [Q1321469](https://www.wikidata.org/wiki/Q1321469)                     | order topology                                          |
+| [Q3393090](https://www.wikidata.org/wiki/Q3393090)                     | ordered set                                             |                                       |
+| [Q2029226](https://www.wikidata.org/wiki/Q2029226)                     | ordering                                                |                                       |
+| [Q860609](https://www.wikidata.org/wiki/Q860609)                       | ordinary generating function                            |                                       |
+| [Q1137726](https://www.wikidata.org/wiki/Q1137726)                     | oriented edge                                           |                                       | source (graph theory)        |
+| [Q215067](https://www.wikidata.org/wiki/Q215067)                       | orthogonal                                              | orthogonality                         | orthogonality                |
+| [Q52088805](https://www.wikidata.org/wiki/Q52088805)                   | orthogonal algebra                                      |                                       |                              |
+| [Q1780921](https://www.wikidata.org/wiki/Q1780921)                     | orthogonal complement                                   | orthogonal complement                 |                              |
+| [Q1783179](https://www.wikidata.org/wiki/Q1783179)                     | orthogonal group                                        | special orthogonal group              |                              |
+| [Q333871](https://www.wikidata.org/wiki/Q333871)                       | orthogonal matrix                                       |                                       |                              |
+| [Q1411166](https://www.wikidata.org/wiki/Q1411166)                     | orthonormal                                             |                                       |                              |
+| [Q2365325](https://www.wikidata.org/wiki/Q2365325)                     | orthonormal basis                                       |
+| [Q170475](https://www.wikidata.org/wiki/Q170475)                       | oscillation                                             |                                       |                              | oscillator |
+| [Q7106411](https://www.wikidata.org/wiki/Q7106411)                     | oscillation                                             |                                       |                              |  |
+| [Q258374](https://www.wikidata.org/wiki/Q258374)                       | outer measure                                           |                                       |                              |
+| [Q26851733](https://www.wikidata.org/wiki/Q26851733)                   | outer regular                                           |                                       |                              |
+| [Q2748415](https://www.wikidata.org/wiki/Q2748415)                     | outward pointing                                        |                                       |                              |
+| [Q11756524](https://www.wikidata.org/wiki/Q11756524)                   | p-adic integers                                         |                                       |                              |
+| [Q286972](https://www.wikidata.org/wiki/Q286972)                       | p-group                                                 |                                       |                              |  |
+| [Q1057919](https://www.wikidata.org/wiki/Q1057919)                     | p-subgroup                                              |                                       |
+| [Q191290](https://www.wikidata.org/wiki/Q191290)                       | pair (mathematics)                                      |
+| [Q7125151](https://www.wikidata.org/wiki/Q7125151)                     | pairwise                                                |                                       |
+| [Q7134470](https://www.wikidata.org/wiki/Q7134470)                     | paradoxical set                                         |                                       |                              |
+| [Q45867](https://www.wikidata.org/wiki/Q45867)                         | parallelogram                                           |
+| [Q174565](https://www.wikidata.org/wiki/Q174565)                       | parenthesis                                             |                                       |
+| [Q1194916](https://www.wikidata.org/wiki/Q1194916)                     | part (mathematics)                                      |
+| [Q186475](https://www.wikidata.org/wiki/Q186475)                       | partial derivative                                      | partial derivative                    |                              |
+| [Q431617](https://www.wikidata.org/wiki/Q431617)                       | partial fraction decomposition                          |
+| [Q1082910](https://www.wikidata.org/wiki/Q1082910)                     | partition of an integer                                 |                                       |                              |
+| [Q191690](https://www.wikidata.org/wiki/Q191690)                       | partition of unity                                      | partitions of unity                   |                              |
+| [Q1366002](https://www.wikidata.org/wiki/Q1366002)                     | path                                                    |                                       |                              |  |
+| [Q3487687](https://www.wikidata.org/wiki/Q3487687)                     | path-connected                                          |                                       |                              |
+| [Q7168087](https://www.wikidata.org/wiki/Q7168087)                     | perfect map                                             |                                       |
+| [Q7168101](https://www.wikidata.org/wiki/Q7168101)                     | perfect set                                             |                                       |                              |  |
+| [Q7168102](https://www.wikidata.org/wiki/Q7168102)                     | perfect square                                          |
+| [Q184743](https://www.wikidata.org/wiki/Q184743)                       | periodic function                                       |                                       |
+| [Q161519](https://www.wikidata.org/wiki/Q161519)                       | permutation                                             | permutation                           |
+| [Q60792472](https://www.wikidata.org/wiki/Q60792472)                   | permutation representation                              |
+| [Q185499](https://www.wikidata.org/wiki/Q185499)                       | persistence                                             |
+| [Q483247](https://www.wikidata.org/wiki/Q483247)                       | phenomenon                                              |
+| [Q613048](https://www.wikidata.org/wiki/Q613048)                       | place (mathematics)                                     |
+| [Q44946](https://www.wikidata.org/wiki/Q44946)                         | point (topology)                                        |
+| [Q9248237](https://www.wikidata.org/wiki/Q9248237)                     | pointwise                                               |
+| [Q1778098](https://www.wikidata.org/wiki/Q1778098)                     | pointwise convergence                                   |                                       |
+| [Q2101158](https://www.wikidata.org/wiki/Q2101158)                     | polar decomposition                                     |                                       |
+| [Q43260](https://www.wikidata.org/wiki/Q43260)                         | polynomial                                              | polynomial                            |
+| [Q1455652](https://www.wikidata.org/wiki/Q1455652)                     | polynomial ring                                         |                                       |                              |
+| [Q1632419](https://www.wikidata.org/wiki/Q1632419)                     | pontryagin dual                                         |                                       |                              |
+| [Q1052034](https://www.wikidata.org/wiki/Q1052034)                     | positive definite                                       |                                       |                              |
+| [Q192276](https://www.wikidata.org/wiki/Q192276)                       | positive measure                                        |                                       |
+| [Q7233418](https://www.wikidata.org/wiki/Q7233418)                     | possibility                                             | possibility                           |
+| [Q33456](https://www.wikidata.org/wiki/Q33456)                         | power (mathematics)                                     |
+| [Q1199823](https://www.wikidata.org/wiki/Q1199823)                     | power (statistics)                                      |
+| [Q206925](https://www.wikidata.org/wiki/Q206925)                       | power series                                            |
+| [Q205170](https://www.wikidata.org/wiki/Q205170)                       | power set                                               |                                       |                              | powerset |
+| [Q1393014](https://www.wikidata.org/wiki/Q1393014)                     | pre-measure                                             |                                       |                              |
+| [Q1425985](https://www.wikidata.org/wiki/Q1425985)                     | preorder (mathematics)                                  |
+| [Q62395707](https://www.wikidata.org/wiki/Q62395707)                   | presence                                                |
+| [Q7241077](https://www.wikidata.org/wiki/Q7241077)                     | presheaf (category theory)                              |
+| [Q595298](https://www.wikidata.org/wiki/Q595298)                       | presheaf (mathematics)                                  |
+| [Q7243229](https://www.wikidata.org/wiki/Q7243229)                     | prime (order theory)                                    |
+| [Q240651](https://www.wikidata.org/wiki/Q240651)                       | prime element of an integral domain                     |                                       |
+| [Q863912](https://www.wikidata.org/wiki/Q863912)                       | prime ideal                                             | prime ideals                          |                              |
+| [Q49008](https://www.wikidata.org/wiki/Q49008)                         | prime number                                            | prime numbers                         | prime number                 |
+| [Q7243585](https://www.wikidata.org/wiki/Q7243585)                     | primitive root                                          |
+| [Q1365548](https://www.wikidata.org/wiki/Q1365548)                     | principal bundle                                        |
+| [Q44382](https://www.wikidata.org/wiki/Q44382)                         | principal ideal                                         |                                       |                              |
+| [Q1143969](https://www.wikidata.org/wiki/Q1143969)                     | principal ideal domain                                  | principal ideal domain                |                              |
+| [Q211364](https://www.wikidata.org/wiki/Q211364)                       | principle                                               |                                       |
+| [Q207522](https://www.wikidata.org/wiki/Q207522)                       | probability density function                            |
+| [Q200726](https://www.wikidata.org/wiki/Q200726)                       | distribution (statistics)                               | probability distribution              |
+| [Q355020](https://www.wikidata.org/wiki/Q355020)                       | probability measure                                     |                                       |
+| [Q1166625](https://www.wikidata.org/wiki/Q1166625)                     | problem (mathematics)                                   |
+| [Q14167404](https://www.wikidata.org/wiki/Q14167404)                   | procedure                                               |                                       |
+| [Q229289](https://www.wikidata.org/wiki/Q229289)                       | process                                                 |                                       |
+| [Q919107](https://www.wikidata.org/wiki/Q919107)                       | product (category theory)                               |
+| [Q901718](https://www.wikidata.org/wiki/Q901718)                       | product (mathematics)                                   |
+| [Q1070472](https://www.wikidata.org/wiki/Q1070472)                     | product (topology)                                      |
+| [Q1572094](https://www.wikidata.org/wiki/Q1572094)                     | product measure                                         | product measure                       |                              |
+| [Q3406712](https://www.wikidata.org/wiki/Q3406712)                     | product of ring                                         |                                       |
+| [Q121594](https://www.wikidata.org/wiki/Q121594)                       | prof                                                    |                                       |
+| [Q7248328](https://www.wikidata.org/wiki/Q7248328)                     | profunctor                                              |
+| [Q519967](https://www.wikidata.org/wiki/Q519967)                       | projection                                              |                                       | projection (linear algebra)  |
+| [Q13415428](https://www.wikidata.org/wiki/Q13415428)                   | projection (mathematics)                                |
+| [Q5571842](https://www.wikidata.org/wiki/Q5571842)                     | projection (order theory)                               |
+| [Q7249440](https://www.wikidata.org/wiki/Q7249440)                     | projection (set theory)                                 |
+| [Q2112502](https://www.wikidata.org/wiki/Q2112502)                     | projective object                                       |
+| [Q2112539](https://www.wikidata.org/wiki/Q2112539)                     | projectivity                                            |
+| [Q7249479](https://www.wikidata.org/wiki/Q7249479)                     | projectivization                                        |                                       |                              |
+| [Q11538](https://www.wikidata.org/wiki/Q11538)                         | proof (mathematics)                                     | proof (mathematics)                   |
+| [Q3924032](https://www.wikidata.org/wiki/Q3924032)                     | property (mathematics)                                  |
+| [Q27790922](https://www.wikidata.org/wiki/Q27790922)                   | proximity                                               |
+| [Q16919007](https://www.wikidata.org/wiki/Q16919007)                   | pseudofunctor                                           |
+| [Q978505](https://www.wikidata.org/wiki/Q978505)                       | pullback along a diffeomorphism                         |                                       |
+| [Q706622](https://www.wikidata.org/wiki/Q706622)                       | purpose                                                 |                                       |
+| [Q1633079](https://www.wikidata.org/wiki/Q1633079)                     | pushout                                                 |                                       |                              |  |
+| [Q7268350](https://www.wikidata.org/wiki/Q7268350)                     | quadratic                                               |                                       |
+| [Q7268361](https://www.wikidata.org/wiki/Q7268361)                     | quadratic form (statistics)                             |
+| [Q803531](https://www.wikidata.org/wiki/Q803531)                       | quadratic integers                                      |                                       |                              |
+| [Q878259](https://www.wikidata.org/wiki/Q878259)                       | quadratic non-residue                                   |
+| [Q472883](https://www.wikidata.org/wiki/Q472883)                       | quadratic reciprocity                                   |
+| [Q298413](https://www.wikidata.org/wiki/Q298413)                       | quality                                                 |
+| [Q7279807](https://www.wikidata.org/wiki/Q7279807)                     | quandle                                                 |
+| [Q173853](https://www.wikidata.org/wiki/Q173853)                       | quaternion algebra                                      |                                       |                              |
+| [Q189756](https://www.wikidata.org/wiki/Q189756)                       | question                                                |                                       |
+| [Q3966112](https://www.wikidata.org/wiki/Q3966112)                     | quotient by equivalence relation                        |                                       |
+| [Q1138961](https://www.wikidata.org/wiki/Q1138961)                     | quotient by normal subgroup                             | quotient group                        |                              |
+| [Q2589508](https://www.wikidata.org/wiki/Q2589508)                     | quotient of lie algebra by ideal                        |                                       |
+| [Q1432554](https://www.wikidata.org/wiki/Q1432554)                     | quotient of modules                                     |                                       |                              |
+| [Q1139111](https://www.wikidata.org/wiki/Q1139111)                     | quotient of topological spaces                          | quotient space (topology)             | quotient map                 | quotient map |
+| [Q619436](https://www.wikidata.org/wiki/Q619436)                       | quotient ring                                           |                                       |                              |
+| [Q1393796](https://www.wikidata.org/wiki/Q1393796)                     | quotient vector space                                   | quotient space (linear algebra)       |
+| [Q1428097](https://www.wikidata.org/wiki/Q1428097)                     | radius of convergence                                   |                                       |
+| [Q2126650](https://www.wikidata.org/wiki/Q2126650)                     | radon measure                                           |                                       |                              |
+| [Q1191319](https://www.wikidata.org/wiki/Q1191319)                     | radon-nikodym derivative                                |                                       |                              |
+| [Q1806121](https://www.wikidata.org/wiki/Q1806121)                     | range (mathematics)                                     | range (mathematics)                   |
+| [Q1165839](https://www.wikidata.org/wiki/Q1165839)                     | range (statistics)                                      | range (statistics)                    |
+| [Q656784](https://www.wikidata.org/wiki/Q656784)                       | rank                                                    | rank of a matrix                      |                              |
+| [Q1260803](https://www.wikidata.org/wiki/Q1260803)                     | rank of a finitely generated abelian group              |
+| [Q1783502](https://www.wikidata.org/wiki/Q1783502)                     | rate of convergence                                     |                                       |
+| [Q938185](https://www.wikidata.org/wiki/Q938185)                       | rational                                                |                                       |
+| [Q41237](https://www.wikidata.org/wiki/Q41237)                         | rational functions                                      |                                       |
+| [Q1244890](https://www.wikidata.org/wiki/Q1244890)                     | rational number                                         |
+| [Q180345](https://www.wikidata.org/wiki/Q180345)                       | rational root                                           |
+| [Q861681](https://www.wikidata.org/wiki/Q861681)                       | real function                                           |
+| [Q12916](https://www.wikidata.org/wiki/Q12916)                         | real number                                             |                                       |
+| [Q2597317](https://www.wikidata.org/wiki/Q2597317)                     | real projective space                                   |                                       |                              |
+| [Q633815](https://www.wikidata.org/wiki/Q633815)                       | real projective space                                   |                                       |                              |
+| [Q913721](https://www.wikidata.org/wiki/Q913721)                       | real sequence                                           |
+| [Q936434](https://www.wikidata.org/wiki/Q936434)                       | real symplectic group                                   |                                       |                              |
+| [Q178354](https://www.wikidata.org/wiki/Q178354)                       | reason                                                  |                                       |
+| [Q1350049](https://www.wikidata.org/wiki/Q1350049)                     | reciprocity (mathematics)                               |
+| [Q1350049Overlin](https://www.wikidata.org/wiki/Q1350049Overlin)       | reciprocity (mathematics)                               |
+| [Q209](https://www.wikidata.org/wiki/Q209)                             | rectangle                                               |                                       |                              |  |
+| [Q1156903](https://www.wikidata.org/wiki/Q1156903)                     | rectangle method                                        |                                       |
+| [Q3038340](https://www.wikidata.org/wiki/Q3038340)                     | rectifiable                                             |                                       |                              |  |
+| [Q740970](https://www.wikidata.org/wiki/Q740970)                       | recursion (mathematics)                                 |
+| [Q7306331](https://www.wikidata.org/wiki/Q7306331)                     | reduced homology group                                  |                                       |                              |
+| [Q121769](https://www.wikidata.org/wiki/Q121769)                       | reference                                               |                                       |
+| [Q55631370](https://www.wikidata.org/wiki/Q55631370)                   | refinement                                              |                                       |                              | refinement (category theory) |
+| [Q780008](https://www.wikidata.org/wiki/Q780008)                       | refinement (game theory)                                |
+| [Q331481](https://www.wikidata.org/wiki/Q331481)                       | open covering                                           | refinement (topology)                 |
+| [Q6101219](https://www.wikidata.org/wiki/Q6101219)                     | reflective subcategory                                  |
+| [Q621850](https://www.wikidata.org/wiki/Q621850)                       | reflexive                                               |                                       |                              |  |
+| [Q1428110](https://www.wikidata.org/wiki/Q1428110)                     | regular                                                 |                                       |                              |  |
+| [Q714886](https://www.wikidata.org/wiki/Q714886)                       | regular polygons                                        |                                       |
+| [Q1193403](https://www.wikidata.org/wiki/Q1193403)                     | regular space                                           |
+| [Q915906](https://www.wikidata.org/wiki/Q915906)                       | relation (group theory)                                 | relation (group theory)               |
+| [Q55643339](https://www.wikidata.org/wiki/Q55643339)                   | relative cycle                                          |                                       |                              |
+| [Q1959911](https://www.wikidata.org/wiki/Q1959911)                     | relative homology groups                                |                                       |                              |
+| [Q846677](https://www.wikidata.org/wiki/Q846677)                       | remainder                                               |                                       |
+| [Q1496085](https://www.wikidata.org/wiki/Q1496085)                     | remark                                                  |                                       |
+| [Q386320](https://www.wikidata.org/wiki/Q386320)                       | representable functor                                   |
+| [Q2905654](https://www.wikidata.org/wiki/Q2905654)                     | representation (mathematics)                            |
+| [Q753375](https://www.wikidata.org/wiki/Q753375)                       | residue (mathematics)                                   |
+| [Q319400](https://www.wikidata.org/wiki/Q319400)                       | residue class                                           |
+| [Q830513](https://www.wikidata.org/wiki/Q830513)                       | residue theorem                                         |                                       |
+| [Q697181](https://www.wikidata.org/wiki/Q697181)                       | riemann integrable                                      |                                       |                              |
+| [Q825857](https://www.wikidata.org/wiki/Q825857)                       | riemann sphere                                          |                                       |                              |
+| [Q1187640](https://www.wikidata.org/wiki/Q1187640)                     | riemann-lebesgue lemma                                  |
+| [Q1357684](https://www.wikidata.org/wiki/Q1357684)                     | riesz representation theorem                            |
+| [Q1333055](https://www.wikidata.org/wiki/Q1333055)                     | rig (mathematics)                                       |
+| [Q751969](https://www.wikidata.org/wiki/Q751969)                       | right coset                                             |                                       | coset                        |  |
+| [Q5643770](https://www.wikidata.org/wiki/Q5643770)                     | right hand side                                         |
+| [Q161172](https://www.wikidata.org/wiki/Q161172)                       | ring                                                    | ring (mathematics)                    | ring (mathematics)           | ring (mathematics) |
+| [Q1194212](https://www.wikidata.org/wiki/Q1194212)                     | ring homomorphism                                       |                                       |                              |
+| [Q110571247](https://www.wikidata.org/wiki/Q110571247)                 | ring norm                                               |                                       |                              |  |
+| [Q2064647](https://www.wikidata.org/wiki/Q2064647)                     | ring of subsets                                         |                                       |                              |
+| [Q17102802](https://www.wikidata.org/wiki/Q17102802)                   | rng                                                     |                                       |                              |  |
+| [Q193286](https://www.wikidata.org/wiki/Q193286)                       | rolle's theorem                                         |                                       |
+| [Q351030](https://www.wikidata.org/wiki/Q351030)                       | root (mathematics)                                      |
+| [Q557624](https://www.wikidata.org/wiki/Q557624)                       | rule of product                                         |                                       |                              |
+| [Q2360148](https://www.wikidata.org/wiki/Q2360148)                     | rule of sum                                             |                                       |                              |  |
+| [Q7395333](https://www.wikidata.org/wiki/Q7395333)                     | s (set theory)                                          |
+| [Q1289248](https://www.wikidata.org/wiki/Q1289248)                     | scalar (mathematics)                                    |
+| [Q126736](https://www.wikidata.org/wiki/Q126736)                       | scalar multiplication                                   |
+| [Q1369621](https://www.wikidata.org/wiki/Q1369621)                     | schwartz space                                          |                                       |                              |
+| [Q1363919](https://www.wikidata.org/wiki/Q1363919)                     | second-countable                                        |                                       |                              |
+| [Q258480](https://www.wikidata.org/wiki/Q258480)                       | segment (mathematics)                                   |
+| [Q7448009](https://www.wikidata.org/wiki/Q7448009)                     | self-adjoint                                            |                                       | self-adjoint                 |  |
+| [Q652941](https://www.wikidata.org/wiki/Q652941)                       | self-adjoint                                            |                                       |                              |  |
+| [Q6500908](https://www.wikidata.org/wiki/Q6500908)                     | self-adjoint                                            |                                       |                              |  |
+| [Q6533897](https://www.wikidata.org/wiki/Q6533897)                     | self-adjoint                                            |                                       |                              |  |
+| [Q15847164](https://www.wikidata.org/wiki/Q15847164)                   | self-adjoint                                            |                                       |                              |  |
+| [Q7449310](https://www.wikidata.org/wiki/Q7449310)                     | semi-locally simply connected                           |                                       |
+| [Q1133242](https://www.wikidata.org/wiki/Q1133242)                     | semicircle                                              |                                       |
+| [Q291126](https://www.wikidata.org/wiki/Q291126)                       | semidirect product                                      |                                       | semidirect                   |
+| [Q207348](https://www.wikidata.org/wiki/Q207348)                       | semigroup                                               |                                       |                              |  |
+| [Q834585](https://www.wikidata.org/wiki/Q834585)                       | semilattice                                             |
+| [Q2366896](https://www.wikidata.org/wiki/Q2366896)                     | semisimple lie algebra                                  |                                       |                              |
+| [Q1485102](https://www.wikidata.org/wiki/Q1485102)                     | semisimple module                                       |                                       |                              |
+| [Q81376506](https://www.wikidata.org/wiki/Q81376506)                   | semisimple representation of a lie algebra              |
+| [Q173253](https://www.wikidata.org/wiki/Q173253)                       | sense                                                   |
+| [Q680081](https://www.wikidata.org/wiki/Q680081)                       | separable metric space                                  |                                       |                              |
+| [Q7451805](https://www.wikidata.org/wiki/Q7451805)                     | separation (statistics)                                 |
+| [Q133250](https://www.wikidata.org/wiki/Q133250)                       | sequence (mathematics)                                  |
+| [Q2996364](https://www.wikidata.org/wiki/Q2996364)                     | sequence convergence                                    |                                       |                              |
+| [Q1287023](https://www.wikidata.org/wiki/Q1287023)                     | sequence convergence                                    |                                       |                              |
+| [Q1135427](https://www.wikidata.org/wiki/Q1135427)                     | sequentially compact                                    |                                       |                              |
+| [Q170198](https://www.wikidata.org/wiki/Q170198)                       | series (mathematics)                                    |
+| [Q36161](https://www.wikidata.org/wiki/Q36161)                         | set (mathematics)                                       |
+| [Q207961](https://www.wikidata.org/wiki/Q207961)                       | shape                                                   |
+| [Q1064405](https://www.wikidata.org/wiki/Q1064405)                     | sign of permutation                                     |                                       |                              |
+| [Q298582](https://www.wikidata.org/wiki/Q298582)                       | signature (mathematics)                                 | signature (mathematics)               |
+| [Q7512811](https://www.wikidata.org/wiki/Q7512811)                     | signature (topology)                                    | signature (topology)                  |
+| [Q1764371](https://www.wikidata.org/wiki/Q1764371)                     | signed measure                                          |                                       |                              |
+| [Q254390](https://www.wikidata.org/wiki/Q254390)                       | similarity (mathematics)                                |
+| [Q913022](https://www.wikidata.org/wiki/Q913022)                       | simple function                                         |                                       |                              |
+| [Q571124](https://www.wikidata.org/wiki/Q571124)                       | simple group                                            |                                       |                              |
+| [Q85801231](https://www.wikidata.org/wiki/Q85801231)                   | simple lie algebra                                      |                                       |                              |
+| [Q78502771](https://www.wikidata.org/wiki/Q78502771)                   | simple lie algebra                                      |                                       |                              |
+| [Q956233](https://www.wikidata.org/wiki/Q956233)                       | simple module                                           |                                       |                              |
+| [Q994399](https://www.wikidata.org/wiki/Q994399)                       | simplicial complex                                      |                                       |                              |
+| [Q7520902](https://www.wikidata.org/wiki/Q7520902)                     | simplicial homology group                               |                                       |
+| [Q912058](https://www.wikidata.org/wiki/Q912058)                       | simply connected                                        |                                       |                              |
+| [Q1095056](https://www.wikidata.org/wiki/Q1095056)                     | singular homology group                                 |                                       |                              |
+| [Q1824450](https://www.wikidata.org/wiki/Q1824450)                     | singular measure                                        |                                       |                              |
+| [Q420904](https://www.wikidata.org/wiki/Q420904)                       | singular value decomposition                            |
+| [Q863349](https://www.wikidata.org/wiki/Q863349)                       | singularity (mathematics)                               |
+| [Q2291918](https://www.wikidata.org/wiki/Q2291918)                     | skeleton of a category                                  |                                       |                              |
+| [Q1780005](https://www.wikidata.org/wiki/Q1780005)                     | slice category                                          |
+| [Q27792031](https://www.wikidata.org/wiki/Q27792031)                   | small ball                                              |                                       |
+| [Q19619110](https://www.wikidata.org/wiki/Q19619110)                   | small category                                          |                                       |                              |
+| [Q868473](https://www.wikidata.org/wiki/Q868473)                       | smooth                                                  |                                       |                              | smooth map |
+| [Q78338964](https://www.wikidata.org/wiki/Q78338964)                   | smooth topological m-dimensional manifold with boundary |
+| [Q1879820](https://www.wikidata.org/wiki/Q1879820)                     | solution (mathematics)                                  |
+| [Q759832](https://www.wikidata.org/wiki/Q759832)                       | solvable group                                          |                                       |                              |
+| [Q7558992](https://www.wikidata.org/wiki/Q7558992)                     | solvable lie algebra                                    |                                       |                              |
+| [Q472971](https://www.wikidata.org/wiki/Q472971)                       | space (mathematics)                                     |
+| [Q209812](https://www.wikidata.org/wiki/Q209812)                       | span                                                    |                                       | span (linear algebra)        | span (linear algebra) |
+| [Q7573053](https://www.wikidata.org/wiki/Q7573053)                     | span (category theory)                                  | span (category theory)                |
+| [Q7574831](https://www.wikidata.org/wiki/Q7574831)                     | special linear algebra                                  |                                       |                              |
+| [Q2140900](https://www.wikidata.org/wiki/Q2140900)                     | special linear group                                    | special linear group                  |                              |
+| [Q3117934](https://www.wikidata.org/wiki/Q3117934)                     | special orthogonal group                                |                                       |                              |
+| [Q684363](https://www.wikidata.org/wiki/Q684363)                       | special unitary group                                   | special unitary group                 |                              |
+| [Q7574949](https://www.wikidata.org/wiki/Q7574949)                     | specie                                                  |
+| [Q2101564](https://www.wikidata.org/wiki/Q2101564)                     | specification                                           |
+| [Q7575154](https://www.wikidata.org/wiki/Q7575154)                     | spectra                                                 |
+| [Q7575210](https://www.wikidata.org/wiki/Q7575210)                     | spectral space                                          |
+| [Q1425077](https://www.wikidata.org/wiki/Q1425077)                     | spectral theorem                                        |
+| [Q25352092](https://www.wikidata.org/wiki/Q25352092)                   | split (graph theory)                                    | split (graph theory)                  |
+| [Q2757856](https://www.wikidata.org/wiki/Q2757856)                     | split (mathematics)                                     | split (mathematics)                   |
+| [Q3041173](https://www.wikidata.org/wiki/Q3041173)                     | split extension                                         |
+| [Q1996100](https://www.wikidata.org/wiki/Q1996100)                     | splitting field                                         |
+| [Q164](https://www.wikidata.org/wiki/Q164)                             | square (mathematics)                                    | square (mathematics)                  |
+| [Q134237](https://www.wikidata.org/wiki/Q134237)                       | square root                                             |                                       |
+| [Q50706](https://www.wikidata.org/wiki/Q50706)                         | squarefree integer                                      |
+| [Q1756677](https://www.wikidata.org/wiki/Q1756677)                     | stability (mathematics)                                 | stability (mathematics)               |
+| [Q7595717](https://www.wikidata.org/wiki/Q7595717)                     | stability (probability)                                 | stability (probability)               |
+| [Q15629907](https://www.wikidata.org/wiki/Q15629907)                   | standard topology                                       |
+| [Q1456029](https://www.wikidata.org/wiki/Q1456029)                     | statement                                               | statement                             |
+| [Q594799](https://www.wikidata.org/wiki/Q594799)                       | step                                                    |                                       |
+| [Q2601117](https://www.wikidata.org/wiki/Q2601117)                     | stirling numbers of the second kind                     |                                       |
+| [Q6901642](https://www.wikidata.org/wiki/Q6901642)                     | strong monoidal functor                                 |
+| [Q11681716](https://www.wikidata.org/wiki/Q11681716)                   | structure (category theory)                             |
+| [Q748349](https://www.wikidata.org/wiki/Q748349)                       | structure (mathematics)                                 |
+| [Q7625098](https://www.wikidata.org/wiki/Q7625098)                     | structure constants                                     |                                       |                              |
+| [Q629933](https://www.wikidata.org/wiki/Q629933)                       | subalgebra                                              |                                       |                              |  |
+| [Q2739990](https://www.wikidata.org/wiki/Q2739990)                     | subbasis                                                |                                       |
+| [Q541563](https://www.wikidata.org/wiki/Q541563)                       | subcategory                                             |
+| [Q7631151](https://www.wikidata.org/wiki/Q7631151)                     | subgraph                                                |                                       |                              |  |
+| [Q466109](https://www.wikidata.org/wiki/Q466109)                       | subgroup                                                | subgroup (mathematics)                | subgroup (mathematics)       |
+| [Q2202182](https://www.wikidata.org/wiki/Q2202182)                     | subject                                                 |
+| [Q2498094](https://www.wikidata.org/wiki/Q2498094)                     | submodule                                               |                                       |                              |  |
+| [Q55648664](https://www.wikidata.org/wiki/Q55648664)                   | subrepresentation                                       |                                       |                              |
+| [Q1332977](https://www.wikidata.org/wiki/Q1332977)                     | subsequence                                             |
+| [Q660730](https://www.wikidata.org/wiki/Q660730)                       | subspace topology                                       | subspace (topology)                   | subspace (topology)          |
+| [Q692689](https://www.wikidata.org/wiki/Q692689)                       | sum (category theory)                                   |
+| [Q218005](https://www.wikidata.org/wiki/Q218005)                       | sum (mathematics)                                       |
+| [Q1136376](https://www.wikidata.org/wiki/Q1136376)                     | support                                                 | support of a distribution             | support (mathematics)        |
+| [Q340406](https://www.wikidata.org/wiki/Q340406)                       | support (statistics)                                    |
+| [Q484298](https://www.wikidata.org/wiki/Q484298)                       | surface                                                 |                                       |                              |  |
+| [Q229102](https://www.wikidata.org/wiki/Q229102)                       | surjective                                              |                                       |                              | surjection |
+| [Q1307987](https://www.wikidata.org/wiki/Q1307987)                     | suspension                                              |                                       |                              |  |
+| [Q78269866](https://www.wikidata.org/wiki/Q78269866)                   | sylow p-subgroup                                        |                                       |                              |
+| [Q1752621](https://www.wikidata.org/wiki/Q1752621)                     | sylvester's law of inertia                              |                                       |
+| [Q621461](https://www.wikidata.org/wiki/Q621461)                       | symmetric                                               |                                       |                              |  |
+| [Q3773126](https://www.wikidata.org/wiki/Q3773126)                     | symmetric derivative                                    |                                       |                              |
+| [Q1147242](https://www.wikidata.org/wiki/Q1147242)                     | symmetric difference                                    |                                       |                              |
+| [Q849512](https://www.wikidata.org/wiki/Q849512)                       | symmetric group                                         | symmetric group                       |
+| [Q930499](https://www.wikidata.org/wiki/Q930499)                       | symmetric polynomial                                    |                                       |
+| [Q55643402](https://www.wikidata.org/wiki/Q55643402)                   | symmetric power of group representations                |
+| [Q2431134](https://www.wikidata.org/wiki/Q2431134)                     | symmetry (mathematics)                                  |
+| [Q7662747](https://www.wikidata.org/wiki/Q7662747)                     | synthetic differential geometry                         |
+| [Q909601](https://www.wikidata.org/wiki/Q909601)                       | tangent space                                           | tangent space                         |                              |
+| [Q131187](https://www.wikidata.org/wiki/Q131187)                       | taylor series expansion                                 | taylor series                         |                              |
+| [Q1137206](https://www.wikidata.org/wiki/Q1137206)                     | taylor's theorem                                        |                                       |
+| [Q3030799](https://www.wikidata.org/wiki/Q3030799)                     | tempered distribution                                   |                                       |
+| [Q188524](https://www.wikidata.org/wiki/Q188524)                       | tensor                                                  |
+| [Q1945014](https://www.wikidata.org/wiki/Q1945014)                     | tensor category                                         |
+| [Q48995828](https://www.wikidata.org/wiki/Q48995828)                   | tensor product of group representations                 |
+| [Q3406761](https://www.wikidata.org/wiki/Q3406761)                     | tensor product of vector spaces                         |                                       |
+| [Q1163016](https://www.wikidata.org/wiki/Q1163016)                     | tensor product of vector spaces                         |                                       |
+| [Q1318370](https://www.wikidata.org/wiki/Q1318370)                     | term (mathematics)                                      |
+| [Q529752](https://www.wikidata.org/wiki/Q529752)                       | terminal object                                         |
+| [Q1725664](https://www.wikidata.org/wiki/Q1725664)                     | terminology                                             |
+| [Q210832](https://www.wikidata.org/wiki/Q210832)                       | test (statistics)                                       |
+| [Q65943](https://www.wikidata.org/wiki/Q65943)                         | theorem                                                 | theorem                               |
+| [Q17737](https://www.wikidata.org/wiki/Q17737)                         | theoretic                                               |                                       |
+| [Q17988630](https://www.wikidata.org/wiki/Q17988630)                   | theory (mathematics)                                    |
+| [Q1249586](https://www.wikidata.org/wiki/Q1249586)                     | thinspace                                               |                                       |
+| [Q11471](https://www.wikidata.org/wiki/Q11471)                         | time                                                    |                                       |
+| [Q356743](https://www.wikidata.org/wiki/Q356743)                       | topo                                                    |
+| [Q10260753](https://www.wikidata.org/wiki/Q10260753)                   | topological field                                       |                                       |                              |
+| [Q7825035](https://www.wikidata.org/wiki/Q7825035)                     | topological game                                        |                                       |                              |
+| [Q1046291](https://www.wikidata.org/wiki/Q1046291)                     | topological group                                       | topological group                     |
+| [Q922339](https://www.wikidata.org/wiki/Q922339)                       | topological ring                                        |                                       |                              |
+| [Q179899](https://www.wikidata.org/wiki/Q179899)                       | topological space                                       |                                       |                              |
+| [Q42989](https://www.wikidata.org/wiki/Q42989)                         | topology (mathematics)                                  |
+| [Q2143621](https://www.wikidata.org/wiki/Q2143621)                     | topos theory                                            |
+| [Q13229797](https://www.wikidata.org/wiki/Q13229797)                   | torsion (differential geometry)                         |
+| [Q355152](https://www.wikidata.org/wiki/Q355152)                       | torsion (mathematics)                                   |
+| [Q4751142](https://www.wikidata.org/wiki/Q4751142)                     | torsion (topology)                                      |
+| [Q7827200](https://www.wikidata.org/wiki/Q7827200)                     | torsion free module                                     |                                       |                              |
+| [Q2293759](https://www.wikidata.org/wiki/Q2293759)                     | torsion subgroup                                        |                                       |                              |
+| [Q17104225](https://www.wikidata.org/wiki/Q17104225)                   | torsor (algebraic geometry)                             |
+| [Q1936288](https://www.wikidata.org/wiki/Q1936288)                     | total variation                                         |                                       |                              |
+| [Q1362228](https://www.wikidata.org/wiki/Q1362228)                     | totally bounded                                         |                                       |                              |
+| [Q1544261](https://www.wikidata.org/wiki/Q1544261)                     | totally disconnected                                    |                                       |                              |
+| [Q7829620](https://www.wikidata.org/wiki/Q7829620)                     | tower (mathematics)                                     |
+| [Q321102](https://www.wikidata.org/wiki/Q321102)                       | trace                                                   |                                       |                              |  |
+| [Q12202238](https://www.wikidata.org/wiki/Q12202238)                   | transformation (mathematics)                            |
+| [Q603944](https://www.wikidata.org/wiki/Q603944)                       | transformation (statistics)                             |
+| [Q64861](https://www.wikidata.org/wiki/Q64861)                         | transitive                                              |                                       |                              |  |
+| [Q2666112](https://www.wikidata.org/wiki/Q2666112)                     | transposition                                           |                                       |                              |
+| [Q347910](https://www.wikidata.org/wiki/Q347910)                       | treatment                                               |
+| [Q272735](https://www.wikidata.org/wiki/Q272735)                       | tree                                                    |                                       | root (graph theory)          | tree (graph theory) |
+| [Q2859736](https://www.wikidata.org/wiki/Q2859736)                     | tree (set theory)                                       |
+| [Q19821](https://www.wikidata.org/wiki/Q19821)                         | triangle (mathematics)                                  | triangle (mathematics)                |
+| [Q208216](https://www.wikidata.org/wiki/Q208216)                       | triangle inequality                                     |
+| [Q93344](https://www.wikidata.org/wiki/Q93344)                         | trigonometric functions                                 |                                       |
+| [Q7844662](https://www.wikidata.org/wiki/Q7844662)                     | trivial group representation                            |                                       |
+| [Q568687](https://www.wikidata.org/wiki/Q568687)                       | trivial subgroup                                        |
+| [Q7847935](https://www.wikidata.org/wiki/Q7847935)                     | truncation (statistics)                                 |
+| [Q1056428](https://www.wikidata.org/wiki/Q1056428)                     | type (mathematics)                                      |
+| [Q1571831](https://www.wikidata.org/wiki/Q1571831)                     | ultrafilter                                             |
+| [Q1411887](https://www.wikidata.org/wiki/Q1411887)                     | uniform convergence                                     |                                       |
+| [Q16862633](https://www.wikidata.org/wiki/Q16862633)                   | uniform law                                             |                                       |                              |
+| [Q7885122](https://www.wikidata.org/wiki/Q7885122)                     | uniform topology                                        |
+| [Q741865](https://www.wikidata.org/wiki/Q741865)                       | uniformly continuous                                    | uniformly continuous functions        | uniform continuity           |
+| [Q185359](https://www.wikidata.org/wiki/Q185359)                       | union (set theory)                                      | union (set theory)                    |
+| [Q3532109](https://www.wikidata.org/wiki/Q3532109)                     | union (topology)                                        | union (topology)                      |
+| [Q1052579](https://www.wikidata.org/wiki/Q1052579)                     | unique factorization domain                             | unique factorization domain           |
+| [Q24962672](https://www.wikidata.org/wiki/Q24962672)                   | uniqueness                                              | uniqueness                            |
+| [Q3409269](https://www.wikidata.org/wiki/Q3409269)                     | unit (statistics)                                       |
+| [Q203425](https://www.wikidata.org/wiki/Q203425)                       | unit circle                                             |                                       |
+| [Q2390323](https://www.wikidata.org/wiki/Q2390323)                     | unit disc                                               |                                       |
+| [Q118084](https://www.wikidata.org/wiki/Q118084)                       | unit of a ring                                          | unit (ring theory)                    |
+| [Q929536](https://www.wikidata.org/wiki/Q929536)                       | unital subring                                          |                                       |                              |
+| [Q1500617](https://www.wikidata.org/wiki/Q1500617)                     | unitary group                                           | unitary group                         |                              |
+| [Q727103](https://www.wikidata.org/wiki/Q727103)                       | unitary matrix                                          |                                       |                              |
+| [Q2495534](https://www.wikidata.org/wiki/Q2495534)                     | unitary transformation                                  |                                       |                              |
+| [Q4475749](https://www.wikidata.org/wiki/Q4475749)                     | universal covering space                                |                                       |                              |
+| [Q1673406](https://www.wikidata.org/wiki/Q1673406)                     | universal enveloping algebra                            |                                       |
+| [Q597663](https://www.wikidata.org/wiki/Q597663)                       | universe (set theory)                                   |
+| [Q13222579](https://www.wikidata.org/wiki/Q13222579)                   | upper bound                                             |
+| [Q1816967](https://www.wikidata.org/wiki/Q1816967)                     | urysohn lemma                                           |
+| [Q2912517](https://www.wikidata.org/wiki/Q2912517)                     | value (mathematics)                                     |
+| [Q50701](https://www.wikidata.org/wiki/Q50701)                         | variable (statistics)                                   |
+| [Q3554759](https://www.wikidata.org/wiki/Q3554759)                     | variant                                                 |
+| [Q19623879](https://www.wikidata.org/wiki/Q19623879)                   | variety (mathematics)                                   |
+| [Q13471665](https://www.wikidata.org/wiki/Q13471665)                   | vector (mathematics)                                    | vector (mathematics)                  |
+| [Q2152570](https://www.wikidata.org/wiki/Q2152570)                     | vector lattice                                          |
+| [Q125977](https://www.wikidata.org/wiki/Q125977)                       | vector space                                            | vector space                          | real vector space            |
+| [Q728435](https://www.wikidata.org/wiki/Q728435)                       | vector subspace                                         | vector subspace                       | subspace (linear algebra)    | subspace (linear algebra) |
+| [Q17000190](https://www.wikidata.org/wiki/Q17000190)                   | viewpoint                                               |
+| [Q3229352](https://www.wikidata.org/wiki/Q3229352)                     | vitali covering                                         |                                       |                              |
+| [Q39297](https://www.wikidata.org/wiki/Q39297)                         | volume of a rectifiable set                             |                                       |
+| [Q166507](https://www.wikidata.org/wiki/Q166507)                       | walk (graph theory)                                     |
+| [Q20850777](https://www.wikidata.org/wiki/Q20850777)                   | weak convergence                                        |                                       |                              |
+| [Q7977932](https://www.wikidata.org/wiki/Q7977932)                     | weak hausdorff                                          |                                       |                              |
+| [Q207952](https://www.wikidata.org/wiki/Q207952)                       | weak law of large numbers                               |
+| [Q1781358](https://www.wikidata.org/wiki/Q1781358)                     | wedge sum                                               |                                       |                              |  |
+| [Q72535212](https://www.wikidata.org/wiki/Q72535212)                   | weight space                                            |                                       |                              |
+| [Q768074](https://www.wikidata.org/wiki/Q768074)                       | weyl group                                              |                                       |                              |  |
+| [Q35059](https://www.wikidata.org/wiki/Q35059)                         | width                                                   |                                       |                              |  |
+| [Q576728](https://www.wikidata.org/wiki/Q576728)                       | winding number                                          |                                       |
+| [Q10944557](https://www.wikidata.org/wiki/Q10944557)                   | word (group theory)                                     | word (group theory)                   |
+| [Q188561](https://www.wikidata.org/wiki/Q188561)                       | work                                                    | work                                  |
+| [Q16502](https://www.wikidata.org/wiki/Q16502)                         | world                                                   |
+| [Q1201922](https://www.wikidata.org/wiki/Q1201922)                     | wreath                                                  |
+| [Q596465](https://www.wikidata.org/wiki/Q596465)                       | yield                                                   |                                       |
+| [Q204](https://www.wikidata.org/wiki/Q204)                             | zero (mathematics)                                      |
+| [Q828111](https://www.wikidata.org/wiki/Q828111)                       | zero divisor                                            |                                       |                              |  |
+| [Q217357](https://www.wikidata.org/wiki/Q217357)                       | σ-algebra                                               | sigma-algebra                         |                              |
