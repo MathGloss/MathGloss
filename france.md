@@ -6,7 +6,7 @@
 
 The French Undergraduate Math corpus comes from [here](https://leanprover-community.github.io/undergrad.html). 
 
-The following is a list of concepts from the France corpus that were *not* mapped to Wikidata:
+The following is a list of concepts from the France corpus that were *not* mapped to Wikidata. Our current thoughts as to why they were not mapped is the inclusion of pronouns that refer to missing antecedents and nonstandard plurals. At some point we plan to map these by hand.
 
 - Product_of_vector_spaces
 - Sum_of_subspaces
