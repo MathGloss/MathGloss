@@ -1,7 +1,7 @@
 ---
  layout: page
  title: CW complex
- permalink: /chicago/CW_complex
+ permalink: /chicago/cw_complex
 ---
 A **CW complex** is a [topological space](https://defsmath.github.io/DefsMath/topological_space) $X$ constructed in the following way: 
 1. Consider a discrete set $X^0$ and call its points "0-cells."

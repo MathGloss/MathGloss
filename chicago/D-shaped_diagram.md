@@ -1,7 +1,7 @@
 ---
  layout: page
  title: D-shaped diagram
- permalink: /chicago/D-shaped_diagram
+ permalink: /chicago/d-shaped_diagram
 ---
 
 Let $\mathcal D$ be a [small category](https://defsmath.github.io/DefsMath/small_category) and $\mathcal C$ any [category](https://defsmath.github.io/DefsMath/category). A **$\mathcal D$-shaped diagram** is a [functor](https://defsmath.github.io/DefsMath/functor) $F:\mathcal D\to \mathcal C$. 

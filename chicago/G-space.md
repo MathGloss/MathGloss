@@ -1,7 +1,7 @@
 ---
  layout: page
  title: G-space
- permalink: /chicago/G-space
+ permalink: /chicago/g-space
 ---
 
 Let $G$ be a [group](https://defsmath.github.io/DefsMath/group) and let $X$ be a [topological space](https://defsmath.github.io/DefsMath/topological_space). Then $X$ is a **$G$-space** if it is a [G-set](https://defsmath.github.io/DefsMath/group_action) and the [group action](https://defsmath.github.io/DefsMath/group_action) $G\times X\to X$ is [continuous](https://defsmath.github.io/DefsMath/continuous). 

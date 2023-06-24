@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Baire space
- permalink: /chicago/Baire_space
+ permalink: /chicago/baire_space
 ---
  Definition 1 (second category sets)
 

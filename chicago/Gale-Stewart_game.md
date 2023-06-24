@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Gale-Stewart game
- permalink: /chicago/Gale-Stewart_game
+ permalink: /chicago/gale-stewart_game
 ---
 A **Gale-Stewart game** is a two-player [game](https://defsmath.github.io/DefsMath/game) in which both players have [perfect information](https://defsmath.github.io/DefsMath/perfect_information), make an infinite sequence of moves, and there are no draws.
 

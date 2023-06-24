@@ -1,7 +1,7 @@
 ---
  layout: page
  title: semisimple Lie algebra
- permalink: /chicago/semisimple_Lie_algebra
+ permalink: /chicago/semisimple_lie_algebra
 ---
 A [Lie algebra](https://defsmath.github.io/DefsMath/Lie_algebra) $L$ is **semisimple** if its [radical](https://defsmath.github.io/DefsMath/radical_of_a_Lie_algebra) $\text{Rad}(L) = \{0\}$. 
 

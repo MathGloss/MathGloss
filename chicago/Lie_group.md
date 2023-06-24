@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Lie group
- permalink: /chicago/Lie_group
+ permalink: /chicago/lie_group
 ---
 A **Lie group** is a [group](https://defsmath.github.io/DefsMath/group) that is also a [manifold](https://defsmath.github.io/DefsMath/embedded_m-dimensional_manifold).
 

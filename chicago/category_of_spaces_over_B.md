@@ -1,7 +1,7 @@
 ---
  layout: page
  title: category of spaces over B
- permalink: /chicago/category_of_spaces_over_B
+ permalink: /chicago/category_of_spaces_over_b
 ---
 
 Let $B$ be a [compactly generated](https://defsmath.github.io/DefsMath/category_of_spaces_under_A) [topological space](https://defsmath.github.io/DefsMath/compactly_generated). A **space over $A$** (that is, an object of the [category](https://defsmath.github.io/DefsMath/topological_space)) is a map $p:E\to B$. A morphism between spaces under $A$ is a [commutative diagram](https://defsmath.github.io/DefsMath/category) ![Screen Shot 2022-02-26 at 12.02.17 PM.png](https://defsmath.github.io/DefsMath/commutative_diagram)

@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Hermitian inner product
- permalink: /chicago/Hermitian_inner_product
+ permalink: /chicago/hermitian_inner_product
 ---
 A **Hermitian inner product** $\langle\cdot,\cdot\rangle$ on a complex [vector space](https://defsmath.github.io/DefsMath/vector_space) $V$ is a [bilinear](https://defsmath.github.io/DefsMath/multilinear) form on $V$ that is antilinear in the second slot. That is,
 1. $\langle u+v,w\rangle = \langle u,w\rangle +\langle v,w\rangle$;

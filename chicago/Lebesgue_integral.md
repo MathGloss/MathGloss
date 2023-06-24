@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Lebesgue integral
- permalink: /chicago/Lebesgue_integral
+ permalink: /chicago/lebesgue_integral
 ---
 
 To define the **Lebesgue integral** for a general real-valued function, we must first define it for nonnegative functions.

@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Riemann integrable
- permalink: /chicago/Riemann_integrable
+ permalink: /chicago/riemann_integrable
 ---
 A [bounded](https://defsmath.github.io/DefsMath/bounded) function $f:Q\to\mathbb R$ defined on the [rectangle](https://defsmath.github.io/DefsMath/rectangle) $Q$ in $\mathbb R^n$ is **integrable** if the [lower integral](https://defsmath.github.io/DefsMath/lower_integral) of $f$ is equal to the [upper integral](https://defsmath.github.io/DefsMath/upper_integral) of $f$. The **integral** of $f$ over $Q$ is defined to be $$\int_Q f = \underline{\int_Q} f = \overline{\int_Q} f.$$
 

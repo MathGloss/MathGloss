@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Vandermonde determinant
- permalink: /chicago/Vandermonde_determinant
+ permalink: /chicago/vandermonde_determinant
 ---
 
 Let $R$ be a [ring](https://defsmath.github.io/DefsMath/ring) and consider the [graded](https://defsmath.github.io/DefsMath/graded_algebra) [polynomial](https://defsmath.github.io/DefsMath/polynomial_ring) [polynomial ring is a algebra](https://defsmath.github.io/DefsMath/polynomial_ring_is_a_###############algebra)  $P = \mathbb R[x_1,\dots,x_d]$. Then **Vandermonde determinant** is the product $$\Delta_d = \prod_{1\leq i < j \leq d}(x_j- x_i).$$ It is equal to the [determinant](https://defsmath.github.io/DefsMath/determinant) $$\Delta_d = \det\begin{bmatrix}1 & 1 & \cdots & 1\\ x_1 & x_2 &\cdots & x_d\\ x_1^2 & x_2^2 & \cdots& x_d^2\\\vdots & \vdots &\ddots &\vdots \\x_1^{d-1} & x_2^{d-1} &\cdots &x_d^{d-1}\end{bmatrix}.$$ 

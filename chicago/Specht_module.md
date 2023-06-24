@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Specht module
- permalink: /chicago/Specht_module
+ permalink: /chicago/specht_module
 ---
 Let $P = \mathbb C[x_1,\dots, x_n]$ be the [graded](https://defsmath.github.io/DefsMath/graded_algebra) [polynomial](https://defsmath.github.io/DefsMath/polynomial_ring) [polynomial ring is a algebra](https://defsmath.github.io/DefsMath/polynomial_ring_is_a_###############algebra)  and let $P^d$ be the [subspace](https://defsmath.github.io/DefsMath/vector_subspace) of [degree](https://defsmath.github.io/DefsMath/degree_of_polynomial)-$d$ [homogeneous](https://defsmath.github.io/DefsMath/homogeneous_polynomial) polynomials. Let $\lambda$ be a [partition](https://defsmath.github.io/DefsMath/partition_of_an_integer) of $n$. Then define $V(\lambda)= \mathbb C\text{-span}\{s(\Delta_\lambda) \mid s\in S_n\}$. That is, $V(\lambda)$ is the collection of $\mathbb C$-linear combinations of [images](https://defsmath.github.io/DefsMath/image) of the [Vandermonde polynomial](https://defsmath.github.io/DefsMath/Vandermonde_determinant) under the [action](https://defsmath.github.io/DefsMath/group_action) of the [symmetric group](https://defsmath.github.io/DefsMath/symmetric_group) $S_n$ on variables by permutation.
 

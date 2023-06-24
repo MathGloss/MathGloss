@@ -1,7 +1,7 @@
 ---
  layout: page
  title: complex Lie group
- permalink: /chicago/complex_Lie_group
+ permalink: /chicago/complex_lie_group
 ---
 A [matrix Lie group](https://defsmath.github.io/DefsMath/matrix_Lie_group) $\mathfrak g$ is **complex** if it is a complex [subspace](https://defsmath.github.io/DefsMath/vector_subspace) of $M_n(\mathbb C)$. That is, if $iX\in \mathfrak g$ for all $X\in \mathfrak g$. 
 

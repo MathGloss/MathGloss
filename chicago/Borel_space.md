@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Borel space
- permalink: /chicago/Borel_space
+ permalink: /chicago/borel_space
 ---
 A **Borel space** is a [measurable space](https://defsmath.github.io/DefsMath/measurable) $(X, B)$ given by the [Borel σ-algebra](https://defsmath.github.io/DefsMath/Borel_σ-algebra) on $X$.
 

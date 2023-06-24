@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Haar integral
- permalink: /chicago/Haar_integral
+ permalink: /chicago/haar_integral
 ---
 We define the **Haar integral** over a [topological space](https://defsmath.github.io/DefsMath/topological_space) $X$ s follows: 
 

@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Baire class
- permalink: /chicago/Baire_class
+ permalink: /chicago/baire_class
 ---
 The **Baire classes** of [continuous](https://defsmath.github.io/DefsMath/continuous) real-valued functions on a [topological space](https://defsmath.github.io/DefsMath/topological_space) $X$ are defined as follows:
 - [continuous](https://defsmath.github.io/DefsMath/continuous) functions are Baire-0;

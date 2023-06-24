@@ -1,7 +1,7 @@
 ---
  layout: page
  title: limit of a D-shaped diagram
- permalink: /chicago/limit_of_a_D-shaped_diagram
+ permalink: /chicago/limit_of_a_d-shaped_diagram
 ---
 The **limit** of a [D-shaped diagram](https://defsmath.github.io/DefsMath/commutative_diagram) is given by reversing the arrows in the definition of the [colimit](https://defsmath.github.io/DefsMath/D-shaped_diagram) of the same [D-shaped diagram](https://defsmath.github.io/DefsMath/colimit):
 

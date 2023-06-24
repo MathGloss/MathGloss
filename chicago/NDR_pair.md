@@ -1,7 +1,7 @@
 ---
  layout: page
  title: NDR pair
- permalink: /chicago/NDR_pair
+ permalink: /chicago/ndr_pair
 ---
 
 Let $I$ be the unit [interval](https://defsmath.github.io/DefsMath/interval). A pair of [compactly generated](https://defsmath.github.io/DefsMath/compactly_generated) [topological spaces](https://defsmath.github.io/DefsMath/topological_space) $(X,A)$ (where $A$ is a [subspace](https://defsmath.github.io/DefsMath/subspace_topology) of $X$) is called an **NDR pair**

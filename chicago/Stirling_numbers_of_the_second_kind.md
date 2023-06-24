@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Stirling numbers of the second kind
- permalink: /chicago/Stirling_numbers_of_the_second_kind
+ permalink: /chicago/stirling_numbers_of_the_second_kind
 ---
 The **Stirling numbers of the second kind** count the number of ways to partition a set of $n$ distinct objects into $k$ indistinct sets, leaving none empty. They are denoted $S(n,k)$.
 

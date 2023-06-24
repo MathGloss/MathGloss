@@ -1,7 +1,7 @@
 ---
  layout: page
  title: module over a Lie algebra
- permalink: /chicago/module_over_a_Lie_algebra
+ permalink: /chicago/module_over_a_lie_algebra
 ---
 Let $\mathfrak g$ be a [Lie algebra](https://defsmath.github.io/DefsMath/Lie_algebra) over the [field](https://defsmath.github.io/DefsMath/field) $F$. A $\mathfrak g$-[module over a ring](https://defsmath.github.io/DefsMath/module_over_a_ring) is a pair $(V,\cdot)$ of a [vector space](https://defsmath.github.io/DefsMath/vector_space) $V$ over $F$ and $\cdot:\mathfrak g \times V \to V$ a map such that
 1. $(\lambda x + \mu y)\cdot v = \lambda (x\cdot v) + \mu(y\cdot v)$

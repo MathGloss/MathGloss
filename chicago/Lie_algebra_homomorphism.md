@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Lie algebra homomorphism
- permalink: /chicago/Lie_algebra_homomorphism
+ permalink: /chicago/lie_algebra_homomorphism
 ---
 
 A [linear transformation](https://defsmath.github.io/DefsMath/linear_transformation) $\phi:L \to L'$ for [Lie algebras](https://defsmath.github.io/DefsMath/Lie_algebra) $L$ and $L'$ is a **homomorphism** if it preserves the bracket operation, that is if $$\phi([xy]_L) = [\phi(x)\phi(y)]_{L'}.$$

@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Schur polynomials
- permalink: /chicago/Schur_polynomials
+ permalink: /chicago/schur_polynomials
 ---
 Let $\Lambda=\{\mu = (\mu_1,\dots, \mu_n)\in\mathbb Z^n \mid \mu_1\geq \cdots\geq \mu_n \geq 0\} \subseteq \mathbb Z^n_{\geq 0}$. For each $\mu \in \Lambda$, define $\nabla_\mu \in \mathbb Z[x_1,\dots, x_n]^\text{sign}$ to be the [antisymmetric](https://defsmath.github.io/DefsMath/invariant_polynomials_under_group_action) [polynomial](https://defsmath.github.io/DefsMath/polynomial_ring) under the [sign representation](https://defsmath.github.io/DefsMath/sign_representation) of the [symmetric group](https://defsmath.github.io/DefsMath/symmetric_group) given by $$\nabla_\mu = \sum_{s\in S_n} \text{sign}(s) x^{s(\mu)} = \det\left|\begin{matrix}x_1^{\mu_1}  & x_1^{\mu_2} & \cdots & x_1^{\mu_n} \\ x_2^{\mu_1} & x_2^{\mu_2} & \cdots & x_2^{\mu_n} \\ \vdots &\vdots & \ddots &\vdots \\ x_n^{\mu_1} & x_n^{\mu_2}&\cdots & x_n^{\mu_n}\end{matrix} \right|.$$ The second equality follows from the [Leibniz formula](https://defsmath.github.io/DefsMath/Leibniz_formula) for [determinants](https://defsmath.github.io/DefsMath/determinant). 
 

@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Choquet game
- permalink: /chicago/Choquet_game
+ permalink: /chicago/choquet_game
 ---
 The **Choquet game** is a [topological game](https://defsmath.github.io/DefsMath/topological_game) played todo 
 

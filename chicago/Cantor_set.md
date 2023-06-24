@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Cantor set
- permalink: /chicago/Cantor_set
+ permalink: /chicago/cantor_set
 ---
 The **Cantor set** $\mathcal C$ is constructed from the unit [interval](https://defsmath.github.io/DefsMath/interval) as follows:
 

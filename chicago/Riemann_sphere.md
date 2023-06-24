@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Riemann sphere
- permalink: /chicago/Riemann_sphere
+ permalink: /chicago/riemann_sphere
 ---
 The **Riemann sphere** is a [model](https://defsmath.github.io/DefsMath/model) of the extended complex plane $\mathbb C \cup \{\infty\}$.
 

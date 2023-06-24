@@ -1,7 +1,7 @@
 ---
  layout: page
  title: weak Hausdorff
- permalink: /chicago/weak_Hausdorff
+ permalink: /chicago/weak_hausdorff
 ---
 A [topological space](https://defsmath.github.io/DefsMath/topological_space) $X$ is **weak Hausdorff** if for every map $g:K\to X$ from a [compact](https://defsmath.github.io/DefsMath/compact) [Hausdorff](https://defsmath.github.io/DefsMath/Hausdorff) [space](https://defsmath.github.io/DefsMath/topological_space) $K$ is [closed](https://defsmath.github.io/DefsMath/closed) in $X$. 
 

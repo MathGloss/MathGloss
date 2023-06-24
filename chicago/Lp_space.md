@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Lp space
- permalink: /chicago/Lp_space
+ permalink: /chicago/lp_space
 ---
 Let $1\leq p < \infty$ and let $(X,\Sigma, \mu)$ be a [measure space](https://defsmath.github.io/DefsMath/measure_space). Let $F$ be the set of functions $f: X\to \mathbb R$ such that $$||f||_p = \left(\int_X|f|^p\text d\mu\right)^{1/p}\ < \infty$$ where $||f||_p$ is the [p-norm](https://defsmath.github.io/DefsMath/p-norm). Equivalently, $F$ is the set of functions such that the $p$th power of their absolute value is [integrable](https://defsmath.github.io/DefsMath/Lebesgue_integral). Let $N = \{f \in F \mid f = 0 \text{almost everywhere}\}$. Because [the integral of a positive function is zero if and only if it is zero almost everywhere](https://defsmath.github.io/DefsMath/zero_integral_of_a_nonnegative_function), we have that $N$ is the [kernel](https://defsmath.github.io/DefsMath/kernel_of_linear_transformation) of the [p-norm](https://defsmath.github.io/DefsMath/p-norm). The [normed linear space](https://defsmath.github.io/DefsMath/normed_linear_space) given by the [quotient vector space](https://defsmath.github.io/DefsMath/quotient_vector_space) of $F$ by $N$ is $L_p(X,\mu)$.
 

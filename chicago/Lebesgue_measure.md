@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Lebesgue measure
- permalink: /chicago/Lebesgue_measure
+ permalink: /chicago/lebesgue_measure
 ---
 
 The **Lebesgue measure** on $\mathbb R^n$ is constructed as follows: 

@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Galois extension
- permalink: /chicago/Galois_extension
+ permalink: /chicago/galois_extension
 ---
 
 A [field extension](https://defsmath.github.io/DefsMath/field_extension) $E/F$ is **Galois** if it is [algebraic](https://defsmath.github.io/DefsMath/algebraic_extension), [normal](https://defsmath.github.io/DefsMath/normal_extension), and [separable](https://defsmath.github.io/DefsMath/separable_field). The [group](https://defsmath.github.io/DefsMath/group) of [automorphisms](https://defsmath.github.io/DefsMath/automorphism_group) of $E$ that fix $F$, denoted $\text{Gal}(E/F)$, is called the **Galois group** of $E$ over $F$. 

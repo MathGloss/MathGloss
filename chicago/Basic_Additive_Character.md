@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Basic Additive Character
- permalink: /chicago/Basic_Additive_Character
+ permalink: /chicago/basic_additive_character
 ---
 Let $x$ be a [unit](https://defsmath.github.io/DefsMath/unit_of_a_ring) of the [p-adic field](https://defsmath.github.io/DefsMath/p-adic_field) $\mathbb Q_p$. That is, let $x\in\mathbb Q_p^\times$. Then $x$ has a unique [p-adic expansion](https://defsmath.github.io/DefsMath/p-adic_expansion_is_unique) $$x= \sum_{n=\text{val}(x)}^\infty a_np^n.$$ Denote by $\lambda(x)$ the sum $$\lambda(x) = \sum_{n=\text{val}(x)}^{-1}a_np^n$$ and call it the **tail** of $x$. Then we define the **basic additive character** $\psi:\mathbb Q_p\to \mathbb T\subseteq \mathbb C^\times$ (the middle set being the [circle group](https://defsmath.github.io/DefsMath/circle_group)) by $$\psi(x) = e^{2\pi i \lambda(x)}.$$
 

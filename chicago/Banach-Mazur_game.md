@@ -1,7 +1,7 @@
 ---
  layout: page
  title: Banach-Mazur game
- permalink: /chicago/Banach-Mazur_game
+ permalink: /chicago/banach-mazur_game
 ---
 A **Banach-Mazur game** $MB(X,Y, \mathcal W)$ is a [topological game](https://defsmath.github.io/DefsMath/topological_game) played as follows:
 
