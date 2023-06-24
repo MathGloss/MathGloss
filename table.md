@@ -9,9 +9,6 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | Wikidata ID                                            |           [Chicago](https://defsmath.github.io/DefsMath/chicago)                                                            |   [France UG](https://defsmath.github.io/DefsMath/france)                                                 | [ProofNet](https://defsmath.github.io/DefsMath/proofnet)                        | [TAC](https://defsmath.github.io/DefsMath/tac)                                  |
 | ------------------------------------------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------- | ---------------------------------- | 
 | [Q14481419](https://www.wikidata.org/wiki/Q14481419) |  | [0-1 law](https://leanprover-community.github.io/mathlib_docs/probability/independence.html#probability_theory.measure_zero_or_one_of_measurable_set_limsup_at_top) |  |  |  |
-| [Q214796](https://www.wikidata.org/wiki/Q214796) |  |  | = |  |  |
-| [Q9659](https://www.wikidata.org/wiki/Q9659) |  |  | a |  |  |
-| [Q28047](https://www.wikidata.org/wiki/Q28047) |  |  | a. |  |  |
 | [Q318737](https://www.wikidata.org/wiki/Q318737) |  |  |  | abelian category |  |
 | [Q181296](https://www.wikidata.org/wiki/Q181296) | [abelian](https://defsmath.github.io/DefsMath/chicago/abelian) |  | finite abelian group |  |  |
 | [Q318598](https://www.wikidata.org/wiki/Q318598) | [abelianization](https://defsmath.github.io/DefsMath/chicago/abelianization) |  |  |  |  |
@@ -22,7 +19,6 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q555097](https://www.wikidata.org/wiki/Q555097) |  |  |  | accessibility |  |
 | [Q4672496](https://www.wikidata.org/wiki/Q4672496) |  |  |  | accessible category |  |
 | [Q343542](https://www.wikidata.org/wiki/Q343542) |  |  | action (mathematics) |  |  |
-| [Q33999](https://www.wikidata.org/wiki/Q33999) |  |  |  | actor |  |
 | [Q32043](https://www.wikidata.org/wiki/Q32043) |  |  | addition (mathematics) |  |  |
 | [Q4681343](https://www.wikidata.org/wiki/Q4681343) |  |  |  | additive category |  |
 | [Q404330](https://www.wikidata.org/wiki/Q404330) |  |  | additivity |  |  |
@@ -49,26 +45,18 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q1139334](https://www.wikidata.org/wiki/Q1139334) | [almost everywhere](https://defsmath.github.io/DefsMath/chicago/almost_everywhere) |  |  |  |  |
 | [Q25377974](https://www.wikidata.org/wiki/Q25377974) | [almost uniform convergence](https://defsmath.github.io/DefsMath/chicago/almost_uniform_convergence) |  |  |  |  |
 | [Q438814](https://www.wikidata.org/wiki/Q438814) | [alternating group](https://defsmath.github.io/DefsMath/chicago/alternating_group) |  |  |  |  |
-| [Q234006](https://www.wikidata.org/wiki/Q234006) |  |  |  | analog |  |
-| [Q185816](https://www.wikidata.org/wiki/Q185816) |  |  |  | analogy |  |
 | [Q567083](https://www.wikidata.org/wiki/Q567083) | [annihilator of a submodule](https://defsmath.github.io/DefsMath/chicago/annihilator_of_a_submodule) |  |  |  |  |
 | [Q114326](https://www.wikidata.org/wiki/Q114326) |  | antiderivative |  |  |  |
 | [Q294834](https://www.wikidata.org/wiki/Q294834) |  |  |  | application |  |
 | [Q4781711](https://www.wikidata.org/wiki/Q4781711) |  |  |  | approach |  |
 | [Q11500](https://www.wikidata.org/wiki/Q11500) |  |  |  | area (mathematics) |  |
 | [Q651343](https://www.wikidata.org/wiki/Q651343) |  |  |  | argument (mathematics) |  |
-| [Q1219840](https://www.wikidata.org/wiki/Q1219840) |  |  | assertion |  |  |
-| [Q4808852](https://www.wikidata.org/wiki/Q4808852) |  |  |  | assignment |  |
 | [Q744960](https://www.wikidata.org/wiki/Q744960) | [associative algebra](https://defsmath.github.io/DefsMath/chicago/associative_algebra) |  |  | associative algebra |  |
 | [Q177251](https://www.wikidata.org/wiki/Q177251) | [associative](https://defsmath.github.io/DefsMath/chicago/associative) |  | associativity |  |  |
-| [Q420391](https://www.wikidata.org/wiki/Q420391) |  |  | assumption |  |  |
-| [Q6501338](https://www.wikidata.org/wiki/Q6501338) |  |  |  | attention |  |
 | [Q4820423](https://www.wikidata.org/wiki/Q4820423) | [augmentation ideal](https://defsmath.github.io/DefsMath/chicago/augmentation_ideal) |  |  |  |  |
 | [Q60790315](https://www.wikidata.org/wiki/Q60790315) | [automorphism group](https://defsmath.github.io/DefsMath/chicago/automorphism_group) |  |  |  |  |
 | [Q782566](https://www.wikidata.org/wiki/Q782566) | [automorphism](https://defsmath.github.io/DefsMath/chicago/automorphism) |  | automorphism | automorphism |  |
-| [Q4198296](https://www.wikidata.org/wiki/Q4198296) |  |  | avoidance |  |  |
 | [Q17736](https://www.wikidata.org/wiki/Q17736) |  |  | axiom |  |  |
-| [Q9705](https://www.wikidata.org/wiki/Q9705) |  |  | b |  |  |
 | [Q2976036](https://www.wikidata.org/wiki/Q2976036) | [baire class](https://defsmath.github.io/DefsMath/chicago/baire_class) |  |  |  |  |
 | [Q838611](https://www.wikidata.org/wiki/Q838611) |  |  | ball (topology) |  |  |
 | [Q194397](https://www.wikidata.org/wiki/Q194397) | [banach space](https://defsmath.github.io/DefsMath/chicago/banach_space) |  |  |  |  |
@@ -83,8 +71,6 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q4866725](https://www.wikidata.org/wiki/Q4866725) |  | [bases](https://leanprover-community.github.io/mathlib_docs/linear_algebra/basis.html#basis) |  |  |  |
 | [Q810214](https://www.wikidata.org/wiki/Q810214) |  |  | base (topology) | basis (topology) |  |
 | [Q810193](https://www.wikidata.org/wiki/Q810193) | [basis for abelian group](https://defsmath.github.io/DefsMath/chicago/basis_for_abelian_group) |  |  |  |  |
-| [Q9332](https://www.wikidata.org/wiki/Q9332) |  |  |  | behavior |  |
-| [Q207485](https://www.wikidata.org/wiki/Q207485) |  |  |  | bi |  |
 | [Q494141](https://www.wikidata.org/wiki/Q494141) |  |  |  | bialgebra |  |
 | [Q4903541](https://www.wikidata.org/wiki/Q4903541) |  |  |  | bicategory |  |
 | [Q180907](https://www.wikidata.org/wiki/Q180907) | [bijective](https://defsmath.github.io/DefsMath/chicago/bijective) |  | bijection (mathematics) |  |  |
@@ -96,7 +82,6 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q468391](https://www.wikidata.org/wiki/Q468391) |  | [bolzano-weierstrass theorem](https://leanprover-community.github.io/mathlib_docs/topology/sequences.html#tendsto_subseq_of_bounded) |  |  |  |
 | [Q173183](https://www.wikidata.org/wiki/Q173183) |  |  |  | boolean algebra |  |
 | [Q1080067](https://www.wikidata.org/wiki/Q1080067) | [borel σ-algebra](https://defsmath.github.io/DefsMath/chicago/borel_σ-algebra) |  |  |  |  |
-| [Q895144](https://www.wikidata.org/wiki/Q895144) |  |  | bound |  |  |
 | [Q78323465](https://www.wikidata.org/wiki/Q78323465) | [boundary homomorphism](https://defsmath.github.io/DefsMath/chicago/boundary_homomorphism) |  |  |  |  |
 | [Q875399](https://www.wikidata.org/wiki/Q875399) | [boundary](https://defsmath.github.io/DefsMath/chicago/boundary) |  |  | boundary (topology) |  |
 | [Q829653](https://www.wikidata.org/wiki/Q829653) | [bounded variation](https://defsmath.github.io/DefsMath/chicago/bounded_variation) |  |  |  |  |
@@ -106,11 +91,8 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q1047307](https://www.wikidata.org/wiki/Q1047307) | [bundle](https://defsmath.github.io/DefsMath/chicago/bundle) |  |  |  |  |
 | [Q11946202](https://www.wikidata.org/wiki/Q11946202) |  |  |  | butterfly |  |
 | [Q513028](https://www.wikidata.org/wiki/Q513028) |  | [bézout's identity](https://leanprover-community.github.io/mathlib_docs/ring_theory/principal_ideal_domain.html#exists_gcd_eq_mul_add_mul) |  |  |  |
-| [Q9820](https://www.wikidata.org/wiki/Q9820) |  |  | c |  |  |
 | [Q3552958](https://www.wikidata.org/wiki/Q3552958) | [c^r-form](https://defsmath.github.io/DefsMath/chicago/c^r-form) |  |  | smooth manifold |  |
 | [Q622821](https://www.wikidata.org/wiki/Q622821) |  |  | calculation | calculation |  |
-| [Q31087](https://www.wikidata.org/wiki/Q31087) |  |  | calculator |  |  |
-| [Q407264](https://www.wikidata.org/wiki/Q407264) |  |  | call | call |  |
 | [Q331693](https://www.wikidata.org/wiki/Q331693) |  |  | cancellation |  |  |
 | [Q2298524](https://www.wikidata.org/wiki/Q2298524) |  |  | cancellation law |  |  |
 | [Q444936](https://www.wikidata.org/wiki/Q444936) |  |  |  | canonical |  |
@@ -119,8 +101,6 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q4049983](https://www.wikidata.org/wiki/Q4049983) |  |  | cardinality |  |  |
 | [Q1734581](https://www.wikidata.org/wiki/Q1734581) |  |  |  | cartesian |  |
 | [Q1725874](https://www.wikidata.org/wiki/Q1725874) |  |  |  | cartesian closed category |  |
-| [Q229806](https://www.wikidata.org/wiki/Q229806) |  |  | case |  |  |
-| [Q146](https://www.wikidata.org/wiki/Q146) |  |  |  | cat |  |
 | [Q15830473](https://www.wikidata.org/wiki/Q15830473) |  |  |  | categorical model |  |
 | [Q5051825](https://www.wikidata.org/wiki/Q5051825) |  |  |  | categorification |  |
 | [Q2518298](https://www.wikidata.org/wiki/Q2518298) | [category of sets](https://defsmath.github.io/DefsMath/chicago/category_of_sets) |  | set (category theory) |  |  |
@@ -132,7 +112,6 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q1412436](https://www.wikidata.org/wiki/Q1412436) |  | cauchy's problem |  |  |  |
 | [Q622741](https://www.wikidata.org/wiki/Q622741) |  | cauchy-riemann equations | cauchy-riemann equation |  |  |
 | [Q190546](https://www.wikidata.org/wiki/Q190546) |  | [cauchy-schwarz inequality](https://leanprover-community.github.io/mathlib_docs/analysis/inner_product_space/basic.html#inner_mul_inner_self_le) | cauchy-schwarz inequality |  |  |
-| [Q5009980](https://www.wikidata.org/wiki/Q5009980) |  |  | cdot |  |  |
 | [Q3139849](https://www.wikidata.org/wiki/Q3139849) | [cellular homology groups](https://defsmath.github.io/DefsMath/chicago/cellular_homology_groups) |  |  |  |  |
 | [Q5062222](https://www.wikidata.org/wiki/Q5062222) |  |  | center (category theory) |  |  |
 | [Q62207](https://www.wikidata.org/wiki/Q62207) |  |  | center (mathematics) |  |  |
@@ -157,19 +136,16 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q747027](https://www.wikidata.org/wiki/Q747027) | [characteristic subgroup](https://defsmath.github.io/DefsMath/chicago/characteristic_subgroup) |  | characteristic subgroup |  |  |
 | [Q2937829](https://www.wikidata.org/wiki/Q2937829) |  |  |  | characterization (mathematics) |  |
 | [Q3828144](https://www.wikidata.org/wiki/Q3828144) | [chart](https://defsmath.github.io/DefsMath/chicago/chart) |  |  |  |  |
-| [Q1775867](https://www.wikidata.org/wiki/Q1775867) |  |  | choice |  |  |
 | [Q2513496](https://www.wikidata.org/wiki/Q2513496) |  |  | choice function |  |  |
 | [Q18205969](https://www.wikidata.org/wiki/Q18205969) | [choquet game](https://defsmath.github.io/DefsMath/chicago/choquet_game) |  |  |  |  |
 | [Q17278](https://www.wikidata.org/wiki/Q17278) |  |  | circle (mathematics) |  |  |
 | [Q306610](https://www.wikidata.org/wiki/Q306610) |  |  | circle (topology) |  |  |
 | [Q105356493](https://www.wikidata.org/wiki/Q105356493) | [circle group](https://defsmath.github.io/DefsMath/chicago/circle_group) |  |  |  |  |
-| [Q1094717](https://www.wikidata.org/wiki/Q1094717) |  |  | claim |  |  |
 | [Q217594](https://www.wikidata.org/wiki/Q217594) |  |  | class (set theory) |  |  |
 | [Q986909](https://www.wikidata.org/wiki/Q986909) | [class function](https://defsmath.github.io/DefsMath/chicago/class_function) |  |  |  |  |
 | [Q3075177](https://www.wikidata.org/wiki/Q3075177) | [class function](https://defsmath.github.io/DefsMath/chicago/class_function) |  |  |  |  |
 | [Q2138760](https://www.wikidata.org/wiki/Q2138760) | [class](https://defsmath.github.io/DefsMath/chicago/class) |  |  |  |  |
 | [Q1744628](https://www.wikidata.org/wiki/Q1744628) |  |  |  | classifier (mathematics) |  |
-| [Q1671976](https://www.wikidata.org/wiki/Q1671976) |  |  | clik |  |  |
 | [Q4558786](https://www.wikidata.org/wiki/Q4558786) | [closed edge path](https://defsmath.github.io/DefsMath/chicago/closed_edge_path) |  |  |  |  |
 | [Q644719](https://www.wikidata.org/wiki/Q644719) | [closed half-space](https://defsmath.github.io/DefsMath/chicago/closed_half-space) |  |  |  |  |
 | [Q320357](https://www.wikidata.org/wiki/Q320357) | [closed](https://defsmath.github.io/DefsMath/chicago/closed) |  | closed subset |  |  |
@@ -182,7 +158,6 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q50700](https://www.wikidata.org/wiki/Q50700) |  |  | coefficient |  |  |
 | [Q1048949](https://www.wikidata.org/wiki/Q1048949) | [cofibration](https://defsmath.github.io/DefsMath/chicago/cofibration) |  |  |  |  |
 | [Q5141339](https://www.wikidata.org/wiki/Q5141339) |  |  |  | coherence theorem |  |
-| [Q294876](https://www.wikidata.org/wiki/Q294876) |  |  |  | cohesion |  |
 | [Q1198376](https://www.wikidata.org/wiki/Q1198376) |  |  |  | cohomology class |  |
 | [Q2156511](https://www.wikidata.org/wiki/Q2156511) |  |  |  | cokernel (category theory) |  |
 | [Q1779341](https://www.wikidata.org/wiki/Q1779341) |  |  | collection (mathematics) | collection (mathematics) |  |
@@ -197,7 +172,6 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q381892](https://www.wikidata.org/wiki/Q381892) | [compact](https://defsmath.github.io/DefsMath/chicago/compact) |  | compact (topology) |  |  |
 | [Q546145](https://www.wikidata.org/wiki/Q546145) |  |  | compactification (topology) |  |  |
 | [Q1738274](https://www.wikidata.org/wiki/Q1738274) | [compactly generated](https://defsmath.github.io/DefsMath/chicago/compactly_generated) |  |  |  |  |
-| [Q4230004](https://www.wikidata.org/wiki/Q4230004) |  |  |  | companion |  |
 | [Q28113351](https://www.wikidata.org/wiki/Q28113351) |  |  | comparison (mathematics) |  |  |
 | [Q17129258](https://www.wikidata.org/wiki/Q17129258) |  | comparison test |  |  |  |
 | [Q902252](https://www.wikidata.org/wiki/Q902252) |  |  | complement (graph theory) | complement (graph theory) |  |
@@ -208,7 +182,6 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q848569](https://www.wikidata.org/wiki/Q848569) | [complete metric space](https://defsmath.github.io/DefsMath/chicago/complete_metric_space) |  | complete metric space | completion (topology) |  |
 | [Q851333](https://www.wikidata.org/wiki/Q851333) |  |  |  | completion (order theory) |  |
 | [Q3685258](https://www.wikidata.org/wiki/Q3685258) |  |  |  | completion (ring theory) |  |
-| [Q28839103](https://www.wikidata.org/wiki/Q28839103) |  |  |  | complex |  |
 | [Q381040](https://www.wikidata.org/wiki/Q381040) | [complex conjugate](https://defsmath.github.io/DefsMath/chicago/complex_conjugate) |  |  |  |  |
 | [Q184871](https://www.wikidata.org/wiki/Q184871) |  | [complex exponential](https://leanprover-community.github.io/mathlib_docs/data/complex/exponential.html#complex.exp) |  |  |  |
 | [Q5156554](https://www.wikidata.org/wiki/Q5156554) | [complex lie group](https://defsmath.github.io/DefsMath/chicago/complex_lie_group) |  |  |  |  |
@@ -219,11 +192,8 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q2525646](https://www.wikidata.org/wiki/Q2525646) | [composition series of a group](https://defsmath.github.io/DefsMath/chicago/composition_series_of_a_group) |  |  |  |  |
 | [Q16769650](https://www.wikidata.org/wiki/Q16769650) |  |  |  | comprehension |  |
 | [Q12525525](https://www.wikidata.org/wiki/Q12525525) |  |  | computation | computation |  |
-| [Q151885](https://www.wikidata.org/wiki/Q151885) |  |  |  | concept |  |
-| [Q1399174](https://www.wikidata.org/wiki/Q1399174) |  |  | conclusion |  |  |
 | [Q2003238](https://www.wikidata.org/wiki/Q2003238) |  |  | condensation (graph theory) |  |  |
 | [Q3014744](https://www.wikidata.org/wiki/Q3014744) |  |  | condensation point |  |  |
-| [Q417488](https://www.wikidata.org/wiki/Q417488) |  |  | condition |  |  |
 | [Q2425336](https://www.wikidata.org/wiki/Q2425336) |  | conditional convergence |  |  |  |
 | [Q5159291](https://www.wikidata.org/wiki/Q5159291) |  | conditioning (probability) |  |  |  |
 | [Q25352175](https://www.wikidata.org/wiki/Q25352175) |  |  |  | cone (algebraic geometry) |  |
@@ -245,11 +215,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q230655](https://www.wikidata.org/wiki/Q230655) | [connected graph](https://defsmath.github.io/DefsMath/chicago/connected_graph) | [connectedness (graph theory)](https://leanprover-community.github.io/mathlib_docs/topology/connected.html#connected_space) |  |  |  |
 | [Q1491995](https://www.wikidata.org/wiki/Q1491995) | [connected](https://defsmath.github.io/DefsMath/chicago/connected) | [path connectedness](https://leanprover-community.github.io/mathlib_docs/topology/path_connected.html#is_path_connected) | connected space |  |  |
 | [Q1344851](https://www.wikidata.org/wiki/Q1344851) |  |  | consideration | consideration |  |
-| [Q1319773](https://www.wikidata.org/wiki/Q1319773) |  | consistency |  |  |  |
 | [Q188248](https://www.wikidata.org/wiki/Q188248) |  |  | constant (mathematics) |  |  |
-| [Q5164389](https://www.wikidata.org/wiki/Q5164389) |  |  |  | construct |  |
-| [Q385378](https://www.wikidata.org/wiki/Q385378) |  |  | construction |  |  |
-| [Q1382703](https://www.wikidata.org/wiki/Q1382703) |  |  |  | context |  |
 | [Q5165409](https://www.wikidata.org/wiki/Q5165409) |  | [continuity (mathematics)](https://leanprover-community.github.io/mathlib_docs/analysis/analytic/basic.html#has_fpower_series_on_ball.continuous_on) | continuity (mathematics) | continuity (mathematics) |  |
 | [Q5165476](https://www.wikidata.org/wiki/Q5165476) |  | [continuity (set theory)](https://leanprover-community.github.io/mathlib_docs/analysis/analytic/basic.html#has_fpower_series_on_ball.continuous_on) | continuity (set theory) | continuity (set theory) |  |
 | [Q170058](https://www.wikidata.org/wiki/Q170058) | [continuous](https://defsmath.github.io/DefsMath/chicago/continuous) | [continuous functions](https://leanprover-community.github.io/mathlib_docs/topology/basic.html#continuous) | continuity (topology) | continuity (topology) |  |
