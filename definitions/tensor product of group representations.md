@@ -1,0 +1,3 @@
+Let $(V_1,\rho_1)$ and $(V_2,\rho_2))$ be [[group representation|representations]] of the [[group]] $G$. The **tensor product** of $V_1$ and $V_2$ is a [[group representation|representation]] of $G$ over the [[tensor product of vector spaces]] $V_1\otimes V_2$ under the [[linear transformation]] $\rho_1\otimes \rho_2 = \rho:G\to V_1\otimes V_2$ such that $\rho(g)(v_1\otimes v_2) = (\rho_1(g)v_1)\otimes (\rho_2(g)v_2)$.
+
+https://www.wikidata.org/wiki/Q48995828

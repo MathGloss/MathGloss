@@ -1,0 +1,1 @@
+Let $P$ be a [[partition of a set]] of the [[rectangle]] $Q$ in $\mathbb R^n$. The **subrectangles** of $Q$ given by $P$ are the products of the [[subinterval|subintervals]] of the [[component interval|component intervals]] given by each $P_i$ as in the definition of [[partition of a set]] of a [[rectangle]].

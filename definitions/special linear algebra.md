@@ -1,0 +1,3 @@
+Let $V$ be a finite-[[dimension of vector space|dimensional]] [[vector space]] with $\text{dim}(V) = \ell +1$. Let $\mathfrak{sl}(V)$ be the set of [[endomorphism|endomorphisms]] of $V$ with [[trace]] equal to zero. Since $\text{Tr}(xy)= \text{Tr}(yx)$ and $\text{Tr}(x+y) =\text{Tr}(x)+\text{Tr}(y)$, $\mathfrak{sl}(V)$ is a [[subalgebra]] of the [[general linear algebra]] $\mathfrak{gl}(V)$. 
+
+https://www.wikidata.org/wiki/Q7574831

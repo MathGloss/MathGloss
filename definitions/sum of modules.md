@@ -1,0 +1,1 @@
+Let $R$ be a [[ring]] and let $M$ be an $R$-[[module over a ring|module]]. For $A$ and $B$ [[submodule|submodules]] of $M$, define the **sum** of $A$ and $B$ by $$A+B = \{a+b\mid a\in A,b\in B\}.$$ It is itself a [[submodule]] of $M$, and in particular is the smallest one containing both $A$ and $B$.

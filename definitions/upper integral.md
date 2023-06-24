@@ -1,0 +1,1 @@
+Let $f:Q\to\mathbb R$ be a [[bounded]] function defined on the [[rectangle]] $Q$ in $\mathbb R^n$. The **upper integral** of $f$ over $Q$ is the [[infimum]] over all [[partition of a set|partitions]] of $Q$ of the [[upper sum]] of $Q$: $$\overline{\int_Q}f = \inf_P U(f,P)$$

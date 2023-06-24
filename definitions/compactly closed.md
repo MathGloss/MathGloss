@@ -1,0 +1,1 @@
+A [[subspace topology|subspace]] $A$ of a [[topological space]] $X$ is **compactly closed** if the [[inverse image]] $g^{-1}(A)$ is [[closed]] in $K$ for any map $g:K\to X$ from a [[compact]] [[Hausdorff]] [[topological space|space]]  $K$ into $X$. 

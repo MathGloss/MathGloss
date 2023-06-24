@@ -1,0 +1,7 @@
+A **CW complex** is a [[topological space]] $X$ constructed in the following way: 
+1. Consider a discrete set $X^0$ and call its points "0-cells."
+2. Form the **$n$-skeleton** $X^n$ from $X^{n-1}$ by attaching $n$-cells $e_\alpha^n$ via maps $\varphi_\alpha:S^{n-1} \to X^{n-1}$. Thus $X^n$ is the [[quotient vector space]] of the disjoint union $X^{n-1}\coprod_\alpha D_\alpha^n$ of $X^{n-1}$ with a collection of disks $D_\alpha^n$ under the [[equivalence relation|identification]] $x\sim \varphi_\alpha(x)$ for $x\in \partial D_\alpha^n$. As a set, $X^n = X^{n-1}\coprod_\alpha e_\alpha^n$ where each $e_\alpha^n$ is an [[open]] $n$-disk.
+3. Either stop this process at a finite value of $n$, setting $X=X^n$ or continue indefinitely and endow $X = \bigcup_n X^n$ with the [[weak topology]].
+
+
+https://www.wikidata.org/wiki/Q189061

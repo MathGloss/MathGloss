@@ -1,0 +1,1 @@
+A **homogeneous relation** on a set $X$ is a [[binary relation]] where the two sets being related are both $X$. 

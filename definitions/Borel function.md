@@ -1,0 +1,1 @@
+A **Borel function** is a [[measurable function]] between [[Borel space|Borel spaces]].

@@ -1,0 +1,1 @@
+The **complex exponential** is given by the [[power series]] $$e^z = \sum_{n=0}^\infty \frac{z^n}{n!}$$ which has infinite [[radius of convergence]].

@@ -1,0 +1,3 @@
+Let $M\subset\mathbb R^n$ be an [[embedded m-dimensional manifold with boundary]]. Then $M$ is **orientable** if there exists an [[open]] set $U \subset\mathbb R^n$ containing $M$ and an [[differential k-form|m-form]] $\phi$ on $U$ such that for every [[local parametrization]] $f:W\to M$ with $W \subset H^+$ [[open]] in $H^+$, the [[pullback along a diffeomorphism|pullback]] $f^*\phi$ is an [[differential k-form|m-form]] on $W$ which is nowhere zero.
+
+https://www.wikidata.org/wiki/Q2748415

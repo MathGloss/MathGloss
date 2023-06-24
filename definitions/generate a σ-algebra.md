@@ -1,0 +1,1 @@
+The [[σ-algebra]] **generated** by a collection of subsets is the [[σ-algebra]] containing all of the subsets such that any [[σ-algebra]] containing the sets also contains it.

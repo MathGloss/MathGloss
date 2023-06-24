@@ -1,0 +1,1 @@
+A [[field extension]] $F/K$ is **algebraic** if every element of $K$ is [[algebraic element of an algebra|algebraic]] over $F$. 

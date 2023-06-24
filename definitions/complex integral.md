@@ -1,0 +1,1 @@
+A [[complex numbers|complex]]-valued function $f:[a,b]\to\mathbb C$ is **integrable** if the component functions $f(t) = u(t)+iv(t)$ are [[Riemann integrable]] as [[real number|real]]-valued functions. The **complex integral** is then given by $$\int_a^b u(t)\text dt + i\int_a^b v(t)\text dt$$

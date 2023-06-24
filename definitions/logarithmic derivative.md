@@ -1,0 +1,1 @@
+Let $f$ be a [[differentiable]] function in any sense. The **logarithmic derivative** of $f$ is $f'/f$. This follows from the [[chain rule]] as the derivative of the [[logarithm]] of $f$. 

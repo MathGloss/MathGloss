@@ -1,0 +1,1 @@
+The **radius of convergence** of a [[power series]] $$f(x) = \sum_{n=0}^\infty a_n(x-c)^n$$over a [[Banach algebra]] with [[norm]] $|\cdot|$ is a real number $r$ such that the [[series convergence|series converges]] to $f(x)$ for all $|x-a|<r$.
