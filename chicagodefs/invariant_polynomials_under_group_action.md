@@ -1,7 +1,0 @@
----
- layout: page
- title: invariant polynomials under group action
- permalink: /invariant_polynomials_under_group_action
----
-
-Let $\mathbb k$ be a [field](https://defsmath.github.io/DefsMath/field) and consider the [algebra of polynomials](https://defsmath.github.io/DefsMath/algebra_of_polynomials) in $n$ variables $$P_n =\bigoplus\limits_{d\geq 0} P_n^d.$$ Given a [representation](https://defsmath.github.io/DefsMath/group_representation) of a [group](https://defsmath.github.io/DefsMath/group) $G$ in $\mathbb k^n$, we get an [action](https://defsmath.github.io/DefsMath/group_action) of $G$ on $P_n$ by the [induced action of group on maps](https://defsmath.github.io/DefsMath/induced_action_of_group_on_maps): for $f\in P_n$, $$g:f\mapsto g^*f.$$ Then each homogeneous [subspace](https://defsmath.github.io/DefsMath/vector_subspace) $P_n^d$ of $P_n$ is a $G$-[invariant subspace](https://defsmath.github.io/DefsMath/invariant_subspace). Moreover, the [algebra](https://defsmath.github.io/DefsMath/algebra_over_a_field)  of [invariant](https://defsmath.github.io/DefsMath/G-invariant_vectors) polynomials, written $P_n^G$, is a [graded subalgebra](https://defsmath.github.io/DefsMath/graded_subalgebra) of $P_n$. 
