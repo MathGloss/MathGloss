@@ -1,0 +1,1 @@
+A function $f:U\to\mathbb C$ where $U$ is an [[open]] subset of $\mathbb C$ is **meromorphic** if it is [[holomorphic]] on all of $U$ except for at a set of [[isolated point|isolated points]], at each of which $f$ has a [[pole]].

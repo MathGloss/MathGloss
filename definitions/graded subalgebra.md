@@ -1,0 +1,1 @@
+Let $A$ be a [[graded algebra]]. A **graded subalgebra** of $A$ is a [[subalgebra]] of $A$ that is also a [[graded vector subspace]] of $A$ as a [[graded vector space]].

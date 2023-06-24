@@ -1,0 +1,1 @@
+A subset $A$ of a [[topological space]] $X$ has the **Baire property** if there exists an [[open]] set $G$ such that the [[symmetric difference]] of $A$ and $G$ ($A \triangle G$) is [[meager]].

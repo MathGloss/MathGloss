@@ -1,0 +1,1 @@
+The **prime subfield** of a [[field]] $F$ is the [[subfield]] [[generate a field|generated]] by the multiplicative [[identity element|identity]]. It is the smallest [[field]] contained in $F$.

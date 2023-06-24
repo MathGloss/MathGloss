@@ -1,0 +1,1 @@
+Let $R$ be an [[integral domain]]. Then $a,b\in R$ are **associate** if the [[generate a ring ideal|ideals they generate]] are equal. [[equality of principal ideals in integral domains|That is]], if there exists a [[unit of a ring|unit]] $u\in R$ such that $ua=b$.

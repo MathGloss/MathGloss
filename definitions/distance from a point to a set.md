@@ -1,0 +1,1 @@
+Let $X$ be a [[metric space]] and $K \subset X$. For $x \in X$, the **distance** from $x$ to $K$ is given by the [[infimum]] $$\text{dist}(x,K) = \inf_{y\in K}(\rho(x, y)).$$

@@ -1,0 +1,1 @@
+Let $p$ be a [[prime number|prime]]. Then the $p$th **cyclotomic [[polynomial ring|polynomial]]** is the [[polynomial ring|polynomial]] over $\mathbb Z$ whose roots are the [[primitive root of unity|primitive]] $p$th [[root of unity|roots of unity]]. It is denoted $\Phi_p (x) = x^{p-1} + x^{p-2} + \cdots + x + 1$. 

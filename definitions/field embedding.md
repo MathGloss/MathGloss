@@ -1,0 +1,1 @@
+Let $F$ be a [[field]] and let $E/F$ And $K/F$ be two [[field extension|field extensions]]. An **$F$-embedding** $\phi:E\to K$ is a [[ring homomorphism]] such that $\phi(c) = c$ for all $c\in F$. That is, the following [[commutative diagram|diagram commutes]]: ![[Screenshot 2023-04-13 at 12.40.50 PM.png]]

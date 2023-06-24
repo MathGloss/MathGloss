@@ -1,0 +1,1 @@
+Let $X$ be a [[metric space]]. The **completion** of $X$ is the [[complete metric space]] $(\tilde X, \tilde \rho)$ such that $X$ is a [[dense]] subset of $\tilde X$ and $\rho(x,y) = \tilde\rho(x,y)$ for all $x,y \in X$ as constructed [[completion of a metric space|here]].

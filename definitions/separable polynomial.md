@@ -1,0 +1,1 @@
+A [[polynomial ring|polynomial]] is **separable** if all of its [[root|roots]] are distinct. 

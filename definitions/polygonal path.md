@@ -1,0 +1,1 @@
+A **polygonal path** is a [[path]] whose [[codomain]] is a [[metric space]] whose [[image]] is composed of line segments.

@@ -1,0 +1,3 @@
+Let $G$ be a [[matrix Lie group]]. The **identity component** $G_0$ of $G$ is the set of $A\in G$ for which there exists a [[continuous]] path $\gamma:[0,1]\to G$ such that $\gamma(0) = I$ and $\gamma(1) = A$. Because [[matrix Lie group is connected iff it is path connected|connectedness and path-connectedness are equivalent]] in this case, $G_0$ amounts to the [[connected component]] of $G$ that contains the [[identity matrix]] $I$. 
+
+https://www.wikidata.org/wiki/Q5988368

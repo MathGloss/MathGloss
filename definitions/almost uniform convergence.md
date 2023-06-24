@@ -1,0 +1,3 @@
+Let $(X,\Sigma,\mu)$ be a [[measure space]] and let $\{f_n\}_{n\in\mathbb N}$ be a sequence of functions $f_n: X\to \mathbb R$. The sequence converges **almost uniformly** to $f$ if for all $\varepsilon > 0$, there exists a set $A\in \Sigma$ of [[measure space|measure]] less than $\varepsilon$ such that $f_n$ [[uniform convergence|converges uniformly]] to $f$ on $X\setminus A$.
+
+https://www.wikidata.org/wiki/Q25377974

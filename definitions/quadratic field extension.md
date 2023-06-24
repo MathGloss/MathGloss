@@ -1,0 +1,1 @@
+A [[field extension]] is **quadratic** if it is of [[degree of field extension|degree]] two.

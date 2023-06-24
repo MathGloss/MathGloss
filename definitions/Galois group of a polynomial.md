@@ -1,0 +1,1 @@
+The **Galois group** of a [[separable polynomial|separable]] [[polynomial ring|polynomial]] $f$ over the [[field]] $F$ is the [[Galois extension|Galois group]] of the [[splitting field]] of $f$ over $F$, which [[splitting fields of separable polynomials are Galois|exists]].

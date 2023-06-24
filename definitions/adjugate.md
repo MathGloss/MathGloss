@@ -1,0 +1,3 @@
+Let $V$ be an $n$-[[dimension of vector space|dimensional]] [[vector space]] and let $T:V\to V$ be a [[linear transformation]]. The **adugate** of $T$ is $$\text{adj}(T):V\to V$$ the [[uniqueness of adjugate|unique]] [[linear transformation]] such that for all $v \in V$ and all $w \in \wedge^{n-1}(V)$ the $n-1$-fold [[exterior power of a vector space|exterior product]] of $V$, $$\text{adj}(T)(v) \wedge w = v \wedge (\wedge^{n-1}(T)(w)) \in \wedge^n(V).$$ [[exterior power of linear transformation|]]
+
+https://www.wikidata.org/wiki/Q225107

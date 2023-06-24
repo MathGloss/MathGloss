@@ -1,0 +1,1 @@
+A [[field]] $k$ is **algebraically closed** if every non-constant [[polynomial ring|polynomial]] in $k[t]$ has a root in $k$.

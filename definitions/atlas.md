@@ -1,0 +1,1 @@
+An **atlas** for a [[topological space]] $M$ is a collection of [[chart|charts]] on $M$ that covers $M$.

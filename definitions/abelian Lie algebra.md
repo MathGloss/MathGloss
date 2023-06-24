@@ -1,0 +1,1 @@
+Let $L$ be a finite-[[dimension of vector space|dimensional]] [[vector space]]. Then consider $L$ as a [[Lie algebra]] by setting $[xy]=0$ for all $x,y \in L$. Such a [[Lie algebra]] is called **abelian**.

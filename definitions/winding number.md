@@ -1,0 +1,2 @@
+Let $z_0\in \mathbb C$ and let $\gamma:[0,1]\to \mathbb C\setminus \{z_0\}$ be a [[continuous]] [[loop]] that does not pass through $z_0$. The **winding number** of $\gamma$ around $\alpha$ is the [[complex line integral]] $$\text{Ind}_\gamma(\alpha) = \frac{1}{2\pi i}\int_\gamma \frac{1}{\zeta - z_0} \text d\zeta,$$
+a special case of the [[Cauchy integral formula]].

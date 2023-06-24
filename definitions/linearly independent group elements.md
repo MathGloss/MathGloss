@@ -1,0 +1,3 @@
+Let $A$ be an [[elementary abelian p-group]] and let $\mathbf a\in(a_1,\dots,a_r)\in A^r$. Let $f_\mathbf a:(\mathbb Z/p\mathbb Z)\to A$ be the [[classifications of group homomorphisms Z mod nZ to G|unique]] [[group homomorphism|homomorphism]] satisfying $$f_\mathbf a(1,0,\dot,0) = a_1, \dots, f_\mathbf a(0,\dots, 1) = a_r.$$ If the function $f_\mathbf a$ is [[injective]], then the $a_i$ are **linearly independent**.
+
+https://www.wikidata.org/wiki/Q27670

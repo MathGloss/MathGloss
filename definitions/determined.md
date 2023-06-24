@@ -1,0 +1,1 @@
+A [[game]] is **determined** if one player has a [[winning strategy]].
