@@ -1,3 +1,0 @@
-Let $H$ and $N$ be [[group|groups]] and let $\phi: H\to \text{Aut}(N)$ be a [[group homomorphism]] from $H$ to the [[automorphism group]] of $N$. The **semidirect product** $H\ltimes N$ is a [[group]] on the Cartesian product $H\times N$ with operation $*$ given by $$(h_1,n_1)*(h_2,n_2) = (h_1h_2, n_1\phi(h_1)n_2).$$ The [[identity element]] of $H\ltimes N$ is the ordered pair consisting of the [[identity element|identity elements]] of $H$ and $N$, respectively. The inverse with respect to $*$ is given by $$(h,n)^{-1} = (h^{-1},\phi(h^{-1})n^{-1}).$$
-
-https://www.wikidata.org/wiki/Q291126

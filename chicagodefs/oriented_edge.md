@@ -1,0 +1,8 @@
+---
+ layout: page
+ title: oriented edge
+ permalink: /oriented_edge
+---
+An **oriented edge** $k:I\to X$ in a [graph](https://defsmath.github.io/DefsMath/graph) $X$ where $I$ is the unit [interval](https://defsmath.github.io/DefsMath/interval) is the traversal of an edge in either the forward or the backward direction.
+
+Wikidata ID: [Q1137726](https://www.wikidata.org/wiki/Q1137726)

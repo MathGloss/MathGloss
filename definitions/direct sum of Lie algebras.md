@@ -1,3 +1,0 @@
-Let $\mathfrak g$ and $\mathfrak h$ be [[Lie algebra|Lie algebras]]. The **direct sum** $\mathfrak g \oplus \mathfrak h$ of $\mathfrak g$ and $\mathfrak h$ is the [[direct sum of vector spaces|vector space direct sum]] of $\mathfrak g$ and $\mathfrak h$ when considered as [[vector space|vector spaces]] endowed with the bracket $$[(X_1,X_2,(Y_1,Y_2)]=([X_1,Y_1],[X_2,Y_2]).$$
-
-https://www.wikidata.org/wiki/Q13582243

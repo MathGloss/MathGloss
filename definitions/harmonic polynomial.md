@@ -1,1 +1,0 @@
-A **harmonic polynomial** is a [[harmonic function]] that is also a [[polynomial ring|polynomial]].

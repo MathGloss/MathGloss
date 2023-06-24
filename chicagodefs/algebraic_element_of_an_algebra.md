@@ -1,0 +1,9 @@
+---
+ layout: page
+ title: algebraic element of an algebra
+ permalink: /algebraic_element_of_an_algebra
+---
+
+Let $A$ be an [algebra](https://defsmath.github.io/DefsMath/algebra_over_a_field) over the [field](https://defsmath.github.io/DefsMath/field) $\mathbb k$ and let $a\in A$. Then the [subalgebra](https://defsmath.github.io/DefsMath/subalgebra) $A_a$ [generated](https://defsmath.github.io/DefsMath/generate_an_associative_algebra) by $a$ is the [image](https://defsmath.github.io/DefsMath/image) of the [algebra homomorphism](https://defsmath.github.io/DefsMath/algebra_homomorphism) from the [polynomials](https://defsmath.github.io/DefsMath/polynomial_ring) $\mathbb k[t]$ to $A$ given by $f\mapsto f(a)$. The [kernel](https://defsmath.github.io/DefsMath/kernel) of this map is an [ideal](https://defsmath.github.io/DefsMath/algebra_ideal) of $\mathbb k[t]$ consisting of polynomials such that $f(a) = 0$. Denote this [ideal](https://defsmath.github.io/DefsMath/ring_ideal) by $I_a$ and note that it is a [principal ideal](https://defsmath.github.io/DefsMath/principal_ideal) because $\mathbb k[x]$ [is](https://defsmath.github.io/DefsMath/polynomials_over_field_is_a_PID) a [principal ideal domain](https://defsmath.github.io/DefsMath/principal_ideal_domain).
+
+The element $a\in A$ is **algebraic** if there exists a nonzero polynomial $f\in\mathbb k[t]$ such that $f(a)=0$, i.e. if $I_a\neq 0$. Then because $I_a$ must be [principal](https://defsmath.github.io/DefsMath/principal_ideal), there exists a unique [monic](https://defsmath.github.io/DefsMath/monic) [polynomial](https://defsmath.github.io/DefsMath/################polynomial) $p_a$ that [generate a generates](https://defsmath.github.io/DefsMath/generate_a_###########generates) $I_a$ and this is called the **minimal polynomial** of $a$.

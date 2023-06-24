@@ -1,3 +1,0 @@
-Let $\nu$ be a [[Borel σ-algebra|Borel]] [[measure space|measure]] on $\mathbb R^n$ (i.e. the underlying [[measure space]] is $(\mathbb R^n, \mathcal B, \nu)$). The **symmetric derivative** of $\nu$ at $x \in \mathbb R^n$ is $$(D\nu)(x) = \lim_{r\to 0} \frac{\nu(B(x,r))}{\mu(B(x,r))}$$ if this limit exists. This is the derivative ( #todo: link to 208 notions?) in the [[symmetric differential basis]].
-
-https://www.wikidata.org/wiki/Q3773126

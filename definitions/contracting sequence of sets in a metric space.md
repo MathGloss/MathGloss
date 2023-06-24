@@ -1,2 +1,0 @@
-A [[descending sequence of sets|descending sequence]] $\{E_n\}_{n\in\mathbb N}$ of nonempty subsets of a [[metric space]] $X$ is **contracting** if the limit of the [[diameter of a set|diameters]] goes to zero. That is, $$\lim_{n\to \infty} \text{diam}(E_n) = 0.$$
-https://www.wikidata.org/wiki/Q1131116

@@ -1,1 +1,0 @@
-Let $S \subset\mathbb R^n$ be [[rectifiable]]. $S$ is **symmetric** with respect to the [[vector subspace]] $x_k=0$ if the function $h:S\to\mathbb R^n$ given by $$h(x) = h(x_1,\dots, -x_k, \dots, x_n)$$ has as its [[image]] $S$ itself.

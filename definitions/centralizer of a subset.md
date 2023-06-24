@@ -1,1 +1,0 @@
-Let $G$ be a [[semigroup]] and let $S$ be a subset of $G$. The **centralizer** of $S$ is $$C_G(S) = \{g\in G\mid gs=sg \text{ for all } s\in S\}.$$ When $G$ is a [[group]], this may be written equivalently as $$C_G(S) = \{g\in G\mid gsg^{-1} =s \text{ for all } s\in S\}.$$ https://www.wikidata.org/wiki/Q190629

@@ -1,1 +1,0 @@
-A **power series** over a [[ring]] $R$ is a series of the form $$\sum_{n=0}^\infty a_n (x-c)^n$$ for $a_n, c\in R$. 

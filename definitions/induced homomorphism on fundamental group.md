@@ -1,1 +1,0 @@
-Let $p:X\to Y$ be a [[continuous]] map between [[topological space|topological spaces]]. Define $p_*:\pi_1(X,x) \to \pi_1(Y,p(x))$ to be the map between the [[fundamental group|fundamental groups]] of $X$ at $x$ and $Y$ at $p(x)$ given by $p_*[f] = [p\circ f]$. This map is a [[group homomorphism|homomorphism]] as $p_*[f\cdot g] = [p\circ (f\cdot g)] = p_*[f]p_*[g]$.

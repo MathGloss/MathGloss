@@ -1,3 +1,0 @@
-Let $V$ be a [[vector space]]. The $m$-fold **exterior power** of $V$ is the [[quotient vector space]] of the $m$-fold [[tensor product of vector spaces|tensor product]] of $V$ by the [[vector subspace|subspace]] [[span|generated]] by the [[pure tensor|pure tensors]] $$v_1\otimes\cdots\otimes v_m$$ for $v_i \in V$ such that $v_j = v_k$ for some $j\neq k$. It is denoted $\wedge^m(V)$ and the elements are written $v_1\wedge\cdots\wedge v_m$.
-
-https://www.wikidata.org/wiki/Q13408581

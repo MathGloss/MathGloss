@@ -1,1 +1,0 @@
-A set is **uncountable** if it is not [[countable]], that is if it has [[cardinal number]] [[Cantor-Schroeder-Bernstein theorem|greater than]] that of the natural numbers $\mathbb N$. 

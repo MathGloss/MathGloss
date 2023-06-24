@@ -1,3 +1,0 @@
-Let $G$ be a [[Lie group]] with [[Lie correspondence|associated]] [[Lie algebra]] $\mathfrak g$. Then the [[adjoint map of a Lie group|adjoint map]] $\text{Ad}:G \to \text{GL}(\mathfrak g)$ is given by $$\text{Ad}_A(X) = AXA^{-1}.$$ Because the [[adjoint map is a Lie algebra homomorphism]], it is a [[Lie algebra representation|representation]] of $\mathfrak g$, and therefore we may refer to $\text{ad}$ as the **adjoint representation of  $G$** [[group action|acting]] on $\mathfrak g$ when considered as a [[vector space]]. 
-
-https://www.wikidata.org/wiki/Q1017106

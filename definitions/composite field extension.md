@@ -1,1 +1,0 @@
-Let $F\subset L\subset E$ and $F\subset K\subset E$ be two [[field extension|field extensions]]. Then the **composite** [[field extension]] $F\subset KL$ is the smallest [[subfield]] of $E$ containing both [[field|fields]] $K$ and $L$. 

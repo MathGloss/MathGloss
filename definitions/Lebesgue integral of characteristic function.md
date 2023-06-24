@@ -1,1 +1,0 @@
-Let $(X, \Sigma, \mu)$ be a [[measure space]]. The **Lebesgue integral of the [[characteristic function]]** of a [[measurable]] set $A \in \Sigma$ is defined to be $$\int \chi_Ad\mu = \mu(A).$$

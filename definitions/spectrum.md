@@ -1,1 +1,0 @@
-Let $A$ be an [[algebra over a field|algebra]] over the [[field]] $\mathbb k$ and let $a\in A$. The **spectrum** of $a$ is $$\text{spec}(a)= \{\lambda\in\mathbb k\mid \lambda - a \text{ is not invertible}\}.$$

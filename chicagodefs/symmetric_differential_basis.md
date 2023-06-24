@@ -1,0 +1,7 @@
+---
+ layout: page
+ title: symmetric differential basis
+ permalink: /symmetric_differential_basis
+---
+The **symmetric differential basis** is the [differential basis](https://defsmath.github.io/DefsMath/differential_basis) consisting of balls centered around each $x \in \mathbb R^n$. 
+

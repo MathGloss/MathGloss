@@ -1,1 +1,0 @@
-Let $(X,\tau)$ be a [[topological space]]. The **opposite topology** on  $X$ has open sets given by the sets that are [[closed]] under the original [[topological space|topology]].

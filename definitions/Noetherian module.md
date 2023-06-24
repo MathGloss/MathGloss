@@ -1,3 +1,0 @@
-Let $R$ be a [[ring]] and let $M$ be an $R$-[[module over a ring|module]]. Then $M$ is **Noetherian** (or it satisfies the **ascending chain condition on submodules**) if there are no infinite increasing chains of [[submodule|submodules]]. That is, if whenever $M_1\subseteq M_2\subseteq M_3\subseteq \cdots$ is an increasing chain of [[submodule|submodules]] of $M$, then there is a positive integer $m$ such that for all $k\geq m$, $M_k=M_m$. 
-
-https://www.wikidata.org/wiki/Q2444982

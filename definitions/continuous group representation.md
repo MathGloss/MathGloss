@@ -1,1 +1,0 @@
-A [[group representation|representation]] of a [[topological group]] $G$ (written $\rho:G\to GL(V)$ for $GL(V)$  the [[general linear group]] of some [[vector space]] $V$) is called **continuous** if it is of finite [[dimension of group representation|dimension]] and if $\rho$ is [[continuous]] in the usual sense as a function between [[topological space|topological spaces]].

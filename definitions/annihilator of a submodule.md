@@ -1,2 +1,0 @@
-Let $R$ be an [[integral domain]] and let $M$ be an $R$-[[module over a ring|module]]. Then for any [[submodule]] $N$ of $M$, the **annihilator** of $N$ is defined as $$\text{Ann}(N) = \{r\in R\mid rn=0\text{ for all } n\in N\}.$$
-https://www.wikidata.org/wiki/Q567083

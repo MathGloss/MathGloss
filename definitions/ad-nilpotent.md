@@ -1,1 +1,0 @@
-For $x\in L$ a [[Lie algebra]], $x$ is **ad-nilpotent** if $\text{ad}(x)$ is a [[nilpotent]] [[endomorphism]].

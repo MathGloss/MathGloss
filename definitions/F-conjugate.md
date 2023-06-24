@@ -1,1 +1,0 @@
-Let $E_i$ be an [[algebraic extension]] over the [[field]] $F$ for each $i\in \mathbb N$. Then $\alpha_k$ is an **$F$-conjugate** of $\alpha_\ell$ if the [[algebraic element of an algebra|minimal polynomial]] of $\alpha_k$ over $F$ is the same as the [[algebraic element of an algebra|minimal polynomial]] of $\alpha_\ell$ over $F$. 

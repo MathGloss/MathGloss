@@ -1,1 +1,0 @@
-Let $F$ be a [[field]] and let $f$ be a [[monic]] [[polynomial ring|polynomial]] with coefficients in $F$. Then a [[field extension]] $F\subset E$ is a **splitting field** if there exist $\{a_i\}_{i=1}^d$ such that $$f(t) = \prod_{i=1}^d (t-a_i) \in E[t]$$ and moreover $E$ is [[generate a field|generated]] by these $a_i$, i.e. $E= F(a_1,\dots, a_d)$. 

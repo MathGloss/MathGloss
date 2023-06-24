@@ -1,1 +1,0 @@
-A [[field]] $F$ is **perfect** if it is of [[characteristic of a field|characteristic]] $p>0$ and every element in $p$ is a $p$th power or if it is of [[characteristic of a field|characteristic]] $0$. 

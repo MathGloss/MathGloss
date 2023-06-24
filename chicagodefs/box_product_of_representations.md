@@ -1,0 +1,6 @@
+---
+ layout: page
+ title: box product of representations
+ permalink: /box_product_of_representations
+---
+Let $G$ and $G'$ be [compact](https://defsmath.github.io/DefsMath/compact) [topological groups](https://defsmath.github.io/DefsMath/topological_group) with respective [Haar integrals](https://defsmath.github.io/DefsMath/Haar_integral) $\int_G$ and $\int_{G'}$. For [continuous](https://defsmath.github.io/DefsMath/continuous) functions $f,f':G,G'\to \mathbb C$, denote by $f\boxtimes f':G\times G \to \mathbb C$ the function such that $(g,g')\mapsto f(g)f'(g')$. From this and given [continuous](https://defsmath.github.io/DefsMath/continuous_group_representation) [representations](https://defsmath.github.io/DefsMath/group_representation) $\rho:G\to GL(V)$ and $\rho':G\to GL(V')$, we can define the **box product of representations** into the [tensor product](https://defsmath.github.io/DefsMath/tensor_product_of_vector_spaces) of $V$ and $V'$ as $$\rho\boxtimes \rho' :G\times G \to GL(V\otimes V')$$ given by $(g,g')\mapsto \rho(g) \otimes \rho'(g')$. 

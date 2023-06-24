@@ -1,1 +1,0 @@
-Let $F\subset E$ be a [[field extension]]. Then $F(e_1,\dots, e_n)$ is the smallest [[subfield]] of $E$ containing $F$ and all of the $e_i$. We say that the $e_i$ **generate** this field. 

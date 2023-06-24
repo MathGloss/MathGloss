@@ -1,4 +1,0 @@
-The **diamteter** of an [[n-simplex]] $[v_0,\dots,v_n]$ is the maximum distance (in the [[Euclidean inner product|ambient]] [[Euclidean inner product|Euclidean]] [[metric space|metric]] [[inner product induces metric]]) between any of its vertices.
-
-This is equivalent to the [[diameter of a set|diameter]] of the [[n-simplex]] when considered as a set because the distance between two points $v$ and $\sum_i t_iv_i$ of $[v_0,\dots,v_n]$ satisfies $$\begin{align*}\left|v-\sum_i t_iv_i\right| &= \left|\sum_it_i(v-v_i)\right| \\&\leq \sum_i t_i |v-v_i| \\&\leq \sum_i t_i\max
-|v-v_i|\\& = \max|v-v_i|.\end{align*}$$
