@@ -1,0 +1,1 @@
+The [[field extension|extension]] $K$ of the [[field]] $F$ is **separable** over $F$ if every element in $K$ is the root of some [[separable polynomial|separable]] [[polynomial ring|polynomial]] in $F$. 

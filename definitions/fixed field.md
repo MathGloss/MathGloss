@@ -1,0 +1,2 @@
+Let $G$ be a [[group]] of [[automorphism group|automorphisms]] of the [[field]] $K$. Then the **fixed field** of $K$ with respect to $G$ is $$K^G = \{\alpha\in K\mid \sigma(\alpha) = \alpha\forall \sigma\in G\}.$$
+It [[fixed field is a field|is]] a field.

@@ -1,0 +1,1 @@
+The [[field extension]] $K/F$ is **abelian** if it is [[Galois extension|Galois]] and its [[Galois extension|Galois group]] is [[abelian]]. 

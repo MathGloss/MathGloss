@@ -1,0 +1,3 @@
+Let $\mathfrak g$ be a [[Lie algebra]] and let $(V,\rho_V)$ and $(W,\rho_W)$ be [[Lie algebra representation|representations]] of $\mathfrak g$. Then the **[[tensor product|tensor]] product** of these [[Lie algebra representation|representations]] is the pair $(V\otimes W, \rho_{V\otimes W})$ where $$\rho_{V\otimes W}(x) = \rho_V(x) \otimes \text{Id} + \text{Id}\otimes \rho_W(x)$$ for all $x \in \mathfrak g$. 
+
+https://www.wikidata.org/wiki/Q48995828

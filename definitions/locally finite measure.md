@@ -1,0 +1,3 @@
+Let $(X,\mathcal T)$ be a [[Hausdorff]] [[topological space]] and let $\Sigma$ be a [[σ-algebra]]  containing $\mathcal T$ (so that $\Sigma$ is at least as fine as the [[Borel σ-algebra]] on $X$). A [[measure space|measure]] $\mu$ on $\Sigma$ is **locally finite** if for all $p \in X$, there exists an [[open]] neighborhood $N_p$ of $p$ such that the $\mu$-measure of $N_p$ is finite. That is, $$\forall p \in X, \exists N_p \in T \text{ s.t. } p \in N_p \text{ and } |\mu(N_p)| < \infty.$$
+
+https://www.wikidata.org/wiki/Q2136937

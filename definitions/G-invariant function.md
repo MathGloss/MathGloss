@@ -1,0 +1,1 @@
+Let $G$ be a [[group]] [[group action|acting]] on a the set $X$. A function $f:X\to Y$ is **$G$-invariant** if for all $g\in G$ and all $x\in X$, $f(gx) = f(x)$. 

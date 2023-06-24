@@ -1,0 +1,1 @@
+Let $X$ be a [[∆-complex]]. An [[open simplex]] $e_\alpha^n$ of dimension $n$ in $X$ has a canonical map $\sigma_\alpha: \Delta^n \to X$ that restricts to a [[homeomorphism]] from the [[interior]] of the [[n-simplex|standard n-simplex]] $\Delta^n$ onto $e_\alpha^n$. 

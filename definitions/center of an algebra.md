@@ -1,0 +1,1 @@
+The **center** of an [[algebra over a field|algebra]] $A$ over the [[ring]] $R$ is the set $Z(A) = \{z\in A \mid za=az \text{ for all } a\in A\}$.

@@ -1,0 +1,3 @@
+Let $G$ be a [[compact]] [[topological group]] [[group action|acting]] [[continuous|continuously]] on a [[topological space]] $X$. Let $f$ be a [[continuous]] function $X\to \mathbb C$. An **averaging** of $f$ is a [[continuous]] function $\text{Av}(f)$ on $X$ given by $$\text{Av}(f)(x) = \frac{1}{\text{vol}(G)} \int_G f(g\cdot x)\text dx$$ where $\text{vol}(G)$ is the [[volume of compact topological space|volume]] of $G$ and the integral is the [[Haar integral]] on $G$. 
+
+Note that for a finite [[group]] $G$, which is [[finite sets are compact|necessarily]] [[compact]], we have simply $\text{Av}(f)(x) = \frac{1}{|G|} \sum_{g\in G}f(gx)$. 

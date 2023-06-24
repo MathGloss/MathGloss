@@ -1,0 +1,1 @@
+A function $f: [a,b] \to \mathbb C$ from a [[real numbers|real]] [[interval]] to the [[complex numbers]] is **differentiable** at $t$ if the [[limit]] of the [[difference quotient]] $$\lim_{h\to 0}\frac{f(t+h) - f(t)}{h}$$ exists. We call this limit $f'(t)$.

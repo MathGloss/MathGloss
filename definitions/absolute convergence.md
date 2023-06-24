@@ -1,0 +1,3 @@
+Let $A$ be a [[Banach algebra]] with [[norm]] $|\cdot |$. Given a sequence $\{a_i\}_{i\in \mathbb N}$ of elements of $A$, we say that the series $$\sum_{i=1}^\infty a_i$$ is **absolutely convergent** if $$\sum_{i=1}^\infty |a_i| <\infty,$$ i.e. if the series $\{|a_i|\}_{i\in\mathbb N}$ is [[series convergence|convergent]] as real numbers.
+
+This means that the partial sums $$\sum_{i=1}^n a_i$$ form a [[Cauchy sequence]] in $A$, which is [[complete metric space|complete]], and therefore must have a limit in $A$. We denote this limit by the infinite sum. 

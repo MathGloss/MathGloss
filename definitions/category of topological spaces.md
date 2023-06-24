@@ -1,0 +1,1 @@
+The **category of topological spaces** is the [[category]] whose objects are [[topological space|topological spaces]] and whose morphisms are [[continuous]] functions.

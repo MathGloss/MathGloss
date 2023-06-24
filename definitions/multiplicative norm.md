@@ -1,0 +1,1 @@
+A [[norm]] $|\cdot | : A\to \mathbb R$ on an [[algebra over a field|algebra]] $A$ is called **multiplicative** if $|1_A| = 1$ and for all $a,b\in A$,  $|ab| \leq |a|\cdot |b|$.

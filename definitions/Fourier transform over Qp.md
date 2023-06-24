@@ -1,0 +1,2 @@
+Let $f$ be in the [[Schwartz space]] of the [[p-adic field]] $\mathbb Q_p$. That is, let $f\in C_c^\infty(\mathbb Q_p)$. Then the analogue to the **[[Fourier transform]]** of $f$ is given by $$\widehat{f}(u) = \int_{\mathbb Q_p}f(x)\psi_u(x)\text dx$$ where $\psi_u$ is the multiple of the [[Basic Additive Character]] on $\mathbb Q_p$ and the [[Lebesgue integral|integral]] is taken with respect to the [[Haar measure on additive Qp|Haar measure]] on $\mathbb Q_p$. 
+

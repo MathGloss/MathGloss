@@ -1,0 +1,3 @@
+Let $V$ and $W$ be [[vector space|vector spaces]]. If $\phi: G\to GL(V)$ and $\psi:G\to GL(W)$ are two different [[group representation|representations]] of the [[group]] $G$, the **direct sum** $\phi \oplus \psi:G \to GL(V\oplus W)$ is also a [[group representation|representation]] of $G$ where $V\oplus W$ is given by the usual Cartesian product of [[vector space|vector spaces]]. #todo 
+
+https://www.wikidata.org/wiki/Q13582243

@@ -1,0 +1,1 @@
+Let $G$ be a [[group]]. The [[subgroup|subgroups]] $H_1$ and $H_2$ are **conjugate** if there exists $a\in G$ such that $H_2= aHa^{-1}$.

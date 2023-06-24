@@ -1,0 +1,6 @@
+---
+aliases: minimal polynomial, algebraic
+---
+Let $A$ be an [[algebra over a field|algebra]] over the [[field]] $\mathbb k$ and let $a\in A$. Then the [[subalgebra]] $A_a$ [[generate an associative algebra|generated]] by $a$ is the [[image]] of the [[algebra homomorphism]] from the [[polynomial ring|polynomials]] $\mathbb k[t]$ to $A$ given by $f\mapsto f(a)$. The [[kernel]] of this map is an [[algebra ideal|ideal]] of $\mathbb k[t]$ consisting of polynomials such that $f(a) = 0$. Denote this [[ring ideal|ideal]] by $I_a$ and note that it is a [[principal ideal]] because $\mathbb k[x]$ [[polynomials over field is a PID|is]] a [[principal ideal domain]].
+
+The element $a\in A$ is **algebraic** if there exists a nonzero polynomial $f\in\mathbb k[t]$ such that $f(a)=0$, i.e. if $I_a\neq 0$. Then because $I_a$ must be [[principal ideal|principal]], there exists a unique [[monic]] [[polynomial ring|polynomial]] $p_a$ that [[generate a ring ideal|generates]] $I_a$ and this is called the **minimal polynomial** of $a$.

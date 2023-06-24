@@ -1,0 +1,3 @@
+Let $M \subset \mathbb R^n$ be an [[oriented manifold]] of dimension $m$. [[boundary of a manifold is a manifold|Then]] the [[boundary points of a manifold|boundary]] $\partial M$ is an $(m-1)$-dimensional [[oriented manifold]] (with the [[induced orientation]]). Let $\phi U\to M$ be a [[local parametrization]] of $M$ near $p \in \partial M$ so that $0 \in U$ and $\phi(0) = p$, where $U$ is [[subspace topology|open]] in the [[closed half-space|half space]] $H^m_+$. A [[tangent space|tangent vector]] $$v \in T_pM = D\phi(0)(\mathbb R^m)\subset\mathbb R^n$$ is **outward pointing** if it is the image of a vector $w \in \mathbb R^m$ which does *not* lie in $H_+^m$.
+
+https://www.wikidata.org/wiki/Q2748415

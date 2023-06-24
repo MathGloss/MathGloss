@@ -1,0 +1,3 @@
+Let $(V,\rho)$ be a [[group representation|representation]] of the [[group]] $G$. The $n$th **exterior power** of $V_1$ and $V_2$ is a [[group representation|representation]] of $G$ over the [[exterior power of a vector space]] $\wedge^nV$ under the [[linear transformation]] $\rho:G\to \wedge^n(V)$ such that $$\rho(g)(v_1\wedge v_2\wedge \cdots \wedge v_n) = (\rho(g)v_1\wedge \rho(g)v_2\wedge\cdots\wedge\rho(g)v_n).$$
+
+https://www.wikidata.org/wiki/Q13408581
