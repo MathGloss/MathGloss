@@ -1,0 +1,9 @@
+---
+ layout: page
+ title: Lp space
+ permalink: /Lp_space
+---Let $1\leq p < \infty$ and let $(X,\Sigma, \mu)$ be a [measure space](https://defsmath.github.io/DefsMath/measure_space). Let $F$ be the set of functions $f: X\to \mathbb R$ such that $$||f||_p = \left(\int_X|f|^p\text d\mu\right)^{1/p}\ < \infty$$ where $||f||_p$ is the [p-norm](https://defsmath.github.io/DefsMath/p-norm). Equivalently, $F$ is the set of functions such that the $p$th power of their absolute value is [integrable](https://defsmath.github.io/DefsMath/Lebesgue_integral). Let $N = \{f \in F \mid f = 0 \text{almost everywhere}\}$. Because [the integral of a positive function is zero if and only if it is zero almost everywhere](https://defsmath.github.io/DefsMath/zero_integral_of_a_nonnegative_function), we have that $N$ is the [kernel](https://defsmath.github.io/DefsMath/kernel_of_linear_transformation) of the [p-norm](https://defsmath.github.io/DefsMath/p-norm). The [normed linear space](https://defsmath.github.io/DefsMath/normed_linear_space) given by the [quotient vector space](https://defsmath.github.io/DefsMath/quotient_vector_space) of $F$ by $N$ is $L_p(X,\mu)$.
+
+For $p = \infty$, consider the set $G$ of functions $f:X \to \mathbb R$  for which there exists $c \in\mathbb R$ such that $\mu(\{|f| > c\}) = 0$ and take the [quotient vector space](https://defsmath.github.io/DefsMath/quotient_vector_space) of this set by the [equivalence relation](https://defsmath.github.io/DefsMath/equivalence_relation) $\sim$ on $G$ given by $f\sim g$ if $f(x) = g(x)$ [almost everywhere](https://defsmath.github.io/DefsMath/almost_everywhere) on $X$.  This space with the [essential supremum](https://defsmath.github.io/DefsMath/essential_supremum) of $f$ as the [norm](https://defsmath.github.io/DefsMath/norm) is $L_\infty(X,\mu)$.
+
+Wikidata ID: [Q305936](https://www.wikidata.org/wiki/Q305936)
