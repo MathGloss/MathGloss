@@ -8,8 +8,6 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 
 | Wikidata ID                                            |           [Chicago](https://defsmath.github.io/DefsMath/chicago)                                                            |   [France UG](https://defsmath.github.io/DefsMath/france)                                                 | [ProofNet](https://defsmath.github.io/DefsMath/proofnet)                        | [TAC](https://defsmath.github.io/DefsMath/tac)                                  |
 | ------------------------------------------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------- | ---------------------------------- | 
-|  |  |  |  |  |  |
-|---|---|---|---|---|---|
 | [Q14481419](https://www.wikidata.org/wiki/Q14481419) |  | [0-1 law](https://leanprover-community.github.io/mathlib_docs/probability/independence.html#probability_theory.measure_zero_or_one_of_measurable_set_limsup_at_top) |  |  |  |
 | [Q214796](https://www.wikidata.org/wiki/Q214796) |  |  | = |  |  |
 | [Q9659](https://www.wikidata.org/wiki/Q9659) |  |  | a |  |  |
@@ -30,8 +28,8 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q404330](https://www.wikidata.org/wiki/Q404330) |  |  | additivity |  |  |
 | [Q26261926](https://www.wikidata.org/wiki/Q26261926) |  |  | adjoint | adjoint |  |
 | [Q2858846](https://www.wikidata.org/wiki/Q2858846) | [adjoint of a linear transformation](https://defsmath.github.io/DefsMath/chicago/adjoint_of_a_linear_transformation) |  |  |  |  |
-| [Q4379157](https://www.wikidata.org/wiki/Q4379157) | [adjoint representation of a lie algebra](https://defsmath.github.io/DefsMath/chicago/adjoint_representation_of_a_Lie_algebra) |  |  |  |  |
-| [Q1017106](https://www.wikidata.org/wiki/Q1017106) | [adjoint representation of a lie group](https://defsmath.github.io/DefsMath/chicago/adjoint_representation_of_a_Lie_group) | [adjoint endomorphism](https://leanprover-community.github.io/mathlib_docs/linear_algebra/bilinear_form.html#bilin_form.left_adjoint_of_nondegenerate) |  |  |  |
+| [Q4379157](https://www.wikidata.org/wiki/Q4379157) | [adjoint representation of a lie algebra](https://defsmath.github.io/DefsMath/chicago/adjoint_representation_of_a_lie_algebra) |  |  |  |  |
+| [Q1017106](https://www.wikidata.org/wiki/Q1017106) | [adjoint representation of a lie group](https://defsmath.github.io/DefsMath/chicago/adjoint_representation_of_a_lie_group) | [adjoint endomorphism](https://leanprover-community.github.io/mathlib_docs/linear_algebra/bilinear_form.html#bilin_form.left_adjoint_of_nondegenerate) |  |  |  |
 | [Q225107](https://www.wikidata.org/wiki/Q225107) | [adjugate](https://defsmath.github.io/DefsMath/chicago/adjugate) |  |  |  |  |
 | [Q357858](https://www.wikidata.org/wiki/Q357858) |  |  | unit (category theory) | adjunction (category theory) |  |
 | [Q18205396](https://www.wikidata.org/wiki/Q18205396) |  |  |  | adjunction (set theory) |  |
@@ -71,10 +69,10 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q4198296](https://www.wikidata.org/wiki/Q4198296) |  |  | avoidance |  |  |
 | [Q17736](https://www.wikidata.org/wiki/Q17736) |  |  | axiom |  |  |
 | [Q9705](https://www.wikidata.org/wiki/Q9705) |  |  | b |  |  |
-| [Q2976036](https://www.wikidata.org/wiki/Q2976036) | [baire class](https://defsmath.github.io/DefsMath/chicago/Baire_class) |  |  |  |  |
+| [Q2976036](https://www.wikidata.org/wiki/Q2976036) | [baire class](https://defsmath.github.io/DefsMath/chicago/baire_class) |  |  |  |  |
 | [Q838611](https://www.wikidata.org/wiki/Q838611) |  |  | ball (topology) |  |  |
-| [Q194397](https://www.wikidata.org/wiki/Q194397) | [banach space](https://defsmath.github.io/DefsMath/chicago/Banach_space) |  |  |  |  |
-| [Q3459695](https://www.wikidata.org/wiki/Q3459695) | [banach-mazur game](https://defsmath.github.io/DefsMath/chicago/Banach-Mazur_game) |  |  |  |  |
+| [Q194397](https://www.wikidata.org/wiki/Q194397) | [banach space](https://defsmath.github.io/DefsMath/chicago/banach_space) |  |  |  |  |
+| [Q3459695](https://www.wikidata.org/wiki/Q3459695) | [banach-mazur game](https://defsmath.github.io/DefsMath/chicago/banach-mazur_game) |  |  |  |  |
 | [Q809690](https://www.wikidata.org/wiki/Q809690) |  | [barycenter](https://leanprover-community.github.io/mathlib_docs/linear_algebra/affine_space/combination.html#finset.affine_combination) |  |  |  |
 | [Q5786321](https://www.wikidata.org/wiki/Q5786321) | [barycentric coordinates](https://defsmath.github.io/DefsMath/chicago/barycentric_coordinates) |  |  |  |  |
 | [Q738422](https://www.wikidata.org/wiki/Q738422) | [barycentric coordinates](https://defsmath.github.io/DefsMath/chicago/barycentric_coordinates) |  |  |  |  |
@@ -97,7 +95,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q866300](https://www.wikidata.org/wiki/Q866300) |  | bisection method |  |  |  |
 | [Q468391](https://www.wikidata.org/wiki/Q468391) |  | [bolzano-weierstrass theorem](https://leanprover-community.github.io/mathlib_docs/topology/sequences.html#tendsto_subseq_of_bounded) |  |  |  |
 | [Q173183](https://www.wikidata.org/wiki/Q173183) |  |  |  | boolean algebra |  |
-| [Q1080067](https://www.wikidata.org/wiki/Q1080067) | [borel σ-algebra](https://defsmath.github.io/DefsMath/chicago/Borel_σ-algebra) |  |  |  |  |
+| [Q1080067](https://www.wikidata.org/wiki/Q1080067) | [borel σ-algebra](https://defsmath.github.io/DefsMath/chicago/borel_σ-algebra) |  |  |  |  |
 | [Q895144](https://www.wikidata.org/wiki/Q895144) |  |  | bound |  |  |
 | [Q78323465](https://www.wikidata.org/wiki/Q78323465) | [boundary homomorphism](https://defsmath.github.io/DefsMath/chicago/boundary_homomorphism) |  |  |  |  |
 | [Q875399](https://www.wikidata.org/wiki/Q875399) | [boundary](https://defsmath.github.io/DefsMath/chicago/boundary) |  |  | boundary (topology) |  |
@@ -109,14 +107,14 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q11946202](https://www.wikidata.org/wiki/Q11946202) |  |  |  | butterfly |  |
 | [Q513028](https://www.wikidata.org/wiki/Q513028) |  | [bézout's identity](https://leanprover-community.github.io/mathlib_docs/ring_theory/principal_ideal_domain.html#exists_gcd_eq_mul_add_mul) |  |  |  |
 | [Q9820](https://www.wikidata.org/wiki/Q9820) |  |  | c |  |  |
-| [Q3552958](https://www.wikidata.org/wiki/Q3552958) | [c^r-form](https://defsmath.github.io/DefsMath/chicago/C^r-form) |  |  | smooth manifold |  |
+| [Q3552958](https://www.wikidata.org/wiki/Q3552958) | [c^r-form](https://defsmath.github.io/DefsMath/chicago/c^r-form) |  |  | smooth manifold |  |
 | [Q622821](https://www.wikidata.org/wiki/Q622821) |  |  | calculation | calculation |  |
 | [Q31087](https://www.wikidata.org/wiki/Q31087) |  |  | calculator |  |  |
 | [Q407264](https://www.wikidata.org/wiki/Q407264) |  |  | call | call |  |
 | [Q331693](https://www.wikidata.org/wiki/Q331693) |  |  | cancellation |  |  |
 | [Q2298524](https://www.wikidata.org/wiki/Q2298524) |  |  | cancellation law |  |  |
 | [Q444936](https://www.wikidata.org/wiki/Q444936) |  |  |  | canonical |  |
-| [Q273188](https://www.wikidata.org/wiki/Q273188) | [cantor set](https://defsmath.github.io/DefsMath/chicago/Cantor_set) |  |  |  |  |
+| [Q273188](https://www.wikidata.org/wiki/Q273188) | [cantor set](https://defsmath.github.io/DefsMath/chicago/cantor_set) |  |  |  |  |
 | [Q163875](https://www.wikidata.org/wiki/Q163875) |  |  |  | cardinal (mathematics) |  |
 | [Q4049983](https://www.wikidata.org/wiki/Q4049983) |  |  | cardinality |  |  |
 | [Q1734581](https://www.wikidata.org/wiki/Q1734581) |  |  |  | cartesian |  |
@@ -130,7 +128,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q8814](https://www.wikidata.org/wiki/Q8814) |  |  | cauchy | cauchy |  |
 | [Q769374](https://www.wikidata.org/wiki/Q769374) |  | cauchy principal value |  |  |  |
 | [Q1051404](https://www.wikidata.org/wiki/Q1051404) |  |  | cauchy product |  |  |
-| [Q217847](https://www.wikidata.org/wiki/Q217847) | [cauchy sequence](https://defsmath.github.io/DefsMath/chicago/Cauchy_sequence) | [cauchy sequence](https://leanprover-community.github.io/mathlib_docs/topology/uniform_space/cauchy.html#cauchy_seq) | cauchy sequence |  |  |
+| [Q217847](https://www.wikidata.org/wiki/Q217847) | [cauchy sequence](https://defsmath.github.io/DefsMath/chicago/cauchy_sequence) | [cauchy sequence](https://leanprover-community.github.io/mathlib_docs/topology/uniform_space/cauchy.html#cauchy_seq) | cauchy sequence |  |  |
 | [Q1412436](https://www.wikidata.org/wiki/Q1412436) |  | cauchy's problem |  |  |  |
 | [Q622741](https://www.wikidata.org/wiki/Q622741) |  | cauchy-riemann equations | cauchy-riemann equation |  |  |
 | [Q190546](https://www.wikidata.org/wiki/Q190546) |  | [cauchy-schwarz inequality](https://leanprover-community.github.io/mathlib_docs/analysis/inner_product_space/basic.html#inner_mul_inner_self_le) | cauchy-schwarz inequality |  |  |
@@ -141,7 +139,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q30603786](https://www.wikidata.org/wiki/Q30603786) |  |  | center (ring theory) |  |  |
 | [Q1195852](https://www.wikidata.org/wiki/Q1195852) | [center of a group](https://defsmath.github.io/DefsMath/chicago/center_of_a_group) |  | center (group theory) | centre (group theory) |  |
 | [Q190391](https://www.wikidata.org/wiki/Q190391) |  | central limit theorem |  |  |  |
-| [](https://www.wikidata.org/wiki/) | [centralizer of a lie algebra](https://defsmath.github.io/DefsMath/chicago/centralizer_of_a_Lie_algebra) |  |  |  |  |
+| [](https://www.wikidata.org/wiki/) | [centralizer of a lie algebra](https://defsmath.github.io/DefsMath/chicago/centralizer_of_a_lie_algebra) |  |  |  |  |
 | [Q190629](https://www.wikidata.org/wiki/Q190629) | [centralizer of a subset](https://defsmath.github.io/DefsMath/chicago/centralizer_of_a_subset) |  | centralizer (ring theory) |  |  |
 | [Q511093](https://www.wikidata.org/wiki/Q511093) | [centroid](https://defsmath.github.io/DefsMath/chicago/centroid) |  |  |  |  |
 | [Q1143328](https://www.wikidata.org/wiki/Q1143328) | [chain complex](https://defsmath.github.io/DefsMath/chicago/chain_complex) |  |  | chain complex |  |
@@ -161,7 +159,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q3828144](https://www.wikidata.org/wiki/Q3828144) | [chart](https://defsmath.github.io/DefsMath/chicago/chart) |  |  |  |  |
 | [Q1775867](https://www.wikidata.org/wiki/Q1775867) |  |  | choice |  |  |
 | [Q2513496](https://www.wikidata.org/wiki/Q2513496) |  |  | choice function |  |  |
-| [Q18205969](https://www.wikidata.org/wiki/Q18205969) | [choquet game](https://defsmath.github.io/DefsMath/chicago/Choquet_game) |  |  |  |  |
+| [Q18205969](https://www.wikidata.org/wiki/Q18205969) | [choquet game](https://defsmath.github.io/DefsMath/chicago/choquet_game) |  |  |  |  |
 | [Q17278](https://www.wikidata.org/wiki/Q17278) |  |  | circle (mathematics) |  |  |
 | [Q306610](https://www.wikidata.org/wiki/Q306610) |  |  | circle (topology) |  |  |
 | [Q105356493](https://www.wikidata.org/wiki/Q105356493) | [circle group](https://defsmath.github.io/DefsMath/chicago/circle_group) |  |  |  |  |
@@ -213,7 +211,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q28839103](https://www.wikidata.org/wiki/Q28839103) |  |  |  | complex |  |
 | [Q381040](https://www.wikidata.org/wiki/Q381040) | [complex conjugate](https://defsmath.github.io/DefsMath/chicago/complex_conjugate) |  |  |  |  |
 | [Q184871](https://www.wikidata.org/wiki/Q184871) |  | [complex exponential](https://leanprover-community.github.io/mathlib_docs/data/complex/exponential.html#complex.exp) |  |  |  |
-| [Q5156554](https://www.wikidata.org/wiki/Q5156554) | [complex lie group](https://defsmath.github.io/DefsMath/chicago/complex_Lie_group) |  |  |  |  |
+| [Q5156554](https://www.wikidata.org/wiki/Q5156554) | [complex lie group](https://defsmath.github.io/DefsMath/chicago/complex_lie_group) |  |  |  |  |
 | [Q445569](https://www.wikidata.org/wiki/Q445569) | [complexification of a vector space](https://defsmath.github.io/DefsMath/chicago/complexification_of_a_vector_space) |  |  |  |  |
 | [Q2997928](https://www.wikidata.org/wiki/Q2997928) |  |  | component (graph theory) |  |  |
 | [Q5156688](https://www.wikidata.org/wiki/Q5156688) |  |  | component (group theory) |  |  |
@@ -292,7 +290,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q812880](https://www.wikidata.org/wiki/Q812880) |  |  | cube |  |  |
 | [Q1774143](https://www.wikidata.org/wiki/Q1774143) |  |  | cube root |  |  |
 | [Q161973](https://www.wikidata.org/wiki/Q161973) |  |  | curve (mathematics) |  |  |
-| [Q189061](https://www.wikidata.org/wiki/Q189061) | [cw complex](https://defsmath.github.io/DefsMath/chicago/CW_complex) |  |  |  |  |
+| [Q189061](https://www.wikidata.org/wiki/Q189061) | [cw complex](https://defsmath.github.io/DefsMath/chicago/cw_complex) |  |  |  |  |
 | [Q245595](https://www.wikidata.org/wiki/Q245595) |  |  | cycle (graph theory) |  |  |
 | [Q225014](https://www.wikidata.org/wiki/Q225014) |  |  | cycle (mathematics) |  |  |
 | [Q5198158](https://www.wikidata.org/wiki/Q5198158) |  |  | cycle decomposition (graph theory) |  |  |
@@ -378,7 +376,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q2361385](https://www.wikidata.org/wiki/Q2361385) |  |  |  | dual (category theory) |  |
 | [Q1755512](https://www.wikidata.org/wiki/Q1755512) |  |  |  | dual (mathematics) |  |
 | [Q2297777](https://www.wikidata.org/wiki/Q2297777) |  | [dual basis](https://leanprover-community.github.io/mathlib_docs/linear_algebra/dual.html#basis.dual_basis) |  |  |  |
-| [Q3427408](https://www.wikidata.org/wiki/Q3427408) | [dual representation of a lie algebra](https://defsmath.github.io/DefsMath/chicago/dual_representation_of_a_Lie_algebra) |  |  |  |  |
+| [Q3427408](https://www.wikidata.org/wiki/Q3427408) | [dual representation of a lie algebra](https://defsmath.github.io/DefsMath/chicago/dual_representation_of_a_lie_algebra) |  |  |  |  |
 | [Q752487](https://www.wikidata.org/wiki/Q752487) | [dual space](https://defsmath.github.io/DefsMath/chicago/dual_space) | [dual space](https://leanprover-community.github.io/mathlib_docs/analysis/normed_space/dual.html#normed_space.dual.normed_space) |  | dual (linear algebra) |  |
 | [Q104486](https://www.wikidata.org/wiki/Q104486) |  | eccentricity (mathematics) |  |  |  |
 | [Q1415372](https://www.wikidata.org/wiki/Q1415372) | [edge path](https://defsmath.github.io/DefsMath/chicago/edge_path) |  |  |  |  |
@@ -415,10 +413,10 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q1969054](https://www.wikidata.org/wiki/Q1969054) | [essentially bounded](https://defsmath.github.io/DefsMath/chicago/essentially_bounded) |  |  |  |  |
 | [Q537953](https://www.wikidata.org/wiki/Q537953) |  |  |  | et |  |
 | [Q230848](https://www.wikidata.org/wiki/Q230848) |  |  | euclidean algorithm |  |  |
-| [Q867345](https://www.wikidata.org/wiki/Q867345) | [euclidean domain](https://defsmath.github.io/DefsMath/chicago/Euclidean_domain) |  | euclidean domain |  |  |
-| [Q181365](https://www.wikidata.org/wiki/Q181365) | [euclidean inner product](https://defsmath.github.io/DefsMath/chicago/Euclidean_inner_product) |  |  |  |  |
-| [Q852973](https://www.wikidata.org/wiki/Q852973) | [euler characteristic of a graph](https://defsmath.github.io/DefsMath/chicago/Euler_characteristic_of_a_graph) |  |  | euler characteristic |  |
-| [Q190026](https://www.wikidata.org/wiki/Q190026) | [euler's totient function](https://defsmath.github.io/DefsMath/chicago/Euler's_totient_function) |  | totient |  |  |
+| [Q867345](https://www.wikidata.org/wiki/Q867345) | [euclidean domain](https://defsmath.github.io/DefsMath/chicago/euclidean_domain) |  | euclidean domain |  |  |
+| [Q181365](https://www.wikidata.org/wiki/Q181365) | [euclidean inner product](https://defsmath.github.io/DefsMath/chicago/euclidean_inner_product) |  |  |  |  |
+| [Q852973](https://www.wikidata.org/wiki/Q852973) | [euler characteristic of a graph](https://defsmath.github.io/DefsMath/chicago/euler_characteristic_of_a_graph) |  |  | euler characteristic |  |
+| [Q190026](https://www.wikidata.org/wiki/Q190026) | [euler's totient function](https://defsmath.github.io/DefsMath/chicago/euler's_totient_function) |  | totient |  |  |
 | [Q1297532](https://www.wikidata.org/wiki/Q1297532) |  | [events](https://leanprover-community.github.io/mathlib_docs/measure_theory/measurable_space_def.html#measurable_set) |  |  |  |
 | [Q1326955](https://www.wikidata.org/wiki/Q1326955) | [exact sequence](https://defsmath.github.io/DefsMath/chicago/exact_sequence) |  |  |  |  |
 | [Q29864097](https://www.wikidata.org/wiki/Q29864097) |  |  | example |  |  |
@@ -456,14 +454,14 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q190109](https://www.wikidata.org/wiki/Q190109) | [field](https://defsmath.github.io/DefsMath/chicago/field) |  | field (mathematics) | field theory (mathematics) |  |
 | [Q1201101](https://www.wikidata.org/wiki/Q1201101) |  | [fields](https://leanprover-community.github.io/mathlib_docs/algebra/field/defs.html#field) |  |  |  |
 | [Q1030026](https://www.wikidata.org/wiki/Q1030026) |  |  | fifth |  |  |
-| [Q5448799](https://www.wikidata.org/wiki/Q5448799) | [filled julia set](https://defsmath.github.io/DefsMath/chicago/filled_Julia_set) |  |  |  |  |
+| [Q5448799](https://www.wikidata.org/wiki/Q5448799) | [filled julia set](https://defsmath.github.io/DefsMath/chicago/filled_julia_set) |  |  |  |  |
 | [Q11516722](https://www.wikidata.org/wiki/Q11516722) |  |  | finite | finite |  |
 | [Q603880](https://www.wikidata.org/wiki/Q603880) |  | [finite fields](https://leanprover-community.github.io/mathlib_docs/field_theory/finite.html) | finite field |  |  |
 | [Q1057968](https://www.wikidata.org/wiki/Q1057968) |  |  | finite group | finite group |  |
-| [Q1761084](https://www.wikidata.org/wiki/Q1761084) | [finite length r-module](https://defsmath.github.io/DefsMath/chicago/finite_length_R-module) |  |  |  |  |
+| [Q1761084](https://www.wikidata.org/wiki/Q1761084) | [finite length r-module](https://defsmath.github.io/DefsMath/chicago/finite_length_r-module) |  |  |  |  |
 | [Q22349746](https://www.wikidata.org/wiki/Q22349746) |  |  | finite number |  |  |
 | [Q272404](https://www.wikidata.org/wiki/Q272404) |  |  |  | finite set |  |
-| [Q1340572](https://www.wikidata.org/wiki/Q1340572) | [finitely generated r-module](https://defsmath.github.io/DefsMath/chicago/finitely_generated_R-module) |  |  |  |  |
+| [Q1340572](https://www.wikidata.org/wiki/Q1340572) | [finitely generated r-module](https://defsmath.github.io/DefsMath/chicago/finitely_generated_r-module) |  |  |  |  |
 | [Q6508397](https://www.wikidata.org/wiki/Q6508397) |  |  |  | first author |  |
 | [Q1065966](https://www.wikidata.org/wiki/Q1065966) |  |  | first isomorphism theorem |  |  |
 | [Q3568](https://www.wikidata.org/wiki/Q3568) |  | focus (mathematics) |  |  |  |
@@ -481,7 +479,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q6927157](https://www.wikidata.org/wiki/Q6927157) |  |  |  | frame (differential geometry) |  |
 | [Q5477875](https://www.wikidata.org/wiki/Q5477875) |  |  |  | frame (linear algebra) |  |
 | [Q5156470](https://www.wikidata.org/wiki/Q5156470) |  |  |  | frame (order theory) |  |
-| [Q176244](https://www.wikidata.org/wiki/Q176244) | [frattini subgroup](https://defsmath.github.io/DefsMath/chicago/Frattini_subgroup) |  |  |  |  |
+| [Q176244](https://www.wikidata.org/wiki/Q176244) | [frattini subgroup](https://defsmath.github.io/DefsMath/chicago/frattini_subgroup) |  |  |  |  |
 | [Q5500180](https://www.wikidata.org/wiki/Q5500180) |  |  |  | free algebra |  |
 | [Q431078](https://www.wikidata.org/wiki/Q431078) | [free group](https://defsmath.github.io/DefsMath/chicago/free_group) |  |  |  |  |
 | [Q1292333](https://www.wikidata.org/wiki/Q1292333) | [free module](https://defsmath.github.io/DefsMath/chicago/free_module) |  |  |  |  |
@@ -495,12 +493,12 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q430271](https://www.wikidata.org/wiki/Q430271) |  |  | fundamental theorem |  |  |
 | [Q219285](https://www.wikidata.org/wiki/Q219285) |  |  |  | fusion |  |
 | [Q9739](https://www.wikidata.org/wiki/Q9739) |  |  | g |  |  |
-| [Q4944906](https://www.wikidata.org/wiki/Q4944906) | [gale-stewart game](https://defsmath.github.io/DefsMath/chicago/Gale-Stewart_game) |  |  |  |  |
+| [Q4944906](https://www.wikidata.org/wiki/Q4944906) | [gale-stewart game](https://defsmath.github.io/DefsMath/chicago/gale-stewart_game) |  |  |  |  |
 | [Q1507104](https://www.wikidata.org/wiki/Q1507104) |  |  |  | game (mathematics) |  |
 | [Q15079592](https://www.wikidata.org/wiki/Q15079592) | [game](https://defsmath.github.io/DefsMath/chicago/game) |  |  |  |  |
 | [Q2658](https://www.wikidata.org/wiki/Q2658) |  | gaussian elimination |  |  |  |
 | [Q1054475](https://www.wikidata.org/wiki/Q1054475) |  | gaussian function |  |  |  |
-| [Q724975](https://www.wikidata.org/wiki/Q724975) | [gaussian integers](https://defsmath.github.io/DefsMath/chicago/Gaussian_integers) |  |  |  |  |
+| [Q724975](https://www.wikidata.org/wiki/Q724975) | [gaussian integers](https://defsmath.github.io/DefsMath/chicago/gaussian_integers) |  |  |  |  |
 | [Q17521172](https://www.wikidata.org/wiki/Q17521172) | [general linear algebra](https://defsmath.github.io/DefsMath/chicago/general_linear_algebra) |  |  |  |  |
 | [Q524607](https://www.wikidata.org/wiki/Q524607) | [general linear group](https://defsmath.github.io/DefsMath/chicago/general_linear_group) | [general linear group](https://leanprover-community.github.io/mathlib_docs/linear_algebra/general_linear_group.html#linear_map.general_linear_group) |  |  |  |
 | [Q1111474](https://www.wikidata.org/wiki/Q1111474) |  |  |  | general theory |  |
@@ -508,7 +506,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q16783743](https://www.wikidata.org/wiki/Q16783743) |  |  | generality |  |  |
 | [Q970767](https://www.wikidata.org/wiki/Q970767) |  | [generalized eigenspace](https://leanprover-community.github.io/mathlib_docs/linear_algebra/eigenspace.html#module.end.generalized_eigenspace) |  |  |  |
 | [Q643669](https://www.wikidata.org/wiki/Q643669) |  |  | generate (mathematics) |  |  |
-| [Q25106477](https://www.wikidata.org/wiki/Q25106477) | [generate an r-module](https://defsmath.github.io/DefsMath/chicago/generate_an_R-module) |  |  |  |  |
+| [Q25106477](https://www.wikidata.org/wiki/Q25106477) | [generate an r-module](https://defsmath.github.io/DefsMath/chicago/generate_an_r-module) |  |  |  |  |
 | [Q5532552](https://www.wikidata.org/wiki/Q5532552) |  |  |  | generating |  |
 | [Q734209](https://www.wikidata.org/wiki/Q734209) | [generating set of a group](https://defsmath.github.io/DefsMath/chicago/generating_set_of_a_group) |  | cyclic subgroup |  |  |
 | [Q17000267](https://www.wikidata.org/wiki/Q17000267) |  |  | generator (category theory) |  |  |
@@ -528,17 +526,17 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q83478](https://www.wikidata.org/wiki/Q83478) | [group](https://defsmath.github.io/DefsMath/chicago/group) | [group (mathematics)](https://leanprover-community.github.io/mathlib_docs/algebra/group/defs.html#group) | group (mathematics) |  |  |
 | [Q1196038](https://www.wikidata.org/wiki/Q1196038) | [groupoid](https://defsmath.github.io/DefsMath/chicago/groupoid) |  |  |  |  |
 | [Q19921713](https://www.wikidata.org/wiki/Q19921713) |  |  | guess |  |  |
-| [Q189569](https://www.wikidata.org/wiki/Q189569) | [hamel basis](https://defsmath.github.io/DefsMath/chicago/Hamel_basis) |  | basis (linear algebra) | basis (linear algebra) |  |
+| [Q189569](https://www.wikidata.org/wiki/Q189569) | [hamel basis](https://defsmath.github.io/DefsMath/chicago/hamel_basis) |  | basis (linear algebra) | basis (linear algebra) |  |
 | [Q33767](https://www.wikidata.org/wiki/Q33767) |  |  | hand | hand |  |
 | [Q599027](https://www.wikidata.org/wiki/Q599027) | [harmonic function](https://defsmath.github.io/DefsMath/chicago/harmonic_function) |  |  |  |  |
 | [Q464100](https://www.wikidata.org/wiki/Q464100) |  |  | harmonic series (mathematics) |  |  |
-| [Q326908](https://www.wikidata.org/wiki/Q326908) | [hausdorff](https://defsmath.github.io/DefsMath/chicago/Hausdorff) |  |  |  |  |
+| [Q326908](https://www.wikidata.org/wiki/Q326908) | [hausdorff](https://defsmath.github.io/DefsMath/chicago/hausdorff) |  |  |  |  |
 | [Q765987](https://www.wikidata.org/wiki/Q765987) |  | [heine-cantor theorem](https://leanprover-community.github.io/mathlib_docs/topology/uniform_space/compact.html#compact_space.uniform_continuous_of_continuous) |  |  |  |
-| [Q77583424](https://www.wikidata.org/wiki/Q77583424) | [hermitian inner product](https://defsmath.github.io/DefsMath/chicago/Hermitian_inner_product) |  |  |  |  |
-| [Q620495](https://www.wikidata.org/wiki/Q620495) | [hessian matrix](https://defsmath.github.io/DefsMath/chicago/Hessian_matrix) | hessian matrix |  |  |  |
+| [Q77583424](https://www.wikidata.org/wiki/Q77583424) | [hermitian inner product](https://defsmath.github.io/DefsMath/chicago/hermitian_inner_product) |  |  |  |  |
+| [Q620495](https://www.wikidata.org/wiki/Q620495) | [hessian matrix](https://defsmath.github.io/DefsMath/chicago/hessian_matrix) | hessian matrix |  |  |  |
 | [Q5761206](https://www.wikidata.org/wiki/Q5761206) |  | hilbert basis |  |  |  |
 | [Q3527215](https://www.wikidata.org/wiki/Q3527215) |  | [hilbert projection theorem](https://leanprover-community.github.io/mathlib_docs/analysis/inner_product_space/projection.html#exists_norm_eq_infi_of_complete_convex) |  |  |  |
-| [Q190056](https://www.wikidata.org/wiki/Q190056) | [hilbert space](https://defsmath.github.io/DefsMath/chicago/Hilbert_space) |  |  |  |  |
+| [Q190056](https://www.wikidata.org/wiki/Q190056) | [hilbert space](https://defsmath.github.io/DefsMath/chicago/hilbert_space) |  |  |  |  |
 | [Q1206893](https://www.wikidata.org/wiki/Q1206893) |  |  | hint |  |  |
 | [Q731894](https://www.wikidata.org/wiki/Q731894) |  | [holder's inequality](https://leanprover-community.github.io/mathlib_docs/measure_theory/integral/mean_inequalities.html#nnreal.lintegral_mul_le_lp_mul_lq) |  |  |  |
 | [Q3139500](https://www.wikidata.org/wiki/Q3139500) | [holomorph of a group](https://defsmath.github.io/DefsMath/chicago/holomorph_of_a_group) |  |  |  |  |
@@ -550,7 +548,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q12715503](https://www.wikidata.org/wiki/Q12715503) | [homology class](https://defsmath.github.io/DefsMath/chicago/homology_class) |  |  |  |  |
 | [Q1144780](https://www.wikidata.org/wiki/Q1144780) | [homology group](https://defsmath.github.io/DefsMath/chicago/homology_group) |  |  | homology theory |  |
 | [Q3385162](https://www.wikidata.org/wiki/Q3385162) |  |  | homomorphism (graph theory) |  |  |
-| [Q868169](https://www.wikidata.org/wiki/Q868169) | [homomorphism of lie groups](https://defsmath.github.io/DefsMath/chicago/homomorphism_of_Lie_groups) | [group morphism](https://leanprover-community.github.io/mathlib_docs/algebra/hom/group.html#monoid_hom) |  |  |  |
+| [Q868169](https://www.wikidata.org/wiki/Q868169) | [homomorphism of lie groups](https://defsmath.github.io/DefsMath/chicago/homomorphism_of_lie_groups) | [group morphism](https://leanprover-community.github.io/mathlib_docs/algebra/hom/group.html#monoid_hom) |  |  |  |
 | [Q14775269](https://www.wikidata.org/wiki/Q14775269) | [homotopy category](https://defsmath.github.io/DefsMath/chicago/homotopy_category) |  |  |  |  |
 | [Q306560](https://www.wikidata.org/wiki/Q306560) | [homotopy cofiber](https://defsmath.github.io/DefsMath/chicago/homotopy_cofiber) |  |  |  |  |
 | [Q17030678](https://www.wikidata.org/wiki/Q17030678) |  |  |  | homotopy colimit |  |
@@ -634,20 +632,20 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q273163](https://www.wikidata.org/wiki/Q273163) |  |  |  | isotropy |  |
 | [Q17098238](https://www.wikidata.org/wiki/Q17098238) | [isotypic component](https://defsmath.github.io/DefsMath/chicago/isotypic_component) |  |  |  |  |
 | [Q651022](https://www.wikidata.org/wiki/Q651022) |  |  |  | iteration |  |
-| [Q1474543](https://www.wikidata.org/wiki/Q1474543) | [jacobian determinant](https://defsmath.github.io/DefsMath/chicago/Jacobian_determinant) |  |  |  |  |
-| [Q506041](https://www.wikidata.org/wiki/Q506041) | [jacobian matrix](https://defsmath.github.io/DefsMath/chicago/Jacobian_matrix) | jacobian matrix |  |  |  |
+| [Q1474543](https://www.wikidata.org/wiki/Q1474543) | [jacobian determinant](https://defsmath.github.io/DefsMath/chicago/jacobian_determinant) |  |  |  |  |
+| [Q506041](https://www.wikidata.org/wiki/Q506041) | [jacobian matrix](https://defsmath.github.io/DefsMath/chicago/jacobian_matrix) | jacobian matrix |  |  |  |
 | [Q838495](https://www.wikidata.org/wiki/Q838495) |  | jordan normal form |  |  |  |
 | [Q202400](https://www.wikidata.org/wiki/Q202400) |  |  | kernel (mathematics) |  |  |
 | [Q687704](https://www.wikidata.org/wiki/Q687704) |  |  | kernel (set theory) |  |  |
 | [Q3345662](https://www.wikidata.org/wiki/Q3345662) |  |  | kernel (statistics) |  |  |
 | [Q574844](https://www.wikidata.org/wiki/Q574844) | [kernel of group homomorphism](https://defsmath.github.io/DefsMath/chicago/kernel_of_group_homomorphism) |  | kernel (ring theory) |  |  |
 | [Q2920416](https://www.wikidata.org/wiki/Q2920416) | [kernel of group homomorphism](https://defsmath.github.io/DefsMath/chicago/kernel_of_group_homomorphism) |  | kernel (category theory) |  |  |
-| [Q192826](https://www.wikidata.org/wiki/Q192826) | [kronecker delta](https://defsmath.github.io/DefsMath/chicago/Kronecker_delta) |  |  |  |  |
+| [Q192826](https://www.wikidata.org/wiki/Q192826) | [kronecker delta](https://defsmath.github.io/DefsMath/chicago/kronecker_delta) |  |  |  |  |
 | [Q80222](https://www.wikidata.org/wiki/Q80222) |  |  | lagrange |  |  |
 | [Q861606](https://www.wikidata.org/wiki/Q861606) |  | [lagrange interpolation](https://leanprover-community.github.io/mathlib_docs/linear_algebra/lagrange.html#lagrange.interpolate) |  |  |  |
 | [Q598870](https://www.wikidata.org/wiki/Q598870) |  | lagrange multipliers |  |  |  |
 | [Q339444](https://www.wikidata.org/wiki/Q339444) |  | laplace equations |  |  |  |
-| [Q203484](https://www.wikidata.org/wiki/Q203484) | [laplacian](https://defsmath.github.io/DefsMath/chicago/Laplacian) |  |  |  |  |
+| [Q203484](https://www.wikidata.org/wiki/Q203484) | [laplacian](https://defsmath.github.io/DefsMath/chicago/laplacian) |  |  |  |  |
 | [Q6497088](https://www.wikidata.org/wiki/Q6497088) |  |  |  | lattice (group theory) |  |
 | [Q2754968](https://www.wikidata.org/wiki/Q2754968) |  |  |  | lattice (mathematics) |  |
 | [Q425432](https://www.wikidata.org/wiki/Q425432) |  | laurent series |  |  |  |
@@ -656,28 +654,28 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q6505076](https://www.wikidata.org/wiki/Q6505076) |  |  |  | lawvere theory |  |
 | [Q18345526](https://www.wikidata.org/wiki/Q18345526) |  |  |  | lax functor |  |
 | [Q102761](https://www.wikidata.org/wiki/Q102761) |  | [least common multiple](https://leanprover-community.github.io/mathlib_docs/algebra/gcd_monoid/basic.html#gcd_monoid.lcm) |  |  |  |
-| [Q516776](https://www.wikidata.org/wiki/Q516776) | [lebesgue measurable function](https://defsmath.github.io/DefsMath/chicago/Lebesgue_measurable_function) |  |  |  |  |
-| [Q827230](https://www.wikidata.org/wiki/Q827230) | [lebesgue measure](https://defsmath.github.io/DefsMath/chicago/Lebesgue_measure) | [lebesgue measure](https://leanprover-community.github.io/mathlib_docs/measure_theory/measure/measure_space_def.html#measure_theory.measure_space) |  |  |  |
-| [Q25447455](https://www.wikidata.org/wiki/Q25447455) | [lebesgue outer measure](https://defsmath.github.io/DefsMath/chicago/Lebesgue_outer_measure) |  |  |  |  |
+| [Q516776](https://www.wikidata.org/wiki/Q516776) | [lebesgue measurable function](https://defsmath.github.io/DefsMath/chicago/lebesgue_measurable_function) |  |  |  |  |
+| [Q827230](https://www.wikidata.org/wiki/Q827230) | [lebesgue measure](https://defsmath.github.io/DefsMath/chicago/lebesgue_measure) | [lebesgue measure](https://leanprover-community.github.io/mathlib_docs/measure_theory/measure/measure_space_def.html#measure_theory.measure_space) |  |  |  |
+| [Q25447455](https://www.wikidata.org/wiki/Q25447455) | [lebesgue outer measure](https://defsmath.github.io/DefsMath/chicago/lebesgue_outer_measure) |  |  |  |  |
 | [Q185813](https://www.wikidata.org/wiki/Q185813) | [left identity element](https://defsmath.github.io/DefsMath/chicago/left_identity_element) |  | identity element |  |  |
 | [Q44649](https://www.wikidata.org/wiki/Q44649) | [left ring ideal](https://defsmath.github.io/DefsMath/chicago/left_ring_ideal) |  | ideal (ring theory) |  |  |
 | [Q14565197](https://www.wikidata.org/wiki/Q14565197) |  |  | left side |  |  |
 | [Q207505](https://www.wikidata.org/wiki/Q207505) |  |  | lemma (mathematics) |  |  |
 | [Q670036](https://www.wikidata.org/wiki/Q670036) |  | curve length | length (mathematics) |  |  |
 | [Q4925193](https://www.wikidata.org/wiki/Q4925193) |  |  |  | lie |  |
-| [Q3882299](https://www.wikidata.org/wiki/Q3882299) | [lie algebra homomorphism](https://defsmath.github.io/DefsMath/chicago/Lie_algebra_homomorphism) |  |  |  |  |
-| [Q1136782](https://www.wikidata.org/wiki/Q1136782) | [lie algebra representation](https://defsmath.github.io/DefsMath/chicago/Lie_algebra_representation) |  |  |  |  |
-| [Q664495](https://www.wikidata.org/wiki/Q664495) | [lie algebra](https://defsmath.github.io/DefsMath/chicago/Lie_algebra) |  |  | lie algebra |  |
+| [Q3882299](https://www.wikidata.org/wiki/Q3882299) | [lie algebra homomorphism](https://defsmath.github.io/DefsMath/chicago/lie_algebra_homomorphism) |  |  |  |  |
+| [Q1136782](https://www.wikidata.org/wiki/Q1136782) | [lie algebra representation](https://defsmath.github.io/DefsMath/chicago/lie_algebra_representation) |  |  |  |  |
+| [Q664495](https://www.wikidata.org/wiki/Q664495) | [lie algebra](https://defsmath.github.io/DefsMath/chicago/lie_algebra) |  |  | lie algebra |  |
 | [Q6543824](https://www.wikidata.org/wiki/Q6543824) |  |  |  | lie groupoid |  |
 | [Q9128](https://www.wikidata.org/wiki/Q9128) |  |  |  | light |  |
 | [Q177239](https://www.wikidata.org/wiki/Q177239) |  |  | converge (topology) | limit (topology) |  |
-| [Q1322614](https://www.wikidata.org/wiki/Q1322614) | [limit of a d-shaped diagram](https://defsmath.github.io/DefsMath/chicago/limit_of_a_D-shaped_diagram) | [continuity (category theory)](https://leanprover-community.github.io/mathlib_docs/analysis/analytic/basic.html#has_fpower_series_on_ball.continuous_on) | continuity (category theory) | continuity (category theory) |  |
+| [Q1322614](https://www.wikidata.org/wiki/Q1322614) | [limit of a d-shaped diagram](https://defsmath.github.io/DefsMath/chicago/limit_of_a_d-shaped_diagram) | [continuity (category theory)](https://leanprover-community.github.io/mathlib_docs/analysis/analytic/basic.html#has_fpower_series_on_ball.continuous_on) | continuity (category theory) | continuity (category theory) |  |
 | [Q858223](https://www.wikidata.org/wiki/Q858223) | [limit point](https://defsmath.github.io/DefsMath/chicago/limit_point) | [limit point](https://leanprover-community.github.io/mathlib_docs/topology/basic.html#map_cluster_pt) | limit point |  |  |
 | [Q246639](https://www.wikidata.org/wiki/Q246639) |  | [limits](https://leanprover-community.github.io/mathlib_docs/order/filter/basic.html#filter.tendsto) |  |  |  |
 | [Q467699](https://www.wikidata.org/wiki/Q467699) |  | line integral |  |  |  |
 | [Q27628](https://www.wikidata.org/wiki/Q27628) |  |  | linear combination |  |  |
 | [Q15854269](https://www.wikidata.org/wiki/Q15854269) |  |  | linear factor |  |  |
-| [Q16977077](https://www.wikidata.org/wiki/Q16977077) | [linear lie algebra](https://defsmath.github.io/DefsMath/chicago/linear_Lie_algebra) |  |  |  |  |
+| [Q16977077](https://www.wikidata.org/wiki/Q16977077) | [linear lie algebra](https://defsmath.github.io/DefsMath/chicago/linear_lie_algebra) |  |  |  |  |
 | [Q841728](https://www.wikidata.org/wiki/Q841728) |  |  |  | linear logic |  |
 | [Q207643](https://www.wikidata.org/wiki/Q207643) | [linear transformation](https://defsmath.github.io/DefsMath/chicago/linear_transformation) | [linear map](https://leanprover-community.github.io/mathlib_docs/algebra/module/linear_map.html#linear_map) |  |  |  |
 | [Q211981](https://www.wikidata.org/wiki/Q211981) |  | linearisation theorem |  |  |  |
@@ -695,14 +693,14 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q2136937](https://www.wikidata.org/wiki/Q2136937) | [locally finite measure](https://defsmath.github.io/DefsMath/chicago/locally_finite_measure) |  |  |  |  |
 | [Q16671984](https://www.wikidata.org/wiki/Q16671984) | [locally path-connected](https://defsmath.github.io/DefsMath/chicago/locally_path-connected) |  |  |  |  |
 | [Q11197](https://www.wikidata.org/wiki/Q11197) |  | [logarithms](https://leanprover-community.github.io/mathlib_docs/analysis/special_functions/log/basic.html#real.log) |  |  |  |
-| [Q1334417](https://www.wikidata.org/wiki/Q1334417) | [lorentz group](https://defsmath.github.io/DefsMath/chicago/Lorentz_group) |  |  |  |  |
+| [Q1334417](https://www.wikidata.org/wiki/Q1334417) | [lorentz group](https://defsmath.github.io/DefsMath/chicago/lorentz_group) |  |  |  |  |
 | [Q1692143](https://www.wikidata.org/wiki/Q1692143) |  |  | loss |  |  |
-| [Q305936](https://www.wikidata.org/wiki/Q305936) | [lp space](https://defsmath.github.io/DefsMath/chicago/Lp_space) |  |  |  |  |
+| [Q305936](https://www.wikidata.org/wiki/Q305936) | [lp space](https://defsmath.github.io/DefsMath/chicago/lp_space) |  |  |  |  |
 | [Q833089](https://www.wikidata.org/wiki/Q833089) |  | lu decomposition |  |  |  |
-| [Q1361393](https://www.wikidata.org/wiki/Q1361393) | [lusin function](https://defsmath.github.io/DefsMath/chicago/Lusin_function) |  |  |  |  |
+| [Q1361393](https://www.wikidata.org/wiki/Q1361393) | [lusin function](https://defsmath.github.io/DefsMath/chicago/lusin_function) |  |  |  |  |
 | [Q11019](https://www.wikidata.org/wiki/Q11019) |  |  |  | machinery |  |
 | [Q679903](https://www.wikidata.org/wiki/Q679903) | [magma](https://defsmath.github.io/DefsMath/chicago/magma) |  |  |  |  |
-| [Q257](https://www.wikidata.org/wiki/Q257) | [mandelbrot set](https://defsmath.github.io/DefsMath/chicago/Mandelbrot_set) |  |  |  |  |
+| [Q257](https://www.wikidata.org/wiki/Q257) | [mandelbrot set](https://defsmath.github.io/DefsMath/chicago/mandelbrot_set) |  |  |  |  |
 | [Q203920](https://www.wikidata.org/wiki/Q203920) | [manifold](https://defsmath.github.io/DefsMath/chicago/manifold) |  |  |  |  |
 | [Q1620068](https://www.wikidata.org/wiki/Q1620068) |  |  |  | manner |  |
 | [Q573980](https://www.wikidata.org/wiki/Q573980) |  |  | map (topology) |  |  |
@@ -712,7 +710,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q842436](https://www.wikidata.org/wiki/Q842436) |  | [markov inequality](https://leanprover-community.github.io/mathlib_docs/measure_theory/integral/lebesgue.html#measure_theory.mul_meas_ge_le_lintegral) |  |  |  |
 | [Q176645](https://www.wikidata.org/wiki/Q176645) |  |  |  | markov process |  |
 | [Q656198](https://www.wikidata.org/wiki/Q656198) |  | [maschke theorem](https://leanprover-community.github.io/mathlib_docs/representation_theory/maschke.html#monoid_algebra.submodule.exists_is_compl) |  |  |  |
-| [Q622679](https://www.wikidata.org/wiki/Q622679) | [matrix lie group](https://defsmath.github.io/DefsMath/chicago/matrix_Lie_group) |  |  |  |  |
+| [Q622679](https://www.wikidata.org/wiki/Q622679) | [matrix lie group](https://defsmath.github.io/DefsMath/chicago/matrix_lie_group) |  |  |  |  |
 | [Q902017](https://www.wikidata.org/wiki/Q902017) | [matrix logarithm](https://defsmath.github.io/DefsMath/chicago/matrix_logarithm) |  |  |  |  |
 | [Q1049914](https://www.wikidata.org/wiki/Q1049914) | [matrix multiplication](https://defsmath.github.io/DefsMath/chicago/matrix_multiplication) |  |  |  |  |
 | [Q6787889](https://www.wikidata.org/wiki/Q6787889) |  | [matrix representation](https://leanprover-community.github.io/mathlib_docs/linear_algebra/matrix/bilinear_form.html#bilin_form.to_matrix) |  |  |  |
@@ -742,7 +740,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q6889353](https://www.wikidata.org/wiki/Q6889353) |  |  |  | modification |  |
 | [Q5051857](https://www.wikidata.org/wiki/Q5051857) |  |  |  | module category |  |
 | [Q215111](https://www.wikidata.org/wiki/Q215111) | [module homomorphism](https://defsmath.github.io/DefsMath/chicago/module_homomorphism) |  |  |  |  |
-| [Q18848](https://www.wikidata.org/wiki/Q18848) | [module over a lie algebra](https://defsmath.github.io/DefsMath/chicago/module_over_a_Lie_algebra) |  |  |  |  |
+| [Q18848](https://www.wikidata.org/wiki/Q18848) | [module over a lie algebra](https://defsmath.github.io/DefsMath/chicago/module_over_a_lie_algebra) |  |  |  |  |
 | [Q411185](https://www.wikidata.org/wiki/Q411185) |  |  | modulo |  |  |
 | [Q235787](https://www.wikidata.org/wiki/Q235787) |  |  | modulus |  |  |
 | [Q1451745](https://www.wikidata.org/wiki/Q1451745) |  | [moments](https://leanprover-community.github.io/mathlib_docs/probability/moments.html#probability_theory.moment) |  |  |  |
@@ -771,13 +769,13 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q1354987](https://www.wikidata.org/wiki/Q1354987) |  |  | neighbourhood (graph theory) | neighbourhood (graph theory) |  |
 | [Q1749812](https://www.wikidata.org/wiki/Q1749812) |  | newton's identities |  |  |  |
 | [Q1755242](https://www.wikidata.org/wiki/Q1755242) | [nilpotent group](https://defsmath.github.io/DefsMath/chicago/nilpotent_group) |  |  |  |  |
-| [Q15148889](https://www.wikidata.org/wiki/Q15148889) | [nilpotent lie algebra](https://defsmath.github.io/DefsMath/chicago/nilpotent_Lie_algebra) |  |  |  |  |
+| [Q15148889](https://www.wikidata.org/wiki/Q15148889) | [nilpotent lie algebra](https://defsmath.github.io/DefsMath/chicago/nilpotent_lie_algebra) |  |  |  |  |
 | [Q840023](https://www.wikidata.org/wiki/Q840023) | [nilpotent](https://defsmath.github.io/DefsMath/chicago/nilpotent) |  |  |  |  |
-| [Q2444982](https://www.wikidata.org/wiki/Q2444982) | [noetherian module](https://defsmath.github.io/DefsMath/chicago/Noetherian_module) |  |  |  |  |
-| [Q582271](https://www.wikidata.org/wiki/Q582271) | [noetherian ring](https://defsmath.github.io/DefsMath/chicago/Noetherian_ring) |  |  |  |  |
+| [Q2444982](https://www.wikidata.org/wiki/Q2444982) | [noetherian module](https://defsmath.github.io/DefsMath/chicago/noetherian_module) |  |  |  |  |
+| [Q582271](https://www.wikidata.org/wiki/Q582271) | [noetherian ring](https://defsmath.github.io/DefsMath/chicago/noetherian_ring) |  |  |  |  |
 | [Q403599](https://www.wikidata.org/wiki/Q403599) |  |  | non |  |  |
-| [Q7048717](https://www.wikidata.org/wiki/Q7048717) | [non-archimedean absolute value](https://defsmath.github.io/DefsMath/chicago/non-Archimedean_absolute_value) |  |  |  |  |
-| [Q1897429](https://www.wikidata.org/wiki/Q1897429) | [non-archimedean absolute value](https://defsmath.github.io/DefsMath/chicago/non-Archimedean_absolute_value) |  |  |  |  |
+| [Q7048717](https://www.wikidata.org/wiki/Q7048717) | [non-archimedean absolute value](https://defsmath.github.io/DefsMath/chicago/non-archimedean_absolute_value) |  |  |  |  |
+| [Q1897429](https://www.wikidata.org/wiki/Q1897429) | [non-archimedean absolute value](https://defsmath.github.io/DefsMath/chicago/non-archimedean_absolute_value) |  |  |  |  |
 | [Q592651](https://www.wikidata.org/wiki/Q592651) |  |  | nonabelian group |  |  |
 | [Q395712](https://www.wikidata.org/wiki/Q395712) |  |  | none |  |  |
 | [Q226183](https://www.wikidata.org/wiki/Q226183) |  |  | nonempty |  |  |
@@ -867,7 +865,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q2101158](https://www.wikidata.org/wiki/Q2101158) |  | polar decomposition |  |  |  |
 | [Q43260](https://www.wikidata.org/wiki/Q43260) |  |  | polynomial | polynomial |  |
 | [Q1455652](https://www.wikidata.org/wiki/Q1455652) | [polynomial ring](https://defsmath.github.io/DefsMath/chicago/polynomial_ring) |  |  |  |  |
-| [Q1632419](https://www.wikidata.org/wiki/Q1632419) | [pontryagin dual](https://defsmath.github.io/DefsMath/chicago/Pontryagin_dual) |  |  |  |  |
+| [Q1632419](https://www.wikidata.org/wiki/Q1632419) | [pontryagin dual](https://defsmath.github.io/DefsMath/chicago/pontryagin_dual) |  |  |  |  |
 | [Q1052034](https://www.wikidata.org/wiki/Q1052034) | [positive definite](https://defsmath.github.io/DefsMath/chicago/positive_definite) |  |  |  |  |
 | [Q192276](https://www.wikidata.org/wiki/Q192276) |  | [positive measure](https://leanprover-community.github.io/mathlib_docs/measure_theory/measure/measure_space_def.html#measure_theory.measure) |  |  |  |
 | [Q7233418](https://www.wikidata.org/wiki/Q7233418) |  |  | possibility | possibility |  |
@@ -928,14 +926,14 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q189756](https://www.wikidata.org/wiki/Q189756) |  |  | question |  |  |
 | [Q3966112](https://www.wikidata.org/wiki/Q3966112) | [quotient by equivalence relation](https://defsmath.github.io/DefsMath/chicago/quotient_by_equivalence_relation) |  |  |  |  |
 | [Q1138961](https://www.wikidata.org/wiki/Q1138961) | [quotient by normal subgroup](https://defsmath.github.io/DefsMath/chicago/quotient_by_normal_subgroup) | [quotient group](https://leanprover-community.github.io/mathlib_docs/group_theory/quotient_group.html#quotient_group.quotient.group) |  |  |  |
-| [Q2589508](https://www.wikidata.org/wiki/Q2589508) | [quotient of lie algebra by ideal](https://defsmath.github.io/DefsMath/chicago/quotient_of_Lie_algebra_by_ideal) |  |  |  |  |
+| [Q2589508](https://www.wikidata.org/wiki/Q2589508) | [quotient of lie algebra by ideal](https://defsmath.github.io/DefsMath/chicago/quotient_of_lie_algebra_by_ideal) |  |  |  |  |
 | [Q1432554](https://www.wikidata.org/wiki/Q1432554) | [quotient of modules](https://defsmath.github.io/DefsMath/chicago/quotient_of_modules) |  |  |  |  |
 | [Q1139111](https://www.wikidata.org/wiki/Q1139111) | [quotient of topological spaces](https://defsmath.github.io/DefsMath/chicago/quotient_of_topological_spaces) | [quotient space (topology)](https://leanprover-community.github.io/mathlib_docs/group_theory/group_action/quotient.html#mul_action.orbit_equiv_quotient_stabilizer) | quotient map | quotient map |  |
 | [Q619436](https://www.wikidata.org/wiki/Q619436) | [quotient ring](https://defsmath.github.io/DefsMath/chicago/quotient_ring) |  |  |  |  |
 | [Q1393796](https://www.wikidata.org/wiki/Q1393796) | [quotient vector space](https://defsmath.github.io/DefsMath/chicago/quotient_vector_space) | [quotient space (linear algebra)](https://leanprover-community.github.io/mathlib_docs/group_theory/group_action/quotient.html#mul_action.orbit_equiv_quotient_stabilizer) |  |  |  |
 | [Q1428097](https://www.wikidata.org/wiki/Q1428097) |  | [radius of convergence](https://leanprover-community.github.io/mathlib_docs/analysis/analytic/basic.html#formal_multilinear_series.radius) |  |  |  |
-| [Q2126650](https://www.wikidata.org/wiki/Q2126650) | [radon measure](https://defsmath.github.io/DefsMath/chicago/Radon_measure) |  |  |  |  |
-| [Q1191319](https://www.wikidata.org/wiki/Q1191319) | [radon-nikodym derivative](https://defsmath.github.io/DefsMath/chicago/Radon-Nikodym_derivative) |  |  |  |  |
+| [Q2126650](https://www.wikidata.org/wiki/Q2126650) | [radon measure](https://defsmath.github.io/DefsMath/chicago/radon_measure) |  |  |  |  |
+| [Q1191319](https://www.wikidata.org/wiki/Q1191319) | [radon-nikodym derivative](https://defsmath.github.io/DefsMath/chicago/radon-nikodym_derivative) |  |  |  |  |
 | [Q1806121](https://www.wikidata.org/wiki/Q1806121) |  |  | range (mathematics) | range (mathematics) |  |
 | [Q1165839](https://www.wikidata.org/wiki/Q1165839) |  |  | range (statistics) | range (statistics) |  |
 | [Q1260803](https://www.wikidata.org/wiki/Q1260803) | [rank of a finitely generated abelian group](https://defsmath.github.io/DefsMath/chicago/rank_of_a_finitely_generated_abelian_group) |  |  |  |  |
@@ -980,8 +978,8 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q830513](https://www.wikidata.org/wiki/Q830513) |  | residue theorem |  |  |  |
 | [Q28510](https://www.wikidata.org/wiki/Q28510) |  |  | respect | respect |  |
 | [Q2995644](https://www.wikidata.org/wiki/Q2995644) |  |  | result |  |  |
-| [Q697181](https://www.wikidata.org/wiki/Q697181) | [riemann integrable](https://defsmath.github.io/DefsMath/chicago/Riemann_integrable) |  |  |  |  |
-| [Q825857](https://www.wikidata.org/wiki/Q825857) | [riemann sphere](https://defsmath.github.io/DefsMath/chicago/Riemann_sphere) |  |  |  |  |
+| [Q697181](https://www.wikidata.org/wiki/Q697181) | [riemann integrable](https://defsmath.github.io/DefsMath/chicago/riemann_integrable) |  |  |  |  |
+| [Q825857](https://www.wikidata.org/wiki/Q825857) | [riemann sphere](https://defsmath.github.io/DefsMath/chicago/riemann_sphere) |  |  |  |  |
 | [Q1187640](https://www.wikidata.org/wiki/Q1187640) |  | riemann-lebesgue lemma |  |  |  |
 | [Q1357684](https://www.wikidata.org/wiki/Q1357684) |  | [riesz representation theorem](https://leanprover-community.github.io/mathlib_docs/analysis/inner_product_space/dual.html#inner_product_space.to_dual) |  |  |  |
 | [Q1333055](https://www.wikidata.org/wiki/Q1333055) |  |  |  | rig (mathematics) |  |
@@ -1001,7 +999,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q7395333](https://www.wikidata.org/wiki/Q7395333) |  |  | s (set theory) |  |  |
 | [Q1289248](https://www.wikidata.org/wiki/Q1289248) |  |  | scalar (mathematics) |  |  |
 | [Q126736](https://www.wikidata.org/wiki/Q126736) |  |  | scalar multiplication |  |  |
-| [Q1369621](https://www.wikidata.org/wiki/Q1369621) | [schwartz space](https://defsmath.github.io/DefsMath/chicago/Schwartz_space) |  |  |  |  |
+| [Q1369621](https://www.wikidata.org/wiki/Q1369621) | [schwartz space](https://defsmath.github.io/DefsMath/chicago/schwartz_space) |  |  |  |  |
 | [Q1363919](https://www.wikidata.org/wiki/Q1363919) | [second-countable](https://defsmath.github.io/DefsMath/chicago/second-countable) |  |  |  |  |
 | [Q258480](https://www.wikidata.org/wiki/Q258480) |  |  | segment (mathematics) |  |  |
 | [Q3236990](https://www.wikidata.org/wiki/Q3236990) |  |  | self |  |  |
@@ -1015,9 +1013,9 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q291126](https://www.wikidata.org/wiki/Q291126) | [semidirect product](https://defsmath.github.io/DefsMath/chicago/semidirect_product) |  |  | semidirect |  |
 | [Q207348](https://www.wikidata.org/wiki/Q207348) | [semigroup](https://defsmath.github.io/DefsMath/chicago/semigroup) |  |  |  |  |
 | [Q834585](https://www.wikidata.org/wiki/Q834585) |  |  |  | semilattice |  |
-| [Q2366896](https://www.wikidata.org/wiki/Q2366896) | [semisimple lie algebra](https://defsmath.github.io/DefsMath/chicago/semisimple_Lie_algebra) |  |  |  |  |
+| [Q2366896](https://www.wikidata.org/wiki/Q2366896) | [semisimple lie algebra](https://defsmath.github.io/DefsMath/chicago/semisimple_lie_algebra) |  |  |  |  |
 | [Q1485102](https://www.wikidata.org/wiki/Q1485102) | [semisimple module](https://defsmath.github.io/DefsMath/chicago/semisimple_module) |  |  |  |  |
-| [Q81376506](https://www.wikidata.org/wiki/Q81376506) | [semisimple representation of a lie algebra](https://defsmath.github.io/DefsMath/chicago/semisimple_representation_of_a_Lie_algebra) |  |  |  |  |
+| [Q81376506](https://www.wikidata.org/wiki/Q81376506) | [semisimple representation of a lie algebra](https://defsmath.github.io/DefsMath/chicago/semisimple_representation_of_a_lie_algebra) |  |  |  |  |
 | [Q173253](https://www.wikidata.org/wiki/Q173253) |  |  |  | sense |  |
 | [Q680081](https://www.wikidata.org/wiki/Q680081) | [separable metric space](https://defsmath.github.io/DefsMath/chicago/separable_metric_space) |  |  |  |  |
 | [Q7451805](https://www.wikidata.org/wiki/Q7451805) |  |  | separation (statistics) |  |  |
@@ -1036,8 +1034,8 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q254390](https://www.wikidata.org/wiki/Q254390) |  |  |  | similarity (mathematics) |  |
 | [Q913022](https://www.wikidata.org/wiki/Q913022) | [simple function](https://defsmath.github.io/DefsMath/chicago/simple_function) |  |  |  |  |
 | [Q571124](https://www.wikidata.org/wiki/Q571124) | [simple group](https://defsmath.github.io/DefsMath/chicago/simple_group) |  |  |  |  |
-| [Q85801231](https://www.wikidata.org/wiki/Q85801231) | [simple lie algebra](https://defsmath.github.io/DefsMath/chicago/simple_Lie_algebra) |  |  |  |  |
-| [Q78502771](https://www.wikidata.org/wiki/Q78502771) | [simple lie algebra](https://defsmath.github.io/DefsMath/chicago/simple_Lie_algebra) |  |  |  |  |
+| [Q85801231](https://www.wikidata.org/wiki/Q85801231) | [simple lie algebra](https://defsmath.github.io/DefsMath/chicago/simple_lie_algebra) |  |  |  |  |
+| [Q78502771](https://www.wikidata.org/wiki/Q78502771) | [simple lie algebra](https://defsmath.github.io/DefsMath/chicago/simple_lie_algebra) |  |  |  |  |
 | [Q956233](https://www.wikidata.org/wiki/Q956233) | [simple module](https://defsmath.github.io/DefsMath/chicago/simple_module) |  |  |  |  |
 | [Q994399](https://www.wikidata.org/wiki/Q994399) | [simplicial complex](https://defsmath.github.io/DefsMath/chicago/simplicial_complex) |  |  |  |  |
 | [Q7520902](https://www.wikidata.org/wiki/Q7520902) | [simplicial homology group](https://defsmath.github.io/DefsMath/chicago/simplicial_homology_group) |  |  |  |  |
@@ -1055,7 +1053,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q868473](https://www.wikidata.org/wiki/Q868473) | [smooth](https://defsmath.github.io/DefsMath/chicago/smooth) |  |  | smooth map |  |
 | [Q1879820](https://www.wikidata.org/wiki/Q1879820) |  |  | solution (mathematics) |  |  |
 | [Q759832](https://www.wikidata.org/wiki/Q759832) | [solvable group](https://defsmath.github.io/DefsMath/chicago/solvable_group) |  |  |  |  |
-| [Q7558992](https://www.wikidata.org/wiki/Q7558992) | [solvable lie algebra](https://defsmath.github.io/DefsMath/chicago/solvable_Lie_algebra) |  |  |  |  |
+| [Q7558992](https://www.wikidata.org/wiki/Q7558992) | [solvable lie algebra](https://defsmath.github.io/DefsMath/chicago/solvable_lie_algebra) |  |  |  |  |
 | [Q472971](https://www.wikidata.org/wiki/Q472971) |  |  | space (mathematics) |  |  |
 | [Q7573053](https://www.wikidata.org/wiki/Q7573053) |  |  | span (category theory) | span (category theory) |  |
 | [Q209812](https://www.wikidata.org/wiki/Q209812) | [span](https://defsmath.github.io/DefsMath/chicago/span) |  | span (linear algebra) | span (linear algebra) |  |
@@ -1080,7 +1078,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q15629907](https://www.wikidata.org/wiki/Q15629907) |  |  | standard topology |  |  |
 | [Q1456029](https://www.wikidata.org/wiki/Q1456029) |  |  | statement | statement |  |
 | [Q594799](https://www.wikidata.org/wiki/Q594799) |  |  | step |  |  |
-| [Q2601117](https://www.wikidata.org/wiki/Q2601117) | [stirling numbers of the second kind](https://defsmath.github.io/DefsMath/chicago/Stirling_numbers_of_the_second_kind) |  |  |  |  |
+| [Q2601117](https://www.wikidata.org/wiki/Q2601117) | [stirling numbers of the second kind](https://defsmath.github.io/DefsMath/chicago/stirling_numbers_of_the_second_kind) |  |  |  |  |
 | [Q6901642](https://www.wikidata.org/wiki/Q6901642) |  |  |  | strong monoidal functor |  |
 | [Q11681716](https://www.wikidata.org/wiki/Q11681716) |  |  | structure (category theory) |  |  |
 | [Q748349](https://www.wikidata.org/wiki/Q748349) |  |  | structure (mathematics) |  |  |
@@ -1105,7 +1103,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q229102](https://www.wikidata.org/wiki/Q229102) | [surjective](https://defsmath.github.io/DefsMath/chicago/surjective) |  |  | surjection |  |
 | [Q1307987](https://www.wikidata.org/wiki/Q1307987) | [suspension](https://defsmath.github.io/DefsMath/chicago/suspension) |  |  |  |  |
 | [Q320298](https://www.wikidata.org/wiki/Q320298) |  |  | sylow |  |  |
-| [Q78269866](https://www.wikidata.org/wiki/Q78269866) | [sylow p-subgroup](https://defsmath.github.io/DefsMath/chicago/Sylow_p-subgroup) |  |  |  |  |
+| [Q78269866](https://www.wikidata.org/wiki/Q78269866) | [sylow p-subgroup](https://defsmath.github.io/DefsMath/chicago/sylow_p-subgroup) |  |  |  |  |
 | [Q1752621](https://www.wikidata.org/wiki/Q1752621) |  | sylvester's law of inertia |  |  |  |
 | [Q3773126](https://www.wikidata.org/wiki/Q3773126) | [symmetric derivative](https://defsmath.github.io/DefsMath/chicago/symmetric_derivative) |  |  |  |  |
 | [Q1147242](https://www.wikidata.org/wiki/Q1147242) | [symmetric difference](https://defsmath.github.io/DefsMath/chicago/symmetric_difference) |  |  |  |  |
@@ -1204,16 +1202,16 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q125977](https://www.wikidata.org/wiki/Q125977) | [vector space](https://defsmath.github.io/DefsMath/chicago/vector_space) | [vector space](https://leanprover-community.github.io/mathlib_docs/algebra/module/basic.html#module) | real vector space |  |  |
 | [Q728435](https://www.wikidata.org/wiki/Q728435) | [vector subspace](https://defsmath.github.io/DefsMath/chicago/vector_subspace) | [vector subspace](https://leanprover-community.github.io/mathlib_docs/algebra/module/submodule/basic.html#subspace) | subspace (linear algebra) | subspace (linear algebra) |  |
 | [Q17000190](https://www.wikidata.org/wiki/Q17000190) |  |  |  | viewpoint |  |
-| [Q3229352](https://www.wikidata.org/wiki/Q3229352) | [vitali covering](https://defsmath.github.io/DefsMath/chicago/Vitali_covering) |  |  |  |  |
+| [Q3229352](https://www.wikidata.org/wiki/Q3229352) | [vitali covering](https://defsmath.github.io/DefsMath/chicago/vitali_covering) |  |  |  |  |
 | [Q39297](https://www.wikidata.org/wiki/Q39297) | [volume of a rectifiable set](https://defsmath.github.io/DefsMath/chicago/volume_of_a_rectifiable_set) |  |  |  |  |
 | [Q166507](https://www.wikidata.org/wiki/Q166507) |  |  |  | walk (graph theory) |  |
 | [Q414987](https://www.wikidata.org/wiki/Q414987) |  |  | way | way |  |
 | [Q20850777](https://www.wikidata.org/wiki/Q20850777) | [weak convergence](https://defsmath.github.io/DefsMath/chicago/weak_convergence) |  |  |  |  |
-| [Q7977932](https://www.wikidata.org/wiki/Q7977932) | [weak hausdorff](https://defsmath.github.io/DefsMath/chicago/weak_Hausdorff) |  |  |  |  |
+| [Q7977932](https://www.wikidata.org/wiki/Q7977932) | [weak hausdorff](https://defsmath.github.io/DefsMath/chicago/weak_hausdorff) |  |  |  |  |
 | [Q207952](https://www.wikidata.org/wiki/Q207952) |  | weak law of large numbers |  |  |  |
 | [Q1781358](https://www.wikidata.org/wiki/Q1781358) | [wedge sum](https://defsmath.github.io/DefsMath/chicago/wedge_sum) |  |  |  |  |
 | [Q72535212](https://www.wikidata.org/wiki/Q72535212) | [weight space](https://defsmath.github.io/DefsMath/chicago/weight_space) |  |  |  |  |
-| [Q768074](https://www.wikidata.org/wiki/Q768074) | [weyl group](https://defsmath.github.io/DefsMath/chicago/Weyl_group) |  |  |  |  |
+| [Q768074](https://www.wikidata.org/wiki/Q768074) | [weyl group](https://defsmath.github.io/DefsMath/chicago/weyl_group) |  |  |  |  |
 | [Q35059](https://www.wikidata.org/wiki/Q35059) | [width](https://defsmath.github.io/DefsMath/chicago/width) |  |  |  |  |
 | [Q576728](https://www.wikidata.org/wiki/Q576728) |  | winding number |  |  |  |
 | [Q10944557](https://www.wikidata.org/wiki/Q10944557) |  |  | word (group theory) | word (group theory) |  |
