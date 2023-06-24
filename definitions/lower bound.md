@@ -1,1 +1,0 @@
-A **lower bound** of a subset $S$ of a [[partially ordered set|poset]] $(X,\leq)$ is an element $a$ of $P$ such that for all $x\in S$, $a\leq x$. 

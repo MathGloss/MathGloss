@@ -1,2 +1,0 @@
-Let $V$ be a [[vector space]]. The $m$-fold **symmetric product** of $V$ is the [[quotient vector space]] of the $m$-fold [[tensor product of vector spaces|tensor product]] $V^{\otimes m}$ by the [[subspace]] [[span|generated]] by the tensors $$v_1\otimes\cdots\otimes v_m - v_{\sigma(1)}\otimes \cdots\otimes v_{\sigma(m)}$$ for all $v_i \in V$ and all $\sigma \in S_m$ (the set of [[symmetric group|permutations]] of $\{1,\dots,m\}$). It is denoted $\text{Sym}^m(V)$.
-

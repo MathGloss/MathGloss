@@ -1,3 +1,0 @@
-Let $V$ be a [[vector space]] and let $T: V\to V$ be a [[linear transformation]] with [[matrix of a linear transformation|corresponding matrix]] $A$. The [[matrix]] coefficients of the [[matrix for exterior product of linear transformation is given by minors of matrix for linear transformation|matrix corresponding]] to the [[exterior power of linear transformation|exterior product]] $\wedge^m(T)$ of $T$ are called the **minors** of $A$.
-
-https://www.wikidata.org/wiki/Q1341061

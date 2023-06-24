@@ -1,1 +1,0 @@
-A **Banach algebra** is an [[algebra over a field|algebra]] equipped with a [[complete metric space|complete]] [[multiplicative norm|multiplicative]] [[norm]].

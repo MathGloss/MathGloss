@@ -1,3 +1,0 @@
-Let $G$ be a [[group]] with [[subgroup]] $H$. Then the **quotient** $G/H$ is the  [[cosets partition group|set]] of [[equivalence class|classes]] of [[left coset|cosets]] $gH$ for $g\in G$. The quotient is itself a [[subgroup]] exactly when $H$ is [[normal subgroup|normal]] in $G$. See the definition of the [[quotient by normal subgroup|quotient]] when the [[subgroup]] is [[normal subgroup|normal]].
-
-https://www.wikidata.org/wiki/Q1138961

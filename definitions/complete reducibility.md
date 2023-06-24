@@ -1,1 +1,0 @@
-A [[group representation|representation]] $\rho$ of a [[group]] $G$ is called **completely reducible** or is said to have the **complete reducibility property** if it can be written as a [[direct sum of group representations|direct sum]] of [[irreducible representation|irreducible]] [[group representation|representations]].

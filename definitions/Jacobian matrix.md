@@ -1,3 +1,0 @@
-Let $U \subset \mathbb R^n$ be [[open]] and let $f:U\to\mathbb R^n$ be [[differentiable]]. Then its [[differentiable|total derivative]] $Df(a)$ at a point $a\in U$ is given by the $m\times n$ matrix $$\left[ \frac{\partial f_j}{\partial x_i}(a)\right]_{i=1,j=1}^{n,m}$$ where $f = (f_1,\dots, f_m)$ are the [[component function|component functions]] of $f$. This matrix is called the **Jacobian** matrix of $f$ at $a$. 
-
-https://www.wikidata.org/wiki/Q506041

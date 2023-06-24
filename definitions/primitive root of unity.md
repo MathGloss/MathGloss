@@ -1,1 +1,0 @@
-A [[root of unity]] $\zeta$ is **primitive** if it [[generating set of a group|generates]] the [[cyclic group]] of all $n$th [[root of unity|roots of unity]]. Equivalently, it is **primitive** if $\zeta^k\neq 1$ for any positive $k$ less than $n$. 

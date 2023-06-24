@@ -1,3 +1,0 @@
-A **representation** $\phi$ of a [[Lie algebra]] $L$ is a [[Lie algebra homomorphism|homomorphism]] to the [[general linear algebra]] ($\phi:L \to \mathfrak{gl}(V)$) where $V$ is a [[vector space]]. Here we require the [[dimension of vector space|dimension]] of the [[vector space]] underlying $L$ to be finite, but admit arbitrary [[dimension of vector space|dimension]] for $V$.
-
-https://www.wikidata.org/wiki/Q1136782

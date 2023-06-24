@@ -1,3 +1,0 @@
-Let $\mathcal C$ be a [[category]]. When there exists a "suitable" relation of [[homotopy]] between morphisms in $\mathcal C$, then the **homotopy category** $h\mathcal C$, defined to be the [[category]] consisting of the same objects as $\mathcal C$ with with morphisms given by [[homotopy equivalence of paths|homotpy classes]] of morphisms in $\mathcal C$. 
-
-https://www.wikidata.org/wiki/Q14775269

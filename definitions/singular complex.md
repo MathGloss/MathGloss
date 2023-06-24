@@ -1,2 +1,0 @@
-Let $X$ be a [[topological space]]. The **singular complex** $S(X)$ is the [[∆-complex]] with one [[n-simplex]] $\Delta_\sigma^n$ for each [[singular n-simplex]] $\sigma:\Delta^n\to X$ with $\Delta_\sigma^n$ attached in the obvious way to the $(n-1)$-[[n-simplex|simplices]] that are the restrictions of $\sigma$ to the various $(n-1)$-[[n-simplex|simplices]] in the [[boundary]] $\partial\Delta^n$. 
-

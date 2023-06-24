@@ -1,3 +1,0 @@
-A **topological group** is a [[topological space]] $G$ that is also a [[group]] such that the [[binary operation]] on the [[group]] and the inverse map are both [[continuous]]. That is, the two maps $$\cdot:G\times G\to G \text{ given by } (x,y)\mapsto xy$$$$\text{inv}:G\to G \text{ given by } x\mapsto x^{-1}$$ are both [[continuous]] where $G\times G$ is given the [[product topology]].
-
-https://www.wikidata.org/wiki/Q1046291

@@ -1,3 +1,0 @@
-Let $G,H$ be [[group|groups]], let $R$ be a [[ring]], and consider the trivial [[group homomorphism|homomorphism]] $f:G\to H$. This induces a [[ring homomorphism]] on the [[group ring]] given by $$f_*:RG\to R\text{ such that } \sum_{g\in G} a_gg \mapsto \sum_{g\in G}a_g$$ for $a_g \in R.$ The [[kernel of ring homomorphism|kernel]] of this map is called the **augmentation ideal**. We have immediately that it is an [[ideal]] because [[kernel of a ring homomorphism is an ideal|the kernel of a ring homomorphism is an ideal]]. 
-
-https://www.wikidata.org/wiki/Q4820423

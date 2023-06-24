@@ -1,1 +1,0 @@
-A **monic polynomial** is a [[polynomial ring|polynomial]] whose leading coefficient is the [[unit of a ring|unit]] of the ring over which it is defined.

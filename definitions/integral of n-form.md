@@ -1,2 +1,0 @@
-Let $U\subset\mathbb R^n$ be an [[open]] subset and let $\phi$ be an [[differential k-form|n-form]] on $U$. Then we can [[uniqueness of top forms|uniquely]] write $\phi$ as $$\phi = g(x_1,\dots,x_n)dx_1\wedge\cdots\wedge dx_n$$ for some ( #todo what kind?) function $g:U\to\mathbb R$. If $\phi$ has [[compact support]], we can define the **[[Riemann integrable|integral]] of the $n$-form** to be $$\int_U \phi = \int_U g,$$ if it exists.
-

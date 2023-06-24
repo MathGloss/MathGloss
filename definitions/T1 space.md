@@ -1,1 +1,0 @@
-A [[topological space]] is $T_1$ if singletons are [[closed]].
