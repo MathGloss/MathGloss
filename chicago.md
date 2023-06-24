@@ -6,7 +6,9 @@
 
 Chicago notes are notes from an undergraduate math degree at the University of Chicago. The corpus can be found [here](https://github.com/lucyhorowitz/MathRepository).
 
-The following is a list of terms that were _not_ found in Wikidata, even though this mapping was done manually.
+Links in the Chicago database column will take you to the definition as it appears in the corpus, with links to the other definitions. Some links in these pages will go to terms that have not been mapped to Wikidata (and therefore don't appear in the table) as those definitions are still an integral part of the corpus, but just don't have counterparts in Wikidata.
+
+The following is a list of terms that were _not_ found in Wikidata, even though this mapping was done manually. There are some new terms in the corpus that are missing from this list because they have not been mapped yet, as they are from newer course notes.
 - averaging of vector-valued function
 - star of an object
 - action of a group on power sets
