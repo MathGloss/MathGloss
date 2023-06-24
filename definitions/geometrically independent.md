@@ -1,1 +1,0 @@
-A collection $\{v_0,\dots,v_n\}$ of $n+1$ [[vector space|vectors]] is **geometrically independent** if the $n$ [[vector space|vectors]] $v_1-v_0, v_2-v_0, \dots, v_n-v_0$ are [[linearly independent]]. 

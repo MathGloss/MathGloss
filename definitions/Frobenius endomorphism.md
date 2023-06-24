@@ -1,1 +1,0 @@
-Let $F$ be a [[field]] of [[characteristic of a field|characteristic]] $p$. Then the map $x\mapsto x^p$ is called the **Frobenius endomorphism**.

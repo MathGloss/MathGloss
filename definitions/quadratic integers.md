@@ -1,5 +1,0 @@
-The **quadratic integers** are [[algebraic integer|algebraic integers]] of [[degree of algebraic integer|degree]] 2. Equivalently, they are solutions to [[monic polynomial|monic]], integer-valued [[polynomial ring|polynomials]] of [[degree of polynomial|degree]] 2. That is, solutions to equations of the form $$x^2+bx+c=0.$$ 
-
-For each integer $d$, we have particular [[ring|rings]] of quadratic integers given by $$\mathcal O_d = \begin{cases}\mathbb Z\left[\sqrt{d}\right] & d\equiv 2,3\pmod 4 \\ \mathbb Z\left[\frac{1+\sqrt{d}}{2}\right] & d\equiv 1\pmod 4.\end{cases}$$ Moreover, these are [[Euclidean domain|Euclidean domains]] with [[ring norm|norm]] $$N\left(x+y\sqrt{d}\right) = x^2+y^2\sqrt{d}.$$ If we define for $\alpha = x+y\sqrt{d}$ its conjugate $\overline a = x-y\sqrt d$, then $N(\alpha) = \alpha\overline\alpha$. 
-
-https://www.wikidata.org/wiki/Q803531

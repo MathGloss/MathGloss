@@ -1,1 +1,0 @@
-The **cyclotomic field of $n$th [[root of unity|roots of unity]]** is [[generate a field|generated]] over $\mathbb Q$ by a [[primitive root of unity]] $n$th root of unity: $\mathbb Q(\zeta_n)$.  

@@ -1,3 +1,0 @@
-Let $\mathcal B$ be a [[groupoid]]. Then $\text{Cov}(\mathcal B)$ denotes the [[category]] of [[covering of groupoids|coverings of]] $\mathcal B$ where the objects are [[covering of groupoids|coverings]] $p:\mathcal E\to \mathcal B$ and the morphisms are [[map of covering of groupoid|maps of coverings of]] $\mathcal B$. 
-
-When there is no ambiguity, we write $\text{Cov}(\mathcal E,\mathcal E')$ for the set of maps $\mathcal E\to \mathcal E'$.

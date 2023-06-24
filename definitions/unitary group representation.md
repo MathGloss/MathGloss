@@ -1,1 +1,0 @@
-A complex [[group representation]] $\rho: G\to GL(V)$ is **unitary** if $\rho(g)$ is [[unitary group|unitary]] for all $g\in G$.  Explicitly, it is **unitary** if the [[adjoint of a linear transformation|Hermitian adjoint]] $\rho(g)^* =  \rho(g)^{-1} = \rho(g^{-1})$ for all $g\in G$. 

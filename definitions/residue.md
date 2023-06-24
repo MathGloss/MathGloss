@@ -1,1 +1,0 @@
-The **residue** of a [[meromorphic]] function $f: \mathbb C\setminus \{a_i\}_{i\in I}\to \mathbb C$ at $a_i$ is the $-1$st coefficient of the [[Laurent series]] for $f$.

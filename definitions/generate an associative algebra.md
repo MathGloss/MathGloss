@@ -1,1 +1,0 @@
-Let $A$ be an [[algebra over a field|algebra]] over the [[field]] $\mathbb k$. The elements $\{a_i\}_{i\in I}$ **generate** $A$ if every element $\alpha\in A$ can be written (not necessarily uniquely) as a [[polynomial ring|polynomial]] in the $a_i$ with coefficients in $\mathbb k$. 

@@ -1,4 +1,0 @@
----
-aliases: invariant polynomials, ring of polynomial invariants, algebra of polynomial invariants
----
-Let $\mathbb k$ be a [[field]] and consider the [[algebra of polynomials]] in $n$ variables $$P_n =\bigoplus\limits_{d\geq 0} P_n^d.$$ Given a [[group representation|representation]] of a [[group]] $G$ in $\mathbb k^n$, we get an [[group action|action]] of $G$ on $P_n$ by the [[induced action of group on maps]]: for $f\in P_n$, $$g:f\mapsto g^*f.$$ Then each homogeneous [[vector subspace|subspace]] $P_n^d$ of $P_n$ is a $G$-[[invariant subspace]]. Moreover, the [[algebra over a field|algebra]]  of [[G-invariant vectors|invariant]] polynomials, written $P_n^G$, is a [[graded subalgebra]] of $P_n$. 

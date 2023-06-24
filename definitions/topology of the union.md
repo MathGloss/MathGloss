@@ -1,1 +1,0 @@
-Let $X$ and $Y$ be [[topological space|topological spaces]]. The [[topological space|topology]] on their disjoint union $X\amalg Y$ has as [[open]] sets the (disjoint) unions of sets that are [[open]] in $X$ and $Y$. 

@@ -1,1 +1,0 @@
-Let $R$ be a [[ring]]. Two [[ring ideal|ideals]] $A$ and $B$ of $R$ are **comaximal** if the [[sum of ring ideals|sum]] $A+B=R$.

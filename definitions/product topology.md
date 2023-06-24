@@ -1,3 +1,0 @@
-Let $X$ and $Y$ be [[topological space|topological spaces]]. The [[topological space|topology]] on their [[Cartesian product]] $X\times Y$ has [[topological basis|basis]] the products $U\times V$ of [[open]] sets $U\subset X$ and $V\subset Y$.
-
-Given a (possibly infinite) set $\{X_i\}_{i\in I}$ of [[topological space|topological spaces]], the **product topology** on $\prod_{i\in I} X_i$ is [[generate a topology|generated]] by the [[topological basis|basis]] consisting of all products $\prod_{i\in I} U_i$ for $U$ [[open]] in $X$ and $U_i = X_i$ for all but finitely many $i\in I$. 
