@@ -8,7 +8,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 
 | Wikidata ID                                            |           [Chicago](https://defsmath.github.io/DefsMath/chicago)                                                            |   [France UG](https://defsmath.github.io/DefsMath/france)                                                 | [ProofNet](https://defsmath.github.io/DefsMath/proofnet)                        | [TAC](https://defsmath.github.io/DefsMath/tac)                                  |
 | ------------------------------------------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------- | ---------------------------------- | 
-| [Q14481419](https://www.wikidata.org/wiki/Q14481419) |  | [0-1 law](https://leanprover-community.github.io/mathlib_docs/probability/independence.html#probability_theory.measure_zero_or_one_of_measurable_set_limsup_at_top) |  |  |  |
+| [Q14481419](https://www.wikidata.org/wiki/Q14481419) |  | [0-1 law](https://leanprover-community.github.io/mathlib_docs/probability/independence/zero_one.html#probability_theory.measure_zero_or_one_of_measurable_set_limsup_at_top) |  |  |  |
 | [Q214796](https://www.wikidata.org/wiki/Q214796) |  |  | = |  |  |
 | [Q318737](https://www.wikidata.org/wiki/Q318737) |  |  |  | abelian category |  |
 | [Q181296](https://www.wikidata.org/wiki/Q181296) | [abelian](https://defsmath.github.io/DefsMath/chicago/abelian) |  | finite abelian group |  |  |
