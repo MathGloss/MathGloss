@@ -3,6 +3,6 @@
  title: coprime
  permalink: /chicago/coprime
 ---
-Two elements of a [commutative](https://defsmath.github.io/DefsMath/commutative) [ring](https://defsmath.github.io/DefsMath/ring) are **coprime** if their  [greatest common divisor](https://defsmath.github.io/DefsMath/greatest_common_divisor) is $1$. Specifically, if it is the additive [identity element](https://defsmath.github.io/DefsMath/identity_element) of the [ring](https://defsmath.github.io/DefsMath/ring).
+Two elements of a [commutative](https://mathgloss.github.io/MathGloss/commutative) [ring](https://mathgloss.github.io/MathGloss/ring) are **coprime** if their  [greatest common divisor](https://mathgloss.github.io/MathGloss/greatest_common_divisor) is $1$. Specifically, if it is the additive [identity element](https://mathgloss.github.io/MathGloss/identity_element) of the [ring](https://mathgloss.github.io/MathGloss/ring).
 
 Wikidata ID: [Q104752](https://www.wikidata.org/wiki/Q104752)

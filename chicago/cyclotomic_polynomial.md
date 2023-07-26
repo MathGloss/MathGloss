@@ -3,4 +3,4 @@
  title: cyclotomic polynomial
  permalink: /chicago/cyclotomic_polynomial
 ---
-Let $p$ be a [prime](https://defsmath.github.io/DefsMath/prime_number). Then the $p$th **cyclotomic [polynomial](https://defsmath.github.io/DefsMath/polynomial_ring)** is the [polynomial](https://defsmath.github.io/DefsMath/################polynomial) over $\mathbb Z$ whose roots are the [primitive](https://defsmath.github.io/DefsMath/primitive_root_of_unity) $p$th [roots of unity](https://defsmath.github.io/DefsMath/root_of_unity). It is denoted $\Phi_p (x) = x^{p-1} + x^{p-2} + \cdots + x + 1$. 
+Let $p$ be a [prime](https://mathgloss.github.io/MathGloss/prime_number). Then the $p$th **cyclotomic [polynomial](https://mathgloss.github.io/MathGloss/polynomial_ring)** is the [polynomial](https://mathgloss.github.io/MathGloss/################polynomial) over $\mathbb Z$ whose roots are the [primitive](https://mathgloss.github.io/MathGloss/primitive_root_of_unity) $p$th [roots of unity](https://mathgloss.github.io/MathGloss/root_of_unity). It is denoted $\Phi_p (x) = x^{p-1} + x^{p-2} + \cdots + x + 1$. 

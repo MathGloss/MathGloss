@@ -3,8 +3,8 @@
  title: special unitary group
  permalink: /chicago/special_unitary_group
 ---
-The **special [unitary group](https://defsmath.github.io/DefsMath/unitary_group)** $\text{SU}(n)$ is the [group](https://defsmath.github.io/DefsMath/group) of [unitary](https://defsmath.github.io/DefsMath/unitary_matrix) [matrices](https://defsmath.github.io/DefsMath/matrix) with unit [determinant](https://defsmath.github.io/DefsMath/determinant).
+The **special [unitary group](https://mathgloss.github.io/MathGloss/unitary_group)** $\text{SU}(n)$ is the [group](https://mathgloss.github.io/MathGloss/group) of [unitary](https://mathgloss.github.io/MathGloss/unitary_matrix) [matrices](https://mathgloss.github.io/MathGloss/matrix) with unit [determinant](https://mathgloss.github.io/MathGloss/determinant).
 
-This [group](https://defsmath.github.io/DefsMath/group) is a [matrix Lie group](https://defsmath.github.io/DefsMath/matrix_Lie_group) because it is a [subgroup](https://defsmath.github.io/DefsMath/subgroup) of the [general linear group](https://defsmath.github.io/DefsMath/general_linear_group) $\text{GL}(n,\mathbb C)$.
+This [group](https://mathgloss.github.io/MathGloss/group) is a [matrix Lie group](https://mathgloss.github.io/MathGloss/matrix_Lie_group) because it is a [subgroup](https://mathgloss.github.io/MathGloss/subgroup) of the [general linear group](https://mathgloss.github.io/MathGloss/general_linear_group) $\text{GL}(n,\mathbb C)$.
 
 Wikidata ID: [Q684363](https://www.wikidata.org/wiki/Q684363)

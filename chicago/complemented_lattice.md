@@ -3,4 +3,4 @@
  title: complemented lattice
  permalink: /chicago/complemented_lattice
 ---
-A [lattice](https://defsmath.github.io/DefsMath/lattice) $(L,\leq)$ is said to be **complemented** if it has a maximum and a minimum element and such that each element of $L$ admits a [lattice complement](https://defsmath.github.io/DefsMath/lattice_complement). 
+A [lattice](https://mathgloss.github.io/MathGloss/lattice) $(L,\leq)$ is said to be **complemented** if it has a maximum and a minimum element and such that each element of $L$ admits a [lattice complement](https://mathgloss.github.io/MathGloss/lattice_complement). 

@@ -3,6 +3,6 @@
  title: Pontryagin dual
  permalink: /chicago/pontryagin_dual
 ---
-Let $G$ be a [locally compact](https://defsmath.github.io/DefsMath/locally_compact_group) [abelian](https://defsmath.github.io/DefsMath/abelian) [topological](https://defsmath.github.io/DefsMath/topological_group) [group](https://defsmath.github.io/DefsMath/group). The **Pontryagin dual** of $G$, denoted $\widehat G$, is the [group](https://defsmath.github.io/DefsMath/group) $G$ of [continuous](https://defsmath.github.io/DefsMath/continuous) [homomorphisms](https://defsmath.github.io/DefsMath/group_homomorphism) from $G$ to the [circle group](https://defsmath.github.io/DefsMath/circle_group) $\mathbb T$.
+Let $G$ be a [locally compact](https://mathgloss.github.io/MathGloss/locally_compact_group) [abelian](https://mathgloss.github.io/MathGloss/abelian) [topological](https://mathgloss.github.io/MathGloss/topological_group) [group](https://mathgloss.github.io/MathGloss/group). The **Pontryagin dual** of $G$, denoted $\widehat G$, is the [group](https://mathgloss.github.io/MathGloss/group) $G$ of [continuous](https://mathgloss.github.io/MathGloss/continuous) [homomorphisms](https://mathgloss.github.io/MathGloss/group_homomorphism) from $G$ to the [circle group](https://mathgloss.github.io/MathGloss/circle_group) $\mathbb T$.
 
 Wikidata ID: [Q1632419](https://www.wikidata.org/wiki/Q1632419)

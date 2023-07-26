@@ -3,6 +3,6 @@
  title: surface
  permalink: /chicago/surface
 ---
-A **surface** is a two-[dimensional](https://defsmath.github.io/DefsMath/dimension_of_manifold) [manifold](https://defsmath.github.io/DefsMath/definitions/manifold).
+A **surface** is a two-[dimensional](https://mathgloss.github.io/MathGloss/dimension_of_manifold) [manifold](https://mathgloss.github.io/MathGloss/definitions/manifold).
 
 Wikidata ID: [Q484298](https://www.wikidata.org/wiki/Q484298)

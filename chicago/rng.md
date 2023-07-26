@@ -3,11 +3,11 @@
  title: rng
  permalink: /chicago/rng
 ---
-A **rng** is a set $R$ together with two [binary operations](https://defsmath.github.io/DefsMath/binary_operation) $+$ and $\cdot$ such that
-1. $R$ is an [abelian](https://defsmath.github.io/DefsMath/abelian) [group](https://defsmath.github.io/DefsMath/group) under $+$;
-2. $R$ is a [semigroup](https://defsmath.github.io/DefsMath/semigroup) under $\cdot$;
+A **rng** is a set $R$ together with two [binary operations](https://mathgloss.github.io/MathGloss/binary_operation) $+$ and $\cdot$ such that
+1. $R$ is an [abelian](https://mathgloss.github.io/MathGloss/abelian) [group](https://mathgloss.github.io/MathGloss/group) under $+$;
+2. $R$ is a [semigroup](https://mathgloss.github.io/MathGloss/semigroup) under $\cdot$;
 3. $\cdot$ distributes over $+$: $a\cdot (b+c)=(a\cdot b) + (a\cdot c)$ and $(b+c)\cdot a = (b\cdot a) + (c\cdot a)$.
 
-Note that this is essentially the definition of [ring](https://defsmath.github.io/DefsMath/ring) without a multiplicative [identity](https://defsmath.github.io/DefsMath/identity_element).
+Note that this is essentially the definition of [ring](https://mathgloss.github.io/MathGloss/ring) without a multiplicative [identity](https://mathgloss.github.io/MathGloss/identity_element).
 
 Wikidata ID: [Q17102802](https://www.wikidata.org/wiki/Q17102802)

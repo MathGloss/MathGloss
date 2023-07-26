@@ -3,5 +3,5 @@
  title: radical of a Lie algebra
  permalink: /chicago/radical_of_a_lie_algebra
 ---
-The **radical** of a [Lie algebra](https://defsmath.github.io/DefsMath/Lie_algebra) $L$ is the maximal [solvable](https://defsmath.github.io/DefsMath/solvable_Lie_algebra) [ideal](https://defsmath.github.io/DefsMath/ideal_of_a_Lie_algebra) of $L$. 
+The **radical** of a [Lie algebra](https://mathgloss.github.io/MathGloss/Lie_algebra) $L$ is the maximal [solvable](https://mathgloss.github.io/MathGloss/solvable_Lie_algebra) [ideal](https://mathgloss.github.io/MathGloss/ideal_of_a_Lie_algebra) of $L$. 
 

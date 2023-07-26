@@ -3,6 +3,6 @@
  title: tree
  permalink: /chicago/tree
 ---
-A **tree** is a [connected graph](https://defsmath.github.io/DefsMath/connected_graph) with no [closed](https://defsmath.github.io/DefsMath/closed_edge_path) [reduced](https://defsmath.github.io/DefsMath/reduced_edge_path) [edge paths](https://defsmath.github.io/DefsMath/edge_path). 
+A **tree** is a [connected graph](https://mathgloss.github.io/MathGloss/connected_graph) with no [closed](https://mathgloss.github.io/MathGloss/closed_edge_path) [reduced](https://mathgloss.github.io/MathGloss/reduced_edge_path) [edge paths](https://mathgloss.github.io/MathGloss/edge_path). 
 
 Wikidata ID: [Q272735](https://www.wikidata.org/wiki/Q272735)

@@ -3,7 +3,7 @@
  title: Hermitian inner product
  permalink: /chicago/hermitian_inner_product
 ---
-A **Hermitian inner product** $\langle\cdot,\cdot\rangle$ on a complex [vector space](https://defsmath.github.io/DefsMath/vector_space) $V$ is a [bilinear](https://defsmath.github.io/DefsMath/multilinear) form on $V$ that is antilinear in the second slot. That is,
+A **Hermitian inner product** $\langle\cdot,\cdot\rangle$ on a complex [vector space](https://mathgloss.github.io/MathGloss/vector_space) $V$ is a [bilinear](https://mathgloss.github.io/MathGloss/multilinear) form on $V$ that is antilinear in the second slot. That is,
 1. $\langle u+v,w\rangle = \langle u,w\rangle +\langle v,w\rangle$;
 2. $\langle u,v+w\rangle = \langle u,v\rangle +\langle u,w\rangle$;
 3. $\langle \alpha u ,v\rangle = \alpha\langle u,v\rangle$ ;

@@ -3,7 +3,7 @@
  title: module over a Lie algebra
  permalink: /chicago/module_over_a_lie_algebra
 ---
-Let $\mathfrak g$ be a [Lie algebra](https://defsmath.github.io/DefsMath/Lie_algebra) over the [field](https://defsmath.github.io/DefsMath/field) $F$. A $\mathfrak g$-[module over a ring](https://defsmath.github.io/DefsMath/module_over_a_ring) is a pair $(V,\cdot)$ of a [vector space](https://defsmath.github.io/DefsMath/vector_space) $V$ over $F$ and $\cdot:\mathfrak g \times V \to V$ a map such that
+Let $\mathfrak g$ be a [Lie algebra](https://mathgloss.github.io/MathGloss/Lie_algebra) over the [field](https://mathgloss.github.io/MathGloss/field) $F$. A $\mathfrak g$-[module over a ring](https://mathgloss.github.io/MathGloss/module_over_a_ring) is a pair $(V,\cdot)$ of a [vector space](https://mathgloss.github.io/MathGloss/vector_space) $V$ over $F$ and $\cdot:\mathfrak g \times V \to V$ a map such that
 1. $(\lambda x + \mu y)\cdot v = \lambda (x\cdot v) + \mu(y\cdot v)$
 2. $x\cdot (\lambda v + \mu w) = \lambda (x\cdot v) + \mu(y\cdot v)$
 3. $[x,y]\cdot v = x\cdot (y\cdot v) - y\cdot (x\cdot v)$
