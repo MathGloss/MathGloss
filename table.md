@@ -10,7 +10,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | ------------------------------------------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------- | ---------------------------------- | 
 | [Q14481419](https://www.wikidata.org/wiki/Q14481419) |  | [0-1 law](https://leanprover-community.github.io/mathlib_docs/probability/independence/zero_one.html#probability_theory.measure_zero_or_one_of_measurable_set_limsup_at_top) |  |  |  |
 | [Q318737](https://www.wikidata.org/wiki/Q318737) |  |  |  | abelian category |  |
-| [Q181296](https://www.wikidata.org/wiki/Q181296) | [abelian](https://defsmath.github.io/DefsMath/chicago/abelian) |  | finite abelian group |  |  |
+| [Q181296](https://www.wikidata.org/wiki/Q181296) | [abelian group](https://defsmath.github.io/DefsMath/chicago/abelian) |  | finite abelian group |  |  |
 | [Q318598](https://www.wikidata.org/wiki/Q318598) | [abelianization](https://defsmath.github.io/DefsMath/chicago/abelianization) |  |  |  |  |
 | [Q20827138](https://www.wikidata.org/wiki/Q20827138) | [absolute continuity of measure](https://defsmath.github.io/DefsMath/chicago/absolute_continuity_of_measure) |  |  |  |  |
 | [Q332504](https://www.wikidata.org/wiki/Q332504) | [absolute continuity](https://defsmath.github.io/DefsMath/chicago/absolute_continuity) |  |  |  |  |
