@@ -3,6 +3,6 @@
  title: simple module
  permalink: /chicago/simple_module
 ---
-A [module over a ring](https://mathgloss.github.io/MathGloss/module_over_a_ring) $M$ is **simple** if it has no nonzero proper [submodules](https://mathgloss.github.io/MathGloss/submodule).
+A [module over a ring](https://mathgloss.github.io/MathGloss/chicago/module_over_a_ring) $M$ is **simple** if it has no nonzero proper [submodules](https://mathgloss.github.io/MathGloss/chicago/submodule).
 
 Wikidata ID: [Q956233](https://www.wikidata.org/wiki/Q956233)

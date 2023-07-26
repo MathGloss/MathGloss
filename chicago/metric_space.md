@@ -9,6 +9,6 @@ A **metric space** is a set $X$ together with a function $\rho: X\times X \to \m
 2. $\rho(x,y) = \rho(y,x)$.
 3. $\rho(x,z) \leq \rho(x,y) + \rho(y,z)$. 
 
-Property 3 is called the **triangle inequality**and the function $\rho$ is called a **metric**. The metric generates a [topology](https://mathgloss.github.io/MathGloss/topological_space) on $X$ where the [open](https://mathgloss.github.io/MathGloss/open) sets $G$ are those for which there exists $\varepsilon > 0$  for all $x \in G$ such that $\{y\in X\mid \rho(x,y) < \varepsilon\}\subset G$.
+Property 3 is called the **triangle inequality**and the function $\rho$ is called a **metric**. The metric generates a [topology](https://mathgloss.github.io/MathGloss/chicago/topological_space) on $X$ where the [open](https://mathgloss.github.io/MathGloss/chicago/open) sets $G$ are those for which there exists $\varepsilon > 0$  for all $x \in G$ such that $\{y\in X\mid \rho(x,y) < \varepsilon\}\subset G$.
 
 Wikidata ID: [Q180953](https://www.wikidata.org/wiki/Q180953)

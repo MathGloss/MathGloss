@@ -5,7 +5,7 @@
 ---
 
 
-Let $R$ be a [commutative](https://mathgloss.github.io/MathGloss/commutative) [ring](https://mathgloss.github.io/MathGloss/ring) and $x$ a variable. Then $R[x]$ is the **polynomial ring** of [polynomials](https://mathgloss.github.io/MathGloss/polynomial) in $x$ with coefficients in $R$.
+Let $R$ be a [commutative](https://mathgloss.github.io/MathGloss/chicago/commutative) [ring](https://mathgloss.github.io/MathGloss/chicago/ring) and $x$ a variable. Then $R[x]$ is the **polynomial ring** of [polynomials](https://mathgloss.github.io/MathGloss/chicago/polynomial) in $x$ with coefficients in $R$.
 
 We can also define the **polynomial ring** in multiple variables. Let $X = \{x_1,\dots,x_n\}$ be a finite collection of variables. Then $R[X] = R[x_1,\dots,x_n]$ is defined as follows:
 

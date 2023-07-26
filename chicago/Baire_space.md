@@ -5,7 +5,7 @@
 ---
  Definition 1 (second category sets)
 
-A [topological space](https://mathgloss.github.io/MathGloss/topological_space) is a **Baire space** if every nonempty [open](https://mathgloss.github.io/MathGloss/open) set in $X$ is [nonmeager](https://mathgloss.github.io/MathGloss/nonmeager).
+A [topological space](https://mathgloss.github.io/MathGloss/chicago/topological_space) is a **Baire space** if every nonempty [open](https://mathgloss.github.io/MathGloss/chicago/open) set in $X$ is [nonmeager](https://mathgloss.github.io/MathGloss/chicago/nonmeager).
  Definition 2 (intersection of open dense sets)
 
-A [topological space](https://mathgloss.github.io/MathGloss/topological_space) is a **Baire space** if every [countable](https://mathgloss.github.io/MathGloss/countable) intersection of [open](https://mathgloss.github.io/MathGloss/open) [dense](https://mathgloss.github.io/MathGloss/dense) sets is also [dense](https://mathgloss.github.io/MathGloss/dense).
+A [topological space](https://mathgloss.github.io/MathGloss/chicago/topological_space) is a **Baire space** if every [countable](https://mathgloss.github.io/MathGloss/chicago/countable) intersection of [open](https://mathgloss.github.io/MathGloss/chicago/open) [dense](https://mathgloss.github.io/MathGloss/chicago/dense) sets is also [dense](https://mathgloss.github.io/MathGloss/chicago/dense).

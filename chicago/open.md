@@ -3,8 +3,8 @@
  title: open
  permalink: /chicago/open
 ---
-A subset $G$ of a [topological space](https://mathgloss.github.io/MathGloss/topological_space) $(X,\mathcal T)$ is **open** if it is an element of $\mathcal T$.
+A subset $G$ of a [topological space](https://mathgloss.github.io/MathGloss/chicago/topological_space) $(X,\mathcal T)$ is **open** if it is an element of $\mathcal T$.
 
-When $X$ is a [metric space](https://mathgloss.github.io/MathGloss/metric_space), a subset $A \subset X$ is **open** if and only if for all $a \in A$, there exists $\varepsilon > 0$ such that $B(a,\varepsilon) = \{x \in X \mid \rho(a,x) < \varepsilon\}\subset A$. 
+When $X$ is a [metric space](https://mathgloss.github.io/MathGloss/chicago/metric_space), a subset $A \subset X$ is **open** if and only if for all $a \in A$, there exists $\varepsilon > 0$ such that $B(a,\varepsilon) = \{x \in X \mid \rho(a,x) < \varepsilon\}\subset A$. 
 
 Wikidata ID: [Q213363](https://www.wikidata.org/wiki/Q213363)
