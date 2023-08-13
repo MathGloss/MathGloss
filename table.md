@@ -416,8 +416,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q173582](https://www.wikidata.org/wiki/Q173582) | [gradient](https://mathgloss.github.io/MathGloss/chicago/gradient) |  |  |  |  |
 | [Q182598](https://www.wikidata.org/wiki/Q182598) | [graph of a function](https://mathgloss.github.io/MathGloss/chicago/graph_of_a_function) |  |  |  |  |
 | [Q141488](https://www.wikidata.org/wiki/Q141488) | [graph](https://mathgloss.github.io/MathGloss/chicago/graph) |  | order (graph theory) | order (graph theory) |  |
-| [Q131752](https://www.wikidata.org/wiki/Q131752) | [greatest common divisor](https://mathgloss.github.io/MathGloss/chicago/greatest_common_divisor) |  | common divisor |  |  |
-| [Q1547681](https://www.wikidata.org/wiki/Q1547681) |  | [grou](https://leanprover-community.github.io/mathlib_docs/algebra/group/defs.html#group) |  |  |  |
+| [Q131752](https://www.wikidata.org/wiki/Q131752) | [greatest common divisor](https://mathgloss.github.io/MathGloss/chicago/greatest_common_divisor) |  | common divisor |  |  | 
 | [Q14493119](https://www.wikidata.org/wiki/Q14493119) |  |  |  | ground |  |
 | [Q217608](https://www.wikidata.org/wiki/Q217608) | [group action invariants](https://mathgloss.github.io/MathGloss/chicago/group_action_invariants) |  |  |  |  |
 | [Q288465](https://www.wikidata.org/wiki/Q288465) | [group action](https://mathgloss.github.io/MathGloss/chicago/group_action) |  | action (group theory) | orbit (group theory) |  |
@@ -425,7 +424,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q108307](https://www.wikidata.org/wiki/Q108307) |  |  | group element |  |  |
 | [Q1055807](https://www.wikidata.org/wiki/Q1055807) | [group representation](https://mathgloss.github.io/MathGloss/chicago/group_representation) |  | representation (group theory) |  |  |
 | [Q2602722](https://www.wikidata.org/wiki/Q2602722) | [group ring](https://mathgloss.github.io/MathGloss/chicago/group_ring) |  |  |  |  |
-| [Q83478](https://www.wikidata.org/wiki/Q83478) | [group](https://mathgloss.github.io/MathGloss/chicago/group) |  | group (mathematics) |  |  |
+| [Q83478](https://www.wikidata.org/wiki/Q83478) | [group](https://mathgloss.github.io/MathGloss/chicago/group) |  [group](https://leanprover-community.github.io/mathlib_docs/algebra/group/defs.html#group) | group (mathematics) |  |  |
 | [Q1196038](https://www.wikidata.org/wiki/Q1196038) | [groupoid](https://mathgloss.github.io/MathGloss/chicago/groupoid) |  |  |  |  |
 | [Q19921713](https://www.wikidata.org/wiki/Q19921713) |  |  | guess |  |  |
 | [Q189569](https://www.wikidata.org/wiki/Q189569) | [hamel basis](https://mathgloss.github.io/MathGloss/chicago/hamel_basis) |  | basis (linear algebra) | basis (linear algebra) |  |
