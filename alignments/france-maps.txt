@@ -1,0 +1,369 @@
+Vector space](https://leanprover-community.github.io/mathlib_docs/algebra/module/basic.html#module): Q125977
+Vector subspace](https://leanprover-community.github.io/mathlib_docs/algebra/module/submodule/basic.html#subspace): Q728435
+Quotient space (linear algebra)](https://leanprover-community.github.io/mathlib_docs/linear_algebra/quotient.html#submodule.has_quotient): Q1393796
+Quotient space (topology)](https://leanprover-community.github.io/mathlib_docs/linear_algebra/quotient.html#submodule.has_quotient): Q1139111
+Direct sum (topology)](https://leanprover-community.github.io/mathlib_docs/algebra/direct_sum/basic.html#direct_sum.is_internal): Q5282259
+Complementary subspaces](https://leanprover-community.github.io/mathlib_docs/linear_algebra/basis.html#submodule.exists_is_compl): Q1142861
+Linear independence](https://leanprover-community.github.io/mathlib_docs/linear_algebra/linear_independent.html#linear_independent): Q27670
+Bases](https://leanprover-community.github.io/mathlib_docs/linear_algebra/basis.html#basis): Q4866725
+Linear map](https://leanprover-community.github.io/mathlib_docs/algebra/module/linear_map.html#linear_map): Q207643
+General linear group](https://leanprover-community.github.io/mathlib_docs/linear_algebra/general_linear_group.html#linear_map.general_linear_group): Q524607
+Dual vector space](https://leanprover-community.github.io/mathlib_docs/linear_algebra/dual.html#module.dual): Q752487
+Dual basis](https://leanprover-community.github.io/mathlib_docs/linear_algebra/dual.html#basis.dual_basis): Q2297777
+Transpose of a linear map](https://leanprover-community.github.io/mathlib_docs/linear_algebra/dual.html#module.dual.transpose): Q2858846
+Multilinear map](https://leanprover-community.github.io/mathlib_docs/linear_algebra/multilinear/basic.html#multilinear_map): Q1952404
+Change of basis](https://leanprover-community.github.io/mathlib_docs/linear_algebra/matrix/basis.html#basis_to_matrix_mul_linear_map_to_matrix_mul_basis_to_matrix): Q810255
+Rank of a matrix](https://leanprover-community.github.io/mathlib_docs/data/matrix/rank.html#matrix.rank): Q656784
+Determinant (mathematics)](https://leanprover-community.github.io/mathlib_docs/linear_algebra/matrix/determinant.html#matrix.det): Q178546
+Invertibility](https://leanprover-community.github.io/mathlib_docs/linear_algebra/matrix/nonsingular_inverse.html#matrix.has_inv): Q242188
+Minimal polynomial (linear algebra)](https://leanprover-community.github.io/mathlib_docs/field_theory/minpoly/basic.html#minpoly): Q1163608
+Minimal polynomial (field theory)](https://leanprover-community.github.io/mathlib_docs/field_theory/minpoly/basic.html#minpoly): Q2242730
+Characteristic polynomial](https://leanprover-community.github.io/mathlib_docs/linear_algebra/matrix/charpoly/basic.html#matrix.charpoly): Q849705
+Cayley-Hamilton theorem](https://leanprover-community.github.io/mathlib_docs/linear_algebra/matrix/charpoly/basic.html#matrix.aeval_self_charpoly): Q656772
+Eigenvalue](https://leanprover-community.github.io/mathlib_docs/linear_algebra/eigenspace/basic.html#module.End.has_eigenvalue): Q190524
+Eigenvector](https://leanprover-community.github.io/mathlib_docs/linear_algebra/eigenspace/basic.html#module.End.has_eigenvector): Q190524
+Schur's lemma](https://leanprover-community.github.io/mathlib_docs/representation_theory/fdRep.html#fdRep.finrank_hom_simple_simple): Q1816952
+Matrix exponential](https://leanprover-community.github.io/mathlib_docs/analysis/normed_space/exponential.html#exp): Q1191722
+Group (mathematics)](https://leanprover-community.github.io/mathlib_docs/algebra/group/defs.html#group): Q83478
+Group morphism](https://leanprover-community.github.io/mathlib_docs/algebra/hom/group.html#monoid_hom): Q868169
+Direct product of groups](https://leanprover-community.github.io/mathlib_docs/algebra/group/prod.html#prod.group): Q2725924
+Subgroup (mathematics)](https://leanprover-community.github.io/mathlib_docs/group_theory/subgroup/basic.html#subgroup): Q466109
+Normal subgroup](https://leanprover-community.github.io/mathlib_docs/group_theory/subgroup/basic.html#subgroup.normal): Q743179
+Quotient group](https://leanprover-community.github.io/mathlib_docs/group_theory/quotient_group.html#quotient_group.quotient.group): Q1138961
+Group action (mathematics)](https://leanprover-community.github.io/mathlib_docs/group_theory/group_action/defs.html#mul_action): Q288465
+Orbit (mathematics)](https://leanprover-community.github.io/mathlib_docs/group_theory/group_action/basic.html#mul_action.orbit): Q230664
+Orbit (group theory)](https://leanprover-community.github.io/mathlib_docs/group_theory/group_action/basic.html#mul_action.orbit): Q288465
+Quotient space (linear algebra)](https://leanprover-community.github.io/mathlib_docs/group_theory/group_action/quotient.html#mul_action.orbit_equiv_quotient_stabilizer): Q1393796
+Quotient space (topology)](https://leanprover-community.github.io/mathlib_docs/group_theory/group_action/quotient.html#mul_action.orbit_equiv_quotient_stabilizer): Q1139111
+Conjugacy classes](https://leanprover-community.github.io/mathlib_docs/algebra/group/conj.html#conj_classes): Q1353233
+Cyclic group](https://leanprover-community.github.io/mathlib_docs/group_theory/specific_groups/cyclic.html#is_cyclic): Q245462
+Signature (mathematics)](https://leanprover-community.github.io/mathlib_docs/group_theory/perm/sign.html#equiv.perm.sign): Q298582
+Signature (topology)](https://leanprover-community.github.io/mathlib_docs/group_theory/perm/sign.html#equiv.perm.sign): Q7512811
+Alternating group](https://leanprover-community.github.io/mathlib_docs/group_theory/specific_groups/alternating.html#alternating_group): Q438814
+General linear group](https://leanprover-community.github.io/mathlib_docs/linear_algebra/general_linear_group.html#linear_map.general_linear_group): Q524607
+Special linear group](https://leanprover-community.github.io/mathlib_docs/linear_algebra/matrix/special_linear_group.html#matrix.special_linear_group): Q2140900
+Orthogonal group](https://leanprover-community.github.io/mathlib_docs/linear_algebra/unitary_group.html#matrix.orthogonal_group): Q1783179
+Unitary group](https://leanprover-community.github.io/mathlib_docs/linear_algebra/unitary_group.html#matrix.unitary_group): Q1500617
+Maschke theorem](https://leanprover-community.github.io/mathlib_docs/representation_theory/maschke.html#monoid_algebra.submodule.exists_is_compl): Q656198
+Ring (mathematics)](https://leanprover-community.github.io/mathlib_docs/algebra/ring/defs.html#ring): Q161172
+Product of rings](https://leanprover-community.github.io/mathlib_docs/algebra/ring/pi.html#pi.ring): Q3406712
+Prime ideals](https://leanprover-community.github.io/mathlib_docs/ring_theory/ideal/basic.html#ideal.is_prime): Q863912
+Chinese remainder theorem](https://leanprover-community.github.io/mathlib_docs/ring_theory/ideal/quotient.html#ideal.quotient_inf_ring_equiv_pi_quotient): Q193878
+Greatest common divisor](https://leanprover-community.github.io/mathlib_docs/algebra/gcd_monoid/basic.html#gcd_monoid.gcd): Q131752
+Least common multiple](https://leanprover-community.github.io/mathlib_docs/algebra/gcd_monoid/basic.html#gcd_monoid.lcm): Q102761
+Principal ideal domain](https://leanprover-community.github.io/mathlib_docs/ring_theory/principal_ideal_domain.html#submodule.is_principal): Q1143969
+Prime numbers](https://leanprover-community.github.io/mathlib_docs/algebra/associated.html#prime): Q49008
+Bézout's identity](https://leanprover-community.github.io/mathlib_docs/ring_theory/principal_ideal_domain.html#exists_gcd_eq_mul_add_mul): Q513028
+Irreducible polynomial](https://leanprover-community.github.io/mathlib_docs/algebra/associated.html#irreducible): Q1476663
+Eisenstein's criterion](https://leanprover-community.github.io/mathlib_docs/ring_theory/eisenstein_criterion.html#polynomial.irreducible_of_eisenstein_criterion): Q1057416
+Multiplicity (mathematics)](https://leanprover-community.github.io/mathlib_docs/data/polynomial/div.html#polynomial.root_multiplicity): Q2228257
+Symmetric polynomials](https://leanprover-community.github.io/mathlib_docs/ring_theory/mv_polynomial/symmetric.html#mv_polynomial.is_symmetric): Q930499
+Fields](https://leanprover-community.github.io/mathlib_docs/algebra/field/defs.html#field): Q1201101
+Characteristic of a ring](https://leanprover-community.github.io/mathlib_docs/algebra/char_p/basic.html#ring_char): Q836088
+Characteristic zero](https://leanprover-community.github.io/mathlib_docs/algebra/char_zero/defs.html#char_zero): Q836088
+Characteristic p](https://leanprover-community.github.io/mathlib_docs/algebra/char_p/basic.html#char_p): Q836088
+Matrix representation](https://leanprover-community.github.io/mathlib_docs/linear_algebra/matrix/bilinear_form.html#bilin_form.to_matrix): Q6787889
+Change of coordinates](https://leanprover-community.github.io/mathlib_docs/linear_algebra/matrix/bilinear_form.html#bilin_form.to_matrix_comp): Q11210
+Quadratic form](https://leanprover-community.github.io/mathlib_docs/linear_algebra/quadratic_form/basic.html#quadratic_form): Q736753
+Adjoint endomorphism](https://leanprover-community.github.io/mathlib_docs/linear_algebra/bilinear_form.html#bilin_form.left_adjoint_of_nondegenerate): Q1017106
+Orthogonal complement](https://leanprover-community.github.io/mathlib_docs/analysis/inner_product_space/orthogonal.html#submodule.orthogonal): Q1780921
+Cauchy-Schwarz inequality](https://leanprover-community.github.io/mathlib_docs/analysis/inner_product_space/basic.html#inner_mul_inner_self_le): Q190546
+Norm (mathematics)](https://leanprover-community.github.io/mathlib_docs/analysis/inner_product_space/basic.html#inner_product_space.core.to_has_norm): Q956437
+Orthonormal bases](https://leanprover-community.github.io/mathlib_docs/analysis/inner_product_space/projection.html#maximal_orthonormal_iff_basis_of_finite_dimensional): Q2365325
+Orthogonal group](https://leanprover-community.github.io/mathlib_docs/linear_algebra/unitary_group.html#matrix.orthogonal_group): Q1783179
+Unitary group](https://leanprover-community.github.io/mathlib_docs/linear_algebra/unitary_group.html#matrix.unitary_group): Q1500617
+Cross product](https://leanprover-community.github.io/mathlib_docs/linear_algebra/cross_product.html#cross_product): Q178192
+Triple product](https://leanprover-community.github.io/mathlib_docs/linear_algebra/cross_product.html#triple_product_eq_det): Q36248
+Affine space (algebraic geometry)](https://leanprover-community.github.io/mathlib_docs/algebra/add_torsor.html#add_torsor): Q382698
+Affine function](https://leanprover-community.github.io/mathlib_docs/linear_algebra/affine_space/affine_map.html#affine_map): Q382497
+Affine subspace](https://leanprover-community.github.io/mathlib_docs/linear_algebra/affine_space/affine_subspace.html#affine_subspace): Q382698
+Barycenter](https://leanprover-community.github.io/mathlib_docs/linear_algebra/affine_space/combination.html#finset.affine_combination): Q809690
+Affine span](https://leanprover-community.github.io/mathlib_docs/linear_algebra/affine_space/affine_subspace.html#affine_span): Q382504
+Extreme point](https://leanprover-community.github.io/mathlib_docs/analysis/convex/extreme.html#set.extreme_points): Q1385465
+Order (mathematics)](https://leanprover-community.github.io/mathlib_docs/data/real/basic.html#real.linear_order): Q1820515
+Order (graph theory)](https://leanprover-community.github.io/mathlib_docs/data/real/basic.html#real.linear_order): Q141488
+Order (group theory)](https://leanprover-community.github.io/mathlib_docs/data/real/basic.html#real.linear_order): Q589491
+Order (ring theory)](https://leanprover-community.github.io/mathlib_docs/data/real/basic.html#real.linear_order): Q1431456
+Convergence (mathematics)](https://leanprover-community.github.io/mathlib_docs/order/filter/basic.html#filter.tendsto): Q1211057
+Limit point](https://leanprover-community.github.io/mathlib_docs/topology/basic.html#map_cluster_pt): Q858223
+Cauchy sequences](https://leanprover-community.github.io/mathlib_docs/topology/uniform_space/cauchy.html#cauchy_seq): Q217847
+Metric structure](https://leanprover-community.github.io/mathlib_docs/topology/metric_space/basic.html#real.metric_space): Q630649
+Bolzano-Weierstrass theorem](https://leanprover-community.github.io/mathlib_docs/topology/sequences.html#tendsto_subseq_of_bounded): Q468391
+Geometric series](https://leanprover-community.github.io/mathlib_docs/analysis/specific_limits/normed.html#tsum_geometric_of_norm_lt_1): Q1306887
+Alternating series](https://leanprover-community.github.io/mathlib_docs/analysis/specific_limits/normed.html#antitone.tendsto_alternating_series_of_tendsto_zero): Q438842
+Continuity (mathematics)](https://leanprover-community.github.io/mathlib_docs/topology/basic.html#continuous): Q5165409
+Continuity (category theory)](https://leanprover-community.github.io/mathlib_docs/topology/basic.html#continuous): Q1322614
+Continuity (topology)](https://leanprover-community.github.io/mathlib_docs/topology/basic.html#continuous): Q170058
+Continuity (set theory)](https://leanprover-community.github.io/mathlib_docs/topology/basic.html#continuous): Q5165476
+Limits](https://leanprover-community.github.io/mathlib_docs/order/filter/basic.html#filter.tendsto): Q246639
+Intermediate value theorem](https://leanprover-community.github.io/mathlib_docs/topology/algebra/order/intermediate_value.html#intermediate_value_Icc): Q245098
+Differentiable functions](https://leanprover-community.github.io/mathlib_docs/analysis/calculus/deriv/basic.html#has_deriv_at): Q783507
+Rolle's theorem](https://leanprover-community.github.io/mathlib_docs/analysis/calculus/local_extr.html#exists_deriv_eq_zero): Q193286
+Mean value theorem](https://leanprover-community.github.io/mathlib_docs/analysis/calculus/mean_value.html#exists_ratio_deriv_eq_ratio_slope): Q189136
+Leibniz formula](https://leanprover-community.github.io/mathlib_docs/analysis/calculus/deriv/mul.html#deriv_mul): Q394747
+Rational functions](https://leanprover-community.github.io/mathlib_docs/field_theory/ratfunc.html#ratfunc.eval): Q41237
+Logarithms](https://leanprover-community.github.io/mathlib_docs/analysis/special_functions/log/basic.html#real.log): Q11197
+Exponential (category theory)](https://leanprover-community.github.io/mathlib_docs/data/complex/exponential.html#real.exp): Q4391173
+Trigonometric functions](https://leanprover-community.github.io/mathlib_docs/data/complex/exponential.html#real.sin): Q93344
+Hyperbolic trigonometric functions](https://leanprover-community.github.io/mathlib_docs/data/complex/exponential.html#real.sinh): Q204034
+Inverse trigonometric functions](https://leanprover-community.github.io/mathlib_docs/analysis/special_functions/trigonometric/inverse.html#real.arcsin): Q674533
+Riemann sums](https://leanprover-community.github.io/mathlib_docs/analysis/box_integral/basic.html#box_integral.integral_sum): Q1156903
+Change of variable](https://leanprover-community.github.io/mathlib_docs/measure_theory/integral/fund_thm_calculus.html#interval_integral.integral_comp_smul_deriv): Q1934165
+Integration by parts](https://leanprover-community.github.io/mathlib_docs/measure_theory/integral/fund_thm_calculus.html#interval_integral.integral_mul_deriv_eq_deriv_mul): Q273328
+Pointwise convergence](https://leanprover-community.github.io/mathlib_docs/topology/constructions.html#tendsto_pi_nhds): Q1778098
+Uniform convergence](https://leanprover-community.github.io/mathlib_docs/topology/uniform_space/uniform_convergence.html#tendsto_uniformly): Q1411887
+Radius of convergence](https://leanprover-community.github.io/mathlib_docs/analysis/analytic/basic.html#formal_multilinear_series.radius): Q1428097
+Continuity (mathematics)](https://leanprover-community.github.io/mathlib_docs/analysis/analytic/basic.html#has_fpower_series_on_ball.continuous_on): Q5165409
+Continuity (category theory)](https://leanprover-community.github.io/mathlib_docs/analysis/analytic/basic.html#has_fpower_series_on_ball.continuous_on): Q1322614
+Continuity (topology)](https://leanprover-community.github.io/mathlib_docs/analysis/analytic/basic.html#has_fpower_series_on_ball.continuous_on): Q170058
+Continuity (set theory)](https://leanprover-community.github.io/mathlib_docs/analysis/analytic/basic.html#has_fpower_series_on_ball.continuous_on): Q5165476
+Cosine](https://leanprover-community.github.io/mathlib_docs/data/complex/exponential.html#complex.cos): Q93344
+Sine (mathematics)](https://leanprover-community.github.io/mathlib_docs/data/complex/exponential.html#complex.sin): Q152415
+Holomorphic functions](https://leanprover-community.github.io/mathlib_docs/analysis/calculus/fderiv/basic.html#differentiable_on): Q207476
+Maximum principle](https://leanprover-community.github.io/mathlib_docs/analysis/complex/abs_max.html#complex.eventually_eq_of_is_local_max_norm): Q1914255
+Induced topology](https://leanprover-community.github.io/mathlib_docs/topology/order.html#topological_space.induced): Q17130880
+Continuous functions](https://leanprover-community.github.io/mathlib_docs/topology/basic.html#continuous): Q170058
+Homeomorphisms](https://leanprover-community.github.io/mathlib_docs/topology/homeomorph.html#homeomorph): Q202906
+Connectedness (topology)](https://leanprover-community.github.io/mathlib_docs/topology/connected.html#connected_space): Q1491995
+Connectedness (graph theory)](https://leanprover-community.github.io/mathlib_docs/topology/connected.html#connected_space): Q230655
+Connected components](https://leanprover-community.github.io/mathlib_docs/topology/connected.html#connected_component): Q230646
+Path connectedness](https://leanprover-community.github.io/mathlib_docs/topology/path_connected.html#is_path_connected): Q1491995
+Lipschitz functions](https://leanprover-community.github.io/mathlib_docs/topology/metric_space/lipschitz.html#lipschitz_with): Q652707
+Uniformly continuous functions](https://leanprover-community.github.io/mathlib_docs/topology/metric_space/basic.html#metric.uniform_continuous_iff): Q741865
+Heine-Cantor theorem](https://leanprover-community.github.io/mathlib_docs/topology/uniform_space/compact.html#compact_space.uniform_continuous_of_continuous): Q765987
+Contraction mapping theorem](https://leanprover-community.github.io/mathlib_docs/topology/metric_space/contracting.html#contracting_with.exists_fixed_point): Q220680
+Arzela-Ascoli theorem](https://leanprover-community.github.io/mathlib_docs/topology/continuous_function/bounded.html#bounded_continuous_function.arzela_ascoli): Q1477053
+Hilbert projection theorem](https://leanprover-community.github.io/mathlib_docs/analysis/inner_product_space/projection.html#exists_norm_eq_infi_of_complete_convex): Q3527215
+Dual space](https://leanprover-community.github.io/mathlib_docs/analysis/normed_space/dual.html#normed_space.dual.normed_space): Q752487
+Riesz representation theorem](https://leanprover-community.github.io/mathlib_docs/analysis/inner_product_space/dual.html#inner_product_space.to_dual): Q1357684
+Example](https://leanprover-community.github.io/mathlib_docs/analysis/fourier/add_circle.html#fourier_basis): Q29864097
+Lax-Milgram theorem](https://leanprover-community.github.io/mathlib_docs/analysis/inner_product_space/lax_milgram.html#is_coercive.continuous_linear_equiv_of_bilin): Q9993851
+Chain rule (probability)](https://leanprover-community.github.io/mathlib_docs/analysis/calculus/fderiv/comp.html#fderiv.comp): Q17004731
+Mean value theorem](https://leanprover-community.github.io/mathlib_docs/analysis/calculus/mean_value.html#exists_ratio_deriv_eq_ratio_slope): Q189136
+Differentiable functions](https://leanprover-community.github.io/mathlib_docs/analysis/calculus/fderiv/basic.html#differentiable): Q783507
+Local extrema](https://leanprover-community.github.io/mathlib_docs/analysis/calculus/local_extr.html#is_local_min.fderiv_eq_zero): Q845060
+Diffeomorphisms](https://leanprover-community.github.io/mathlib_docs/geometry/manifold/charted_space.html#structomorph): Q1058314
+Inverse function theorem](https://leanprover-community.github.io/mathlib_docs/analysis/calculus/inverse.html#has_strict_deriv_at.to_local_inverse): Q931001
+Implicit function theorem](https://leanprover-community.github.io/mathlib_docs/analysis/calculus/implicit.html#implicit_function_data.implicit_function): Q848375
+Grönwall lemma](https://leanprover-community.github.io/mathlib_docs/analysis/ODE/gronwall.html#norm_le_gronwall_bound_of_norm_deriv_right_le): Q510733
+Sigma-algebras](https://leanprover-community.github.io/mathlib_docs/measure_theory/measurable_space_def.html#measurable_space): Q217357
+Positive measure](https://leanprover-community.github.io/mathlib_docs/measure_theory/measure/measure_space_def.html#measure_theory.measure): Q192276
+Counting measure](https://leanprover-community.github.io/mathlib_docs/measure_theory/measure/measure_space.html#measure_theory.measure.count): Q247204
+Lebesgue measure](https://leanprover-community.github.io/mathlib_docs/measure_theory/measure/measure_space_def.html#measure_theory.measure_space): Q827230
+Product measure](https://leanprover-community.github.io/mathlib_docs/measure_theory/measurable_space.html#measurable_space.pi): Q1572094
+Monotone convergence theorem](https://leanprover-community.github.io/mathlib_docs/measure_theory/integral/lebesgue.html#measure_theory.lintegral_infi_ae): Q1153584
+Fatou's lemma](https://leanprover-community.github.io/mathlib_docs/measure_theory/integral/lebesgue.html#measure_theory.lintegral_liminf_le): Q1068118
+Dominated convergence theorem](https://leanprover-community.github.io/mathlib_docs/measure_theory/integral/bochner.html#measure_theory.tendsto_integral_of_dominated_convergence): Q1067156
+Holder's inequality](https://leanprover-community.github.io/mathlib_docs/measure_theory/integral/mean_inequalities.html#nnreal.lintegral_mul_le_Lp_mul_Lq): Q731894
+Fubini's theorem](https://leanprover-community.github.io/mathlib_docs/measure_theory/constructions/prod/integral.html#measure_theory.integral_prod): Q1149022
+Convolution (mathematics)](https://leanprover-community.github.io/mathlib_docs/analysis/convolution.html#convolution): Q210857
+Riemann-Lebesgue lemma](https://leanprover-community.github.io/mathlib_docs/analysis/fourier/riemann_lebesgue_lemma.html#tendsto_integral_exp_smul_cocompact): Q1187640
+Parseval theorem](https://leanprover-community.github.io/mathlib_docs/analysis/fourier/add_circle.html#tsum_sq_fourier_coeff): Q1443036
+Probability measure](https://leanprover-community.github.io/mathlib_docs/measure_theory/measure/measure_space.html#measure_theory.is_probability_measure): Q355020
+Events](https://leanprover-community.github.io/mathlib_docs/measure_theory/measurable_space_def.html#measurable_set): Q1297532
+Independent events](https://leanprover-community.github.io/mathlib_docs/probability/independence/basic.html#probability_theory.Indep_set): Q625303
+Sigma-algebra](https://leanprover-community.github.io/mathlib_docs/measure_theory/measurable_space_def.html#measurable_space): Q217357
+0-1 law](https://leanprover-community.github.io/mathlib_docs/probability/independence/zero_one.html#probability_theory.measure_zero_or_one_of_measurable_set_limsup_at_top): Q14481419
+Conditional probability](https://leanprover-community.github.io/mathlib_docs/probability/conditional_probability.html#probability_theory.cond): Q327069
+Probability density function](https://leanprover-community.github.io/mathlib_docs/probability/density.html#measure_theory.has_pdf): Q207522
+Independence of random variables](https://leanprover-community.github.io/mathlib_docs/probability/independence/basic.html#probability_theory.Indep_fun): Q625303
+Moments](https://leanprover-community.github.io/mathlib_docs/probability/moments.html#probability_theory.moment): Q1451745
+Convergence in probability](https://leanprover-community.github.io/mathlib_docs/measure_theory/function/convergence_in_measure.html#measure_theory.tendsto_in_measure): Q578985
+Markov inequality](https://leanprover-community.github.io/mathlib_docs/measure_theory/integral/lebesgue.html#measure_theory.mul_meas_ge_le_lintegral): Q842436
+Strong law of large numbers](https://leanprover-community.github.io/mathlib_docs/probability/strong_law.html#probability_theory.strong_law_ae): Q207952
+Lagrange interpolation](https://leanprover-community.github.io/mathlib_docs/linear_algebra/lagrange.html#lagrange.interpolate): Q861606
+Orthogonality: Q215067
+Special linear group: Q2140900
+Elementary row operations: Q609566
+Gaussian elimination: Q2658
+Diagonalization: Q1208191
+Jordan normal form: Q838495
+Irreducible representation: Q13690522
+Special orthogonal group: Q1783179
+Special unitary group: Q684363
+Convolution (mathematics): Q210857
+Algebra over a commutative ring: Q1000660
+Newton's identities: Q1749812
+Partial fraction decomposition: Q431617
+Sylvester's law of inertia: Q1752621
+Special orthogonal group: Q1783179
+Special unitary group: Q684363
+Polar decomposition: Q2101158
+Affine property: Q382698
+Inscribed angle theorem: Q915985
+Regular polygons: Q714886
+Focus (mathematics): Q3568
+Eccentricity (mathematics): Q104486
+Eccentricity (graph theory): Q2742711
+Comparison test: Q17129258
+Absolute convergence: Q332465
+Taylor series expansion: Q131187
+Improper integrals: Q464118
+Absolute convergence: Q332465
+Conditional convergence: Q2425336
+Normal convergence: Q1512559
+Convex function: Q319913
+Antiderivative: Q114326
+Cauchy-Riemann equations: Q622741
+Contour integral: Q856103
+Antiderivative: Q114326
+Winding number: Q576728
+Laurent series: Q425432
+Meromorphic function: Q217616
+Residue theorem: Q830513
+Equivalent norms: Q956437
+Hilbert basis: Q5761206
+Directional derivative: Q383851
+Partial derivative: Q186475
+Jacobian matrix: Q506041
+Gradient vector: Q173582
+Hessian matrix: Q620495
+Taylor's theorem: Q1137206
+Linearisation theorem: Q211981
+Tangent space: Q909601
+Gradient (calculus): Q173582
+Line integral: Q467699
+Curve length: Q670036
+Lagrange multipliers: Q598870
+Change of variables: Q1934165
+Riemann-Lebesgue lemma: Q1187640
+Dirichlet theorem: Q1217467
+Fejer theorem: Q571154
+Fourier transform: Q6520159
+Law of total probability: Q1989192
+Uniform law: Q16862633
+Exponential law: Q582659
+Characteristic function (probability): Q822139
+Weak law of large numbers: Q207952
+Central limit theorem: Q190391
+Partitions of unity: Q191690
+Distribution (mathematics): Q865811
+Distribution (differential geometry): Q564835
+Distribution (probability): Q200726
+Dirac measure: Q1227387
+Cauchy principal value: Q769374
+Support of a distribution: Q1136376
+Gaussian function: Q1054475
+Convolution (mathematics): Q210857
+Tempered distribution: Q3030799
+Periodic function: Q184743
+Dirac comb: Q385599
+Fourier transform: Q6520159
+Inverse Fourier transform: Q3984053
+Fourier-Laplace transform: Q199691
+Laplace equations: Q339444
+Conditioning (probability): Q5159291
+LU decomposition: Q833089
+Singular value decomposition: Q420904
+Brute force method: Q9299950
+Bisection method: Q866300
+Rate of convergence: Q1783502
+Rectangle method: Q1156903
+Monte-Carlo method: Q232207
+Rate of convergence: Q1783502
+Cauchy's problem: Q1412436
+Consistency: Q1319773
+Stability (mathematics): Q1756677
+Stability (probability): Q7595717
+Convergence (mathematics): Q1211057
+Order (mathematics): Q1820515
+Order (graph theory): Q141488
+Order (group theory): Q589491
+Order (ring theory): Q1431456
+Discrete Fourier transform: Q2878
+Fast Fourier transform: Q623950Diagonalization: Q1208191
+Jordan normal form: Q838495
+Irreducible representation: Q13690522
+Special orthogonal group: Q1783179
+Special unitary group: Q684363
+Convolution (mathematics): Q210857
+Algebra over a commutative ring: Q1000660
+Newton's identities: Q1749812
+Partial fraction decomposition: Q431617
+Sylvester's law of inertia: Q1752621
+Special orthogonal group: Q1783179
+Special unitary group: Q684363
+Polar decomposition: Q2101158
+Affine property: Q382698
+Inscribed angle theorem: Q915985
+Regular polygons: Q714886
+Focus (mathematics): Q3568
+Eccentricity (mathematics): Q104486
+Eccentricity (graph theory): Q2742711
+Comparison test: Q17129258
+Absolute convergence: Q332465
+Taylor series expansion: Q131187
+Improper integrals: Q464118
+Absolute convergence: Q332465
+Conditional convergence: Q2425336
+Normal convergence: Q1512559
+Convex function: Q319913
+Antiderivative: Q114326
+Cauchy-Riemann equations: Q622741
+Contour integral: Q856103
+Antiderivative: Q114326
+Winding number: Q576728
+Laurent series: Q425432
+Meromorphic function: Q217616
+Residue theorem: Q830513
+Equivalent norms: Q956437
+Hilbert basis: Q5761206
+Directional derivative: Q383851
+Partial derivative: Q186475
+Jacobian matrix: Q506041
+Gradient vector: Q173582
+Hessian matrix: Q620495
+Taylor's theorem: Q1137206
+Linearisation theorem: Q211981
+Tangent space: Q909601
+Gradient (calculus): Q173582
+Line integral: Q467699
+Curve length: Q670036
+Lagrange multipliers: Q598870
+Change of variables: Q1934165
+Riemann-Lebesgue lemma: Q1187640
+Dirichlet theorem: Q1217467
+Fejer theorem: Q571154
+Fourier transform: Q6520159
+Law of total probability: Q1989192
+Uniform law: Q16862633
+Exponential law: Q582659
+Characteristic function (probability): Q822139
+Weak law of large numbers: Q207952
+Central limit theorem: Q190391
+Partitions of unity: Q191690
+Distribution (mathematics): Q865811
+Distribution (differential geometry): Q564835
+Distribution (probability): Q200726
+Dirac measure: Q1227387
+Cauchy principal value: Q769374
+Support of a distribution: Q1136376
+Gaussian function: Q1054475
+Convolution (mathematics): Q210857
+Tempered distribution: Q3030799
+Periodic function: Q184743
+Dirac comb: Q385599
+Fourier transform: Q6520159
+Inverse Fourier transform: Q3984053
+Fourier-Laplace transform: Q199691
+Laplace equations: Q339444
+Conditioning (probability): Q5159291
+LU decomposition: Q833089
+Singular value decomposition: Q420904
+Brute force method: Q9299950
+Bisection method: Q866300
+Rate of convergence: Q1783502
+Rectangle method: Q1156903
+Monte-Carlo method: Q232207
+Rate of convergence: Q1783502
+Cauchy's problem: Q1412436
+Consistency: Q1319773
+Stability (mathematics): Q1756677
+Stability (probability): Q7595717
+Convergence (mathematics): Q1211057
+Order (mathematics): Q1820515
+Order (graph theory): Q141488
+Order (group theory): Q589491
+Order (ring theory): Q1431456
+Discrete Fourier transform: Q2878
+Fast Fourier transform: Q623950
