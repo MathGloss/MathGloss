@@ -13,8 +13,8 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 | [Q181296](https://www.wikidata.org/wiki/Q181296) | [abelian group](https://mathgloss.github.io/MathGloss/chicago/abelian) |  | commutative group | [finite abelian group](https://ncatlab.org/nlab/show/finite+abelian+group) |
 | [Q318598](https://www.wikidata.org/wiki/Q318598) | [abelianization](https://mathgloss.github.io/MathGloss/chicago/abelianization) |  |  |  |
 | [Q515874](https://www.wikidata.org/wiki/Q515874) |  |  | abscissa |  |
-| [Q20827138](https://www.wikidata.org/wiki/Q20827138) | [absolute continuity of measure](https://mathgloss.github.io/MathGloss/chicago/absolute_continuity_of_measure) |  |  |  |
-| [Q332504](https://www.wikidata.org/wiki/Q332504) | [absolute continuity](https://mathgloss.github.io/MathGloss/chicago/absolute_continuity) |  |  | [absolutely continuous measure](https://ncatlab.org/nlab/show/absolutely+continuous+measure) |
+| [Q20827138](https://www.wikidata.org/wiki/Q20827138) | [absolute continuity of measure](https://mathgloss.github.io/MathGloss/chicago/absolute_continuity_of_measure) |  |  | [absolutely continuous measure](https://ncatlab.org/nlab/show/absolutely+continuous+measure) |
+| [Q332504](https://www.wikidata.org/wiki/Q332504) | [absolute continuity](https://mathgloss.github.io/MathGloss/chicago/absolute_continuity) |  |  |  |
 | [Q332465](https://www.wikidata.org/wiki/Q332465) |  | absolute convergence |  | [absolute convergence](https://ncatlab.org/nlab/show/absolute+convergence) |
 | [Q120812](https://www.wikidata.org/wiki/Q120812) | [absolute value](https://mathgloss.github.io/MathGloss/chicago/absolute_value) |  | absolute value | [absolute value (mathematics)](https://ncatlab.org/nlab/show/absolute+value) |
 | [Q91134251](https://www.wikidata.org/wiki/Q91134251) |  |  | absolutely convergent series |  |
