@@ -10,7 +10,7 @@ This table contains Wikidata ID numbers and the corresponding term from each cor
 |-----|------|-----|-----|-----|
 | [Q2004664](https://www.wikidata.org/wiki/Q2004664) |  | [0-1 law](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Probability/Independence/ZeroOne.html#ProbabilityTheory.measure_zero_or_one_of_measurableSet_limsup_atTop) |  |  |  
 | [Q318737](https://www.wikidata.org/wiki/Q318737) |  |  | abelian category | [abelian category](https://ncatlab.org/nlab/show/abelian+category) |
-| [Q181296](https://www.wikidata.org/wiki/Q181296) | [abelian group](https://mathgloss.github.io/MathGloss/chicago/abelian) |  | commutative group | [finite abelian group](https://ncatlab.org/nlab/show/finite+abelian+group) |
+| [Q181296](https://www.wikidata.org/wiki/Q181296) | [abelian group](https://mathgloss.github.io/MathGloss/chicago/abelian) |  | commutative group | [abelian group](https://ncatlab.org/nlab/show/abelian+group) |
 | [Q318598](https://www.wikidata.org/wiki/Q318598) | [abelianization](https://mathgloss.github.io/MathGloss/chicago/abelianization) |  |  |  |
 | [Q515874](https://www.wikidata.org/wiki/Q515874) |  |  | abscissa |  |
 | [Q20827138](https://www.wikidata.org/wiki/Q20827138) | [absolute continuity of measure](https://mathgloss.github.io/MathGloss/chicago/absolute_continuity_of_measure) |  |  | [absolutely continuous measure](https://ncatlab.org/nlab/show/absolutely+continuous+measure) |
