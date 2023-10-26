@@ -6,7 +6,7 @@
 
 This table contains Wikidata ID numbers and the corresponding term from each corpus. To see terms from the corpora that were not mapped to Wikidata, click on the links in the headers.
 
-| Wikidata ID|[Chicago](https://mathgloss.github.io/MathGloss/chicago)|[Lean 4](https://mathgloss.github.io/MathGloss/france)|  [MuLiMa](https://mathgloss.github.io/MathGloss/mulima)|[nLab](https://mathgloss.github.io/MathGloss/nlab)|
+| Wikidata ID|[Chicago](https://mathgloss.github.io/MathGloss/chicago)|[Lean 4 Undergrad](https://mathgloss.github.io/MathGloss/france)|  [MuLiMa](https://mathgloss.github.io/MathGloss/mulima)|[nLab](https://mathgloss.github.io/MathGloss/nlab)|
 |-----|------|-----|-----|-----|
 | [Q2004664](https://www.wikidata.org/wiki/Q2004664) |  | [0-1 law](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Probability/Independence/ZeroOne.html#ProbabilityTheory.measure_zero_or_one_of_measurableSet_limsup_atTop) |  |  |  
 | [Q318737](https://www.wikidata.org/wiki/Q318737) |  |  | abelian category | [abelian category](https://ncatlab.org/nlab/show/abelian+category) |
