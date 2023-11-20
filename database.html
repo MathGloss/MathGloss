@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Database | MathGloss </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- jQuery (slim min) -->
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
     <!-- DataTables -->
@@ -13,18 +14,23 @@
 		<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
 		<script type="text/javascript">
 		  $(document).ready(function(){
-		    $('#database').DataTable();
+		    $('#database').DataTable({
+		    	"pageLength": 25,
+		    	"lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "All"] ]
+		    });
 			});
 		</script>
   </head>
 
   <body>
 
+  	<h1>MathGloss Database</h1>
+
   	<p>
   		This table contains Wikidata ID numbers and the corresponding term from each corpus. To see terms from the corpora that were not mapped to Wikidata, click on the links in the headers.
   	</p>
 
-		<table id="database">
+		<table id="database" class="display">
 			<thead>
 				<tr class="header">
 				<th>Wikidata ID</th>
