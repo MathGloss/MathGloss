@@ -1,6 +1,6 @@
 ---
  layout: page
- title: abelian
+ title: abelian group
  permalink: /chicago/abelian
 ---
 A [group](https://mathgloss.github.io/MathGloss/chicago/group) $G$ is **abelian** if its operation is [commutative](https://mathgloss.github.io/MathGloss/chicago/commutative).
