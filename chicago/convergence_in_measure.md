@@ -3,6 +3,6 @@
  title: convergence in measure
  permalink: /chicago/convergence_in_measure
 ---
-Let $(X,\Sigma,\mu)$ be a [measure space](https://mathgloss.github.io/MathGloss/chicago/measure_space) and let $\{f_n\}_{n\in\mathbb N}$ be a sequence of functions $f_n: X\to \mathbb R$. The sequence **converges in measure** to $f$ if for all $\varepsilon > 0$, the [measure](https://mathgloss.github.io/MathGloss/chicago/measure_space) of the set $\mu(\{x\in X\mid {\vert}f_n(x) -f(x){\vert}>\varepsilon\})$ [converges](https://mathgloss.github.io/MathGloss/chicago/sequence_convergence) to zero as $n$ goes to infinity.
+Let $(X,\Sigma,\mu)$ be a [measure space](https://mathgloss.github.io/MathGloss/chicago/measure_space) and let $\{f_n\}_{n\in\mathbb N}$ be a sequence of functions $f_n: X\to \mathbb R$. The sequence **converges in measure** to $f$ if for all $\varepsilon > 0$, the [measure](https://mathgloss.github.io/MathGloss/chicago/measure_space) of the set $\mu(\{x\in X\mid |f_n(x) -f(x)|>\varepsilon\})$ [converges](https://mathgloss.github.io/MathGloss/chicago/sequence_convergence) to zero as $n$ goes to infinity.
 
 Wikidata ID: [Q768656](https://www.wikidata.org/wiki/Q768656)
