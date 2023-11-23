@@ -3,7 +3,8 @@
  title: absolute value
  permalink: /chicago/absolute_value
 ---
-Let $F$ be a [field](https://mathgloss.github.io/MathGloss/chicago/field). An **absolute value** on $F$ is a map $|\cdot|:F\to \mathbb R$ such that 
+Let $F$ be a [field](https://mathgloss.github.io/MathGloss/chicago/field). An **absolute value** on $F$ is a map $|\cdot|:F\to \mathbb R$ such that
+
 1. $|x| \geq 0$ for all $x\in F$;
 2. $|x| = 0$ if and only if $x=0$;
 3. $|x+y| \leq |x| + |y|$ for all $x,y\in F$;
