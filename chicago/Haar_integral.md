@@ -9,7 +9,7 @@ Any [Borel](https://mathgloss.github.io/MathGloss/chicago/Borel_σ-algebra) [mea
 
 The Haar integral is this $\mathbb C$-linear function $\int:C_c(X) \to \mathbb C$  such that
 1. for all $f\in C_c(X)$, if $f(x) \geq 0$ for all $x\in X$ then $\int_X f \geq 0$. Moreover, $\int_X f= 0$ implies that $f=0$.  (when $f(x)$ is real)
-2. For any [compact](https://mathgloss.github.io/MathGloss/chicago/compact) $K\subset X$, there exists some $c_K\geq 0$ such that for all [continuous](https://mathgloss.github.io/MathGloss/chicago/continuous) functions with [support](https://mathgloss.github.io/MathGloss/chicago/support) in $K$, $\left|\int_X f\right| \leq c_K\cdot \max\limits_{x\in K} |f(x)|$.
+2. For any [compact](https://mathgloss.github.io/MathGloss/chicago/compact) $K\subset X$, there exists some $c_K\geq 0$ such that for all [continuous](https://mathgloss.github.io/MathGloss/chicago/continuous) functions with [support](https://mathgloss.github.io/MathGloss/chicago/support) in $K$, $\left\vert \int_X f\right\vert  \leq c_K\cdot \max\limits_{x\in K} \vert f(x)\vert $.
 
 If we want the integral to be [invariant](https://mathgloss.github.io/MathGloss/chicago/G-invariant_function) with respect to the [action of a group](https://mathgloss.github.io/MathGloss/chicago/group_action), we choose the [measure](https://mathgloss.github.io/MathGloss/chicago/##############measure) to be the [Haar measure](https://mathgloss.github.io/MathGloss/chicago/Haar_measure).
 
