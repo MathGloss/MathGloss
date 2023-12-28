@@ -8,5 +8,4 @@ The **Baire classes** of [continuous](https://mathgloss.github.io/MathGloss/chic
 - functions that are the [pointwise limit](https://mathgloss.github.io/MathGloss/chicago/pointwise_convergence) of a sequence of [continuous](https://mathgloss.github.io/MathGloss/chicago/continuous) functions are Baire-1;
 - for all $\alpha \in \mathbb N$, functions that are the [pointwise limit](https://mathgloss.github.io/MathGloss/chicago/######################pointwise_limit) of a sequence functions of Baire class less than $\alpha$ are Baire-$\alpha$.
 
-
 Wikidata ID: [Q2976036](https://www.wikidata.org/wiki/Q2976036)

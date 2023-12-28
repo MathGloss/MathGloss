@@ -15,10 +15,6 @@ A **field** or **algebra** of subsets of a set $X$ is a pair $(X, \mathcal F)$ c
 
 An **algebra** is a [ring of subsets](https://mathgloss.github.io/MathGloss/chicago/ring_of_subsets) of $X$ containing the set $X$.
 
-Wikidata ID: [Q10565797 
+Wikidata ID:  [Q246506](https://www.wikidata.org/wiki/Q246506)
 
-https://www.wikidata.org/wiki/Q17993117
-https://www.wikidata.org/wiki/Q246506](https://www.wikidata.org/wiki/Q10565797 
 
-https://www.wikidata.org/wiki/Q17993117
-https://www.wikidata.org/wiki/Q246506)

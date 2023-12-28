@@ -8,4 +8,5 @@ A **$\sigma$-algebra** on the set $X$ is a subset $\mathcal M \subset \mathcal P
 2. $\mathcal M$ is closed under complementation, i.e. if $A \in \mathcal M$, then $X\setminus A \in \mathcal M$;
 3. $\mathcal M$ is closed under [countable](https://mathgloss.github.io/MathGloss/chicago/countable) unions, i.e. if $A_i \in \mathcal M$ for $i \in \mathbb N$, then $\bigcup\limits_{i\in\mathbb N} A_i \in \mathcal M$.
 
+![[taaodvf48ip81.jpg]]
 Wikidata ID: [Q217357](https://www.wikidata.org/wiki/Q217357)
