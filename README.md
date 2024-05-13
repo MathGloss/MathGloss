@@ -6,7 +6,7 @@ A preprint describing this prototype is available at [MathGloss: Building mathem
 [Click here](https://mathgloss.github.io/MathGloss/database) to see the database.
 
 ## Building the Database
-To build the `database.html` file from the `database.csv`, run the following commands:
+To build the `database.html` file from `database.csv`, run the following commands:
 ```
 python scripts/generate_database_table.py database.csv database-table.html
 python scripts/generate_database_page.py database-template.html database-table.html database.html

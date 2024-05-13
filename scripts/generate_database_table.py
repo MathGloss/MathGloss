@@ -5,7 +5,7 @@ def generate_html_content(csv_file_path):
     def convert_markdown_to_html(text):
         return re.sub(r'\[([^\]]+)\]\(([^\)]+)\)', r'<a href="\2">\1</a>', text)
     # Read the CSV file
-    with open(csv_file_path, mode='r', encoding='utf-8') as csv_file:
+    with open(csv_file_path, newline='', mode='r', encoding='utf-8') as csv_file:
         csv_reader = csv.reader(csv_file)
         headers = next(csv_reader)  # Get the headers
         # Start the HTML file
