@@ -11,3 +11,5 @@ To build the `database.html` file from `database.csv`, run the following command
 python scripts/generate_database_table.py database.csv database-table.html
 python scripts/generate_database_page.py database-template.html database-table.html database.html
 ```
+
+Also check out [CatGloss](https://mathgloss.github.io/CatGloss/)!
