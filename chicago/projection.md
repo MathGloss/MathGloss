@@ -7,6 +7,6 @@ A **projection** is a [linear transformation](https://mathgloss.github.io/MathGl
 
 Equivalently, for $V'$ a [subspace](https://mathgloss.github.io/MathGloss/chicago/vector_subspace) of a [vector space](https://mathgloss.github.io/MathGloss/chicago/vector_space) $V$, a [linear transformation](https://mathgloss.github.io/MathGloss/chicago/linear_transformation) $P:V\to V$ is a **projection** onto $V'$ if 
 1. $P_{\vert V'} = \text{id}_V'$. That is, if the [restriction](https://mathgloss.github.io/MathGloss/chicago/restriction) of $P$ to $V'$ is equal to the [identity function](https://mathgloss.github.io/MathGloss/chicago/identity_function) on $V'$, and
-2. $\text{im}(P) \subseteq V'$. In particular the [image](https://mathgloss.github.io/MathGloss/chicago/image) is actually equal to $V'$, but the condition is sufficient. 
+2. $\text{im}(P) \subseteq V'$. 
 
 Wikidata ID: [Q519967](https://www.wikidata.org/wiki/Q519967)

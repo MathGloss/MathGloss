@@ -9,6 +9,6 @@ A **topological space** is a set $X$ together with a collection $T$ of subsets o
 2. Arbitrary unions of open sets are open.
 3. Finite intersections of open sets are open.
 
-The choice of $T$ is called a **topology** on $X$.
+$T$ is called a **topology** on $X$.
 
 Wikidata ID: [Q179899](https://www.wikidata.org/wiki/Q179899)
