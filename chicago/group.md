@@ -13,7 +13,7 @@ A **group** is a set $G$ together with a [binary operation](https://mathgloss.gi
 Groups can be thought of as 
 - [associative](https://mathgloss.github.io/MathGloss/chicago/associative) [magmas](https://mathgloss.github.io/MathGloss/chicago/magma)
 - [semigroups](https://mathgloss.github.io/MathGloss/chicago/semigroup) with an [identity](https://mathgloss.github.io/MathGloss/chicago/identity_element) and with [inverses](https://mathgloss.github.io/MathGloss/chicago/inverse_element)
-- [monoids](https://mathgloss.github.io/MathGloss/chicago/monoid) with [inverses](https://mathgloss.github.io/MathGloss/chicago/################inverses)
-- [categories](https://mathgloss.github.io/MathGloss/chicago/category) with a single object
+- [monoids](https://mathgloss.github.io/MathGloss/chicago/monoid) with [inverses](https://mathgloss.github.io/MathGloss/chicago/inverse_element)
+- [categories](https://mathgloss.github.io/MathGloss/chicago/category) with a single object and every morphism an isomorphism
 
 Wikidata ID: [Q83478](https://www.wikidata.org/wiki/Q83478)
