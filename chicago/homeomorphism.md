@@ -9,6 +9,6 @@ A **homeomorphism** between two [topological spaces](https://mathgloss.github.io
 2. $f$ is [bijective](https://mathgloss.github.io/MathGloss/chicago/bijective).
 3. $f^{-1}:Y\to X$ is [continuous](https://mathgloss.github.io/MathGloss/chicago/continuous).
 
-Two [topological spaces](https://mathgloss.github.io/MathGloss/chicago/##################topological_spaces) $X$ and $Y$ are **homeomorphic** if there exists a homeomorphism between them.
+Two [topological spaces](https://mathgloss.github.io/MathGloss/chicago/topological_space) $X$ and $Y$ are **homeomorphic** if there exists a homeomorphism between them.
 
 Wikidata ID: [Q202906](https://www.wikidata.org/wiki/Q202906)
