@@ -7,6 +7,6 @@ A covariant **functor** $F:\mathcal C\to \mathcal D$ is a map between [categorie
 - $F(\text{id}_A)) = \text{id}_{F(A)}$;
 - $F(g\circ f) = F(g)\circ F(f)$.
 
-A contravariant functor "reverses the direction of arrows;" that is $F$ sends $f:A\to B$ to $F(f): f(B) \to f(A)$ and $F(g\circ f) = F(f) \circ F(g)$.
+A contravariant functor "reverses the direction of arrows;" that is, $F$ sends $f:A\to B$ to $F(f): f(B) \to f(A)$ and $F(g\circ f) = F(f) \circ F(g)$.
 
 Wikidata ID: [Q864475](https://www.wikidata.org/wiki/Q864475)
