@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Wikidata Source Comparison</title>
+        <title>MathGloss</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
         <style>
             body {
@@ -100,7 +100,7 @@
 
                 // Create table headers
                 headers.forEach((header, index) => {
-                    $('#table-headers').append(`<th>${header}</th>`);
+                    $('#table-headers').append(`<th> <a href="${header}.html" class="source-link">${header}</a></th>`);
                     $('#toggle-buttons').append(`
                         <label class="toggle-column">
                             <input type="checkbox" checked data-column="${index}"> ${header}
