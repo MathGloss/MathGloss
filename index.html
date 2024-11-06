@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Glossary</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/css/theme.default.min.css">
+    <style>
+        .toggle-column {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Math Glossary</h1>
+    <div id="toggle-buttons"></div>
+    <table id="glossary-table" class="tablesorter">
+        <thead>
+            <tr id="table-headers"></tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            const csvFilePath = 'database.csv'; // Update with the path to your CSV file
+
+            $.get(csvFilePath, function(data) {
+                const rows = data.split('\n');
+                const headers = rows[0].split(',');
+
+                // Create table headers
+                headers.forEach((header, index) => {
+                    $('#table-headers').append(`<th>${header}</th>`);
+                    $('#toggle-buttons').append(`
+                        <label class="toggle-column">
+                            <input type="checkbox" checked data-column="${index}"> ${header}
+                        </label>
+                    `);
+                });
+
+                // Create table rows
+                rows.slice(1).forEach(row => {
+                    const columns = row.split(',');
+                    const tableRow = $('<tr></tr>');
+                    columns.forEach((column, index) => {
+                        const td = $('<td></td>');
+                        const markdownLink = column.match(/\[(.*?)\]\((.*?)\)/);
+                        if (markdownLink) {
+                            const a = $('<a></a>').attr('href', markdownLink[2]).text(markdownLink[1]).attr('target', '_blank');
+                            td.append(a);
+                        } else {
+                            td.text(column);
+                        }
+                        tableRow.append(td);
+                    });
+                    $('#table-body').append(tableRow);
+                });
+
+                // Initialize tablesorter
+                $("#glossary-table").tablesorter();
+
+                // Toggle column visibility
+                $('input[type="checkbox"]').change(function() {
+                    const column = $(this).data('column');
+                    const isChecked = $(this).is(':checked');
+                    $(`#glossary-table tr th:nth-child(${column + 1}), #glossary-table tr td:nth-child(${column + 1})`).toggle(isChecked);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
