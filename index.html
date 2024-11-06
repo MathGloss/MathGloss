@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Wikidata Source Comparison</title>
+        <title>MathGloss</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
         <style>
             body {
@@ -79,7 +79,7 @@
         </style>
     </head>
 <body>
-    <h1>Math Glossary</h1>
+    <h1>MathGloss</h1>
     <div id="toggle-buttons"></div>
     <table id="glossary-table" class="tablesorter">
         <thead>
@@ -92,7 +92,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
     <script>
         $(document).ready(function() {
-            const csvFilePath = 'database.csv'; // Update with the path to your CSV file
+            const csvFilePath = 'path/to/your/csvfile.csv'; // Update with the path to your CSV file
 
             $.get(csvFilePath, function(data) {
                 const rows = data.split('\n');
@@ -100,12 +100,14 @@
 
                 // Create table headers
                 headers.forEach((header, index) => {
-                    $('#table-headers').append(`<th>${header}</th>`);
-                    $('#toggle-buttons').append(`
-                        <label class="toggle-column">
-                            <input type="checkbox" checked data-column="${index}"> ${header}
-                        </label>
+                    const th = $('<th></th>');
+                    const headerLink = $('<a></a>').attr('href', `source_info_${index}.html`).text(header);
+                    th.append(headerLink);
+                    th.append(`
+                        <button class="toggle-column" data-column="${index}">Toggle</button>
                     `);
+                    th.on('click', () => sortTable(index));
+                    $('#table-headers').append(th);
                 });
 
                 // Create table rows
@@ -130,12 +132,27 @@
                 $("#glossary-table").tablesorter();
 
                 // Toggle column visibility
-                $('input[type="checkbox"]').change(function() {
+                $('.toggle-column').on('click', function() {
                     const column = $(this).data('column');
                     const isChecked = $(this).is(':checked');
                     $(`#glossary-table tr th:nth-child(${column + 1}), #glossary-table tr td:nth-child(${column + 1})`).toggle(isChecked);
                 });
             });
+
+            function sortTable(columnIndex) {
+                const table = document.getElementById('glossary-table');
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.rows);
+
+                const sortedRows = rows.sort((a, b) => {
+                    const aText = a.cells[columnIndex].textContent.trim();
+                    const bText = b.cells[columnIndex].textContent.trim();
+                    return aText.localeCompare(bText);
+                });
+
+                tbody.innerHTML = '';
+                sortedRows.forEach(row => tbody.appendChild(row));
+            }
         });
     </script>
 </body>
