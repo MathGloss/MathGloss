@@ -28,6 +28,7 @@
                 border: 1px solid #ddd;
                 padding: 8px;
                 text-align: left;
+                word-wrap: break-word; /* Ensure long text wraps */
             }
             th {
                 background-color: #f8f9fa;
@@ -65,6 +66,9 @@
             tr:nth-child(even) {
                 background-color: #f9f9f9;
             }
+            tr:nth-child(odd) {
+                background-color: #fff;
+            }
             .source-toggle {
                 margin-right: 15px;
             }
@@ -75,6 +79,13 @@
             .wikidata-id {
                 color: #666;
                 font-size: 0.9em;
+            }
+            /* New CSS for empty cells */
+            tr:nth-child(even) td:empty {
+                background-color: #f9f9f9;
+            }
+            tr:nth-child(odd) td:empty {
+                background-color: #fff;
             }
         </style>
     </head>
