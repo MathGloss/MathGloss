@@ -3,21 +3,16 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q318737](https://www.wikidata.org/wiki/Q318737),,,[abelian category](https://ncatlab.org/nlab/show/abelian+category),[Abelian category](https://mathgloss.github.io/CatGloss/context/abelian_category),,
 [Q181296](https://www.wikidata.org/wiki/Q181296),[abelian](https://mathgloss.github.io/MathGloss/chicago/abelian),,[finite abelian group](https://ncatlab.org/nlab/show/finite+abelian+group)
 [Q318598](https://www.wikidata.org/wiki/Q318598),[abelianization](https://mathgloss.github.io/MathGloss/chicago/abelianization),,
-[Q515874](https://www.wikidata.org/wiki/Q515874),,,
 [Q20827138](https://www.wikidata.org/wiki/Q20827138),[absolute continuity of measure](https://mathgloss.github.io/MathGloss/chicago/absolute_continuity_of_measure),,
 [Q332504](https://www.wikidata.org/wiki/Q332504),[absolute continuity](https://mathgloss.github.io/MathGloss/chicago/absolute_continuity),,[absolutely continuous measure](https://ncatlab.org/nlab/show/absolutely+continuous+measure)
 [Q332465](https://www.wikidata.org/wiki/Q332465),,absolute convergence,[absolute convergence](https://ncatlab.org/nlab/show/absolute+convergence)
 [Q120812](https://www.wikidata.org/wiki/Q120812),[absolute value](https://mathgloss.github.io/MathGloss/chicago/absolute_value),,[absolute value (mathematics)](https://ncatlab.org/nlab/show/absolute+value)
-[Q91134251](https://www.wikidata.org/wiki/Q91134251),,,
-[Q844451](https://www.wikidata.org/wiki/Q844451),,,
-[Q32043](https://www.wikidata.org/wiki/Q32043),,,
 [Q4681343](https://www.wikidata.org/wiki/Q4681343),,,[additive category](https://ncatlab.org/nlab/show/additive+category)
 [Q357858](https://www.wikidata.org/wiki/Q357858),,,[unit (category theory)](https://ncatlab.org/nlab/show/unit),[Right adjoint](https://mathgloss.github.io/CatGloss/context/right_adjoint),[Unit of adjunction](https://mathgloss.github.io/CatGloss/topoi/unit_of_adjunction),[Right adjoint](https://mathgloss.github.io/CatGloss/bct/right_adjoint)
 [Q2858846](https://www.wikidata.org/wiki/Q2858846),[adjoint of a linear transformation](https://mathgloss.github.io/MathGloss/chicago/adjoint_of_a_linear_transformation),[transpose of a linear map](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/LinearAlgebra/Dual.html#Module.Dual.transpose),
 [Q4379157](https://www.wikidata.org/wiki/Q4379157),[adjoint representation of a lie algebra](https://mathgloss.github.io/MathGloss/chicago/adjoint_representation_of_a_lie_algebra),,
 [Q1017106](https://www.wikidata.org/wiki/Q1017106),[adjoint representation of a lie group](https://mathgloss.github.io/MathGloss/chicago/adjoint_representation_of_a_lie_group),[adjoint endomorphism](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/LinearAlgebra/BilinearForm.html#BilinForm.leftAdjointOfNondegenerate),[adjoint representation](https://ncatlab.org/nlab/show/adjoint+representation)
 [Q225107](https://www.wikidata.org/wiki/Q225107),[adjugate](https://mathgloss.github.io/MathGloss/chicago/adjugate),,
-[Q91435997](https://www.wikidata.org/wiki/Q91435997),,,
 [Q382504](https://www.wikidata.org/wiki/Q382504),,[affine span](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/LinearAlgebra/AffineSpace/AffineSubspace.html#affineSpan),
 [Q382698](https://www.wikidata.org/wiki/Q382698),,[affine subspace](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/LinearAlgebra/AffineSpace/AffineSubspace.html#AffineSubspace),[affine space (algebraic geometry)](https://ncatlab.org/nlab/show/affine+space),[Affine space](https://mathgloss.github.io/CatGloss/context/affine_space),,
 [Q382497](https://www.wikidata.org/wiki/Q382497),[algebra homomorphism](https://mathgloss.github.io/MathGloss/chicago/algebra_homomorphism),[affine function](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/LinearAlgebra/AffineSpace/AffineMap.html#AffineMap),
@@ -29,7 +24,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q25377974](https://www.wikidata.org/wiki/Q25377974),[almost uniform convergence](https://mathgloss.github.io/MathGloss/chicago/almost_uniform_convergence),,
 [Q438814](https://www.wikidata.org/wiki/Q438814),[alternating group](https://mathgloss.github.io/MathGloss/chicago/alternating_group),[alternating group](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/GroupTheory/SpecificGroups/Alternating.html#alternatingGroup),[alternating group](https://ncatlab.org/nlab/show/alternating+group)
 [Q438842](https://www.wikidata.org/wiki/Q438842),,[alternating series](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Analysis/SpecificLimits/Normed.html#Antitone.tendsto_alternating_series_of_tendsto_zero),
-[Q485312](https://www.wikidata.org/wiki/Q485312),,,
 [Q567083](https://www.wikidata.org/wiki/Q567083),[annihilator of a submodule](https://mathgloss.github.io/MathGloss/chicago/annihilator_of_a_submodule),,
 [Q114326](https://www.wikidata.org/wiki/Q114326),,antiderivative,[indefinite integral](https://ncatlab.org/nlab/show/indefinite+integral)
 [Q1477053](https://www.wikidata.org/wiki/Q1477053),,[arzela-Ascoli theorem](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Topology/ContinuousFunction/Bounded.html#BoundedContinuousFunction.arzela_ascoli),
@@ -53,7 +47,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q130901](https://www.wikidata.org/wiki/Q130901),[binary relation](https://mathgloss.github.io/MathGloss/chicago/binary_relation),,[relation (mathematics)](https://ncatlab.org/nlab/show/relation),[Relation](https://mathgloss.github.io/CatGloss/context/relation),,
 [Q866300](https://www.wikidata.org/wiki/Q866300),,bisection method,
 [Q468391](https://www.wikidata.org/wiki/Q468391),,[bolzano-Weierstrass theorem](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Topology/Sequences.html#tendsto_subseq_of_bounded),
-[Q4973304](https://www.wikidata.org/wiki/Q4973304),,,
 [Q3058218](https://www.wikidata.org/wiki/Q3058218),[borel space](https://mathgloss.github.io/MathGloss/chicago/borel_space),,[measurable space](https://ncatlab.org/nlab/show/measurable+space)
 [Q1080067](https://www.wikidata.org/wiki/Q1080067),[borel σ-algebra](https://mathgloss.github.io/MathGloss/chicago/borel_σ-algebra),,[borel subset](https://ncatlab.org/nlab/show/borel+subset)
 [Q893496](https://www.wikidata.org/wiki/Q893496),,[borel-Cantelli lemma](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Probability/BorelCantelli.html#ProbabilityTheory.measure_limsup_eq_one),
@@ -102,7 +95,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q47007889](https://www.wikidata.org/wiki/Q47007889),[cocomplete category](https://mathgloss.github.io/MathGloss/chicago/cocomplete_category),,
 [Q1048949](https://www.wikidata.org/wiki/Q1048949),[cofibration](https://mathgloss.github.io/MathGloss/chicago/cofibration),,[cofibration](https://ncatlab.org/nlab/show/cofibration)
 [Q906907](https://www.wikidata.org/wiki/Q906907),,,[vector bundle (algebraic geometry)](https://ncatlab.org/nlab/show/vector+bundle)
-[Q858656](https://www.wikidata.org/wiki/Q858656),,,
 [Q165474](https://www.wikidata.org/wiki/Q165474),[commutative](https://mathgloss.github.io/MathGloss/chicago/commutative),,,[Commute](https://mathgloss.github.io/CatGloss/context/commute),,
 [Q522216](https://www.wikidata.org/wiki/Q522216),[commutator subgroup](https://mathgloss.github.io/MathGloss/chicago/commutator_subgroup),,[derived series](https://ncatlab.org/nlab/show/derived+series),[Commutator subgroup](https://mathgloss.github.io/CatGloss/context/commutator_subgroup),,
 [Q1780743](https://www.wikidata.org/wiki/Q1780743),[compact linear transformation](https://mathgloss.github.io/MathGloss/chicago/compact_linear_transformation),,[compact operator](https://ncatlab.org/nlab/show/compact+operator)
@@ -142,7 +134,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q193657](https://www.wikidata.org/wiki/Q193657),[convex set](https://mathgloss.github.io/MathGloss/chicago/convex_set),convexity (mathematics),[convex space](https://ncatlab.org/nlab/show/convex+space)
 [Q210857](https://www.wikidata.org/wiki/Q210857),,convolution (mathematics),
 [Q104752](https://www.wikidata.org/wiki/Q104752),[coprime](https://mathgloss.github.io/MathGloss/chicago/coprime),,[coprime integers](https://ncatlab.org/nlab/show/coprime+integers)
-[Q66707394](https://www.wikidata.org/wiki/Q66707394),,,
 [Q247204](https://www.wikidata.org/wiki/Q247204),,[counting measure](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/MeasureTheory/Measure/Count.html#MeasureTheory.Measure.count),[counting measure](https://ncatlab.org/nlab/show/counting+measure)
 [Q331481](https://www.wikidata.org/wiki/Q331481),,,[refinement (topology)](https://ncatlab.org/nlab/show/refinement),[Cover](https://mathgloss.github.io/CatGloss/context/cover),[Open cover](https://mathgloss.github.io/CatGloss/topoi/open_cover),
 [Q332648](https://www.wikidata.org/wiki/Q332648),[covering space](https://mathgloss.github.io/MathGloss/chicago/covering_space),,[universal covering space](https://ncatlab.org/nlab/show/universal+covering+space)
@@ -208,12 +199,10 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q130998](https://www.wikidata.org/wiki/Q130998),[equivalence relation](https://mathgloss.github.io/MathGloss/chicago/equivalence_relation),,[identification (mathematics)](https://ncatlab.org/nlab/show/identification),[Equivalence relation](https://mathgloss.github.io/CatGloss/context/equivalence_relation),[Equivalence relation](https://mathgloss.github.io/CatGloss/topoi/equivalence_relation),
 [Q256355](https://www.wikidata.org/wiki/Q256355),[equivariant map](https://mathgloss.github.io/MathGloss/chicago/equivariant_map),,[intertwiner](https://ncatlab.org/nlab/show/intertwiner),,,[Equivariant map](https://mathgloss.github.io/CatGloss/bct/equivariant_map)
 [Q1969054](https://www.wikidata.org/wiki/Q1969054),[essentially bounded](https://mathgloss.github.io/MathGloss/chicago/essentially_bounded),,[essential supremum](https://ncatlab.org/nlab/show/essential+supremum)
-[Q230848](https://www.wikidata.org/wiki/Q230848),,,
 [Q867345](https://www.wikidata.org/wiki/Q867345),[euclidean domain](https://mathgloss.github.io/MathGloss/chicago/euclidean_domain),,[euclidean ring](https://ncatlab.org/nlab/show/euclidean+ring)
 [Q181365](https://www.wikidata.org/wiki/Q181365),[euclidean inner product](https://mathgloss.github.io/MathGloss/chicago/euclidean_inner_product),,
 [Q852973](https://www.wikidata.org/wiki/Q852973),[euler characteristic of a graph](https://mathgloss.github.io/MathGloss/chicago/euler_characteristic_of_a_graph),,[euler number (topology)](https://ncatlab.org/nlab/show/euler+number)
 [Q190026](https://www.wikidata.org/wiki/Q190026),[euler's totient function](https://mathgloss.github.io/MathGloss/chicago/euler's_totient_function),[euler's totient function](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Data/Nat/Totient.html#Nat.totient),
-[Q13366104](https://www.wikidata.org/wiki/Q13366104),,,
 [Q1297532](https://www.wikidata.org/wiki/Q1297532),,[events](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/MeasureTheory/MeasurableSpace/Defs.html#MeasurableSet),
 [Q1326955](https://www.wikidata.org/wiki/Q1326955),[exact sequence](https://mathgloss.github.io/MathGloss/chicago/exact_sequence),,[exact sequence](https://ncatlab.org/nlab/show/exact+sequence)
 [Q32998717](https://www.wikidata.org/wiki/Q32998717),[exponent of a finite group](https://mathgloss.github.io/MathGloss/chicago/exponent_of_a_finite_group),,
@@ -239,10 +228,8 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q2835968](https://www.wikidata.org/wiki/Q2835968),,,[finitely generated algebra](https://ncatlab.org/nlab/show/finitely+generated+algebra)
 [Q1340572](https://www.wikidata.org/wiki/Q1340572),[finitely generated r-module](https://mathgloss.github.io/MathGloss/chicago/finitely_generated_r-module),,
 [Q3568](https://www.wikidata.org/wiki/Q3568),,focus (mathematics),
-[Q179467](https://www.wikidata.org/wiki/Q179467),,,
 [Q6520159](https://www.wikidata.org/wiki/Q6520159),,fourier transform,[fourier transform](https://ncatlab.org/nlab/show/fourier+transform)
 [Q176244](https://www.wikidata.org/wiki/Q176244),[frattini subgroup](https://mathgloss.github.io/MathGloss/chicago/frattini_subgroup),,
-[Q5500180](https://www.wikidata.org/wiki/Q5500180),,,
 [Q431078](https://www.wikidata.org/wiki/Q431078),[free group](https://mathgloss.github.io/MathGloss/chicago/free_group),,[free group](https://ncatlab.org/nlab/show/free+group),[Free group](https://mathgloss.github.io/CatGloss/context/free_group),,
 [Q1292333](https://www.wikidata.org/wiki/Q1292333),[free module](https://mathgloss.github.io/MathGloss/chicago/free_module),,[free module](https://ncatlab.org/nlab/show/free+module)
 [Q1149022](https://www.wikidata.org/wiki/Q1149022),,[fubini's theorem](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/MeasureTheory/Constructions/Prod/Integral.html#MeasureTheory.integral_prod),[fubini theorem](https://ncatlab.org/nlab/show/fubini+theorem)
@@ -278,11 +265,9 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q189569](https://www.wikidata.org/wiki/Q189569),[hamel basis](https://mathgloss.github.io/MathGloss/chicago/hamel_basis),,[basis of a vector space](https://ncatlab.org/nlab/show/basis+of+a+vector+space)
 [Q599027](https://www.wikidata.org/wiki/Q599027),[harmonic function](https://mathgloss.github.io/MathGloss/chicago/harmonic_function),,
 [Q326908](https://www.wikidata.org/wiki/Q326908),[hausdorff](https://mathgloss.github.io/MathGloss/chicago/hausdorff),,[hausdorff space](https://ncatlab.org/nlab/show/hausdorff+space)
-[Q208826](https://www.wikidata.org/wiki/Q208826),,,
 [Q765987](https://www.wikidata.org/wiki/Q765987),,[heine-Cantor theorem](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Topology/UniformSpace/Compact.html#CompactSpace.uniformContinuous_of_continuous),
 [Q77583424](https://www.wikidata.org/wiki/Q77583424),[hermitian inner product](https://mathgloss.github.io/MathGloss/chicago/hermitian_inner_product),,
 [Q620495](https://www.wikidata.org/wiki/Q620495),[hessian matrix](https://mathgloss.github.io/MathGloss/chicago/hessian_matrix),hessian matrix,[hessian (mathematics)](https://ncatlab.org/nlab/show/hessian)
-[Q1616174](https://www.wikidata.org/wiki/Q1616174),,,
 [Q3527215](https://www.wikidata.org/wiki/Q3527215),,[hilbert projection theorem](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Projection.html#exists_norm_eq_iInf_of_complete_convex),
 [Q190056](https://www.wikidata.org/wiki/Q190056),[hilbert space](https://mathgloss.github.io/MathGloss/chicago/hilbert_space),hilbert spaces,[separable hilbert space](https://ncatlab.org/nlab/show/separable+hilbert+space)
 [Q3139500](https://www.wikidata.org/wiki/Q3139500),[holomorph of a group](https://mathgloss.github.io/MathGloss/chicago/holomorph_of_a_group),,[holomorph (mathematics)](https://ncatlab.org/nlab/show/holomorph)
@@ -378,7 +363,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q1334417](https://www.wikidata.org/wiki/Q1334417),[lorentz group](https://mathgloss.github.io/MathGloss/chicago/lorentz_group),,[lorentz group](https://ncatlab.org/nlab/show/lorentz+group)
 [Q305936](https://www.wikidata.org/wiki/Q305936),[lp space](https://mathgloss.github.io/MathGloss/chicago/lp_space),[lp space](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/MeasureTheory/Function/LpSpace.html#MeasureTheory.Lp),[p-norm](https://ncatlab.org/nlab/show/p-norm)
 [Q1361393](https://www.wikidata.org/wiki/Q1361393),[lusin function](https://mathgloss.github.io/MathGloss/chicago/lusin_function),,
-[Q1882442](https://www.wikidata.org/wiki/Q1882442),,,
 [Q679903](https://www.wikidata.org/wiki/Q679903),[magma](https://mathgloss.github.io/MathGloss/chicago/magma),,[unital magma](https://ncatlab.org/nlab/show/unital+magma)
 [Q257](https://www.wikidata.org/wiki/Q257),[mandelbrot set](https://mathgloss.github.io/MathGloss/chicago/mandelbrot_set),,[mandelbrot set](https://ncatlab.org/nlab/show/mandelbrot+set)
 [Q203920](https://www.wikidata.org/wiki/Q203920),[manifold](https://mathgloss.github.io/MathGloss/chicago/manifold),,[manifold with boundary](https://ncatlab.org/nlab/show/manifold+with+boundary)
@@ -425,7 +409,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q4504468](https://www.wikidata.org/wiki/Q4504468),[n-chain](https://mathgloss.github.io/MathGloss/chicago/n-chain),,[cycle (algebraic topology)](https://ncatlab.org/nlab/show/cycle)
 [Q21199](https://www.wikidata.org/wiki/Q21199),,,[natural number](https://ncatlab.org/nlab/show/natural+number),,[Natural number](https://mathgloss.github.io/CatGloss/topoi/natural_number),
 [Q1442189](https://www.wikidata.org/wiki/Q1442189),[natural transformation](https://mathgloss.github.io/MathGloss/chicago/natural_transformation),,[unnatural isomorphism](https://ncatlab.org/nlab/show/unnatural+isomorphism),[Natural isomorphism](https://mathgloss.github.io/CatGloss/context/natural_isomorphism),[Natural transformation](https://mathgloss.github.io/CatGloss/topoi/natural_transformation),[Natural isomorphism](https://mathgloss.github.io/CatGloss/bct/natural_isomorphism)
-[Q200227](https://www.wikidata.org/wiki/Q200227),,,
 [Q2478475](https://www.wikidata.org/wiki/Q2478475),[neighborhood](https://mathgloss.github.io/MathGloss/chicago/neighborhood),,[neighborhood (topology)](https://ncatlab.org/nlab/show/neighborhood),,[Neighbourhood](https://mathgloss.github.io/CatGloss/topoi/neighbourhood),
 [Q1749812](https://www.wikidata.org/wiki/Q1749812),,[newton's identities](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/RingTheory/MvPolynomial/NewtonIdentities.html#MvPolynomial.mul_esymm_eq_sum),[newton identities](https://ncatlab.org/nlab/show/newton+identities)
 [Q1755242](https://www.wikidata.org/wiki/Q1755242),[nilpotent group](https://mathgloss.github.io/MathGloss/chicago/nilpotent_group),,[nilpotent group](https://ncatlab.org/nlab/show/nilpotent+group)
@@ -435,7 +418,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q582271](https://www.wikidata.org/wiki/Q582271),[noetherian ring](https://mathgloss.github.io/MathGloss/chicago/noetherian_ring),,[noetherian ring](https://ncatlab.org/nlab/show/noetherian+ring)
 [Q3475675](https://www.wikidata.org/wiki/Q3475675),,,[noetherian scheme](https://ncatlab.org/nlab/show/noetherian+scheme)
 [Q1897429](https://www.wikidata.org/wiki/Q1897429),[non-archimedean absolute value](https://mathgloss.github.io/MathGloss/chicago/non-archimedean_absolute_value),,
-[Q10533491](https://www.wikidata.org/wiki/Q10533491),,,
 [Q7049224](https://www.wikidata.org/wiki/Q7049224),,,[noncommutative algebra](https://ncatlab.org/nlab/show/noncommutative+algebra)
 [Q97623888](https://www.wikidata.org/wiki/Q97623888),[nonmeager](https://mathgloss.github.io/MathGloss/chicago/nonmeager),,
 [Q956437](https://www.wikidata.org/wiki/Q956437),[norm](https://mathgloss.github.io/MathGloss/chicago/norm),[norm (mathematics)](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Basic.html#InnerProductSpace.Core.toNorm),[norm (mathematics)](https://ncatlab.org/nlab/show/norm)
@@ -447,7 +429,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q1991405](https://www.wikidata.org/wiki/Q1991405),[nowhere dense](https://mathgloss.github.io/MathGloss/chicago/nowhere_dense),,[nowhere dense set](https://ncatlab.org/nlab/show/nowhere+dense+set)
 [Q2914509](https://www.wikidata.org/wiki/Q2914509),[nullity](https://mathgloss.github.io/MathGloss/chicago/nullity),,[kernel (linear algebra)](https://ncatlab.org/nlab/show/kernel)
 [Q11563](https://www.wikidata.org/wiki/Q11563),,,[number (mathematics)](https://ncatlab.org/nlab/show/number)
-[Q13366129](https://www.wikidata.org/wiki/Q13366129),,,
 [Q41509136](https://www.wikidata.org/wiki/Q41509136),[open cover](https://mathgloss.github.io/MathGloss/chicago/open_cover),,
 [Q331350](https://www.wikidata.org/wiki/Q331350),[open simplex](https://mathgloss.github.io/MathGloss/chicago/open_simplex),,[simplex (mathematics)](https://ncatlab.org/nlab/show/simplex)
 [Q213363](https://www.wikidata.org/wiki/Q213363),[open](https://mathgloss.github.io/MathGloss/chicago/open),,,,[Open set](https://mathgloss.github.io/CatGloss/topoi/open_set),
@@ -496,7 +477,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q1632419](https://www.wikidata.org/wiki/Q1632419),[pontryagin dual](https://mathgloss.github.io/MathGloss/chicago/pontryagin_dual),,[pontrjagin dual](https://ncatlab.org/nlab/show/pontrjagin+dual)
 [Q1052034](https://www.wikidata.org/wiki/Q1052034),[positive definite](https://mathgloss.github.io/MathGloss/chicago/positive_definite),,
 [Q192276](https://www.wikidata.org/wiki/Q192276),,[positive measure](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/MeasureTheory/Measure/MeasureSpaceDef.html#MeasureTheory.Measure),[measure theory](https://ncatlab.org/nlab/show/measure+theory)
-[Q3176558](https://www.wikidata.org/wiki/Q3176558),,,
 [Q206925](https://www.wikidata.org/wiki/Q206925),,power series expansion,[power series](https://ncatlab.org/nlab/show/power+series)
 [Q205170](https://www.wikidata.org/wiki/Q205170),[power set](https://mathgloss.github.io/MathGloss/chicago/power_set),,[power set](https://ncatlab.org/nlab/show/power+set),,[Power set](https://mathgloss.github.io/CatGloss/topoi/power_set),[Power set](https://mathgloss.github.io/CatGloss/bct/power_set)
 [Q1393014](https://www.wikidata.org/wiki/Q1393014),[pre-measure](https://mathgloss.github.io/MathGloss/chicago/pre-measure),,
@@ -518,7 +498,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q1633079](https://www.wikidata.org/wiki/Q1633079),[pushout](https://mathgloss.github.io/MathGloss/chicago/pushout),,[pushout (category theory)](https://ncatlab.org/nlab/show/pushout),[Pushout](https://mathgloss.github.io/CatGloss/context/pushout),[Pushout](https://mathgloss.github.io/CatGloss/topoi/pushout),[Pushout](https://mathgloss.github.io/CatGloss/bct/pushout)
 [Q736753](https://www.wikidata.org/wiki/Q736753),,[quadratic form](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/LinearAlgebra/QuadraticForm/Basic.html#QuadraticForm),[quadratic form](https://ncatlab.org/nlab/show/quadratic+form)
 [Q803531](https://www.wikidata.org/wiki/Q803531),[quadratic integers](https://mathgloss.github.io/MathGloss/chicago/quadratic_integers),,
-[Q61040808](https://www.wikidata.org/wiki/Q61040808),,,
 [Q173853](https://www.wikidata.org/wiki/Q173853),[quaternion algebra](https://mathgloss.github.io/MathGloss/chicago/quaternion_algebra),,[quaternion](https://ncatlab.org/nlab/show/quaternion)
 [Q3966112](https://www.wikidata.org/wiki/Q3966112),[quotient by equivalence relation](https://mathgloss.github.io/MathGloss/chicago/quotient_by_equivalence_relation),,
 [Q1138961](https://www.wikidata.org/wiki/Q1138961),[quotient by normal subgroup](https://mathgloss.github.io/MathGloss/chicago/quotient_by_normal_subgroup),[quotient group](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/GroupTheory/QuotientGroup.html#QuotientGroup.Quotient.group),[quotient group](https://ncatlab.org/nlab/show/quotient+group)
@@ -606,7 +585,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q684363](https://www.wikidata.org/wiki/Q684363),[special unitary group](https://mathgloss.github.io/MathGloss/chicago/special_unitary_group),special unitary group,[su(5)](https://ncatlab.org/nlab/show/s)
 [Q1756677](https://www.wikidata.org/wiki/Q1756677),,stability (mathematics),[stability theory](https://ncatlab.org/nlab/show/stability+theory)
 [Q7595717](https://www.wikidata.org/wiki/Q7595717),,stability (probability),[stability (probability)](https://ncatlab.org/nlab/show/stability)
-[Q1528401](https://www.wikidata.org/wiki/Q1528401),,,
 [Q2601117](https://www.wikidata.org/wiki/Q2601117),[stirling numbers of the second kind](https://mathgloss.github.io/MathGloss/chicago/stirling_numbers_of_the_second_kind),,
 [Q7625098](https://www.wikidata.org/wiki/Q7625098),[structure constants](https://mathgloss.github.io/MathGloss/chicago/structure_constants),,
 [Q629933](https://www.wikidata.org/wiki/Q629933),[subalgebra](https://mathgloss.github.io/MathGloss/chicago/subalgebra),,
@@ -634,7 +612,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q2296021](https://www.wikidata.org/wiki/Q2296021),,,[tensor ring](https://ncatlab.org/nlab/show/tensor+ring)
 [Q48995828](https://www.wikidata.org/wiki/Q48995828),[tensor product of group representations](https://mathgloss.github.io/MathGloss/chicago/tensor_product_of_group_representations),,[tensor product of representations](https://ncatlab.org/nlab/show/tensor+product+of+representations)
 [Q1163016](https://www.wikidata.org/wiki/Q1163016),[tensor product of vector spaces](https://mathgloss.github.io/MathGloss/chicago/tensor_product_of_vector_spaces),,[tensor product of vector spaces](https://ncatlab.org/nlab/show/tensor+product+of+vector+spaces),,,[Tensor product](https://mathgloss.github.io/CatGloss/bct/tensor_product)
-[Q21998744](https://www.wikidata.org/wiki/Q21998744),,,
 [Q214856](https://www.wikidata.org/wiki/Q214856),,,[tesselation](https://ncatlab.org/nlab/show/tesselation)
 [Q10260753](https://www.wikidata.org/wiki/Q10260753),[topological field](https://mathgloss.github.io/MathGloss/chicago/topological_field),,
 [Q7825035](https://www.wikidata.org/wiki/Q7825035),[topological game](https://mathgloss.github.io/MathGloss/chicago/topological_game),,
@@ -655,7 +632,6 @@ Wikidata ID,Chicago Notes,MathLib Undergrad,nLab,Context,Topoi,BCT
 [Q93344](https://www.wikidata.org/wiki/Q93344),,[trigonometric functions](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Data/Complex/Exponential.html#Real.sin),[trigonometric function](https://ncatlab.org/nlab/show/trigonometric+function)
 [Q36248](https://www.wikidata.org/wiki/Q36248),,[triple product](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/LinearAlgebra/CrossProduct.html#triple_product_eq_det),
 [Q7844662](https://www.wikidata.org/wiki/Q7844662),[trivial group representation](https://mathgloss.github.io/MathGloss/chicago/trivial_group_representation),,[trivial representation](https://ncatlab.org/nlab/show/trivial+representation)
-[Q1128796](https://www.wikidata.org/wiki/Q1128796),,,
 [Q1411887](https://www.wikidata.org/wiki/Q1411887),,[uniform convergence](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Topology/UniformSpace/UniformConvergence.html#TendstoUniformly),[uniform convergence](https://ncatlab.org/nlab/show/uniform+convergence)
 [Q16862633](https://www.wikidata.org/wiki/Q16862633),,uniform law,
 [Q741865](https://www.wikidata.org/wiki/Q741865),[uniformly continuous](https://mathgloss.github.io/MathGloss/chicago/uniformly_continuous),[uniformly continuous functions](https://leanprover-community.github.io/mathlib4_docs/./Mathlib/Topology/MetricSpace/Basic.html#Metric.uniformContinuous_iff),

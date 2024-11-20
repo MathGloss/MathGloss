@@ -21,17 +21,20 @@
             }
             table {
                 width: 100%;
-                border-collapse: collapse;
+                border-collapse: collapse; /* Ensure borders are shared */
                 margin-top: 20px;
+                
             }
             th, td {
-                border: 1px solid #ddd;
+                border: 1px solid #ddd; /* Apply border to all cells */
+                border-right: 1px solid #ddd;  /* Explicitly set right borders */
                 padding: 8px;
                 text-align: left;
                 word-wrap: break-word; /* Ensure long text wraps */
             }
             th {
                 background-color: #f8f9fa;
+                border-right: 1px solid #ddd;  /* Explicitly set right borders */
                 cursor: pointer;
                 position: relative;
                 padding-right: 20px;
@@ -62,11 +65,15 @@
             }
             th .source-link:hover {
                 border-bottom-style: solid;
+                
             }
             tr:nth-child(even) {
+                border: 1px solid #ddd;
                 background-color: #f9f9f9;
+                border-left: 1px solid #ddd;  /* Explicitly set right borders */
             }
             tr:nth-child(odd) {
+                border: 1px solid #ddd;
                 background-color: #fff;
             }
             .source-toggle {
@@ -81,11 +88,10 @@
                 font-size: 0.9em;
             }
             /* New CSS for empty cells */
-            tr:nth-child(even) td:empty {
-                background-color: #f9f9f9;
-            }
-            tr:nth-child(odd) td:empty {
-                background-color: #fff;
+            td:empty {
+                border: 1px solid #ddd;
+                border-right: 1px solid #ddd;  /* Explicitly set right borders */
+                background-color: inherit; /* Ensure empty cells inherit row background */
             }
         </style>
     </head>

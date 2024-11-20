@@ -56,7 +56,23 @@ def remove_column(database_file, column_header):
     else:
         print(f"Column '{column_header}' not found in the database.")
 
+def remove_empty_rows(database_file):
+    # Read the database file into a list of rows
+    with open(database_file, mode='r', newline='') as db_file:
+        reader = csv.reader(db_file)
+        database = list(reader)
+        db_headers = database[0]
+
+    # Filter out rows that only have an entry in the first column
+    filtered_database = [row for row in database if any(cell.strip() for cell in row[1:]) or row == db_headers]
+
+    # Write the updated database back to the file
+    with open(database_file, mode='w', newline='') as db_file:
+        writer = csv.writer(db_file)
+        writer.writerows(filtered_database)
+
 if __name__ == "__main__":
     # Example usage
-    update_database('/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv', '/Users/lucyhorowitz/Documents/GitHub/CatGloss/database.csv')
+    #update_database('/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv', '/Users/lucyhorowitz/Documents/GitHub/CatGloss/database.csv')
     #remove_column('/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv', 'MuLiMa')
+    remove_empty_rows('/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv')
