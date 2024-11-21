@@ -11,7 +11,7 @@ permalink: /context/Kleisli_category.md
 
 -  The unit $\eta_A : A \to TA$ defines the identity morphism $A \rightsquigarrow A  \in \mathsf{C}_T$.
 -  The composite of a morphism $f : A \to TB$ from $A$ to $B$ with a morphism $g : B \to TC$ from $B$ to $C$ is defined to be
-$ \xymatrix{ A \ar[r]^f & TB \ar[r]^{Tg} & T^2C \ar[r]^{\mu_C} & TC\rlap{{\,}.}}$
+$ \xymatrix{ A \ar[r]^f & TB \ar[r]^{Tg} & T^2C \ar[r]^{\mu_C} & TC\rlap{{,}.}}$
 
 The verification that these operations are associative and unital is left as Exercise \ref{exc:kleisli-cat}.
 
