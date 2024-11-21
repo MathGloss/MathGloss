@@ -7,7 +7,7 @@ permalink: /context/opposite_category.md
 
 -  the same objects as in $\mathsf{C}$, and
 -  a morphism $f^\mathrm{op}$ in $\mathsf{C}^\mathrm{op}$ for each a morphism $f$ in $\mathsf{C}$ so that the domain of $f^\mathrm{op}$ is defined to be the codomain of $f$ and the codomain of $f^\mathrm{op}$ is defined to be the domain of $f$: i.e.,
-$ f^{\mathrm{op}} : X \to Y\quad \in \mathsf{C}^\mathrm{op} \qquad \leftrightsquigarrow \qquad f : Y \to X\quad \in \mathsf{C}\rlap{{,}.}$
+$ f^{\mathrm{op}} : X \to Y\quad \in \mathsf{C}^\mathrm{op} \qquad \leftrightsquigarrow \qquad f : Y \to X\quad \in \mathsf{C}\rlap{,}}$
 
 That is, $\mathsf{C}^\mathrm{op}$ has the same objects and morphisms as $\mathsf{C}$, except that ``each morphism is pointing in the opposite direction.'' The remaining structure of the category $\mathsf{C}^\mathrm{op}$ is given as follows:
 

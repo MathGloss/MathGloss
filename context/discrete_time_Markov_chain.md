@@ -12,8 +12,8 @@ $ \xymatrix{ \mathsf{C} \ar@<1ex>[r]^-{F_T} \ar@{}[r]|-\perp & \mathsf{C}_T \ar@
 
 
 The functor $F_T$ is the identity on objects and carries a morphism $f : A \to B$ in $\mathsf{C}$ to the morphism $A \rightsquigarrow B$ in $\mathsf{C}_T$ defined by
-$ F_Tf :eqq A \xrightarrow{f} B \xrightarrow{\eta_B} TB\rlap{{,}.}$ The functor $U_T$ sends an object $A \in \mathsf{C}_T$ to $TA \in \mathsf{C}$ and sends a morphism $A \rightsquigarrow B$ represented by $g : A \to TB$ to
-$ U_Tg :eqq TA \xrightarrow{Tg} T^2B \xrightarrow{\mu_B} TB\rlap{{,}.}$
+$ F_Tf :eqq A \xrightarrow{f} B \xrightarrow{\eta_B} TB\rlap{,}}$ The functor $U_T$ sends an object $A \in \mathsf{C}_T$ to $TA \in \mathsf{C}$ and sends a morphism $A \rightsquigarrow B$ represented by $g : A \to TB$ to
+$ U_Tg :eqq TA \xrightarrow{Tg} T^2B \xrightarrow{\mu_B} TB\rlap{,}}$
 Elementary diagram chases, left as Exercise \ref{exc:kleisli}, demonstrate that both mappings are functorial.  Note in particular that $U_T F_T = T$. From the definition of the hom-sets in $\mathsf{C}_T$, there are isomorphisms
 $ \mathsf{C}_T(F_TA,B) \mathrm{co}ng \mathsf{C}(A,TB) \mathrm{co}ng \mathsf{C}(A,U_TB)\rlap{{,},}$ which are natural in both variables. This establishes the adjunction $F_T \dashv U_T$.
 
