@@ -1,3 +1,8 @@
+---
+layout: page
+title: local
+permalink: /context/local.md
+---
 -  Show that the essential image of $\mathsf{D}$ consists of those objects $c$ that are **local** for the class of morphisms that are inverted by $L$. That is, $c$ is in the essential image if and only if the pre-composition functions
 $ \mathsf{C}(b,c) \xrightarrow{f^*} \mathsf{C}(a,c)$ are isomorphisms for all maps $f : a \to b$ in $\mathsf{C}$ for which $Lf$ is an isomorphism in $\mathsf{D}$. This explains why the reflector is also referred to as ``localization.''
 

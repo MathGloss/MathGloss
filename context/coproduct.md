@@ -1,3 +1,8 @@
+---
+layout: page
+title: coproduct
+permalink: /context/coproduct.md
+---
 
 Definitions \ref{defn:product}, \ref{defn:terminal}, \ref{defn:equalizer}, \ref{defn:pullback}, and \ref{defn:inverse} dualize to define:
 

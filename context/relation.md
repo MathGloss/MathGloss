@@ -1,3 +1,8 @@
+---
+layout: page
+title: relation
+permalink: /context/relation.md
+---
  In any category with finite limits,  the **kernel pair**\footnote{In the absence of a **zero object**---an object that is both initial and terminal, which can be used to define a **zero map** between any pair of objects---kernel pairs are the best analog of kernels. Barry Fawcett acknowledges the pervasiveness of this sort of construction, writing  ``Category theory tells us: to learn about $A$, study pairs of maps out of [or into] $A$'' \cite{Fawcett:1986ac}.} of a morphism $f : X \to Y$ is the pullback of $f$ along itself:
 $ \xymatrix{ R \ar[d]_s \ar[r]^t \ar@{}[dr]|(.2){\displaystyle\lrcorner} & X \ar[d]^f \\ X \ar[r]_f & Y}$ These maps define a monomorphism $(s,t) : R \rightarrowtail X \times X$, so the object $R$ is always a subobject of the product $X \times X$.\footnote{A **subobject** of an object $c$ is a monomorphism with codomain $c$; see Definition \ref{defn:subobject}.} In $\textup{\textsf{Set}}$, a subset $R \subset X \times X$ defines a **relation** on $X$. Indeed, subobjects defined by kernel pairs are always **equivalence relations**,  in the following categorical sense:
 

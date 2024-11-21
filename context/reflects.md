@@ -1,3 +1,8 @@
+---
+layout: page
+title: reflects
+permalink: /context/reflects.md
+---
  For any class of diagrams $K : \mathsf{J} \to \mathsf{C}$ valued in $\mathsf{C}$, a functor $F : \mathsf{C} \to \mathsf{D}$
 
 -   **preserves** those limits if for any diagram $K : \mathsf{J} \to \mathsf{C}$ and limit cone over $K$, the image of this cone defines a limit cone over the composite diagram $FK : \mathsf{J} \to \mathsf{D}$;

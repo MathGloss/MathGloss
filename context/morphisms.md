@@ -1,3 +1,8 @@
+---
+layout: page
+title: morphisms
+permalink: /context/morphisms.md
+---
  A **category** consists of
 
 -  a collection of **objects** $X, Y, Z, \ldots$

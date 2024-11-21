@@ -1,3 +1,8 @@
+---
+layout: page
+title: tensors
+permalink: /context/tensors.md
+---
 
  Iterated coproducts of an object $A \in \mathsf{C}$ are called **copowers** or **tensors**. For a set $I$, the $I$-indexed copower of $A$ is denoted $\mathrm{co}prod_I A$ or $I \cdot A$.
 The representable universal property is expressed by the natural isomorphism

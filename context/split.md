@@ -1,3 +1,8 @@
+---
+layout: page
+title: split
+permalink: /context/split.md
+---
 Alternatively, applying Theorem \ref{thm:set-prod-equalizer} in the simplified form of Exercise \ref{exc:simplified-limit-formula}, the limit $A^e$ is constructed as the equalizer
 $ \xymatrix{A^e\ \ar@{>->}[r]^s & A \ar@<.5ex>[r]^1 \ar@<-.5ex>[r]_e & A}$ The universal property of the equalizer  implies that $e$ factors through $s$ along a unique map $r$.
 $ \xymatrix{A \ar[dr]^e \ar@{-->}[d]_r \\ A^e\ \ar@{>->}[r]^s & A \ar@<.5ex>[r]^1 \ar@<-.5ex>[r]_e & A}$ The factorization $e = sr$ is said to **split** the idempotent.

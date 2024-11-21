@@ -1,3 +1,8 @@
+---
+layout: page
+title: cokernels
+permalink: /context/cokernels.md
+---
  A category is **abelian** if
 
 -  it has a **zero object** $0$, that is both initial and terminal,

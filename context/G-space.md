@@ -1,3 +1,8 @@
+---
+layout: page
+title: G-space
+permalink: /context/G-space.md
+---
 -  $e_* = 1_X$, where $e \in G$ is the identity element.
 
 In summary, the functor $\mathsf{B} G \to \mathsf{C}$ defines an **action** of the group $G$ on the object $X \in \mathsf{C}$. When $\mathsf{C}=\textup{\textsf{Set}}$, the object $X$ endowed with such an action is called a **$G$-set**. When $\mathsf{C}=\textup{\textsf{Vect}}_\mathbbe{k}$, the object $X$ is called a **$G$-representation**. When $\mathsf{C}=\textup{\textsf{Top}}$, the object $X$ is called a **$G$-space**. Note the utility of this categorical language for defining several analogous concepts simultaneously.

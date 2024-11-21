@@ -1,3 +1,8 @@
+---
+layout: page
+title: domain
+permalink: /context/domain.md
+---
  A **category** consists of
 
 -  a collection of **objects** $X, Y, Z, \ldots$

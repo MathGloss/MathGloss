@@ -1,3 +1,8 @@
+---
+layout: page
+title: commutes
+permalink: /context/commutes.md
+---
  Given categories $\mathsf{C}$ and $\mathsf{D}$ and functors $F,G : \mathsf{C} \rightrightarrows \mathsf{D}$, a **natural transformation** $\alpha : F \Rightarrow G$ consists of:
 
 -  an arrow $\alpha_c : Fc \to Gc$ in $\mathsf{D}$ for each object $c\in \mathsf{C}$, the collection of which define the **components** of the natural transformation,

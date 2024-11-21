@@ -1,3 +1,8 @@
+---
+layout: page
+title: legs
+permalink: /context/legs.md
+---
  A **cone over** a diagram $F : \mathsf{J} \to \mathsf{C}$ with **summit** or **apex** $c \in \mathsf{C}$ is a natural transformation $\lambda : c \Rightarrow F$ whose domain is the constant functor at $c$. The components $(\lambda_j : c \to Fj)_{j\in \mathsf{J}}$ of the natural transformation are called the **legs** of the cone. Explicitly:
 
 -  The data of a cone over $F : \mathsf{J} \to \mathsf{C}$ with summit $c$ is a collection of morphisms $\lambda_j : c \to Fj$, indexed by the objects $j \in \mathsf{J}$.

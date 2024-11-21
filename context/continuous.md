@@ -1,3 +1,8 @@
+---
+layout: page
+title: continuous
+permalink: /context/continuous.md
+---
  A topological space may be defined to be a set $X$ equipped with a **closure operator** $\overline{(-)} : PX \to PX$ on its set of subsets satisfying four axioms for all $A,B \in PX$:
 $ (\mathrm{i})\ \overline{\emptyset} = \emptyset, \qquad (\mathrm{ii})\ A \subset\overline{A}, \qquad (\mathrm{iii})\
 \overline{\overline{A}} = \overline{A}, \qquad (\mathrm{iv})\  \overline{A \cup B} = \overline{A} \cup \overline{B}\rlap{{\,}.}$

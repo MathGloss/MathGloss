@@ -1,3 +1,8 @@
+---
+layout: page
+title: regular
+permalink: /context/regular.md
+---
  Russell's paradox implies that there is no set whose elements are ``all sets.'' This is the reason why we have used the vague word ``collection'' in Definition \ref{defn:category}. Indeed, in each of the examples listed in \ref{exs:concrete-categories}, the collection of objects is not a set. Eilenberg and Mac Lane address this potential area of concern as follows:
 
 \ldots the whole concept of a category is essentially an auxiliary one; our basic concepts are essentially those of a \emph{functor} and of a natural transformation \ldots. The idea of a category is required only by the precept that every function should have a definite class as domain and a definite class as range, for the categories are provided as the domains and ranges of functors. Thus one could drop the category concept altogether and adopt an even more intuitive standpoint, in which a functor such as ``Hom'' is not defined over the category of ``all'' groups, but for each particular pair of groups which may be given. \cite{EM-general}

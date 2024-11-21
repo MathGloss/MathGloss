@@ -1,3 +1,8 @@
+---
+layout: page
+title: functor
+permalink: /context/functor.md
+---
  A **functor** $F : \mathsf{C} \to \mathsf{D}$, between categories $\mathsf{C}$ and $\mathsf{D}$, consists of the following data:
 
 -  An object $Fc \in \mathsf{D}$, for each object $c \in \mathsf{C}$.

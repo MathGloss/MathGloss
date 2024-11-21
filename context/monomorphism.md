@@ -1,3 +1,8 @@
+---
+layout: page
+title: monomorphism
+permalink: /context/monomorphism.md
+---
   A morphism $f : x \to y$ in a category is
 
 -  a **monomorphism** if for any parallel morphisms $h,k : w \rightrightarrows x$, $fh = fk$ implies that $h=k$; or

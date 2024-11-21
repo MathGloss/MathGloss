@@ -1,3 +1,8 @@
+---
+layout: page
+title: colimit
+permalink: /context/colimit.md
+---
 [\textnormal{limits and colimits II}] For any diagram $F : \mathsf{J} \to \mathsf{C}$, a **limit** is a terminal object in the category of cones over $F$, i.e., in the category $\textstyle{\int}\!{\textup{Cone}(-,F)}$.  An object in the category of cones over $F$ is a cone over $F$, with any summit. In particular, the data of a terminal object in the category of cones consists of a limit object in $\mathsf{C}$ together with a specified  **limit cone**.  A morphism from a cone $\lambda : c \Rightarrow F$ to a cone $\mu : d \Rightarrow F$ is a morphism $f : c \to d$ in $\mathsf{C}$ so that for each $j \in \mathsf{J}$, $\mu_j \cdot f = \lambda_j$. In other words, a morphism of cones is a map between the summits so that each leg of the domain cone factors  through the corresponding leg of the codomain cone along this map.
 $\xymatrix@C=35pt{ & & & c \ar[d]_f
  \ar@/^2.5ex/[dd]|(.4){\mathrm{co}lorbox{white}{\makebox(9,5){\scriptsize$\lambda_{ 0}$}}}

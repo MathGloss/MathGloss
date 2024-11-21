@@ -1,3 +1,8 @@
+---
+layout: page
+title: powers
+permalink: /context/powers.md
+---
 
  Iterated products of an object $A \in \mathsf{C}$ are called **powers** or **cotensors**. For a set $I$, the $I$-indexed power of $A$ is denoted $\prod_I A$ or $A^I$.
 The representable universal property is expressed by the natural isomorphism

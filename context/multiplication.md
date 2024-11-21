@@ -1,3 +1,8 @@
+---
+layout: page
+title: multiplication
+permalink: /context/multiplication.md
+---
  A **monad** on a category $\mathsf{C}$ consists of
 
 -  an endofunctor $T : \mathsf{C} \to \mathsf{C}$,
