@@ -7,3 +7,5 @@ The unit and counit encode relations $ T \subset V(I(T))\quad \text{and}\quad S 
 
 
 SUGGESTION: Hilbert's Nullstellensatz
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

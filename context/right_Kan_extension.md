@@ -7,3 +7,5 @@ permalink: /context/right_Kan_extension
 
 
 SUGGESTION: right Kan extension
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

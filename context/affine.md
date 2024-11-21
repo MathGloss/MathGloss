@@ -12,3 +12,5 @@ The first condition says that the value of a singleton sum $1 \cdot \mathbf{a}$ 
 $ \lambda_1 \cdot (\mu_{11}\mathbf{a}_{11} + \cdots + \mu_{1n_1}\mathbf{a}_{1n_1}) + \cdots + \lambda_k \cdot (\mu_{k1}\mathbf{a}_{k1} + \cdots + \mu_{kn_k}\mathbf{a}_{kn_k})$ can be evaluated by first distributing---note that $\sum_{i}\sum_j \lambda_i \mu_{ij} =1$---and then evaluating or by first evaluating inside each of the $k$ sets of parentheses and then evaluating the resulting affine linear combination. In summary, the precise meaning of Definition \ref{defn:affine-2} is:
 
 SUGGESTION: affine linear combination
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

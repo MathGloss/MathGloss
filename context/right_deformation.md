@@ -13,3 +13,5 @@ There is an obvious dual notion of **right deformation** $r : 1_\mathsf{C} \simT
 
 
 SUGGESTION: left deformation
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

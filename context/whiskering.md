@@ -10,3 +10,5 @@ of the natural transformation $\beta : H \Rightarrow K$ with the functors $F$ an
 
 
 SUGGESTION: whiskered composite
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

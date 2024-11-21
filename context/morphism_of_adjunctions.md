@@ -14,3 +14,5 @@ $ \xymatrix@=10pt{ \mathsf{D}(Fc,d) \ar[r]^\mathrm{co}ng \ar[d]_K & \mathsf{C}(c
 
 
 SUGGESTION: morphism of adjunctions
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

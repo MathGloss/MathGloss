@@ -11,3 +11,5 @@ permalink: /context/monomorphism
 
 
 SUGGESTION: monomorphism
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

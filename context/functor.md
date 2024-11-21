@@ -16,3 +16,5 @@ The assignments are required to satisfy the following two **functoriality axioms
 
 
 SUGGESTION: functor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

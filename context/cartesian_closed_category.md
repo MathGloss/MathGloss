@@ -8,3 +8,5 @@ $ \mathsf{C} \times \mathsf{C} \xrightarrow{\times} \mathsf{C}$ is closed.
 
 
 SUGGESTION: cartesian closed category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

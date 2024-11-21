@@ -9,3 +9,5 @@ if $hg$ and $gf$ are in $\mathcal{W}$ so are $f$, $g$, $h$, and $hgf$.
 
 
 SUGGESTION: weak equivalence
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

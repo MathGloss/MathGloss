@@ -7,3 +7,5 @@ permalink: /context/dependent_sum
 
 
 SUGGESTION: dependent sum
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

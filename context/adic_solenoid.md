@@ -9,3 +9,5 @@ The inverse limit defines the $p$-**adic solenoid**.
 
 
 SUGGESTION: p-adic solenoid
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

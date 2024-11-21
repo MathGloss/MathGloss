@@ -9,3 +9,5 @@ The displayed natural isomorphisms restrict to the category $\textup{\textsf{Fin
 
 
 SUGGESTION: decategorification
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

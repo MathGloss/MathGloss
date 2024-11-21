@@ -9,3 +9,5 @@ $ \xymatrix@=35pt{ c \ar[d]^\cdots \ar[dr]|{\mathrm{co}lorbox{white}{\makebox(9,
 
 
 SUGGESTION: inverse limit
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

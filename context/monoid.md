@@ -8,3 +8,5 @@ $ \xymatrix{ M \times M \times M \ar[d]_{\mu \times 1_M} \ar[r]^-{1_M \times \mu
 
 
 SUGGESTION: monoid
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

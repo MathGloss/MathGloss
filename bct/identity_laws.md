@@ -11,3 +11,6 @@ A **category**    $\mathscr{A}$ consists of:
 
 1. **associativity**:    for each $f \in \mathscr{A}(A, B)$, $g \in \mathscr{A}(B, C)$ and $h \in \mathscr{A}(C, D)$, we have $(h \circ g) \circ f = h \circ (g \circ f)$;
 2. **identity    laws**: for each $f \in \mathscr{A}(A, B)$, we have $f \circ 1_A = f = 1_B \circ f$.
+
+
+From [Basic Category Theory](https://mathgloss.github.io/MathGloss/bct.html)

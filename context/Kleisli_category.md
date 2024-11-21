@@ -17,3 +17,5 @@ The verification that these operations are associative and unital is left as Exe
 
 
 SUGGESTION: Kleisli category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

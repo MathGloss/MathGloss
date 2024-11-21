@@ -7,3 +7,5 @@ permalink: /context/twisted_arrow_category
 
 
 SUGGESTION: twisted arrow category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

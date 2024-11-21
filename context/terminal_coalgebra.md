@@ -8,3 +8,5 @@ $ \xymatrix{C \ar[d]_\gamma \ar[r]^f & C' \ar[d]^{\gamma'} \\ TC \ar[r]_{Tf} & T
 
 
 SUGGESTION: terminal coalgebra
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -7,3 +7,5 @@ permalink: /context/G-equivariant
 $ \xymatrix{ X \ar[r]^\alpha \ar[d]_{g_*} & Y\ar[d]^{g_*} \\ X \ar[r]_\alpha & Y} $ commutes.
 
 SUGGESTION: $G$-equivariant morphism
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

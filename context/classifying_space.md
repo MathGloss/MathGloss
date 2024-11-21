@@ -11,3 +11,5 @@ Our language asserts that a representation encodes some sort of universal proper
 
 
 SUGGESTION: classifying space
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

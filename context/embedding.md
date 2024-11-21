@@ -7,3 +7,5 @@ permalink: /context/embedding
 
 
 SUGGESTION: embedding
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

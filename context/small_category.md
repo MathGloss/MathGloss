@@ -9,3 +9,5 @@ together with a ``composition function'' yet to be defined. Use a pullback to de
 
 
 SUGGESTION: small category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

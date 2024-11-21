@@ -7,3 +7,5 @@ permalink: /context/discrete_left_fibration
 
 
 SUGGESTION: discrete left fibration
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

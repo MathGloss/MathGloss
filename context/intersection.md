@@ -8,3 +8,5 @@ The **intersection** of a family of subobjects of $c$ is the limit of the diagra
 
 
 SUGGESTION: intersection of subobjects
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

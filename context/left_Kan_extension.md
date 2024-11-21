@@ -7,3 +7,5 @@ permalink: /context/left_Kan_extension
 
 
 SUGGESTION: left Kan extension
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

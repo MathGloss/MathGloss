@@ -9,3 +9,5 @@ $ \{ A \times B \xrightarrow{f} C \} \mathrm{co}ng \{ A \xrightarrow{f} C^B\} \m
 
 
 SUGGESTION: currying
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

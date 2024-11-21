@@ -8,3 +8,5 @@ A }**separating set** or **separator** for a category $\mathsf{C}$ is a set $\Ph
 
 
 SUGGESTION: separating set
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

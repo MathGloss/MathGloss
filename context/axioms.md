@@ -8,3 +8,5 @@ Let $\text{Axiom}_\sigma$ be a set of **axioms**, i.e., sentences in a fixed fir
 $ \forall x , y , z,  ((x \leq y) \wedge (y \leq z)) \to (x \leq z) \qquad  \mathrm{or} \qquad \forall x, x+ 0 = x\rlap{,},}$ asserting transitivity of the relation ``$\leq$'' and that the constant ``$0$'' serves as a unit for the binary function ``$+$.''
 
 SUGGESTION: axiom
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

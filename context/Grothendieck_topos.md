@@ -9,3 +9,5 @@ $ \xymatrix{ \mathsf{E} \ar@<-1ex>@{^(->}[r] \ar@{}[r]|-\perp & \textup{\textsf{
 $ \xymatrix{ P(U) \ar[r] & \prod\limits_\alpha P(U_\alpha) \ar@<.5ex>[r] \ar@<-.5ex>[r] & \prod\limits_{\alpha,\beta} P(U_\alpha \cap U_\beta)}$ is an equalizer for every open cover $U = \cup_\alpha U_\alpha$ of a $U \in \mathcal{O}(X)$; see Definition \ref{defn:sheaf-axiom}.
 
 SUGGESTION: Grothendieck topos
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

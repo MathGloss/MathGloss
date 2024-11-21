@@ -15,3 +15,5 @@ To illustrate the principle of duality in category theory, let us consider the f
 
 
 SUGGESTION: opposite group
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

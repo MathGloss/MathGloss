@@ -14,3 +14,5 @@ Define a pair of projection functors $\mathrm{dom} : F \mathrm{co}mma G \to \mat
 
 
 SUGGESTION: comma category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

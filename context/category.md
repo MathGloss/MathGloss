@@ -25,3 +25,5 @@ That is,  the composition law is associative and unital with the identity morphi
 
 
 SUGGESTION: category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

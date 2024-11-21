@@ -10,3 +10,5 @@ permalink: /context/weakly_initial
  
 
 SUGGESTION: weakly initial object
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -8,3 +8,5 @@ $ \mathsf{C}(-,-) : \mathsf{C}^\mathrm{op} \times \mathsf{C} \to \textup{\textsf
 
 
 SUGGESTION: two-sided represented functor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

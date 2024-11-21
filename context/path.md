@@ -9,3 +9,5 @@ $ \xymatrix{ \ast \ar[d]_{1} \ar[r]^{0} \ar@{}[dr]|(.8){\displaystyle\ulcorner} 
 The space $I \vee I$ is homeomorphic to the space $[0,2] \subset \mathbb{R}$. The map $\delta : I \to I \vee I$ is the homeomorphism $t \mapsto 2t$. Note that this map sends the endpoints of the domain $I$ to the endpoints of the fattened interval $I \vee I$. Thus, $(p \ast q)(0) = p(0)$ and $(p \ast q)(1) = q(1)$; that is, $p \ast q$ is a path in $X$ from the starting point of the path $p$ to the ending point of the path $q$.
 
 SUGGESTION: path
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

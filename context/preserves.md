@@ -9,3 +9,5 @@ $\xymatrix{ \mathsf{C} \ar[rr]^F \ar[dr]_K & \ar@{}[d]|(.4){\Downarrow \eta} & \
 
 
 SUGGESTION: functor that preserves a left Kan extension
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

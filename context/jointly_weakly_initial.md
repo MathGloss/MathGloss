@@ -10,3 +10,5 @@ permalink: /context/jointly_weakly_initial
  
 
 SUGGESTION: jointly weakly initial collection
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

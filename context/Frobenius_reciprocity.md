@@ -10,3 +10,5 @@ Taking $\mathsf{C} = \textup{\textsf{Vect}}_\mathbbe{k}$, the adjunction $\textu
 
 
 SUGGESTION: Frobenius reciprocity
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

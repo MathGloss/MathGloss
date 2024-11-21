@@ -9,3 +9,5 @@ $ \xymatrix{ V \times W \ar[dr]_f \ar[r]^-\otimes & V \otimes_\mathbbe{k} W \ar@
 In other words, the bijection \eqref{eq:tensor-defn} is implemented by composing a linear map $V \otimes_\mathbbe{k} W \to U$ with the universal bilinear map $\otimes$. This universal property tells us that the bilinear map $\otimes : V \times W \to V \otimes_\mathbbe{k} W$ is initial in a category that will be described in Example \ref{exs:cat-of-elements}\eqref{itm:bilin}.
 
 SUGGESTION: universal vector space
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

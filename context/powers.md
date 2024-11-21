@@ -10,3 +10,5 @@ $ \mathsf{C}(X,A^I) \mathrm{co}ng \mathsf{C} (X,A)^I\rlap{,},}$ i.e., a map $h :
 
 
 SUGGESTION: power
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

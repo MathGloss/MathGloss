@@ -7,3 +7,5 @@ We define a functor $\Phi : \mathcal{O}_G^\mathrm{op} \to \textup{\textsf{Field}
 
 
 SUGGESTION: fundamental theorem of Galois theory
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

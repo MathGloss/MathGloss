@@ -7,3 +7,5 @@ permalink: /context/isomorphism
 
 
 SUGGESTION: isomorphism
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -41,3 +41,5 @@ The category of categories gives rise to a notion of an **isomorphism of categor
 
 
 SUGGESTION: **G-set**
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

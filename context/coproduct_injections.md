@@ -18,3 +18,5 @@ $ \xymatrix{ F_0 \ar[r] & F_1 \ar[r] & F_2 \ar[r] & F_3 \ar[r] & \cdots}$ freque
 
 
 SUGGESTION: coproduct injection
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

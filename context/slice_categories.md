@@ -23,3 +23,5 @@ The data described in Definition \ref{defn:op-category} defines a category $\mat
 
 
 SUGGESTION: slice category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

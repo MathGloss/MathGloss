@@ -13,3 +13,5 @@ $ \xymatrix{ \textup{\textsf{Set}} \ar@<1ex>[r]^-P \ar@{}[r]|-\perp & \textup{\t
 
 
 SUGGESTION: continuation monad
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

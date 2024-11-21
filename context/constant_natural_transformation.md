@@ -8,3 +8,5 @@ For any object $c \in \mathsf{C}$ and any  category $\mathsf{J}$, the **constant
 
 
 SUGGESTION: constant natural transformation
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -9,3 +9,5 @@ define a natural transformation $L\beta F : LHF \Rightarrow LKF$ by $(L \beta F)
 
 
 SUGGESTION: whiskered composite
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

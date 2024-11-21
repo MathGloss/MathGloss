@@ -11,3 +11,5 @@ Consider the hom bifunctor
 Once the objects $A \otimes_\mathbb{Z} B \in \textup{\textsf{Ab}}$ have been defined, Proposition \ref{prop:one-sided-adj} uses the isomorphisms \eqref{eq:tensor-hom-iso} to extend this data into a functor $A \otimes_\mathbb{Z} - : \textup{\textsf{Ab}} \to \textup{\textsf{Ab}}$. Proposition \ref{prop:two-variable-adjunction}\eqref{itm:two-var-i} then extends this data into the **tensor product bifunctor** $ \textup{\textsf{Ab}} \times \textup{\textsf{Ab}} \xrightarrow{\otimes_\mathbb{Z}} \textup{\textsf{Ab}}$ in such a way that the tensor product and the hom define a two-variable adjunction.
 
 SUGGESTION: tensor product bifunctor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

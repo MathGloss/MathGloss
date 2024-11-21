@@ -7,3 +7,5 @@ In fact, $\textup{\textsf{Ab}}$ and any category of models for an algebraic theo
 $ \xymatrix{ \textup{\textsf{Set}} \ar@<1ex>[r]^-F \ar@{}[r]|-\perp & \textup{\textsf{Group}}\rlap{,},} \ar@<1ex>[l]^-U}$ which generalizes to define coproducts relative to any monadic adjunction.
 
 SUGGESTION: free product of groups
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -7,3 +7,5 @@ permalink: /context/discrete_right_fibration
 
 
 SUGGESTION: discrete right fibration
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

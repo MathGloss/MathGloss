@@ -11,3 +11,5 @@ Then $U$ admits a left adjoint.
 
 
 SUGGESTION: solution set condition
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -13,3 +13,5 @@ $ \xymatrix{ TA \ar[d]_a \ar[r]^{Tf} & TB \ar[d]^b \\ A \ar[r]_f & B}$ commutes,
 
 
 SUGGESTION: $T$-algebra
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

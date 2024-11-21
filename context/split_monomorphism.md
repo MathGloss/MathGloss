@@ -7,3 +7,5 @@ In this case,  $s$ is always a monomorphism and, dually, $r$ is always an epimor
 
 
 SUGGESTION: split monomorphism
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

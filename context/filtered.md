@@ -7,3 +7,5 @@ permalink: /context/filtered
 
 
 SUGGESTION: filtered category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

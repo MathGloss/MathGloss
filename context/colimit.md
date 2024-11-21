@@ -24,3 +24,5 @@ Dually, a **colimit** is an initial object in the category of cones under $F$, i
 
 
 SUGGESTION: colimit
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

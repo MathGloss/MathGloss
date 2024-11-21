@@ -8,3 +8,5 @@ $ \xymatrix{ \mathsf{C}(c,\prod_{j \in J} F_j ) \ar[r]^-{(\pi_k)_*}_-{\mathrm{co
 
 
 SUGGESTION: product projections
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

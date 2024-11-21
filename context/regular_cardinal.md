@@ -12,3 +12,5 @@ A functor between locally $\kappa$-presentable categories is **accessible** if i
 
 
 SUGGESTION: locally $\kappa$-presentable category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

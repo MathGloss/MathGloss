@@ -10,3 +10,5 @@ permalink: /context/monoidal_category
 
 
 SUGGESTION: monoidal category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

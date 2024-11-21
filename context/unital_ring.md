@@ -14,3 +14,5 @@ $ \xymatrix{ R \otimes_\mathbbe{k} R \otimes_\mathbbe{k} R \ar[d]_{\mu \otimes_\
 
 
 SUGGESTION: unital ring
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

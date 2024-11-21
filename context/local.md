@@ -57,3 +57,5 @@ This line of reasoning seems to imply that all continuous functors whose domains
 
 
 SUGGESTION: initial object
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

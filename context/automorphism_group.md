@@ -9,3 +9,5 @@ Trivially, all three constructions define a functor from the discrete category o
 
 
 SUGGESTION: automorphism group
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

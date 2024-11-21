@@ -18,3 +18,5 @@ $\xymatrix{ X \ar[rr]^f \ar@{->>}[dr]_e & & Y \\ & X_{/R} \ar@{-->}[ur]_m}$ In g
 
 
 SUGGESTION: equivalence relation
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

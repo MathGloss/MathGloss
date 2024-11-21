@@ -8,3 +8,5 @@ $ \int_X hf\ d \mu = \int_Y h\ d (\mu \circ f^{-1})$ says that the assignment $\
 
 
 SUGGESTION: Riesz representation theorem
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

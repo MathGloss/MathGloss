@@ -7,3 +7,5 @@ The set of morphisms in the translation groupoid with domain $x$ is isomorphic t
 
 
 SUGGESTION: orbit-stabilizer theorem
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

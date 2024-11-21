@@ -13,3 +13,5 @@ permalink: /context/zero_object
 
 
 SUGGESTION: abelian category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -25,3 +25,5 @@ In particular, a morphism of adjunctions, introduced in Exercise \ref{exc:adj-mo
 
 
 SUGGESTION: fully-specified adjunction
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

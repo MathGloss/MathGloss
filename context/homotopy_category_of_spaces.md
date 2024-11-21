@@ -7,3 +7,5 @@ permalink: /context/homotopy_category_of_spaces
 
 
 SUGGESTION: homotopy category of spaces
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

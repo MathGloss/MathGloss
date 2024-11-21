@@ -7,3 +7,5 @@ By a theorem of Freyd \cite{freyd-real}, refined by Leinster \cite{leinster-self
 $ \xymatrix{ \ast \ar[d]_{x_1} \ar[r]^{x_0} \ar@{}[dr]|(.8){\displaystyle\ulcorner} & X \ar[d] \\ X \ar[r] & X \vee X}$
 
 SUGGESTION: bipointed space
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

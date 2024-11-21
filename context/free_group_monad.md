@@ -6,3 +6,5 @@ permalink: /context/free_group_monad
 -  The free $\dashv$ forgetful adjunction between sets and groups induces the **free group monad** $F : \textup{\textsf{Set}} \to \textup{\textsf{Set}}$ that sends a set $A$ to the set $F(A)$ of finite words in the letters $a \in A$ together with formal inverses $a^{-1}$.
 
 SUGGESTION: free group monad
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

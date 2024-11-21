@@ -8,3 +8,5 @@ A **comonad** on $\mathsf{C}$ is a monad on $\mathsf{C}^\mathrm{op}$: explicitly
 
 
 SUGGESTION: comonad
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

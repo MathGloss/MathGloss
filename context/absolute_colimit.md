@@ -11,3 +11,5 @@ Given a map $k : y \to w$ so that $kf=kg$, we must show that $k$ factors through
 $ ks h = kft=kgt=k\rlap{,}}$
 
 SUGGESTION: absolute colimit
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

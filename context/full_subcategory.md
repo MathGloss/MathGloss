@@ -7,3 +7,5 @@ permalink: /context/full_subcategory
 
 
 SUGGESTION: full subcategory
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

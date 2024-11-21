@@ -7,3 +7,5 @@ permalink: /context/minimal_homotopical_structure
  
 
 SUGGESTION: minimal homotopical structure
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

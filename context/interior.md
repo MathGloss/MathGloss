@@ -7,3 +7,5 @@ For example, the poset $PX$ of subsets of a topological space $X$ admits a closu
 
 
 SUGGESTION: interior of a set
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

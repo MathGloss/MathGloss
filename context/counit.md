@@ -7,3 +7,5 @@ permalink: /context/counit
 
 
 SUGGESTION: counit of the adjunction
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

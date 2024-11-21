@@ -7,3 +7,5 @@ In 1941, Saunders Mac Lane gave a lecture at the University of Michigan in which
  0 \to \mathrm{Ext}(H_{n-1}(X),G) \to H^n(X,G) \to \mathrm{Hom}(H_n(X),G) \to 0\rlap{,}}
 
 SUGGESTION: Universal coefficient theorem
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

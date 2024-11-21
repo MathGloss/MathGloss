@@ -32,3 +32,5 @@ A second solution to the problem of finding an adjunction that induces a given m
 
 
 SUGGESTION: coalgebra
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

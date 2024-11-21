@@ -13,3 +13,5 @@ The adjective ``free'' is reserved for universal properties expressed by covaria
 
 
 SUGGESTION: cofree space
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

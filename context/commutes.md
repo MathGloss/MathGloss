@@ -15,3 +15,5 @@ A **natural isomorphism** is a natural transformation $\alpha : F \Rightarrow G$
 
 
 SUGGESTION: natural transformation
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

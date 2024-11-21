@@ -12,3 +12,5 @@ permalink: /context/creates
 
 
 SUGGESTION: limit-preserving functor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

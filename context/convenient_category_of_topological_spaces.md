@@ -10,3 +10,5 @@ The arguments are based on a blind adherence to the customary definitions of the
 What he means is that the  ``product'' on a yet-to-be-defined subcategory    $, of compactly generated Hausdorff spaces and continuous maps}$\textup{\textsf{cgHaus}}$ should be the categorical product of Definition \ref{defn:product}, which, as it turns out, is not  preserved by the full inclusion $\textup{\textsf{cgHaus}}\hookrightarrow\textup{\textsf{Haus}}$.
 
 SUGGESTION: convenient category of topological spaces
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

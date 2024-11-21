@@ -7,3 +7,5 @@ permalink: /context/simplicial_sets
 
 
 SUGGESTION: Simplicial set
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

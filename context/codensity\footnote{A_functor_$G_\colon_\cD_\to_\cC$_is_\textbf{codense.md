@@ -11,3 +11,5 @@ $\xymatrix{ \mathsf{D} \ar[rrr]^G \ar@/^/[drr]^(.6)G \ar[dr]_G &  & \ar@{}[d]|(.
 
 
 SUGGESTION: codensity monad
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

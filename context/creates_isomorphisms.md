@@ -12,3 +12,5 @@ By Lemma \ref{lem:functors-pres-isos}, the converses of these statements hold fo
 
 
 SUGGESTION: isomorphism-creating functor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

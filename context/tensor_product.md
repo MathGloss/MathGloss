@@ -7,3 +7,5 @@ A representation for the functor $\textup{Bilin}(V,W;-)$ defines a vector space 
 \textup{\textsf{Vect}}_\mathbbe{k}(V \otimes_\mathbbe{k} W, U) \mathrm{co}ng \textup{Bilin}(V,W;U), between the set of linear maps $V \otimes_\mathbbe{k} W \to U$ and the set of bilinear maps $V \times W \to U$   that is natural in $U$.\footnote{This isomorphism is also natural in $V$ and $W$; see Proposition \ref{prop:two-variable-adjunction}.}
 
 SUGGESTION: tensor product
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

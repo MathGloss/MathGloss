@@ -8,3 +8,5 @@ For any object $c \in \mathsf{C}$ and any  category $\mathsf{J}$, the **constant
 
 
 SUGGESTION: constant functor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -8,3 +8,5 @@ $ \textup{\textsf{Top}}_* \times \textup{\textsf{Top}}_* \xrightarrow{\wedge} \t
 where $\mathrm{Map}_*((X,x), (Y,y))$ denotes the based space of basepoint-preserving continuous functions $(X,x) \to (Y,y)$. The bifunctor $\wedge$ is called the **smash product**.
 
 SUGGESTION: smash product
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -14,3 +14,5 @@ $ \xymatrix{ T^3 \ar@{=>}[r]^{T\mu} \ar@{=>}[d]_{\mu T} & T^2 \ar@{=>}[d]^{\mu} 
 
 
 SUGGESTION: multiplication natural transformation
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

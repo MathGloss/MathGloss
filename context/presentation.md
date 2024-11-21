@@ -7,3 +7,5 @@ Any abelian group $A$ has a presentation that can be defined in terms of the fre
  \vcenter{ \xymatrix@=30pt{\mathbb{Z}[R] \ar@<-.5ex>[r]_-{\mathrm{evaluation}} \ar@<.5ex>[r]^0 & \mathbb{Z}[G] \ar@{->>}[r] & A,}} in which case one often writes $A = \big\langle G \bigm| R \big\rangle$.
 
 SUGGESTION: presentation of an abelian group
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

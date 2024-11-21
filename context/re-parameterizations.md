@@ -7,3 +7,5 @@ permalink: /context/re-parameterizations
 
 
 SUGGESTION: re-parameterization
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

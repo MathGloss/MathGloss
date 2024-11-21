@@ -10,3 +10,5 @@ The objects of the functor category _\mathbbe{k}^{\mathsf{B} G}$, of $G$-represe
  
 
 SUGGESTION: coinduction
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

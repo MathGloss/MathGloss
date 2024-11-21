@@ -8,3 +8,5 @@ $ \xymatrix@=10pt{ \bullet \ar[rr] \ar[dd] \ar[dr] & & \bullet \ar'[d][dd] \ar[d
 $ \xymatrix@=10pt{  & \bullet \ar[r]^{h_2} & \bullet \ar@{..}[r] & \bullet \ar[r]^{h_{n-1}} & \bullet \ar[dr]^{h_n} \\ \bullet \ar[ur]^{h_1} \ar[dr]_{k_1} & & & &  & \bullet \\ & \bullet \ar[r]_{k_2} & \bullet \ar@{..}[r] & \bullet \ar[r]_{k_{m-1}} &  \bullet \ar[ur]_{k_m}}$ with a commutative triangle, as in \eqref{eq:triangle}, being the simplest case. This sort of argument is called ``equational reasoning'' in \cite[2.1]{simmons-introduction}, which provides an excellent short introduction to diagram chasing.
 
 SUGGESTION: commutative cube
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

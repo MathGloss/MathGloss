@@ -7,3 +7,5 @@ permalink: /context/left_adjoint
 
 
 SUGGESTION: left adjoint functor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -12,3 +12,5 @@ $ \xymatrix{ \mathsf{C} \ar@<1ex>[r]^-{F^T} \ar@{}[r]|-\perp & \mathsf{C}^T \ar@
 The functor $U^T : \mathsf{C}^T \to \mathsf{C}$ is the evident forgetful functor.  The functor $F^T : \mathsf{C} \to \mathsf{C}^T$ carries an object $A \in \mathsf{C}$ to the **free $T$-algebra** $ F^T\! A :eqq (TA,\mu_A : T^2A \to TA)$ and carries a morphism $f : A \to B$ to the **free $T$-algebra morphism** $ F^T\! f :eqq  (TA,\mu_A) \xrightarrow{Tf} (TB,\mu_B)\rlap{,}}$ Note that $U^TF^T=T$.
 
 SUGGESTION: free T-algebra
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

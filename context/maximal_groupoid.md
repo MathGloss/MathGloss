@@ -7,3 +7,5 @@ permalink: /context/maximal_groupoid
 
 
 SUGGESTION: maximal groupoid
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

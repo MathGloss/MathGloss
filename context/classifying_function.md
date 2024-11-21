@@ -7,3 +7,5 @@ permalink: /context/classifying_function
 $ \xymatrix{ \textup{\textsf{Set}}(B,\Omega) \ar[r]^-{\mathrm{co}ng} \ar[d]_{f^{*}} & PB \ar[d]^{f^{-1}} \\ \textup{\textsf{Set}}(A,\Omega) \ar[r]_-\mathrm{co}ng & PA}$ commutes. That is, naturality asserts that given a function $\chi_{B'} : B \to \Omega$ classifying the subset $B' \subset B$, the composite function $A \xrightarrow{f} B \xrightarrow{\chi_{B'}} \Omega$ classifies the subset $f^{-1}(B')\subset A$.
 
 SUGGESTION: classifying function
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

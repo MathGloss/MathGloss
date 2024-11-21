@@ -9,3 +9,5 @@ between the category of presheaves on $\mathcal{O}(X)$ and the category of space
 
 
 SUGGESTION: sheaf
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

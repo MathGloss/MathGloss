@@ -9,3 +9,5 @@ A set $X$ with an endomorphism $f : X \to X$ and a distinguished element $x_0$ i
 
 
 SUGGESTION: discrete dynamical system
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

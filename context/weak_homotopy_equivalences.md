@@ -7,3 +7,5 @@ permalink: /context/weak_homotopy_equivalences
 
 
 SUGGESTION: weak homotopy equivalence
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

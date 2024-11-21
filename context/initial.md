@@ -11,3 +11,5 @@ permalink: /context/initial
 
 
 SUGGESTION: initial object
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

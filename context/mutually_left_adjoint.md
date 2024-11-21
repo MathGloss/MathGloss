@@ -7,3 +7,5 @@ permalink: /context/mutually_left_adjoint
 
 
 SUGGESTION: mutually left adjoint functors
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

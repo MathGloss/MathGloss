@@ -8,3 +8,5 @@ $ 0 \to G \to E \to H \to 0.\footnote{The zeros appearing on the ends provide no
 A pair of group extensions $E$ and $E'$ of $G$ and $H$ are considered to be equivalent whenever there is an isomorphism $E \mathrm{co}ng E'$ that \emph{commutes with} the inclusions of $G$ and quotient maps to $H$, in a sense that is made precise in \S\ref{sec:diagram-chase}. The set of equivalence classes of \emph{abelian} group extensions $E$ of $H$ by $G$ defines an abelian group $\mathrm{Ext}(H,G)$.
 
 SUGGESTION: group extension
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

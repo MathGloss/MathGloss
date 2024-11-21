@@ -10,3 +10,5 @@ $\xymatrix{ \textup{\textsf{Top}}_* \ar@<1ex>[r]^{\Sigma } \ar@{}[r]|\perp & \te
 
 
 SUGGESTION: reduced suspension
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

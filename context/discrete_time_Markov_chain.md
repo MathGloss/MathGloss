@@ -28,3 +28,5 @@ from $F\dashv U$ to $F'\dashv U'$ is a functor $K : \mathsf{D} \to \mathsf{D}'$ 
 
 
 SUGGESTION: Kleisli category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

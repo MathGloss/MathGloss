@@ -12,3 +12,5 @@ $ \lim\inf_{n \to \infty} x_n \leq \lim\sup_{n \to \infty} x_n\rlap{,}}$
 
 
 SUGGESTION: lim sup of a sequence
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

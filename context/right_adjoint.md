@@ -7,3 +7,5 @@ permalink: /context/right_adjoint
 
 
 SUGGESTION: right adjoint functor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

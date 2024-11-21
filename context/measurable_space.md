@@ -36,3 +36,5 @@ The adjunction associated to a reflective subcategory of $\mathsf{C}$ induces an
 
 
 SUGGESTION: monad
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

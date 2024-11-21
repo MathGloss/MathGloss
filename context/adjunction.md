@@ -8,3 +8,5 @@ $ \xymatrix{ F \ar@{=>}[r]^-{F\eta} \ar@{=>}[dr]_{1_F} & FGF \ar@{=>}[d]^{\epsil
 
 
 SUGGESTION: adjunction
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -7,3 +7,5 @@ permalink: /context/subfunctor
 
 
 SUGGESTION: subfunctor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

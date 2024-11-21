@@ -7,3 +7,5 @@ permalink: /context/based_objects
 
 
 SUGGESTION: based object
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

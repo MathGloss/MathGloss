@@ -10,3 +10,5 @@ $ \xymatrix{ \textup{\textsf{Top}} \ar@<-1ex>[r]_-{\textup{Sing}} \ar@{}[r]|-\pe
 
 
 SUGGESTION: geometric realization of a simplicial set
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

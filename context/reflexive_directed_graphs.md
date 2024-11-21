@@ -14,3 +14,5 @@ If $U : \mathsf{D} \to \mathsf{C}$ has a left adjoint and if
 
 
 SUGGESTION: reflexive tripleability theorem
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -8,3 +8,5 @@ $ \xymatrix{ \bullet \ar[d] \ar[r] \ar[dr] \ar[drr]  \ar@/^1.5ex/[rr] & \bullet 
 
 
 SUGGESTION: commutative rectangle
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

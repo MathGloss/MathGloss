@@ -7,3 +7,5 @@ Combinatorialists refer to a functor $F: \textup{\textsf{Fin}}_{\mathrm{iso}} \t
 
 
 SUGGESTION: unlabeled F-structures
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

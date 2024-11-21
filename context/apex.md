@@ -15,3 +15,5 @@ $ \xymatrix@=10pt{ Fj \ar[dr]_{\lambda_j} \ar[rr]^{Ff} & & Fk\ar[dl]^{\lambda_k}
 
 
 SUGGESTION: cone over a diagram
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

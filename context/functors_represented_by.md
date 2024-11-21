@@ -12,3 +12,5 @@ The functor $\mathsf{C}(c,-)$ carries a morphism $f : x \to y$ to the post-compo
 
 
 SUGGESTION: functor represented by an object
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

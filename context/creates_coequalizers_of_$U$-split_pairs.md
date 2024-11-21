@@ -13,3 +13,5 @@ $ \xymatrix{ Ux \ar@<.5ex>[r]^{Uf} \ar@<-.5ex>[r]_{Ug} & Uy \ar[r]^h \ar@/^3ex/[
 
 
 SUGGESTION: $U$-split coequalizer
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

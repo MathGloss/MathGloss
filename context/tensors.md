@@ -10,3 +10,5 @@ $ \mathsf{C}(\textstyle\mathrm{co}prod_I A,X) \mathrm{co}ng \mathsf{C} (A,X)^I\r
 
 
 SUGGESTION: tensor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

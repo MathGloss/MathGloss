@@ -8,3 +8,5 @@ $ \xymatrix{ \bullet \ar[d] \ar[r] \ar[dr] & \bullet \ar[d] \\ \bullet \ar[r] & 
 
 
 SUGGESTION: commutative square
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -9,3 +9,5 @@ A projection $B \times F \to B$ defines a **trivial fiber space** over $B$, a de
 [resume]
 
 SUGGESTION: trivial fiber space
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

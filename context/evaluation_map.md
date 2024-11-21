@@ -7,3 +7,5 @@ permalink: /context/evaluation_map
 
 
 SUGGESTION: evaluation map
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

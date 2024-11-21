@@ -11,3 +11,5 @@ permalink: /context/strictly_creates
 
 
 SUGGESTION: strictly created limit
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -8,3 +8,5 @@ $ \xymatrix{ \mathsf{C} \ar@<1ex>[r]^F \ar@{}[r]|\perp &\mathsf{A} \ar@<1ex>[l]^
 } and sometimes fail for $\textup{\textsf{Poset}}$, $\textup{\textsf{Top}}$, and $\textup{\textsf{Field}}$,  which are not.\footnote{The functor $U : \textup{\textsf{Field}} \to \textup{\textsf{Set}}$ cannot be monadic: Example \ref{ex:field-no-adjoint} observes that it fails to admit any adjoints. Proofs that the forgetful functors $U : \textup{\textsf{Poset}} \to \textup{\textsf{Set}}$ and $U : \textup{\textsf{Top}} \to \textup{\textsf{Set}}$ are not monadic will appear shortly.}
 
 SUGGESTION: monadic category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

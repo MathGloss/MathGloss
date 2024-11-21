@@ -7,3 +7,5 @@ Definition \ref{defn:adjunction-unit} reveals that an adjunction can be defined 
 $ (-)^\mathsf{J} : \textup{\textsf{CAT}} \to \textup{\textsf{CAT}} \quad \mathrm{and} \quad \mathsf{E}^{(-)} : \textup{\textsf{Cat}}^\mathrm{op} \to \textup{\textsf{CAT}}$ define 2-functors for any small category $\mathsf{J}$ and locally small category $\mathsf{E}$.
 
 SUGGESTION: 2-functor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

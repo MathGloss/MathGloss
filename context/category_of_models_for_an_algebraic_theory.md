@@ -7,3 +7,5 @@ permalink: /context/category_of_models_for_an_algebraic_theory
 
 
 SUGGESTION: category of models for an algebraic theory
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -9,3 +9,5 @@ The right adjoint defines the **nerve** of a category, while the left adjoint co
 
 
 SUGGESTION: homotopy category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

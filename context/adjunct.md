@@ -7,3 +7,5 @@ permalink: /context/adjunct
 
 
 SUGGESTION: adjunct morphism
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

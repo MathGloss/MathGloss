@@ -8,3 +8,5 @@ The data of a diagram, together with a limit cone over it, is called a **limit d
 
 
 SUGGESTION: limit diagram
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

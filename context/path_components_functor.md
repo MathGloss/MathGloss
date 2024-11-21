@@ -11,3 +11,5 @@ $ \xymatrix{ \textup{Path}(X) \ar@<.5ex>[r]^-{\mathrm{ev}_0} \ar@<-.5ex>[r]_-{\m
 
 
 SUGGESTION: path components functor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

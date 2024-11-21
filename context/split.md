@@ -12,3 +12,5 @@ $ \xymatrix{ B\ \ar@{>->}[r]^s & A \ar@{->>}[r]^r & B & rs= 1_B}$ gives rise to 
 
 
 SUGGESTION: split idempotent
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

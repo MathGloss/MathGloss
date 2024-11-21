@@ -11,3 +11,5 @@ $ \xymatrix{ C \ar[dr]^a \ar@{-->}[d]^{\exists !}_k \\ E \ar[r]_h & A \ar@<.5ex>
 
 
 SUGGESTION: equalizer morphism
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

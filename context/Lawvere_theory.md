@@ -9,3 +9,5 @@ When the monad $T$ is finitary, the functor $I : \mathsf{N}^\mathrm{op} \to \mat
 [resume]
 
 SUGGESTION: Lawvere theory
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

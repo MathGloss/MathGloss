@@ -7,3 +7,5 @@ permalink: /context/indexing_category
 
 
 SUGGESTION: indexing category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

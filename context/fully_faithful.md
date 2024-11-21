@@ -7,3 +7,5 @@ permalink: /context/fully_faithful
 
 
 SUGGESTION: fully faithful functor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

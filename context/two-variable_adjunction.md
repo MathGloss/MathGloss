@@ -9,3 +9,5 @@ $ \mathsf{A} \times \mathsf{B} \xrightarrow{F} \mathsf{C}\rlap{,},} \quad \maths
 
 
 SUGGESTION: two-variable adjunction
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

@@ -19,3 +19,5 @@ $ F(g) F(f) = F(gf) = F(1_x) = 1_{Fx}\rlap{,}}$ Thus, $Fg : Fy \to Fx$ is a left
   Let $G$ be a group, regarded as a one-object category $\mathsf{B} G$. A functor $X : \mathsf{B} G \to \mathsf{C}$ specifies an object $X \in \mathsf{C}$ (the unique object in its image) together with an endomorphism $g_* : X \to X$ for each $g \in G$. This assignment must satisfy two conditions:
 
 SUGGESTION: group object
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

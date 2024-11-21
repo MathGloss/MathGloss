@@ -7,3 +7,5 @@ Like any abstract nonsense, this argument can be dualized. Dually, any $F : \mat
  Fc \mathrm{co}ng \mathrm{colim} (\mathsf{C}/c \xrightarrow{\Pi} \mathsf{C} \xrightarrow{F} \mathsf{D}), which is appropriately called the **coYoneda lemma**:
 
 SUGGESTION: coYoneda lemma
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

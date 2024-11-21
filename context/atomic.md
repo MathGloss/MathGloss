@@ -7,3 +7,5 @@ The adjunction supplies a natural bijection between functors $F(G) \to \mathsf{C
 
 
 SUGGESTION: atomic arrow
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

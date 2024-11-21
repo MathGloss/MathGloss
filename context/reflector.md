@@ -8,3 +8,5 @@ $ \xymatrix{ \mathsf{D} \ar@{^(->}@<-1ex>[r] \ar@{}[r]|-\perp & \mathsf{C}\rlap{
 
 
 SUGGESTION: reflector
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

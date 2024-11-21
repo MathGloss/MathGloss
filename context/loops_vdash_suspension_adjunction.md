@@ -10,3 +10,5 @@ $\xymatrix{ \textup{\textsf{Top}}_* \ar@<1ex>[r]^{\Sigma } \ar@{}[r]|\perp & \te
 
 
 SUGGESTION: loops vdash suspension adjunction
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

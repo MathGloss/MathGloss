@@ -10,3 +10,5 @@ in the category of algebras that is in the image of the free functor $F^T : \mat
 
 
 SUGGESTION: free $T$-algebra
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

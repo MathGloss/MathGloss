@@ -8,3 +8,5 @@ $ \xymatrix{ x \ar@<.5ex>[r]^f \ar@<-.5ex>[r]_g & y \ar[r]^h \ar@/^3ex/[l]^t & z
 
 
 SUGGESTION: split coequalizer diagram
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

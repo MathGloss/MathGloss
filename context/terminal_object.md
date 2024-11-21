@@ -7,3 +7,5 @@ permalink: /context/terminal_object
 
 
 SUGGESTION: terminal object
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

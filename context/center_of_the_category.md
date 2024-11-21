@@ -7,3 +7,5 @@ permalink: /context/center_of_the_category
 
 
 SUGGESTION: center of the category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

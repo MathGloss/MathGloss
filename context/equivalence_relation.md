@@ -41,3 +41,5 @@ Describe the limits and colimits in the poset of natural numbers with the order 
 
 
 SUGGESTION: equivalence relation
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

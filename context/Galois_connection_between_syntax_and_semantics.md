@@ -8,3 +8,5 @@ $ P(\text{Axiom}_\sigma)^\mathrm{op} \xrightarrow{\textup{True~in}} P(\text{Stru
 
 
 SUGGESTION: Galois connection
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

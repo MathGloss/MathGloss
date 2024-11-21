@@ -7,3 +7,5 @@ Objects in $\textup{\textsf{cgHaus}}$ are **compactly generated Hausdorff spaces
  The inclusion $\textup{\textsf{cgHaus}}\hookrightarrow\textup{\textsf{Haus}}$ has a right adjoint $k : \textup{\textsf{Haus}} \to \textup{\textsf{cgHaus}}$ called $k$-**ification**: the space $k(X)$ refines the topology on $X$ by adding to the collection of closed sets those subsets $A \subset X$ whose intersections with all compact subsets $K$ are closed.
 
 SUGGESTION: compactly generated Hausdorff space
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

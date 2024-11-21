@@ -10,3 +10,5 @@ $ \xymatrix@C=30pt{ \mathsf{C} \ar@/^4ex/[r]^*{F} \ar@/_4ex/[r]_*{G} \ar@{}[r]|*
   defined by the following lemma.
 
 SUGGESTION: horizontal composition
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

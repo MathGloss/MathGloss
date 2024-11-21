@@ -7,3 +7,5 @@ permalink: /context/sheafification
 $ \xymatrix{ \textup{\textsf{Shv}}_X \ar@{^(->}@<-1ex>[r] \ar@{}[r]|-\perp & \textup{\textsf{Set}}^{\mathcal{O}(X)^\mathrm{op}} \ar@<-1ex>[l]_{\textup{sheafify}}}$
 
 SUGGESTION: sheafification
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

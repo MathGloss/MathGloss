@@ -8,3 +8,5 @@ $ \xymatrix@C=65pt{ F(U)\ \ar@{>->}[r]^-{F(U_i \hookrightarrow U)} & \prod\limit
 
 
 SUGGESTION: sheaf
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

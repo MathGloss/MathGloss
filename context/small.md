@@ -7,3 +7,5 @@ permalink: /context/small
 
 
 SUGGESTION: small category
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

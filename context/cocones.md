@@ -20,3 +20,5 @@ A cone under $F$ with nadir $c$ is  comprised of a family of morphisms $(\lambda
 $ \xymatrix@R=35pt{ \cdots \ar[r]  \ar[drrr]^\cdots & F(-2) \ar[r]  \ar[drr]|(0.45){\mathrm{co}lorbox{white}{\makebox(12,5){\scriptsize$\lambda_{-2}$}}}& F(-1) \ar[dr]|(.45){\mathrm{co}lorbox{white}{\makebox(10,5){\scriptsize$\lambda_{-1}$}}}  \ar[r] & F0 \ar[d]|(.44){\mathrm{co}lorbox{white}{\makebox(10,6){\scriptsize$\lambda_{ 0}$}}}   \ar[r] & F1  \ar[dl]|(.44){\mathrm{co}lorbox{white}{\makebox(10,5){\scriptsize$\lambda_{1}$}}} \ar[r] & F2  \ar[dll]|(.44){\mathrm{co}lorbox{white}{\makebox(12,5){\scriptsize$\lambda_{2}$}}}   \ar[r] & \cdots  \ar[dlll]_\cdots \\ & & &c & & &   }$
 
 SUGGESTION: cone
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

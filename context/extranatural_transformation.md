@@ -10,3 +10,5 @@ The left-hand square asserts that the components $\alpha_{-,b,c} : F(-,b,b) \Rig
 
 
 SUGGESTION: Natural transformation
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

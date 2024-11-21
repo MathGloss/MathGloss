@@ -10,3 +10,5 @@ $ \textup{Conf}_n(X) :eqq \mathrm{colim} \left( \mathsf{B}\Sigma_n \xrightarrow{
 
 
 SUGGESTION: space of configurations of n points
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

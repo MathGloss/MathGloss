@@ -9,3 +9,5 @@ A functor $F : \mathsf{C} \to \mathsf{D}$ is
 
 
 SUGGESTION: faithful functor
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

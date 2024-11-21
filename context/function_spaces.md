@@ -7,3 +7,5 @@ By Exercise \ref{exc:hausdorff-reflective} and the dual of Proposition \ref{prop
 
 
 SUGGESTION: function space
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

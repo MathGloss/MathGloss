@@ -7,3 +7,5 @@ permalink: /context/universal_element
 
 
 SUGGESTION: universal element
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

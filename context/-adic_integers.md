@@ -9,3 +9,5 @@ $ \xymatrix{\mathbb{Z}_p = \varprojlim \mathbb{Z}/p^n  \ar@{->>}[r] &  \cdots \a
 
 
 SUGGESTION: $p$-adic integers
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

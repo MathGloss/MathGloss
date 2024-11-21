@@ -7,3 +7,5 @@ permalink: /context/Stone--vC
 $ \xymatrix@=10pt{ X \ar[rr] \ar[dr] & & K \\ & \beta X \ar@{-->}[ur]}$
 
 SUGGESTION: Stone--Čech compactification
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)
