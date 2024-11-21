@@ -117,7 +117,7 @@
 
                 // Create table headers
                 headers.forEach((header, index) => {
-                    $('#table-headers').append(`<th> <a href="${header}.html" class="source-link">${header}</a></th>`);
+                    $('#table-headers').append(`<th> <a href="${header.toLowerCase()}.html" class="source-link">${header}</a></th>`);
                     $('#toggle-buttons').append(`
                         <label class="toggle-column">
                             <input type="checkbox" checked data-column="${index}"> ${header}

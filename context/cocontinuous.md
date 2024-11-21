@@ -1,7 +1,3 @@
----
-layout: page
-title: cocontinuous
-permalink: /context/cocontinuous
----
-Theorems, such as \ref{thm:colimit-construction} and \ref{thm:finite-colimit-construction}, that reduce the construction of general limits and colimits to a handful of simple ones are particularly useful when it comes to proving that a category is **complete** or **cocomplete**---that is, has all small limits or colimits---or that a functor is **continuous** or **cocontinuous**---that is, preserves all small limits or colimits. The proofs
-reduce to checking a few cases. In this section, we describe the constructions of limits and colimits in various categories, in most cases leaving the proofs that these constructions have the claimed universal properties to the reader.
+Recall that a limit-preserving functor is called **continuous**; a colimit-preserving functor is called **cocontinuous**. Lemma \ref{lem:adjoint-criterion} reduces the problem of finding a left adjoint to a continuous functor $U : \mathsf{A} \to \mathsf{S}$ to the problem of finding an initial object in the comma category $s \mathrm{co}mma U$ defined for each $s \in \mathsf{S}$. This comma category, as the category of elements for $\mathsf{S}(s,U-) : \mathsf{A} \to \textup{\textsf{Set}}$, comes with a canonical forgetful functor $\Pi: s \mathrm{co}mma U \to \mathsf{A}$ that carries an object $s \to Ua$ to the object $a$.
+
+SUGGESTION: cocontinuous functor
