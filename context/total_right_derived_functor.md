@@ -1,7 +1,7 @@
 ---
 layout: page
 title: total right derived functor
-permalink: /context/total_right_derived_functor.md
+permalink: /context/total_right_derived_functor
 ---
 [\normalfont{total derived functors}] Consider a functor $F : \mathsf{C} \to \mathsf{D}$ between homotopical categories.
 

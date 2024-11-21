@@ -1,7 +1,7 @@
 ---
 layout: page
 title: G-space
-permalink: /context/G-space.md
+permalink: /context/G-space
 ---
 -  $e_* = 1_X$, where $e \in G$ is the identity element.
 

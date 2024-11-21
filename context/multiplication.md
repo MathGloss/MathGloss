@@ -1,7 +1,7 @@
 ---
 layout: page
 title: multiplication
-permalink: /context/multiplication.md
+permalink: /context/multiplication
 ---
  A **monad** on a category $\mathsf{C}$ consists of
 

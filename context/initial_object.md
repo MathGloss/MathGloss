@@ -1,7 +1,7 @@
 ---
 layout: page
 title: initial object
-permalink: /context/initial_object.md
+permalink: /context/initial_object
 ---
 
 Definitions \ref{defn:product}, \ref{defn:terminal}, \ref{defn:equalizer}, \ref{defn:pullback}, and \ref{defn:inverse} dualize to define:

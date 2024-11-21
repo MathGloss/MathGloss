@@ -1,7 +1,7 @@
 ---
 layout: page
 title: fiber space
-permalink: /context/fiber_space.md
+permalink: /context/fiber_space
 ---
  Following \cite{grothendieck-kansas}, define a **fiber space** $p : E \to B$ to be a morphism in $\textup{\textsf{Top}}$.  A map of fiber spaces is a commutative square. Thus, the category of fiber spaces is isomorphic to the diagram category $\textup{\textsf{Top}}^\mathbbe{2}$. We are also interested in the non-full subcategory $\textup{\textsf{Top}}/B \subset \textup{\textsf{Top}}^\mathbbe{2}$ of fiber spaces over $B$ and maps whose codomain component is the identity. Prove the following:
 

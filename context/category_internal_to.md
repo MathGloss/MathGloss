@@ -1,7 +1,7 @@
 ---
 layout: page
 title: category internal to
-permalink: /context/category_internal_to.md
+permalink: /context/category_internal_to
 ---
  A **small category** can be redefined to be a particular diagram in $\textup{\textsf{Set}}$. The data is given by a pair of suggestively-named sets with functions
 $ \xymatrix{ \mathrm{mor}\mathsf{C} \ar@<1ex>[r]^-\mathrm{dom} \ar@<-1ex>[r]_-\mathrm{cod} & \mathrm{ob} \mathsf{C} \ar[l]|-\mathrm{id}}$

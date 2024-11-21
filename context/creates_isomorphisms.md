@@ -1,7 +1,7 @@
 ---
 layout: page
 title: creates isomorphisms
-permalink: /context/creates_isomorphisms.md
+permalink: /context/creates_isomorphisms
 ---
  Show that a full and faithful functor $F : \mathsf{C} \to \mathsf{D}$ both **reflects** and **creates isomorphisms**. That is, show:
 

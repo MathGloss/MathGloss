@@ -1,7 +1,7 @@
 ---
 layout: page
 title: pointwise right Kan extension
-permalink: /context/pointwise_right_Kan_extension.md
+permalink: /context/pointwise_right_Kan_extension
 ---
 
 When $\mathsf{E}$ is locally small, a right Kan extension, as displayed below-right, is a **pointwise right Kan extension** if it is preserved by all representable functors $\mathsf{E}(e,-)$.

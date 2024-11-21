@@ -1,7 +1,7 @@
 ---
 layout: page
 title: vertical composition
-permalink: /context/vertical_composition.md
+permalink: /context/vertical_composition
 ---
 The composition operation defined in Lemma \ref{lem:vert-comp} is called **vertical composition**. Drawing the parallel functors horizontally, a composable pair of natural transformations in the category $\mathsf{D}^\mathsf{C}$ fits into a \emph{pasting diagram}
 $ \xymatrix@C=30pt{ \mathsf{C} \ar@/^4ex/[r]^*{F}_*{\Downarrow\alpha} \ar[r]|*{G} \ar@/_4ex/[r]_*{H}^*{\Downarrow\beta} & \mathsf{D} \ar@{}[r]|{\displaystyle =} & \mathsf{C} \ar@/^4ex/[r]^*{F} \ar@/_4ex/[r]_*{H} \ar@{}[r]|*{\Downarrow\beta \cdot \alpha} & \mathsf{D}}$

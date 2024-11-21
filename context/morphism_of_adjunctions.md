@@ -1,7 +1,7 @@
 ---
 layout: page
 title: morphism of adjunctions
-permalink: /context/morphism_of_adjunctions.md
+permalink: /context/morphism_of_adjunctions
 ---
  A **morphism of adjunctions** from $F \dashv G$ to $F' \dashv G'$ is comprised of a pair of functors
 $ \xymatrix{ \mathsf{C} \ar[r]^H \ar@<-1ex>[d]_F \ar@{}[d]|\dashv & \mathsf{C}' \ar@<-1ex>[d]_{F'} \ar@{}[d]|\dashv \\ \mathsf{D} \ar@<-1ex>[u]_G \ar[r]_K & \mathsf{D}' \ar@<-1ex>[u]_{G'}}$ so that the square with the left adjoints and the square with the right adjoints both commute (i.e., $KF=F'H$ and $HG = G'K$) and satisfying one additional condition, which takes a number of equivalent forms. Prove that the following are equivalent:

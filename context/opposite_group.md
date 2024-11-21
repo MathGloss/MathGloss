@@ -1,7 +1,7 @@
 ---
 layout: page
 title: opposite group
-permalink: /context/opposite_group.md
+permalink: /context/opposite_group
 ---
 -  If $G$ is a group, regarded as a one-object groupoid, the category $(\mathsf{B} G)^\mathrm{op} \mathrm{co}ng \mathsf{B} (G^\mathrm{op})$ is again a one-object groupoid, and hence a group. The group $G^\mathrm{op}$ is called the **opposite group** and is used to define right actions as a special case of left actions; see Example \ref{ex:G-actions}.
 

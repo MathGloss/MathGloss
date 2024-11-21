@@ -1,7 +1,7 @@
 ---
 layout: page
 title: unit
-permalink: /context/unit.md
+permalink: /context/unit
 ---
  A **monad** on a category $\mathsf{C}$ consists of
 

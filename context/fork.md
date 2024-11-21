@@ -1,7 +1,7 @@
 ---
 layout: page
 title: fork
-permalink: /context/fork.md
+permalink: /context/fork
 ---
 The condition $hf = hg$ says that this triple of maps defines a **fork**, i.e., $h$ is a cone under the parallel pair $f,g: x \rightrightarrows y$.
 

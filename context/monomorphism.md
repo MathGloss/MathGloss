@@ -1,7 +1,7 @@
 ---
 layout: page
 title: monomorphism
-permalink: /context/monomorphism.md
+permalink: /context/monomorphism
 ---
   A morphism $f : x \to y$ in a category is
 

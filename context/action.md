@@ -1,7 +1,7 @@
 ---
 layout: page
 title: action
-permalink: /context/action.md
+permalink: /context/action
 ---
 -  $e_* = 1_X$, where $e \in G$ is the identity element.
 

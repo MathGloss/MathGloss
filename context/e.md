@@ -1,7 +1,7 @@
 ---
 layout: page
 title: e
-permalink: /context/e.md
+permalink: /context/e
 ---
  For a fixed topological space $X$, there is a natural inclusion $\mathcal{O}(X) \to \textup{\textsf{Top}}/X$ that sends an open subset $U \subset X$ to the continuous function $U \hookrightarrow X$. Apply the construction of Remark \ref{rmk:lan-adjunction} to this functor to define an adjunction
 $ \xymatrix{ \textup{\textsf{Top}}/X \ar@<-1ex>[r] \ar@{}[r]|-\perp & \textup{\textsf{Set}}^{\mathcal{O}(X)^\mathrm{op}} \ar@<-1ex>[l]}$

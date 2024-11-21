@@ -1,7 +1,7 @@
 ---
 layout: page
 title: homomorphisms
-permalink: /context/homomorphisms.md
+permalink: /context/homomorphisms
 ---
  Let $\mathsf{C}$ be a category with a monad $(T,\eta,\mu)$. The **Eilenberg--Moore category** for $T$ or the **category of $T$-algebras** is the category $\mathsf{C}^T$ whose: 
 -  objects are pairs $(A \in \mathsf{C}, a : TA \to A)$, so that the diagrams

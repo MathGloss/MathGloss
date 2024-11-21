@@ -1,7 +1,7 @@
 ---
 layout: page
 title: automorphism group
-permalink: /context/automorphism_group.md
+permalink: /context/automorphism_group
 ---
 -  the **automorphism group** $\mathrm{Aut}(G)$, the group of isomorphisms $\phi : G \to G$ in $\textup{\textsf{Group}}$.
 

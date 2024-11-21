@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Markov kernels
-permalink: /context/Markov_kernels.md
+permalink: /context/Markov_kernels
 ---
 -  The Kleisli category for the Giry monad of Example \ref{exs:nat-monads}\eqref{itm:Giry} is the category of measurable spaces and **Markov kernels**. For instance, a finite set defines a measurable space with discrete $\sigma$-algebra. An endomorphism of this object in the Kleisli category is a **discrete time Markov chain**.
 

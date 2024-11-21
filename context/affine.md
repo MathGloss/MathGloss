@@ -1,7 +1,7 @@
 ---
 layout: page
 title: affine
-permalink: /context/affine.md
+permalink: /context/affine
 ---
 To make this precise, define $\textup{Aff}_\mathbbe{k}(A)$ to be the set of finite formal affine linear combinations  $\sum_{i=1}^n\lambda_i \mathbf{a}_i$ so that $\sum_{i=1}^n \lambda_i = 1$; a sum is **affine** precisely when the coefficients sum to $1 \in \mathbbe{k}$. Two finite formal affine linear combinations are identified if they can be converted to one another by permuting the summands, deleting  summands whose coefficient is 0, and combining summands involving the same element $\mathbf{a} \in A$ by adding the field coefficients. To say ``these can be evaluated'' means there is a function $\mathrm{ev}_A : \textup{Aff}_\mathbbe{k}(A) \to A$.  For this map to define a reasonable evaluation function, a few axioms are required:
 

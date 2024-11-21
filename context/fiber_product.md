@@ -1,7 +1,7 @@
 ---
 layout: page
 title: fiber product
-permalink: /context/fiber_product.md
+permalink: /context/fiber_product
 ---
  A **pullback** is a limit of a diagram indexed by the poset category $\bullet \to \bullet \leftarrow \bullet$ comprised of two non-identity morphisms with common codomain. Writing $f$ and $g$ for the morphisms defining the image of a diagram of this shape in a category $\mathsf{C}$, a cone with summit $D$ consists of a triple of morphisms, one for each object in the indexing category, so that both triangles in the diagram
  \xymatrix{ D \ar[d]_b \ar[r]^c \ar[dr]^a & C \ar[d]^g \\ B \ar[r]_f  & A}  commute; the two triangles  represent the two naturality conditions \eqref{eq:cone-naturality} imposed by the non-identity morphisms in the indexing category. The leg $a$ asserts that $gc$ and $fb$ have a common composite. Thus, the data of a cone over $B \xrightarrow{f} A \xleftarrow{g} C$ may be described more simply as a pair of morphisms $B \xleftarrow{b} D \xrightarrow{c} C$ defining a commutative square.

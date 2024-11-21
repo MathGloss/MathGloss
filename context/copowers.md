@@ -1,7 +1,7 @@
 ---
 layout: page
 title: copowers
-permalink: /context/copowers.md
+permalink: /context/copowers
 ---
 
  Iterated coproducts of an object $A \in \mathsf{C}$ are called **copowers** or **tensors**. For a set $I$, the $I$-indexed copower of $A$ is denoted $\mathrm{co}prod_I A$ or $I \cdot A$.

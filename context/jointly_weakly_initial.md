@@ -1,7 +1,7 @@
 ---
 layout: page
 title: jointly weakly initial
-permalink: /context/jointly_weakly_initial.md
+permalink: /context/jointly_weakly_initial
 ---
  $\quad$ 
  -  An object $c$ in a category $\mathsf{C}$ is **weakly initial** if for every $x \in \mathsf{C}$ there exists a morphism $c \to x$ (but possibly more than one).

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: slice categories
-permalink: /context/slice_categories.md
+permalink: /context/slice_categories
 ---
 -  There is a category $\mathsf{C}/c$ whose objects are morphisms $f : x \to c$ with codomain $c$ and in which a morphism from $f : x \to c$ to $g : y \to c$ is a map $h : x \to y$ between the domains so that the triangle
 $ \xymatrix@=10pt{ x \ar[rr]^h \ar[dr]_f && y \ar[dl]^g \\& c}$ **commutes**, i.e., so that $f = gh$.

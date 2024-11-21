@@ -1,7 +1,7 @@
 ---
 layout: page
 title: composite morphism
-permalink: /context/composite_morphism.md
+permalink: /context/composite_morphism
 ---
  A **category** consists of
 

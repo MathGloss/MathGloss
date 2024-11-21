@@ -1,7 +1,7 @@
 ---
 layout: page
 title: extranatural transformation
-permalink: /context/extranatural_transformation.md
+permalink: /context/extranatural_transformation
 ---
  Given a pair of functors $F : \mathsf{A} \times \mathsf{B} \times \mathsf{B}^\mathrm{op} \to \mathsf{D}$ and $G : \mathsf{A} \times \mathsf{C} \times \mathsf{C}^\mathrm{op} \to \mathsf{D}$, a family of morphisms $ \alpha_{a,b,c} : F(a,b,b) \to G(a,c,c)$ in $\mathsf{D}$ defines the components of an **extranatural transformation** $\alpha : F \Rightarrow G$ if for any $f : a \to a'$, $g : b \to b'$, and $h : c \to c'$ the following diagrams commute in $\mathsf{D}$:
 ${\xymatrix{ F(a,b,b) \ar[d]|{F(f,1_b,1_b)} \ar[r]^{\alpha_{a,b,c}} & G(a,c,c) \ar[d]|{G(f,1_c,1_c)} \\ F(a',b,b) \ar[r]_{\alpha_{a',b,c}} & G(a',c,c) }}

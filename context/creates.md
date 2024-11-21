@@ -1,7 +1,7 @@
 ---
 layout: page
 title: creates
-permalink: /context/creates.md
+permalink: /context/creates
 ---
  For any class of diagrams $K : \mathsf{J} \to \mathsf{C}$ valued in $\mathsf{C}$, a functor $F : \mathsf{C} \to \mathsf{D}$
 

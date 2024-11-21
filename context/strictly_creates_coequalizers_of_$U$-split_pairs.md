@@ -1,7 +1,7 @@
 ---
 layout: page
 title: strictly creates coequalizers of $U$-split pairs
-permalink: /context/strictly_creates_coequalizers_of_$U$-split_pairs.md
+permalink: /context/strictly_creates_coequalizers_of_$U$-split_pairs
 ---
  Given a functor $U : \mathsf{D} \to \mathsf{C}$:
 

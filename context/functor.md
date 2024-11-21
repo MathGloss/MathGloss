@@ -1,7 +1,7 @@
 ---
 layout: page
 title: functor
-permalink: /context/functor.md
+permalink: /context/functor
 ---
  A **functor** $F : \mathsf{C} \to \mathsf{D}$, between categories $\mathsf{C}$ and $\mathsf{D}$, consists of the following data:
 

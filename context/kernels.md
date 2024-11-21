@@ -1,7 +1,7 @@
 ---
 layout: page
 title: kernels
-permalink: /context/kernels.md
+permalink: /context/kernels
 ---
  A category is **abelian** if
 

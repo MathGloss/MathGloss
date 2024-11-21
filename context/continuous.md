@@ -1,7 +1,7 @@
 ---
 layout: page
 title: continuous
-permalink: /context/continuous.md
+permalink: /context/continuous
 ---
  A topological space may be defined to be a set $X$ equipped with a **closure operator** $\overline{(-)} : PX \to PX$ on its set of subsets satisfying four axioms for all $A,B \in PX$:
 $ (\mathrm{i})\ \overline{\emptyset} = \emptyset, \qquad (\mathrm{ii})\ A \subset\overline{A}, \qquad (\mathrm{iii})\

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: commutes
-permalink: /context/commutes.md
+permalink: /context/commutes
 ---
  Given categories $\mathsf{C}$ and $\mathsf{D}$ and functors $F,G : \mathsf{C} \rightrightarrows \mathsf{D}$, a **natural transformation** $\alpha : F \Rightarrow G$ consists of:
 

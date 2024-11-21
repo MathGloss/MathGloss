@@ -1,7 +1,7 @@
 ---
 layout: page
 title: convenient category of topological spaces
-permalink: /context/convenient_category_of_topological_spaces.md
+permalink: /context/convenient_category_of_topological_spaces
 ---
 [\textnormal{a convenient category of spaces}] The category $\textup{\textsf{Top}}$ is not cartesian closed. However, a famous paper of Steenrod proves that there exists a **convenient category of topological spaces** that is complete, cocomplete, cartesian closed, and sufficiently large so as to contain the CW complexes  \cite{steenrodconvenient}. Steenrod's convenient category is a subcategory of the category $, of Hausdorff spaces and continuous maps}$\textup{\textsf{Haus}}$ of Hausdorff spaces and continuous functions. Previous researchers had argued that a ``convenient category of spaces'' satisfying Steenrod's list of conditions did not exist, but Steenrod notes:
 

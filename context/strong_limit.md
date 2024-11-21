@@ -1,7 +1,7 @@
 ---
 layout: page
 title: strong limit
-permalink: /context/strong_limit.md
+permalink: /context/strong_limit
 ---
  Russell's paradox implies that there is no set whose elements are ``all sets.'' This is the reason why we have used the vague word ``collection'' in Definition \ref{defn:category}. Indeed, in each of the examples listed in \ref{exs:concrete-categories}, the collection of objects is not a set. Eilenberg and Mac Lane address this potential area of concern as follows:
 

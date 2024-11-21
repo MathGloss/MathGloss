@@ -1,7 +1,7 @@
 ---
 layout: page
 title: G-representation
-permalink: /context/G-representation.md
+permalink: /context/G-representation
 ---
 -  $e_* = 1_X$, where $e \in G$ is the identity element.
 

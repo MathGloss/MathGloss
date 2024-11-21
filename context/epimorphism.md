@@ -1,7 +1,7 @@
 ---
 layout: page
 title: epimorphism
-permalink: /context/epimorphism.md
+permalink: /context/epimorphism
 ---
   A morphism $f : x \to y$ in a category is
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: essentially surjective on objects
-permalink: /context/essentially_surjective_on_objects.md
+permalink: /context/essentially_surjective_on_objects
 ---
 
 A functor $F : \mathsf{C} \to \mathsf{D}$ is

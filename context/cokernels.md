@@ -1,7 +1,7 @@
 ---
 layout: page
 title: cokernels
-permalink: /context/cokernels.md
+permalink: /context/cokernels
 ---
  A category is **abelian** if
 

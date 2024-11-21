@@ -1,7 +1,7 @@
 ---
 layout: page
 title: free $T$-algebra
-permalink: /context/free_$T$-algebra.md
+permalink: /context/free_$T$-algebra
 ---
 
 A **free $T$-algebra** is an object

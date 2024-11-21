@@ -1,7 +1,7 @@
 ---
 layout: page
 title: solution set condition
-permalink: /context/solution_set_condition.md
+permalink: /context/solution_set_condition
 ---
 [\textnormal{General Adjoint Functor Theorem}] Let $U : \mathsf{A} \to \mathsf{S}$ be a continuous functor whose domain is locally small and complete. Suppose that $U$ satisfies the following **solution set condition**:
 

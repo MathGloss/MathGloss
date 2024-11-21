@@ -1,7 +1,7 @@
 ---
 layout: page
 title: reflexive directed graphs
-permalink: /context/reflexive_directed_graphs.md
+permalink: /context/reflexive_directed_graphs
 ---
 -  $U : \textup{\textsf{Cat}} \to \textup{\textsf{DirGraph}}$ is also monadic. The monad forms (the underlying graph of) the free category on a directed graph, where identities and composites of all finite directed paths are formally added. This functor factors through a second monadic functor $, of reflexive directed graphs and homomorphisms}$U : \textup{\textsf{Cat}} \to \textup{\textsf{rDirGraph}}$, whose target is the category whose objects are **reflexive directed graphs**, with specified ``identity'' endoarrows of each vertex.
 

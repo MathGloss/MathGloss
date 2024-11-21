@@ -1,7 +1,7 @@
 ---
 layout: page
 title: pointwise left Kan extension
-permalink: /context/pointwise_left_Kan_extension.md
+permalink: /context/pointwise_left_Kan_extension
 ---
 
 When $\mathsf{E}$ is locally small, a left Kan extension, as displayed below-left, is a **pointwise left Kan extension** if for all $e \in \mathsf{E}$ the data displayed below-right is a right Kan extension:

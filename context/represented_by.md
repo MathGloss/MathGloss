@@ -1,7 +1,7 @@
 ---
 layout: page
 title: represented by
-permalink: /context/represented_by.md
+permalink: /context/represented_by
 ---
 $\quad$
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: tensor product bifunctor
-permalink: /context/tensor_product_bifunctor.md
+permalink: /context/tensor_product_bifunctor
 ---
 
 Consider the hom bifunctor

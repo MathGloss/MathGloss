@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kleisli category
-permalink: /context/Kleisli_category.md
+permalink: /context/Kleisli_category
 ---
  Let $\mathsf{C}$ be a category with a monad $(T,\eta,\mu)$. The **Kleisli category**  $\mathsf{C}_T$ is defined so that
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: free T-algebra
-permalink: /context/free_T-algebra.md
+permalink: /context/free_T-algebra
 ---
 Various notations are common for the Eilenberg--Moore category, many involving the string ``alg '' to emphasize the interpretation of its objects as ``algebras'' of some sort. The notation used here, while less evocative, has the virtue of being concise.
 \

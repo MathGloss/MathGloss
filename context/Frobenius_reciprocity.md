@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Frobenius reciprocity
-permalink: /context/Frobenius_reciprocity.md
+permalink: /context/Frobenius_reciprocity
 ---
 [\textnormal{Frobenius reciprocity}]
 Example \ref{exs:free-forgetful}\eqref{itm:baby-induction} can be generalized: Example \ref{ex:repKan2} proves that for any complete and cocomplete category $\mathsf{C}$ and any group homomorphism $\phi : H \to G$, the restriction functor $\phi^* : \mathsf{C}^{\mathsf{B} G} \to \mathsf{C}^{\mathsf{B} H}$ admits both left and right adjoints. These are most commonly considered for subgroup inclusions $H\subset G$, in which case the left adjoint is called **induction** and the right adjoint is called **coinduction**:

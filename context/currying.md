@@ -1,7 +1,7 @@
 ---
 layout: page
 title: currying
-permalink: /context/currying.md
+permalink: /context/currying
 ---
  The product bifunctor
 $\textup{\textsf{Set}} \times \textup{\textsf{Set}} \xrightarrow{\times} \textup{\textsf{Set}}$ is closed: the operation called **currying** in computer science defines a family of natural isomorphisms

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: cone under
-permalink: /context/cone_under.md
+permalink: /context/cone_under
 ---
  A **cone over** a diagram $F : \mathsf{J} \to \mathsf{C}$ with **summit** or **apex** $c \in \mathsf{C}$ is a natural transformation $\lambda : c \Rightarrow F$ whose domain is the constant functor at $c$. The components $(\lambda_j : c \to Fj)_{j\in \mathsf{J}}$ of the natural transformation are called the **legs** of the cone. Explicitly:
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: localization functor
-permalink: /context/localization_functor.md
+permalink: /context/localization_functor
 ---
 [\normalfont{the universal property of the homotopy category}]
   Any homotopical category $\mathsf{C}$  has an associated **homotopy category** $\textup{\textsf{Ho}}\mathsf{C}$ characterized by the following universal property:

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: coproduct injections
-permalink: /context/coproduct_injections.md
+permalink: /context/coproduct_injections
 ---
 
 Definitions \ref{defn:product}, \ref{defn:terminal}, \ref{defn:equalizer}, \ref{defn:pullback}, and \ref{defn:inverse} dualize to define:

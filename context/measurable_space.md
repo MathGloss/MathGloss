@@ -1,7 +1,7 @@
 ---
 layout: page
 title: measurable space
-permalink: /context/measurable_space.md
+permalink: /context/measurable_space
 ---
 -  The **Giry monad** acts on the category $\textup{\textsf{Meas}}$ of measurable spaces and measurable functions. A **measurable space** is a set equipped with a $\sigma$-\emph{algebra} of ``measurable'' subsets, and a function $f : A \to B$ between measurable spaces is **measurable** if the preimage of any measurable subset of $B$ is a measurable subset of $A$. The Giry monad sends a measurable space $A$ to the measurable space $\textup{Prob}(A)$ of \emph{probability measures} on $A$, equipped with the smallest $\sigma$-algebra so that, for each measurable subset $X \subset A$, the evaluation function $\mathrm{ev}_X : \textup{Prob}(A) \to I$ is measurable. The unit is the measurable function  $\eta_A : A \to \textup{Prob}(A)$  that sends each element $a \in A$ to the Dirac measure, which assigns a subset the probability 1 if it contains $a$ and 0 otherwise.   The multiplication is defined using integration; see \cite{Giry-Probability} or \cite{Avery-Codensity} for details.
 

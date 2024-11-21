@@ -1,7 +1,7 @@
 ---
 layout: page
 title: objects
-permalink: /context/objects.md
+permalink: /context/objects
 ---
  A **category** consists of
 

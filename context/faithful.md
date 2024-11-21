@@ -1,7 +1,7 @@
 ---
 layout: page
 title: faithful
-permalink: /context/faithful.md
+permalink: /context/faithful
 ---
 
 A functor $F : \mathsf{C} \to \mathsf{D}$ is

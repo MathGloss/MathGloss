@@ -1,7 +1,7 @@
 ---
 layout: page
 title: lim inf
-permalink: /context/lim_inf.md
+permalink: /context/lim_inf
 ---
 A function $x : \mathbb{N} \to \mathbb{R}$ defines a sequence $(x_n)_{n \in \mathbb{N}}$ of real numbers. The **lim inf** and **lim sup** is defined by regarding the sequence as a bifunctor $\mathbb{N} \times \mathbb{N} \xrightarrow{+} \mathbb{N} \xrightarrow{x} \mathbb{R}$ indexed by the discrete category $\mathbb{N} \times \mathbb{N}$:
 $ \lim \inf_{n \to \infty} x_n = \adjustlimits\sup_{n \geq 0} \inf_{m \geq n} x_m = \adjustlimits\sup_{n \geq 0} \inf_{m \geq 0} x_{n+m} = \mathrm{colim}_n \lim_m x_{n+m}$

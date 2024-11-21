@@ -1,7 +1,7 @@
 ---
 layout: page
 title: coalgebras
-permalink: /context/coalgebras.md
+permalink: /context/coalgebras
 ---
 -  An algebra for the closure closure operator\footnote{This is not a typo: Example \ref{ex:closure-operator} describes a closure operator on the poset of subsets of a topological space that sends a subset to its closure.}
 on the poset of subsets of a topological space $X$ is exactly a closed subset of $X$. Dually, a coalgebra\footnote{Interpreting Definition \ref{defn:EM} for a monad $(T,\eta,\mu)$ on $\mathsf{C}^\mathrm{op}$ defines the category of **coalgebras** for the comonad on $\mathsf{C}$; see Exercise \ref{exc:coEM}.} for the interior kernel operator is exactly an open subset.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: trivial fiber space
-permalink: /context/trivial_fiber_space.md
+permalink: /context/trivial_fiber_space
 ---
 -  The fiber of a product of fiber spaces is the product of the fibers.
 

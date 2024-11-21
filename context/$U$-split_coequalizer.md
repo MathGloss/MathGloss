@@ -1,7 +1,7 @@
 ---
 layout: page
 title: $U$-split coequalizer
-permalink: /context/$U$-split_coequalizer.md
+permalink: /context/$U$-split_coequalizer
 ---
  Given a functor $U : \mathsf{D} \to \mathsf{C}$:
 

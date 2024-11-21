@@ -1,7 +1,7 @@
 ---
 layout: page
 title: right deformation
-permalink: /context/right_deformation.md
+permalink: /context/right_deformation
 ---
  $\quad$
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: natural transformation
-permalink: /context/natural_transformation.md
+permalink: /context/natural_transformation
 ---
  Given categories $\mathsf{C}$ and $\mathsf{D}$ and functors $F,G : \mathsf{C} \rightrightarrows \mathsf{D}$, a **natural transformation** $\alpha : F \Rightarrow G$ consists of:
 

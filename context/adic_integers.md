@@ -1,7 +1,7 @@
 ---
 layout: page
 title: adic integers
-permalink: /context/adic_integers.md
+permalink: /context/adic_integers
 ---
  For instance, the $p$-**adic integers** are defined to be the limit of an $\bbomega^\mathrm{op}$-indexed diagram of rings
 $ \xymatrix{ \mathbb{Z}_p :eqq \lim_n \mathbb{Z}/p^n \ar[r] & \cdots \ar[r] & \mathbb{Z}/p^3 \ar[r] & \mathbb{Z}/p^2 \ar[r] & \mathbb{Z}/p}$ By Example \ref{ex:set-inverse}, because  $U : \textup{\textsf{Ring}} \to \textup{\textsf{Set}}$ preserves limits, as a set

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: truncation
-permalink: /context/truncation.md
+permalink: /context/truncation
 ---
 
 Write $\DDelta_{\leq n}$ for the full subcategory spanned by the first $n+1$ ordinals $[0],\ldots, [n]$ in $\DDelta$. Restriction along the inclusion functor $i_n : \DDelta_{\leq n} \hookrightarrow \DDelta$ is called $n$-**truncation**. As $\textup{\textsf{Set}}$ is complete and cocomplete, Corollary \ref{cor:kan-exist} implies that $n$-truncation admits both left and right adjoints:

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: sequential colimit
-permalink: /context/sequential_colimit.md
+permalink: /context/sequential_colimit
 ---
 
 Definitions \ref{defn:product}, \ref{defn:terminal}, \ref{defn:equalizer}, \ref{defn:pullback}, and \ref{defn:inverse} dualize to define:

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: natural isomorphism
-permalink: /context/natural_isomorphism.md
+permalink: /context/natural_isomorphism
 ---
  Given categories $\mathsf{C}$ and $\mathsf{D}$ and functors $F,G : \mathsf{C} \rightrightarrows \mathsf{D}$, a **natural transformation** $\alpha : F \Rightarrow G$ consists of:
 

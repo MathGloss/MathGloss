@@ -1,7 +1,7 @@
 ---
 layout: page
 title: bijections
-permalink: /context/bijections.md
+permalink: /context/bijections
 ---
 -  The isomorphisms in $\textup{\textsf{Set}}$ are precisely the **bijections**.
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: terminal
-permalink: /context/terminal.md
+permalink: /context/terminal
 ---
 [\normalfont{a representable characterization of initial or terminal objects}]  $\quad$
 

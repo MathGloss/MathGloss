@@ -1,7 +1,7 @@
 ---
 layout: page
 title: identity morphism
-permalink: /context/identity_morphism.md
+permalink: /context/identity_morphism
 ---
  A **category** consists of
 

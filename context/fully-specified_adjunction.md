@@ -1,7 +1,7 @@
 ---
 layout: page
 title: fully-specified adjunction
-permalink: /context/fully-specified_adjunction.md
+permalink: /context/fully-specified_adjunction
 ---
  Proposition  \ref{prop:unified-adjunction} reveals that the data of a **fully-specified adjunction** can be presented in two equivalent forms: it consists of a pair of functors $F : \mathsf{C} \rightleftarrows \mathsf{D} : G$ together with
 

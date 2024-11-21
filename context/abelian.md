@@ -1,7 +1,7 @@
 ---
 layout: page
 title: abelian
-permalink: /context/abelian.md
+permalink: /context/abelian
 ---
  A category is **abelian** if
 

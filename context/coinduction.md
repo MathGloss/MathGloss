@@ -1,7 +1,7 @@
 ---
 layout: page
 title: coinduction
-permalink: /context/coinduction.md
+permalink: /context/coinduction
 ---
 
 The objects of the functor category _\mathbbe{k}^{\mathsf{B} G}$, of $G$-representations and equivariant linear maps}$\textup{\textsf{Vect}}_\mathbbe{k}^{\mathsf{B} G}$ are $G$-representations over the field $\mathbbe{k}$, and arrows are $G$-equivariant linear maps. If $H$ is a subgroup of $G$, restriction $\textup{res}_H^G : \textup{\textsf{Vect}}_\mathbbe{k}^{\mathsf{B} G} \to \textup{\textsf{Vect}}_\mathbbe{k}^{\mathsf{B} H}$ of a $G$-representation to an $H$-representation is simply pre-composition by the inclusion functor $\mathsf{B} H \hookrightarrow \mathsf{B} G$. This functor has a left adjoint, called **induction**, and a  right adjoint, called **coinduction**.

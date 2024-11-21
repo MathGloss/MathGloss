@@ -1,7 +1,7 @@
 ---
 layout: page
 title: direct limit
-permalink: /context/direct_limit.md
+permalink: /context/direct_limit
 ---
 
 Definitions \ref{defn:product}, \ref{defn:terminal}, \ref{defn:equalizer}, \ref{defn:pullback}, and \ref{defn:inverse} dualize to define:

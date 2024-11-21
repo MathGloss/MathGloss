@@ -1,7 +1,7 @@
 ---
 layout: page
 title: opposite category
-permalink: /context/opposite_category.md
+permalink: /context/opposite_category
 ---
  Let $\mathsf{C}$ be any category. The **opposite category** $\mathsf{C}^\mathrm{op}$ has
 

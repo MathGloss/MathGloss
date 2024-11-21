@@ -1,7 +1,7 @@
 ---
 layout: page
 title: zero object
-permalink: /context/zero_object.md
+permalink: /context/zero_object
 ---
  A category is **abelian** if
 

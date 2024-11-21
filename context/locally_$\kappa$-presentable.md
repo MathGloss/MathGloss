@@ -1,7 +1,7 @@
 ---
 layout: page
 title: locally $\kappa$-presentable
-permalink: /context/locally_$\kappa$-presentable.md
+permalink: /context/locally_$\kappa$-presentable
 ---
  Let $\kappa$ be a regular cardinal.\footnote{A  **regular cardinal** is an infinite cardinal $\kappa$ with the property that every union of fewer than $\kappa$ sets each of cardinality less than $\kappa$ has cardinality less than $\kappa$.} A locally small category $\mathsf{C}$ is **locally $\kappa$-presentable** if it is cocomplete and if it has a set of objects $S$ so that:
 

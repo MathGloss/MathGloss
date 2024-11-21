@@ -1,7 +1,7 @@
 ---
 layout: page
 title: absolute colimit
-permalink: /context/absolute_colimit.md
+permalink: /context/absolute_colimit
 ---
 
 The underlying fork of a split coequalizer diagram is a coequalizer. Moreover, it is an **absolute colimit**: any functor preserves this coequalizer.

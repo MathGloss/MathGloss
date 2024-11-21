@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Grothendieck topos
-permalink: /context/Grothendieck_topos.md
+permalink: /context/Grothendieck_topos
 ---
 Given a small category $\mathsf{C}$, a **presheaf** is another name for a contravariant set-valued functor on $\mathsf{C}$.  A **Grothendieck topos** is a reflective full subcategory $\mathsf{E}$ of a presheaf category
 $ \xymatrix{ \mathsf{E} \ar@<-1ex>@{^(->}[r] \ar@{}[r]|-\perp & \textup{\textsf{Set}}^{\mathsf{C}^\mathrm{op}} \ar@<-1ex>[l]_-L}$ with the property that the left adjoint preserves finite limits.\footnote{Propositions \ref{prop:reflective-colimit} and \ref{prop:pointwise-limits} imply that $\mathsf{E}$ is cocomplete, so this adjunction can be defined as in Remark \ref{rmk:lan-adjunction} from the functor $L y : \mathsf{C} \to \mathsf{E}$ that is the restriction of the left adjoint along the Yoneda embedding.}

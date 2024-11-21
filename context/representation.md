@@ -1,7 +1,7 @@
 ---
 layout: page
 title: representation
-permalink: /context/representation.md
+permalink: /context/representation
 ---
 $\quad$
 

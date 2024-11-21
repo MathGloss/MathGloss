@@ -1,7 +1,7 @@
 ---
 layout: page
 title: comma category
-permalink: /context/comma_category.md
+permalink: /context/comma_category
 ---
 
 Given functors $F : \mathsf{D} \to \mathsf{C}$ and $G : \mathsf{E} \to \mathsf{C}$, show that there is a category, called the **comma category** $F \mathrm{co}mma G$, which has

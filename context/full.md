@@ -1,7 +1,7 @@
 ---
 layout: page
 title: full
-permalink: /context/full.md
+permalink: /context/full
 ---
 
 A functor $F : \mathsf{C} \to \mathsf{D}$ is

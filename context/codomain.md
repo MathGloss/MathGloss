@@ -1,7 +1,7 @@
 ---
 layout: page
 title: codomain
-permalink: /context/codomain.md
+permalink: /context/codomain
 ---
  A **category** consists of
 

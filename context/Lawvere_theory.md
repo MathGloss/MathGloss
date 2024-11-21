@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lawvere theory
-permalink: /context/Lawvere_theory.md
+permalink: /context/Lawvere_theory
 ---
 -  Show that the categories $\mathsf{N}^\mathrm{op}$ and $\mathsf{L}$ have strictly associative finite products that are preserved by the functor $I : \mathsf{N}^\mathrm{op} \to \mathsf{L}$.
 

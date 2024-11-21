@@ -1,7 +1,7 @@
 ---
 layout: page
 title: morphisms
-permalink: /context/morphisms.md
+permalink: /context/morphisms
 ---
  A **category** consists of
 

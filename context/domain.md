@@ -1,7 +1,7 @@
 ---
 layout: page
 title: domain
-permalink: /context/domain.md
+permalink: /context/domain
 ---
  A **category** consists of
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: cocones
-permalink: /context/cocones.md
+permalink: /context/cocones
 ---
 Cones under a diagram are also called **cocones**---a cone under $F : \mathsf{J} \to \mathsf{C}$ is precisely a cone over $F : \mathsf{J}^\mathrm{op} \to \mathsf{C}^\mathrm{op}$---but we find the terminology  ``under'' and ``over'' to be more evocative.  To illustrate, if $F$ is a diagram indexed by the poset category $(\mathbb{Z},\leq)$, then a cone over $F$ with summit $c$ is comprised of a family of morphisms $(\lambda_n : c \to Fn)_{n \in \mathbb{Z}}$ so that, for each $n \leq m$, the triangle  defined by the morphisms  $\lambda_n$, $\lambda_m$, and $Fn \to Fm$ commutes:
 \xymatrix@R=35pt{

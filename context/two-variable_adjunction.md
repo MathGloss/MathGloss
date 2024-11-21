@@ -1,7 +1,7 @@
 ---
 layout: page
 title: two-variable adjunction
-permalink: /context/two-variable_adjunction.md
+permalink: /context/two-variable_adjunction
 ---
 
 A triple of bifunctors

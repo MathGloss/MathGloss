@@ -1,7 +1,7 @@
 ---
 layout: page
 title: total left derived functor
-permalink: /context/total_left_derived_functor.md
+permalink: /context/total_left_derived_functor
 ---
 [\normalfont{total derived functors}] Consider a functor $F : \mathsf{C} \to \mathsf{D}$ between homotopical categories.
 

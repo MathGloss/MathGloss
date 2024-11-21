@@ -1,7 +1,7 @@
 ---
 layout: page
 title: G-set
-permalink: /context/G-set.md
+permalink: /context/G-set
 ---
 -  $e_* = 1_X$, where $e \in G$ is the identity element.
 

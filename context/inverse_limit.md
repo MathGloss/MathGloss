@@ -1,7 +1,7 @@
 ---
 layout: page
 title: inverse limit
-permalink: /context/inverse_limit.md
+permalink: /context/inverse_limit
 ---
  The limit of a diagram indexed by the category $\bbomega^\mathrm{op}$ is called an **inverse limit** of a tower or a sequence of morphisms. On account of this example, the term ``inverse limit'' is sometimes used to refer to limits of any shape. A diagram indexed by $\bbomega^\mathrm{op}$ consists of a sequence of objects and morphisms
 $ \xymatrix{ \cdots \ar[r] & F_3 \ar[r] & F_2 \ar[r] & F_1 \ar[r] & F_0}$ together with composites and identities, which are not displayed. A cone over this diagram is an extension of this data to a diagram of shape $(\bbomega +1)^\mathrm{op}$. Explicitly, a cone consists of a new object ``all the way to the left'' together with morphisms making every triangle commute:

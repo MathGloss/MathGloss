@@ -1,7 +1,7 @@
 ---
 layout: page
 title: space of ordered configurations of n points
-permalink: /context/space_of_ordered_configurations_of_n_points.md
+permalink: /context/space_of_ordered_configurations_of_n_points
 ---
 More formally, the **space of ordered configurations of $n$ points** is a subspace of the product space $X^n$, namely the complement of the ``fat diagonal''
 $ \textup{PConf}_n(X) :eqq \big\{ (x_1,\ldots, x_n) \in X^n \bigm| x_i \neq x_j\ \forall i \neq j\big\}\rlap{,}}$

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: category of elements
-permalink: /context/category_of_elements.md
+permalink: /context/category_of_elements
 ---
  The  **category of elements** $, the category of elements for a set-valued functor $F$}$}$\textstyle{\int}\!{F}$ of a contravariant functor $F : \mathsf{C}^\mathrm{op} \to \textup{\textsf{Set}}$  has
 

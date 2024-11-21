@@ -1,7 +1,7 @@
 ---
 layout: page
 title: model
-permalink: /context/model.md
+permalink: /context/model
 ---
 -  Show that the categories $\mathsf{N}^\mathrm{op}$ and $\mathsf{L}$ have strictly associative finite products that are preserved by the functor $I : \mathsf{N}^\mathrm{op} \to \mathsf{L}$.
 

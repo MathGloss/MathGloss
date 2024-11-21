@@ -1,7 +1,7 @@
 ---
 layout: page
 title: point-set right derived functor
-permalink: /context/point-set_right_derived_functor.md
+permalink: /context/point-set_right_derived_functor
 ---
 [\normalfont{point-set derived functors}] Consider a pair of homotopical categories and localization functors $\gamma : \mathsf{C} \to \textup{\textsf{Ho}}\mathsf{C}$ and $\delta : \mathsf{D} \to \textup{\textsf{Ho}}\mathsf{D}$.
 

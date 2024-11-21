@@ -1,7 +1,7 @@
 ---
 layout: page
 title: category
-permalink: /context/category.md
+permalink: /context/category
 ---
  A **category** consists of
 

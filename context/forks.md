@@ -1,7 +1,7 @@
 ---
 layout: page
 title: forks
-permalink: /context/forks.md
+permalink: /context/forks
 ---
 
 Definitions \ref{defn:product}, \ref{defn:terminal}, \ref{defn:equalizer}, \ref{defn:pullback}, and \ref{defn:inverse} dualize to define:

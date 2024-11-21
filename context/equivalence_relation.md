@@ -1,7 +1,7 @@
 ---
 layout: page
 title: equivalence relation
-permalink: /context/equivalence_relation.md
+permalink: /context/equivalence_relation
 ---
 -  There is a transitivity map $\tau$ whose domain is the pullback of $t$ along $s$
 $ \xymatrix{ R \times_X R \ar[d]_{\tilde{s}} \ar[r]^-{\tilde{t}} \ar@{}[dr]|(.2){\displaystyle\lrcorner} & R \ar[r]^t \ar[d]_s & X \\ R \ar[r]^t \ar[d]_s & X \\ X}$  This diagram defines a cone over the pullback defining $R$ and thus induces a map

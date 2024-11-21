@@ -1,7 +1,7 @@
 ---
 layout: page
 title: monad
-permalink: /context/monad.md
+permalink: /context/monad
 ---
  A **monad** on a category $\mathsf{C}$ consists of
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: preserves
-permalink: /context/preserves.md
+permalink: /context/preserves
 ---
 
 A functor $L : \mathsf{E} \to \mathsf{F}$ **preserves** a left Kan extension $(\mathrm{Lan}_KF,\eta)$ if the whiskered composite $(L \mathrm{Lan}_K F, L\eta)$ is the left Kan extension of $LF$ along $K$.

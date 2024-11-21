@@ -1,7 +1,7 @@
 ---
 layout: page
 title: reflexive
-permalink: /context/reflexive.md
+permalink: /context/reflexive
 ---
 -  $\mathsf{D}$ has coequalizers of reflexive\footnote{A parallel pair $f,g : A \rightrightarrows B$ is **reflexive** if both maps admit a common section $s : B \to A$.} pairs,
 

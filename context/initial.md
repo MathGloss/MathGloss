@@ -1,7 +1,7 @@
 ---
 layout: page
 title: initial
-permalink: /context/initial.md
+permalink: /context/initial
 ---
 [\normalfont{a representable characterization of initial or terminal objects}]  $\quad$
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: coequalizer
-permalink: /context/coequalizer.md
+permalink: /context/coequalizer
 ---
 
 Definitions \ref{defn:product}, \ref{defn:terminal}, \ref{defn:equalizer}, \ref{defn:pullback}, and \ref{defn:inverse} dualize to define:

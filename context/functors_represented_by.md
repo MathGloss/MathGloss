@@ -1,7 +1,7 @@
 ---
 layout: page
 title: functors represented by
-permalink: /context/functors_represented_by.md
+permalink: /context/functors_represented_by
 ---
 
 If $\mathsf{C}$ is locally small, then for any object $c\in \mathsf{C}$ we may define a pair of covariant and contravariant **functors represented by** $c$:

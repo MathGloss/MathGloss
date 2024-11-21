@@ -1,7 +1,7 @@
 ---
 layout: page
 title: simplex category
-permalink: /context/simplex_category.md
+permalink: /context/simplex_category
 ---
 -  Presheaves on the category $\DDelta$, of finite non-empty ordinals and order-preserving maps, are called **simplicial sets**. $\DDelta$ is also called the **simplex category**. The ordinal $n+1 = \{0,1,\ldots, n\}$ may be thought of as a direct version of  the topological $n$-simplex and, with this interpretation in mind, is typically denoted by ``$[n]$'' by algebraic topologists.
 
