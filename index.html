@@ -31,6 +31,7 @@
                 padding: 8px;
                 text-align: left;
                 word-wrap: break-word; /* Ensure long text wraps */
+                white-space: normal; /* Ensure long text wraps */
             }
             th {
                 background-color: #f8f9fa;
@@ -147,7 +148,7 @@
                 $("#glossary-table").tablesorter();
 
                 // Toggle column visibility
-                $('input[type="checkbox"]').change(function() {
+                $('.toggle-column').on('click', function() {
                     const column = $(this).data('column');
                     const isChecked = $(this).is(':checked');
                     $(`#glossary-table tr th:nth-child(${column + 1}), #glossary-table tr td:nth-child(${column + 1})`).toggle(isChecked);
