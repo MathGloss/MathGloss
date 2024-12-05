@@ -1,0 +1,1644 @@
+Let $ G $ be a compact topological group and let $ int_G $ be an invariant vector - valued integral.
+Let $ rho $ be a continuous group representation into the vector space $ V $ .
+For a fixed $ vin V $ , consider the function $ f_v:Gto V $ such that $ gmapsto rho(g)v $ .
+Define a linear transformation $ text{Av}_rho:Vto V $ by the formula $ text{Av}_rho(v) = frac{1}{text{vol}(G)}int_G rho(g)vtext dg $ .
+Heuristically, we can say that this is the barycenter of the $ G $ - orbit of $ v $ .
+Let $ mathcal C $ be a small groupoid and let $ x $ be an object of $ mathcal C $ .
+The star of $ x $ , denoted $ text{St}(x) $ , is the set of objects of the category of objects under $ x $ .
+That is, it is the set of morphisms with source $ x $ .
+The group $ mathcal C(x,x) $ of automorphisms of $ x $ is written $ pi(mathcal C,x) $ .
+A topological space $ X $ is a $ k $ - space if every compactly closed subspace of $ X $ is closed.
+Any topological space $ X $ can be made a $ k $ - space by endowing it with a new topology in which a subspace is closed if and only if it is compactly closed in the original topology.
+The resulting space is denoted $ kX $ .
+The identity function $ kXto X $ is continuous.
+If $ X $ is weak Hausdorff, then so is $ kX $ , so $ kX $ is compactly generated so that $ X $ and $ kX $ have exactly the same compact subsets.
+Let $ A $ be an algebra over the field $ mathbb k $ .
+The elements $ {a_i}_{iin I} $ generate $ A $ if every element $ alphain A $ can be written (not necessarily uniquely) as a polynomial in the $ a_i $ with coefficients in $ mathbb k $ .
+Let $ Usubsetmathbb R^n $ be an open subset and let $ f:Utomathbb R $ .
+The point $ a in U $ is a local minimum of $ f $ if there is a neighborhood $ V $ of $ a $ such that for all $ x in V $ , $ f(a)leq f(x) $ .
+Consider a topological space $ X $ and consider the chain complex given by the groups of singular n - chains of $ X $ .
+The $ n $ th homology group $ text{Ker}(partial_{n})/text{Im}(partial_{n+1}) $ is denoted $ H_n(X) $ and is called the $ n $ th singular homology group of $ X $ .
+A Borel space is a measurable space $ (X, B) $ given by the Borel σ - algebra on $ X $ .
+the aka on wikidata here is not correct
+Let $ v_0,dots,v_n $ be an n - simplex.
+We get from the order on the vertices a canonical linear homeomorphism from $ Delta^n $ to any other $ n $ - simplex that preserves the order of the vertices: $ (t_0,dots,t_n)mapsto sum_i t_iv_i $ .
+The $ t_i $ are called the barycentric coordinates of the point $ sum_i t_iv_i in v_0,dots,v_n $ .
+Let $ G $ be a group acting on the set $ X $ .
+Then $ G $ also acts on the power set $ mathcal P(X) $ as follows:
+If $ Yin mathcal P(X) $ , then $ Ysubset X $ .
+Define $ gcdot Y ={gcdot ymid yin Y} $ .
+The topological space constructed in the proof that every group is a fundamental group is called the homotopy cofiber of the map $ p $ therein.
+A subset $ E $ of the metric space $ (X,rho) $ is totally bounded if for all $ varepsilon > 0 $ , there exists a finite set $ {x_i}_{i=1}^n $ of points in $ X $ such that $ E subseteq bigcup_{i=1}^n B(x_i, varepsilon), $ where $ B(x_i, varepsilon) = {x in X mid rho(x_i,x)< varepsilon} $ .
+That is, for every $ varepsilon > 0 $ , $ E $ can be covered by a finite set of balls of radius $ varepsilon $ .
+The conjugate matrix transpose of a complex $ mtimes n $ matrix $ A $ is the $ n times m $ matrix $ A^* $ given by taking the usual matrix transpose $ A^T $ and then setting $ A^* $ to be the matrix whose entries are the complex conjugate of each entry of $ A^T $ .
+An algebra over a field $ F $ is a vector space $ U $ over $ F $ with a bilinear binary operation $ Utimes U to U $ that is not necessarily associative but that follows left and right distributivity.
+One can loosen this definition and only require $ F $ to be a commutative ring.
+Let $ Msubsetmathbb R^n $ be a compact, oriented embedded m - dimensional manifold with boundary.
+Let $ U $ be an open set containing $ M $ and $ omega $ an m - form on $ U $ .
+For each $ p in M $ , choose a smooth local parametrization $ phi_p: U_p to M $ compatible with the orientation on $ M $ .
+Then the image $ phi_p(U_p) $ is an open subset of $ M $ , so there exists an open set $ V_p subset mathbb R^n $ such that $ phi_p(U_p) = V_p cap M $ because of the subspace topology.
+Since $ M $ is compact, finitely many of these $ V_p $ cover $ M $ .
+Call them $ V_i $ for $ 1leq i leq k $ .
+Then $ V = bigcuplimits_{i=1}^k V_i $ is an open set containing $ M $ .
+Let $ {psi_j} $ be a partition of unity subordinate to the $ V_i $ .
+Then $ omega = sum_{j} psi_j omega $ , so define $ int_M omega = sum_{j} psi_jomega $ .
+The Kronecker delta $ delta_{ij} $ is a function of the two variables $ i $ and $ j $ defined by $ delta_{ij} = } $
+The width of a rectangle $ Q $ in $ mathbb R^n $ is the maximum of the lengths of the component intervals of $ Q $ : $ text{width}(Q)= max_{1leq i leq n} (b_i - a_i) $ .
+The degree of a polynomial is the highest power of the variable in its expression as a formal sum $ a_nx^n + cdots + a_0 $ for $ a_i in R $ .
+Let $ S $ be a bounded set in $ mathbb R^n $ and let $ f: S to mathbb R $ be a bounded function.
+Define $ f_S: mathbb R^n to mathbb R $ by $ f_S(x)=} $ .
+A group $ G $ acts freely on the set $ X $ if it has trivial stabilizer.
+That is, if $ gx=x $ implies $ g=e $ for all $ xin X $ .
+For $ A $ an $ mtimes n $ matrix and $ B $ an $ ntimes p $ matrix with entries $ (a_{ij}) $ and $ (b_{kell}) $ respectively, the product $ C=AB $ is the $ mtimes p $ matrix whose entries are given by $ c_{ij} = sum_{k=1}^n a_{ik}b_{kj} $ for $ 1 leq i leq m $ and $ 1 leq j leq m $ .
+Note that this binary operation is not commutative, and $ BA $ may not even be defined even though $ AB $ is due to differing dimensions.
+A graph $ X $ is connected if there is an edge path connecting every vertex of $ X $ to every other.
+An automorphism of a Lie algebra $ L $ of the form $ text{exp}(text{ad} (x)) $ where $ text{ad} $ is the adjoint representation is called an inner automorphism of $ L $ .
+Let $ A $ and $ B $ be subspaces of the topological space $ X $ such that $ X $ is the union of the interiors of $ A $ and $ B $ .
+A Mayer - Vietoris sequence is an exact sequence of the form $ cdotsto H_n(Acap B)to H_n(A)oplus H_n(B) to H_n(X) to H_{n - 1}(Acap B) tocdots $ $ to H_0(X) to 0 $ .The arrows between $ H_n(Acap B) $ and $ H_n(A)oplus H_n(B) $ are generally labeled $ Phi $ , the arrows between $ H_n(A)oplus H_n(B) $ and $ H_n(X) $ are generally labeled $ Psi $ , and the arrows between degrees (the boundary homomorphisms) are as usual denoted $ partial $ .
+Let $ R $ be a ring and $ {M_i}_{iin I} $ a family of left $ R $ - modules indexed by $ I $ .
+The direct sum of the $ M_i $ , written $ bigoplus_{iin I} M_i, $ is the set of all sequences $ {a_i}_{iin I} $ where $ a_i in M_i $ and $ a_i=0 $ for "cofinitely many" indices.
+That is, $ a_i neq 0 $ for finitely many $ i $ .
+Let $ text{Form}(L) $ be a formal language of propositional logic.
+Then a proof of $ S_kin text{Form}(L) $ from a subset $ Gammasubseteq text{Form}(L) $ is a finite list of statements $ S_1,dots, S_k $ such that for all $ S_i $ , at least one of the following is true: (i) $ S_i in Gamma $ ; (ii) $ S_i $ is an axiom; (iii) there exist $ j,ell < i $ such that $ S_ell = S_j rightarrow S_i $ , i.e. that $ S_i $ "is there by" modus ponens.
+If there exists a proof from $ Gamma subseteq text{Form}(L) $ to $ phi in text{Form}(L) $ , we say that $ Gamma $ proves $ phi $ and we write $ Gammavdash phi $ .
+A subset $ G $ of a topological space $ (X,mathcal T) $ is open if it is an element of $ mathcal T $ .
+When $ X $ is a metric space, a subset $ A subset X $ is open if and only if for all $ a in A $ , there exists $ varepsilon > 0 $ such that $ B(a,varepsilon) = {x in X mid rho(a,x) < varepsilon}subset A $ .
+A partition of a set $ X $ is a subset $ mathcal S $ of the power set $ mathcal P(X) $ such that (i) $ Ain mathcal S $ implies that $ Aneq emptyset $ ; (ii) For every $ xin X $ , there is a unique $ Ain mathcal S $ such that $ xin A $ .
+(Equivalently, the union of the sets $ Ain mathcal S $ is $ X $ and the intersection of any two elements of $ mathcal S $ is empty.)
+Let $ G $ be a matrix Lie group.
+Then the Lie algebra of $ G $ is the set of all matrices $ X in M_n(mathbb C) $ such that the matrix exponential $ e^{tX} in G $ for all $ t in mathbb R $ .
+The Riemann sphere is a model of the extended complex plane $ mathbb C cup {infty} $ .
+Let $ U subset mathbb R^n $ be open.
+A function $ f: Uto mathbb R^m $ is of class $ C^k $ if its derivatives $ Df, D^2f,dots, D^kf $ all exist and are continuous on $ U $ .
+A multiplicative character on a topological group $ G $ is a homomorphism from $ G $ to the group of units of the field of complex numbers $ mathbb C^times $ .
+Let $ X $ and $ Y $ be topological spaces.
+Then a continuous function $ f:Xto Y $ is a homotopy equivalence if there exists a continuous function $ g:Yto X $ such that both $ fcirc g $ and $ gcirc f $ are homotopic to the respective identity functions on the domain.
+The spaces $ X $ and $ Y $ are said to be homotopy equivalent or to have the same homotopy type .
+Homotopy equivalence is an equivalence relation.
+A permutation is a bijection from a set to itself.
+A lattice is a partially ordered set in which every pair of elements has a unique infimum and a unique supremum.
+If $ (X, leq) $ is a lattice, we call the supremum of $ x $ and $ y $ the join of $ x $ and $ y $ and denote it $ xlor y $ .
+Similarly, we call the infimum of $ x $ and $ y $ their meet and denote it $ xland y $ .
+These are in fact binary operations on $ X $ .
+Moreover, they respect the partial order on $ X $ .
+We can also define a lattice as a triple $ (L, lor,land) $ where $ L $ is a set and $ lor $ and $ land $ are two commutative, associative binary operations on $ L $ satisfying the following absorption laws for all $ a,b in L $ : (i) $ alor (aland b) = a $ ; (ii) $ aland (alor b) = a $ .
+Immediately following these two laws we have that $ aland a = a $ and $ alor a = a $ .
+It is easy to check that the poset notion of a lattice admits a description in the other form.
+To see the converse, define a partial order $ leq $ on $ L $ by setting $ aleq b $ if $ a= aland b $ or $ aleq b $ if $ b = alor b $ for all $ a,bin L $ .
+A simplicial complex is a ∆ - complex whose simplices are uniquely determined by their vertices.
+That is, each n - simplex has $ n+1 $ distinct vertices and no other n - simplex has this same set of vertices.
+Let $ V $ be a vector space over the field $ mathbb R $ of real numbers, and denote its basis by $ {v_k}_{k=1}^n $ .
+The complexification of $ V $ is the vector space $ V_mathbb C $ over the field $ mathbb C $ of complex numbers with basis $ {v_k}_{k=1}^n $ .
+An open cover $ {U} $ of a topological space $ B $ is locally finite if every point $ bin B $ is in only finitely many $ U $ .
+Let $ G $ be a group acting on the sets $ X $ and $ Y $ .
+A function $ f:Xto Y $ is $ G $ - equivariant if for all $ xin X $ and all $ gin G $ , $ f(gcdot x) = gcdot f(x) $ .
+If the function $ f $ is bijective, then this function is called a $ G $ - isomorphism .
+A binary operation $ cdot $ on a set $ A $ is a function $ Atimes Ato A $ .
+A representation $ rho $ of a group $ G $ is called completely reducible or is said to have the complete reducibility property if it can be written as a direct sum of irreducible representations.
+To define the Lebesgue integral for a general real - valued function, we must first define it for nonnegative functions.
+Let $ (X,Sigma,mu) $ be a measure space and let $ f $ be a nonnegative, measurable, extended - real - valued function on $ X $ (that is, $ f(x) geq 0 $ for all $ x in X $ , and it may be the case that $ f(x) = +infty $ ).
+Define $ int_X fdmu = supleft{int_X sdmu mid 0leq sleq f, s text{ simple}right} $ where the supremum is taken over the Lebesgue integrals of nonnegative simple functions $ s $ less than $ f $ .
+Now let $ f $ be a measurable extended - real - valued function on $ X $ .
+Then $ f $ may be written as $ f = f^+ - f^ - $ where $ f^+(x) =} quadtext{and}quad f^ - (x) = } $ so that $ f^+ $ and $ f^ - $ are both nonnegative and measurable.
+Note that $ |f| = f^+ + f^ - $ .
+The Lebesgue integral of the measurable function $ f $ exists if at least one of $ int f^+dmu $ and $ int f^ - dmu $ is finite.
+In this case, define $ int f dmu = int f^+dmu - int f^ - dmu $ .
+If $ int|f|dmu < infty $ , then $ f $ is Lebesgue integrable .
+A sequence of homomorphisms $ cdots to A_{n+1}to A_n to A_{n - 1}to cdots $ where the arrow between $ A_{k+1} $ and $ A_{k} $ is labelled $ alpha_{k+1} $ is an exact sequence if the kernel of $ alpha_k $ is equal to the image of $ alpha_{k+1} $ .
+That is, if $ text{Ker}(alpha_n) = text{Im}(alpha_{n+1}) $ .
+Equivalently, an exact sequence is a chain complex whose homology groups are all trivial.
+A binary operation $ cdot $ on the set $ A $ is commutative if for all $ a,bin A $ , $ ab = ba $ .
+A Lie group is a group that is also a manifold.
+Let $ (X,leq) $ be a poset and let $ Ssubseteq X $ .
+The infimum of this subset, if it exists, is a lower bound $ a $ of $ S $ in $ X $ such that
+for all lower bounds $ y $ of $ S $ in $ X $ , $ yleq a $ .
+That is, the infimum is the greatest lower bound.
+Let $ F $ be a field.
+An absolute value on $ F $ is a map $ |cdot|:Fto mathbb R $ such that (i) $ |x| geq 0 $ for all $ xin F $ ; (ii) $ |x| = 0 $ if and only if $ x=0 $ ; (iii) $ |x+y| leq |x| + |y| $ for all $ x,yin F $ ; (iv) $ |xcdot y| = |x|cdot |y| $ for all $ x,yin F $ .
+Together, $ 1 $ and $ 2 $ make up the condition that $ |cdot| $ be positive definite while $ 3 $ is just the triangle inequality.
+Let $ R $ be a ring and $ M $ and $ N $ $ R $ - modules.
+If $ f:Mto N $ is a module homomorphism, the kernel of $ f $ is the set $ {min Mmid f(m) = e_N}=text{ker}(f)subseteq M $
+The compact symplectic group $ text{Sp}(n) $ is the group intersection of the complex symplectic group $ text{Sp}(2n,mathbb C) $ and the unitary group $ text{U}(2n) $ : $ text{Sp}(n) = text{Sp}(2n,mathbb C)captext{U}(2n) $ .
+It is a matrix Lie group.
+Let $ P $ be a partition of a set of the interval $ a,b $ .
+Then arrange the elements of $ P $ in increasing order: $ a = t_0 < t_1< cdots< t_k = b $ .
+The $ t_i, t_i+1 $ are the subintervals of $ a,b $ given by $ P $ .
+The quadratic integers are algebraic integers of degree (ii) Equivalently, they are solutions to monic, integer - valued polynomials of degree (ii) That is, solutions to equations of the form $ x^2+bx+c=0 $ .
+For each integer $ d $ , we have particular rings of quadratic integers given by $ mathcal O_d = } $ Moreover, these are Euclidean domains with norm $ Nleft(x+ysqrt{d}right) = x^2+y^2sqrt{d} $ .
+If we define for $ alpha = x+ysqrt{d} $ its conjugate $ overline a = x - ysqrt d $ , then $ N(alpha) = alphaoverlinealpha $ .
+Let $ C $ be a compact, rectifiable set in $ mathbb R^{n - 1} $ .
+Let $ phi,psi: C tomathbb R $ be continuous functions such that $ phi(x) leq psi(x) $ for all $ x in C $ .
+Then the set $ S = {(x,t)mid xin C, phi(x) leq t leq psi(x)} subset mathbb R^{n - 1}times mathbb R $ is called a simple region in $ mathbb R^n $ .
+A point $ x in X $ a topological space is a limit point of the subset $ Asubset X $ if it is the limit of some sequence of elements of $ A $ .
+Let $ (X,Sigma,mu) $ be a measure space and let $ {f_n}_{ninmathbb N} $ be a sequence of functions $ f_n: Xto mathbb R $ .
+The sequence converges almost uniformly to $ f $ if for all $ varepsilon > 0 $ , there exists a set $ Ain Sigma $ of measure less than $ varepsilon $ such that $ f_n $ converges uniformly to $ f $ on $ Xsetminus A $ .
+A face of an n - simplex $ v_0,dots,v_n $ is the subsimplex with vertices any nonempty subset of the $ v_i $ .
+By convention, these are ordered according to their order in the parent simplex.
+Let $ (X, Sigma, mu) $ be a measure space.
+The Lebesgue integral of the characteristic function of a measurable set $ A in Sigma $ is defined to be $ int chi_Admu = mu(A) $ .
+Let $ (V,rho) $ be a representation of the group $ G $ .
+The $ G $ - invariant elements of $ V $ is $ V^G = {vin Vmid rho(g)v=v}, $ the set of vectors in $ V $ left unchanged by the action of $ G $ .
+Let $ C $ be a category.
+A morphism $ fin text{Hom}_C(A,B) $ is a monomorphism if for all objects $ Z $ of $ C $ and all morphisms $ alpha,betain text{Hom}_C(Z,A) $ , $ fcirc alpha = fcirc betaimplies alpha = beta $ .
+Let $ L $ be a Lie algebra.
+A vector subspace $ K $ of $ L $ is a subalgebra of $ L $ if $ xy in K $ whenever $ x,y in K $ .
+Moreover, $ K $ is itself a Lie algebra.
+A module over a ring $ M $ is semisimple if it may be written as the direct sum of simple modules.
+A vector space $ V $ over the field $ F $ is a set together with two operations "addition" ( $ +: Vtimes V to V $ ) and "scalar multiplication" ( $ cdot: Ftimes V to V $ ) satisfying the following eight axioms: (i) Addition is associative (ii) Addition is commutative (iii) There exists a vector $ 0 in V $ such that $ 0 + v = v $ for all $ v in V $ .
+( $ 0 $ is the additive identity in $ V $ ) (iv) For every $ v in V $ , there exists $ - v in V $ such that $ v + ( - v) = 0 $ .
+( $ - v $ is the additive inverse of $ v $ ) (v) $ a(bv)= (ab)v $ for all $ a,b in F $ and $ v in V $ .
+(vi) $ 1v = v $ for all $ v in V $ , where $ 1 $ is the multiplicative identity in $ F $ .
+(vii) $ a(u+v) = au+av $ for all $ a in F $ , $ u,v in V $ .
+(viii) $ (a+b)v = av+bv $ for all $ a,b in F $ , $ vin V $ .
+Axioms (vii) and (viii) are distributive laws.
+Let $ Dsubsetmathbb R^n $ be connected and open.
+A function $ f:Dto mathbb R $ is harmonic if for all $ zin D $ and every
+$ varepsilon > 0 $ with $ text{dist}(z,partial D) > varepsilon $ , then $ f(z) = MV(f,z,varepsilon) $ where $ partial D $ denotes the boundary of $ D $ and $ MV $ denotes the circular mean value.
+Equivalently, a function $ f $ is harmonic if its Laplacian is 0.
+Let $ Usubsetmathbb R^n $ be an open subset and let $ f:Utomathbb R $ .
+The point $ a in U $ is a local maximum of $ f $ if there is a neighborhood $ V $ of $ a $ such that for all $ x in V $ , $ f(a)geq f(x) $ .
+Euler's totient function , written $ phi(n) $ , is a function $ mathbb Ntomathbb N $ that gives the number of integers less than $ n $ that are coprime to $ n $ .
+That is, the number of integers less than $ n $ whose greatest common divisor with $ n $ is (i)
+Let $ p:mathcal Etomathcal B $ and $ p':mathcal E'to mathcal B $ be coverings of groupoids.
+A map of coverings of groupoids (of $ mathcal B $ , specifically!) is a functor $ g:mathcal Etomathcal E' $ such that the following diagram of functors commutes:
+The transpose of an $ mtimes n $ matrix $ A = (a_{ij}) $ is the $ ntimes m $ matrix $ A^T $ whose entries are given by $ a_{ji} $ .
+Let $ (X,x_0) $ and $ (Y,y_0) $ be based topological spaces.
+The wedge sum $ Xvee Y $ is the quotient of the disjoint union $ Xamalg Y $ given by identifying $ x_0 $ and $ y_0 $ to a single point.
+A group is a set $ G $ together with a binary operation $ cdot:Gtimes G to G $ satisfying the following properties: (i) $ cdot $ is associative; (ii) there exists an identity element $ e in G $ such that $ gcdot e = g = ecdot g $ for all $ g in G $ .
+(iii) for each $ g in G $ there exists an inverse element $ g^{ - 1} $ such that $ gcdot g^{ - 1} = e = g^{ - 1}cdot g $ .
+Groups can be thought of as - associative magmas - semigroups with an identity and with inverses - monoids with inverses - categories with a single object
+A component interval of a rectangle $ Q subset mathbb R^n $ is one of the intervals $ a_i,b_i $ that make up the product.
+In the category of coverings of groupoids, let $ text{Aut}(mathcal E) subset text{Cov}(mathcal E,mathcal E) $ denote the group of automorphisms of $ mathcal E $ .
+Note that there do exist maps $ g:mathcal Eto mathcal E $ that are not isomorphisms because in general, we may have one conjugate subgroup be a proper subgroup of another.
+A function of class $ C^{infty} $ is smooth .
+That is, a smooth function has continuous total derivative of all orders.
+The circle group , usually denoted $ mathbb T $ , is the complex $ 1 $ - torus.
+Equivalently, it is the multiplicative group of complex numbers with complex absolute value $ 1 $ .
+Let $ (X,Sigma, mu) $ be a measure space.
+The essential supremum $ alpha $ is the largest real number such that $ mu({xmid f(x) < alpha}) = 0 $ .
+Let $ X $ be a based topological space and let $ I $ be the unit interval.
+The reduced cone on $ X $ is the smash product $ CX = Xwedge I $ where $ I $ has as its basepoint $ 1 $ .
+Explicitly, $ CX = (Xtimes I)/(({*}times I) cup (Xtimes{1})) $ .
+The usual cone is done without identifying the line $ {*}times I $ through the basepoint of $ X $ to a point.
+A rectangle $ Q $ in $ mathbb R^n $ is a product of intervals in $ mathbb R $ : $ Q = a_1,b_1times cdotstimes a_n,b_n $ .
+Let $ X $ be a topological space.
+An open cover of $ A $ is a collection of open subsets of $ X $ such that $ A $ lies in the union of the elements of the collection.
+That is, an open covering is a collection $ {G_lambda}_{lambdainLambda} $ of subsets of $ X $ such that $ Asubset bigcuplimits_{lambdainLambda} G_lambda $ .
+Let $ M $ be a manifold with boundary.
+The boundary points of $ M $ are the points $ pin M $ for which there exists a chart $ (U,phi) $ such that $ phi(p) in partial H^m $ , the boundary of the closed half - space.
+A function $ f:Ato B $ is surjective if for all $ b in B $ there exists $ ain A $ such that $ f(a)=b $ .
+An element $ x $ of a ring $ R $ is nilpotent if there exists $ n in mathbb Z $ such that $ x^n =0 $ .
+A loop is a path $ p $ such that $ p(0) = p(1) $ .
+This point is called the basepoint of the loop.
+A topological space is a set $ X $ together with a collection $ T $ of subsets of $ X $ .
+The elements of $ T $ are called the open sets and they satisfy the following properties: (i) $ Xin T $ and $ emptyset in T $ .
+(ii) Arbitrary unions of open sets are open.
+(iii) Finite intersections of open sets are open.
+The choice of $ T $ is called a topology on $ X $ .
+Let $ A $ be a finite abelian group.
+The exponent of $ A $ is the least common multiple of the orders of all of the elements of $ A $ .
+Let $ (X,mathcal T) $ be a Hausdorff topological space and let $ Sigma $ be a σ - algebra containing $ mathcal T $ (so that $ Sigma $ is at least as fine as the Borel σ - algebra on $ X $ ).
+A measure $ mu $ on $ Sigma $ is locally finite if for all $ p in X $ , there exists an open neighborhood $ N_p $ of $ p $ such that the $ mu $ - measure of $ N_p $ is finite.
+That is, $ forall p in X, exists N_p in T text{ s.t. } p in N_p text{ and } |mu(N_p)| < infty $ .
+Let $ A $ be an algebra over the ring $ R $ .
+A left ideal $ I $ of $ A $ is a subalgebra of $ A $ such that $ axin I $ for all $ ain A $ , $ xin I $ .
+Equivalently (if we want to elide the subalgebra condition), a left ideal $ I $ of $ A $ is a subset $ Isubset A $ such that for all $ x,yin I $ , $ ain A $ , and $ rin R $ , (i) $ x - yin I $ ; (ii) $ rxin I $ ; (iii) $ axin I $ .
+Let $ V $ be a finite - dimensional vector space with $ text{dim}(V) = ell +1 $ .
+Let $ mathfrak{sl}(V) $ be the set of endomorphisms of $ V $ with trace equal to zero.
+Since $ text{Tr}(xy)= text{Tr}(yx) $ and $ text{Tr}(x+y) =text{Tr}(x)+text{Tr}(y) $ , $ mathfrak{sl}(V) $ is a subalgebra of the general linear algebra $ mathfrak{gl}(V) $ .
+A neighborhood of a point $ x $ in a topological space $ X $ is a subset $ N $ of $ X $ containing $ x $ which contains an open set $ Usubseteq N $ that also contains $ x $ .
+Let $ R $ be a ring.
+A nonzero element $ rin R $ is a zero divisor if there exists nonzer $ sin R $ such that $ sr = 0 $ or $ rs = 0 $ .
+A subspace $ A $ of a topological space $ X $ is compactly closed if the inverse image $ g^{ - 1}(A) $ is closed in $ K $ for any map $ g:Kto X $ from a compact Hausdorff space $ K $ into $ X $ .
+Let $ L $ be a Lie algebra.
+Its derived series is given by the derived algebras $ } $
+The transition function of two charts $ (U,phi) $ and $ (V, psi) $ on a manifold $ M $ is the composition $ psi circ phi^{ - 1}: phi(Ucap V)to psi(Ucap V) $ .
+Let $ G $ be a group.
+The lower central series for $ G $ is defined as follows: Let $ G_0=G $ , let $ G_1 = G,G $ , and for each $ i geq 1 $ , define $ G_{i+1} = G,G_{i} $ where the bracket notation denotes a particular subgroup of the commutator subgroup: $ G,H = {ghg^{ - 1}h^{ - 1}mid gin G, hin H} $ .
+Note that this series may or may not reach the trivial subgroup.
+A norm $ |cdot | : Ato mathbb R $ on an algebra $ A $ is called multiplicative if $ |1_A| = 1 $ and for all $ a,bin A $ , $ |ab| leq |a|cdot |b| $ .
+A topological space $ X $ is semi - locally simply connected if every point $ bin B $ has a neighborhood $ U $ such that the map $ pi_1(U,b)to pi_1(B,b) $ between fundamental groups is the trivial group homomorphism.
+Let $ G $ be a finite group.
+Consider the space of complex - valued class functions on $ G $ .
+It has a Hermitian inner product given by $ langle f_1,f_2rangle_G = frac{1}{|G|}sum_{gin G} f_1(g)overline{f_2(g)} $ where $ |G| $ denotes the order of $ G $ .
+The normalizer of a subspace $ U $ of a vector space $ V $ is given by $ N_V(U) = {xin Vmid x,Usubset U} $ .
+Let $ (X,Sigma,mu) $ and $ (Y,T,nu) $ be measure spaces and let $ T: L_1(X,mu) to L_1(Y,nu) $ be an operator that maps measurable functions on $ X $ to measurable functions on $ Y $ .
+Let $ 1leq p,qleq infty $ .
+Then $ T $ is of type strong $ (p,q) $ if there exists a constant $ c > 0 $ such that $ ||Tf||_q leq c||f||_p $ .
+This immediately implies that (i) $ T $ is a bounded operator.
+(ii) Weak $ (p,infty) $ is equivalent to strong $ (p,infty) $ .
+Let $ f:Ato B $ be a function.
+A left inverse of $ f $ is a function $ g:Bto A $ such that $ gcirc f(a) = a $ for all $ a in A $ .
+A right inverse of $ f $ is a function $ g:Bto A $ such that $ fcirc g(b) = b $ for all $ bin B $ .
+An inverse of $ f $ is a function $ f^{ - 1} $ that is both a left and a right inverse of $ f $ .
+A singular n - simplex is a map $ sigma: Delta^n to X $ from the standard n - simplex to a topological space $ X $ .
+The opposite category $ mathcal C^{text{op}} $ of a category $ mathcal C $ is a category consisting of the same objects as $ mathcal C $ , but with morphisms $ mathcal C^text{op}(A,B) = mathcal C(B,A) $ .
+Let $ f:S^nto S^n $ be a function.
+The induced homomorphism $ f_*: tilde H_n(S^n)to tilde H_n(S^n) $ is a homomorphism from an infinite cyclic group to itself.
+Thus it must be of the form $ f_*(alpha) = dalpha $ for some integer $ d $ depending only on $ f $ .
+The integer $ d $ is the degree of $ f $ .
+Let $ F $ be a D - shaped diagram in the category $ mathcal Dmathcal C $ .
+The colimit of $ F $ , written $ text{colim}F $ , is an object of $ mathcal C $ together with a morphism of diagrams $ iota: Fto underline{text{colim} F} $ that is initial among all such morphisms.
+That is, if $ eta:Fto underline A $ is a morphism of diagrams, then there is a unique map $ tilde eta:text{colim}(F)to A $ in $ mathcal C $ such that $ tilde etacirc iota = eta $ .
+We can also express this as a diagram.
+For each map $ d:Dto D' $ in $ mathcal D $ , the following diagram commutes:
+Let $ text{Aut}(E)subset text{Cov}(E,E) $ in the category of covering spaces of some connected locally path - connected topological space $ B $ denote the group of automorphisms of the cover $ E $ .
+A linear transformation $ T:Vto V $ is self - adjoint if $ T^*=T $ .
+The inverse of an $ ntimes n $ matrix $ A $ is an $ ntimes n $ matrix $ A^{ - 1} $ such that the products $ AA^{ - 1} = A^{ - 1}A = I_n $ where $ I_n $ is the $ ntimes n $ identity matrix.
+Let $ Msubsetmathbb R^n $ .
+Then $ M $ is an embedded $ m $ - dimensional manifold if for all $ xin M $ , there exists a neighborhood $ U subsetmathbb R^n $ of $ x $ and a smooth function $ f:Utomathbb R^{n - m} $ such that $ Mcap U = f^{ - 1}(0) $ and $ Df(y):mathbb R^ntomathbb R^{n - m} $ is surjective for all $ y in U $ .
+An equivalence relation $ sim $ on a set $ X $ is a binary relation that is reflexive, symmetric, and transitive.
+That is, for all $ a,b,c in X $ , (i) $ asim a $ .
+(ii) $ a sim b $ if and only if $ b sim a $ .
+(iii) If $ a sim b $ and $ b sim c $ , then $ asim c $ .
+A subset $ A $ of a topological space $ X $ has the Baire property if there exists an open set $ G $ such that the symmetric difference of $ A $ and $ G $ ( $ A triangle G $ ) is meager.
+A field $ k $ is algebraically closed if every non - constant polynomial in $ kt $ has a root in $ k $ .
+Let $ I $ be the unit interval.
+A pair of compactly generated topological spaces $ (X,A) $ (where $ A $ is a subspace of $ X $ ) is called an NDR pair (stands for neighborhood deformation retract pair) if there exists a map $ u:Xto I $ such that the fiber $ u^{ - 1}(0) = A $ and if there exists a homotopy $ h:Xtimes I to X $ such that $ h_0 = text{id} $ , $ h(a,t) = a $ for all $ ain A $ and $ tin I $ , and $ h(x,q) in A $ if $ u(x)<1 $ .
+Such a pair is a DR pair if $ u(x) < 1 $ for all $ xin X $ , and this implies that $ A $ is a deformation retract of $ X $ .
+Given a group $ G $ and an action of $ G $ on two sets $ X $ and $ Y $ , then the collection of maps between $ X $ and $ Y $ (denoted $ text{Maps}X,Y $ ) is naturally a G - set in the following way: Given a function $ fin text{Maps}X,Y $ , consider the graph $ text{Graph}(f) = {(x,f(x))in Xtimes Y mid xin X} $ .
+Let $ G $ act diagonally on $ Xtimes Y $ : that is, define $ g.(x,y) = (g.x,g.y) $ .
+Then define $ g^*f $ by $ text{Graph}()g^*f = g(text{Graph}(f)) $ .
+Explicitly, for $ gx' = x $ , we have $ g^*f(x) = g(f(x')) implies g^*f(x) = gf(g^{ - 1}x) $ .
+We can see the map as the composite $ g^*f: Xoverset{g^{ - 1}}{to} X overset{f}{to} Y overset{g}{to} Y $ .
+The general linear group $ GL(n) $ or $ GL(V) $ is the group of automorphisms of an $ n $ - dimensional vector space $ V $ .
+Equivalently, it is the group of invertible $ ntimes n $ matrices.
+A metric space is separable if it contains a countable, dense subset.
+Let $ L $ be a formal language of propositional logic and let $ Gammasubseteq text{Form}(L) $ .
+A model for $ Gamma $ is a truth function $ t:text{Form}(L) to {0,1} $ such that $ t(gamma) = 1 $ for all $ gammain Gamma $ .
+For any $ phi in text{Form}(L) $ , we say that $ Gamma $ models $ phi $ if for every model $ t $ of $ Gamma $ , $ t(phi) = 1 $ .
+The volume of a rectangle $ Q $ in $ mathbb R^n $ is the product of the lengths of the component intervals of $ Q $ : $ text{vol}(Q) = (b_1 - a_1)cdots(b_n - a_n) $ .
+The symmetric differential basis is the differential basis consisting of balls centered around each $ x in mathbb R^n $ .
+The equivalence classes with respect to the connection equivalence relation are called connected components of $ X $ .
+Let $ (X,Sigma) $ be a measurable space with $ mu $ a signed measure.
+The positive variation of $ mu $ is the function $ pi $ given by $ pi(A) = sup_{Ssubset A} mu(S) $ .
+Let $ X $ be a topological space and let $ A $ be a subspace of $ X $ .
+Define a chain complex whose elements are the quotients $ C_n(X,A) = C_n(X)/C_n(A) $ of elements of the chain complex on the groups of n - chains of $ X $ and $ A $ , respectively.
+Note that chains in $ A $ are trivial in $ C_n(X,A) $ .
+The boundary homomorphism $ partial:C_n(X)to C_{n - 1}(X) $ sends $ C_n(A) $ to $ C_{n - 1}(A) $ , so it induces a quotient boundary map $ partial: C_n(X,A)to C_{n - 1}(X,A) $ .
+The requisite relation in which composition of consecutive boundary maps is zero is met because it is met before taking the quotient.
+The homology groups of this chain complex are called the relative homology groups $ H_n(X,A) $ .
+A partition $ P $ of a closed interval $ a,b $ is a finite collection of points in $ a,b $ such that $ a,b in P $ .
+More generally, a partition $ P $ of a rectangle $ Q $ in $ mathbb R^n $ is a collection $ P = {P_i}_{i=1}^n $ of partitions of the component intervals $ a_i,b_i $ of $ Q $ .
+The Stirling numbers of the second kind count the number of ways to partition a set of $ n $ distinct objects into $ k $ indistinct sets, leaving none empty.
+They are denoted $ S(n,k) $ .
+They also count the number of different equivalence relations with exactly $ k $ equivalence classes that can be defined on a set of size $ n $ .
+The Choquet game is a topological game played
+A topological $ m $ - dimensional manifold with boundary is a topological space $ M $ such that (i) for all $ p in M $ , there exists an open neighborhood $ U $ of $ p $ homeomorphic to an open set in the closed half - space $ H^m $ ; (ii) $ M $ is Hausdorff; (iii) $ M $ is second - countable.
+Let $ X $ be a topological space.
+The $ n $ th reduced homology group of $ X $ , denoted $ tilde H_n(X) $ , is the $ n $ th homology group of the chain complex $ cdots to C_2(X) to C_1(x) to C_0(X) to mathbb Zto 0 $ where the maps between the groups $ C_i $ of n - chains are the usual boundary homomorphisms and the map (call it $ varepsilon $ ) $ C_0(X)to mathbb Z $ is given by $ varepsilonleft(sum_i n_isigma_iright) = sum_i n_i $ .
+Reduced homology groups are introduced so that a point has trivial homology group for all values of $ n $ including zero.
+Let $ R $ be a ring with multiplicative identity $ 1 $ .
+A left $ R $ - module $ M $ is an abelian group $ (M, +) $ and another operation $ cdot : Rtimes M to M $ such that fior all $ r,sin R $ and $ x,yin M $ , (i) $ rcdot (x+y) = rcdot x + rcdot y $ ; (ii) $ (r+s)dot x = rcdot x + scdot x $ ; (iii) $ (rs)cdot x = rcdot (scdot x) $ ; (iv) $ 1cdot x = x $ .
+The operation $ cdot $ is called scalar multiplication .
+Let $ X $ be a metric space and $ K subset X $ .
+For $ x in X $ , the distance from $ x $ to $ K $ is given by the infimum $ text{dist}(x,K) = inf_{yin K}(rho(x, y)) $ .
+A Borel function is a measurable function between Borel spaces.
+A measure space $ (X,Sigma, mu) $ is bounded if $ mu(X) < infty $ .
+Let $ lambda = {lambda_1,dots,lambda_k} $ be a partition.
+Let $ alpha_i = {lambda_i, lambda_i + 1, dots, lambda_{i+1} - 1} $ so that $ {1,dots,n} = coprod_{i=1}^k alpha_i $ as disjoint subsets.
+Corresponding to this decomposition is the Young subgroup of the symmetric group $ S_n $ given by $ S_{alpha_1} times cdots times S_{alpha_k} $ where $ S_{alpha_i} = {sigmain S_n mid sigma(j) = j text{ for all } jnotin alpha_i} $ .
+Let $ Usubsetmathbb R^n $ be an open subset and let $ g: U tomathbb R^n $ be differentiable.
+Then Jacobian determinant of $ g $ is the function $ Jg:Utomathbb R $ given by the absolute value of thedeterminant of the Jacobian matrix of $ g $ : $ Jg(x)= |text{det}(Dg(x))| $ .
+The Euclidean inner product is an inner product on $ mathbb R^n $ given by $ langle x,yrangle = sum_{i=1}^n x_iy_i $ .
+The notation $ langle x,yrangle $ notation is often written $ xcdot y $ instead.
+A submodule $ N $ of a module over a ring $ M $ is a subset $ Nsubset M $ that forms a module over a ring under the same operations.
+It must form a group under $ + $ .
+A set is uncountable if it is not countable, that is if it has cardinal number greater than that of the natural numbers $ mathbb N $ .
+A function $ f:Ato B $ is injective if for all $ a,b in A $ , $ aneq b $ implies that $ f(a)neq f(b) $ .
+A binary relation $ R $ on sets $ X $ and $ Y $ is a subset of $ X times Y $ .
+If $ (x,y) in R $ , then we say that " $ x $ is related to $ y $ ."
+An associative algebra is an algebra $ A $ with an associative binary operation
+An ideal $ I $ of a ring $ R $ is principal if it can be generated by a single element.
+A lattice $ (L,lor,land) $ is distributed if it satisfies the following distributive laws for all $ a,b,cin L $ : - $ alor (bland c) = (alor b)land (alor c) $ ; - $ aland(blor c) = (aland b)lor (aland c) $ .
+The orthogonal group $ text{O}(n) $ is the group of $ ntimes n $ orthogonal matrices.
+This group is a matrix Lie group because it is a subgroup of the general linear group $ text{GL}(n,mathbb C) $ .
+A subtree (a subgraph that happens to be a tree) of a graph $ X $ is maximal if it is contained in no strictly larger tree.
+The transposition $ sigma_{ij} $ is a permutation in $ S_n $ such that for some $ i,j in {1,dots ,n} $ , $ sigma_{ij}(i) = j, sigma_{ij}(j) = i, text{ and } sigma_{ij}(k) = k $ for all $ kneq i,j $ .
+Equivalently, a transposition is a 2 - cycle.
+The fundamental groupoid $ Pi(X) $ of a topological space $ X $ is the category whose objects are the points of $ X $ and whose morphisms $ xto y $ are the equivalence classes of paths from $ x $ to $ y $ .
+Note that this means that the set of endomorphisms of an object $ x $ in $ Pi(X) $ is exactly the fundamental group $ pi_1(X) $ .
+The fundamental groupoid may be thought of as a functor from the category of topological spaces to the category of groupoids.
+Two representations of a group $ G $ are equivalent if there exists an invertible intertwiner between them.
+The special orthogonal group $ text{SO}(n) $ is the group of $ ntimes n $ orthogonal matrices with unit determinant.
+This group is a matrix Lie group because it is a subgroup of the general linear group $ text{GL}(n,mathbb C) $ .
+Let $ X $ be a topological space.
+For any $ Asubset X $ , the exterior $ text{ext}(A) $ of $ A $ is the complement of the closure of $ A $ .
+Let $ A $ be an algebra over the field $ mathbb k $ and let $ ain A $ .
+The spectrum of $ a $ is $ text{spec}(a)= {lambdainmathbb kmid lambda - a text{ is not invertible}} $ .
+The dual of a normed linear space $ X $ is the set of bounded linear functions $ f: Xto mathbb R $ .
+This set is itself a normed linear space under the linear transformation norm.
+Let $ hat{mathbb C} $ be the Riemann sphere.
+The filled Julia set of a polynomial $ f $ is $ K(f) = {zinhat{mathbb C}mid exists T in mathbb R text{ s.t. }|f^{circ n}(z)| leq T forall n} $ .
+Let $ L $ be a Lie algebra with subalgebra $ K $ .
+If $ K $ is equal to its own normalizer of a vector space (i.e. $ K = N_L(K) $ ), then $ K $ is called self - normalizing .
+A property is typical if it holds for every element of a residual set.
+A Gale - Stewart game is a two - player game in which both players have perfect information, make an infinite sequence of moves, and there are no draws.
+Let $ f $ be in the Schwartz space of the p - adic field $ mathbb Q_p $ .
+That is, let $ fin C_c^infty(mathbb Q_p) $ .
+Then the analogue to the Fourier transform of $ f $ is given by $ widehat{f}(u) = int_{mathbb Q_p}f(x)psi_u(x)text dx $ where $ psi_u $ is the multiple of the Basic Additive Character on $ mathbb Q_p $ and the integral is taken with respect to the Haar measure on $ mathbb Q_p $ .
+A linear functional on a vector space $ V $ with underlying field $ F $ is a linear transformation from $ V $ to $ F $ when considered as a one - dimensional vector space over itself.
+A matrix Lie group is a closed subgroup of the general linear group $ text{GL}(n,mathbb C) $ .
+Let $ G $ be a semigroup and let $ S $ be a subset of $ G $ .
+The centralizer of $ S $ is $ C_G(S) = {gin Gmid gs=sg text{ for all } sin S} $ .
+When $ G $ is a group, this may be written equivalently as $ C_G(S) = {gin Gmid gsg^{ - 1} =s text{ for all } sin S} $ .
+Let $ sim $ be an equivalence relation on the set $ S $ .
+The quotient of $ S $ by $ sim $ (denoted $ S/sim $ ) is the set of equivalence classes of elements of $ S $ with respect to $ sim $ .
+Let $ T:Vto V $ be a linear transformation from the vector space $ (V,F) $ to itself.
+Then $ lambda in F $ is an eigenvalue of $ T $ if there exists $ vin V $ such that $ T(v) = lambda v $ .
+A topological space is contractible if it is homotopy equivalent to a point.
+Let $ G $ be a group acting on a the set $ X $ .
+A function $ f:Xto Y $ is $ G $ - invariant if for all $ gin G $ and all $ xin X $ , $ f(gx) = f(x) $ .
+A Lie algebra $ L $ is solvable if some element $ L^{(n)} $ of its derived series of a Lie algebra is equal to 0.
+The descending central series of ideals of a Lie algebra $ L $ is given by the derived algebras $ } $ Where $ L^{(1)} $ is the second element of the derived series of $ L $ .
+An $ n $ - simplex is the smallest convex set in $ mathbb R^m $ containing $ n+1 $ points $ v_0,dots, v_n $ that do not lie in a hyperplane of dimension less than $ n $ .
+The standard $ n $ - simplex is the set $ Delta^n = {(t_0,dots, t_n)inmathbb R^{n+1} mid sum_i t_i =1 text{ and } t_i geq 0 forall i} $ .
+The order of the vertices $ v_i $ is part of the data of an $ n $ - simplex.
+Writing an $ n $ - simplex as $ v_0,dots, v_n $ determines orientation of the edges $ v_i, v_j $ by their order.
+Let $ R $ be a ring and let $ M $ , $ N $ and $ L $ be $ R $ - modules.
+Then given homomorphisms $ f:Mto L $ and $ g:Nto L $ , there exists a unique homomorphism $ foplus g:Moplus Nto L $ from the direct sum $ Moplus N $ to $ L $ defined by $ foplus g(m,n) = f(m) + g(n) $ .
+Let $ (X,*) $ be a magma with identity element $ e $ .
+An element $ bin X $ is a right inverse element for $ ain X $ if $ a * b=e $ .
+A nonempty family $ R $ of sets is a ring if it is closed under union and relative complement.
+That is, for all $ A, B in R $ , - $ Acup B in R $ ; - $ Asetminus B in R $ .
+Let $ G $ be a group and let $ gin G $ .
+Define a homomorphism $ varphi_g: Gto G $ by $ varphi_g(x) = gxg^{ - 1} $ for all $ xin G $ .
+These $ varphi_g $ are in fact automorphisms and moreover $ varphi_gcircvarphi_h = varphi_{gh} $ .
+The $ varphi_g $ are called inner automorphisms of $ G $ .
+Let $ W $ and $ V $ be vector spaces over the same ground field $ F $ .
+A function $ T: V to W $ is a linear transformation if for all $ v,w in V $ and $ alpha,beta in F $ , $ T(alpha v+beta w) = alpha T(v) + beta T(w) $ .
+This is the correct notion for a homomorphism of vector spaces.
+If a linear transformation is bijective, then it is an isomorphism of vector spaces.
+Let $ R $ be a ring.
+An ideal $ I $ of $ R $ is a subset that is both a left ideal and a right ideal.
+A surface is a two - dimensional manifold.
+Let $ (X,Sigma,mu) $ and $ (Y,T,nu) $ be measure spaces and let $ T: L_1(X,mu) to L_1(Y,nu) $ be an operator that maps measurable functions on $ X $ to measurable functions on $ Y $ .
+Let $ 1leq pleq infty $ and $ 1leq q < infty $ .
+The operator $ T $ is of type weak $ (p,q) $ if there exists a constant $ c > 0 $ such that $ mu({x in Xmid |Tf(x)|>t})leqleft(frac{c||f||_p}{t}right)^q $ .
+If $ q = infty $ , then $ T $ is weak $ (p,infty) $ if there exists a constant $ c > 0 $ such that $ ||Tf||_infty leq c||f||_p $ .
+A graph $ X $ is locally finite if each vertex is a boundary point of only finitely many eges or if $ X $ is a locally compact topological space.
+Let $ L $ be a formal language of propositional logic and let $ Gammasubseteq text{Form}(L) $ .
+We say that $ Gamma $ is inconsistent if it is not consistent.
+Let $ F $ be a field.
+Then translation by en element $ bin F $ is a group homomorphism $ t_b:(F, +)to F $ given by $ t_b(x) = x+b $ and multiplication by a nonzero element $ ain F $ gives a group homomorphism $ m_a:Fto F $ given by $ m_a(x) = ax $ .
+Considering $ bmapsto t_b $ and $ amapsto m_a $ gives rise to two more homomorphisms $ (F,+)to S_F $ and $ (F^times,times)to S_F $ respectively.
+Thus the multiplicative and additive groups on $ F $ both act on $ F $ .
+Combining the two actions, we get the affine transformations of $ F $ $ text{Aff}(F) = {t_bm_amid bin F, ain F^times} $
+A measurable space is the pair $ (X,mathcal M) $ consisting of a set $ X $ and a σ - algebra $ mathcal M $ of subsets of $ X $ .
+A subset $ E $ of $ X $ is measurable if it is an element of $ mathcal M $ .
+An algebraic integer is a number that is the root of a monic polynomial over $ mathbb Z $ .
+The algebraic integers form a ring.
+Let $ (X,Sigma, mu) $ be a measure space.
+For $ f in L_1(X,mu) $ , the Hardy - Littlewood maximal operator $ Mf $ is defined as follows: $ (Mf)(x)=sup_{r>0}frac{1}{mu(B(x,r))}int_{B(x,r)}|f|text dmu $ .
+Let $ X $ be a topological space and let $ C_n(X) $ be the free group abelian group on the set of singular n - simplices in $ X $ .
+Elements of $ C_n(X) $ are called singular $ n $ - chains and are written as finite formal sums $ sum_i n_isigma_i $ for $ n_iinmathbb Z $ and $ sigma_i:Delta^nto X $ .
+A magma is a set $ X $ together with a binary operation $ * $ that is closed under $ * $ .
+That is, $ a*b in X $ for all $ a,b in X $ .
+Let $ Usubsetmathbb R^n $ be an open subset and let $ f:Utomathbb R $ be of class at least $ C^2 $ .
+The Hessian matrix of $ f $ at the point $ a in U $ is the matrix $ H = }_{i,j=1}^n $ of the mixed second partial derivatives of $ f $ .
+Let $ L $ be a Lie algebra with basis $ {x_1,dots,x_n} $ .
+The structure constants $ a_{ij}^k $ are the constants in the expressions
+$ x_ix_j = sum_{k=1}^n a_{ik}^k x_k $ .
+Let $ mathfrak g $ be a Lie algebra and let $ (V,rho_V) $ be a representation of $ mathfrak g $ .
+Then the dual representation of $ mathfrak g $ is the pair $ (V^*,rho_{V^*}) $ where $ V^* $ is the dual space of $ V $ and $ rho_{V^*} $ is given by $ rho_{V^*}(x) = - rho_V(x)^ * $ for all $ x in mathfrak g $ .
+A unital subring of a ring $ R $ is a subset $ S $ of $ R $ that is itself a ring under the binary operations in $ R $ with the same additive and multiplicative identities.
+Let $ mathfrak g $ be a Lie algebra over the field $ F $ with a basis $ {x_i} $ and a Lie bracket given by $ x_i,x_j = sum_k = c_{ij}^kx_k $ .
+The universal enveloping algebra $ mathcal U(mathfrak g) $ is the associative algebra generated by the $ x_i $ with the relations $ x_ix_j - x_jx_i = sum_k c_{ij}^k x_k $ .
+The $ c_{ij}^k $ are the structure constants of $ mathcal U(mathfrak g) $ .
+The universal property for the universal enveloping algebra is as follows: Let $ mathfrak g $ be a Lie algebra over the field $ F $ and let $ A $ be an associative algebra over $ F $ .
+By endowing $ A $ with the commutator as a Lie bracket, $ A $ becomes a Lie algebra.
+Let $ phi: mathfrak g to A $ be a Lie algebra homomorphism.
+Then the universal enveloping algebra $ mathcal U(mathfrak g) $ is the algebra such that the following diagram commutes: In a basis - free setting, let $ mathfrak g $ be a Lie algebra over the field $ F $ and let $ Tmathfrak g $ be the tensor algebra of $ mathfrak g $ .
+Consider the ideal $ mathcal I = langle xotimes y - yotimes x - x,y mid x,y in mathfrak grangle $ of $ Tmathfrak g $ .
+Then the universal enveloping algebra $ mathcal U(mathfrak g) $ is defined as the quotient $ Tmathfrak g/mathcal I $ .
+The category of sets is the category whose objects are sets and whose morphisms are functions between sets.
+A topological space $ X $ is totally disconnected if the connected components of $ X $ are exactly the singletons.
+A (unital) ring is a set $ R $ together with two binary operations $ + $ and $ cdot $ such that (i) $ R $ is an abelian group under $ + $ ; (ii) $ R $ is a monoid under $ cdot $ ; (iii) $ cdot $ distributes over $ + $ : $ acdot (b+c)=(acdot b) + (acdot c) $ and $ (b+c)cdot a = (bcdot a) + (ccdot a) $ .
+An elementary matrix is the result of applying a row operation to the identity matrix.
+Let $ u,v $ be elements of the group $ G $ .
+Define $ u,v = uvu^{ - 1}v^{ - 1} $ .
+The subgroup of $ G $ generated by $ u,v $ for all pairs $ u,vin G $ is denoted $ G,G $ and is called the commutator subgroup of $ G $ .
+A function $ f: Xto Y $ between metric spaces $ (X, rho) $ and $ (Y,sigma) $ is an isometry if for all $ a,b in X $ , $ sigma(f(a), f(b)) = rho(a,b) $ .
+Two metric spaces are isometric if there exists an isometry between them.
+The complex symplectic group $ text{Sp}(2n,mathbb C) $ is the group of $ 2ntimes 2n $ complex - valued matrices that preserve the form $ omega $ as in the definition of the real symplectic group.
+This group is a matrix Lie group because it is a subgroup of the general linear group $ text{GL}(n,mathbb C) $ .
+The image of a function $ f:Xto Y $ is the set $ text{im}(f) = {T(x) in Y mid x in X}subset Y $ .
+Let $ (X,Sigma,mu) $ be a measure space.
+A measurable subset $ A $ of $ X $ is outer regular if $ mu(A) = inf{mu(G) mid Gsupseteq A, Gtext{ open and measurable}} $ .
+Let $ R $ be a commutative ring and let $ S $ be a subset of $ R $ that is closed under multiplication and contains the multiplicative identity.
+Then $ S^{ - 1}R = left{leftfrac{r}{s}rightmid rin R,sin Sright} $ where equivalence of fractions is given by $ leftfrac{r _1}{s_1}right =leftfrac{r_2}{s_2}right $ if and only if there exists $ k in S $ such that $ kr_1s_2 = kr_2s_1 $ .
+This is itself a ring under the usual operations we know and love for fractions of integers.
+If $ S $ is exactly the nonzero elements of $ R $ , then this forms a field.
+Let $ R $ be a ring and let $ M $ be a free $ R $ - module.
+Then the cardinality of a basis for $ M $ is the rank of $ M $ .
+We can also define the rank for modules that are not free: it is the maximum number of linearly independent elements of $ M $ .
+Let $ A $ be an algebra over an algebraically closed field $ mathbb k $ and let $ M $ be a semisimple module over $ A $ of finite dimension over $ mathbb k $ .
+The number of times the module $ V $ appears in a direct sum decomposition of $ M $ is denoted $ M:V $ and is called the multiplicity of $ V $ in $ M $ .
+A short exact sequence of chain complexes is a diagram like the following: where the rows $ A $ , $ B $ , and $ C $ are chain complexes and the columns are exact sequences.
+Let $ M $ and $ N $ be modules over the ring $ R $ .
+A module homomorphism between $ M $ and $ N $ is a function $ f:Mto N $ such that for any $ x,y in M $ and $ rin R $ , (i) $ f(x+y) = f(x) + f(y) $ (ii) $ f(rx) = rf(x) $ where the operation in (2) is the scalar multiplication.
+If a module homomorphism is bijective, then it is an isomorphism of modules.
+Let $ mathcal P(X) $ be the power set of $ X $ .
+An outer measure on $ X $ is a function $ mu: mathcal P(X) to 0,infty $ such that - $ mu(emptyset) = 0 $ - if $ A, B subset X $ with $ Asubset B $ , then $ mu(A) leqmu(B) $ - for arbitrary subsets $ B_i subset X $ for $ i in mathbb N $ , we have $ muleft(bigcuplimits_{iinmathbb N} B_i right)leq sumlimits_{iinmathbb N}mu(B_i) $ .
+Let $ V $ be a vector space.
+The set $ W subseteq V $ spans $ V $ if for all $ v in V $ , there exists $ n in mathbb N $ , a collection $ {alpha_i}_{i=1}^n subset mathbb R $ , and a collection $ {v_i}_{i=1}^n subset W $ such that $ v = sum_{i=1}^n alpha_i v_i $ .
+Let $ X $ be a set.
+The symmetric group $ S_X $ is the set of all bijections from $ X $ to itself.
+When $ X $ is finite with cardinal number $ n $ , it is denoted $ S_n $ and consists of the set of permutations on $ n $ letters.
+The action of a group $ G $ on the set $ X $ is transitive if for every pair $ x,y in X $ , there exists $ gin G $ such that $ gcdot x=y $ .
+Let $ A $ be a Banach algebra with norm $ |cdot | $ .
+Given a sequence $ {a_i}_{iin mathbb N} $ of elements of $ A $ , we say that the series $ sum_{i=1}^infty a_i $ is absolutely convergent if $ sum_{i=1}^infty |a_i| <infty, $ i.e. if the series $ {|a_i|}_{iinmathbb N} $ is convergent as real numbers.
+This means that the partial sums $ sum_{i=1}^n a_i $ form a Cauchy sequence in $ A $ , which is complete, and therefore must have a limit in $ A $ .
+We denote this limit by the infinite sum.
+Let $ A $ be an elementary abelian p - group and let $ mathbf ain(a_1,dots,a_r)in A^r $ .
+Let $ f_mathbf a:(mathbb Z/pmathbb Z)to A $ be the unique homomorphism satisfying $ f_mathbf a(1,0,dot,0) = a_1, dots, f_mathbf a(0,dots, 1) = a_r $ .
+If the function $ f_mathbf a $ is injective, then the $ a_i $ are linearly independent .
+Let $ R $ be an integral domain and let $ M $ be an $ R $ - module.
+Then $ M $ is torsion - free if its torsion submodule is trivial.
+Let $ (X,rho) $ be a metric space.
+Then a function $ f:Xto X $ is a contraction mapping if there exists $ r in 0,1) $ such that for all $ x,y in x $ , $ rho(f(x),f(y)) leq rrho(x,y) $ .
+The rank of a linear transformation $ T $ is the dimension of the image of $ T $ .
+An at - most - countable collection $ {A_i}_{iin I} $ whose elements are called atomic formulae or propositional variables together with some subset of the logical connectors $ (land, lor, rightarrow, leftrightarrow, neg) $ and $ {top, bot} $ is called a language for propositional logic .
+Name this whole agglomeration $ L $ .
+Then $ text{Form}(L) $ is the smallest set containing $ {A_i}_{iin I} $ , $ top $ , and $ bot $ that is closed under the remaining logical operators, which at their most basic take two (one in the case of $ neg $ ) atomic variables and spit out a new formula.
+We know that this set is nonempty because there exists a set $ D $ consisting of all finite strings with characters drawn from $ {A_i}_{iin I} $ , $ top $ , $ bot $ , and $ {land,lor, rightarrow, leftrightarrow, neg} $ .
+Consider $ bigcap _{Sin F}S $ where $ F $ is a collection of sets that are subsets of $ D $ satisfying the closure property.
+This is the smallest such set, but it does not tell us what the elements look like.
+Consider a map $ LC: mathcal P(D) to mathcal P(D) $ given by $ LC(S)= Scup{(B)rightarrow (C), (B)leftrightarrow (C), (B)land (C), (B)lor (C), neg(B) mid B,Cin S} $ .
+Let $ H = bigcup_{iin mathbb N} LC^i ({A_j}_{jin I} cup {bot,top}) $ .
+Then $ H = text{Form}(L) $ : Let $ S $ be some candidate set for $ text{Form}(L) $ .
+It suffices to show that $ Hsubseteq S $ .
+To show this it suffices to show that $ LC^i ({A_j}_{jin I} cup {bot,top}) subseteq S $ for all $ i $ .
+The base case $ i=0 $ follows from the definition we are looking to satisfy and the hypothesis that $ S $ satisfies it.
+The inductive step follows immediately from the definition and its closure property.
+Let $ X $ be a topological space.
+A path in $ X $ is a continuous function from the unit interval $ I $ to $ X $ . $ p: Ito X $
+The order of a group $ G $ is the cardinal number of the underlying set of $ G $ .
+The order of a group does not distinguish between different infinite cardinals.
+The kernel of a linear transformation $ T:Vto W $ is the set $ text{ker}(T)= {vin Vmid T(v) =0} $ .
+It is a vector space.
+Let $ R $ be a ring with ideals $ I $ and $ J $ .
+Then the sum of $ I $ and $ J $ , defined by $ I+J= {i+j mid iin I,jin J} $ is itself an ideal.
+Let $ V $ be a vector space.
+The $ m $ - fold symmetric product of $ V $ is the quotient vector space of the $ m $ - fold tensor product $ V^{otimes m} $ by the subspace generated by the tensors $ v_1otimescdotsotimes v_m - v_{sigma(1)}otimes cdotsotimes v_{sigma(m)} $ for all $ v_i in V $ and all $ sigma in S_m $ (the set of permutations of $ {1,dots,m} $ ).
+It is denoted $ text{Sym}^m(V) $ .
+A linear transformation $ T:Vto V $ from a normed linear space $ V $ to itself is compact if the closure of the image of the closed unit ball $ B = {v in V mid ||v|| leq 1} $ is compact in the usual sense.
+The quaternion algebra $ mathbb H $ is the four - dimensional associative algebra over $ mathbb R $ spanned by the elements $ 1,mathbf i,mathbf j,mathbf k $ where $ 1 $ is the identity element and the relations (i) $ mathbf i^2 = mathbf j^2 = mathbf k^2 = - 1 $ ; (ii) $ mathbf{ij} = mathbf k $ ; (iii) $ mathbf{ji} = - mathbf k $ ; (iv) $ mathbf{jk} = mathbf i $ ; (v) $ mathbf{kj} = - mathbf i $ ; (vi) $ mathbf{ki} = mathbf j $ ; (vii) $ mathbf{ik} = - mathbf j $ .
+This can be considered as a sub(?) of the set of $ 2times 2 $ complex matrices $ M_2(mathbb C) $ by setting $ mathbf i = }, quad mathbf j = },quad mathbf k = } $ .
+Then $ mathbb H $ is the space of real linear combinations of $ I_2 $ , $ mathbb i $ , $ mathbb j $ , and $ mathbb k $ .
+Let $ X $ be a ∆ - complex.
+An open simplex $ e_alpha^n $ of dimension $ n $ in $ X $ has a canonical map $ sigma_alpha: Delta^n to X $ that restricts to a homeomorphism from the interior of the standard n - simplex $ Delta^n $ onto $ e_alpha^n $ .
+Let $ p $ be a prime number.
+A Sylow $ p $ - subgroup of a group $ G $ is a maximal p - subgroup of $ G $ .
+That is, it is a p - group that is a subgroup of $ G $ and that is not a proper subgroup of any other p - subgroup of $ G $ .
+A field or algebra of subsets of a set $ X $ is a pair $ (X, mathcal F) $ consisting of the set $ X $ and a collection $ mathcal F $ of subset of $ X $ such that (i) $ mathcal F $ is closed under complementation: $ Xsetminus F in mathcal F $ for all $ F in mathcal F $ ; (ii) $ mathcal F $ contains the empty set.
+Equivalently, if (1) holds, $ mathcal F $ contains $ X $ ; (iii) Any of the following equivalent (by induction and De Morgan's laws) conditions hold: - $ mathcal F $ is closed under binary union: $ Fcup G in mathcal F $ for all $ F, G in mathcal F $ ; - $ mathcal F $ is closed under binary intersection: $ Fcap G in mathcal F $ for all $ F,G in mathcal F $ ; - $ mathcal F $ is closed under finite unions; - $ mathcal F $ is closed under finite intersections.
+An algebra is a ring of subsets of $ X $ containing the set $ X $ .
+A topological game $ G(X, Y, mathcal S) $ is a game of perfect information played between two players on a topological space $ X $ where $ Y $ is a fixed subset of $ Y $ , and $ mathcal S $ is some family of subsets of $ X $ .
+Let $ G $ be a matrix Lie group.
+The identity component $ G_0 $ of $ G $ is the set of $ Ain G $ for which there exists a continuous path $ gamma:0,1to G $ such that $ gamma(0) = I $ and $ gamma(1) = A $ .
+Because connectedness and path - connectedness are equivalent in this case, $ G_0 $ amounts to the connected component of $ G $ that contains the identity matrix $ I $ .
+Let $ mathfrak g $ be a Lie algebra and let $ (V,rho_V) $ and $ (W,rho_W) $ be representations of $ mathfrak g $ .
+Then the tensor product of these representations is the pair $ (Votimes W, rho_{Votimes W}) $ where $ rho_{Votimes W}(x) = rho_V(x) otimes text{Id} + text{Id}otimes rho_W(x) $ for all $ x in mathfrak g $ .
+The projectivization of a vector space $ (V,F) $ is the quotient of $ V $ by the action of the multiplicative group of the base field $ F $ by scalar multiplication.
+Let $ Lambda={mu = (mu_1,dots, mu_n)inmathbb Z^n mid mu_1geq cdotsgeq mu_n geq 0} subseteq mathbb Z^n_{geq 0} $ .
+For each $ mu in Lambda $ , define $ nabla_mu in mathbb Zx_1,dots, x_n^text{sign} $ to be the antisymmetric polynomial under the sign representation of the symmetric group given by $ nabla_mu = sum_{sin S_n} text{sign}(s) x^{s(mu)} = detleft|} right| $ .
+The second equality follows from the Leibniz formula for determinants.
+Set $ rho in Lambda $ to $ rho = (n - 1,n - 2,dots, 1, 0) $ .
+Up to sign, $ nabla_rho $ is the Vandermonde determinant.
+Because $ mathbb Zx_1,dots, x_n^text{sign} $ is a rank - one free module over $ mathbb Zx_1,dots, x_n^{S_n} $ with generator $ Delta_n $ , it follows that $ nabla_rho $ is also a generator of this module.
+Thus for every $ muin Lambda $ there exists a unique polynomial $ s_muinmathbb Zx_1,dots, x_n^{S_n} $ called the Schur polynomial of $ mu $ such that $ nabla_{mu + rho} = s_mu cdotnabla_rho $ .
+Explicitly, $ s_mu = nabla_{mu + rho}/nabla_rho $ .
+A chain complex is a sequence of homomorphisms of abelian groups $ cdots to C_{n+1} to C_n to C_{n - 1} to cdots to C_1to C_0 to 0 $ (where the arrow between $ C_{k} $ and $ C_{k - 1} $ is labelled $ partial_k $ ) such that the composition $ partial_{k+1}circpartial_k = 0 $ for all $ k $ .
+A Banach algebra is an algebra equipped with a complete multiplicative norm.
+Let $ G $ be a group.
+The category of canonical orbits of $ G $ , denoted $ mathcal O(G) $ , is the category with objects the G - sets $ G/H $ for all subgroups $ H $ of $ G $ and morphisms the G - maps that exist between the objects. $ mathcal O(G) $ is isomorphic to the category $ mathcal G $ whose objects are the subgroups of $ G $ and whose morphisms are the distinct subconjugacy relations $ gamma^{ - 1}Hgamma subset K $ for $ gamma in G $ .
+Proof G - equivariant homomorphisms between quotient G - sets Weyl group of stabilizer under transitive action isomorphic to G - automorphisms of G - set
+Let $ G $ be a group.
+A normal series is an ascending sequence of subgroups $ {e} = N_0subseteq N_1subseteq cdotssubseteq N_{k - 1} subseteq N_k = G $ such that $ N_i $ is normal in $ G $ for all $ 0leq ileq k $ .
+Let $ f:Xto Y $ be a function.
+The fiber of a point $ yin Y $ is the set of all points $ xin X $ such that $ f(x) = y $ .
+That is, $ f^{ - 1}(y) = {xin Xmid f(x) = y} $ .
+The fiber is the inverse image under $ f $ of the singleton $ {y} $ .
+Let $ mathbb k $ be a field and consider the algebra of polynomials in $ n $ variables $ P_n =bigopluslimits_{dgeq 0} P_n^d $ .
+Given a representation of a group $ G $ in $ mathbb k^n $ , we get an action of $ G $ on $ P_n $ by the induced action of group on maps: for $ fin P_n $ , $ g:fmapsto g^*f $ .
+Then each homogeneous subspace $ P_n^d $ of $ P_n $ is a $ G $ - invariant subspace.
+Moreover, the algebra of invariant polynomials, written $ P_n^G $ , is a graded subalgebra of $ P_n $ .
+An element $ x $ of an integral domain is prime if the ideal generated by $ x $ is a prime ideal.
+That is, for all $ a,b in R $ such that $ x $ divides $ ab $ , then either $ x $ divides $ a $ or $ x $ divides $ b $ .
+% Options for packages loaded elsewhere PassOptionsToPackage{unicode}{hyperref} PassOptionsToPackage{hyphens}{url} % documentclass {article} usepackage{amsmath,amssymb} usepackage{lmodern} usepackage{iftex} ifPDFTeX usepackageT1{fontenc} usepackageutf8{inputenc} usepackage{textcomp} % provide euro and other symbols else %
+if luatex or xetex usepackage{unicode - math} defaultfontfeatures{Scale=MatchLowercase} defaultfontfeaturesrmfamily{Ligatures=TeX,Scale=1} fi %
+Use upquote if available, for straight quotes in verbatim environments IfFileExists{upquote.sty}{usepackage{upquote}}{} IfFileExists{microtype.sty}{% use microtype if available usepackage{microtype} UseMicrotypeSetprotrusion{basicmath} % disable protrusion for tt fonts }{} makeatletter @ifundefined{KOMAClassName}{% if non - KOMA class IfFileExists{parskip.sty}{% usepackage{parskip} }{% else setlength{parindent}{0pt} setlength{parskip}{6pt plus 2pt minus 1pt}} }{% if KOMA class KOMAoptions{parskip=half}} makeatother usepackage{xcolor} setlength{emergencystretch}{3em} % prevent overfull lines providecommand{tightlist}{% setlength{itemsep}{0pt}setlength{parskip}{0pt}} setcounter{secnumdepth}{ - maxdimen} % remove section numbering ifLuaTeX usepackage{selnolig} % disable illegal ligatures fi IfFileExists{bookmark.sty}{usepackage{bookmark}}{usepackage{hyperref}} IfFileExists{xurl.sty}{usepackage{xurl}}{} % add URL line breaks if available urlstyle{same} % disable monospaced font for URLs hypersetup{ pdftitle={∆ - complex}, hidelinks, pdfcreator={LaTeX via pandoc}} title{∆ - complex} author{} date{} }
+A sequence $ {x_i}_{iinmathbb N} $ in a topological space $ X $ converges to $ x in X $ if for every open $ Usubset X $ such that $ x in U $ , there exists $ n_0 inmathbb N $ such that for every $ n geq n_0 $ , we have $ x_n in U $ .
+In a general topological space, the limit of a sequence need not be unique.
+A descending sequence $ {E_n}_{ninmathbb N} $ of nonempty subsets of a metric space $ X $ is contracting if the limit of the diameters goes to zero.
+That is, $ lim_{nto infty} text{diam}(E_n) = 0 $ .
+Let $ A $ and $ B $ be two algebras over the field or commutative ring $ K $ .
+Then an algebra homomorphism between $ A $ and $ B $ is a map $ f:Ato B $ such that (i) $ f(kx) = kf(x) $ (ii) $ f(x+y) = f(x) + f(y) $ (iii) $ f(xy) = f(x)f(y) $ for all $ kin K $ and $ x,yin A $ .
+If an algebra homomorphism is bijective, then it is an isomorphism of algebras.
+A subset $ S $ of a topological space is perfect if it is closed and contains no isolated points.
+Equivalently, $ S $ is perfect if it is equal to the set of its limit points.
+The diameter of a nonempty subset $ E $ of a metric space $ (X,rho) $ is given by the supremum $ text{diam}(E) = sup{rho(x,y)mid x,y in E} $ .
+Let $ V $ be a vector space and let $ T: Vto V $ be a linear transformation with corresponding matrix $ A $ .
+The matrix coefficients of the matrix corresponding to the exterior product $ wedge^m(T) $ of $ T $ are called the minors of $ A $ .
+Let $ (X,Sigma,mu) $ be a measure space.
+The $ p $ - norm of a measurable function $ f to mathbb R $ is $ ||f||_p = left(int_X |f|^ptext dmuright)^{1/p} $ .
+An elementary abelian $ p $ - group is an abelian group $ G $ in which every nontrivial element has order $ p $ where $ p $ is prime.
+Let $ X $ be a locally compact Hausdorff topological space.
+Fix an integral $ int_X $ and $ V $ a finite - dimensional vector space.
+Choose a basis $ {v_i}_{i=1}^n $ for $ V $ so that any continuous function $ f:Xto V $ can be expressed as $ f(x) = sum_{i=1}^n f_(x)v_i text{ for all } xin X $ where the $ f_i $ are the components of $ f $ .
+Define the vector - valued integral of $ f $ as $ int_X f(x) text{d} x = sum_{i=1}^n left(int_X f_i(x)text dx right)v_i $ .
+We can say that it is given by the integrals of the coordinates.
+A right ideal of a ring $ R $ is a subset $ Isubseteq R $ such that - $ (I,+) $ is a subgroup of $ (R,+) $ ; - $ I $ is closed under right multiplication in $ R $ (i.e. for all $ iin R $ and all $ rin R $ , $ ir in I $ ).
+Let $ (V,F) $ be a vector space.
+A function $ langlecdot,cdotrangle: Vtimes V to F $ is an inner product on $ V $ if (i) it is bilinear; (ii) it is commutative; (iii) $ langle v, vrangle geq 0 $ for all $ v in V $ and $ langle v,vrangle = 0 $ if and only if $ v=0 $ .
+A function $ f: Xtomathbb R $ has compact support if the closure of its support $ S $ is compact as a subset of $ X $ .
+Let $ X $ be a finite CW complex.
+The Euler characteristic $ chi(X) $ is defined to be the alternating sum $ sum_n ( - 1)^nc_n $ where $ c_n $ is the number of $ n $ - cells of $ X $ .
+Let $ R $ be a ring and let $ M $ be an $ R $ - module.
+A composition series for $ M $ is a chain of submodules of $ M $ $ M = F_0 supset F_1 supset cdots supset F_{n - 1}supset F_n ={0} $ such that the quotient $ F_i/F_{i+1} $ is simple for all $ i $ .
+The complex orthogonal group $ text{O}(n,mathbb C) $ is the set of $ ntimes n $ complex matrices whose transposes are equal to their inverses.
+This definition mirrors the definition of the real orthogonal group, but instead we consider complex - valued matrices.
+It is a matrix Lie group because it is a subgroup of the general linear group $ text{GL}(n,mathbb C) $ .
+An algebraic number is a number that is a root of a nonzero polynomial in one variable over $ mathbb Q $ .
+It is often denoted by $ overline{mathbb Q} $ .
+The algebraic numbers form a field.
+A topological space $ X $ is compactly generated if it a weak Hausdorff k - space.
+Let $ mathcal E $ and $ mathcal B $ be small connected groupoids.
+A covering $ p:mathcal Eto mathcal B $ is a functor that is surjective on objects and restricts to a bijection on the star for each object $ e $ of $ mathcal E $ .
+That is, $ p(text{St}(e)) = text{St}(p(e)) $ .
+For an object $ b $ of $ mathcal B $ , let $ F_b $ denote the set of objects of $ mathcal E $ such that $ p(e) = b $ .
+That is, the fiber of $ b $ .
+Then $ p^{ - 1}(text{St}(b)) $ is the disjoint union over $ ein F_b $ of $ text{St}(e) $ .
+See covering space.
+Let $ X $ be a ∆ - complex and let $ Delta_n(X) $ be the free abelian group on the open n - simplices of $ X $ .
+Elements of $ Delta_n(X) $ are called $ n $ - chains and can be written as formal finite sums $ sum_alpha n_alpha e_alpha^n $ for $ n_alpha in mathbb Z $ .
+Equivalently, this is sometimes written $ sum_alpha n_alphasigma_alpha $ where the $ sigma_alpha:Delta^nto X $ are the characteristic maps of the $ e_alpha^n $ .
+This sum can be thought of as a finite collection/chain of n - simplices in $ X $ with integer multiplicities.
+A non - Archimedean absolute value on a field $ F $ is an absolute value $ |cdot|:Fto mathbb R $ such that $ |x+y|leqmax{|x|,|y|} $ for all $ x,yin F $ .
+This inequality is called the ultrametric inequality and it is stronger than the triangle inequality.
+If a Lie algebra has no ideals except for $ {0} $ and itself, then it is simple .
+A function $ f:a,bto mathbb R^n $ is absolutely continuous if for every $ varepsilon > 0 $ , there exists $ delta > 0 $ such that if $ {(x_i,y_i)}_{i=1}^k $ are pairwise disjoint subintervals of $ a,b $ with total length less than $ delta $ , then $ sum_{i=1}^k |f(y_i) - f(x_i)| < varepsilon $ .
+Let $ A $ be a matrix and let $ A_i $ be the $ i $ th row of $ A $ .
+A row operation on $ A $ is any of the following operations: (i) Switch two rows (ii) Multiply a row by a nonzero constant (iii) Add one row to another
+The closed half - space $ H^n subsetmathbb R^n $ is $ H^n = {(x_1,dots,x_n)inmathbb R^nmid x_i in mathbb R, x_n geq 0} $ .
+The center of a group $ G $ is $ Z(G) = {zin Gmid zg=gz text{ for all } gin G} $ .
+A category $ mathcal C $ is a collection of objects together with a set $ mathcal C(A,B) $ of morphisms or maps between any two objects.
+In particular, there is always for each object $ A $ in $ mathcal C $ an identity morphism $ text{id}_A inmathcal C(A,A) $ .
+Finally, a category must obey the following composition law: $ circ: mathcal C(B,C)times mathcal C(A,B) to mathcal C(A,C) $ for all triples $ A $ , $ B $ , $ C $ of objects such that composition is associative, and identity morphisms are identities for composition.
+That is, - $ hcirc(gcirc f) = (hcirc g)circ f $ ; - $ text{id}circ f = f $ ; - $ fcirc text{id} = f $ .
+Let $ X $ be a set together with a binary operation $ * $ .
+An element $ e in X $ is an identity element of $ X $ if it is both a left and right identity of $ X $ with respect to $ * $ .
+Let $ X $ be a topological space.
+The singular complex $ S(X) $ is the ∆ - complex with one n - simplex $ Delta_sigma^n $ for each singular n - simplex $ sigma:Delta^nto X $ with $ Delta_sigma^n $ attached in the obvious way to the $ (n - 1) $ - simplices that are the restrictions of $ sigma $ to the various $ (n - 1) $ - simplices in the boundary $ partialDelta^n $ .
+If $ sigma in S_n $ is an element of the symmetric group on $ n $ letters, then it is the product of disjoint cycles of length $ n_1leqcdotsleq n_r $ (including the $ 1 $ - cycles!)
+and moreover the sum of the $ n_i $ is equal to $ n $ .
+The partition of $ n $ given by the $ n_i $ is called the cycle type of $ sigma $ .
+Let $ X $ be a topological space.
+The closure of the set $ A subset X $ is the smallest closed subset of $ X $ containing $ A $ , or the union of $ A $ and its limit points.
+A monoid is a semigroup $ (X,*) $ that has an identity element under $ * $ .
+A unit of a ring $ R $ is an element $ rin R $ that has a multiplicative inverse.
+Let $ G $ be a group.
+A subnormal series is an ascending sequence of subgroups $ {e} = N_0subseteq N_1subseteq cdotssubseteq N_{k - 1} subseteq N_k = G $ such that $ N_i $ is normal in $ N_{i+1} $ for all $ 0leq ileq k $ .
+An oriented edge $ k:Ito X $ in a graph $ X $ where $ I $ is the unit interval is the traversal of an edge in either the forward or the backward direction.
+Let $ mathfrak g $ be a Lie algebra with subalgebras $ mathfrak g_1 $ and $ mathfrak g_2 $ .
+Then $ mathfrak g $ decomposes as the direct sum of Lie algebras $ mathfrak g_1 $ and $ g_2 $ if it is the direct sum of vector spaces $ mathfrak g_1oplus mathfrak g_2 $ and $ X_1,X_2=0 $ for all $ X_1inmathfrak g_1 $ and $ X_2in mathfrak g_2 $ .
+Let $ S subsetmathbb R^n $ be rectifiable. $ S $ is symmetric with respect to the vector subspace $ x_k=0 $ if the function $ h:Stomathbb R^n $ given by $ h(x) = h(x_1,dots, - x_k, dots, x_n) $ has as its image $ S $ itself.
+Let $ (X_1,Sigma_1,mu_1) $ and $ (X_2,Sigma_2,mu_2) $ be two measure spaces, and let $ Sigma_1otimes Sigma_2 $ be the σ - algebra generated by sets of the form $ B_1times B_2 $ for $ B_1in Sigma_1 $ , $ B_2in Sigma_2 $ .
+A product measure $ mu_1times mu_2 $ is a measure on the measurable space $ (X_1times X_2, Sigma_1otimesSigma_2) $ such that $ (mu_1timesmu_2)(B_1times B_2) = mu_1(B_1)mu_2(B_2) $ for all $ B_1in Sigma_1 $ , $ B_2in Sigma_2 $ .
+Note: When multiplying measures that are infinite, the product is zero if any factor is zero.
+Note:
+The product measure can *always* be constructed according to the Hahn - Kolomogorov theorem.
+Let $ X $ be a topological space.
+The subset $ A subset X $ is closed if its complement $ Xsetminus A $ is open.
+Equivalently, if $ X $ is a metric space, then a subset $ A subset X $ is closed if and only if it contains all of its limit points.
+Let $ S subsetmathbb R^n $ be a bounded set.
+Then $ S $ is rectifiable if the constant function $ 1 $ is Riemann integrable over $ S $ .
+A topological group is a topological space $ G $ that is also a group such that the binary operation on the group and the inverse map are both continuous.
+That is, the two maps $ cdot:Gtimes Gto G text{ given by } (x,y)mapsto xy $ $ text{inv}:Gto G text{ given by } xmapsto x^{ - 1} $ are both continuous where $ Gtimes G $ is given the product topology.
+Let $ X $ be a topological space and let $ A $ be a subspace of $ X $ .
+Elements of the relative homology groups $ H_n(X,A) $ are called relative cycles .
+They are n - chains $ alphain C_n(X) $ such that $ partial alpha in C_{n - 1}(A) $ .
+The quotient of $ G $ by its commutator subgroup $ G,G $ (which is normal) is called the abelianization of $ G $ .
+It is in fact abelian.
+Let $ G $ be a group.
+The upper central series for $ G $ is an ascending sequence of subgroups of $ G $ defined as follows: Let $ Z_0(G) = {e} $ and let $ Z_1(G) $ be the center $ Z(G) $ .
+Then for each $ igeq 1 $ , define $ Z_{i+1}(G) $ to be a subgroup of $ G $ containing $ Z_i(G) $ such that the quotient $ Z_{i+1}(G)/Z_i(G) = Z(G/Z_i(G)) $ .
+Note that because the center is a normal subgroup, these quotients are well - defined.
+Also note that this series may or may not reach $ G $ .
+An open cover $ {U} $ of a topological space $ B $ is numerable if for each $ U $ there exist continuous maps $ lambda_U:Bto I $ (where $ I $ is the unit interval) such that the inverse image $ lambda_U^{ - 1}((0,1) = U $ and if the cover is locally finite.
+this seems to have a double word
+Let $ (L,leq) $ be a lattice.
+A complement of $ ain L $ is an element $ bin L $ such that the supremum $ sup(a,b) $ is a maximum element of $ L $ and the infimum $ inf(a,b) $ is a minimum element of $ L $ .
+That is, if $ yleq sup(a,b) $ and $ inf(a,b)leq y $ for all $ yin L $ .
+A set $ S $ of vectors in an inner product space is orthonormal if every element of $ S $ has norm $ 1 $ and each vector in the set is orthogonal to every other vector in the set.
+Let $ G $ be a group with subgroup $ H $ .
+Then the quotient $ G/H $ is the set of classes of cosets $ gH $ for $ gin G $ .
+The quotient is itself a subgroup exactly when $ H $ is normal in $ G $ .
+See the definition of the quotient when the subgroup is normal.
+A function $ f:Ato mathbb R $ is locally monotonic at $ x in A $ if there exists $ r>0 $ such that whenever $ 0 < y - x < r $ , $ f(y)geq f(x) $ and whenever $ 0 < x - y < r $ , $ f(y)leq f(x) $ .
+An ideal $ mathfrak p $ of a ring $ R $ is prime if it is proper and if $ a,bin R $ such that $ ab in I $ , then $ ain mathfrak p $ or $ bin mathfrak p $ .
+The alternating group $ A_n $ is the subgroup of the symmetric group $ S_n $ given by the kernel of the sign homomorphism.
+That is, it consists of all permutations whose sign is $ 1 $ .
+The Lebesgue measure on $ mathbb R^n $ is constructed as follows: A set $ A subsetmathbb R^n $ is Lebesgue measurable if for every $ Ssubset mathbb R^n $ , we have the following relation in the Lebesgue outer measure $ lambda^* $ : $ lambda^*(S) = lambda^*(Scap A) + lambda^*(Ssetminus A) $ .
+By Carathéodory's extension theorem, Lebesgue measurable sets $ A $ form a σ - algebra and the Lebesgue measure of any such set coincides with its Lebesgue outer measure.
+Let $ (L,F) $ be a vector space with a binary operation $ Ltimes L to L $ denoted $ (x,y) mapsto xy $ .
+This operation is called the bracket or commutator of $ x $ and $ y $ .
+The vector space together with the operation is a Lie algebra over the field $ F $ if (i) The bracket operation is bilinear; (ii) $ xx = 0 $ for all $ x in L $ ; (iii) $ xyz + yzx+zxy =0 $ for all $ x,y,zin L $ .
+The last axiom is called the Jacobi identity .
+An ideal $ I $ of an algebra $ A $ is a subset $ Isubset A $ that is both a left algebra ideal and a right algebra ideal.
+In the case that $ A $ is a commutative algebra, these notions coincide and every right ideal is also a left ideal is also a two - sided ideal.
+As long as the ring $ R $ is not a rng, $ A $ will inherit the definition of ideal from its underlying ring structure.
+Let $ R $ be a commutative ring and $ x $ a variable.
+Then $ Rx $ is the polynomial ring of polynomials in $ x $ with coefficients in $ R $ .
+We can also define the polynomial ring in multiple variables.
+Let $ X = {x_1,dots,x_n} $ be a finite collection of variables.
+Then $ RX = Rx_1,dots,x_n $ is defined as follows: To each function $ I:Xto mathbb N $ , associate a monomial $ x^I = x_1^{I(x_1)}+cdots + x_n^{I(x_n)} $ .
+Then $ RX= left{ sum_{I:Xto mathbb N} a_IX^I mid a_Iin R, a_I = 0 text{ for all but finitely many } I right} $ .
+Multiplication and addition are defined exactly how you would think.
+A Lie group $ Gsubseteq text{GL}(n,mathbb C) $ is compact if it is compact in the usual sense when considered as a subset of $ M_n(mathbb C) cong mathbb R^{2n^2} $ .
+A Δ - complex is a quotient vector space of a collection of disjoint simplices obtained by identifying certain faces by the canonical linear homeomorphisms described in the definition of barycentric coordinates.
+Consider a collection of n - simplices $ Delta^n_alpha $ of various dimension (i.e. $ n $ is not fixed) and some sets $ mathcal F_i $ of faces of the $ Delta_alpha^n $ such that within each $ mathcal F_i $ , each face has the same dimension (i.e. value for $ n $ ).
+We can take a quotient vector space of the disjoint union $ coprod_alpha Delta_alpha^n $ by identifying all of the faces in each $ mathcal F_i $ via the canonical linear homeomorphisms described in the definition of barycentric coordinates.
+The generalized orthogonal group $ text{O}(n,k) $ is the group of $ (n+k)times (n+k) $ real - valued matrices that preserve the symmetric bilinear form $ x,y_{n,k} = x_1y_1 + cdots + x_ny_n - x_{n+1}y_{n+1} - cdots - x_{n+k}y_{n+k} $ .That is, $ A in text{O}(n,k) $ if and only if $ x,y_{n,k} = Ax,Ay_{n,k} $ for all $ x,y in mathbb R^n $ .
+This group is a matrix Lie group because it is a subgroup of the general linear group $ text{GL}(n,mathbb C) $ .
+A metric space $ (X,rho) $ is complete if every Cauchy sequence is also convergent.
+An atlas for a topological space $ M $ is a collection of charts on $ M $ that covers $ M $ .
+Let $ mathcal C $ be a category.
+When there exists a "suitable" relation of homotopy between morphisms in $ mathcal C $ , then the homotopy category $ hmathcal C $ , defined to be the category consisting of the same objects as $ mathcal C $ with with morphisms given by homotpy classes of morphisms in $ mathcal C $ .
+Let $ R $ be a ring of subsets of $ X $ and let $ mu_0:0,infty $ .
+Then $ mu_0 $ is a pre - measure if $ mu_0(emptyset) = 0 $ and for every sequence $ {A_n}_{ninmathbb N}subset R $ of pairwise disjoint subsets whose union is in $ R $ , $ mu_0left(bigcup_{ninmathbb N}A_nright) = sum_{ninmathbb N} mu_0(A_n) $ .
+That is, $ mu_0 $ is σ - additive.
+Let $ G $ be a group acting on the set $ X $ .
+The stabilizer of a point $ xin X $ , denoted $ text{Stab}(x) $ , is the set of elements $ gin G $ such that $ gcdot x = x $ .
+Let $ U subset mathbb R^n $ be open.
+Let $ v in mathbb R^n $ .
+The directional derivative of a function $ f:Utomathbb R^m $ in the direction of $ v $ at a point $ a in U $ is $ D_vf(a) = frac{partial f}{partial v}(a) = lim_{hto 0}frac{f(a+hv) - f(a)}{h} $ if this limit exists.
+The characteristic polynomial of a linear transformation $ T $ is the polynomial in $ lambda $ given by the determinant of the linear transformation $ T - lambda I $ : $ p_T(lambda) = text{det}(T - lambda I) $ .
+Let $ X $ be a metric space with $ A subset X $ .
+Let $ mu $ be the Lebesgue measure.
+A collection $ mathcal V $ of sets covering $ A $ is a Vitali covering if for each $ x in A $ and $ varepsilon > 0 $ , there exists $ U in mathcal V $ such that $ x in U $ , and the diameter of $ U $ is nonzero and less than $ varepsilon $ .
+Let $ (X,Sigma, mu) $ be a measure space and let $ A subset X $ .
+The measurable hull $ H $ of $ A $ is the measurable set $ Hsupseteq A $ such that
+for any measurable set $ F $ satisfying $ Asubseteq Fsubseteq H $ , we have $ mu(F) = mu(H) $ .
+Let $ X $ be a compact topological space and let $ 1_X $ be the constant function $ 1 $ on this space.
+Then for a fixed Haar integral $ int_X $ , define the volume of $ X $ to be $ text{vol}(X) = int_X 1_X $ .
+A Banach - Mazur game $ MB(X,Y, mathcal W) $ is a topological game played as follows: Let $ X $ be a topological space, $ Y $ a fixed subset of $ X $ , and $ mathcal W $ a family of subsets of $ X $ such that (i) each element of $ mathcal W $ has nonempty interior.
+(ii) every nonempty subset of $ X $ contains an element of $ mathcal W $ .
+Players 1 and 2 alternately choose elements of $ mathcal W $ to form a sequence $ W_1supset W_2supsetcdots $ .
+Player 1 wins if and only if $ Ycap left(bigcap_{n<omega} W_nright)neq emptyset $ where $ omega $ is the first transfinite ordinal.
+The generating set of a group $ G $ is a subset $ S $ of $ G $ such that every element of $ G $ can be expressed as a combination under the group operation of finitely many elements of $ S $ and their inverses.
+A set $ {v_i}_{iin Lambda} $ in the vector space $ V $ is orthogonal if $ langle v_i, v_jrangle =0 $ for all $ ineq j $ .
+A subgroup $ H $ of a group $ G $ is characteristic in $ G $ if every automorphism of $ G $ leaves $ H $ invariant.
+Let $ G $ be a compact topological group acting continuously on a topological space $ X $ .
+Let $ f $ be a continuous function $ Xto mathbb C $ .
+An averaging of $ f $ is a continuous function $ text{Av}(f) $ on $ X $ given by $ text{Av}(f)(x) = frac{1}{text{vol}(G)} int_G f(gcdot x)text dx $ where $ text{vol}(G) $ is the volume of $ G $ and the integral is the Haar integral on $ G $ .
+Note that for a finite group $ G $ , which is necessarily compact, we have simply $ text{Av}(f)(x) = frac{1}{|G|} sum_{gin G}f(gx) $ .
+A group $ G $ is solvable if it admits a subnormal series whose quotients quotients $ N_{i+1}/N_i $ are all abelian.
+Let $ R $ be a commutative ring with ideals $ I $ and $ J $ .
+Then the product of $ I $ and $ J $ , defined by $ IJ= {i_1j_1+cdots + i_kj_j mid i_ellin I,j_ellin J, ell in mathbb N} $ is itself an ideal.
+Let $ phi:Gto GL(V) $ be a representation of the group $ G $ .
+A sub - representation is a representation $ psi:Gto GL(W) $ for $ W $ a subspace of $ V $ .
+Let $ U subset mathbb R^n $ be open and let $ f:Utomathbb R^n $ be differentiable.
+Then its total derivative $ Df(a) $ at a point $ ain U $ is given by the $ mtimes n $ matrix $ left frac{partial f_j}{partial x_i}(a)right_{i=1,j=1}^{n,m} $ where $ f = (f_1,dots, f_m) $ are the component functions of $ f $ .
+This matrix is called the Jacobian matrix of $ f $ at $ a $ .
+Let $ A $ be a compactly generated topological space.
+A space under $ A $ (that is, an object of the category) is a map $ i:Ato X $ .
+A morphism between spaces under $ A $ is a commutative diagram This is a homotopy category: a homotopy $ h $ between maps under $ A $ is a homotopy that at each "time" $ t $ is a map under $ A $ .
+Then we write $ h:fsimeq f' text{ rel } A $ and $ h(i(a),t) = j(a) $ for all $ ain A $ and $ tin I $ .
+The above notion of homotopy equivalence is called cofiber homotopy equivalence .
+Two absolute values over the same field $ F $ , call them $ |cdot|_1 $ and $ |cdot|_2 $ , are equivalent if there exists a real number $ alpha>0 $ such that $ |x|_1^alpha = |x|_2 $ for all $ xin F $ .
+The $ ntimes n $ identity matrix $ I_n $ is the $ ntimes n $ matrix whose entries $ (a_{ij}) $ are such that $ a_{ij}=1 $ when $ i=j $ and $ 0 $ otherwise.
+That is, $ a_{ij} = delta_{ij} $ where $ delta_{ij} $ is the Kronecker delta.
+A binary relation on a set $ X $ is transitive if for all $ a,b,cin X $ , if $ a $ is related to $ b $ and $ b $ is related to $ c $ , then $ a $ is related to $ c $ .
+Let $ f:S^nto S^n $ be a continuous function such that for some $ yin S^n $ , the preimage $ f^{ - 1}(y) $ is finite.
+Denote the elements of $ f^{ - 1}(y) $ by $ {x_i}_{i=1}^m $ .
+Let $ {U_i}_{i=1}^m $ be disjoint neighborhoods of the $ x_i $ .
+Then $ f $ maps each $ U_i $ into a neighborhood $ V $ of $ y $ .
+Then $ f(U_i setminus {x_i}) subset Bsetminus {y} $ for all $ y $ and the following diagram of homology groups and relative homology groups commuptes: where all of the maps are "obvious:" $ k_i $ and $ p_i $ are induced by inclusion.
+The two isomorphisms on the top of the diagram come from the Excision Theorem and the two on the bottom come from the long exact sequence of a pair.
+The top two groups are then isomorphic to $ H_n(S^n) approxmathbb Z $ , so the top homomorphism is then multiplication by an integer $ d $ .
+This integer is the local degree of $ f $ at $ x_i $ , written $ text{deg}(f)_{|x_i} $ .
+Consider a chain complex whose abelian groups are the groups of n - chains of a ∆ - complex $ X $ .
+The $ n $ th homology group $ text{Ker}(partial_{n})/text{Im}(partial_{n+1}) $ is denoted $ H_n^Delta(X) $ and is called the $ n $ th simplicial homology group of $ X $ .
+Let $ f: Xto Y $ be a function between topological spaces $ X $ and $ Y $ .
+Then $ f $ is continuous if and only if the preimage of an open set in $ Y $ is open in $ X $ .
+A function $ f: Xto Y $ between metric spaces $ (X,rho) $ and $ (Y,sigma) $ is continuous at $ xin X $ if and only if for every $ varepsilon > 0 $ , there exists
+$ delta> 0 $ such that $ sigma(f(x),f(x')) < varepsilon $ whenever $ rho(x,x') < delta $ .
+A function $ f: Xto Y $ between metric spaces $ (X,rho) $ and $ (Y,sigma) $ is continuous at $ xin X $ if and only if for any sequence $ {x_n}_{ninmathbb N} $ in $ X $ converging to $ x $ , $ {f(x_n)}_{nin mathbb N} $ converges to $ f(x) $ .
+These three definitions are all equivalent.
+Let $ E $ and $ B $ be compactly generated topological spaces.
+A surjective continuous function $ p:Eto B $ is a fibration if it satisfies the coveirng homotopy property .
+That is, given the diagram where $ Y $ is any compactly generated topological space, $ f:Yto E $ is some continuous function, $ h:Ytimes Ito B $ is a homotopy, and $ i_0(y) = (y,0) $ , if $ hcirc i_0 = pcirc f $ , then there exists $ tilde h $ that makes the diagram commute.
+The diagram can also be written as !
+Screen Shot 2022 - 02 - 25 at 1(i)0(v)02 PM.png where $ X^I $ is the set of ( : continuous?
+is this even what that is?) functions $ Ito B $ for $ I $ the unit interval and $ p_0(beta) = beta(0) $ for $ betain B^I $ .
+Let $ (X,Sigma, mu) $ be a measure space.
+The essential supremum $ alpha $ of a function $ f:Xto mathbb R $ is the smallest real number such that $ mu({xmid f(x) > alpha}) = 0 $ .
+A subgraph $ A $ of a graph $ X $ is a graph $ Asubset X $ with $ A^0subset X^0 $ .
+That is, $ A $ is a union of some of the vertices and edges of $ X $ .
+A Hermitian inner product $ langlecdot,cdotrangle $ on a complex vector space $ V $ is a bilinear form on $ V $ that is antilinear in the second slot.
+That is, (i) $ langle u+v,wrangle = langle u,wrangle +langle v,wrangle $ ; (ii) $ langle u,v+wrangle = langle u,vrangle +langle u,wrangle $ ; (iii) $ langle alpha u ,vrangle = alphalangle u,vrangle $ ; (iv) $ langle u ,alpha vrangle = overlinealphalangle u,vrangle $ ; (v) $ langle u,vrangle = overline{langle v,urangle} $ (vi) $ langle u,u rangle geq 0 $ (vii) $ langle u,u rangle = 0 $ if and only if $ u=0 $ .
+Any subalgebra of a general linear algebra $ mathfrak{gl}(V) $ is called a linear Lie algebra .
+A division algebra $ D $ is an algebra over the field $ F $ such that for any element $ a $ in $ D $ and any non - zero element $ b $ in $ D $ , there exists precisely one element $ xin D $ with $ a=bx $ and precisely one element $ y in D $ such that $ a=yb $ .
+If $ D $ is an associative algebra, then we just require that $ D $ have an identity element under the binary operation and every nonzero element have a multiplicative inverse.
+Let $ X $ be a ∆ - complex.
+Then between elements of a chain complex, we define the boundary homomorphism $ partial_n: Delta_n(X) to Delta_{n - 1}(X) $ by specifying its values on generators: $ partial_n(sigma_alpha)= sum_i( - 1)^isigma_{alpha|v_0,dots,hat v_i,dots, v_n} $ .
+Each restriction $ sigma_{alpha|v_0,dots,hat v_i,dots, v_n} $ is the characteristic map of an $ (n - 1) $ - simplex of $ X $ .
+check to make sure this is the right link
+A smooth topological $ m $ - dimensional manifold with boundary is a topological m - dimensional manifold with boundary $ M $ together with a collection $ mathcal A $ of charts on $ M $ such that (i) for all $ pin M $ , there exists a chart $ (U, phi)in mathcal A $ such that $ p in U $ ; (ii) for any two charts $ (U,phi) $ and $ (V, psi) in mathcal A $ , the transition function $ psicirc phi^{ - 1}:phi(Ucap V)topsi(Ucap V) $ is a smooth diffeomorphism.
+(iii) the set $ mathcal A $ (called an atlas) is the maximal set of collections of charts satisfying (i) and (ii)
+The Euler characteristic of a graph is the difference $ V - E $ between the number of vertices and the number of edges.
+Let $ nu $ be a Borel measure on $ mathbb R^n $ (i.e. the underlying measure space is $ (mathbb R^n, mathcal B, nu) $ ).
+The symmetric derivative of $ nu $ at $ x in mathbb R^n $ is $ (Dnu)(x) = lim_{rto 0} frac{nu(B(x,r))}{mu(B(x,r))} $ if this limit exists.
+This is the derivative ( : link to 208 notions?) in the symmetric differential basis.
+The automorphism group of a group $ G $ is the group consisting of automorphisms of $ G $ .
+It is a subgroup of the symmetric group on the underlying set of $ G $ .
+An edge path on a graph $ X $ is closed if it starts and ends at the same vertex.
+It is therefore a loop.
+Let $ f: Q tomathbb R $ be a bounded function on the rectangle $ Q $ in $ mathbb R^n $ .
+Let $ a in Q $ .
+For any $ delta > 0 $ , let $ A_delta(a) = {f(x) mid x in Q land ||x - a|| < delta} $ .
+Set $ M_delta (f, a) = sup A_delta(a) $ and $ m_delta (f,a)= inf A_delta(a) $ .
+We define the oscillation of $ f $ at $ a $ to be $ text{osc}(f,a) = inf(M_delta(f,a) - m_delta(f,a)) $ .
+The $ p $ - adic integers is the subset of Qp defined by $ mathbb Z_p = {xin mathbb Q_pmid |x|_p leq 1} $ .
+Let $ X $ be a set with binary operation $ * $ .
+An element $ ein X $ is a right identity of $ X $ if $ a*x = a $ for all $ ain A $ .
+Let $ G $ be a group and let $ X $ be a topological space.
+Then $ X $ is a $ G $ - space if it is a G - set and the group action $ Gtimes Xto X $ is continuous.
+The orbit space $ X/G $ is the set of orbits $ {Gxmid xin X} $ with topology given as the quotient of topological spaces.
+Note that in the case of a discrete group $ G $ , the continuity condition means that each action by an element of $ G $ is a homeomorphism.
+A natural transformation $ alpha:Fto G $ is a map between functors $ mathcal Cto mathcal D $ consisting of a morphism $ alpha_A: F(A)to G(A) $ for each object $ A $ of $ mathcal C $ such that the following diagram commutes:
+The centralizer of a subset $ X $ of a Lie algebra $ L $ is $ C_L(X) = {xin L mid xX=0} $ .
+all the Lie algebra stuff seems to mostly not appear on wikidata...
+A group representation is irreducible if it has no nontrivial sub - representations.
+Let $ f:mathbb Ctomathbb C $ , and write it as follows: $ f(z) = u(x,y) + iv(x,y) $ where $ zin mathbb C $ is such that $ z = x+iy $ and $ u,v:mathbb R^2to mathbb R $ .
+The function $ f $ is analytic on the open set $ Usubsetmathbb C $ if it is complex differentiable at each point in $ U $ .
+The unitary group $ text{U}(n) $ is the group of $ ntimes n $ unitary matrices together with the operation of matrix multiplication.
+This group is a matrix Lie group because it is a subgroup of the general linear group $ text{GL}(n,mathbb C) $ .
+Let $ V_1,dots,V_n, W $ be vector spaces.
+A multilinear map is a map $ f: V_1 timescdotstimes V_n to W $ such that for all $ 1leq i leq n $ and $ v_j in V_j $ with $ j neq i $ , the map $ f(v_1,dots, v_{i - 1}, - , v_{i+1}, dots, v_n):V_i to W $ (which varies only in the $ i $ th component) given by $ V_i ni v mapsto f(v_1,dots, v_{i - 1}, v, v_{i+1}, dots, v_n) in W $ is a linear transformation.
+Let $ (X,Sigma) $ and $ (Y, T) $ be measurable spaces.
+A function $ f:Xto Y $ is measurable if the preimage under $ f $ of every set in $ T $ is in $ Sigma $ .
+An automorphism is an isomorphism from an algebraic structure to itself
+A topological space $ X $ is simply connected if it is path - connected and for every two continuous maps $ gamma_1:0,1to X $ and $ gamma_2:0,1to X $ there exists a homotopy $ F:0,1times0,1to X $ such that $ F(x,0)= gamma_1(x) $ and $ F(x,1) = gamma_2(x) $ .
+A topological space $ X $ is simply connected if it is path - connected and has trivial fundamental group.
+A topological space $ X $ is locally path - connected if for any $ xin X $ and any neighborhood $ U $ of $ x $ , there is a smaller neighborhood $ V $ of $ x $ , each of whose points can be connected to $ x $ by a path in $ U $ .
+Let $ H $ and $ N $ be groups and let $ phi: Hto text{Aut}(N) $ be a group homomorphism from $ H $ to the automorphism group of $ N $ .
+The semidirect product $ Hltimes N $ is a group on the Cartesian product $ Htimes N $ with operation $ * $ given by $ (h_1,n_1)*(h_2,n_2) = (h_1h_2, n_1phi(h_1)n_2) $ .
+The identity element of $ Hltimes N $ is the ordered pair consisting of the identity elements of $ H $ and $ N $ , respectively.
+The inverse with respect to $ * $ is given by $ (h,n)^{ - 1} = (h^{ - 1},phi(h^{ - 1})n^{ - 1}) $ .
+A category is connected if any two of its objects can be connected by a chain of morphisms.
+Note that $ Aleftarrow Bto C $ connects $ A $ to $ C $ even when there might not be a morphism $ Ato C $ or $ Cto A $ .
+An edge path in a graph $ X $ is a finite composite of oriented edges $ k_n $ with $ k_{n+1}(0) = k_n(1) $ .
+A projection is a linear transformation $ P:Vto W $ between vector spaces $ V $ and $ W $ such that $ P^2 = P $ .
+That is, $ P $ is idempotent when considered as an element of the ring of linear transformations.
+Equivalently, for $ V' $ a subspace of a vector space $ V $ , a linear transformation $ P:Vto V $ is a projection onto $ V' $ if (i) $ P_{|V'} = text{id}_V' $ .
+That is, if the restriction of $ P $ to $ V' $ is equal to the identity function on $ V' $ , and (ii) $ text{im}(P) subseteq V' $ .
+In particular the image is actually equal to $ V' $ , but the condition is sufficient.
+Let $ U,Vsubsetmathbb R^n $ be open.
+A class $ C^k $ diffeomorphism is a bijective $ C^k $ function $ g:Uto V $ such that the inverse $ g^{ - 1} $ is also of class $ C^k $ .
+Let $ V $ be a module over the ring $ R $ .
+A subset $ W subset V $ is linearly independent if for $ v_i in W $ and $ alpha_i in R $ , $ sum_{i=1}^n alpha_i v_i=0 $ only when $ alpha_i = 0 $ for all $ i $ .
+This is a more general definition than the one for vector spaces.
+The category of groupoids is the category whose objects are groupoids and whose morphisms are functors between groupoids.
+If we have $ a $ ways of doing one thing and $ b $ ways of doing another thing but we cannot do both at the same time, then there are $ a+b $ ways to choose to do one thing.
+Set theoretically, the sum of the sizes of a finite collection of pairwise disjoint sets is the size of the union of the sets.
+That is, $ |S_1| + |S_2| + cdots + |S_n| = |S_1cup S_2cupcdotscup S_n| $ .
+Let $ G $ be a Lie group with associated Lie algebra $ mathfrak g $ .
+Then the adjoint map $ text{Ad}:G to text{GL}(mathfrak g) $ is given by $ text{Ad}_A(X) = AXA^{ - 1} $ .
+Because the adjoint map is a Lie algebra homomorphism, it is a representation of $ mathfrak g $ , and therefore we may refer to $ text{ad} $ as the adjoint representation of $ G $ acting on $ mathfrak g $ when considered as a vector space.
+A groupoid is a category in which all morphisms are isomorphisms.
+A group may be considered a groupoid with a single object.
+For any subset $ A subsetmathbb R^n $ , the Lebesgue outer measure is given by $ mu^*(A) = inf{sumlimits_{Rinmathcal C} $ vol $ (R) mid mathcal C $ is a countable collection of rectangles covering $ A} $ .
+A covering space $ p:Eto B $ is universal if $ E $ is simply connected.
+The barycentric subdivision of an n - simplex $ v_0,dots,v_n $ is the decomposition of $ v_0,dots,v_n $ into the n - simplices $ b,w_0,dots,w_{n - 1} $ where we have by induction $ w_0,dots, w_{n - 1} $ an $ (n - 1) $ - simplex in the barycentric subdivision of a face $ v_0,dots,hat v_i,dots,v_n $ .
+The induction starts at $ n=0 $ where we define the barycentric subdivision of $ v_0 $ to be $ v_0 $ .
+It's not too hard to see the cases $ n=1,2,3 $ .
+The vertices of the barycentric subdivision of $ v_0,dots,v_n $ are thus the barycenters of all of the $ k $ - dimensional faces $ v_{i_0},dots, v_{i_k} $ of $ v_0,dots,v_n $ for $ 0leq kleq n $ .
+The barycenter of this face has barycentric coordinates $ t_i = frac{1}{(k+1)} $ for $ i= i_0,dots, i_k $ and $ t_i=0 $ otherwise.
+The n - simplices of the barycentric subdivision of the standard n - simplex $ Delta^n $ with all of their faces form a ∆ - complex and even a simplicial complex structure on $ Delta^n
+Let $ G $ be a group.
+Then $ G $ acts on itself by conjugation: $ gcdot x = gxg^{ - 1} $ .
+The orbits of this action are called conjugacy classes of $ G $ .
+Let $ Usubsetmathbb R^n $ be an open set.
+A differential k - form on $ U $ is a $ C^r $ - form if it is of class $ C^r $ .
+Let $ (V,F) $ be a vector space and let $ text{End}(V) $ be the set of linear transformations $ Vto V $ .
+This is a ring with resepect to the usual product operation.
+Define a new bracket operation by $ x,y = xy - yx $ .
+Then $ text{End}(V) $ is a Lie algebra over $ F $ .
+We call it the general linear algebra and denote it $ mathfrak{gl}(V) $ .
+If $ V $ is of finite dimension, then $ text{dim}(text{End}(V)) = text{dim}(V)^2 $ .
+The general linear algebra is a Lie algebra.
+A class function on a group $ G $ is a function that is constant on the conjugacy classes of $ G $ .
+Let $ (X,*) $ be a magma with identity element $ e $ .
+An element $ ain X $ is a right inverse element for $ bin X $ if $ a * b=e $ .
+Let $ V $ be a finite - dimensional vector space with $ text{dim}(V)=2ell $ with basis $ {v_1,dots,v_{2ell}} $ .
+Define a nondegenerate skew - symmetric form $ f $ on $ V $ with the matrix $ s = } $ .
+Note that the dimension being even is required for the existence of a nondegenerate bilinear form satisfying $ f(v,w) = - f(w,v) $ .
+Then denote by $ mathfrak{sp}(V) $ the symplectic algebra consisting of all endomorphisms $ x $ of $ V $ such that $ f(x(v),w) = - f(v,x(w)) $ .
+Let $ mathcal D $ be a small category and $ mathcal C $ any category.
+A $ mathcal D $ - shaped diagram is a functor $ F:mathcal Dto mathcal C $ .
+Morphisms $ Fto F' $ of $ mathcal D $ - shaped diagrams are natural transformations.
+Then we get the category $ mathcal Dmathcal C $ of $ mathcal D $ - shaped objects in $ mathcal C $ .
+An object $ C $ of $ mathcal C $ determines the constant diagram $ underline C $ that sends each object of $ mathcal D $ to $ C $ and each morphism of $ mathcal D $ to the identity morphism of $ C $ .
+Let $ U subset mathbb R^n $ be open.
+The partial derivative of a function $ f:Utomathbb R^m $ with respect to the $ i $ th coordinate $ x_i $ at $ a = (a_1,dots,a_n) in U $ is defined as $ frac{partial f}{partial x_i}(a) = lim_{hto 0} frac{f(a_1,dots,a_i+h,dots,a_n) - f(a)}{h} $ .
+The special unitary group $ text{SU}(n) $ is the group of unitary matrices with unit determinant.
+This group is a matrix Lie group because it is a subgroup of the general linear group $ text{GL}(n,mathbb C) $ .
+Let $ G $ and $ H $ be groups.
+The kernel of a group homomorphism $ f:Gto H $ is the set of all elements $ gin G $ such that $ f(g) = e_H $ , i.e. the elements of $ G $ that get mapped to the identity element in $ H $ .
+Let $ (X,Sigma, mu) $ be a measure space.
+Let $ f = sumlimits_{k=1}^n a_k chi_{A_k} $ be a simple function such that $ mu(A_k) < infty $ for $ a_k neq 0 $ .
+The Lebesgue integral of the simple function $ f $ is defined as $ intleft(sum_{k=1}^n a_kchi_{A_k}right)dmu = sum_{k=1}^n a_k intchi_{A_k}dmu = sum_{k=1}^n a_kmu(A_k), $ consistent with the Lebesgue integral of characteristic functions.
+If $ B $ is a measurable subset of $ X $ and $ g = sumlimits_{k=1}^n b_kchi_{B_k} $ is a measurable simple function on $ B $ , define $ int_B gdmu = intchi_Bgdmu = sum_{k=1}^nb_kmu(B_kcap B) $ .
+An embedded m - dimensional manifold with boundary that admits an orientation is an oriented manifold .
+A lower bound of a subset $ S $ of a poset $ (X,leq) $ is an element $ a $ of $ P $ such that for all $ xin S $ , $ aleq x $ .
+The complex conjugate of a complex number $ z = x+iy $ is $ overline z = x - iy $ .
+Let $ G $ be a group and $ N $ a normal subgroup of $ G $ .
+Define an equivalence relation $ sim $ by setting $ gsim h $ if $ g,h in H $ .
+Then the quotient of $ G $ by $ N $ (written $ G/N $ ) is the quotient by $ sim $ of $ N $ .
+A manifold is a topological space that is second - countable, Hausdorff, and locally homeomorphic to $ mathbb R^n $ .
+Let $ V $ be a vector space.
+A subset $ W subseteq V $ is a vector subspace if for all $ alpha in F $ the ground field and $ u,v in W $ , $ alpha v in W $ and $ u+v in W $ .
+Let $ E $ , $ E' $ , and $ B $ be connected and locally path - connected topological spaces.
+Then $ g:Eto E' $ is a map of coverings $ p:Eto B $ and $ p':E'to B $ of $ B $ if the following diagram commutes:
+Let $ mathfrak g $ and $ mathfrak h $ be Lie algebras.
+The direct sum $ mathfrak g oplus mathfrak h $ of $ mathfrak g $ and $ mathfrak h $ is the vector space direct sum of $ mathfrak g $ and $ mathfrak h $ when considered as vector spaces endowed with the bracket $ (X_1,X_2,(Y_1,Y_2)=(X_1,Y_1,X_2,Y_2) $ .
+The symmetric difference of two sets $ A $ and $ B $ is given by $ Atriangle B = (Asetminus B)cup(Bsetminus A) = (Acup B)setminus (Acap B) $ .
+It is the set of elements that are in exactly one of $ A $ or $ B $ .
+We define the Haar integral over a topological space $ X $ s follows: Any Borel measure $ mu $ on $ X $ gives a linear functional $ int:C_c(X) to mathbb C, fmapsto int_X(f) := int_X f(x)text dmu(x) $ where $ C_c(X) $ is the collection of continuous complex - valued functions on $ X $ with compact support and the integral is defined according to that measure.
+The Haar integral is this $ mathbb C $ - linear function $ int:C_c(X) to mathbb C $ such that (i) for all $ fin C_c(X) $ , if $ f(x) geq 0 $ for all $ xin X $ then $ int_X f geq 0 $ .
+Moreover, $ int_X f= 0 $ implies that $ f=0 $ .
+(when $ f(x) $ is real) (ii) For any compact $ Ksubset X $ , there exists some $ c_Kgeq 0 $ such that for all continuous functions with support in $ K $ , $ left|int_X fright| leq c_Kcdot maxlimits_{xin K} |f(x)| $ .
+If we want the integral to be invariant with respect to the action of a group, we choose the measure to be the Haar measure.
+Also keep in mind that this is in fact a special case of the Lebesgue integral!
+All of those properties of the integral still apply here with no extra work!
+The Borel σ - algebra on a topological space $ X $ is the σ - algebra generated by the open sets in $ X $ .
+Let $ M $ be a manifold with boundary.
+The interior points of $ M $ are the points $ pin M $ for which there exists a chart $ (U,phi) $ such that $ phi(p) in H^m_+ $ , the interior of the closed half - space.
+Let $ H $ be a subgroup of the group $ G $ .
+The index of $ G $ is $ G:H = |G|/|H| $ .
+This is always an integer by Lagrange's theorem.
+The power set of a set $ X $ is the connection of all subsets of $ X $ , including $ X $ itself and the empty set.
+It is denoted $ mathcal P(X) $ .
+Let $ R $ be an integral domain.
+Then $ a,bin R $ are associate if the ideals they generate are equal.
+That is, if there exists a unit $ uin R $ such that $ ua=b $ .
+The holomorph of a group $ G $ is in some sense a group that contains a copy of both $ G $ itself and the automorphism group of $ G $ .
+Formally, $ text{Hol}(G) = Grtimes text{Aut}(G) $ where the homomorphism $ rho: text{Aut}(G)to text{Aut}(G) $ associated to the semidirect product is the identity function.
+Thus the product of elements of $ text{Hol}(G) $ is as follows: $ (g,alpha)(h,beta) = (galpha(h),alphabeta) $ .
+Equivalently, we can define $ text{Hol}(G) ={l_gcircsigma mid gin G, sigmaintext{Aut}(G)}subset S_G $ where $ l_g $ denotes left multiplication by $ g $ .
+Let $ (X,leq) $ be a poset and let $ Ssubseteq X $ .
+The supremum of this subset, if it exists, is an upper bound $ b $ of $ S $ in $ X $ such that for all upper bounds $ x $ of $ S $ in $ X $ , $ bleq x $ .
+That is, the supremum is the least upper bound.
+Let $ G $ be a group acting on a set $ S $ .
+For a subgroup $ H $ of $ G $ , denote by $ NH $ the normalizer of $ H $ in $ G $ and let $ WH = NH/H $ .
+The quotient $ WH $ is the Weyl group .
+Let $ (X,*) $ be a magma with identity element $ e $ .
+An element $ ain X $ is an inverse element for $ bin X $ if it is both a right and a left inverse element for $ b $ .
+An attracting fixed point of a function $ f $ is a point $ x_0 $ in the domain of $ f $ for which there exists a neighborhood $ U $ of $ x_0 $ such that for all $ x in U $ , the iterated function sequence $ {f^{circ n}(x)}_{ninmathbb n} $ convergesto $ x_0 $ .
+The volume of a rectifiable set $ S $ is $ text{vol}(S) = int_S 1 $ , or the integral of the constant function over $ S $ .
+Let $ (X,Sigma) $ be a measurable space with $ mu $ a signed measure.
+The negative variation of $ mu $ is the function $ nu $ given by $ nu(A) = pi(A) - mu(A) $ where $ pi $ is the positive variation of $ mu $ .
+Let $ (X,Sigma,mu) $ be a measure space and let $ {f_n}_{ninmathbb N} $ be a sequence of functions $ f_n: Xto mathbb R $ .
+The sequence converges in measure to $ f $ if for all $ varepsilon > 0 $ , the measure of the set $ mu({xin Xmid |f_n(x) - f(x)|>varepsilon}) $ converges to zero as $ n $ goes to infinity.
+Let $ Asubset X $ be a subset of the topological space $ X $ .
+The subspace topology on $ A $ is the topology in which the open sets are given by all sets $ A cap U $ where $ Usubset X $ is open in $ X $ .
+The support of a function $ f: X to Y $ is the subset $ S subset X $ such that for all $ x in S $ , $ f(x) neq 0 $ .
+For $ sigma $ a permutation in $ S_n $ , the sign of $ sigma $ denoted $ text{sgn}(sigma) $ is the determinant of the linear transformation $ P_sigma:mathbb R^ntomathbb R^n $ given by $ P_sigma(x_1,dots,x_n) =(x_{sigma(1)},dots, x_{sigma(n)}) $ .
+Equivalently, let $ {x_i}_{i=1}^n $ be $ n $ distinct variables and let $ Delta $ be the polynomial $ Delta = prod_{1leq ileq j leq n}(x_i - x_j) $ .
+For each $ sigmain S_n $ , let $ sigma $ act on $ Delta $ by permuting the variables as their indices.
+That is, $ sigma(Delta)=prod_{1leq ileq jleq n} (x_{sigma(i)} - x_{sigma(j)}) $ .
+Note that in general, $ Delta $ contains one factor of $ (x_i - x_j) $ for all $ i < j $ .
+Because $ sigma $ is a bijection on the indices, $ sigma(Delta) $ contains either a factor of $ (x_i - x_j) $ or a factor of $ (x_j - x_i) $ but not both.
+If the latter, we may write it as $ ( - 1)(x_i - x_j)) $ .
+Collect the $ - 1 $ factors in the product and define $ epsilon(sigma) = } $ The function $ epsilon $ gives the sign of $ sigma $ .
+A group action of a group $ G $ on a set $ X $ is a map $ Gtimes Ato A $ such that (i) $ g_1cdot(g_2cdot x)= (g_1g_2)cdot x $ for all $ g_1,g_2in G $ and for all $ xin X $ ; (ii) $ ecdot x = x $ for all $ xin X $ .
+Equivalently, we can describe a group action in terms of the homomorphism $ rho:Gto S_X $ (to the symmetric group on $ X $ ) given by $ rho(g) = sigma_g $ where $ sigma_g in S_X $ is such that $ xmapsto gcdot x $ under $ sigma_g $ .
+When thinking of the group $ G $ as a groupoid with a single object, then a left action of $ G $ is the same as a covariant functor $ Gto mathcal S $ from $ G $ to the category of sets while a right action is like a contravariant functor.
+The determinant of a linear transformation $ T: Vto V $ (where $ V $ is finite - dimensional) is the unique antisymmetric $ n $ - variable multilinear map $ text{det} $ such that $ text{det}:(mathbb R^n)^n to mathbb R $ such that $ text{det}(e_1,dots,e_n)=1 $ .
+It is defined for a the matrix $ A $ of $ T $ as $ text{det}(A) = text{det}(A_1,dots,A_n) $ where the $ A_i $ are the columns of $ A $ .
+Let $ p $ be a prime and let $ (A,+) $ be an abelian group.
+The $ p $ - primary component of $ A $ is $ A_{(p)} = {ain Amid exists ninmathbb N text{ st. }p^na= 0} $ .
+Let $ G $ be a group with subgroup $ H $ and let $ G/H $ be the quotient of $ G $ by $ H $ .
+Then $ G $ acts on $ H $ in a natural way: for all $ Z = aH in G/H $ , $ gcdot Z = gZ = (ga)H $ .
+A CW complex is a topological space $ X $ constructed in the following way: (i) Consider a discrete set $ X^0 $ and call its points "0 - cells."
+(ii) Form the $ n $ - skeleton $ X^n $ from $ X^{n - 1} $ by attaching $ n $ - cells $ e_alpha^n $ via maps $ varphi_alpha:S^{n - 1} to X^{n - 1} $ .
+Thus $ X^n $ is the quotient vector space of the disjoint union $ X^{n - 1}coprod_alpha D_alpha^n $ of $ X^{n - 1} $ with a collection of disks $ D_alpha^n $ under the identification $ xsim varphi_alpha(x) $ for $ xin partial D_alpha^n $ .
+As a set, $ X^n = X^{n - 1}coprod_alpha e_alpha^n $ where each $ e_alpha^n $ is an open $ n $ - disk.
+(iii) Either stop this process at a finite value of $ n $ , setting $ X=X^n $ or continue indefinitely and endow $ X = bigcup_n X^n $ with the weak topology.
+A matrix Lie group $ mathfrak g $ is complex if it is a complex subspace of $ M_n(mathbb C) $ .
+That is, if $ iXin mathfrak g $ for all $ Xin mathfrak g $ .
+Let $ X $ be a metric space.
+Two metrics $ rho_1 $ , $ rho_2 $ are equivalent if there exists $ c>0 $ such that $ frac{1}{c}rho_1(x,y) leq rho_2(x,y) leq crho_1(x,y) $ .
+A covering of groupoids $ p:mathcal Eto mathcal B $ is universal if and only if the automorphism group $ pi(mathcal B,b) $ of the object $ b $ acts freely on the fiber of $ b $ , denoted $ F_b $ .
+Then $ F_b $ is isomorphic to $ pi(mathcal B, b) $ as a $ pi(mathcal B,b) $ - set.
+A harmonic polynomial is a harmonic function that is also a polynomial.
+Let $ G $ and $ G' $ be compact topological groups with respective Haar integrals $ int_G $ and $ int_{G'} $ .
+For continuous functions $ f,f':G,G'to mathbb C $ , denote by $ fboxtimes f':Gtimes G to mathbb C $ the function such that $ (g,g')mapsto f(g)f'(g') $ .
+From this and given continuous representations $ rho:Gto GL(V) $ and $ rho':Gto GL(V') $ , we can define the box product of representations into the tensor product of $ V $ and $ V' $ as $ rhoboxtimes rho' :Gtimes G to GL(Votimes V') $ given by $ (g,g')mapsto rho(g) otimes rho'(g') $ .
+Let $ L $ be a finite - dimensional vector space.
+Then consider $ L $ as a Lie algebra by setting $ xy=0 $ for all $ x,y in L $ .
+Such a Lie algebra is called abelian .
+Let $ G $ be a group and $ S $ some subset of $ G $ .
+A group word in $ S $ is an expression of the form $ s_1^{ell_1}s_2^{ell_2}cdots s_n^{ell_n} $ where $ s_i in S $ and $ ell_i = pm 1 $ .
+Let $ X $ be a metric space.
+The completion of $ X $ is the complete metric space $ (tilde X, tilde rho) $ such that $ X $ is a dense subset of $ tilde X $ and $ rho(x,y) = tilderho(x,y) $ for all $ x,y in X $ as constructed here.
+Let $ mathfrak g $ be a complex, semisimple Lie algebra and $ mathfrak h $ a Cartan subalgebra of $ mathfrak g $ .
+Let $ (V,rho) $ be a representation of $ mathfrak g $ and let $ lambda $ be a linear functional on $ mathfrak h $ .
+We can consider the vector space $ V $ as a $ mathfrak g $ - module by setting $ xcdot v = rho(x)v $ for all $ x in mathfrak g $ .
+Then the weight space of $ V $ with weight $ lambda $ is the subspace $ V_lambda subset V $ given by $ V_lambda ={vin Vmid forall Hin mathfrak h, Hcdot v = lambda(H)c} $ .
+Let $ G $ be a group and $ R $ a ring.
+The group ring $ RG $ is the set of formal sums of elements in $ G $ with coefficients in $ R $ .
+By convention, $ 1cdot g = g $ and $ 0cdot g $ terms are omitted from the sum.
+Addition is defined by components and multiplication is defined by $ (ag_i)(bg_j) = abg_k $ where $ g_ig_j = g_k $ , and extended distributively.
+Let $ (V,rho) $ be a representation of the group $ G $ .
+A vector subspace $ W $ of $ V $ is $ G $ - invariant if for all $ win W $ and $ gin G $ , $ rho(g)w in W $ .
+Let $ V $ and $ W $ be vector spaces.
+An intertwiner between two representations $ phi:Gto GL(V) $ and $ psi:Gto GL(W) $ of the group $ G $ is a linear transformation $ T:Vto W $ such that $ Tcirc(phi(g)) = (psi(g))circ T $ for all $ g in G $ .
+The category of topological spaces is the category whose objects are topological spaces and whose morphisms are continuous functions.
+Let $ X $ be a topological space.
+A set $ Asubset X $ is meager if it may be expressed as a countable union of nowhere dense sets
+A complex group representation $ rho: Gto GL(V) $ is unitary if $ rho(g) $ is unitary for all $ gin G $ .
+Explicitly, it is unitary if the Hermitian adjoint $ rho(g)^* = rho(g)^{ - 1} = rho(g^{ - 1}) $ for all $ gin G $ .
+A topological space is connected if it cannot be expressed as the disjoint union of two nonempty open subsets.
+Let $ W_1,W_2 subset mathbb R^n $ be open.
+A function $ g: W_1to W_2 $ is a $ C^k $ - embedding if $ g $ is injective, $ g $ is of class $ C^k $ , and the total derivative $ Dg(x) $ is invertible for all $ x in W_1 $ .
+A subset $ Hsubset G $ of the group $ G $ is a subgroup of $ G $ if it is itself a group under the operation inherited from $ G $ .
+The subgroup axioms are - closure under $ * $ ; - the identity element of $ G $ is in $ H $ ; - for every $ hin H $ , the inverse element $ h^{ - 1} $ is also in $ H $ .
+Let $ (V,rho) $ be a finite - dimensional representation of a group $ G $ where $ V $ is a vector space over the field $ F $ .
+The character of this representation is the function $ chi_rho:Gto F $ given by $ chi_rho(g) = text{Tr}(rho(g)) $ .
+Let $ G $ be a group acting on a set $ X $ .
+The orbit of some $ x in X $ is the set of elements of $ X $ to which $ x $ can be moved by the elements of $ G $ .
+It is denoted $ Gcdot x = {gcdot x mid g in G} $ .
+The set of orbits of points of $ X $ creates a partition of $ X $ with associated equivalence relation given by $ xsim y $ if and only if there exists $ g in G $ with $ gcdot x =y $ , and the orbits are equivalence classes.
+Equivalently, an orbit of $ x $ is the subset of $ X $ containing $ x $ on which the action of $ G $ is transitive.
+Let $ R $ be an integral domain and let $ M $ be an $ R $ - module.
+Then for any submodule $ N $ of $ M $ , the annihilator of $ N $ is defined as $ text{Ann}(N) = {rin Rmid rn=0text{ for all } nin N} $ .
+An inner product space is a vector space $ V $ together with an inner product $ langlecdot,cdotrangle $ on $ V $ .
+A category is complete if it "has all" limits.
+Let $ V $ be an $ n $ - dimensional vector space.
+A representation of a group $ G $ is a group homomorphism $ rho: G to GL(V) $ from $ G $ to the $ n $ - dimensional general linear group of invertible linear transformations of $ V $ .
+Let $ X $ be a topological space.
+The local homology groups of $ X $ at the point $ xin X $ are the relative homology groups $ H_n(X,Xsetminus {x}) $ .
+A function $ f:Ato B $ is bijective if it is both injective and surjective.
+A Lie algebra $ L $ is semisimple if its radical $ text{Rad}(L) = {0} $ .
+A linear transformation $ phi:L to L' $ for Lie algebras $ L $ and $ L' $ is a homomorphism if it preserves the bracket operation, that is if $ phi(xy_L) = phi(x)phi(y)_{L'} $ .
+A Lie algebra homomorphism is an isomorphism if it is bijective.
+Assuming the Axiom of Choice, the cardinality of a set $ X $ is the least ordinal number $ alpha $ such that there exists a bijection between $ X $ and $ alpha $ .
+There exists a well - ordering on the cardinal numbers under the relation $ |A| leq |B| $ if and only if there exists an injection from $ A $ to $ B $ .
+Let $ p $ be a prime number.
+A $ p $ - group is a group whose order is a power of $ p $ .
+Equivalently, the order of every element in a $ p $ - group is a power of $ p $ .
+A ring $ R $ is a Euclidean domain if there exists a norm $ N $ on $ R $ such that for all nonzero $ a,bin R $ , there exist $ q,rin R $ such that $ a = qb+r $ and either $ r=0 $ or $ N(r) < N(b) $ .
+A ring ideal is proper if it is a proper subset of its parent ring.
+A set $ X $ is countable if there exists a bijection between $ X $ and the set $ mathbb N $ of natural numbers. $ |mathbb N| $ is the cardinal number of the naturals.
+Let $ f:Qtomathbb R $ be a bounded function defined on the rectangle $ Q $ in $ mathbb R^n $ .
+The upper integral of $ f $ over $ Q $ is the infimum over all partitions of $ Q $ of the upper sum of $ Q $ : $ overline{int_Q}f = inf_P U(f,P) $
+Let $ T: Vto V $ be a linear transformation from the vector space $ V $ to itself.
+A vector subspace $ Wsubseteq V $ is an invariant subspace of $ T $ if the image of $ W $ is contained in $ W $ .
+That is, $ T(W)subseteq W $ .
+An integral domain $ R $ is a unique factorization domain if (i) Every nonzero, non - unit $ rin R $ can be written as a product of irreducibles; and (ii) Whenever $ p_1cdots p_n=q_1cdots q_m $ for $ p_i,q_j $ irreducible and $ m,ninmathbb N $ , then $ m=n $
+and there is a relabeling/reordering of the $ q_j $ such that $ q_i $ is associate to $ p_i $ for all $ 1leq ileq n $ .
+In particular, for every association class of irreducibles, we can choose a representative, and let $ P $ be the collection of such representatives so that every $ rin R $ can be written uniquely as $ r= uprod_{pin P} p^{e_p} $ for $ u $ a unit and all but finitely many of the $ e_p $ equal to zero.
+Let $ R $ be a commutative ring and let $ a,b in R $ .
+We say that $ a $ divides $ b $ if there exists $ rin R $ such that $ a = rb $ .
+Equivalently, $ a $ divides $ b $ if the ideal generated by $ b $ is contained in the ideal generated by $ a $ .
+Let $ f:mathbb Ctomathbb C $ , and write it as follows: $ f(z) = u(x,y) + iv(x,y) $ where $ zin mathbb C $ is such that $ z = x+iy $ and $ u,v:mathbb R^2to mathbb R $ .
+Then $ f $ is complex differentiable at $ z_0in mathbb C $ with derivative $ f'(z_0) $ if the limit $ f'(z_0) = lim_{zto z_0} frac{f(z) - f(z_0)}{z - z_0} $ exists.
+A complex $ ntimes n $ matrix $ U $ is unitary if its conjugate transpose $ U^* $ is equal to its inverse $ U^{ - 1} $ .
+A category is cocomplete if it "has all" colimits.
+The pair $ (U,phi) $ as in the definition of orientable defines an orientation on an embedded m - dimensional manifold with boundary $ M $ .
+Two pairs $ (U,phi) $ and $ (V,psi) $ determine the same orientation if for every local parametrization $ f:Wto M $ where $ W subset H^m $ is open in $ H^m $ , there exists a positive function $ g:Wtomathbb R $ such that $ f^*(phi) = gf^*phi $ .
+An orientation on $ M $ is an equivalence class if pairs that determine the same orientation on $ M $ .
+Let $ (V,F) $ and $ (W,F) $ be vector spaces over the same field with respective inner products $ langlecdot,cdotrangle_V $ and $ langlecdot,cdotrangle_V $ .
+The adjoint of a linear transformation $ T:Vto W $ is the linear transformation $ T^*: W to V $ such that $ langle T(v), wrangle_W = langle v, T^*(w)rangle_V $ for all $ v in V $ and $ w in W $ .
+Fix $ {V_i}_{iin mathbb N} $ a (possibly infinite) sequence of finite - dimensional vector spaces over a field $ k $ .
+Then we can define $ V = bigoplus_{igeq 0}V_i = {(v_{i_1},dots, v_{i_N}) mid Nin mathbb N, v_{i_k} in V_{i_k}} $ .
+If we consider each $ V_i $ as a linearly independent subspace of $ V $ , we can consider the tuples as finite sums of vectors.
+Such a $ V $ is a graded vector space .
+A module over a ring $ M $ is simple if it has no nonzero proper submodules.
+Let $ Usubsetmathbb R^n $ be an open set and let $ f:Utomathbb R^n $ be of class $ C^1 $ .
+A point $ ain mathbb R^n $ is a critical value of $ f $ if there exists a critical point $ c in U $ such that $ f(c) =a $ .
+A norm $ N $ on a ring $ R $ is a function $ N: Rto mathbb N $ (here $ mathbb N $ is assumed to include $ 0 $ ) such that $ N(0) = 0 $ .
+Such a function is called positive if it is nonzero on every element except for the additive identity.
+A covering space $ p:Eto B $ is regular if the image of the induced homomorphism|induced homomorphism $ p_*(pi_1(E,e)) $ is a normal subgroup of the fundamental group $ pi_1(B,b) $ .
+Let $ R $ be a ring and consider the graded polynomial algebra
+$ P = mathbb Rx_1,dots,x_d $ .
+Then Vandermonde determinant is the product $ Delta_d = prod_{1leq i < j leq d}(x_j - x_i) $ .
+It is equal to the determinant $ Delta_d = det} $ .
+It is a homogeneous polynomial with integer coefficients of degree $ frac{d(d - 1)}{2} $ .
+Let $ n > 0 $ .
+As a generalization of the Vandermonde determinant, given any subset $ Jsubseteq {1,dots,n} $ define $ Delta(J) = prod_{{i,jin J mid i < j}}(x_i - j_i) $ .
+Moreover, given a partition $ lambda = (lambda_1,dots, lambda_k) $ of $ n $ , let $ alpha_i = {lambda_i, lambda_i + 1, dots, lambda_{i+1} - 1} $ so that $ {1,dots,n} = coprod_{i=1}^k alpha_i $ as disjoint subsets.
+Then we define $ Delta_lambda = prod_{i=1}^k Delta(alpha_i), $ which turns out to be a homogeneous polynomial of degree $ deg Delta_lambda = d_lambda = sum_{i=1}^k deg(Delta(alpha_i)) = sum_{i=1}^k frac{lambda_i(lambda_i +1)}{2} $ .
+Moreover, if $ text{sign}_lambda $ is the restriction of the sign representation to the Young subgroup $ S_lambda $ , then $ Delta_lambda in(P^{d_lambda})^{text{sign}_lambda} $ .
+That is, $ Delta_lambda $ is a degree - $ d_lambda $ invariant polynomials under the representation $ text{sign}_lambda $ .
+Let $ X $ and $ Y $ be topological spaces.
+A lift of a continuous map $ f:Yto X $ is a map $ tilde f:Yto tilde X $ such that $ ptilde f = f $ where $ p $ is the map associated to the covering space $ (p,tilde X) $ .
+Let $ R $ be a ring, let $ M $ be an $ R $ - module, and let $ Nsubseteq N $ be a submodule of $ M $ .
+Then the quotient module $ M/N $ is the set of cosets $ {m+Nmid min M} $ with addition defined by $ (m_1+N)+ (m_2+N) = (m_1+m_2) + N $ and scalar multiplication by $ r(m_1 + N) = (rm_1)+N $ .
+The set $ Asubset mathbb R $ is an interval if for all $ a,b in A $ with $ a<b $ and $ xin mathbb R $ , $ a<x<b implies xin A $ .
+Let $ Usubsetmathbb R^n $ be an open set.
+A differential $ k $ - form on $ U $ is a map to the $ k $ th exterior product of the dual space of $ mathbb R^n $ : $ phi:Utowedge^k((mathbb R^n)^*) $ .
+A $ 0 $ - form is just a function.
+Wedging a $ 0 $ - form with something amounts to multiplication by the function.
+Let $ Usubsetmathbb R^n $ be an open set.
+Then we write $ mathcal A^k(U) $ for the vector space of k - forms on $ U $ .
+Let $ R $ be a ring and let $ M $ be an $ R $ - module.
+For $ A $ and $ B $ submodules of $ M $ , define the sum of $ A $ and $ B $ by $ A+B = {a+bmid ain A,bin B} $ .
+It is itself a submodule of $ M $ , and in particular is the smallest one containing both $ A $ and $ B $ .
+The Baire classes of continuous real - valued functions on a topological space $ X $ are defined as follows: - continuous functions are Baire - 0; - functions that are the pointwise limit of a sequence of continuous functions are Baire - 1; - for all $ alpha in mathbb N $ , functions that are the pointwise limit of a sequence functions of Baire class less than $ alpha $ are Baire - $ alpha $ .
+Let $ R $ be a ring.
+Two ideals $ A $ and $ B $ of $ R $ are comaximal if the sum $ A+B=R $ .
+A Lie algebra $ L $ is nilpotent if some element $ L^n $ of the descending central series or the ascending central series is equal to $ {0} $ .
+An abelian group $ (A,+) $ is divisible if for every $ din mathbb N $ and for every $ ain A $ , there exists $ a'in A $ such that $ da' = a $ .
+A normed linear space is a vector space together with a norm.
+Let $ E $ and $ B $ be compactly generated topological spaces.
+A continuous map $ p:Eto B $ is a bundle if when restricted to the spaces $ U $ in a numerable open cover of $ B $ , there are homeomorphisms $ phi:Utimes Fto p^{ - 1}(U) $ such that $ picircphi = pi_1 $ for some fixed topological space $ F $ ; what is $ pi_1 $ ?
+check if this is the right thing
+Let $ G $ and $ H $ be Lie groups.
+A map $ phi $ from $ G $ to $ H $ is an isomorphism of Lie groups if it is a homeomorphic group homomorphism.
+Equivalently, $ Phi $ is an isomorphism of Lie groups if it is a bijective homomorphism of Lie groups with continuous inverse.
+Let $ Usubsetmathbb R^n $ be an open subset and let $ phi $ be an n - form on $ U $ .
+Then we can uniquely write $ phi $ as $ phi = g(x_1,dots,x_n)dx_1wedgecdotswedge dx_n $ for some ( what kind?) function $ g:Utomathbb R $ .
+If $ phi $ has compact support, we can define the integral of the $ n $ - form to be $ int_U phi = int_U g, $ if it exists.
+A category is small if both its collection of objects and its collection of morphisms are sets, not proper classes
+The radical of a Lie algebra $ L $ is the maximal solvable ideal of $ L $ .
+Let $ V $ be a vector space.
+A subset $ W subset V $ is linearly dependent if it is not linearly independent.
+Let $ G $ be a group and $ V $ a vector space.
+The trivial representation is the representation $ rho: Gto text{GL}(V) $ such that for all $ gin G $ , $ rho(g) = text{id}_V $ .
+Let $ S $ be a simple Lie algebra representation $ mathfrak g $ .
+The isotypic component of type $ S $ of a representation $ V $ is the direct sum of subrepresentations of $ V $ isomorphic to $ S $ .
+The strong differential basis is the differential basis consisting of rectangles containing $ x $ that are parallel to all axes of $ mathbb R^n $ .
+A group $ G $ is cyclic if it is generated by a single element.
+Let $ (X,Sigma) $ be a measurable space with measures $ mu $ and $ nu $ such that $ nu $ is absolutely continuous with respect to $ mu $ .
+The Radon - Nikodym derivative $ frac{text dnu}{text dmu} $ is the function $ f in $ L $ _1(mu) $ such that $ nu(A) = int_A ftext dmu $ .
+Let $ (X,Sigma) $ be a measurable space and let $ mu $ and $ nu $ both be measures on $ (X,Sigma) $ .
+Then $ mu $ and $ nu $ are singular , written $ mu perp nu $ , if there exist disjoint sets $ A,Bsubset X $ such that $ mu equiv 0 $ outside of $ A $ and $ nu equiv 0 $ outside of $ B $ .
+That is, $ mu(A') = 0 $ for all $ A'subset Xsetminus A $ and $ nu(B') =0 $ for all $ B'subset Xsetminus B $ .
+Let $ mathcal B $ be a groupoid.
+Then $ text{Cov}(mathcal B) $ denotes the category of coverings of $ mathcal B $ where the objects are coverings $ p:mathcal Eto mathcal B $ and the morphisms are maps of coverings of $ mathcal B $ .
+When there is no ambiguity, we write $ text{Cov}(mathcal E,mathcal E') $ for the set of maps $ mathcal Eto mathcal E' $ .
+Let $ f:Qtomathbb R $ be a bounded function defined on the rectangle $ Q $ in $ mathbb R^n $ .
+The lower integral of $ f $ over $ Q $ is the supremum over all partitions of $ Q $ of the lower sum of $ Q $ : $ underline{int_Q}f = sup_P L(f,P) $
+Let $ X $ be a topological space and let $ f,g:Ito X $ be two paths in $ X $ such that $ f(0) = g(0) = x $ and $ f(1) = g(1)=y $ .
+That is, $ f $ and $ g $ are both paths *from* $ x $ *to* $ y $ in $ X $ .
+Then $ f $ and $ g $ are said to be homotopically equivalent if there exists a homotopy $ h: Itimes I to X $ such that (i) $ h(s,0) = f(s) $ ; (ii) $ h(s,1) = g(s) $ ; (iii) $ h(0,t) = x $ ; (iv) $ h(1,t) = y $ .
+Homotopy equivalence of paths forms an equivalence relation on paths in $ X $ .
+Let $ P = mathbb Cx_1,dots, x_n $ be the graded polynomial algebra and let $ P^d $ be the subspace of degree - $ d $ homogeneous polynomials.
+Let $ lambda $ be a partition of $ n $ .
+Then define $ V(lambda)= mathbb Ctext{ - span}{s(Delta_lambda) mid sin S_n} $ .
+That is, $ V(lambda) $ is the collection of $ mathbb C $ - linear combinations of images of the Vandermonde polynomial under the action of the symmetric group $ S_n $ on variables by permutation.
+It is an $ S_n $ - invariant subspace of $ P^{d_lambda} $ , and moreover it defines a representation of $ S_n $ $ rho:S_nto GL(V(lambda)) $ called the Specht module associated to $ lambda $ .
+It is a module via the correspondence between representations and modules over the group algebra.
+An $ mtimes n $ (real or complex) matrix $ A $ is a collection of $ mn $ entries $ (a_{ij}) $ which are either real or complex numbers arranged in $ m $ rows and $ n $ columns as follows: $ } $ Two matrices of the same size may be added together entrywise.
+A field is a set $ F $ together with two binary operations addition ( $ + $ ) and multiplication ( $ cdot $ ) such that - Addition and multiplication are both associative; - Addition and multiplication are both commutative; - There exist two distinct elements $ 0neq 1 $ in $ F $ such that $ 0 $ is an additive identity and $ 1 $ is a multiplicative identity; - Every element of $ F $ has an additive inverse; - Every nonzero element of $ F $ has a multiplicative inverse; - Multiplication distributes over addition as follows: $ acdot (b+c) = (acdot b) + (acdot c) $ for all $ a,b,cin F $ .
+Equivalently, a field is a commutative division ring.
+The elements of L $ _infty $ are called essentially bounded .
+That is, their absolute values have finite essential supremum.
+The barycenter of an n - simplex $ v_0,dots,v_n $ is the point $ b=sum_i t_iv_i $ whose barycentric coordinates $ t_i $ are all equal.
+Specifically, $ t_i = frac{1}{(n+1)} $ for each $ i $ .
+Let $ Dsubsetmathbb R^2 $ be connected and open and let $ f:Dto mathbb R $ be continuous.
+Then let $ zinmathbb R^2 $ .
+If for some $ varepsilon > 0 $ , the closure $ overline{B(z,varepsilon)} $ of the ball of radius $ varepsilon $ centered at $ z $ is contained within $ D $ (i.e. $ overline{B(z,varepsilon)}subset D $ ), then the circular mean value $ MV(f,z,varepsilon) $ is the average value of $ f $ on the boundary $ partial B(z,varepsilon) $ .
+This is given by $ MV(f,z,varepsilon) =frac{1}{2pi varepsilon} int_{{winmathbb R^2 mid |w - z|=varepsilon}} f(w) |text dw| $ where the integral is taken with respect to arc length.
+Moreover, $ MV(f,zvarepsilon) = frac{1}{2pi}int_0^{2pi} f(z+varepsilon e^{itheta})text dtheta $ where $ theta $ is the angle of the polar coordinate for $ z $ .
+Let $ mathcal A $ be a collection of open sets in $ mathbb R^n $ and let $ A $ be their union.
+A partition of unity subordinate to $ mathcal A $ is a countable collection of smooth functions $ {phi_i}_{iin I} $ such that $ phi_i:mathbb R^n to mathbb R $ such that (i) each $ phi_i geq 0 $ .
+(ii) each $ phi_i $ has compact support contained in some $ U in mathcal A $ .
+(iii) for all points $ a $ of $ A $ , there exists an open neighborhood $ V $ of $ a $ such that all but finitely many of the $ phi_i $ are zero on $ V $ .
+(iv) for all points $ a $ in $ A $ , $ sumlimits_{iin I} phi_i(a) = 1 $ .
+An open simplex is an n - simplex with all of its proper faces deleted.
+A group homomorphism is a function $ f: Gto H $ between groups $ G $ and $ H $ is a function that preserves the group operation; that is $ f(gh)=f(g)f(g) $ for all $ g,h in G $ .
+A group isomorphism is a homomorphism that is also bijective.
+An ideal $ I $ of the ring $ R $ is maximal if for any ideal $ J $ such that $ Isubseteq J $ , either $ J=I $ or $ J=R $ .
+A set $ B $ is a basis for the vector space $ V $ if it consists of linearly independent vectors that span $ V $ .
+Let $ X $ be a topological space and let $ A $ be a subspace of $ X $ .
+A relative cycle $ alpha $ is trivial in the relative homology groups $ H_n(X,A) $ if and only if it is a relative boundary , i.e. if $ alpha = partialbeta + gamma $ for some $ betain C_{n+1}(X) $ and $ gammain C_n(A) $ .
+Let $ X $ be a topological space.
+A set $ Asubset X $ is comeager if its complement is meager.
+A semigroup is a magma $ (X,*) $ such that the binary operation $ * $ is associative.
+A signed measure on the measurable space $ (X,Sigma) $ is a function $ mu: Sigma to mathbb R cup { - infty} text{ or } mathbb R cup {infty} $ such that $ mu(emptyset) =0 $ and $ mu $ is σ - additive.
+Note that $ mu $ cannot take on both $ - infty $ and $ infty $ as values.
+Let $ R $ be a ring and let $ M $ be an $ R $ - module.
+We say that $ M $ is of finite length if it admits a composition series of finite length.
+A homeomorphism between two topological spaces $ X $ and $ Y $ is a function $ f: Xto Y $ such that (i) $ f $ is continuous.
+(ii) $ f $ is bijective.
+(iii) $ f^{ - 1}:Yto X $ is continuous.
+Two topological spaces $ X $ and $ Y $ are homeomorphic if there exists a homeomorphism between them.
+There are two orthogonal algebras : one for even dimension one for odd dimension.
+First let Let $ V $ be a finite - dimensional vector space with $ text{dim}(V) = 2ell +1 $ .
+Let $ f $ be the nondegenerate, symmetric bilinear form on $ V $ with matrix $ s = } $ .
+The orthogonal algebra $ mathfrak{o}(V) $ is defined as the set of all endomorphisms $ x $ of $ V $ satisfying $ f(x(v),w) = - f(v,x(w)) $ .
+When $ text{dim}(V) = 2ell $ , $ f $ has the matrix $ s =} $ .
+The rest of the construction is the same as for odd dimension.
+Let $ G $ be a group and $ V $ a vector space.
+The dimension of a group representation $ rho:Gto text{GL}(V) $ is just the usual dimension of $ V $ .
+An outer derivation is any derivation that is not an inner derivation.
+A representation $ phi $ of a Lie algebra $ L $ is a homomorphism to the general linear algebra ( $ phi:L to mathfrak{gl}(V) $ ) where $ V $ is a vector space.
+Here we require the dimension of the vector space underlying $ L $ to be finite, but admit arbitrary dimension for $ V $ .
+Let $ G $ be a group.
+The subgroups $ H_1 $ and $ H_2 $ are conjugate if there exists $ ain G $ such that $ H_2= aHa^{ - 1} $ .
+The character table of a group $ G $ is a table that displays the value taken by the characters of the irreducible representations of $ G $ on the different conjugacy classes of $ G $ .
+Recall that characters are class functions
+Let $ (X,Sigma) $ be a measurable space, and let $ {A_i}_{i=1}^n $ be a sequence of disjoint measurable sets, and let $ {a_i}_{i=1}^n $ be a sequence of real numbers.
+A simple function is a function $ f:Xto mathbb R $ of the form $ f(x) = sum_{k=1}^n a_kchi_{A_k}(x) $ where $ chi_A $ is the characteristic function of $ A $ .
+Let $ Msubsetmathbb R^n $ be an embedded m - dimensional manifold with boundary.
+Then $ M $ is orientable if there exists an open set $ U subsetmathbb R^n $ containing $ M $ and an m - form $ phi $ on $ U $ such that for every local parametrization $ f:Wto M $ with $ W subset H^+ $ open in $ H^+ $ , the pullback $ f^*phi $ is an m - form on $ W $ which is nowhere zero.
+Let $ mathfrak g $ be a Lie algebra.
+Then the adjoint map $ text{ad}:mathfrak g to mathfrak{gl}(mathfrak g) $ is given by $ text{ad}_X(Y) = X,Y $ .
+Because the adjoint map is a Lie algebra homomorphism, it is a representation of $ mathfrak g $ , and therefore we may refer to $ text{ad} $ as the adjoint representation of $ mathfrak g $ .
+A game is determined if one player has a winning strategy.
+An edge path is reduced if it is never the case that $ k_{n+1} $ is $ k_n $ with the opposite orientation.
+Let $ F $ be a local field with a non - Archimedean absolute value.
+Then the Schwartz space , or the collection of Schwartz - Bruhat functions , consists of the functions from $ F $ to $ mathbb C $ that are locally constant and have compact support.
+It is often either denoted $ C_c^infty(F) $ or $ mathcal S(F) $ .
+The quotient of a topological space $ X $ by a subspace $ Ysubeteq X $ is the quotient by the equivalence relation $ sim $ given by $ ysim y' $ if $ y $ and $ y'in Y $ .
+The special linear group $ text{SL}(n,mathbb C) $ (or, over the reals, $ text{SL}(n,mathbb R) $ ) is the group of $ ntimes n $ complex (or real) valued matrices with determinant $ 1 $ together with the operation of matrix multiplication.
+This group is a matrix Lie group because it is a subgroup of the general linear group $ text{GL}(n,mathbb C) $ .
+A measure is regular if it is both inner regular and outer regular.
+Let $ V $ be a vector space.
+A subset $ Ksubset V $ is convex if for all $ x,y in K $ and $ t in 0,1 $ , the vector $ tx + (1 - t)y $ is in $ K $ .
+Let $ f: Qto mathbb R $ be a bounded function defined on the rectangle $ Q $ and let $ P $ be a partition of a set of $ Q $ .
+For each subrectangle $ R $ determined by $ P $ , let $ M_R(f) = suplimits_{xin R} f(x) $ .
+The lower sum for $ f $ determined by $ P $ is $ U(f,P) = sum_{R} M_R(f)text{vol}(R) $ where $ text{vol} $ is the volume of the rectangle $ R $ .
+Let $ G $ and $ H $ be Lie groups.
+A map $ Phi $ from $ G $ to $ H $ is a Lie group homomorphism if it is a continuous group homomorphism.
+A subset $ E $ of a metric space $ (X,rho) $ is bounded if it has finite diamter.
+Let $ M subset mathbb R^n $ be an oriented manifold of dimension $ m $ .
+Then the boundary $ partial M $ is an $ (m - 1) $ - dimensional oriented manifold (with the induced orientation).
+Let $ phi Uto M $ be a local parametrization of $ M $ near $ p in partial M $ so that $ 0 in U $ and $ phi(0) = p $ , where $ U $ is open in the half space $ H^m_+ $ .
+A tangent vector $ v in T_pM = Dphi(0)(mathbb R^m)subsetmathbb R^n $ is outward pointing if it is the image of a vector $ w in mathbb R^m $ which does *not* lie in $ H_+^m $ .
+A game in normal form is a triplet $ G = (I, {S_i}_{iin I}, {h_i}_{iin I}) $ where (i) $ I $ is the set of _players_. $ I = {1,dots, n} $ for some $ n inmathbb N $ .
+(ii) for each $ i in I $ , $ S_i $ is player $ i $ 's set of strategies. $ prodlimits_{iin I} S_i $ is the set of strategy profiles (iii) for each $ iin I $ , the function $ h_i: S_i to mathbb R $ is the payoff function for player $ i $ .
+Let $ G $ be a group acting on a set $ A $ .
+Then $ A $ is $ G $ - paradoxical if there exist disjoint subsets $ A_1,dots, A_n, B_1,dots, B_msubset A $ and group elements $ g_1,dots,g_n,h_1,dots,h_min G $ such that $ A=bigcup_{i=1}^n g_i(A_i) text{ and } A=bigcup_{i=1}^m h_i(B_i) $ .
+A ring $ R $ is an integral domain if it is commutative and has no zero divisors.
+A subspace $ I $ of a Lie algebra $ L $ is an ideal of $ L $ if $ xin L $ , $ yin I $ implies that $ xyin I $ .
+Equivalently by antisymmetry of the bracket, $ yx in I $ .
+Let $ (V,rho) $ be a representation of the group $ G $ .
+The $ n $ th exterior power of $ V_1 $ and $ V_2 $ is a representation of $ G $ over the exterior power of a vector space $ wedge^nV $ under the linear transformation $ rho:Gto wedge^n(V) $ such that $ rho(g)(v_1wedge v_2wedge cdots wedge v_n) = (rho(g)v_1wedge rho(g)v_2wedgecdotswedgerho(g)v_n) $ .
+Let $ A $ be an abelian group.
+The torsion subgroup $ A_T $ of $ A $ is the subgroup consisting of all elements of $ A $ with finite order.
+A truth function on a formal language of propositional logic $ L $ (using only the logical operators $ rightarrow $ and $ bot $ ) is a function $ f:text{Form}(L) to {0,1} $ such that $ t(bot) = 0 $ , $ t(top) = 1 $ , and $ t(Arightarrow B) = } $ for all $ A,B in text{Form}(L) $ .
+Let $ R $ be a ring.
+An $ R $ - module $ M $ is finitely generated if it is generated by a finite subset of itself.
+A linear transformation that preserves the norm of vectors is called unitary .
+Let $ U subset mathbb R^n $ be open.
+The set $ U $ is the graph of a some function if for all $ x in U $ , there exists unique $ y in mathbb R^m $ such that $ (x,y) in A $ .
+Equivalently, let $ f:Ato B $ be a set function.
+The set $ Gamma = {(a,b) in Atimes B mid b=f(a)} $ is the graph of $ f $ .
+An isomorphism of group representations is a morphism of group representations that happens to be bijective.
+A binary operation $ cdot $ on the set $ A $ is associative if for all $ a,b,c in A $ , the following relationship holds: $ acdot (bcdot c) = (acdot b)cdot c $ .
+Let $ G $ be a compact topological group and let $ dg $ be a Haar measure on $ G $ .
+The $ L^2 $ - inner product on $ C(G) $ , the space of continuous functions $ Gto mathbb C $ , is a Hermitian inner product given by $ langle f_1,f_2rangle = frac{1}{text{vol}(G)}int_G f_1(g)overline{f_2(g)}text dg $ for any $ f_1,f_2in C(G) $ .
+The integral is the Haar integral and the volume of $ G $ is the integral of the constant function $ 1 $ over $ G $ .
+Let $ T:Vto V $ be a linear transformation from the $ n $ - dimensional vector space $ V $ to itself.
+The trace of $ T $ is $ text{tr}(T) = sum_{i=1}^n langle T(e_i), e_irangle $ where $ {e_i}_{i=1}^n $ is an orthonormal basis for $ V $ .
+Equivalently, if $ V^* $ is the dual ov $ V $ , then the trace of a linear transformation $ T: Vto V $ is the functional $ text{tr}:V^*otimes V to mathbb R $ from the tensor product of of $ V^* $ and $ V $ determined by $ phi otimes v mapsto phi(v) $ for $ phi in V^* $ and $ v in V $ .
+A group $ G $ is nilpotent if its upper central series reaches $ G $ after some finite number of steps.
+The number of steps is called the nilpotency class of $ G $ .
+A function $ f:Xto Y $ between metric spaces $ (X,rho) $ and $ (Y, sigma) $ is uniformly continuous if for all $ x,y in X $ and all $ varepsilon > 0 $ , there exists
+$ delta > 0 $ such that $ sigma(f(x), f(y)) < varepsilon $ whenever $ rho(x,y) < delta $ .
+Let $ f:Xto Y $ be a continuous function between topological spaces $ X $ and $ Y $ .
+Let $ C_n(X) $ and $ C_n(Y) $ be the groups of n - chains in the chain complex of $ X $ and $ Y $ , respectively.
+Then we may define a homomorphism called a chain map $ f_sharp:C_n(X)to C_n(Y) $ by composing each singular n - simplex $ sigma:Delta^nto X $ with $ f $ to get a singular n - simplex $ f_sharp(sigma) = fsigma:Delta^nto Y $ and extending $ f_sharp $ linearly via $ f_sharpleft(sum_i n_isigma_iright) = sum_i n_if_sharp(sigma_i) = sum_i n_if_sharpsigma_i $ .
+Let $ partial $ be a general boundary homomorphism between $ C_{k+1}(X) $ and $ C_{k}(X) $ and do a similar thing for $ Y $ .
+Then the maps $ f_sharp:C_n(X)to C_n(Y) $ satisfy $ f_sharp partial = partial f_sharp $ and the following diagram commutes:
+Let $ R $ be a ring, $ L $ an $ R $ - module, and $ {ell_i}_{iin I} $ a subset of $ L $ .
+The submodule generated by the $ ell_i $ is the set $ left{sum_{i=1}^n a_iell_imid a_iin R, text{ all but finitely many } a_i=0right} $ .
+Equivalently, it is the smallest submodule of $ L $ containing the $ ell_i $ .
+A subnormal series for a group $ G $ is a composition series when all of the quotients (called composition factors ) $ N_{i+1}/N_i $ are simple.
+Let $ X $ be a topological space.
+The boundary $ partial A $ of a set $ A subset X $ is the intersection of the closure of $ A $ and the closure of the complement of $ A $ .
+That is, $ partial A = overline A cap overline{(Xsetminus A)} $ .
+A collection $ mathcal V $ of measurable subsets of $ mathbb R^n $ is a regular family if there exists $ C > 0 $ such that the diameter of each $ V in mathcal V $ satisfies the following inequality: $ text{diam}(V)^n leq Cmu(V) $ .
+Any set $ X $ can be equipped with the discrete topology, namely the topology in which every set is both open and closed.
+A topological space $ X $ is Hausdorff if for every pair of points $ x,yin X $ , there exist disjoint open sets $ U,Vsubset X $ such that $ xin U $ and $ yin V $ .
+A measure $ mu $ on a measurable space $ (X,mathcal M) $ is a function $ mu:mathcal M to 0,infty $ valued on the extended real numbers for which $ mu(emptyset) = 0 $ for any countable, pairwise disjoint collection $ {E_i}_{iinmathbb N} $ of measurable sets, $ muleft(bigcup_{iinmathbb N} E_iright) = sum_{iinmathbb N} mu(E_i) $ .
+A measure space is a measurable space $ (X,mathcal M) $ together with a measure $ mu $ on $ mathcal M $ .
+Let $ G $ be a locally compact abelian topological group.
+The Pontryagin dual of $ G $ , denoted $ widehat G $ , is the group $ G $ of continuous homomorphisms from $ G $ to the circle group $ mathbb T $ .
+Let $ m< n $ .
+Then an $ m $ - dimensional smooth manifold embedded in $ mathbb R^n $ with boundary is a subset $ M subsetmathbb R^n $ such that for all points $ p in M $ , there exists an open set $ U subset H^k $ the closed half - space and an open neighborhood $ V subset M $ of $ p $ and a map $ phi: U to V $ such that (i) $ phi $ is a homeomorphism (ii) $ phi $ is smooth in $ H^k $ ( : what is this exactly?)
+(iii) the total derivative $ Dphi(x) $ has rank $ m $ for all $ x in U $ .
+A cycle is an element $ sigma $ of the symmetric group $ S_X $ if the action on $ X $ of the subgroup generated by $ sigma $ has at most one orbit with more than one element.
+A tree is a connected graph with no closed reduced edge paths.
+Let $ G $ be a group acting on the set $ X $ .
+This action is faithful if the associated homomorphism to the symmetric group $ S_X $ has a trivial kernel.
+A sequence $ {x_n}_{ninmathbb N} $ in a metric space $ (X,rho) $ is Cauchy if for all $ varepsilon > 0 $ , there exists
+$ n_0 > 0 $ such that $ rho(x_n, x_m) < varepsilon $ for all $ m,n geq n_0 $
+A chart or coordinate patch on an $ m $ - dimensional manifold $ M $ is an open set $ Usubset M $ together with a homeomorphism $ phi: Uto mathbb R^m $ onto an open subset of the closed half - space $ H^m $ .
+Let $ R $ be a ring and let $ M $ be an $ R $ - module.
+Then $ M $ is Noetherian (or it satisfies the ascending chain condition on submodules ) if there are no infinite increasing chains of submodules.
+That is, if whenever $ M_1subseteq M_2subseteq M_3subseteq cdots $ is an increasing chain of submodules of $ M $ , then there is a positive integer $ m $ such that for all $ kgeq m $ , $ M_k=M_m $ .
+Let $ Usubsetmathbb R^n $ and $ Vsubsetmathbb R^m $ be open sets and let $ f:Uto V $ be differentiable.
+Let $ phi $ be a k - form on $ V $ .
+Then we define the pullback of $ phi $ along $ f $ to be the k - form on $ U $ $ f^*(phi):Uto wedge^k((mathbb R^n)^*) $ such that $ f^*(phi)(x) = (wedge^k(Df(x)^*))(phi(f(x)) $ .
+The order of an element $ g $ of the group $ G $ is the smallest integer $ n geq 1 $ such that $ g^n = e $ , where $ e $ is the group's identity element Equivalently, this is the cardinal number of the cyclic subgroup of $ G $ generated by $ g $ alone, if it exists.
+Let $ P = (P_1,dots,P_n) $ and $ P'=(P_1', dots, P_n') $ be partitions of the rectangle $ Q $ in $ mathbb R^n $ .
+Then $ P' $ is a refinement of $ O $ if $ P_i subset P_i' $ for all $ i $ .
+The diamteter of an n - simplex $ v_0,dots,v_n $ is the maximum distance (in the ambient Euclidean metric inner product induces metric) between any of its vertices.
+This is equivalent to the diameter of the n - simplex when considered as a set because the distance between two points $ v $ and $ sum_i t_iv_i $ of $ v_0,dots,v_n $ satisfies $ } $
+A normed linear space $ (X, ||cdot||) $ is Banach if it is complete under the induced metric.
+Let $ V $ be a vector space.
+The $ m $ - fold exterior power of $ V $ is the quotient vector space of the $ m $ - fold tensor product of $ V $ by the subspace generated by the pure tensors $ v_1otimescdotsotimes v_m $ for $ v_i in V $ such that $ v_j = v_k $ for some $ jneq k $ .
+It is denoted $ wedge^m(V) $ and the elements are written $ v_1wedgecdotswedge v_m $ .
+A topological space $ X $ is sequentially compact if every sequence in $ X $ has a convergent subsequence.
+Let $ sim $ be an equivalence relation on $ X $ .
+The equivalence class of $ a in X $ , denoted $ a $ , is the set $ {x in X mid a sim X} $ .
+Let $ G $ be a group.
+A maximal subgroup of $ G $ is proper a subgroup of $ G $ that is not contained in any other proper subgroup of $ G $ .
+A homogeneous relation on a set $ X $ is a binary relation where the two sets being related are both $ X $ .
+Given two vector spaces $ V_1 $ and $ V_2 $ , $ V_1 otimes V_2 $ is called the tensor product of $ V_1 $ and $ V_2 $ and it is defined as follows: Let $ F(V_1 times V_2) $ be the free vector space generated by $ V_1 times V_2 $ , and let $ K subset F(V_1 times V_2) $ be the subspace of $ F(V_1 times V_2) $ generated by the elements $ } $ for all $ v_1,v_1'in V_1 $ , $ v_2, v_2' in V_2 $ , and $ lambda in mathbb R $ .
+The tensor product $ V_1 otimes V_2 $ is the quotient vector space $ V_1 otimes V_2 = F(V_1 times V_2)/K $ .
+Let $ A $ be an elementary abelian p - group and let $ mathbf ain(a_1,dots,a_r)in A^r $ .
+Then the $ a_i $ form a basis for $ A $ if they generate $ A $ and if they are linearly independent.
+A graded algebra over the field $ k $ is a graded vector space $ A = bigoplus_{igeq 0} A_i $ equipped with an algebra structure such that (i) multiplication is compatible with the grading: i.e. $ A_iA_isubseteq A_{i+j} $ for all $ i,jgeq 0 $ .
+(ii) The identity element on $ A $ , written $ 1_A $ , is in $ A_0 $ .
+The subspaces $ A_i $ of $ A $ are called homogeneous components of $ A $ , and an element $ ain A $ is homogeneous of degree $ d $ if $ ain A_d $ .
+By simple linear algebra, any element $ ain A $ can be written *uniquely* as a sum $ sum_{igeq 0} a^{(i)} $ where $ a^{(i)} $ is homogeneous of degree $ i $ and $ a^{(i)} = 0 $ for all but finitely many $ i $ .
+A lattice $ (L,leq) $ is said to be complemented if it has a maximum and a minimum element and such that each element of $ L $ admits a lattice complement.
+Let $ X $ be a topological space.
+A deformation retraction of $ X $ onto a subspace $ A $ is a family of continuous maps $ f_t: Xto X $ for $ tin 0,1 $ such that $ f_0 = mathbb 1 $ (the identity), the image $ f_1(X) = A $ , and $ {f_t}_{|A} = mathbb 1 $ for all $ t $ and such that the associated map $ X times 0,1 to X $ given by $ (x,t)mapsto f_t(x) $ is also continuous.
+Alternatively, a subspace $ A $ is a deformation retract of $ X $ if there exists a homotopy $ h:Xtimes Ito X $ such that $ h(x,0) = x $ , $ h(a,t) = a $ , and $ h(x,1)in A $ for all $ ain A $ and $ tin T $ .
+Such a homotopy is a deformation retraction of $ X $ onto $ A $ .
+A ring $ R $ is Noetherian if it is Noetherian as a module over itself.
+That is, if there are no infinite increasing chains of left ideals of $ R $ .
+A function $ f: a,bto mathbb R $ is of bounded variation if for every partition of a set $ P ={a= x_0 < <x_1 < cdots < x_n = b} $ , we have $ sup_P sum_{i=1}^n |f(x_i) - f(x_{i - 1})| <infty $ .
+Consider the circle $ S^1 $ as the unit interval quotient by its boundary: $ S^1= I/partial I $ .
+Denote its basepooint by $ 1 $ .
+Then the reduced suspension of a based topological space $ X $ is the smash product $ Sigma X = Xwedge S^1 $ .
+Explicitly, $ Sigma X = (Xtimes S^1)/(({*}times S^1)cup (Xtimes{1})) $ .
+The usual suspension is done without identifying the line $ {*}times I $ through the basepoint of $ X $ to a point.
+A topological space $ X $ is weak Hausdorff if for every map $ g:Kto X $ from a compact Hausdorff space $ K $ is closed in $ X $ .
+Note that $ g(K) $ is itself Hausdorff, ( : why?)
+so $ g(K) $ is a compact subspace of $ X $ .
+An element $ x $ of an integral domain is irreducible if it is not a unit and if whenever $ x=ab $ for some $ a,bin R $ , then either $ a $ or $ b $ is a unit.
+Let $ B $ be a compactly generated topological space.
+A space over $ A $ (that is, an object of the category) is a map $ p:Eto B $ .
+A morphism between spaces under $ A $ is a commutative diagram This is a homotopy category: a homotopy $ h $ between maps over $ B $ is a homotopy that at each "time" $ t $ is a map over $ B $ .
+The above notion of homotopy equivalence is called fiber homotopy equivalence .
+It is dual to cofiber homotopy equivalence.
+Let $ X $ be a CW complex.
+The cellular homology groups are the homology groups of the cellular chain complex of $ X $ .
+They are denoted $ H_n^{text{CW}}(X) $ .
+Consider the polynomial ring $ P_n =mathbb Cx_1,dots,x_n $ .
+Let $ partial_i = frac{partial}{partial x_i} $ be the partial derivative with respect to the variable
+$ x_i $ .
+Note that it is a linear transformation from $ P_n $ to itself.
+Let $ D_n $ be the subalgebra of the algebra of $ mathbb C $ - linear maps $ P_nto P_n $ generated by the $ partial_i $ .
+Since partial derivatives commute with each other, the algebra $ D_n $ is commutative.
+Elements of $ D_n $ take the form $ u = sum_{k_1,dots,k_n geq 0} c_{k_1,dots,k_n} frac{partial^{k_1+cdots + k_n}}{partial x_1^{k_1}cdots partial x_n^{k_n}} $ for $ c_{k_1,dots,k_n}inmathbb C $ .
+This is the algebra of polynomial differential operators in $ n $ variables with constant coefficients .
+The $ mathbb C $ - span of the $ partial_i $ is a vector subspace of $ D_n $ given by the directional derivatives along $ vin mathbb C^n $
+Let $ A $ be an algebra.
+Then its ideals are generated in the same way that ring ideals are generated by the inheritance following from the fact that algebras are rings.
+An element $ x $ of a ring is idempotent if $ x^2 = x $ .
+Let $ X $ be a topological space.
+A set $ Asubset X $ is nonmeager if it is not meager.
+Let $ mathfrak g $ be a Lie algebra.
+A semisimple representation of $ mathfrak g $ is a linear representation of $ mathfrak g $ that may be written as the direct sum of irreducible representations.
+Let $ G $ be a group.
+The Frattini subgroup of $ G $ , denoted $ Phi(G) $ , is theintersection of all of the maximal subgroups of $ G $ .
+If there are $ a $ ways of doing one thing and $ b $ ways of doing another thing, then there are $ ab $ ways of doing both things.
+This can be extended inductively.
+Set theoretically, this is the definition of the product of cardinal numbers: $ |S_1|cdot|S_2|cdots|S_n| = |S_1times S_2timescdots S_n| $ where $ |cdot| $ is the cardinal number of the sets $ S_i $ and $ times $ is the Cartesian product of sets.
+The sets need not be finite nor does the number of sets.
+Let $ (X,Sigma) $ be a measurable space with $ mu $ a signed measure.
+The total variation of $ mu $ is the function $ tau $ given by $ tau(A) = pi(A) + nu(A) $ where $ pi $ is the positive variation of $ mu $ and $ nu $ is the negative variation of $ mu $ .
+Let $ A $ be an algebra over the ring $ R $ .
+A right ideal $ I $ of $ A $ is a subalgebra of $ A $ such that $ xain I $ for all $ ain A $ , $ xin I $ .
+Equivalently (if we want to elide the subalgebra condition), a right ideal $ I $ of $ A $ is a subset $ Isubset A $ such that for all $ x,yin I $ , $ ain A $ , and $ rin R $ , (i) $ x - yin I $ ; (ii) $ rxin I $ ; (iii) $ xain I $ .
+Let $ G $ be a semigroup and let $ S $ be a subset of $ G $ .
+The normalizer of $ S $ is $ C_G(S) = {gin Gmid gS=Sg} $ .
+When $ G $ is a group, this may be written equivalently as $ C_G(S) = {gin Gmid gSg^{ - 1}} $ .
+The real symplectic group $ text{Sp}(2n,mathbb R) $ is the group of real $ 2ntimes 2n $ matrices that preserve the skew - symmetric bilinear form $ omega(x,y) = langle x,Omega yrangle $ where $ langlecdot,cdotrangle $ is the Euclidean inner product and $ Omega = } $ for $ I_n $ the $ ntimes n $ identity matrix.
+That is, $ Ain text{Sp}(2n, mathbb R) $ if and only if $ omega(Ax,Ay) = omega(x,y) $ for all $ x,y in mathbb R^n $ .
+Equivalently, $ Ain text{Sp}(2n, mathbb R) $ if and only if $ - Omega A^T Omega = A^{ - 1} $ where , as usual, $ A^T $ is the transpose of $ A $ and $ A^{ - 1} $ is its inverse.
+This group is a matrix Lie group because it is a subgroup of the general linear group $ text{GL}(n,mathbb C) $ .
+Let $ V $ and $ W $ be vector spaces.
+If $ phi: Gto GL(V) $ and $ psi:Gto GL(W) $ are two different representations of the group $ G $ , the direct sum $ phi oplus psi:G to GL(Voplus W) $ is also a representation of $ G $ where $ Voplus W $ is given by the usual Cartesian product of vector spaces.
+$ I $ denotes the unit interval $ 0,1 $ .
+Let $ X $ and $ Y $ be topological spaces.
+A homotopy is a family of continuous functions $ f_t:Xto Y $ for $ tin I $ such that the associated map $ F:Xtimes Ito Y $ given by $ F(x,t) = f_t(x) $ is continuous.
+Two maps $ f_0,f_1:Xto Y $ are homotopic if there exists a homotopy $ f_t $ connecting them.
+Equivalently, let $ X $ and $ Y $ be topological spaces.
+A homotopy between two continuous functions $ p,q:Xto Y $ is a continuous function $ h: Xtimes Ito Y $ such that $ h(x,0) = p(x) $ and $ h(x,1) = q(x) $ .
+A subgroup $ H $ of the group $ G $ is normal if for any $ g in H $ , the left and right cosets of $ H $ are equal.
+That is, if $ gH = Hg $ for all $ g in G $ .
+This is denoted $ Htriangleleft G $ .
+A topological space $ X $ is path - connected if for every pair of points $ x,y in X $ , there exists a continuous function $ gamma:0,1to X $ such that $ gamma(0)=x $ and $ gamma(1)=y $ .
+A division ring is a ring $ R $ in which every nonzero element is a unit.
+A topological space $ X $ is compact if every open cover of $ X $ has a finite subcover.
+Let $ phi $ be a differentiable k - form on the open set $ Usubset mathbb R^n $ given by $ phi = sum_{i_1<dots<i_k} phi_{i_1,dots,i_k}(x_1,dots,x_n)dx_{i_1}wedgecdotswedge dx_{i_k}in mathcal A^k(U) $ .
+Define the differential of $ phi $ by $ dphi = sum_{i_1<dots<i_k} dphi_{i_1,dots,i_k}wedge dx_{i_1}wedgecdotswedge dx_{i_k} in mathcal A^{k+1}(U) $ where the $ phi_j $ are ( : what??).
+That is, $ d $ is the linear transformation between the vector space of k - and k+1 - forms $ d: mathcal A^k(U) to mathcal A^{k+1}(U) $ given by $ g(x)dx_{i_1} wedgecdotswedge dx_{i_k} mapsto dgwedge x_{i_1}wedgecdotswedge dx_{i_k} $ .
+: what is d for the functions??????
+Let $ C $ be a category.
+A morphism $ fin text{Hom}_C(A,B) $ is an epimorphism if for all objects $ Z $ of $ C $ and all morphisms $ alpha,betain text{Hom}_C(B,Z) $ , $ alpha circ f= betacirc fimplies alpha = beta $ .
+A function $ f: mathbb R^n to mathbb R $ is Lebesgue measurable if for every open $ G in mathbb R $ , the preimage $ f^{ - 1}(G) $ is Lebesgue measurable.
+The derived series of a group $ G $ is the descending series of consecutive derived subgroups of $ G $ : $ G = G^{(0)} supseteq G^{(1)} = G,G supseteq cdots supseteq G^{(i)}supseteq cdots $ where $ G^{(i+1)} = G^{(i)},G^{(i)} $ .
+Note that this series may not reach the trivial subgroup.
+The center of an algebra $ A $ over the ring $ R $ is the set $ Z(A) = {zin A mid za=az text{ for all } ain A} $ .
+Let $ f: Qto mathbb R $ be a bounded function defined on the rectangle $ Q $ and let $ P $ be a partition of a set of $ Q $ .
+For each subrectangle $ R $ determined by $ P $ , let $ m_R(f) = inflimits_{xin R} f(x) $ .
+The lower sum for $ f $ determined by $ P $ is $ L(f,P) = sum_{R} m_R(f)text{vol}(R) $ where $ text{vol} $ is the volume of the rectangle $ R $ .
+Let $ X $ be a topological space.
+A set $ Asubset X $ is nowhere dense in $ X $ if for every nonempty open subset $ Gsubset X $ , there exists a nonempty open subset $ Hsubset G $ such that $ Acap H=emptyset $ .
+Equivalently, a set $ Asubset X $ id nowhere dense in $ X $ if its closure has empty interior.
+A covering of groupoids $ p:mathcal Eto mathcal B $ is regular if $ p(mathcal E,e)) $ is a normal subgroup of $ pi(mathcal B,b) $ where $ pi(mathcal B,b) $ denotes the automorphism group of $ b $ .
+Let $ R $ be a ring and $ I $ an ideal in $ R $ .
+Define an equivalence relation $ sim $ on $ R $ by $ asim b $ when $ a - b in I $ .
+The equivalence classes are given by $ a = a+ I = {a+r mid rin I} $ .
+The set of all such equivalence classes is denoted $ R/I $ , or the quotient of $ R $ by $ I $ .
+The operations addition ( $ (a+I)+ (b+I) = (a+b)+I $ ) and multiplication ( $ (a+I)(b+I) = (ab)+I $ ) are well - defined.
+Moreover, this itself is a ring .
+The quotient comes with a surjective homomorphism $ Rto R/I $ given by $ rmapsto r+I $ .
+Let $ U, V subsetmathbb R^n $ be open and let $ f:Uto V $ be a $ C^k $ diffeomorphism.
+Then $ f $ is orientation - preserving if the determinant of its total derivative is always positive:
+$ text{det}(Df(x)) > 0 $ for all $ x in U $ .
+The nullity of a linear transformation $ T $ is the dimension of the kernel of $ T $ .
+A continuous map ( : the inclusion? is $ A $ a subspace?) $ i:Ato X $ between compactly generated topological spaces $ A $ and $ X $ is a cofibration if it satisfies the homotopy extension property .
+That is, if $ hcirc i_0=fcirc i $ in the diagram below, then there exists $ tilde h $ that makes the diagram commute.
+Note that $ i_0(x) = (x,0) $ .
+The map $ tilde h $ s not required to be unique.
+The logarithm of an $ ntimes n $ matrix $ A $ is given by $ ln(A) = sum_{m=1}^infty ( - 1)^{m+1}frac{(A - I)^m}{m} $ whenever the sequence converges.
+Let $ X $ be a Hausdorff topological space and let $ (X, Sigma, mu) $ be a measure space where $ Sigma $ is the Borel σ - algebra on $ X $ .
+The measure $ mu $ is a Radon measure if it is inner regular and locally finite.
+Let $ Dsubsetmathbb R^2 $ be connected and open and let $ f:Dto mathbb R $ be of class $ C^2 $ .
+Then the Laplacian of $ f $ is given by the sums of the second partial derivatives $ Delta f(z) = f_{xx}(z) + f_{yy}(z) $ .
+Let $ Qsubsetmathbb R^n $ be a rectangle.
+For any partition of a set $ P $ of $ Q $ , the mesh of $ P $ is the maximum length of the component intervals of $ P $ .
+Let $ M $ be an embedded m - dimensional manifold.
+The tangent space of $ M $ at $ x $ , denoted $ T_xM $ , is the vector space given by the kernel of the total derivative of the function given in the definition of the kind of manifold.
+In light of the functorial definition of group actions, we can think of a covariant functor $ T:mathcal Bto mathcal S $ from a small groupoid to the category of sets as a generalization of a group action.
+For each object $ b $ of $ mathcal B $ , $ T $ restricts to an action of the group $ pi(mathcal B,b) $ ^(i)
+Then $ T $ is transitive if this group action is transitive for all objects $ b $ .
+Note that if $ mathcal B $ is connected, if the restriction of $ T $ on $ pi(mathcal B,b) $ is transitive for one object $ b $ then it is transitive for all objects $ b $ .
+^1: Note that $ pi(mathcal B,b) $ denotes the automorphism group of $ b $ as in the definition of star of an object.
+A metric space is a set $ X $ together with a function $ rho: Xtimes X to mathbb R $ such that for all $ x,y,z in X $ , the following properties are satisfied: (i)
+$ rho(x,y) = 0 $ if and only if $ x=y $ .
+(ii) $ rho(x,y) = rho(y,x) $ .
+(iii) $ rho(x,z) leq rho(x,y) + rho(y,z) $ .
+Property 3 is called the triangle inequality and the function $ rho $ is called a metric .
+The metric generates a topology on $ X $ where the open sets $ G $ are those for which there exists
+$ varepsilon > 0 $ for all $ x in G $ such that $ {yin Xmid rho(x,y) < varepsilon}subset G $ .
+Let $ Usubsetmathbb R^n $ be an open subset and let $ f:Utomathbb R $ be differentiable on $ U $ .
+The point $ a in U $ is a critical point of $ f $ if $ Df(a) =0 $ .
+Let $ 1leq p < infty $ and let $ (X,Sigma, mu) $ be a measure space.
+Let $ F $ be the set of functions $ f: Xto mathbb R $ such that $ ||f||_p = left(int_X|f|^ptext dmuright)^{1/p} < infty $ where $ ||f||_p $ is the p - norm.
+Equivalently, $ F $ is the set of functions such that the $ p $ th power of their absolute value is integrable.
+Let $ N = {f in F mid f = 0 text{almost everywhere}} $ .
+Because the integral of a positive function is zero if and only if it is zero almost everywhere, we have that $ N $ is the kernel of the p - norm.
+The normed linear space given by the quotient vector space of $ F $ by $ N $ is $ L_p(X,mu) $ .
+For $ p = infty $ , consider the set $ G $ of functions $ f:X to mathbb R $ for which there exists $ c inmathbb R $ such that $ mu({|f| > c}) = 0 $ and take the quotient vector space of this set by the equivalence relation $ sim $ on $ G $ given by $ fsim g $ if $ f(x) = g(x) $ almost everywhere on $ X $ .
+This space with the essential supremum of $ f $ as the norm is $ L_infty(X,mu) $ .
+Let $ G $ be a group acting on the set $ X $ .
+A point $ xin X $ is a fixed point for or an invariant of the $ G $ - action if $ gcdot x=x $ for every $ gin G $ .
+The set of these points is denoted $ X^G $ .
+Let $ (X,Sigma, mu) $ be a measure space.
+The measure $ mu $ is σ - finite if it satisfies one of the following equivalent criteria: - $ X $ can be covered with at most countably many (pairwise disjoint
+, this is not required) measurable sets of finite measure; - $ X $ can be covered with a monotone sequence of measurable sets of finite measure; - There exists a positive measurable function $ f $ whose integral is finite.
+A topological field is a field $ F $ that is a topological ring and also whose inverse maps $ Ftimes F^timesto F $ for both binary operations are also continuous.
+Let $ P $ be a partition of a set of the rectangle $ Q $ in $ mathbb R^n $ .
+The subrectangles of $ Q $ given by $ P $ are the products of the subintervals of the component intervals given by each $ P_i $ as in the definition of partition of a set of a rectangle.
+Let $ mathcal C $ be a category and $ x $ an object of $ mathcal C $ .
+The category $ x/mathcal C $ of objects under $ x $ has objects given by the morphisms $ f:xto y $ in $ mathcal C $ .
+For objects $ f:xto y $ and $ g:xto z $ in $ x/mathcal C $ , the morphisms $ gamma:fto g $ are the morphisms $ gamma yto z $ in $ mathcal C $ such that $ gammacirc f = g:xto z $ .
+Composition and the identity maps are given by composition and the identity maps in $ mathcal C $ .
+When $ mathcal C $ is a groupoid, $ gamma = gcirc f^{ - 1} $ and the objects of $ x/mathcal C $ therefore determine the category.
+The ring of Gaussian integers is exactly $ mathbb Zi = {a+bimid a,binmathbb Z, i^2= - 1} $ .
+It is a Euclidean domain with norm $ N(a+bi) = a^2+b^2 = (a+bi)(a - bi) $ .
+This norm is multiplicative.
+Let $ U subset mathbb R^n $ be open.
+A function $ f:mathbb U to mathbb R^n $ may be written as an $ m $ - tuple of functions $ f_i:Uto mathbb R $ so that $ f=(f_1,dots,f_m) $ .
+Let $ (X,Sigma, mu) $ and $ (Y, T, nu) $ be measure spaces.
+A function $ f:Xto Y $ is Lusin or Luzin if the image of every set of $ mu $ - measure zero has zero $ nu $ - measure.
+Two elements of a commutative ring are coprime if their greatest common divisor is $ 1 $ .
+Specifically, if it is the additive identity element of the ring.
+Let $ mathbb Q_p $ be the field of p - adic numbers under the $ p $ - adic absolute value.
+Define $ mathcal P = {xinmathbb Q_pmid |x|_p< 1} $ .
+We call this curly $ mathcal P $ because it has no other name that I have been able to find.
+It is a subset of the p - adic integers, and in particular it is an open ball in the $ p $ - adic absolute value topology which means that it is also closed.
+We can also define the "powers" of $ mathcal P $ by $ mathcal P^n = {xinmathbb Q_pmid |x_p|<p^{ - k}} $ .
+find a better name for this!!!
+Let $ (V,rho) $ be a representation of the group $ G $ .
+The $ n $ th symmetric power of $ V_1 $ and $ V_2 $ is a representation of $ G $ over the symmetric power of vector spaces $ text{Sym}^n(V) $ under the linear transformation $ rho:Gto text{Sym}^n(V) $ such that $ rho(g)(v_1odot v_2odot cdots odot v_n) = (rho(g)v_1odot rho(g)v_2odotcdotsodotrho(g)v_n) $ .
+Let $ U subset mathbb R^n $ be open.
+A function $ f: Uto mathbb R^m $ is differentiable at $ a in U $ if there exists a linear transformation $ A:mathbb R^n to mathbb R^m $ such that $ lim_{hto 0} frac{f(a+h) - f(a) - A(h)}{||h||} = 0 $ .
+The transformation $ A $ is denoted $ Df(a) $ and is called the total derivative of $ f $ at $ a $ .
+Equivalently, let $ V $ and $ V $ ' be vector spaces with norms $ |cdot| $ and $ |cdot|' $ , respectively.
+A function $ f:Uto V' $ from $ U $ an open subset of $ V $ is differentiable at $ xin U $ if there exists a linear transformation $ d_x f :Vto V' $ called the differential of $ f $ at $ x $ and a small neighborhood $ U_xsubseteq U $ of $ x $ such that for all $ vin U $ , we have that $ f(x+v) = f(x) + d_x(f) + o(v) $ where $ o: U_xto V' $ is a map such that $ lim_{|v|to 0} frac{|o(v)|'}{|v|} = 0 $ .
+Let $ A $ be a graded algebra.
+A graded ideal of $ A $ is an left algebra ideal that is also a graded vector subspace.
+It is also called a homogeneous ideal of $ A $ .
+An $ ntimes n $ Hermitian complex matrix $ M $ is positive definite if $ langle x, Mxrangle > 0 $ for all $ xneq 0 $ in $ mathbb C^n $ where $ langlecdot,cdotrangle $ is the standard inner product on $ mathbb C^n $ If we allow the dot product to be zero, then $ M $ is postive semidefinite .
+The Mandelbrot set $ mathcal M subset mathbb C $ is the set of $ c in mathbb C $ such that the filled Julia set $ K(f_c) $ is connected, where $ f_c:mathbb C to mathbb C $ is the polynomial $ f_c(z) = z^2+c $ .
+Define an equivalence relation $ sim $ on a vector space $ V $ with subspace $ W $ by $ v_1 sim v_2 text{ if } v_1 - v_2 in W $ .
+Then the quotient of $ V $ by $ W $ is the set of equivalence classes of $ sim $ in $ V $ .
+Let $ G $ be a magma with binary operation $ cdot $ and sub - structure $ H $ .
+A left coset of the $ H $ for the element $ xin G $ is the set $ xcdot H = {xcdot hmid h in H} $ .
+Let $ Usubsetmathbb R^n $ be an open subset and $ f:Uto mathbb R $ be differentiable on $ U $ .
+The gradient of $ f $ at $ a in U $ is the vector of the partial derivatives of $ f $ : $ nabla f(a) = left(frac{partial f}{partial x_1}(a),cdots, frac{partial f}{partial x_n}(a) right) $ .
+Let $ G,H $ be groups, let $ R $ be a ring, and consider the trivial homomorphism $ f:Gto H $ .
+This induces a ring homomorphism on the group ring given by $ f_*:RGto Rtext{ such that } sum_{gin G} a_gg mapsto sum_{gin G}a_g $ for $ a_g in R $ .
+The kernel of this map is called the augmentation ideal .
+We have immediately that it is an ideal because the kernel of a ring homomorphism is an ideal.
+The Cantor set $ mathcal C $ is constructed from the unit interval as follows: Let $ C_n = frac{C_{n - 1}}{3} cup left(frac{2}{3} +frac{C_{n - 1}}{3}right) $ with $ C_0 = 0,1 $ .
+Then $ mathcal C = bigcap_{ninmathbb N} C_n $ .
+A set $ Esubset mathbb R $ is called a Cantor set if it is compact, has empty interior, and has no isolated points.
+An integral domain $ R $ is a principal ideal domain if every ideal of $ R $ is principal.
+Let $ A $ be a graded algebra.
+A graded subalgebra of $ A $ is a subalgebra of $ A $ that is also a graded vector subspace of $ A $ as a graded vector space.
+A bounded function $ f:Qtomathbb R $ defined on the rectangle $ Q $ in $ mathbb R^n $ is integrable if the lower integral of $ f $ is equal to the upper integral of $ f $ .
+The integral of $ f $ over $ Q $ is defined to be $ int_Q f = underline{int_Q} f = overline{int_Q} f $ .
+Alternatively, let $ f: Sto mathbb R $ be a bounded function from the bounded set $ S $ to $ mathbb R $ , and let $ f_S $ be the extension of $ S $ in the usual sense to $ mathbb R $ .
+Choose $ Q $ a rectangle containing $ S $ .
+The integral of this function over $ S $ is $ int_S f = int_Q f_S, $ if it exists.
+The skeleton $ text{sk}mathcal C $ of a category $ mathcal C $ is a subcategory with one object from each isomorphism class of objects of $ mathcal C $ such that the morphisms between two objects in $ text{sk}mathcal C $ are all of the morphisms between these objects in $ mathcal C $ .
+Let $ p:Xto Y $ be a continuous map between topological spaces.
+Define $ p_*:pi_1(X,x) to pi_1(Y,p(x)) $ to be the map between the fundamental groups of $ X $ at $ x $ and $ Y $ at $ p(x) $ given by $ p_*f = pcirc f $ .
+This map is a homomorphism as $ p_*fcdot g = pcirc (fcdot g) = p_*fp_*g $ .
+A game is something which may be represented as a normal - form game or an extended - form game.
+A representation of a topological group $ G $ (written $ rho:Gto GL(V) $ for $ GL(V) $ the general linear group of some vector space $ V $ ) is called continuous if it is of finite dimension and if $ rho $ is continuous in the usual sense as a function between topological spaces.
+Let $ X $ be a topological space and let $ x in X $ .
+Denote by $ pi_1(X,x) $ the set of equivalence classes of loops at $ x $ under homotopy equivalence of paths.
+This is called the fundamental group of $ X $ at $ x $ .
+The limit of a D - shaped diagram is given by reversing the arrows in the definition of the colimit of the same D - shaped diagram: Then $ lim F $ is an object of $ mathcal C $ together with a morphism of diagrams $ pi:underline{lim F} to F $ that is terminal among all such morphisms.
+That is, if $ varepsilon:underline Ato F $ is a morphism of diagrams, then there is a unique morphism $ tilde varepsilon: Ato lim F $ in $ mathcal C $ such that $ picirc tildevarepsilon = varepsilon $ .
+The following diagram commutes:
+The ideal generated by a subset $ T $ of a ring $ R $ is the smallest ideal containing $ T $ .
+Equivalently, $ (T) = bigcaplimits_{Isupseteq T} I $ where $ I $ varies over all of the ideals in $ R $ that contain $ T $ .
+Equivalently, if $ T = {t_i}_{i=1}^n $ , then $ (T) = left{sumlimits_{i=1}^n r_it_iright} $ , the set of all formal sums of elements of $ T $ with coefficients in $ R $ .
+Let $ X $ and $ Y $ be topological spaces.
+The mapping cylinder $ M_f $ of a continuous map $ f:Xto Y $ is the quotient vector space of the disjoint union $ (Xtimes 0,1)amalg Y $ given by identifying $ (x,1) in Xtimes 0,1 $ with $ f(x) in Y $ .
+Equivalently, let $ X $ and $ A $ be compactly generated topological spaces.
+Then in the test diagram for the homotopy extenson property let $ Y $ be the mapping cylinder $ Xcup_i (Atimes I) $ be the pushout of $ i $ and $ i_0 $ .
+By the universal property for pushouts, if there exists a map $ r $ such that the following diagram commutes: the maps $ f $ , $ h $ from the *original* test diagram induces a map $ Mi to Y $ (where $ Y $ is the same $ Y $ from that original diagram) whose composite with $ r $ gives a homotopy $ tilde h $ that makes the test diagram commute.
+Let $ x $ be a unit of the p - adic field $ mathbb Q_p $ .
+That is, let $ xinmathbb Q_p^times $ .
+Then $ x $ has a unique p - adic expansion $ x= sum_{n=text{val}(x)}^infty a_np^n $ .
+Denote by $ lambda(x) $ the sum $ lambda(x) = sum_{n=text{val}(x)}^{ - 1}a_np^n $ and call it the tail of $ x $ .
+Then we define the basic additive character $ psi:mathbb Q_pto mathbb Tsubseteq mathbb C^times $ (the middle set being the circle group) by $ psi(x) = e^{2pi i lambda(x)} $ .
+Auxiliary definition We can also define a "scalar multiple" of the character by defining, for each $ uinmathbb Q_p $ , a new function $ psi_u:mathbb Q_pto mathbb T $ by $ xmapsto psi(ux) $ .
+Proof that it is a character First, we show that $ psi_u $ is a group homomorphism: $ psi_u(x+y) = psi(u(x+y)) = psi(ux+uy) = psi(ux)psi(uy) = psi_u(x)psi_u(y) $ from the fact that $ psi $ is itself a group homomorphism.
+Finally, $ psi_u $ is continuous because the composition of continuous functions is continuous and $ psi $ is the composition of $ psi $ , which is itself continuous by virtue of it being a multiplicative character, and because $ mathbb Q_p $ is a topological field, the map given by "multiplication by $ u $ " is also continuous.
+Let $ n $ be a positive integer.
+A partition of $ n $ is a non - decreasing sequence of positive integers whose sum is $ n $ .
+The σ - algebra generated by a collection of subsets is the σ - algebra containing all of the subsets such that any σ - algebra containing the sets also contains it.
+The adjoint map of a Lie algebra $ mathfrak g $ is the map $ text{ad}: mathfrak g to text{End}(mathfrak g) $ that sends $ X $ to $ text{ad}_X $ in the set of endomorphisms of $ mathfrak g $ .
+A binary relation on the set $ X $ is symmetric if for all $ a,b in X $ , $ a $ is related to $ b $ if and only if $ b $ is related to $ a $ .
+Let $ A $ be an algebra over the field $ mathbb k $ and let $ ain A $ .
+Then the subalgebra $ A_a $ generated by $ a $ is the image of the algebra homomorphism from the polynomials $ mathbb kt $ to $ A $ given by $ fmapsto f(a) $ .
+The kernel of this map is an ideal of $ mathbb kt $ consisting of polynomials such that $ f(a) = 0 $ .
+Denote this ideal by $ I_a $ and note that it is a principal ideal because $ mathbb kx $ is a principal ideal domain.
+The element $ ain A $ is algebraic if there exists a nonzero polynomial $ finmathbb kt $ such that $ f(a)=0 $ , i.e. if $ I_aneq 0 $ .
+Then because $ I_a $ must be principal, there exists a unique monic polynomial $ p_a $ that generates $ I_a $ and this is called the minimal polynomial of $ a $ .
+A left ideal of a ring $ R $ is a subset $ Isubseteq R $ such that - $ (I,+) $ is a subgroup of $ (R,+) $ ; - $ I $ is closed under left multiplication in $ R $ (i.e. for all $ iin R $ and all $ rin R $ , $ ri in I $ ).
+A point $ x $ is an isolated point of a subset $ S $ of a topological space $ X $ if it is an element of $ S $ but there exists a neighborhood of $ x $ containing no other points of $ S $ .
+The real projective space $ mathbb RP^n $ of dimension $ n $ is the quotient of $ mathbb R^{n+1} $ by the equivalence relation $ sim $ given by $ xsim y $ if and only if $ x= - y $ .
+This amounts to considering $ mathbb RP^n $ as the set of lines through the origin in $ mathbb R^{n+1} $ , or the unit sphere $ S^n $ where we identify antipodal points $ u $ and $ - u $ .
+A $ sigma $ - algebra on the set $ X $ is a subset $ mathcal M subset mathcal P(X) $ of the power set of $ X $ satisfying the following properties: (i) $ X in mathcal M $ ; (ii) $ mathcal M $ is closed under complementation, i.e. if $ A in mathcal M $ , then $ Xsetminus A in mathcal M $ ; (iii) $ mathcal M $ is closed under countable unions, i.e. if $ A_i in mathcal M $ for $ i in mathbb N $ , then $ bigcuplimits_{iinmathbb N} A_i in mathcal M $ .
+A rng is a set $ R $ together with two binary operations $ + $ and $ cdot $ such that (i) $ R $ is an abelian group under $ + $ ; (ii) $ R $ is a semigroup under $ cdot $ ; (iii) $ cdot $ distributes over $ + $ : $ acdot (b+c)=(acdot b) + (acdot c) $ and $ (b+c)cdot a = (bcdot a) + (ccdot a) $ .
+Note that this is essentially the definition of ring without a multiplicative identity.
+Let $ X $ be a topological space.
+A set $ A subset X $ is dense in $ X $ if every point in $ x $ is either in $ A $ or is a limit point of $ A $ .
+Equivalently, $ A $ is dense in $ X $ if its closure is all of $ X $ .
+Let $ H_n $ be the $ n $ th homology group of a chain complex.
+Elements of $ H_n $ are cosets of $ text{Im}(partial_{n+1}) $ and are called homology classes .
+Representatives of the same homology class are homologous .
+Let $ V $ be a vector space and let $ T:Vto V $ be a linear transformation.
+For integer $ m $ , there exists a multilinear transformation $ wedge^m(T): wedge^m(V) to wedge^m(V) $ from the $ m $ - fold exterior product to itself given by $ v_1wedgecdotswedge v_m mapsto T(v_1)wedgecdotswedge T(v_m) $ . : show is well - defined
+A Hilbert space $ (H, langlecdot,cdotrangle) $ is an inner product space that is complete as a metric space with metric induced by the norm induced by the inner product.
+Let $ X $ be a CW complex.
+Then by These three results, we can write parts of the long exact sequences of the pairs $ (X^{n+1}, X^n) $ , $ (X^n, X^{n - 1}) $ , and $ (X^{n - 1}, X^{n - 2}) $ of the $ n $ - skeleta of $ X $ can be written in the commutative diagram of the homology groups and relative homology groups where $ d_{n+1} $ and $ d_n $ are the compositions $ j_npartial_{n+1} $ and $ j_{n - 1}partial_n $ , which in turn are "relativizations" of the boundary maps $ partial_n $ and $ partial_{n+1} $ .
+The composition $ d_nd_{n+1} $ is zero because the composition of consecutive boundary homomorphisms is 0.
+The horizontal part of this diagram is therefore a chain complex called the cellular chain complex of $ X $ .
+Because $ H_n(X^n, X^{n - 1}) $ is free with basis in bijection with $ n $ - cells of $ X $ , we can think of its elements as linear combinations of $ n $ - cells of $ X $ .
+Let $ X $ be a topological space.
+For any $ Asubset X $ , the interior $ text{int}(A) $ of $ A $ is the largest open set contained in $ A $ .
+Let $ Usubsetmathbb H^n $ be open in the subspace topology on $ H^n $ considered as a subset of $ mathbb R^n $ .
+Then a function $ f:Utomathbb R^m $ is differentiable if there is an open set $ V subsetmathbb R^n $ such that $ U = Vcap H^n $ onto which we may extend $ f $ to a differentiable function $ f_V:Vtomathbb R^n $ .
+A topological group $ G $ is locally compact if the underlying topological space is both locally compact and Hausdorff.
+Let $ (X,Sigma,mu) $ be a measure space.
+A property $ P $ holds almost everywhere if there exists a set $ N in Sigma $ such that $ mu(N) = 0 $ and $ P $ is true for all $ x in Xsetminus N $ .
+A binary relation $ R $ on a set $ X $ (i.e. a subset of $ X times X $ ) is reflexive if it relates every $ x in X $ to itself.
+That is, for all $ x in X $ , $ (x,x) in R $ .
+Let $ S subsetmathbb R^n $ be rectifiable with nonzero volume.
+The centroid of $ S $ is the point $ c(S) in mathbb R^n $ whose $ k $ th coordinate is given by the integral $ c_k(S) = frac{1}{text{vol}(S)} int_S pi_k, $ where $ pi_k:mathbb R^n tomathbb R $ is such that $ (x_1,dots,x_n)mapsto x_k $ .
+Consider a chain complex with abelian groups $ C_i $ and homomorphisms $ partial_i $ .
+Because $ partial_{k+1}circpartial_k = 0 $ for all $ k $ , the image of $ partial_{k=1} $ is a subset of the kernel of $ partial_k $ : $ text{Im}(partial_{k+1})subset text{Ker}(partial_k) $ .
+The $ n $ th homology group of the chain complex is the quotient group $ H_n = text{Ker}(partial_n)/text{Im}(partial_{n+1}) $ .
+Elements of $ text{Ker}(partial_n) $ are called cycles and elements of $ text{Im}(partial_{n+1}) $ are called boundaries .
+A prime number is a prime element of $ mathbb N $ .
+Equivalently, it is a natural number that is not divisible by any number other than $ 1 $ and itself.
+A partially ordered set is a set $ X $ together with a homogeneous relation $ leq $ such that for all $ x,y,zin X $ , (i) $ leq $ is reflexive, i.e. $ xleq x $ ; (ii) $ leq $ is antisymmetric, i.e. if $ xleq y $ and $ yleq x $ then $ x=y $ ; (iii) $ leq $ is transitive, i.e. if $ xleq y $ and $ yleq z $ then $ xleq z $ .
+Let $ (X,Sigma,mu) $ be a measure space.
+A set $ Asubseteq mathbb X $ is d - open or open in the density topology (or in the Denjoy topology) if (i) $ A $ is measurable (ii) The measure density $ d(A,x) = 1 $ for every $ x in A $ .
+An $ ntimes n $ real matrix $ A $ is orthogonal if its column vectors (equivalently, its row vectors) are orthonormal.
+That is, the product of $ A $ with its transpose $ A^T $ is equal to the identity matrix $ I_n $ : $ AA^T = A^TA = I_n $ Equivalently, the transpose of an orthogonal matrix $ A $ is equal to its inverse: $ A^T = A^{ - 1} $ .
+Let $ R $ be a ring.
+An $ R $ - module $ M $ is free over a subset $ Ssubseteq M $ if $ S $ is linearly independent and generates $ M $ .
+We say that $ S $ forms a basis for $ M $ .
+A pushout is a colimit of a $ cdot leftarrow cdot to cdot $ shaped diagram.
+That is, in a given category $ mathcal C $ , the pushout of the morphisms $ f:Zto X $ and $ g:Zto Y $ in $ mathcal C $ consists of an object $ P $ of $ mathcal C $ and two morphisms $ i_1:Xto P $ and $ i_2:Yto P $ such that the diagram commutes and such that $ (P, i_1,i_2) $ is universal with respect to the diagram.
+Again, that is, for any other triple $ (Q, j_1,j_2) $ in $ mathcal C $ such that the following diagram commutes, there exists a unique $ u:Pto Q $ so that the diagram commutes. !
+Screen Shot 2022 - 02 - 17 at (iii)5(vi)27 PM.png
+A set $ X $ is second - countable if there exists a countable collection $ mathcal A $ of open sets in $ X $ such that every open set is a union of sets of $ A $ .
+Let $ V $ be a vector space.
+The dimension of $ V $ is the cardinal number of any basis for $ V $ .
+A subset $ A subsetmathbb R^n $ has measure zero if for every $ varepsilon > 0 $ , there exists a countable covering of $ A $ by rectangles $ {Q_i}_{iinmathbb N} $ such that the sum of the volumes of the $ Q_i $ is less than $ varepsilon $ , i.e. that $ sum_{iinmathbb N} text{vol}(Q_i) < varepsilon $ .
+The orthogonal complement of $ W $ a subspace of the vector space $ V $ is the set $ W^perp = {v in V mid forall w in W, text{ } langle v, wrangle = 0} $ .
+This is itself a vector subspace:
+A group $ G $ is simple if it contains no normal subgroups other than the subgroup containing the identity and itself.
+Let $ mathfrak g $ be a Lie algebra over the field $ F $ .
+A $ mathfrak g $ - module over a ring is a pair $ (V,cdot) $ of a vector space $ V $ over $ F $ and $ cdot:mathfrak g times V to V $ a map such that (i) $ (lambda x + mu y)cdot v = lambda (xcdot v) + mu(ycdot v) $ (ii) $ xcdot (lambda v + mu w) = lambda (xcdot v) + mu(ycdot v) $ (iii) $ x,ycdot v = xcdot (ycdot v) - ycdot (xcdot v) $ for all $ x,y in mathfrak g $ , $ v,win V $ , and $ lambda,mu in F $ .
+The Lorentz group is the generalized orthogonal group $ text{O}(3,1) $ (or, alternatively, $ text{O}(1,3) $ depending on the metric signature convention being used).
+Let $ R $ be a commutative ring and let $ a,bin R $ .
+An element $ din R $ is a greatest common divisor of $ a $ and $ b $ if $ d $ divides $ a $ and $ d $ divides $ b $ and for every $ d'in R $ such that $ d' $ divides $ a $ and $ d' $ divides $ b $ , we have that $ d' $ divides $ d $ .
+Equivalently, $ d $ is a greatest common divisor of $ a $ and $ b $ if the ideal generated by $ d $ is the smallest principal ideal that contains both $ a $ and $ b $ .
+This ideal is unique.
+Let $ V $ be an $ n $ - dimensional vector space and let $ T:Vto V $ be a linear transformation.
+The adugate of $ T $ is $ text{adj}(T):Vto V $ the unique linear transformation such that for all $ v in V $ and all $ w in wedge^{n - 1}(V) $ the $ n - 1 $ - fold exterior product of $ V $ , $ text{adj}(T)(v) wedge w = v wedge (wedge^{n - 1}(T)(w)) in wedge^n(V) $ .
+Let $ T:Vto V $ be a linear transformation from the vector space $ (V,F) $ to itself.
+Then $ v in V $ is an eigenvector of $ T $ if there exists $ lambdain F $ such that $ T(v) = lambda v $ .
+Let $ G $ be a subgroup of the general linear group $ GL_n(mathbb C) $ acting naturally on $ mathbb C^n $ .
+A polynomial $ fin mathbb Cx_1,dots,x_n $ is $ G $ - harmonic if it is annihilated by all $ G $ - invariant differential operators without constant term.
+That is, $ f $ is $ G $ - harmonic if $ u(f) = 0 $ for all $ u in D^G_{>0} $ .
+Let $ (X,Sigma,mu) $ be a measure space.
+A measurable subset $ A $ of $ X $ is outer regular if $ mu(A) = sup{mu(F) mid Fsubseteq A, Ftext{ compact and measurable}} $ .
+An endomorphism is a morphism from an object to itself.
+A group $ G $ is abelian if its operation is commutative.
+A covariant functor $ F:mathcal Cto mathcal D $ is a map between categories $ mathcal C $ and $ mathcal D $ .
+It must assign to each object $ A $ of $ mathcal C $ an object $ F(A) $ an object of $ mathcal D $ and to each morphism $ f:Ato B $ of $ mathcal C $ a morphism $ F(f):f(A) to f(B) $ of $ mathcal D $ such that - $ F(text{id}_A)) = text{id}_{F(A)} $ ; - $ F(gcirc f) = F(g)circ F(f) $ .
+A contravariant functor "reverses the direction of arrows;" that is $ F $ sends $ f:Ato B $ to $ F(f): f(B) to f(A) $ and $ F(gcirc f) = F(f) circ F(g) $ .
+Let $ G $ be a finitely generated abelian group.
+By the Fundamental Theorem of Finitely Generated Abelian Groups, $ G $ may be uniquely written as a direct sum of cyclic groups.
+The rank of $ G $ is the number of $ mathbb Z $ summands in this expression.
+For $ xin L $ a Lie algebra, $ x $ is ad - nilpotent if $ text{ad}(x) $ is a nilpotent endomorphism.
+Let $ X $ be a normed linear space with dual space $ X^* $ .
+A sequence $ {x_i}_{iinmathbb N} $ in $ X $ converges weakly to $ x in X $ if $ limlimits_{itoinfty} f(x_i)=f(x) $ for all $ fin X^* $ .
+Let $ mathbb k $ be some field.
+Let $ G $ be a group and let $ rho:Gto GL(V) $ be a representation of $ G $ in the $ mathbb k $ - vector space $ V $ .
+Let $ V^* = text{Hom}_mathbb k(V,mathbb k) $ be the dual space of $ V $ .
+By the Riesz representation theorem, there is a canonical pairing $ langle cdot,cdot rangle:V^*times V tomathbb k $ that lets us write linear functionals $ phi:vmapsto phi(v) $ as $ langle phi,vrangle $ .
+The $ G $ - action $ vmapsto rho(g)v $ on $ V $ induces the action on the space of functions on $ V $ , of which $ V^* $ is an invariant subspace.
+Explicitly, $ gin G $ acts on $ phi in V^* $ by $ vmapsto phi((rho(g))^{ - 1}(v)) = langle phi, (rho(g))^{ - 1}vrangle = langle ((rho(g))^{ - 1})^intercal, vrangle = langle (rho(g^{ - 1})^intercal, vrangle $ where $ (rho(g^{ - 1}))^intercal $ is the adjoint of the operator $ rho(g):Vto V $ .
+This action on $ V^* $ gives a group homomorphism $ rho^vee:Gto GL(V^*) $ where $ rho^vee(g) = (rho(g^{ - 1}))^intercal $ that is called the contragradient representation of the original representation $ rho $ .
+A based topological space is a topological space $ X $ together with a point $ x_0in X $ , denoted $ (X, x_0) $ .
+A covering space of a topological space $ X $ is another topological space $ tilde X $ together with a continuous map $ p:tilde Xto X $ such that there exists an open cover $ {U_alpha} $ of of $ X $ such that for all $ alpha $ , the inverse image $ p^{ - 1}(U_alpha) $ is a disjoint union of open sets in $ tilde X $ , each of which is mapped homeomorphically onto $ U_alpha $ .
+Note that $ p^{ - 1}(U_alpha) $ does not need to be nonempty.
+Thus $ p $ need not be surjective.
+Alternatively, let $ E $ and $ B $ be locally path - connected topological spaces.
+A continuous function $ p:Eto B $ is a covering space (of $ B $ ?) if it is surjective and if each point $ pin B $ has an open neighborhood $ V $ such that each connected component of the inverse image $ p^{ - 1}(V) $ is open in $ E $ and is mapped homeomorphically onto $ V $ by $ p $ .
+A path - connected open subset $ V $ with this property is a fundamental neighborhood of $ B $ .
+The space $ E $ is called the total space and the space $ B $ is called the base space .
+Write the fiber of the point $ b $ as $ F_b = p^{ - 1}(b) $ .
+Let $ p:mathcal Eto mathcal B $ be a covering of groupoids.
+Then the fiber translation functor $ T=T(p): mathcal Bto mathcal S $ , where $ mathcal S $ is the category of sets.
+For an object $ b $ of $ mathcal B $ , define $ T(b) = F_b $ , the fiber of $ b $ .
+For a morphism $ f:bto b' $ of $ mathcal B $ , define T(f):F_bto F_{b'} $ by $ T(f)(e) = e' $ where $ e' $ is the target of the unique $ g $ in the star $ text{St}(e) $ such that $ p(g)=f $ .
+A graph $ X $ is a topological space obtained from a discrete set $ X^0 $ of points called vertices and a discrete set $ J $ of functions $ j:S^0to X^0 $ as the quotient space of the disjoint union $ X^0/coprod (Jtimes I) $ where $ I $ is the unit interval obtained by identifying $ (j,0) $ with $ j(0) $ and $ (j,1) $ with $ j(1) $ .
+The images of the intervals $ jtimes I $ are called edges .
+A graph can also be though of as a 1 - dimensional CW complex whose $ 0 $ - cells are the vertices and whose $ 1 $ - cells are the edges and where the endpoints of each edge are identified with the vertices attached to it.
+A group $ G $ is free if there exists a generating set of a group $ X $ of $ G $ such that every nonempty reduced group word in $ X $ defines a nontrivial element of $ G $ .
+The ordinary generating function of a sequence $ {a_k}_{kinmathbb N} $ is $ A(x) = sum_{k=0}^infty a_kx^k $
+A monic polynomial is a polynomial whose leading coefficient is the unit of the ring over which it is defined.
+Let $ (X,Sigma) $ be a measurable space and let $ mu $ and $ nu $ be two measures on $ (X,Sigma) $ . $ mu $ is absolutely continuous with respect to $ nu $ (written $ mu ll nu) $ if $ mu(A) =0 $ for every $ Ain Sigma $ for which $ nu(A)=0 $ .
+Let $ X $ be a set with binary operation $ * $ .
+An element $ ein X $ is a left identity of $ X $ if $ x* a = a $ for all $ ain A $ .
+A norm on a vector space $ V $ is a real - valued functional $ ||cdot|| $ such that for all $ v,w in V $ and $ alpha in mathbb R $ , the following properties hold: (i) $ ||v+w|| leq ||v|| + ||w|| $ ; (ii) $ ||alpha v|| = |alpha| cdot ||v|| $ ; (iii) $ ||v|| geq 0 $ and $ ||v|| = 0 $ if and only if $ v=0 $ .
+hAn orthonormal sequence of vectors $ {v_i}_{iinmathbb N} $ in a Hilbert space $ H $ is an orthonormal (Hamel) basis for $ H $ if $ h = sum_{iinmathbb N} langle v_i, hrangle v_i $ for all $ h in H $ .
+A ring homomorphism is a map $ f:Sto R $ between rings $ S $ and $ R $ such that - $ f:(S,+) to (R,+) $ is a group homomorphism; - $ f(s_1s_2)= f(s_1)f(s_2) $ for all $ s_1,s_2in S $ ; - $ f(1) = 1 $ .
+A ring isomorphism is a homomorphism that happens to also be a bijection.
+Let $ V = bigoplus_{igeq0} V_i $ be a graded vector space.
+A graded subspace is a vector subspace of $ V $ of the form $ W = bigoplus_{igeq 0}W_i $ for $ W_i subseteq V_i $ .
+Clearly, this is only the case when $ W= bigoplus_{igeq 0} (Wcap V_i) $ .
+A topological ring is a ring $ R $ together with a topology on the underlying set where the addition map $ +:Rtimes Rto R $ (given by $ +(a,b) = a+b $ for all $ a,bin R $ ) and the multiplication map $ cdot:Rtimes Rto R $ (given by $ cdot(a,b)= ab $ for all $ a,bin R $ ) are both continuous.
+Let $ L $ be a Lie algebra and $ Isubset L $ an ideal.
+Then the quotient $ L / I $ is constructed as follows: - The underlying vector space is the usual quotient vector space $ L/I $ when $ L $ and $ I $ are considered as vector spaces. - Lie multiplication is given by $ x+I,y+I = xy+I $ .
+Let $ (V_1,rho_1) $ and $ (V_2,rho_2)) $ be representations of the group $ G $ .
+The tensor product of $ V_1 $ and $ V_2 $ is a representation of $ G $ over the tensor product of vector spaces $ V_1otimes V_2 $ under the linear transformation $ rho_1otimes rho_2 = rho:Gto V_1otimes V_2 $ such that $ rho(g)(v_1otimes v_2) = (rho_1(g)v_1)otimes (rho_2(g)v_2) $ .
+The measure density of a set $ A subsetmathbb R^n $ at a point $ x in mathbb R^n $ is given by $ lim_{rto 0} frac{mu(Acap B(x,r))}{mu(B(x,r))} $ where $ mu $ is some measure on $ mathbb R^n $ .
+Definition 1 (second category sets)
+A topological space is a Baire space if every nonempty open set in $ X $ is nonmeager.
+Definition 2 (intersection of open dense sets)
+A topological space is a Baire space if every countable intersection of open dense sets is also dense.
+A derivation of the algebra over a field $ U $ is a linear transformation $ delta $ satisfying the product rule: $ delta(ab) = adelta(b) + delta(a) b $ .
+The group algebra of a group $ G $ is the group ring of $ G $ over $ mathbb C $ is denoted $ mathbb CG $ and is the set of maps $ f:Gto mathbb C $ with finite support.
+This forms a module over a ring over $ mathbb C $ , and because $ mathbb C $ is a field, it is a vector space over $ mathbb C $ .
+The module scalar product of $ alphain mathbb C $ and $ fin mathbb CG $ is the map $ xmapsto alphacdot f(x) $ .
+The module group sum of mappings $ f $ and $ g $ in $ mathbb CG $ is the map $ xmapsto f(x)+g(x) $ .
+To make this whole thing into a ring, we define the product of $ f,gin mathbb CG $ by the map $ xmapsto sum_{uv=x} f(u)g(v) = sum_{uin G} f(u)g(u^{ - 1}x) $ .
+We often write elements of $ mathbb CG $ as formal linear combinations of elements in $ G $ with coefficients in $ mathbb C $ , which looks like $ sum_{gin G} f_gg $ .
+Equivalently, let $ mathbb k $ be a field and let $ G $ be a group.
+The group algebra $ mathbb k G $ is a $ mathbb k $ - vector space with basis $ {1_g}_{gin G} $ and multiplication table given by $ 1_gcdot 1_h = 1_{gh} $ for all $ g,hin G $ .
+The elements of $ mathbb kG $ are linear combinations $ sum_{gin G} c_g1_g $ for $ c_g inmathbb k $ zero for all but finitely many $ gin G $ .
+A category is discrete if its morphisms are only the identity morphisms.
+A differential basis is a collection $ mathcal B $ of pairs $ (B,x) $ where $ Bsubsetmathbb R^n $ and $ xin mathbb R^n $ such that for each $ xin mathbb R^n $ , there exists sequence $ {(B_i, x)}_{iinmathbb N}subset mathcal B $ such that $ B_i to {x} $ .
+That is, the diameter $ text{diam}(B_icup{x}) to 0 $ .
+A right coset of the subgroup $ H $ of the group $ G $ for the element $ xin G $ is the set $ Hx = {hxmid h in H} $ .
