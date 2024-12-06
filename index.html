@@ -148,7 +148,7 @@
                 $("#glossary-table").tablesorter();
 
                 // Toggle column visibility
-                $('.toggle-column').on('click', function() {
+                $('input[type="checkbox"]').change(function() {
                     const column = $(this).data('column');
                     const isChecked = $(this).is(':checked');
                     $(`#glossary-table tr th:nth-child(${column + 1}), #glossary-table tr td:nth-child(${column + 1})`).toggle(isChecked);
