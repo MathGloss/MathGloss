@@ -95,6 +95,22 @@ def add_column(database, new_csv, skip_new=False):
     
     df.to_csv(database, index=False)
 
+def remove_isolates(database, column):
+    df = pd.read_csv(database)
+    columns = df.columns
+    if column not in columns:
+        print(f"Error: Column '{column}' not found.")
+        return
+    for index, row in df.iterrows():
+        if row[column]:
+            alone = True
+            for heading in columns[2:]:
+                if heading != column:
+                    if pd.notna(row[heading]):
+                        alone = False
+            if alone:
+                df = df.drop(index)
+    df.to_csv(database, index=False)
 
 def build_database(map,files,output="new_database.csv"):
     data_dict = {}
@@ -136,7 +152,9 @@ def main():
     alignments_dir = "/Users/lucyhorowitz/Documents/GitHub/MathGloss/alignments"
     files = [os.path.join(alignments_dir, file) for file in os.listdir(alignments_dir) if file.endswith('.csv')]
 
-    build_database(map, files)
+    #build_database(map, files)
+
+    remove_isolates("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database copy.csv",'nLab')
 
 if __name__ == "__main__":
     main()
