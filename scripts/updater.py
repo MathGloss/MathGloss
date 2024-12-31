@@ -136,10 +136,7 @@ def main():
     alignments_dir = "/Users/lucyhorowitz/Documents/GitHub/MathGloss/alignments"
     files = [os.path.join(alignments_dir, file) for file in os.listdir(alignments_dir) if file.endswith('.csv')]
 
-    data_dict = build_database(map, files)
-    output_file = "data_dict.json"
-    with open(output_file, 'w') as f:
-        json.dump(data_dict, f, indent=4)
+    build_database(map, files)
 
 if __name__ == "__main__":
     main()

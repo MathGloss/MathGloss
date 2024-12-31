@@ -82,101 +82,102 @@ def is_disambiguation(wikidata_id):
             theorem = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q65943"
             lemma = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q207505"
             proposition = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q108163"
-            return disambiguation or person or theorem or lemma or proposition
-        return False
+            person_dismabiguation = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q22808320"
+            fixpt = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q1422068"
+            return disambiguation or person or theorem or lemma or proposition or person_dismabiguation or fixpt
+    return False
 
 # file should be a csv in the following format: title,link,suggestion.
 # suggestion is optional. title should be the name of the thing we care about. 
-def map_with_suggestions(filename, map):
+def do_mappings(filename, map):
     #check that the thing is formatted appropriately and see whether we are doing suggestions.
     df = pd.read_csv(filename)
     columns = df.columns.tolist()
+    resource = filename.split('/')[-1].split('.')[0]
     suggestions = False
     if df.shape[1] == 3:
         if not (columns[1] == "link" and columns[2] == "suggestion"):
             print("invalid format")
             return
-        resource = columns[1]
         suggestions = True
     elif df.shape[1] == 2:
         if not columns[1] == "link":
             print("invalid format")
             return
-        resource = columns[0]
     else:
         print("invalid format")
         return
-    
-    writer = csv.writer(f"{resource}_mappings.csv")
-    writer.writerow(['Wikidata ID', resource])
-    if not suggestions:
-        for index, row in df.iterrows():
-            title = row[0].strip().replace(' ', '_')
-            title = title[0].upper() + title[1:] 
-            found = False
-            for cat in wikicats:
-                title_cat = title + cat
-                wikidata_id = map.title_to_id(title_cat)
-                if wikidata_id:
-                    link = row[1]  # Use the second column as the PlanetMath link
-                    writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row[0]}]({link})"])
-                    print(f"CAT {title_cat} found: {wikidata_id}")
-                    found = True
-                    break
-            if not found:
-                wikidata_id = map.title_to_id(title)
-                if wikidata_id and not is_disambiguation(wikidata_id):
-                    link = row[1]  # Use the second column as the PlanetMath link
-                    writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row[0]}]({link})"])
-                    print(f"REG {title} found: {wikidata_id}")
-                    found = True
-            if not found:
-                print(f"NOT FOUND {title}")
-    else:
-        for index, row in df.iterrows():
-            title = row[0].strip().replace(' ', '_')
-            title = title[0].upper() + title[1:] 
-            link = row[1]
-            suggestion = row[2].strip().replace(' ', '_')
-            suggestion = suggestion[0].upper() + suggestion[1:] 
-            found = False
-            for cat in wikicats:
-                suggestion_cat = suggestion + cat
-                wikidata_id = map.title_to_id(suggestion_cat)
-                if wikidata_id and not is_disambiguation(wikidata_id):
-                    writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row[0].strip()}]({link})"])
-                    print(f"SUGCAT {suggestion_cat} found: {wikidata_id}")
-                    found = True
-                    break
-            if not found:
-                wikidata_id = map.title_to_id(suggestion)
-                if wikidata_id and not is_disambiguation(wikidata_id):
-                    writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row[0].strip()}]({link})"])
-                    print(f"SUG {suggestion} found: {wikidata_id}")
-                    found = True
-                else:    
-                    for cat in wikicats:
-                        title_cat = title + cat
-                        wikidata_id = map.title_to_id(title_cat)
-                        if wikidata_id and not is_disambiguation(wikidata_id):
-                            writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row[0].strip()}]({link})"])
-                            print(f"REGCAT {title_cat} found: {wikidata_id}")
-                            found = True
-                            break
-                    if not found:
-                        wikidata_id = map.title_to_id(title)
-                        if wikidata_id and not is_disambiguation(wikidata_id):
-                            writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row[0].strip()}]({link})"])
-                            print(f"REG {title} found: {wikidata_id}")
-                            found = True
-        if not found:
-            print(f"NOT FOUND {title}")
+    with open(f"/Users/lucyhorowitz/Documents/GitHub/MathGloss/alignments/{resource}_mappings.csv",'w') as f:
+        writer = csv.writer(f)
+        writer.writerow(['Wikidata ID', resource])
+        if not suggestions:
+            for index, row in df.iterrows():
+                title = row.iloc[0].strip().replace(' ', '_')
+                title = title[0].upper() + title[1:] 
+                found = False
+                for cat in wikicats:
+                    title_cat = title + cat
+                    wikidata_id = map.title_to_id(title_cat)
+                    if wikidata_id:
+                        link = row.iloc[1]  # Use the second column as the PlanetMath link
+                        writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row.iloc[0]}]({link})"])
+                        print(f"CAT {title_cat} FOUND: {wikidata_id}")
+                        found = True
+                        break
+                if not found:
+                    wikidata_id = map.title_to_id(title)
+                    if wikidata_id and not is_disambiguation(wikidata_id):
+                        link = row[1]  # Use the second column as the PlanetMath link
+                        writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row.iloc[0]}]({link})"])
+                        print(f"REG {title} FOUND: {wikidata_id}")
+                        found = True
+                if not found:
+                    print(f"NOT FOUND {title}")
+        else:
+            for index, row in df.iterrows():
+                title = row.iloc[0].strip().replace(' ', '_')
+                title = title[0].upper() + title[1:] 
+                link = row.iloc[1]
+                suggestion = row.iloc[2].strip().replace(' ', '_')
+                suggestion = suggestion[0].upper() + suggestion[1:] 
+                found = False
+                for cat in wikicats:
+                    suggestion_cat = suggestion + cat
+                    wikidata_id = map.title_to_id(suggestion_cat)
+                    if wikidata_id and not is_disambiguation(wikidata_id):
+                        writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row.iloc[0].strip()}]({link})"])
+                        print(f"SUGCAT {suggestion_cat} FOUND: {wikidata_id}")
+                        found = True
+                        break
+                if not found:
+                    wikidata_id = map.title_to_id(suggestion)
+                    if wikidata_id and not is_disambiguation(wikidata_id):
+                        writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row.iloc[0].strip()}]({link})"])
+                        print(f"SUG {suggestion} FOUND: {wikidata_id}")
+                        found = True
+                    else:    
+                        for cat in wikicats:
+                            title_cat = title + cat
+                            wikidata_id = map.title_to_id(title_cat)
+                            if wikidata_id and not is_disambiguation(wikidata_id):
+                                writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row.iloc[0].strip()}]({link})"])
+                                print(f"REGCAT {title_cat} FOUND: {wikidata_id}")
+                                found = True
+                                break
+                        if not found:
+                            wikidata_id = map.title_to_id(title)
+                            if wikidata_id and not is_disambiguation(wikidata_id):
+                                writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row.iloc[0].strip()}]({link})"])
+                                print(f"REG {title} FOUND: {wikidata_id}")
+                                found = True
+                if not found:
+                    print(f"NOT FOUND {title}")
 
 
 
 def main():
     map = WikiMapper('/Users/lucyhorowitz/Documents/MathGloss/wikidata/index_enwiki-20190420.db')
-    map_with_suggestions('/Users/lucyhorowitz/Documents/MathGloss/planetmath/titles.csv', "PlanetMath", map)
+    do_mappings('/Users/lucyhorowitz/Documents/GitHub/MathGloss/termlists/nlab.csv', map)
 
 if __name__ == "__main__":
     main()
