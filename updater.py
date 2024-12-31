@@ -3,6 +3,7 @@ import sqlite3
 from typing import List, Optional
 import pandas as pd
 import json
+import urllib.parse
 
 class WikiMapper:
     """Uses a precomputed database created by `create_wikipedia_wikidata_mapping_db`."""
@@ -101,19 +102,34 @@ def build_database(map,files,output="new_database.csv"):
     for file in files:
         df = pd.read_csv(file)
         resource = df.columns.tolist()[1]
-        data_dict = {}
+        
         for _, row in df.iterrows():
-            if row[0] not in data_dict:
-                data_dict[row[0]] = {}
-            data_dict[row[0]][resource] = row[1]
+            if row.iloc[0] not in data_dict:
+                data_dict[row.iloc[0]] = {}
+            data_dict[row.iloc[0]][resource] = row.iloc[1]
+
     for key in data_dict:
         wikidata_id = key.split('[')[-1].split(']')[0]
         try:
-            data_dict[key]["Wikidata Label"] = map.id_to_titles(wikidata_id)[0]
+            data_dict[key]["Wikidata Label"] = urllib.parse.unquote(map.id_to_titles(wikidata_id)[0]).replace('_', ' ')
         except:
             data_dict[key]["Wikidata Label"] = ""
-    
-    return data_dict
+    with open("new_database.json", 'w') as f:
+        json.dump(data_dict, f, indent=4)
+
+    result_df = pd.DataFrame.from_dict(data_dict, orient='index')
+
+    # Rename the index to 'Wikidata ID'
+    result_df.index.name = 'Wikidata ID'
+    result_df.reset_index(inplace=True)
+
+    # Specify the column order
+    column_order = ["Wikidata ID", "Wikidata Label"] + [df.columns.tolist()[1] for df in [pd.read_csv(file) for file in files]]
+    column_order = list(dict.fromkeys(column_order))  # Remove duplicates while preserving order
+
+    # Save the DataFrame to a CSV file with specified column order
+    result_df.to_csv(output, columns=column_order, index=False)
+
 
 def main():
     map = WikiMapper('/Users/lucyhorowitz/Documents/MathGloss/wikidata/index_enwiki-20190420.db')
