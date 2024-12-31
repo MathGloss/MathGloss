@@ -1,4 +1,65 @@
+import os
+import sqlite3
+from typing import List, Optional
 import pandas as pd
+import json
+
+class WikiMapper:
+    """Uses a precomputed database created by `create_wikipedia_wikidata_mapping_db`."""
+
+    def __init__(self, path_to_db: str):
+        self._path_to_db = path_to_db
+        self.conn = sqlite3.connect(self._path_to_db)
+
+    def title_to_id(self, page_title: str) -> Optional[str]:
+        """Given a Wikipedia page title, returns the corresponding Wikidata ID.
+        The page title is the last part of a Wikipedia url **unescaped** and spaces
+        replaced by underscores , e.g. for `https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem`,
+        the title would be `Fermat's_Last_Theorem`.
+        Args:
+            page_title: The page title of the Wikipedia entry, e.g. `Manatee`.
+        Returns:
+            Optional[str]: If a mapping could be found for `wiki_page_title`, then return
+                           it, else return `None`.
+        """
+
+        c = self.conn.execute("SELECT wikidata_id FROM mapping WHERE wikipedia_title=?", (page_title,))
+        result = c.fetchone()
+
+        if result is not None and result[0] is not None:
+            return result[0]
+        else:
+            return None
+
+    def url_to_id(self, wiki_url: str) -> Optional[str]:
+        """Given an URL to a Wikipedia page, returns the corresponding Wikidata ID.
+        This is just a convenience function. It is not checked whether the index and
+        URL are from the same dump.
+        Args:
+            wiki_url: The URL to a Wikipedia entry.
+        Returns:
+            Optional[str]: If a mapping could be found for `wiki_url`, then return
+                           it, else return `None`.
+        """
+
+        title = wiki_url.rsplit("/", 1)[-1]
+        return self.title_to_id(title)
+
+    def id_to_titles(self, wikidata_id: str) -> List[str]:
+        """Given a Wikidata ID, return a list of corresponding pages that are linked to it.
+        Due to redirects, the mapping from Wikidata ID to Wikipedia title is not unique.
+        Args:
+            wikidata_id (str): The Wikidata ID to map, e.g. `Q42797`.
+        Returns:
+            List[str]: A list of Wikipedia pages that are linked to this Wikidata ID.
+        """
+
+        c = self.conn.execute(
+            "SELECT DISTINCT wikipedia_title FROM mapping WHERE wikidata_id =?", (wikidata_id,)
+        )
+        results = c.fetchall()
+
+        return [e[0] for e in results]
 
 def remove_column(csv_file, column_name):
     df = pd.read_csv(csv_file)
@@ -6,7 +67,7 @@ def remove_column(csv_file, column_name):
         df = df.drop(columns=[column_name])
     df.to_csv(csv_file,index=False)
 
-def add_data(database, new_csv, skip_new=False):
+def add_column(database, new_csv, skip_new=False):
     new_data = pd.read_csv(new_csv)
     df = pd.read_csv(database)
     
@@ -33,8 +94,36 @@ def add_data(database, new_csv, skip_new=False):
     
     df.to_csv(database, index=False)
 
+
+def build_database(map,files,output="new_database.csv"):
+    data_dict = {}
+    
+    for file in files:
+        df = pd.read_csv(file)
+        resource = df.columns.tolist()[1]
+        data_dict = {}
+        for _, row in df.iterrows():
+            if row[0] not in data_dict:
+                data_dict[row[0]] = {}
+            data_dict[row[0]][resource] = row[1]
+    for key in data_dict:
+        wikidata_id = key.split('[')[-1].split(']')[0]
+        try:
+            data_dict[key]["Wikidata Label"] = map.id_to_titles(wikidata_id)[0]
+        except:
+            data_dict[key]["Wikidata Label"] = ""
+    
+    return data_dict
+
 def main():
-    add_data("database copy.csv", "output_mappings.csv")
+    map = WikiMapper('/Users/lucyhorowitz/Documents/MathGloss/wikidata/index_enwiki-20190420.db')
+    alignments_dir = "/Users/lucyhorowitz/Documents/GitHub/MathGloss/alignments"
+    files = [os.path.join(alignments_dir, file) for file in os.listdir(alignments_dir) if file.endswith('.csv')]
+
+    data_dict = build_database(map, files)
+    output_file = "data_dict.json"
+    with open(output_file, 'w') as f:
+        json.dump(data_dict, f, indent=4)
 
 if __name__ == "__main__":
     main()

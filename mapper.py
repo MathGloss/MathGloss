@@ -84,7 +84,6 @@ def is_disambiguation_page(wikidata_id):
 # file should be a csv in the following format: title,link,suggestion.
 # suggestion is optional. title should be the name of the thing we care about. 
 def map_with_suggestions(filename, map):
-    
     #check that the thing is formatted appropriately and see whether we are doing suggestions.
     df = pd.read_csv(filename)
     columns = df.columns.tolist()
