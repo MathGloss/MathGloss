@@ -1,7 +1,7 @@
 ---
 layout: page
-title: locally $\kappa$-presentable
-permalink: /context/locally_$\kappa$-presentable
+title: locally kappa-presentable
+permalink: /context/locally_kappa-presentable
 ---
  Let $\kappa$ be a regular cardinal.\footnote{A  **regular cardinal** is an infinite cardinal $\kappa$ with the property that every union of fewer than $\kappa$ sets each of cardinality less than $\kappa$ has cardinality less than $\kappa$.} A locally small category $\mathsf{C}$ is **locally $\kappa$-presentable** if it is cocomplete and if it has a set of objects $S$ so that:
 
@@ -11,6 +11,6 @@ permalink: /context/locally_$\kappa$-presentable
 A functor between locally $\kappa$-presentable categories is **accessible** if it preserves $\kappa$-filtered colimits.
 
 
-SUGGESTION: locally $\kappa$-presentable category
+SUGGESTION: locally kappa-presentable category
 
 From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

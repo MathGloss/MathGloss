@@ -1,7 +1,7 @@
 ---
 layout: page
-title: -adic integers
-permalink: /context/-adic_integers
+title: p-adic integers
+permalink: /context/p-adic_integers
 ---
 
 The $p$**-adic integers** are defined to be the inverse limit of the following diagram of rings:

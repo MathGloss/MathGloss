@@ -66,7 +66,7 @@ wikicats = ['_(mathematics)', '_(category_theory)', '_(linear_algebra)', '_(alge
              '_(group_theory)', '_(invariant_theory)', '_(module_theory)', '_(order_theory)', '_(ring_theory)',
              '_(representation_theory)', '_(set_theory)', '_(string_theory)', '_(symplectic geometry)', '_(tensor_theory)']
 
-def is_disambiguation_page(wikidata_id):
+def is_disambiguation(wikidata_id):
     url = f"https://www.wikidata.org/w/api.php"
     params = {
         "action": "wbgetentities",
@@ -77,9 +77,13 @@ def is_disambiguation_page(wikidata_id):
     claims = response.get("entities", {}).get(wikidata_id, {}).get("claims", {})
     if "P31" in claims:
         for claim in claims["P31"]:
-            if claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q4167410" or claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q5":
-                return True
-    return False
+            disambiguation = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q4167410"
+            person = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q5"
+            theorem = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q65943"
+            lemma = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q207505"
+            proposition = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q108163"
+            return disambiguation or person or theorem or lemma or proposition
+        return False
 
 # file should be a csv in the following format: title,link,suggestion.
 # suggestion is optional. title should be the name of the thing we care about. 
@@ -121,7 +125,7 @@ def map_with_suggestions(filename, map):
                     break
             if not found:
                 wikidata_id = map.title_to_id(title)
-                if wikidata_id and not is_disambiguation_page(wikidata_id):
+                if wikidata_id and not is_disambiguation(wikidata_id):
                     link = row[1]  # Use the second column as the PlanetMath link
                     writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row[0]}]({link})"])
                     print(f"REG {title} found: {wikidata_id}")
@@ -139,14 +143,14 @@ def map_with_suggestions(filename, map):
             for cat in wikicats:
                 suggestion_cat = suggestion + cat
                 wikidata_id = map.title_to_id(suggestion_cat)
-                if wikidata_id and not is_disambiguation_page(wikidata_id):
+                if wikidata_id and not is_disambiguation(wikidata_id):
                     writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row[0].strip()}]({link})"])
                     print(f"SUGCAT {suggestion_cat} found: {wikidata_id}")
                     found = True
                     break
             if not found:
                 wikidata_id = map.title_to_id(suggestion)
-                if wikidata_id and not is_disambiguation_page(wikidata_id):
+                if wikidata_id and not is_disambiguation(wikidata_id):
                     writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row[0].strip()}]({link})"])
                     print(f"SUG {suggestion} found: {wikidata_id}")
                     found = True
@@ -154,14 +158,14 @@ def map_with_suggestions(filename, map):
                     for cat in wikicats:
                         title_cat = title + cat
                         wikidata_id = map.title_to_id(title_cat)
-                        if wikidata_id and not is_disambiguation_page(wikidata_id):
+                        if wikidata_id and not is_disambiguation(wikidata_id):
                             writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row[0].strip()}]({link})"])
                             print(f"REGCAT {title_cat} found: {wikidata_id}")
                             found = True
                             break
                     if not found:
                         wikidata_id = map.title_to_id(title)
-                        if wikidata_id and not is_disambiguation_page(wikidata_id):
+                        if wikidata_id and not is_disambiguation(wikidata_id):
                             writer.writerow([f"[{wikidata_id}](https://www.wikidata.org/wiki/{wikidata_id})", f"[{row[0].strip()}]({link})"])
                             print(f"REG {title} found: {wikidata_id}")
                             found = True

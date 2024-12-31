@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Eilenberg--Moore category
-permalink: /context/Eilenberg--Moore_category
+title: Eilenberg-Moore category
+permalink: /context/Eilenberg-Moore_category
 ---
  Let $\mathsf{C}$ be a category with a monad $(T,\eta,\mu)$. The **Eilenberg--Moore category** for $T$ or the **category of $T$-algebras** is the category $\mathsf{C}^T$ whose: 
 -  objects are pairs $(A \in \mathsf{C}, a : TA \to A)$, so that the diagrams
@@ -12,6 +12,6 @@ $ \xymatrix{ TA \ar[d]_a \ar[r]^{Tf} & TB \ar[d]^b \\ A \ar[r]_f & B}$ commutes,
 
 
 
-SUGGESTION: Eilenberg--Moore category
+SUGGESTION: Eilenberg-Moore category
 
 From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)
