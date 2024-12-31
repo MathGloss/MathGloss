@@ -131,7 +131,7 @@ def map_with_suggestions(filename, map):
                     print(f"REG {title} found: {wikidata_id}")
                     found = True
             if not found:
-                print(f"NOT FOUND {row[0]}")
+                print(f"NOT FOUND {title}")
     else:
         for index, row in df.iterrows():
             title = row[0].strip().replace(' ', '_')
@@ -170,7 +170,7 @@ def map_with_suggestions(filename, map):
                             print(f"REG {title} found: {wikidata_id}")
                             found = True
         if not found:
-            print(f"NOT FOUND {filename}")
+            print(f"NOT FOUND {title}")
 
 
 
