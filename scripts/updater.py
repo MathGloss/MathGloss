@@ -109,6 +109,7 @@ def remove_isolates(database, column):
                     if pd.notna(row[heading]):
                         alone = False
             if alone:
+                print(f"REMOVED {row["Wikidata Label"]}")
                 df = df.drop(index)
     df.to_csv(database, index=False)
 
@@ -146,15 +147,29 @@ def build_database(map,files,output="new_database.csv"):
     # Save the DataFrame to a CSV file with specified column order
     result_df.to_csv(output, columns=column_order, index=False)
 
+def reorder_columns(database, columns):
+    df = pd.read_csv(database)
+    existing_columns = df.columns.tolist()
+    
+    # Ensure all specified columns are in the DataFrame
+    for column in columns:
+        if column not in existing_columns:
+            raise ValueError(f"Column '{column}' not found in the database.")
+    
+    # Reorder columns
+    df = df[columns]
+    
+    df.to_csv(database, index=False)
 
 def main():
     map = WikiMapper('/Users/lucyhorowitz/Documents/MathGloss/wikidata/index_enwiki-20190420.db')
     alignments_dir = "/Users/lucyhorowitz/Documents/GitHub/MathGloss/alignments"
     files = [os.path.join(alignments_dir, file) for file in os.listdir(alignments_dir) if file.endswith('.csv')]
 
-    build_database(map, files)
+    #build_database(map, files)
 
-    remove_isolates("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv",'nLab')
+    #remove_isolates("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv",'nLab')
+    reorder_columns("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv", ["Wikidata ID","Wikidata Label","Chicago","Mathlib","nLab","Context","PlanetMath"])
 
 if __name__ == "__main__":
     main()
