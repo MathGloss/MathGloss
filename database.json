@@ -1,93 +1,93 @@
 {
     "[Q1467124](https://www.wikidata.org/wiki/Q1467124)": {
-        "Context": "[geometric realization](https://mathgloss.github.io/MathGloss/geometric_realization)",
+        "Context": "[geometric realization](https://mathgloss.github.io/MathGloss/context/geometric_realization)",
         "nlab": "[simplicial set](https://ncatlab.org/nlab/show/simplicial%20set)",
         "Wikidata Label": "Simplicial set"
     },
     "[Q541563](https://www.wikidata.org/wiki/Q541563)": {
-        "Context": "[subcategory](https://mathgloss.github.io/MathGloss/subcategory)",
+        "Context": "[subcategory](https://mathgloss.github.io/MathGloss/context/subcategory)",
         "nlab": "[subcategory](https://ncatlab.org/nlab/show/subcategory)",
         "Wikidata Label": "Subcategory"
     },
     "[Q17103180](https://www.wikidata.org/wiki/Q17103180)": {
-        "Context": "[retract](https://mathgloss.github.io/MathGloss/retract)",
+        "Context": "[retract](https://mathgloss.github.io/MathGloss/context/retract)",
         "nlab": "[split monomorphism](https://ncatlab.org/nlab/show/split%20monomorphism)",
         "planetmath": "[retract](http://planetmath.org/retract)",
         "Wikidata Label": "Split epimorphism"
     },
     "[Q4370335](https://www.wikidata.org/wiki/Q4370335)": {
-        "Context": "[complete](https://mathgloss.github.io/MathGloss/complete)",
+        "Context": "[complete](https://mathgloss.github.io/MathGloss/context/complete)",
         "nlab": "[finitely complete category](https://ncatlab.org/nlab/show/finitely%20complete%20category)",
         "Chicago": "[complete category](https://mathgloss.github.io/MathGloss/chicago/complete_category)",
         "Wikidata Label": "Complete category"
     },
     "[Q3755543](https://www.wikidata.org/wiki/Q3755543)": {
-        "Context": "[torsor](https://mathgloss.github.io/MathGloss/torsor)",
+        "Context": "[torsor](https://mathgloss.github.io/MathGloss/context/torsor)",
         "Wikidata Label": "Principal homogeneous space"
     },
     "[Q1296024](https://www.wikidata.org/wiki/Q1296024)": {
-        "Context": "[effective](https://mathgloss.github.io/MathGloss/effective)",
+        "Context": "[effective](https://mathgloss.github.io/MathGloss/context/effective)",
         "Wikidata Label": "Effectiveness"
     },
     "[Q27948](https://www.wikidata.org/wiki/Q27948)": {
-        "Context": "[list monad](https://mathgloss.github.io/MathGloss/list_monad)",
+        "Context": "[list monad](https://mathgloss.github.io/MathGloss/context/list_monad)",
         "nlab": "[list monad](https://ncatlab.org/nlab/show/list%20monad)",
         "Wikidata Label": "List (abstract data type)"
     },
     "[Q2920416](https://www.wikidata.org/wiki/Q2920416)": {
-        "Context": "[kernel](https://mathgloss.github.io/MathGloss/kernel)",
+        "Context": "[kernel](https://mathgloss.github.io/MathGloss/context/kernel)",
         "Wikidata Label": "Kernel (category theory)"
     },
     "[Q692689](https://www.wikidata.org/wiki/Q692689)": {
-        "Context": "[coproduct](https://mathgloss.github.io/MathGloss/coproduct)",
+        "Context": "[coproduct](https://mathgloss.github.io/MathGloss/context/coproduct)",
         "nlab": "[coproduct](https://ncatlab.org/nlab/show/coproduct)",
         "Wikidata Label": "Coproduct"
     },
     "[Q40276](https://www.wikidata.org/wiki/Q40276)": {
-        "Context": "[multiplication](https://mathgloss.github.io/MathGloss/multiplication)",
+        "Context": "[multiplication](https://mathgloss.github.io/MathGloss/context/multiplication)",
         "nlab": "[multiplication](https://ncatlab.org/nlab/show/multiplication)",
         "planetmath": "[multiplication](http://planetmath.org/multiplication)",
         "Wikidata Label": "Arithmetic/Multiplication"
     },
     "[Q2156511](https://www.wikidata.org/wiki/Q2156511)": {
-        "Context": "[cokernel](https://mathgloss.github.io/MathGloss/cokernel)",
+        "Context": "[cokernel](https://mathgloss.github.io/MathGloss/context/cokernel)",
         "nlab": "[cokernel](https://ncatlab.org/nlab/show/cokernel)",
         "Wikidata Label": "Cokernel"
     },
     "[Q5446381](https://www.wikidata.org/wiki/Q5446381)": {
-        "Context": "[fiber space](https://mathgloss.github.io/MathGloss/fiber_space)",
+        "Context": "[fiber space](https://mathgloss.github.io/MathGloss/context/fiber_space)",
         "Wikidata Label": "Fibered manifold"
     },
     "[Q719395](https://www.wikidata.org/wiki/Q719395)": {
-        "Context": "[objects](https://mathgloss.github.io/MathGloss/objects)",
+        "Context": "[objects](https://mathgloss.github.io/MathGloss/context/objects)",
         "nlab": "[small category](https://ncatlab.org/nlab/show/small%20category)",
         "Chicago": "[category](https://mathgloss.github.io/MathGloss/chicago/category)",
         "Wikidata Label": "Category (mathematics)"
     },
     "[Q529752](https://www.wikidata.org/wiki/Q529752)": {
-        "Context": "[local](https://mathgloss.github.io/MathGloss/local)",
+        "Context": "[local](https://mathgloss.github.io/MathGloss/context/local)",
         "nlab": "[zero object](https://ncatlab.org/nlab/show/zero%20object)",
         "Wikidata Label": "Terminal object"
     },
     "[Q6497088](https://www.wikidata.org/wiki/Q6497088)": {
-        "Context": "[meets](https://mathgloss.github.io/MathGloss/meets)",
+        "Context": "[meets](https://mathgloss.github.io/MathGloss/context/meets)",
         "nlab": "[lattice (discrete subgroup)](https://ncatlab.org/nlab/show/lattice%20%28discrete%20subgroup%29)",
         "Wikidata Label": "Lattice (group theory)"
     },
     "[Q2119470](https://www.wikidata.org/wiki/Q2119470)": {
-        "Context": "[Sierpinski space](https://mathgloss.github.io/MathGloss/Sierpinski_space)",
+        "Context": "[Sierpinski space](https://mathgloss.github.io/MathGloss/context/Sierpinski_space)",
         "nlab": "[Sierpinski space](https://ncatlab.org/nlab/show/Sierpinski%20space)",
         "planetmath": "[Sierpinski space](http://planetmath.org/sierpinskispace)",
         "Wikidata Label": "Sierpi\u0144ski space"
     },
     "[Q10564851](https://www.wikidata.org/wiki/Q10564851)": {
-        "Context": "[closure operator](https://mathgloss.github.io/MathGloss/closure_operator)",
+        "Context": "[closure operator](https://mathgloss.github.io/MathGloss/context/closure_operator)",
         "nlab": "[closure operator](https://ncatlab.org/nlab/show/closure%20operator)",
         "planetmath": "[consequence operator](http://planetmath.org/consequenceoperator)",
         "Wikidata Label": "Closure operator"
     },
     "[Q161172](https://www.wikidata.org/wiki/Q161172)": {
-        "Context": "[unital ring](https://mathgloss.github.io/MathGloss/unital_ring)",
+        "Context": "[unital ring](https://mathgloss.github.io/MathGloss/context/unital_ring)",
         "mathlib": "[ring](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Ring/Defs.html#Ring)",
         "nlab": "[ring object](https://ncatlab.org/nlab/show/ring%20object)",
         "Chicago": "[ring](https://mathgloss.github.io/MathGloss/chicago/ring)",
@@ -95,13 +95,13 @@
         "Wikidata Label": "Ring (mathematics)"
     },
     "[Q595298](https://www.wikidata.org/wiki/Q595298)": {
-        "Context": "[presheaf](https://mathgloss.github.io/MathGloss/presheaf)",
+        "Context": "[presheaf](https://mathgloss.github.io/MathGloss/context/presheaf)",
         "nlab": "[\u00e9tale space](https://ncatlab.org/nlab/show/%C3%A9tale%20space)",
         "planetmath": "[sheaf](http://planetmath.org/sheaf1)",
         "Wikidata Label": "Sheaf (mathematics)"
     },
     "[Q118084](https://www.wikidata.org/wiki/Q118084)": {
-        "Context": "[unit](https://mathgloss.github.io/MathGloss/unit)",
+        "Context": "[unit](https://mathgloss.github.io/MathGloss/context/unit)",
         "mathlib": "[invertible elements](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Group/Invertible/Defs.html#Invertible)",
         "nlab": "[unit](https://ncatlab.org/nlab/show/unit)",
         "Chicago": "[unit of a ring](https://mathgloss.github.io/MathGloss/chicago/unit_of_a_ring)",
@@ -109,7 +109,7 @@
         "Wikidata Label": "Unit (ring theory)"
     },
     "[Q288465](https://www.wikidata.org/wiki/Q288465)": {
-        "Context": "[orbits](https://mathgloss.github.io/MathGloss/orbits)",
+        "Context": "[orbits](https://mathgloss.github.io/MathGloss/context/orbits)",
         "mathlib": "[orbit](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/GroupTheory/GroupAction/Defs.html#MulAction.orbit)",
         "nlab": "[transitive action](https://ncatlab.org/nlab/show/transitive%20action)",
         "Chicago": "[group action](https://mathgloss.github.io/MathGloss/chicago/group_action)",
@@ -117,299 +117,299 @@
         "Wikidata Label": "Group action (mathematics)"
     },
     "[Q207326](https://www.wikidata.org/wiki/Q207326)": {
-        "Context": "[summit](https://mathgloss.github.io/MathGloss/summit)",
+        "Context": "[summit](https://mathgloss.github.io/MathGloss/context/summit)",
         "Wikidata Label": "Summit"
     },
     "[Q2143621](https://www.wikidata.org/wiki/Q2143621)": {
-        "Context": "[Grothendieck topos](https://mathgloss.github.io/MathGloss/Grothendieck_topos)",
+        "Context": "[Grothendieck topos](https://mathgloss.github.io/MathGloss/context/Grothendieck_topos)",
         "nlab": "[topos](https://ncatlab.org/nlab/show/topos)",
         "Wikidata Label": "Mathematical topo"
     },
     "[Q621542](https://www.wikidata.org/wiki/Q621542)": {
-        "Context": "[commutative square](https://mathgloss.github.io/MathGloss/commutative_square)",
+        "Context": "[commutative square](https://mathgloss.github.io/MathGloss/context/commutative_square)",
         "nlab": "[diagram chasing](https://ncatlab.org/nlab/show/diagram%20chasing)",
         "Wikidata Label": "Commutative diagram"
     },
     "[Q2646117](https://www.wikidata.org/wiki/Q2646117)": {
-        "Context": "[forgetful functor](https://mathgloss.github.io/MathGloss/forgetful_functor)",
+        "Context": "[forgetful functor](https://mathgloss.github.io/MathGloss/context/forgetful_functor)",
         "nlab": "[forgetful functor](https://ncatlab.org/nlab/show/forgetful%20functor)",
         "Wikidata Label": "Forgetful functor"
     },
     "[Q207961](https://www.wikidata.org/wiki/Q207961)": {
-        "Context": "[shape](https://mathgloss.github.io/MathGloss/shape)",
+        "Context": "[shape](https://mathgloss.github.io/MathGloss/context/shape)",
         "nlab": "[shape](https://ncatlab.org/nlab/show/shape)",
         "Wikidata Label": "Shape"
     },
     "[Q1771501](https://www.wikidata.org/wiki/Q1771501)": {
-        "Context": "[strong limit](https://mathgloss.github.io/MathGloss/strong_limit)",
+        "Context": "[strong limit](https://mathgloss.github.io/MathGloss/context/strong_limit)",
         "planetmath": "[limit cardinal](http://planetmath.org/limitcardinal)",
         "Wikidata Label": "Limit cardinal"
     },
     "[Q901718](https://www.wikidata.org/wiki/Q901718)": {
-        "Context": "[product](https://mathgloss.github.io/MathGloss/product)",
+        "Context": "[product](https://mathgloss.github.io/MathGloss/context/product)",
         "planetmath": "[product](http://planetmath.org/product)",
         "Wikidata Label": "Product (mathematics)"
     },
     "[Q906015](https://www.wikidata.org/wiki/Q906015)": {
-        "Context": "[direct limit](https://mathgloss.github.io/MathGloss/direct_limit)",
+        "Context": "[direct limit](https://mathgloss.github.io/MathGloss/context/direct_limit)",
         "nlab": "[inductive limit](https://ncatlab.org/nlab/show/inductive%20limit)",
         "Wikidata Label": "Direct limit"
     },
     "[Q357858](https://www.wikidata.org/wiki/Q357858)": {
-        "Context": "[right adjoint](https://mathgloss.github.io/MathGloss/right_adjoint)",
+        "Context": "[right adjoint](https://mathgloss.github.io/MathGloss/context/right_adjoint)",
         "nlab": "[right adjoint](https://ncatlab.org/nlab/show/right%20adjoint)",
         "Wikidata Label": "Adjoint functors"
     },
     "[Q1945067](https://www.wikidata.org/wiki/Q1945067)": {
-        "Context": "[monic](https://mathgloss.github.io/MathGloss/monic)",
+        "Context": "[monic](https://mathgloss.github.io/MathGloss/context/monic)",
         "nlab": "[regular monomorphism](https://ncatlab.org/nlab/show/regular%20monomorphism)",
         "Chicago": "[monomorphism](https://mathgloss.github.io/MathGloss/chicago/monomorphism)",
         "Wikidata Label": "Monomorphism"
     },
     "[Q4596935](https://www.wikidata.org/wiki/Q4596935)": {
-        "Context": "[2-category](https://mathgloss.github.io/MathGloss/2-category)",
+        "Context": "[2-category](https://mathgloss.github.io/MathGloss/context/2-category)",
         "nlab": "[strict 2-category](https://ncatlab.org/nlab/show/strict%202-category)",
         "Wikidata Label": "Strict 2-category"
     },
     "[Q474715](https://www.wikidata.org/wiki/Q474715)": {
-        "Context": "[poset](https://mathgloss.github.io/MathGloss/poset)",
+        "Context": "[poset](https://mathgloss.github.io/MathGloss/context/poset)",
         "nlab": "[strict partial order](https://ncatlab.org/nlab/show/strict%20partial%20order)",
         "planetmath": "[poset](http://planetmath.org/poset)",
         "Wikidata Label": "PartialOrderedSet"
     },
     "[Q1630568](https://www.wikidata.org/wiki/Q1630568)": {
-        "Context": "[monad](https://mathgloss.github.io/MathGloss/monad)",
+        "Context": "[monad](https://mathgloss.github.io/MathGloss/context/monad)",
         "nlab": "[monadic functor](https://ncatlab.org/nlab/show/monadic%20functor)",
         "Wikidata Label": "Monad (category theory)"
     },
     "[Q1948412](https://www.wikidata.org/wiki/Q1948412)": {
-        "Context": "[maps](https://mathgloss.github.io/MathGloss/maps)",
+        "Context": "[maps](https://mathgloss.github.io/MathGloss/context/maps)",
         "nlab": "[morphism](https://ncatlab.org/nlab/show/morphism)",
         "planetmath": "[arrow](http://planetmath.org/arrow)",
         "Wikidata Label": "MorphisM"
     },
     "[Q1196038](https://www.wikidata.org/wiki/Q1196038)": {
-        "Context": "[groupoid](https://mathgloss.github.io/MathGloss/groupoid)",
+        "Context": "[groupoid](https://mathgloss.github.io/MathGloss/context/groupoid)",
         "nlab": "[groupoid](https://ncatlab.org/nlab/show/groupoid)",
         "Chicago": "[groupoid](https://mathgloss.github.io/MathGloss/chicago/groupoid)",
         "planetmath": "[groupoids](http://planetmath.org/groupoids)",
         "Wikidata Label": "Groupoid"
     },
     "[Q864475](https://www.wikidata.org/wiki/Q864475)": {
-        "Context": "[functor](https://mathgloss.github.io/MathGloss/functor)",
+        "Context": "[functor](https://mathgloss.github.io/MathGloss/context/functor)",
         "nlab": "[multifunctor](https://ncatlab.org/nlab/show/multifunctor)",
         "Chicago": "[functor](https://mathgloss.github.io/MathGloss/chicago/functor)",
         "Wikidata Label": "Functor"
     },
     "[Q9248237](https://www.wikidata.org/wiki/Q9248237)": {
-        "Context": "[pointwise](https://mathgloss.github.io/MathGloss/pointwise)",
+        "Context": "[pointwise](https://mathgloss.github.io/MathGloss/context/pointwise)",
         "nlab": "[pointwise order](https://ncatlab.org/nlab/show/pointwise%20order)",
         "planetmath": "[pointwise](http://planetmath.org/pointwise)",
         "Wikidata Label": "Pointwise"
     },
     "[Q42344](https://www.wikidata.org/wiki/Q42344)": {
-        "Context": "[cocones](https://mathgloss.github.io/MathGloss/cocones)",
+        "Context": "[cocones](https://mathgloss.github.io/MathGloss/context/cocones)",
         "nlab": "[cone](https://ncatlab.org/nlab/show/cone)",
         "planetmath": "[cone](http://planetmath.org/cone1)",
         "Wikidata Label": "Conical"
     },
     "[Q7631142](https://www.wikidata.org/wiki/Q7631142)": {
-        "Context": "[subfunctor](https://mathgloss.github.io/MathGloss/subfunctor)",
+        "Context": "[subfunctor](https://mathgloss.github.io/MathGloss/context/subfunctor)",
         "nlab": "[subfunctor](https://ncatlab.org/nlab/show/subfunctor)",
         "Wikidata Label": "Subfunctor"
     },
     "[Q1442189](https://www.wikidata.org/wiki/Q1442189)": {
-        "Context": "[extranatural transformation](https://mathgloss.github.io/MathGloss/extranatural_transformation)",
+        "Context": "[extranatural transformation](https://mathgloss.github.io/MathGloss/context/extranatural_transformation)",
         "nlab": "[unnatural isomorphism](https://ncatlab.org/nlab/show/unnatural%20isomorphism)",
         "Chicago": "[natural transformation](https://mathgloss.github.io/MathGloss/chicago/natural_transformation)",
         "planetmath": "[natural homomorphism](http://planetmath.org/naturalhomomorphism)",
         "Wikidata Label": "Natural transformation"
     },
     "[Q1503423](https://www.wikidata.org/wiki/Q1503423)": {
-        "Context": "[loop](https://mathgloss.github.io/MathGloss/loop)",
+        "Context": "[loop](https://mathgloss.github.io/MathGloss/context/loop)",
         "nlab": "[quasigroup](https://ncatlab.org/nlab/show/quasigroup)",
         "planetmath": "[loop and quasigroup](http://planetmath.org/loopandquasigroup)",
         "Wikidata Label": "Quasigroup"
     },
     "[Q2844249](https://www.wikidata.org/wiki/Q2844249)": {
-        "Context": "[kernel pair](https://mathgloss.github.io/MathGloss/kernel_pair)",
+        "Context": "[kernel pair](https://mathgloss.github.io/MathGloss/context/kernel_pair)",
         "nlab": "[regular logic](https://ncatlab.org/nlab/show/regular%20logic)",
         "Wikidata Label": "Regular category"
     },
     "[Q915906](https://www.wikidata.org/wiki/Q915906)": {
-        "Context": "[presentation](https://mathgloss.github.io/MathGloss/presentation)",
+        "Context": "[presentation](https://mathgloss.github.io/MathGloss/context/presentation)",
         "nlab": "[group presentation](https://ncatlab.org/nlab/show/group%20presentation)",
         "planetmath": "[presentation of a group](http://planetmath.org/presentationofagroup)",
         "Wikidata Label": "Presentation of a group"
     },
     "[Q1738274](https://www.wikidata.org/wiki/Q1738274)": {
-        "Context": "[compactly generated Hausdorff spaces](https://mathgloss.github.io/MathGloss/compactly_generated_Hausdorff_spaces)",
+        "Context": "[compactly generated Hausdorff spaces](https://mathgloss.github.io/MathGloss/context/compactly_generated_Hausdorff_spaces)",
         "Chicago": "[compactly generated](https://mathgloss.github.io/MathGloss/chicago/compactly_generated)",
         "Wikidata Label": "Compactly generated space"
     },
     "[Q1064276](https://www.wikidata.org/wiki/Q1064276)": {
-        "Context": "[faithful](https://mathgloss.github.io/MathGloss/faithful)",
+        "Context": "[faithful](https://mathgloss.github.io/MathGloss/context/faithful)",
         "nlab": "[full functor](https://ncatlab.org/nlab/show/full%20functor)",
         "Wikidata Label": "Faithful functor"
     },
     "[Q17104639](https://www.wikidata.org/wiki/Q17104639)": {
-        "Context": "[weak homotopy equivalences](https://mathgloss.github.io/MathGloss/weak_homotopy_equivalences)",
+        "Context": "[weak homotopy equivalences](https://mathgloss.github.io/MathGloss/context/weak_homotopy_equivalences)",
         "nlab": "[weak homotopy equivalence](https://ncatlab.org/nlab/show/weak%20homotopy%20equivalence)",
         "planetmath": "[weak homotopy equivalence](http://planetmath.org/weakhomotopyequivalence)",
         "Wikidata Label": "Weak homotopy equivalence"
     },
     "[Q386320](https://www.wikidata.org/wiki/Q386320)": {
-        "Context": "[universal property](https://mathgloss.github.io/MathGloss/universal_property)",
+        "Context": "[universal property](https://mathgloss.github.io/MathGloss/context/universal_property)",
         "nlab": "[universal element](https://ncatlab.org/nlab/show/universal%20element)",
         "Wikidata Label": "Representable functor"
     },
     "[Q7451799](https://www.wikidata.org/wiki/Q7451799)": {
-        "Context": "[separator](https://mathgloss.github.io/MathGloss/separator)",
+        "Context": "[separator](https://mathgloss.github.io/MathGloss/context/separator)",
         "Wikidata Label": "Separating set"
     },
     "[Q2634828](https://www.wikidata.org/wiki/Q2634828)": {
-        "Context": "[inverse limit](https://mathgloss.github.io/MathGloss/inverse_limit)",
+        "Context": "[inverse limit](https://mathgloss.github.io/MathGloss/context/inverse_limit)",
         "nlab": "[projective limit](https://ncatlab.org/nlab/show/projective%20limit)",
         "planetmath": "[inverse limit](http://planetmath.org/inverselimit)",
         "Wikidata Label": "Inverse limit"
     },
     "[Q1080547](https://www.wikidata.org/wiki/Q1080547)": {
-        "Context": "[truncation](https://mathgloss.github.io/MathGloss/truncation)",
+        "Context": "[truncation](https://mathgloss.github.io/MathGloss/context/truncation)",
         "nlab": "[truncation](https://ncatlab.org/nlab/show/truncation)",
         "Wikidata Label": "Truncation"
     },
     "[Q6101219](https://www.wikidata.org/wiki/Q6101219)": {
-        "Context": "[reflective subcategory](https://mathgloss.github.io/MathGloss/reflective_subcategory)",
+        "Context": "[reflective subcategory](https://mathgloss.github.io/MathGloss/context/reflective_subcategory)",
         "nlab": "[reflective subcategory](https://ncatlab.org/nlab/show/reflective%20subcategory)",
         "Wikidata Label": "Reflective subcategory"
     },
     "[Q6086107](https://www.wikidata.org/wiki/Q6086107)": {
-        "Context": "[isomorphism of categories](https://mathgloss.github.io/MathGloss/isomorphism_of_categories)",
+        "Context": "[isomorphism of categories](https://mathgloss.github.io/MathGloss/context/isomorphism_of_categories)",
         "Wikidata Label": "Isomorphic categories"
     },
     "[Q4227156](https://www.wikidata.org/wiki/Q4227156)": {
-        "Context": "[coinduction](https://mathgloss.github.io/MathGloss/coinduction)",
+        "Context": "[coinduction](https://mathgloss.github.io/MathGloss/context/coinduction)",
         "nlab": "[coinduction](https://ncatlab.org/nlab/show/coinduction)",
         "Wikidata Label": "Coinduction"
     },
     "[Q2007878](https://www.wikidata.org/wiki/Q2007878)": {
-        "Context": "[functor category](https://mathgloss.github.io/MathGloss/functor_category)",
+        "Context": "[functor category](https://mathgloss.github.io/MathGloss/context/functor_category)",
         "nlab": "[functor category](https://ncatlab.org/nlab/show/functor%20category)",
         "Wikidata Label": "Functor category"
     },
     "[Q3055409](https://www.wikidata.org/wiki/Q3055409)": {
-        "Context": "[split](https://mathgloss.github.io/MathGloss/split)",
+        "Context": "[split](https://mathgloss.github.io/MathGloss/context/split)",
         "nlab": "[split idempotent](https://ncatlab.org/nlab/show/split%20idempotent)",
         "Wikidata Label": "Karoubi envelope"
     },
     "[Q17736](https://www.wikidata.org/wiki/Q17736)": {
-        "Context": "[axioms](https://mathgloss.github.io/MathGloss/axioms)",
+        "Context": "[axioms](https://mathgloss.github.io/MathGloss/context/axioms)",
         "nlab": "[axiom](https://ncatlab.org/nlab/show/axiom)",
         "planetmath": "[logical axiom](http://planetmath.org/logicalaxiom)",
         "Wikidata Label": "Axiom"
     },
     "[Q1084766](https://www.wikidata.org/wiki/Q1084766)": {
-        "Context": "[abstract nonsense](https://mathgloss.github.io/MathGloss/abstract_nonsense)",
+        "Context": "[abstract nonsense](https://mathgloss.github.io/MathGloss/context/abstract_nonsense)",
         "Wikidata Label": "Abstract nonsense"
     },
     "[Q5051844](https://www.wikidata.org/wiki/Q5051844)": {
-        "Context": "[category of elements](https://mathgloss.github.io/MathGloss/category_of_elements)",
+        "Context": "[category of elements](https://mathgloss.github.io/MathGloss/context/category_of_elements)",
         "nlab": "[category of elements](https://ncatlab.org/nlab/show/category%20of%20elements)",
         "Wikidata Label": "Category of elements"
     },
     "[Q381725](https://www.wikidata.org/wiki/Q381725)": {
-        "Context": "[right exact](https://mathgloss.github.io/MathGloss/right_exact)",
+        "Context": "[right exact](https://mathgloss.github.io/MathGloss/context/right_exact)",
         "nlab": "[exact functor](https://ncatlab.org/nlab/show/exact%20functor)",
         "Wikidata Label": "Exact functor"
     },
     "[Q1076611](https://www.wikidata.org/wiki/Q1076611)": {
-        "Context": "[lim sup](https://mathgloss.github.io/MathGloss/lim_sup)",
+        "Context": "[lim sup](https://mathgloss.github.io/MathGloss/context/lim_sup)",
         "nlab": "[inferior limit](https://ncatlab.org/nlab/show/inferior%20limit)",
         "planetmath": "[limit superior of sets](http://planetmath.org/limitsuperiorofsets)",
         "Wikidata Label": "Limit superior and limit inferior"
     },
     "[Q5572389](https://www.wikidata.org/wiki/Q5572389)": {
-        "Context": "[sheafification](https://mathgloss.github.io/MathGloss/sheafification)",
+        "Context": "[sheafification](https://mathgloss.github.io/MathGloss/context/sheafification)",
         "nlab": "[sheafification](https://ncatlab.org/nlab/show/sheafification)",
         "planetmath": "[sheafification](http://planetmath.org/sheafification1)",
         "Wikidata Label": "Gluing axiom"
     },
     "[Q1397439](https://www.wikidata.org/wiki/Q1397439)": {
-        "Context": "[pullback](https://mathgloss.github.io/MathGloss/pullback)",
+        "Context": "[pullback](https://mathgloss.github.io/MathGloss/context/pullback)",
         "nlab": "[pullback](https://ncatlab.org/nlab/show/pullback)",
         "planetmath": "[pullback](http://planetmath.org/pullback)",
         "Wikidata Label": "Fiber product"
     },
     "[Q506041](https://www.wikidata.org/wiki/Q506041)": {
-        "Context": "[Jacobian matrix](https://mathgloss.github.io/MathGloss/Jacobian_matrix)",
+        "Context": "[Jacobian matrix](https://mathgloss.github.io/MathGloss/context/Jacobian_matrix)",
         "Chicago": "[Jacobian matrix](https://mathgloss.github.io/MathGloss/chicago/jacobian_matrix)",
         "planetmath": "[Jacobi determinant](http://planetmath.org/jacobideterminant)",
         "Wikidata Label": "Jacobian matrix and determinant"
     },
     "[Q189112](https://www.wikidata.org/wiki/Q189112)": {
-        "Context": "[isomorphic](https://mathgloss.github.io/MathGloss/isomorphic)",
+        "Context": "[isomorphic](https://mathgloss.github.io/MathGloss/context/isomorphic)",
         "nlab": "[isomorphism](https://ncatlab.org/nlab/show/isomorphism)",
         "Chicago": "[isomorphism of group representations](https://mathgloss.github.io/MathGloss/chicago/isomorphism_of_group_representations)",
         "planetmath": "[isomorphism](http://planetmath.org/isomorphism)",
         "Wikidata Label": "Isomorphic"
     },
     "[Q1331373](https://www.wikidata.org/wiki/Q1331373)": {
-        "Context": "[inaccessible cardinals](https://mathgloss.github.io/MathGloss/inaccessible_cardinals)",
+        "Context": "[inaccessible cardinals](https://mathgloss.github.io/MathGloss/context/inaccessible_cardinals)",
         "nlab": "[inaccessible cardinal](https://ncatlab.org/nlab/show/inaccessible%20cardinal)",
         "planetmath": "[inaccessible cardinal](http://planetmath.org/inaccessiblecardinal)",
         "Wikidata Label": "Inaccessible cardinal"
     },
     "[Q17099363](https://www.wikidata.org/wiki/Q17099363)": {
-        "Context": "[classifying space](https://mathgloss.github.io/MathGloss/classifying_space)",
+        "Context": "[classifying space](https://mathgloss.github.io/MathGloss/context/classifying_space)",
         "nlab": "[nerve](https://ncatlab.org/nlab/show/nerve)",
         "Wikidata Label": "Nerve (category theory)"
     },
     "[Q1082992](https://www.wikidata.org/wiki/Q1082992)": {
-        "Context": "[equivalent](https://mathgloss.github.io/MathGloss/equivalent)",
+        "Context": "[equivalent](https://mathgloss.github.io/MathGloss/context/equivalent)",
         "nlab": "[equivalence of categories](https://ncatlab.org/nlab/show/equivalence%20of%20categories)",
         "Wikidata Label": "Equivalence of categories"
     },
     "[Q834585](https://www.wikidata.org/wiki/Q834585)": {
-        "Context": "[join semilattice](https://mathgloss.github.io/MathGloss/join_semilattice)",
+        "Context": "[join semilattice](https://mathgloss.github.io/MathGloss/context/join_semilattice)",
         "nlab": "[semilattice](https://ncatlab.org/nlab/show/semilattice)",
         "planetmath": "[semilattice](http://planetmath.org/semilattice)",
         "Wikidata Label": "Semilattice"
     },
     "[Q2015432](https://www.wikidata.org/wiki/Q2015432)": {
-        "Context": "[free loop space](https://mathgloss.github.io/MathGloss/free_loop_space)",
+        "Context": "[free loop space](https://mathgloss.github.io/MathGloss/context/free_loop_space)",
         "nlab": "[free loop space](https://ncatlab.org/nlab/show/free%20loop%20space)",
         "Wikidata Label": "Free loop"
     },
     "[Q1269](https://www.wikidata.org/wiki/Q1269)": {
-        "Context": "[preserves](https://mathgloss.github.io/MathGloss/preserves)",
+        "Context": "[preserves](https://mathgloss.github.io/MathGloss/context/preserves)",
         "Wikidata Label": "Jam"
     },
     "[Q60790315](https://www.wikidata.org/wiki/Q60790315)": {
-        "Context": "[automorphism group](https://mathgloss.github.io/MathGloss/automorphism_group)",
+        "Context": "[automorphism group](https://mathgloss.github.io/MathGloss/context/automorphism_group)",
         "Chicago": "[automorphism group](https://mathgloss.github.io/MathGloss/chicago/automorphism_group)",
         "Wikidata Label": "Automorphism Group"
     },
     "[Q3606768](https://www.wikidata.org/wiki/Q3606768)": {
-        "Context": "[propositional function](https://mathgloss.github.io/MathGloss/propositional_function)",
+        "Context": "[propositional function](https://mathgloss.github.io/MathGloss/context/propositional_function)",
         "Wikidata Label": "Propositional function"
     },
     "[Q1224487](https://www.wikidata.org/wiki/Q1224487)": {
-        "Context": "[equalizer diagram](https://mathgloss.github.io/MathGloss/equalizer_diagram)",
+        "Context": "[equalizer diagram](https://mathgloss.github.io/MathGloss/context/equalizer_diagram)",
         "nlab": "[equalizer](https://ncatlab.org/nlab/show/equalizer)",
         "Wikidata Label": "Equaliser (mathematics)"
     },
     "[Q5140810](https://www.wikidata.org/wiki/Q5140810)": {
-        "Context": "[absolute](https://mathgloss.github.io/MathGloss/absolute)",
+        "Context": "[absolute](https://mathgloss.github.io/MathGloss/context/absolute)",
         "nlab": "[coequalizer](https://ncatlab.org/nlab/show/coequalizer)",
         "Wikidata Label": "Coequaliser"
     },
     "[Q318737](https://www.wikidata.org/wiki/Q318737)": {
-        "Context": "[abelian](https://mathgloss.github.io/MathGloss/abelian)",
+        "Context": "[zero object](https://mathgloss.github.io/MathGloss/context/zero_object)",
         "nlab": "[abelian category](https://ncatlab.org/nlab/show/abelian%20category)",
         "Wikidata Label": "Abelian category"
     },
     "[Q3058218](https://www.wikidata.org/wiki/Q3058218)": {
-        "Context": "[measurable](https://mathgloss.github.io/MathGloss/measurable)",
+        "Context": "[measurable](https://mathgloss.github.io/MathGloss/context/measurable)",
         "mathlib": "[measurable spaces](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/MeasurableSpace/Defs.html#MeasurableSpace)",
         "nlab": "[measurable space](https://ncatlab.org/nlab/show/measurable%20space)",
         "Chicago": "[Borel space](https://mathgloss.github.io/MathGloss/chicago/borel_space)",
@@ -417,173 +417,173 @@
         "Wikidata Label": "Measurable space"
     },
     "[Q5500202](https://www.wikidata.org/wiki/Q5500202)": {
-        "Context": "[free category](https://mathgloss.github.io/MathGloss/free_category)",
+        "Context": "[free category](https://mathgloss.github.io/MathGloss/context/free_category)",
         "nlab": "[path category](https://ncatlab.org/nlab/show/path%20category)",
         "Wikidata Label": "Free category"
     },
     "[Q584521](https://www.wikidata.org/wiki/Q584521)": {
-        "Context": "[homeomorphisms](https://mathgloss.github.io/MathGloss/homeomorphisms)",
+        "Context": "[homeomorphisms](https://mathgloss.github.io/MathGloss/context/homeomorphisms)",
         "mathlib": "[homeomorphisms](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Homeomorph.html#Homeomorph)",
         "nlab": "[subdivision](https://ncatlab.org/nlab/show/subdivision)",
         "planetmath": "[subdivision](http://planetmath.org/subdivision)",
         "Wikidata Label": "Homeomorphism (graph theory)"
     },
     "[Q2293759](https://www.wikidata.org/wiki/Q2293759)": {
-        "Context": "[torsion subgroup](https://mathgloss.github.io/MathGloss/torsion_subgroup)",
+        "Context": "[torsion subgroup](https://mathgloss.github.io/MathGloss/context/torsion_subgroup)",
         "nlab": "[torsion subgroup](https://ncatlab.org/nlab/show/torsion%20subgroup)",
         "Chicago": "[torsion subgroup](https://mathgloss.github.io/MathGloss/chicago/torsion_subgroup)",
         "Wikidata Label": "Torsion subgroup"
     },
     "[Q860530](https://www.wikidata.org/wiki/Q860530)": {
-        "Context": "[image](https://mathgloss.github.io/MathGloss/image)",
+        "Context": "[image](https://mathgloss.github.io/MathGloss/context/image)",
         "Wikidata Label": "Image (category theory)"
     },
     "[Q1143328](https://www.wikidata.org/wiki/Q1143328)": {
-        "Context": "[chain complex](https://mathgloss.github.io/MathGloss/chain_complex)",
+        "Context": "[chain complex](https://mathgloss.github.io/MathGloss/context/chain_complex)",
         "nlab": "[double complex](https://ncatlab.org/nlab/show/double%20complex)",
         "Chicago": "[chain complex](https://mathgloss.github.io/MathGloss/chicago/chain_complex)",
         "Wikidata Label": "Chain complex"
     },
     "[Q1780005](https://www.wikidata.org/wiki/Q1780005)": {
-        "Context": "[slice categories](https://mathgloss.github.io/MathGloss/slice_categories)",
+        "Context": "[slice categories](https://mathgloss.github.io/MathGloss/context/slice_categories)",
         "nlab": "[comma category](https://ncatlab.org/nlab/show/comma%20category)",
         "Wikidata Label": "Comma category"
     },
     "[Q48996306](https://www.wikidata.org/wiki/Q48996306)": {
-        "Context": "[density theorem](https://mathgloss.github.io/MathGloss/density_theorem)",
+        "Context": "[density theorem](https://mathgloss.github.io/MathGloss/context/density_theorem)",
         "Wikidata Label": "Density theorem (category theory)"
     },
     "[Q2099981](https://www.wikidata.org/wiki/Q2099981)": {
-        "Context": "[additive](https://mathgloss.github.io/MathGloss/additive)",
+        "Context": "[additive](https://mathgloss.github.io/MathGloss/context/additive)",
         "nlab": "[pre-additive category](https://ncatlab.org/nlab/show/pre-additive%20category)",
         "Wikidata Label": "Preadditive category"
     },
     "[Q1425985](https://www.wikidata.org/wiki/Q1425985)": {
-        "Context": "[preorder](https://mathgloss.github.io/MathGloss/preorder)",
+        "Context": "[preorder](https://mathgloss.github.io/MathGloss/context/preorder)",
         "nlab": "[preorder](https://ncatlab.org/nlab/show/preorder)",
         "Wikidata Label": "Preorder"
     },
     "[Q1366002](https://www.wikidata.org/wiki/Q1366002)": {
-        "Context": "[path](https://mathgloss.github.io/MathGloss/path)",
+        "Context": "[path](https://mathgloss.github.io/MathGloss/context/path)",
         "nlab": "[path](https://ncatlab.org/nlab/show/path)",
         "Chicago": "[path](https://mathgloss.github.io/MathGloss/chicago/path)",
         "planetmath": "[path](http://planetmath.org/path1)",
         "Wikidata Label": "Path (topology)"
     },
     "[Q934367](https://www.wikidata.org/wiki/Q934367)": {
-        "Context": "[function spaces](https://mathgloss.github.io/MathGloss/function_spaces)",
+        "Context": "[function spaces](https://mathgloss.github.io/MathGloss/context/function_spaces)",
         "nlab": "[function space](https://ncatlab.org/nlab/show/function%20space)",
         "planetmath": "[function space](http://planetmath.org/functionspace)",
         "Wikidata Label": "Function space"
     },
     "[Q382698](https://www.wikidata.org/wiki/Q382698)": {
-        "Context": "[affine space](https://mathgloss.github.io/MathGloss/affine_space)",
+        "Context": "[affine space](https://mathgloss.github.io/MathGloss/context/affine_space)",
         "mathlib": "[affine subspace](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/AffineSpace/AffineSubspace.html#AffineSubspace)",
         "nlab": "[affine space](https://ncatlab.org/nlab/show/affine%20space)",
         "planetmath": "[linear manifold](http://planetmath.org/linearmanifold)",
         "Wikidata Label": "Affine space"
     },
     "[Q906456](https://www.wikidata.org/wiki/Q906456)": {
-        "Context": "[Coarsest](https://mathgloss.github.io/MathGloss/coarsest)",
+        "Context": "[Coarsest](https://mathgloss.github.io/MathGloss/context/coarsest)",
         "nlab": "[finer topology](https://ncatlab.org/nlab/show/finer%20topology)",
         "planetmath": "[lattice of topologies](http://planetmath.org/latticeoftopologies)",
         "Wikidata Label": "Comparison of topologies"
     },
     "[Q1640811](https://www.wikidata.org/wiki/Q1640811)": {
-        "Context": "[fiber](https://mathgloss.github.io/MathGloss/fiber)",
+        "Context": "[fiber](https://mathgloss.github.io/MathGloss/context/fiber)",
         "nlab": "[fiber](https://ncatlab.org/nlab/show/fiber)",
         "Chicago": "[fiber](https://mathgloss.github.io/MathGloss/chicago/fiber)",
         "Wikidata Label": "Fiber (mathematics)"
     },
     "[Q765994](https://www.wikidata.org/wiki/Q765994)": {
-        "Context": "[simplex category](https://mathgloss.github.io/MathGloss/simplex_category)",
+        "Context": "[simplex category](https://mathgloss.github.io/MathGloss/context/simplex_category)",
         "nlab": "[group object](https://ncatlab.org/nlab/show/group%20object)",
         "Wikidata Label": "Group object"
     },
     "[Q1144925](https://www.wikidata.org/wiki/Q1144925)": {
-        "Context": "[currying](https://mathgloss.github.io/MathGloss/currying)",
+        "Context": "[currying](https://mathgloss.github.io/MathGloss/context/currying)",
         "nlab": "[currying](https://ncatlab.org/nlab/show/currying)",
         "planetmath": "[currying](http://planetmath.org/currying)",
         "Wikidata Label": "Currying"
     },
     "[Q215111](https://www.wikidata.org/wiki/Q215111)": {
-        "Context": "[homomorphisms](https://mathgloss.github.io/MathGloss/homomorphisms)",
+        "Context": "[homomorphisms](https://mathgloss.github.io/MathGloss/context/homomorphisms)",
         "Chicago": "[module homomorphism](https://mathgloss.github.io/MathGloss/chicago/module_homomorphism)",
         "Wikidata Label": "HomoMorphism"
     },
     "[Q4672496](https://www.wikidata.org/wiki/Q4672496)": {
-        "Context": "[accessible](https://mathgloss.github.io/MathGloss/accessible)",
+        "Context": "[accessible](https://mathgloss.github.io/MathGloss/context/accessible)",
         "nlab": "[locally presentable category](https://ncatlab.org/nlab/show/locally%20presentable%20category)",
         "Wikidata Label": "Accessible category"
     },
     "[Q2785361](https://www.wikidata.org/wiki/Q2785361)": {
-        "Context": "[monoid](https://mathgloss.github.io/MathGloss/monoid)",
+        "Context": "[monoid](https://mathgloss.github.io/MathGloss/context/monoid)",
         "nlab": "[monoid](https://ncatlab.org/nlab/show/monoid)",
         "planetmath": "[monoid](http://planetmath.org/monoid)",
         "Wikidata Label": "Monoid object"
     },
     "[Q145825](https://www.wikidata.org/wiki/Q145825)": {
-        "Context": "[nadir](https://mathgloss.github.io/MathGloss/nadir)",
+        "Context": "[nadir](https://mathgloss.github.io/MathGloss/context/nadir)",
         "Wikidata Label": "Nadir"
     },
     "[Q1417809](https://www.wikidata.org/wiki/Q1417809)": {
-        "Context": "[universal](https://mathgloss.github.io/MathGloss/universal)",
+        "Context": "[universal](https://mathgloss.github.io/MathGloss/context/universal)",
         "nlab": "[universal construction](https://ncatlab.org/nlab/show/universal%20construction)",
         "Wikidata Label": "Universal property"
     },
     "[Q1575634](https://www.wikidata.org/wiki/Q1575634)": {
-        "Context": "[concrete category](https://mathgloss.github.io/MathGloss/concrete_category)",
+        "Context": "[concrete category](https://mathgloss.github.io/MathGloss/context/concrete_category)",
         "nlab": "[concrete category](https://ncatlab.org/nlab/show/concrete%20category)",
         "Wikidata Label": "Concrete category"
     },
     "[Q320357](https://www.wikidata.org/wiki/Q320357)": {
-        "Context": "[closed](https://mathgloss.github.io/MathGloss/closed)",
+        "Context": "[closed](https://mathgloss.github.io/MathGloss/context/closed)",
         "Chicago": "[closed](https://mathgloss.github.io/MathGloss/chicago/closed)",
         "planetmath": "[closed set](http://planetmath.org/closedset)",
         "Wikidata Label": "Closed set"
     },
     "[Q147978](https://www.wikidata.org/wiki/Q147978)": {
-        "Context": "[Zariski topology](https://mathgloss.github.io/MathGloss/Zariski_topology)",
+        "Context": "[Zariski topology](https://mathgloss.github.io/MathGloss/context/Zariski_topology)",
         "nlab": "[Zariski topology](https://ncatlab.org/nlab/show/Zariski%20topology)",
         "planetmath": "[Zariski topology](http://planetmath.org/zariskitopology)",
         "Wikidata Label": "Zariski topology"
     },
     "[Q522216](https://www.wikidata.org/wiki/Q522216)": {
-        "Context": "[commutator subgroup](https://mathgloss.github.io/MathGloss/commutator_subgroup)",
+        "Context": "[commutator subgroup](https://mathgloss.github.io/MathGloss/context/commutator_subgroup)",
         "nlab": "[derived series](https://ncatlab.org/nlab/show/derived%20series)",
         "Chicago": "[commutator subgroup](https://mathgloss.github.io/MathGloss/chicago/commutator_subgroup)",
         "planetmath": "[transfinite derived series](http://planetmath.org/transfinitederivedseries)",
         "Wikidata Label": "Commutator subgroup"
     },
     "[Q16858946](https://www.wikidata.org/wiki/Q16858946)": {
-        "Context": "[extension of scalars](https://mathgloss.github.io/MathGloss/extension_of_scalars)",
+        "Context": "[extension of scalars](https://mathgloss.github.io/MathGloss/context/extension_of_scalars)",
         "nlab": "[restriction of scalars](https://ncatlab.org/nlab/show/restriction%20of%20scalars)",
         "Wikidata Label": "Restriction of scalars"
     },
     "[Q6671777](https://www.wikidata.org/wiki/Q6671777)": {
-        "Context": "[structures](https://mathgloss.github.io/MathGloss/structures)",
+        "Context": "[structures](https://mathgloss.github.io/MathGloss/context/structures)",
         "Wikidata Label": "Structure"
     },
     "[Q671944](https://www.wikidata.org/wiki/Q671944)": {
-        "Context": "[transitive](https://mathgloss.github.io/MathGloss/transitive)",
+        "Context": "[transitive](https://mathgloss.github.io/MathGloss/context/transitive)",
         "nlab": "[transitive set](https://ncatlab.org/nlab/show/transitive%20set)",
         "planetmath": "[transitive](http://planetmath.org/transitive1)",
         "Wikidata Label": "Transitive set"
     },
     "[Q13416298](https://www.wikidata.org/wiki/Q13416298)": {
-        "Context": "[evaluation map](https://mathgloss.github.io/MathGloss/evaluation_map)",
+        "Context": "[evaluation map](https://mathgloss.github.io/MathGloss/context/evaluation_map)",
         "nlab": "[evaluation map](https://ncatlab.org/nlab/show/evaluation%20map)",
         "planetmath": "[initial topology](http://planetmath.org/initialtopology)",
         "Wikidata Label": "Initial topology"
     },
     "[Q8084](https://www.wikidata.org/wiki/Q8084)": {
-        "Context": "[triangle identities](https://mathgloss.github.io/MathGloss/triangle_identities)",
+        "Context": "[triangle identities](https://mathgloss.github.io/MathGloss/context/triangle_identities)",
         "nlab": "[trigonometry](https://ncatlab.org/nlab/show/trigonometry)",
         "planetmath": "[trigonometry](http://planetmath.org/trigonometry)",
         "Wikidata Label": "Trigonometery"
     },
     "[Q170058](https://www.wikidata.org/wiki/Q170058)": {
-        "Context": "[continuous](https://mathgloss.github.io/MathGloss/continuous)",
+        "Context": "[continuous](https://mathgloss.github.io/MathGloss/context/continuous)",
         "mathlib": "[continuous functions](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Defs/Basic.html#Continuous)",
         "nlab": "[continuous space](https://ncatlab.org/nlab/show/continuous%20space)",
         "Chicago": "[continuous](https://mathgloss.github.io/MathGloss/chicago/continuous)",
@@ -591,42 +591,42 @@
         "Wikidata Label": "Continuity property"
     },
     "[Q1945014](https://www.wikidata.org/wiki/Q1945014)": {
-        "Context": "[monoidal category](https://mathgloss.github.io/MathGloss/monoidal_category)",
+        "Context": "[monoidal category](https://mathgloss.github.io/MathGloss/context/monoidal_category)",
         "nlab": "[unitor](https://ncatlab.org/nlab/show/unitor)",
         "planetmath": "[monoidal category](http://planetmath.org/monoidalcategory)",
         "Wikidata Label": "Algebra/set analogy"
     },
     "[Q5165409](https://www.wikidata.org/wiki/Q5165409)": {
-        "Context": "[continuity](https://mathgloss.github.io/MathGloss/continuity)",
+        "Context": "[continuity](https://mathgloss.github.io/MathGloss/context/continuity)",
         "mathlib": "[continuity](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Analytic/Basic.html#HasFPowerSeriesOnBall.continuousOn)",
         "planetmath": "[continuous](http://planetmath.org/continuous)",
         "Wikidata Label": "List of continuity-related mathematical topics"
     },
     "[Q2602722](https://www.wikidata.org/wiki/Q2602722)": {
-        "Context": "[group ring](https://mathgloss.github.io/MathGloss/group_ring)",
+        "Context": "[group ring](https://mathgloss.github.io/MathGloss/context/group_ring)",
         "Chicago": "[group ring](https://mathgloss.github.io/MathGloss/chicago/group_ring)",
         "planetmath": "[group ring](http://planetmath.org/groupring)",
         "Wikidata Label": "Group ring"
     },
     "[Q782566](https://www.wikidata.org/wiki/Q782566)": {
-        "Context": "[automorphism](https://mathgloss.github.io/MathGloss/automorphism)",
+        "Context": "[automorphism](https://mathgloss.github.io/MathGloss/context/automorphism)",
         "nlab": "[automorphism](https://ncatlab.org/nlab/show/automorphism)",
         "Chicago": "[automorphism](https://mathgloss.github.io/MathGloss/chicago/automorphism)",
         "Wikidata Label": "AutoMorphism"
     },
     "[Q7512811](https://www.wikidata.org/wiki/Q7512811)": {
-        "Context": "[signature](https://mathgloss.github.io/MathGloss/signature)",
+        "Context": "[signature](https://mathgloss.github.io/MathGloss/context/signature)",
         "mathlib": "[signature](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/GroupTheory/Perm/Sign.html#Equiv.Perm.sign)",
         "Wikidata Label": "Signature (topology)"
     },
     "[Q17103860](https://www.wikidata.org/wiki/Q17103860)": {
-        "Context": "[symmetric monoidal category](https://mathgloss.github.io/MathGloss/symmetric_monoidal_category)",
+        "Context": "[symmetric monoidal category](https://mathgloss.github.io/MathGloss/context/symmetric_monoidal_category)",
         "nlab": "[symmetric monoidal closed category](https://ncatlab.org/nlab/show/symmetric%20monoidal%20closed%20category)",
         "planetmath": "[symmetric monoidal category](http://planetmath.org/symmetricmonoidalcategory)",
         "Wikidata Label": "Symmetric monoidal category"
     },
     "[Q752487](https://www.wikidata.org/wiki/Q752487)": {
-        "Context": "[dual vector space](https://mathgloss.github.io/MathGloss/dual_vector_space)",
+        "Context": "[dual vector space](https://mathgloss.github.io/MathGloss/context/dual_vector_space)",
         "mathlib": "[dual space](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Module/Dual.html#NormedSpace.Dual)",
         "nlab": "[dual vector space](https://ncatlab.org/nlab/show/dual%20vector%20space)",
         "Chicago": "[dual space](https://mathgloss.github.io/MathGloss/chicago/dual_space)",
@@ -634,422 +634,422 @@
         "Wikidata Label": "Dual space"
     },
     "[Q130998](https://www.wikidata.org/wiki/Q130998)": {
-        "Context": "[equivalence relation](https://mathgloss.github.io/MathGloss/equivalence_relation)",
+        "Context": "[equivalence relation](https://mathgloss.github.io/MathGloss/context/equivalence_relation)",
         "nlab": "[identification](https://ncatlab.org/nlab/show/identification)",
         "Chicago": "[equivalence relation](https://mathgloss.github.io/MathGloss/chicago/equivalence_relation)",
         "planetmath": "[equivalence relation](http://planetmath.org/equivalencerelation)",
         "Wikidata Label": "EquivalenceRelation"
     },
     "[Q17141489](https://www.wikidata.org/wiki/Q17141489)": {
-        "Context": "[intersection](https://mathgloss.github.io/MathGloss/intersection)",
+        "Context": "[intersection](https://mathgloss.github.io/MathGloss/context/intersection)",
         "nlab": "[intersection](https://ncatlab.org/nlab/show/intersection)",
         "planetmath": "[intersection](http://planetmath.org/intersection)",
         "Wikidata Label": "Intersecting"
     },
     "[Q261484](https://www.wikidata.org/wiki/Q261484)": {
-        "Context": "[atomic](https://mathgloss.github.io/MathGloss/atomic)",
+        "Context": "[atomic](https://mathgloss.github.io/MathGloss/context/atomic)",
         "nlab": "[atom](https://ncatlab.org/nlab/show/atom)",
         "planetmath": "[atom](http://planetmath.org/atom)",
         "Wikidata Label": "Atom (order theory)"
     },
     "[Q746083](https://www.wikidata.org/wiki/Q746083)": {
-        "Context": "[homotopy equivalences](https://mathgloss.github.io/MathGloss/homotopy_equivalences)",
+        "Context": "[homotopy equivalences](https://mathgloss.github.io/MathGloss/context/homotopy_equivalences)",
         "nlab": "[null homotopy](https://ncatlab.org/nlab/show/null%20homotopy)",
         "Chicago": "[homotopy](https://mathgloss.github.io/MathGloss/chicago/homotopy)",
         "planetmath": "[nullhomotopic map](http://planetmath.org/nullhomotopicmap)",
         "Wikidata Label": "Homotopy"
     },
     "[Q3041173](https://www.wikidata.org/wiki/Q3041173)": {
-        "Context": "[group extension](https://mathgloss.github.io/MathGloss/group_extension)",
+        "Context": "[group extension](https://mathgloss.github.io/MathGloss/context/group_extension)",
         "nlab": "[group extension](https://ncatlab.org/nlab/show/group%20extension)",
         "planetmath": "[group extension](http://planetmath.org/groupextension)",
         "Wikidata Label": "Extension problem"
     },
     "[Q843237](https://www.wikidata.org/wiki/Q843237)": {
-        "Context": "[diagram](https://mathgloss.github.io/MathGloss/diagram)",
+        "Context": "[diagram](https://mathgloss.github.io/MathGloss/context/diagram)",
         "nlab": "[diagram](https://ncatlab.org/nlab/show/diagram)",
         "Wikidata Label": "Index category"
     },
     "[Q1095056](https://www.wikidata.org/wiki/Q1095056)": {
-        "Context": "[homology](https://mathgloss.github.io/MathGloss/homology)",
+        "Context": "[homology](https://mathgloss.github.io/MathGloss/context/homology)",
         "nlab": "[singular homology](https://ncatlab.org/nlab/show/singular%20homology)",
         "Chicago": "[singular homology group](https://mathgloss.github.io/MathGloss/chicago/singular_homology_group)",
         "Wikidata Label": "Singular homology"
     },
     "[Q7432](https://www.wikidata.org/wiki/Q7432)": {
-        "Context": "[species](https://mathgloss.github.io/MathGloss/species)",
+        "Context": "[species](https://mathgloss.github.io/MathGloss/context/species)",
         "nlab": "[species](https://ncatlab.org/nlab/show/species)",
         "Wikidata Label": "Species (biology)"
     },
     "[Q311627](https://www.wikidata.org/wiki/Q311627)": {
-        "Context": "[adic integers](https://mathgloss.github.io/MathGloss/adic_integers)",
+        "Context": "[adic integers](https://mathgloss.github.io/MathGloss/context/adic_integers)",
         "nlab": "[p-adic number](https://ncatlab.org/nlab/show/p-adic%20number)",
         "planetmath": "[p-adic integers](http://planetmath.org/padicintegers)",
         "Wikidata Label": "P-adic number"
     },
     "[Q1571831](https://www.wikidata.org/wiki/Q1571831)": {
-        "Context": "[ultrafilter](https://mathgloss.github.io/MathGloss/ultrafilter)",
+        "Context": "[ultrafilter](https://mathgloss.github.io/MathGloss/context/ultrafilter)",
         "nlab": "[ultrafilter](https://ncatlab.org/nlab/show/ultrafilter)",
         "planetmath": "[ultrafilter](http://planetmath.org/ultrafilter)",
         "Wikidata Label": "Ultrafilter"
     },
     "[Q1322614](https://www.wikidata.org/wiki/Q1322614)": {
-        "Context": "[cocontinuous](https://mathgloss.github.io/MathGloss/cocontinuous)",
+        "Context": "[cocontinuous](https://mathgloss.github.io/MathGloss/context/cocontinuous)",
         "nlab": "[continuous functor](https://ncatlab.org/nlab/show/continuous%20functor)",
         "Chicago": "[limit of a D-shaped diagram](https://mathgloss.github.io/MathGloss/chicago/limit_of_a_d-shaped_diagram)",
         "Wikidata Label": "Limit (category theory)"
     },
     "[Q1725874](https://www.wikidata.org/wiki/Q1725874)": {
-        "Context": "[cartesian closed category](https://mathgloss.github.io/MathGloss/cartesian_closed_category)",
+        "Context": "[cartesian closed category](https://mathgloss.github.io/MathGloss/context/cartesian_closed_category)",
         "nlab": "[locally cartesian closed category](https://ncatlab.org/nlab/show/locally%20cartesian%20closed%20category)",
         "Wikidata Label": "Cartesian closed category"
     },
     "[Q5449247](https://www.wikidata.org/wiki/Q5449247)": {
-        "Context": "[filtered](https://mathgloss.github.io/MathGloss/filtered)",
+        "Context": "[filtered](https://mathgloss.github.io/MathGloss/context/filtered)",
         "nlab": "[filtered colimit](https://ncatlab.org/nlab/show/filtered%20colimit)",
         "Wikidata Label": "Filtered category"
     },
     "[Q320245](https://www.wikidata.org/wiki/Q320245)": {
-        "Context": "[right derived functors](https://mathgloss.github.io/MathGloss/right_derived_functors)",
+        "Context": "[right derived functors](https://mathgloss.github.io/MathGloss/context/right_derived_functors)",
         "nlab": "[derived functor](https://ncatlab.org/nlab/show/derived%20functor)",
         "Wikidata Label": "Derived functor"
     },
     "[Q1163016](https://www.wikidata.org/wiki/Q1163016)": {
-        "Context": "[tensor product](https://mathgloss.github.io/MathGloss/tensor_product)",
+        "Context": "[tensor product](https://mathgloss.github.io/MathGloss/context/tensor_product)",
         "nlab": "[tensor product of vector spaces](https://ncatlab.org/nlab/show/tensor%20product%20of%20vector%20spaces)",
         "Chicago": "[tensor product of vector spaces](https://mathgloss.github.io/MathGloss/chicago/tensor_product_of_vector_spaces)",
         "planetmath": "[tensor product (vector spaces)](http://planetmath.org/tensorproductvectorspaces)",
         "Wikidata Label": "Tensor product"
     },
     "[Q1987578](https://www.wikidata.org/wiki/Q1987578)": {
-        "Context": "[unit interval](https://mathgloss.github.io/MathGloss/unit_interval)",
+        "Context": "[unit interval](https://mathgloss.github.io/MathGloss/context/unit_interval)",
         "Wikidata Label": "Unit interval"
     },
     "[Q3062935](https://www.wikidata.org/wiki/Q3062935)": {
-        "Context": "[coalgebra](https://mathgloss.github.io/MathGloss/coalgebra)",
+        "Context": "[coalgebra](https://mathgloss.github.io/MathGloss/context/coalgebra)",
         "nlab": "[coalgebra](https://ncatlab.org/nlab/show/coalgebra)",
         "planetmath": "[coalgebra](http://planetmath.org/coalgebra)",
         "Wikidata Label": "F-coalgebra"
     },
     "[Q45922](https://www.wikidata.org/wiki/Q45922)": {
-        "Context": "[arrows](https://mathgloss.github.io/MathGloss/arrows)",
+        "Context": "[arrows](https://mathgloss.github.io/MathGloss/context/arrows)",
         "Wikidata Label": "Arrow"
     },
     "[Q5161408](https://www.wikidata.org/wiki/Q5161408)": {
-        "Context": "[connected](https://mathgloss.github.io/MathGloss/connected)",
+        "Context": "[connected](https://mathgloss.github.io/MathGloss/context/connected)",
         "nlab": "[connected category](https://ncatlab.org/nlab/show/connected%20category)",
         "Chicago": "[connected category](https://mathgloss.github.io/MathGloss/chicago/connected_category)",
         "Wikidata Label": "Connected category"
     },
     "[Q980509](https://www.wikidata.org/wiki/Q980509)": {
-        "Context": "[embedding](https://mathgloss.github.io/MathGloss/embedding)",
+        "Context": "[embedding](https://mathgloss.github.io/MathGloss/context/embedding)",
         "nlab": "[embedding](https://ncatlab.org/nlab/show/embedding)",
         "Chicago": "[embedding](https://mathgloss.github.io/MathGloss/chicago/embedding)",
         "planetmath": "[topological embedding](http://planetmath.org/topologicalembedding)",
         "Wikidata Label": "Embedding"
     },
     "[Q25304059](https://www.wikidata.org/wiki/Q25304059)": {
-        "Context": "[2-functor](https://mathgloss.github.io/MathGloss/2-functor)",
+        "Context": "[2-functor](https://mathgloss.github.io/MathGloss/context/2-functor)",
         "nlab": "[2-functor](https://ncatlab.org/nlab/show/2-functor)",
         "Wikidata Label": "2-functor"
     },
     "[Q192439](https://www.wikidata.org/wiki/Q192439)": {
-        "Context": "[domain](https://mathgloss.github.io/MathGloss/domain)",
+        "Context": "[domain](https://mathgloss.github.io/MathGloss/context/domain)",
         "nlab": "[domain](https://ncatlab.org/nlab/show/domain)",
         "planetmath": "[domain](http://planetmath.org/domain12)",
         "Wikidata Label": "Domain of a function"
     },
     "[Q4049983](https://www.wikidata.org/wiki/Q4049983)": {
-        "Context": "[cardinality](https://mathgloss.github.io/MathGloss/cardinality)",
+        "Context": "[cardinality](https://mathgloss.github.io/MathGloss/context/cardinality)",
         "planetmath": "[cardinality](http://planetmath.org/cardinality)",
         "Wikidata Label": "Cardinality"
     },
     "[Q3427423](https://www.wikidata.org/wiki/Q3427423)": {
-        "Context": "[induction](https://mathgloss.github.io/MathGloss/induction)",
+        "Context": "[induction](https://mathgloss.github.io/MathGloss/context/induction)",
         "nlab": "[induced representation](https://ncatlab.org/nlab/show/induced%20representation)",
         "planetmath": "[induced representation](http://planetmath.org/inducedrepresentation)",
         "Wikidata Label": "Induced representation"
     },
     "[Q1579914](https://www.wikidata.org/wiki/Q1579914)": {
-        "Context": "[maybe monad](https://mathgloss.github.io/MathGloss/maybe_monad)",
+        "Context": "[maybe monad](https://mathgloss.github.io/MathGloss/context/maybe_monad)",
         "nlab": "[state monad](https://ncatlab.org/nlab/show/state%20monad)",
         "Wikidata Label": "Monad (functional programming)"
     },
     "[Q1086961](https://www.wikidata.org/wiki/Q1086961)": {
-        "Context": "[bilinear map](https://mathgloss.github.io/MathGloss/bilinear_map)",
+        "Context": "[bilinear map](https://mathgloss.github.io/MathGloss/context/bilinear_map)",
         "nlab": "[bilinear map](https://ncatlab.org/nlab/show/bilinear%20map)",
         "planetmath": "[bilinear map](http://planetmath.org/bilinearmap)",
         "Wikidata Label": "Bilinear map"
     },
     "[Q1347208](https://www.wikidata.org/wiki/Q1347208)": {
-        "Context": "[epimorphism](https://mathgloss.github.io/MathGloss/epimorphism)",
+        "Context": "[epimorphism](https://mathgloss.github.io/MathGloss/context/epimorphism)",
         "nlab": "[strong epimorphism](https://ncatlab.org/nlab/show/strong%20epimorphism)",
         "Chicago": "[epimorphism](https://mathgloss.github.io/MathGloss/chicago/epimorphism)",
         "Wikidata Label": "Epimorphism"
     },
     "[Q14775269](https://www.wikidata.org/wiki/Q14775269)": {
-        "Context": "[homotopy category](https://mathgloss.github.io/MathGloss/homotopy_category)",
+        "Context": "[homotopy category](https://mathgloss.github.io/MathGloss/context/homotopy_category)",
         "nlab": "[homotopy category](https://ncatlab.org/nlab/show/homotopy%20category)",
         "Chicago": "[homotopy category](https://mathgloss.github.io/MathGloss/chicago/homotopy_category)",
         "planetmath": "[homotopy category](http://planetmath.org/homotopycategory)",
         "Wikidata Label": "Homotopy category"
     },
     "[Q378637](https://www.wikidata.org/wiki/Q378637)": {
-        "Context": "[discrete dynamical system](https://mathgloss.github.io/MathGloss/discrete_dynamical_system)",
+        "Context": "[discrete dynamical system](https://mathgloss.github.io/MathGloss/context/discrete_dynamical_system)",
         "Wikidata Label": "Discrete dynamical system"
     },
     "[Q1491747](https://www.wikidata.org/wiki/Q1491747)": {
-        "Context": "[Galois connection](https://mathgloss.github.io/MathGloss/Galois_connection)",
+        "Context": "[Galois connection](https://mathgloss.github.io/MathGloss/context/Galois_connection)",
         "nlab": "[Galois connection](https://ncatlab.org/nlab/show/Galois%20connection)",
         "planetmath": "[Galois connection](http://planetmath.org/galoisconnection)",
         "Wikidata Label": "Galois connection"
     },
     "[Q199006](https://www.wikidata.org/wiki/Q199006)": {
-        "Context": "[codomain](https://mathgloss.github.io/MathGloss/codomain)",
+        "Context": "[codomain](https://mathgloss.github.io/MathGloss/context/codomain)",
         "Wikidata Label": "Codomain"
     },
     "[Q2020004](https://www.wikidata.org/wiki/Q2020004)": {
-        "Context": "[Galois extension](https://mathgloss.github.io/MathGloss/Galois_extension)",
+        "Context": "[Galois extension](https://mathgloss.github.io/MathGloss/context/Galois_extension)",
         "nlab": "[Galois extension](https://ncatlab.org/nlab/show/Galois%20extension)",
         "planetmath": "[Galois extension](http://planetmath.org/galoisextension)",
         "Wikidata Label": "Galois extension"
     },
     "[Q180907](https://www.wikidata.org/wiki/Q180907)": {
-        "Context": "[bijections](https://mathgloss.github.io/MathGloss/bijections)",
+        "Context": "[bijections](https://mathgloss.github.io/MathGloss/context/bijections)",
         "nlab": "[one-to-one correspondence](https://ncatlab.org/nlab/show/one-to-one%20correspondence)",
         "Chicago": "[bijective](https://mathgloss.github.io/MathGloss/chicago/bijective)",
         "planetmath": "[bijection](http://planetmath.org/bijection)",
         "Wikidata Label": "Bijection"
     },
     "[Q5349490](https://www.wikidata.org/wiki/Q5349490)": {
-        "Context": "[Eilenberg-MacLane space](https://mathgloss.github.io/MathGloss/Eilenberg-MacLane_space)",
+        "Context": "[Eilenberg-MacLane space](https://mathgloss.github.io/MathGloss/context/Eilenberg-MacLane_space)",
         "nlab": "[Eilenberg-Mac Lane spectrum](https://ncatlab.org/nlab/show/Eilenberg-Mac%20Lane%20spectrum)",
         "planetmath": "[Eilenberg-MacLane space](http://planetmath.org/eilenbergmaclanespace)",
         "Wikidata Label": "Eilenberg-Mac Lane Space"
     },
     "[Q1307987](https://www.wikidata.org/wiki/Q1307987)": {
-        "Context": "[reduced suspension](https://mathgloss.github.io/MathGloss/reduced_suspension)",
+        "Context": "[reduced suspension](https://mathgloss.github.io/MathGloss/context/reduced_suspension)",
         "nlab": "[suspension](https://ncatlab.org/nlab/show/suspension)",
         "Chicago": "[suspension](https://mathgloss.github.io/MathGloss/chicago/suspension)",
         "planetmath": "[suspension](http://planetmath.org/suspension)",
         "Wikidata Label": "Suspension (topology)"
     },
     "[Q217608](https://www.wikidata.org/wiki/Q217608)": {
-        "Context": "[fixed points](https://mathgloss.github.io/MathGloss/fixed_points)",
+        "Context": "[fixed points](https://mathgloss.github.io/MathGloss/context/fixed_points)",
         "nlab": "[fixpoint](https://ncatlab.org/nlab/show/fixpoint)",
         "Chicago": "[group action invariants](https://mathgloss.github.io/MathGloss/chicago/group_action_invariants)",
         "planetmath": "[unstable fixed point](http://planetmath.org/unstablefixedpoint)",
         "Wikidata Label": "Fixed point (mathematics)"
     },
     "[Q2295009](https://www.wikidata.org/wiki/Q2295009)": {
-        "Context": "[smash product](https://mathgloss.github.io/MathGloss/smash_product)",
+        "Context": "[smash product](https://mathgloss.github.io/MathGloss/context/smash_product)",
         "nlab": "[smash product](https://ncatlab.org/nlab/show/smash%20product)",
         "Wikidata Label": "Smash product"
     },
     "[Q1128678](https://www.wikidata.org/wiki/Q1128678)": {
-        "Context": "[Grothendieck group](https://mathgloss.github.io/MathGloss/Grothendieck_group)",
+        "Context": "[Grothendieck group](https://mathgloss.github.io/MathGloss/context/Grothendieck_group)",
         "nlab": "[group completion](https://ncatlab.org/nlab/show/group%20completion)",
         "planetmath": "[Grothendieck group](http://planetmath.org/grothendieckgroup)",
         "Wikidata Label": "Grothendieck group"
     },
     "[Q4915506](https://www.wikidata.org/wiki/Q4915506)": {
-        "Context": "[biproducts](https://mathgloss.github.io/MathGloss/biproducts)",
+        "Context": "[biproducts](https://mathgloss.github.io/MathGloss/context/biproducts)",
         "nlab": "[biproduct](https://ncatlab.org/nlab/show/biproduct)",
         "Wikidata Label": "Biproduct"
     },
     "[Q1193137](https://www.wikidata.org/wiki/Q1193137)": {
-        "Context": "[regular cardinal](https://mathgloss.github.io/MathGloss/regular_cardinal)",
+        "Context": "[regular cardinal](https://mathgloss.github.io/MathGloss/context/regular_cardinal)",
         "nlab": "[regular cardinal](https://ncatlab.org/nlab/show/regular%20cardinal)",
         "Wikidata Label": "Regular cardinal"
     },
     "[Q431078](https://www.wikidata.org/wiki/Q431078)": {
-        "Context": "[free group](https://mathgloss.github.io/MathGloss/free_group)",
+        "Context": "[free group](https://mathgloss.github.io/MathGloss/context/free_group)",
         "nlab": "[free group](https://ncatlab.org/nlab/show/free%20group)",
         "Chicago": "[free group](https://mathgloss.github.io/MathGloss/chicago/free_group)",
         "planetmath": "[free group](http://planetmath.org/freegroup)",
         "Wikidata Label": "Free group"
     },
     "[Q6505076](https://www.wikidata.org/wiki/Q6505076)": {
-        "Context": "[Lawvere theory](https://mathgloss.github.io/MathGloss/Lawvere_theory)",
+        "Context": "[Lawvere theory](https://mathgloss.github.io/MathGloss/context/Lawvere_theory)",
         "nlab": "[Lawvere theory](https://ncatlab.org/nlab/show/Lawvere%20theory)",
         "Wikidata Label": "Lawvere theory"
     },
     "[Q1137726](https://www.wikidata.org/wiki/Q1137726)": {
-        "Context": "[directed graph](https://mathgloss.github.io/MathGloss/directed_graph)",
+        "Context": "[directed graph](https://mathgloss.github.io/MathGloss/context/directed_graph)",
         "nlab": "[source](https://ncatlab.org/nlab/show/source)",
         "Chicago": "[oriented edge](https://mathgloss.github.io/MathGloss/chicago/oriented_edge)",
         "planetmath": "[directed graph](http://planetmath.org/directedgraph)",
         "Wikidata Label": "Arc (graph theory)"
     },
     "[Q33456](https://www.wikidata.org/wiki/Q33456)": {
-        "Context": "[powers](https://mathgloss.github.io/MathGloss/powers)",
+        "Context": "[powers](https://mathgloss.github.io/MathGloss/context/powers)",
         "mathlib": "[power functions](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/SpecialFunctions/Pow/Real.html#Real.rpow)",
         "planetmath": "[power function](http://planetmath.org/powerfunction)",
         "Wikidata Label": "Power (mathematics)"
     },
     "[Q2297777](https://www.wikidata.org/wiki/Q2297777)": {
-        "Context": "[dual basis](https://mathgloss.github.io/MathGloss/dual_basis)",
+        "Context": "[dual basis](https://mathgloss.github.io/MathGloss/context/dual_basis)",
         "mathlib": "[dual basis](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Dual.html#Basis.dualBasis)",
         "nlab": "[dual basis](https://ncatlab.org/nlab/show/dual%20basis)",
         "Wikidata Label": "Dual basis"
     },
     "[Q1756942](https://www.wikidata.org/wiki/Q1756942)": {
-        "Context": "[partial function](https://mathgloss.github.io/MathGloss/partial_function)",
+        "Context": "[partial function](https://mathgloss.github.io/MathGloss/context/partial_function)",
         "nlab": "[partial function](https://ncatlab.org/nlab/show/partial%20function)",
         "planetmath": "[partial mapping](http://planetmath.org/partialmapping)",
         "Wikidata Label": "Partial function"
     },
     "[Q23808682](https://www.wikidata.org/wiki/Q23808682)": {
-        "Context": "[conservative](https://mathgloss.github.io/MathGloss/conservative)",
+        "Context": "[conservative](https://mathgloss.github.io/MathGloss/context/conservative)",
         "nlab": "[conservative functor](https://ncatlab.org/nlab/show/conservative%20functor)",
         "Wikidata Label": "Conservative functor"
     },
     "[Q875399](https://www.wikidata.org/wiki/Q875399)": {
-        "Context": "[boundary](https://mathgloss.github.io/MathGloss/boundary)",
+        "Context": "[boundary](https://mathgloss.github.io/MathGloss/context/boundary)",
         "nlab": "[boundary](https://ncatlab.org/nlab/show/boundary)",
         "Chicago": "[boundary](https://mathgloss.github.io/MathGloss/chicago/boundary)",
         "Wikidata Label": "Boundary (topology)"
     },
     "[Q3413378](https://www.wikidata.org/wiki/Q3413378)": {
-        "Context": "[quasi-isomorphisms](https://mathgloss.github.io/MathGloss/quasi-isomorphisms)",
+        "Context": "[quasi-isomorphisms](https://mathgloss.github.io/MathGloss/context/quasi-isomorphisms)",
         "nlab": "[quasi-isomorphism](https://ncatlab.org/nlab/show/quasi-isomorphism)",
         "Wikidata Label": "Quasi-isomorphism"
     },
     "[Q5450381](https://www.wikidata.org/wiki/Q5450381)": {
-        "Context": "[finitary](https://mathgloss.github.io/MathGloss/finitary)",
+        "Context": "[finitary](https://mathgloss.github.io/MathGloss/context/finitary)",
         "Wikidata Label": "Finitary"
     },
     "[Q730384](https://www.wikidata.org/wiki/Q730384)": {
-        "Context": "[Galois group](https://mathgloss.github.io/MathGloss/Galois_group)",
+        "Context": "[Galois group](https://mathgloss.github.io/MathGloss/context/Galois_group)",
         "nlab": "[Galois group](https://ncatlab.org/nlab/show/Galois%20group)",
         "planetmath": "[Galois group](http://planetmath.org/galoisgroup)",
         "Wikidata Label": "Galois group"
     },
     "[Q25098802](https://www.wikidata.org/wiki/Q25098802)": {
-        "Context": "[topological monoid](https://mathgloss.github.io/MathGloss/topological_monoid)",
+        "Context": "[topological monoid](https://mathgloss.github.io/MathGloss/context/topological_monoid)",
         "nlab": "[topological monoid](https://ncatlab.org/nlab/show/topological%20monoid)",
         "Wikidata Label": "Topological monoid"
     },
     "[Q662830](https://www.wikidata.org/wiki/Q662830)": {
-        "Context": "[fundamental groupoid](https://mathgloss.github.io/MathGloss/fundamental_groupoid)",
+        "Context": "[fundamental groupoid](https://mathgloss.github.io/MathGloss/context/fundamental_groupoid)",
         "nlab": "[fundamental groupoid](https://ncatlab.org/nlab/show/fundamental%20groupoid)",
         "Chicago": "[fundamental group](https://mathgloss.github.io/MathGloss/chicago/fundamental_group)",
         "planetmath": "[fundamental groupoid](http://planetmath.org/fundamentalgroupoid)",
         "Wikidata Label": "Fundamental group"
     },
     "[Q1773982](https://www.wikidata.org/wiki/Q1773982)": {
-        "Context": "[Kleisli category](https://mathgloss.github.io/MathGloss/Kleisli_category)",
+        "Context": "[Kleisli category](https://mathgloss.github.io/MathGloss/context/Kleisli_category)",
         "nlab": "[Kleisli triple](https://ncatlab.org/nlab/show/Kleisli%20triple)",
         "Wikidata Label": "Kleisli category"
     },
     "[Q5051825](https://www.wikidata.org/wiki/Q5051825)": {
-        "Context": "[categorification](https://mathgloss.github.io/MathGloss/categorification)",
+        "Context": "[categorification](https://mathgloss.github.io/MathGloss/context/categorification)",
         "nlab": "[decategorification](https://ncatlab.org/nlab/show/decategorification)",
         "Wikidata Label": "Categorification"
     },
     "[Q2547089](https://www.wikidata.org/wiki/Q2547089)": {
-        "Context": "[subobject](https://mathgloss.github.io/MathGloss/subobject)",
+        "Context": "[subobject](https://mathgloss.github.io/MathGloss/context/subobject)",
         "nlab": "[subobject](https://ncatlab.org/nlab/show/subobject)",
         "Wikidata Label": "Subobject"
     },
     "[Q2243424](https://www.wikidata.org/wiki/Q2243424)": {
-        "Context": "[idempotent](https://mathgloss.github.io/MathGloss/idempotent)",
+        "Context": "[idempotent](https://mathgloss.github.io/MathGloss/context/idempotent)",
         "nlab": "[idempotent](https://ncatlab.org/nlab/show/idempotent)",
         "Chicago": "[idempotent](https://mathgloss.github.io/MathGloss/chicago/idempotent)",
         "planetmath": "[idempotent](http://planetmath.org/idempotent)",
         "Wikidata Label": "Idempotent (ring theory)"
     },
     "[Q1228851](https://www.wikidata.org/wiki/Q1228851)": {
-        "Context": "[discrete](https://mathgloss.github.io/MathGloss/discrete)",
+        "Context": "[discrete](https://mathgloss.github.io/MathGloss/context/discrete)",
         "nlab": "[discrete category](https://ncatlab.org/nlab/show/discrete%20category)",
         "Chicago": "[discrete category](https://mathgloss.github.io/MathGloss/chicago/discrete_category)",
         "Wikidata Label": "Discrete category"
     },
     "[Q2291918](https://www.wikidata.org/wiki/Q2291918)": {
-        "Context": "[skeleton](https://mathgloss.github.io/MathGloss/skeleton)",
+        "Context": "[skeleton](https://mathgloss.github.io/MathGloss/context/skeleton)",
         "nlab": "[skeleton](https://ncatlab.org/nlab/show/skeleton)",
         "Chicago": "[skeleton of a category](https://mathgloss.github.io/MathGloss/chicago/skeleton_of_a_category)",
         "Wikidata Label": "Skeleton (category theory)"
     },
     "[Q5282259](https://www.wikidata.org/wiki/Q5282259)": {
-        "Context": "[direct sums](https://mathgloss.github.io/MathGloss/direct_sums)",
+        "Context": "[direct sums](https://mathgloss.github.io/MathGloss/context/direct_sums)",
         "mathlib": "[direct sum](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/DirectSum/Basic.html#DirectSum.IsInternal)",
         "nlab": "[disjoint union](https://ncatlab.org/nlab/show/disjoint%20union)",
         "planetmath": "[topological sum](http://planetmath.org/topologicalsum)",
         "Wikidata Label": "Disjoint union (topology)"
     },
     "[Q1454165](https://www.wikidata.org/wiki/Q1454165)": {
-        "Context": "[free product](https://mathgloss.github.io/MathGloss/free_product)",
+        "Context": "[free product](https://mathgloss.github.io/MathGloss/context/free_product)",
         "nlab": "[free product of groups](https://ncatlab.org/nlab/show/free%20product%20of%20groups)",
         "planetmath": "[free product with amalgamated subgroup](http://planetmath.org/freeproductwithamalgamatedsubgroup)",
         "Wikidata Label": "Free product"
     },
     "[Q3489713](https://www.wikidata.org/wiki/Q3489713)": {
-        "Context": "[adic solenoid](https://mathgloss.github.io/MathGloss/adic_solenoid)",
+        "Context": "[adic solenoid](https://mathgloss.github.io/MathGloss/context/adic_solenoid)",
         "nlab": "[solenoid](https://ncatlab.org/nlab/show/solenoid)",
         "Wikidata Label": "Solenoid (mathematics)"
     },
     "[Q7098616](https://www.wikidata.org/wiki/Q7098616)": {
-        "Context": "[opposite category](https://mathgloss.github.io/MathGloss/opposite_category)",
+        "Context": "[opposite category](https://mathgloss.github.io/MathGloss/context/opposite_category)",
         "nlab": "[opposite category](https://ncatlab.org/nlab/show/opposite%20category)",
         "Chicago": "[opposite category](https://mathgloss.github.io/MathGloss/chicago/opposite_category)",
         "Wikidata Label": "Opposite category"
     },
     "[Q636889](https://www.wikidata.org/wiki/Q636889)": {
-        "Context": "[total derivative](https://mathgloss.github.io/MathGloss/total_derivative)",
+        "Context": "[total derivative](https://mathgloss.github.io/MathGloss/context/total_derivative)",
         "nlab": "[total derivative](https://ncatlab.org/nlab/show/total%20derivative)",
         "Chicago": "[differentiable](https://mathgloss.github.io/MathGloss/chicago/differentiable)",
         "Wikidata Label": "Total derivative"
     },
     "[Q5072826](https://www.wikidata.org/wiki/Q5072826)": {
-        "Context": "[chaotic](https://mathgloss.github.io/MathGloss/chaotic)",
+        "Context": "[chaotic](https://mathgloss.github.io/MathGloss/context/chaotic)",
         "Wikidata Label": "Chaotic"
     },
     "[Q177239](https://www.wikidata.org/wiki/Q177239)": {
-        "Context": "[limit](https://mathgloss.github.io/MathGloss/limit)",
+        "Context": "[limit](https://mathgloss.github.io/MathGloss/context/limit)",
         "mathlib": "[limits](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Order/Filter/Defs.html#Filter.Tendsto)",
         "nlab": "[limit](https://ncatlab.org/nlab/show/limit)",
         "planetmath": "[limit](http://planetmath.org/limit)",
         "Wikidata Label": "Mathematical Limit"
     },
     "[Q1454111](https://www.wikidata.org/wiki/Q1454111)": {
-        "Context": "[free abelian group](https://mathgloss.github.io/MathGloss/free_abelian_group)",
+        "Context": "[free abelian group](https://mathgloss.github.io/MathGloss/context/free_abelian_group)",
         "nlab": "[free abelian group](https://ncatlab.org/nlab/show/free%20abelian%20group)",
         "Wikidata Label": "Free abelian group"
     },
     "[Q261527](https://www.wikidata.org/wiki/Q261527)": {
-        "Context": "[linear functional](https://mathgloss.github.io/MathGloss/linear_functional)",
+        "Context": "[linear functional](https://mathgloss.github.io/MathGloss/context/linear_functional)",
         "nlab": "[linear functional](https://ncatlab.org/nlab/show/linear%20functional)",
         "planetmath": "[linear functional](http://planetmath.org/linearfunctional)",
         "Wikidata Label": "Linear form"
     },
     "[Q1292333](https://www.wikidata.org/wiki/Q1292333)": {
-        "Context": "[free vector space on the set](https://mathgloss.github.io/MathGloss/free_vector_space_on_the_set)",
+        "Context": "[free vector space on the set](https://mathgloss.github.io/MathGloss/context/free_vector_space_on_the_set)",
         "nlab": "[free module](https://ncatlab.org/nlab/show/free%20module)",
         "Chicago": "[free module](https://mathgloss.github.io/MathGloss/chicago/free_module)",
         "planetmath": "[free module](http://planetmath.org/freemodule1)",
         "Wikidata Label": "Free module"
     },
     "[Q673444](https://www.wikidata.org/wiki/Q673444)": {
-        "Context": "[dense](https://mathgloss.github.io/MathGloss/dense)",
+        "Context": "[dense](https://mathgloss.github.io/MathGloss/context/dense)",
         "nlab": "[dense subspace](https://ncatlab.org/nlab/show/dense%20subspace)",
         "Chicago": "[dense](https://mathgloss.github.io/MathGloss/chicago/dense)",
         "planetmath": "[dense set](http://planetmath.org/denseset)",
         "Wikidata Label": "Dense subspace"
     },
     "[Q1326955](https://www.wikidata.org/wiki/Q1326955)": {
-        "Context": "[exact sequence](https://mathgloss.github.io/MathGloss/exact_sequence)",
+        "Context": "[exact sequence](https://mathgloss.github.io/MathGloss/context/exact_sequence)",
         "nlab": "[exact sequence](https://ncatlab.org/nlab/show/exact%20sequence)",
         "Chicago": "[exact sequence](https://mathgloss.github.io/MathGloss/chicago/exact_sequence)",
         "planetmath": "[split short exact sequence](http://planetmath.org/splitshortexactsequence)",
         "Wikidata Label": "Exact sequence"
     },
     "[Q7980190](https://www.wikidata.org/wiki/Q7980190)": {
-        "Context": "[restriction of scalars](https://mathgloss.github.io/MathGloss/restriction_of_scalars)",
+        "Context": "[restriction of scalars](https://mathgloss.github.io/MathGloss/context/restriction_of_scalars)",
         "Wikidata Label": "Weil restriction"
     },
     "[Q1491995](https://www.wikidata.org/wiki/Q1491995)": {
-        "Context": "[connected components](https://mathgloss.github.io/MathGloss/connected_components)",
+        "Context": "[connected components](https://mathgloss.github.io/MathGloss/context/connected_components)",
         "mathlib": "[path connectedness](https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Connected/PathConnected.html#IsPathConnected)",
         "nlab": "[locally path-connected space](https://ncatlab.org/nlab/show/locally%20path-connected%20space)",
         "Chicago": "[connected](https://mathgloss.github.io/MathGloss/chicago/connected)",
@@ -1057,75 +1057,75 @@
         "Wikidata Label": "Connected space"
     },
     "[Q862761](https://www.wikidata.org/wiki/Q862761)": {
-        "Context": "[interior](https://mathgloss.github.io/MathGloss/interior)",
+        "Context": "[interior](https://mathgloss.github.io/MathGloss/context/interior)",
         "nlab": "[interior point](https://ncatlab.org/nlab/show/interior%20point)",
         "Chicago": "[interior](https://mathgloss.github.io/MathGloss/chicago/interior)",
         "planetmath": "[interior](http://planetmath.org/interior)",
         "Wikidata Label": "Topological interior"
     },
     "[Q1195852](https://www.wikidata.org/wiki/Q1195852)": {
-        "Context": "[center](https://mathgloss.github.io/MathGloss/center)",
+        "Context": "[center](https://mathgloss.github.io/MathGloss/context/center)",
         "Chicago": "[center of a group](https://mathgloss.github.io/MathGloss/chicago/center_of_a_group)",
         "planetmath": "[center of a group](http://planetmath.org/centerofagroup)",
         "Wikidata Label": "Center (group theory)"
     },
     "[Q1633079](https://www.wikidata.org/wiki/Q1633079)": {
-        "Context": "[pushout](https://mathgloss.github.io/MathGloss/pushout)",
+        "Context": "[pushout](https://mathgloss.github.io/MathGloss/context/pushout)",
         "nlab": "[pushout](https://ncatlab.org/nlab/show/pushout)",
         "Chicago": "[pushout](https://mathgloss.github.io/MathGloss/chicago/pushout)",
         "Wikidata Label": "Pushout (mathematics)"
     },
     "[Q426221](https://www.wikidata.org/wiki/Q426221)": {
-        "Context": "[reflector](https://mathgloss.github.io/MathGloss/reflector)",
+        "Context": "[reflector](https://mathgloss.github.io/MathGloss/context/reflector)",
         "nlab": "[reflection](https://ncatlab.org/nlab/show/reflection)",
         "Wikidata Label": "Reflection (mathematics)"
     },
     "[Q7631737](https://www.wikidata.org/wiki/Q7631737)": {
-        "Context": "[subobject classifier](https://mathgloss.github.io/MathGloss/subobject_classifier)",
+        "Context": "[subobject classifier](https://mathgloss.github.io/MathGloss/context/subobject_classifier)",
         "nlab": "[subobject classifier](https://ncatlab.org/nlab/show/subobject%20classifier)",
         "Wikidata Label": "Subobject classifier"
     },
     "[Q1340800](https://www.wikidata.org/wiki/Q1340800)": {
-        "Context": "[endomorphism](https://mathgloss.github.io/MathGloss/endomorphism)",
+        "Context": "[endomorphism](https://mathgloss.github.io/MathGloss/context/endomorphism)",
         "nlab": "[endomorphism](https://ncatlab.org/nlab/show/endomorphism)",
         "Chicago": "[endomorphism](https://mathgloss.github.io/MathGloss/chicago/endomorphism)",
         "Wikidata Label": "Endomorphism"
     },
     "[Q3117899](https://www.wikidata.org/wiki/Q3117899)": {
-        "Context": "[opposite group](https://mathgloss.github.io/MathGloss/opposite_group)",
+        "Context": "[opposite group](https://mathgloss.github.io/MathGloss/context/opposite_group)",
         "planetmath": "[opposite group](http://planetmath.org/oppositegroup)",
         "Wikidata Label": "Opposite group"
     },
     "[Q188524](https://www.wikidata.org/wiki/Q188524)": {
-        "Context": "[tensors](https://mathgloss.github.io/MathGloss/tensors)",
+        "Context": "[tensors](https://mathgloss.github.io/MathGloss/context/tensors)",
         "nlab": "[tensor](https://ncatlab.org/nlab/show/tensor)",
         "planetmath": "[tensor transformations](http://planetmath.org/tensortransformations)",
         "Wikidata Label": "Tensors"
     },
     "[Q81881](https://www.wikidata.org/wiki/Q81881)": {
-        "Context": "[fork](https://mathgloss.github.io/MathGloss/fork)",
+        "Context": "[fork](https://mathgloss.github.io/MathGloss/context/fork)",
         "nlab": "[fork](https://ncatlab.org/nlab/show/fork)",
         "Wikidata Label": "Fork"
     },
     "[Q2362924](https://www.wikidata.org/wiki/Q2362924)": {
-        "Context": "[complete lattice](https://mathgloss.github.io/MathGloss/complete_lattice)",
+        "Context": "[complete lattice](https://mathgloss.github.io/MathGloss/context/complete_lattice)",
         "nlab": "[complete lattice](https://ncatlab.org/nlab/show/complete%20lattice)",
         "planetmath": "[complete lattice homomorphism](http://planetmath.org/completelatticehomomorphism)",
         "Wikidata Label": "Complete lattice"
     },
     "[Q3968](https://www.wikidata.org/wiki/Q3968)": {
-        "Context": "[algebra](https://mathgloss.github.io/MathGloss/algebra)",
+        "Context": "[algebra](https://mathgloss.github.io/MathGloss/context/algebra)",
         "nlab": "[algebra](https://ncatlab.org/nlab/show/algebra)",
         "planetmath": "[algebra](http://planetmath.org/algebra)",
         "Wikidata Label": "Al-Gebra"
     },
     "[Q140283](https://www.wikidata.org/wiki/Q140283)": {
-        "Context": "[essentially surjective on objects](https://mathgloss.github.io/MathGloss/essentially_surjective_on_objects)",
+        "Context": "[essentially surjective on objects](https://mathgloss.github.io/MathGloss/context/essentially_surjective_on_objects)",
         "nlab": "[essentially surjective functor](https://ncatlab.org/nlab/show/essentially%20surjective%20functor)",
         "Wikidata Label": "Essentially surjective functor"
     },
     "[Q5154570](https://www.wikidata.org/wiki/Q5154570)": {
-        "Context": "[coskeleton](https://mathgloss.github.io/MathGloss/coskeleton)",
+        "Context": "[coskeleton](https://mathgloss.github.io/MathGloss/context/coskeleton)",
         "Wikidata Label": "N-skeleton"
     },
     "[Q125977](https://www.wikidata.org/wiki/Q125977)": {

@@ -152,9 +152,9 @@ def main():
     alignments_dir = "/Users/lucyhorowitz/Documents/GitHub/MathGloss/alignments"
     files = [os.path.join(alignments_dir, file) for file in os.listdir(alignments_dir) if file.endswith('.csv')]
 
-    #build_database(map, files)
+    build_database(map, files)
 
-    remove_isolates("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database copy.csv",'nLab')
+    remove_isolates("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv",'nLab')
 
 if __name__ == "__main__":
     main()
