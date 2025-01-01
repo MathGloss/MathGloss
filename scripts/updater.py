@@ -95,6 +95,7 @@ def add_column(database, new_csv, skip_new=False):
     
     df.to_csv(database, index=False)
 
+# removes rows (concepts) that only have appearances in one column in databse.csv, leaves database.json alone
 def remove_isolates(database, column):
     df = pd.read_csv(database)
     columns = df.columns
@@ -113,9 +114,9 @@ def remove_isolates(database, column):
                 df = df.drop(index)
     df.to_csv(database, index=False)
 
+# creates new_database.json and new_database.csv from individual alignment files
 def build_database(map,files,output="new_database.csv"):
     data_dict = {}
-    
     for file in files:
         df = pd.read_csv(file)
         resource = df.columns.tolist()[1]
@@ -147,6 +148,7 @@ def build_database(map,files,output="new_database.csv"):
     # Save the DataFrame to a CSV file with specified column order
     result_df.to_csv(output, columns=column_order, index=False)
 
+# reorders columns in database.csv, leaves database.json alone
 def reorder_columns(database, columns):
     df = pd.read_csv(database)
     existing_columns = df.columns.tolist()
@@ -161,6 +163,7 @@ def reorder_columns(database, columns):
     
     df.to_csv(database, index=False)
 
+# sorts database.csv by column, leaves database.json alone
 def sort_by(database, column):
     df = pd.read_csv(database)
     if column not in df.columns:

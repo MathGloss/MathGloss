@@ -85,7 +85,8 @@ def is_disambiguation(wikidata_id):
             person_dismabiguation = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q22808320"
             fixpt = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q1422068"
             conjecture = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q319141"
-            return disambiguation or person or theorem or lemma or proposition or person_dismabiguation or fixpt or conjecture
+            area = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q1936384"
+            return disambiguation or person or theorem or lemma or proposition or person_dismabiguation or fixpt or conjecture or area
     return False
 
 # file should be a csv in the following format: title,link,suggestion.
