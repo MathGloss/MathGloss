@@ -175,7 +175,7 @@ def main():
 
     #build_database(map, files)
 
-    remove_isolates("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv",'PlanetMath')
+    #remove_isolates("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv",'PlanetMath')
     #reorder_columns("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv", ["Wikidata ID","Wikidata Label","Chicago","Mathlib","nLab","Context","PlanetMath"])
     sort_by("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv","Wikidata Label")
 

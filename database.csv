@@ -1,11 +1,9 @@
 Wikidata ID,Wikidata Label,Chicago,Mathlib,nLab,Context,PlanetMath
-[Q1317188](https://www.wikidata.org/wiki/Q1317188),"BN pair",,,[BN-pair](https://ncatlab.org/nlab/show/BN-pair),,[BN-pair](http://planetmath.org/bnpair)
 [Q2836000](https://www.wikidata.org/wiki/Q2836000),*-algebra,,,[star-algebra](https://ncatlab.org/nlab/show/star-algebra),,[involutory ring](http://planetmath.org/involutoryring)
 [Q204](https://www.wikidata.org/wiki/Q204),0,,,[zero function](https://ncatlab.org/nlab/show/zero%20function),,[zero map](http://planetmath.org/zeromap)
 [Q199](https://www.wikidata.org/wiki/Q199),1,,,[one](https://ncatlab.org/nlab/show/one),,[unity](http://planetmath.org/unity)
 [Q25304059](https://www.wikidata.org/wiki/Q25304059),2-functor,,,[2-functor](https://ncatlab.org/nlab/show/2-functor),[2-functor](https://mathgloss.github.io/MathGloss/context/2-functor),
 [Q526901](https://www.wikidata.org/wiki/Q526901),3-manifold,,,[3-manifold](https://ncatlab.org/nlab/show/3-manifold),,[3-manifold](http://planetmath.org/3manifold1)
-[Q306393](https://www.wikidata.org/wiki/Q306393),Abc conjecture,,,[abc conjecture](https://ncatlab.org/nlab/show/abc%20conjecture),,[ABC conjecture](http://planetmath.org/abcconjecture)
 [Q318737](https://www.wikidata.org/wiki/Q318737),Abelian category,,,[abelian category](https://ncatlab.org/nlab/show/abelian%20category),[zero object](https://mathgloss.github.io/MathGloss/context/zero_object),
 [Q181296](https://www.wikidata.org/wiki/Q181296),Abelian group,[abelian group](https://mathgloss.github.io/MathGloss/chicago/abelian_group),,[abelian group](https://ncatlab.org/nlab/show/abelian%20group),,[abelian group](http://planetmath.org/abeliangroup)
 [Q318751](https://www.wikidata.org/wiki/Q318751),Abelian variety,,,[abelian variety](https://ncatlab.org/nlab/show/abelian%20variety),,[abelian variety](http://planetmath.org/abelianvariety)
@@ -131,6 +129,7 @@ Wikidata ID,Wikidata Label,Chicago,Mathlib,nLab,Context,PlanetMath
 [Q866364](https://www.wikidata.org/wiki/Q866364),Bisimulation,,,[bisimulation](https://ncatlab.org/nlab/show/bisimulation),,[bisimulation](http://planetmath.org/bisimulation)
 [Q663908](https://www.wikidata.org/wiki/Q663908),Bivector,,,[bivector](https://ncatlab.org/nlab/show/bivector),,[bivector](http://planetmath.org/bivector)
 [Q884772](https://www.wikidata.org/wiki/Q884772),Block matrix,,,[partitioned matrix](https://ncatlab.org/nlab/show/partitioned%20matrix),,[partitioned matrix](http://planetmath.org/partitionedmatrix)
+[Q1317188](https://www.wikidata.org/wiki/Q1317188),BN pair,,,[BN-pair](https://ncatlab.org/nlab/show/BN-pair),,[BN-pair](http://planetmath.org/bnpair)
 [Q3269980](https://www.wikidata.org/wiki/Q3269980),Boolean domain,,,[boolean domain](https://ncatlab.org/nlab/show/boolean%20domain),,[Boolean domain](http://planetmath.org/booleandomain)
 [Q2634401](https://www.wikidata.org/wiki/Q2634401),Boolean ring,,,[Boolean ring](https://ncatlab.org/nlab/show/Boolean%20ring),,[Boolean ring](http://planetmath.org/booleanring)
 [Q17020770](https://www.wikidata.org/wiki/Q17020770),Boolean-valued function,,,[boolean-valued function](https://ncatlab.org/nlab/show/boolean-valued%20function),,[Boolean-valued function](http://planetmath.org/booleanvaluedfunction)
