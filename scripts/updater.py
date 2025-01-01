@@ -161,6 +161,13 @@ def reorder_columns(database, columns):
     
     df.to_csv(database, index=False)
 
+def sort_by(database, column):
+    df = pd.read_csv(database)
+    if column not in df.columns:
+        raise ValueError(f"Column '{column}' not found in the database.")
+    df = df.sort_values(by=column, key=lambda col: col.str.lower())
+    df.to_csv(database, index=False)
+
 def main():
     map = WikiMapper('/Users/lucyhorowitz/Documents/MathGloss/wikidata/index_enwiki-20190420.db')
     alignments_dir = "/Users/lucyhorowitz/Documents/GitHub/MathGloss/alignments"
@@ -168,8 +175,9 @@ def main():
 
     #build_database(map, files)
 
-    #remove_isolates("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv",'nLab')
-    reorder_columns("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv", ["Wikidata ID","Wikidata Label","Chicago","Mathlib","nLab","Context","PlanetMath"])
+    remove_isolates("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv",'PlanetMath')
+    #reorder_columns("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv", ["Wikidata ID","Wikidata Label","Chicago","Mathlib","nLab","Context","PlanetMath"])
+    sort_by("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv","Wikidata Label")
 
 if __name__ == "__main__":
     main()
