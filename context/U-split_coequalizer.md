@@ -1,6 +1,6 @@
 ---
 layout: page
-title: $U$-split coequalizer
+title: U-split coequalizer
 permalink: /context/$U$-split_coequalizer
 ---
  Given a functor $U : \mathsf{D} \to \mathsf{C}$:
@@ -12,6 +12,6 @@ $ \xymatrix{ Ux \ar@<.5ex>[r]^{Uf} \ar@<-.5ex>[r]_{Ug} & Uy \ar[r]^h \ar@/^3ex/[
 
 
 
-SUGGESTION: $U$-split coequalizer
+SUGGESTION: U-split coequalizer
 
 From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)
