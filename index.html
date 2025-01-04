@@ -23,7 +23,21 @@
                 width: 100%;
                 border-collapse: collapse; /* Ensure borders are shared */
                 margin-top: 20px;
-                
+                counter-reset: rowNumber;
+            }
+            thead tr::before {
+                display: table-cell;
+                content: "";
+                padding-right: 0.3em;
+            }
+
+            tbody tr::before {
+                display: table-cell;
+                counter-increment: rowNumber;
+                content: counter(rowNumber) ".";
+                padding-right: 0.3em;
+                text-align: center;
+                vertical-align: middle; /* Center height-wise */
             }
             th, td {
                 border: 1px solid #ddd; /* Apply border to all cells */
@@ -98,6 +112,7 @@
     </head>
 <body>
     <h1>MathGloss</h1>
+    <p>For more information, visit our <a href="https://github.com/MathGloss/MathGloss/tree/main" target="_blank">GitHub repository</a>.</p>
     <div id="toggle-buttons"></div>
     <table id="glossary-table" class="tablesorter">
         <thead>
