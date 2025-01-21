@@ -39,6 +39,6 @@ Thumbs.db
 # other stuff #
 ###############
 .obsidian
-junker.py
+.secrets
 .env
 .venv

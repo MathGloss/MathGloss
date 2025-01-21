@@ -3,6 +3,7 @@ from typing import List, Optional
 import csv
 import requests
 import pandas as pd
+import argparse
 
 class WikiMapper:
     """Uses a precomputed database created by `create_wikipedia_wikidata_mapping_db`."""
@@ -179,8 +180,13 @@ def do_mappings(filename, map):
 
 
 def main():
-    map = WikiMapper('/Users/lucyhorowitz/Documents/MathGloss/wikidata/index_enwiki-20190420.db')
-    do_mappings('/Users/lucyhorowitz/Documents/GitHub/MathGloss/termlists/nlab.csv', map)
+    parser = argparse.ArgumentParser(description='Do wikidata mappings.')
+    parser.add_argument('database', type=str, required=True, help='Path to the precomputed index needed for WikiMapper')
+    parser.add_argument('csv_file', type=str, required=True, help='Path to the CSV file of terms from one source. It should have the following format: title,link,(optional )suggestion. Title should be the name of the thing you want to search for in Wikidata.')
+    args = parser.parse_args()
+
+    map = WikiMapper(args.database)
+    do_mappings(args.csv_file, map)
 
 if __name__ == "__main__":
     main()

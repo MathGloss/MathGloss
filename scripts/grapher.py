@@ -5,6 +5,8 @@ import os
 from SPARQLWrapper import SPARQLWrapper, JSON
 import requests
 from tenacity import retry, stop_after_attempt, wait_fixed
+import argparse
+import re
 
 # create individual node
 def create_node(tx, node_id, node_name, properties):
@@ -45,7 +47,7 @@ def create_nodes(database):
             session.execute_write(create_node, node_id, node_name, properties)
     driver.close()
 
-def create_edge(tx, source_id, target_id, relation_name, relation_id, resource):
+def create_wikidata_edge(tx, source_id, target_id, relation_name, relation_id, resource):
     query = (
         f"MATCH (a:Concept {{id: $source_id}}), (b:Concept {{id: $target_id}}) "
         f"MERGE (a)-[r:{relation_name} {{wikidata_id: $relation_id, resource: $resource}}]->(b)"
@@ -77,6 +79,15 @@ def get_wikidata_relations(wikidata_id):
                 continue
     return simplified_relations
 
+def create_mention_edge(tx, source_id, target_id,resource):
+    query = (
+        "MATCH (a:Concept {id: $source_id}), (b:Concept {id: $target_id}) "
+        "MERGE (a)-[r:MENTIONS]->(b) "
+        f"SET r.`{resource}` = 'yes'"
+    )
+    tx.run(query, source_id=source_id, target_id=target_id)
+    print(f"Edge created or updated from {source_id} to {target_id} with relation: MENTIONS and resource: {resource}")
+
 def create_edges_from_wikidata():
     load_dotenv()
     password = os.getenv("NEO4J_PASSWORD")
@@ -84,6 +95,7 @@ def create_edges_from_wikidata():
     driver = GraphDatabase.driver(uri, auth=("neo4j", password))
 
     with driver.session() as session:
+        
         result = session.run("MATCH (n:Concept) RETURN n.id AS id")
         node_ids = [record["id"] for record in result]
         resource = "Wikidata"
@@ -108,13 +120,87 @@ def create_edges_from_wikidata():
                         relation_name = relation_name[:relation_name.index('(')]
                     relation_name = relation_name.upper().replace(" ","_").replace(',','')
                     if targets in node_ids:
-                        session.execute_write(create_edge, node_id, targets, relation_name, relationtype, resource)
+                        session.execute_write(create_wikidata_edge, node_id, targets, relation_name, relationtype, resource)
             i += 1
     driver.close()
 
+def create_edges_from_chicago():
+    load_dotenv()
+    password = os.getenv("NEO4J_PASSWORD")
+    uri = "bolt://localhost:7687"
+    driver = GraphDatabase.driver(uri, auth=("neo4j", password))
+
+    current_dir = os.path.dirname(__file__)
+    parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
+
+    with driver.session() as session:
+        result = session.run("MATCH (n:Concept) RETURN n.id AS id, n.`Chicago name` AS chicago_name, n.`Chicago link` AS chicago_link")
+        result = list(result)
+        togo = len([record["id"] for record in result])
+        i = 1
+        for record in result:
+            node_id = record["id"]
+            chicago_link = record["chicago_link"]
+            chicago_name = record["chicago_name"]
+            print(f"Looking for mentions in {chicago_name}... ({i}/{togo})")
+            if chicago_link:
+                chicago_file_path = os.path.join(parent_dir, "chicago", f"{chicago_link.split('/')[-1]}.md")
+                if os.path.exists(chicago_file_path):
+                    with open(chicago_file_path, 'r') as chicago_file:
+                        text = chicago_file.read()
+                        links = re.findall(r'https://mathgloss.github.io/MathGloss/chicago/[^ ]+', text)
+                        for link in links:
+                            target_result = session.run("MATCH (n:Concept {`Chicago link`: $link}) RETURN n.id AS id", link=link[:-1])
+                            target_record = target_result.single()
+                            if target_record:
+                                target_id = target_record["id"]
+                                session.execute_write(create_mention_edge, node_id, target_id, "chicago")
+            i += 1
+                            
+    driver.close()
+
+def create_edges_from_nlab():
+    load_dotenv()
+    password = os.getenv("NEO4J_PASSWORD")
+    uri = "bolt://localhost:7687"
+    driver = GraphDatabase.driver(uri, auth=("neo4j", password))
+
+    with driver.session() as session:
+        result = session.run("MATCH (n:Concept) RETURN n.id AS id, n.`nLab name` AS nlab_name, n.`nLab link` AS nlab_link")
+        result = list(result)
+        togo = len([record["id"] for record in result])
+        i = 1
+        for record in result:
+            node_id = record["id"]
+            nlab_link = record["nlab_link"]
+            nlab_name = record["nlab_name"]
+            print(f"Looking for mentions in {nlab_name}... ({i}/{togo})")
+            if nlab_link:
+                # Fetch the content of the linked page
+                response = requests.get(nlab_link)
+                if response.status_code == 200:
+                    linked_links = [f"https://ncatlab.org{thing}".replace("+","%20") for thing in re.findall(r'/nlab/show/[^"]*', response.text)]
+                    for linked_link in linked_links:
+                        target_result = session.run("MATCH (n:Concept {`nLab link`: $link}) RETURN n.id AS id", link=linked_link)
+                        target_record = target_result.single()
+                        if target_record:
+                            target_id = target_record["id"]
+                            if target_id != node_id: 
+                                session.execute_write(create_mention_edge, node_id, target_id, "nlab")
+            i += 1
+                            
+    driver.close()
+
+
 def main():
-    create_edges_from_wikidata()
-    #create_nodes("neo4j_database.json")
+    current_dir = os.path.dirname(__file__)
+    parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
+    file_path = os.path.join(parent_dir, "database_neo4j.json")
+    
+    #create_nodes(file_path)
+    #create_edges_from_wikidata()
+    #create_edges_from_chicago()
+    create_edges_from_nlab()
 
 if __name__ == "__main__":
     main()

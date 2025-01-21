@@ -3,11 +3,12 @@ import csv
 from mistralai import Mistral
 from pathlib import Path
 import time
+import argparse
+from dotenv import load_dotenv
 
 # Set up the API client
-API_URL = "https://api.mistral-llm.com/v1/completions"
-API_KEY = API_KEY
-client = Mistral(api_key=API_KEY)
+load_dotenv()
+client = Mistral(api_key= os.getenv("MISTRAL_API_KEY"))
 
 import os
 import csv
@@ -47,6 +48,17 @@ def process_mathlib_csv(file_path):
 
     temp_file_path.replace(file_path)
 
-# Assuming the CSV file is located at /Users/lucyhorowitz/Documents/GitHub/MathGloss/mathlib.csv
-csv_file_path = Path("/Users/lucyhorowitz/Documents/GitHub/MathGloss/mathlib.csv")
-process_mathlib_csv(csv_file_path)
+
+def main():
+    parser = argparse.ArgumentParser(description='Use Mistral to generate "suggestions" for terms that may not be searchable in Wikidata for some reason (e.g. plural, incomplete noun phrase) from a list of terms with links. It will change the file you give it to have the extra "suggestion" column.')
+    parser.add_argument('-d', '--termlist', type=str, required=True, help='Path to the list of terms')
+    parser.add_argument('-c', '--csv_file', type=str, required=True, help='Path to the CSV file of terms from one source. It should have the following format: title,link,(optional )suggestion. Title should be the name of the thing you want to search for in Wikidata.')
+    args = parser.parse_args()
+
+    map = WikiMapper(args.database)
+    do_mappings(args.csv_file, map)
+
+
+if __name__ == "__main__":
+    main()
+

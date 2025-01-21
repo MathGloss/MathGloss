@@ -171,16 +171,29 @@ def sort_by(database, column):
     df = df.sort_values(by=column, key=lambda col: col.str.lower())
     df.to_csv(database, index=False)
 
+def build_json(database):
+    df = pd.read_csv(database)
+    data_dict = df.set_index('Wikidata ID').apply(lambda x: x.dropna().to_dict(), axis=1).to_dict()
+    
+    with open("new_database.json", 'w') as f:
+        json.dump(data_dict, f, indent=4)
+
 def main():
-    map = WikiMapper('/Users/lucyhorowitz/Documents/MathGloss/wikidata/index_enwiki-20190420.db')
-    alignments_dir = "/Users/lucyhorowitz/Documents/GitHub/MathGloss/alignments"
-    files = [os.path.join(alignments_dir, file) for file in os.listdir(alignments_dir) if file.endswith('.csv')]
+    #map = WikiMapper('/Users/lucyhorowitz/Documents/MathGloss/wikidata/index_enwiki-20190420.db')
+    #alignments_dir = "/Users/lucyhorowitz/Documents/GitHub/MathGloss/alignments"
+    #files = [os.path.join(alignments_dir, file) for file in os.listdir(alignments_dir) if file.endswith('.csv')]
+
+    current_dir = os.path.dirname(__file__)
+    parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
+    file_path = os.path.join(parent_dir, "database.csv")
+    
 
     #build_database(map, files)
 
     #remove_isolates("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv",'PlanetMath')
     #reorder_columns("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv", ["Wikidata ID","Wikidata Label","Chicago","Mathlib","nLab","Context","PlanetMath"])
-    sort_by("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv","Wikidata Label")
-
+    #sort_by("/Users/lucyhorowitz/Documents/GitHub/MathGloss/database.csv","Wikidata Label")
+    build_json(file_path)
+    
 if __name__ == "__main__":
     main()
