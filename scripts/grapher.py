@@ -48,12 +48,17 @@ def create_nodes(database):
     driver.close()
 
 def create_wikidata_edge(tx, source_id, target_id, relation_name, relation_id, resource):
+    print(f"Creating edge from {source_id} to {target_id} with relation: {relation_name}")
     query = (
-        f"MATCH (a:Concept {{id: $source_id}}), (b:Concept {{id: $target_id}}) "
-        f"MERGE (a)-[r:{relation_name} {{wikidata_id: $relation_id, resource: $resource}}]->(b)"
+        f"MATCH (a:Concept {{id: $source_id}}), (b {{id: $target_id}}) "
+        f"MERGE (a)-[r:{relation_name} {{wikidata_id: $relation_id, resource: $resource}}]->(b) "
+        "RETURN r"
     )
-    tx.run(query, source_id=source_id, target_id=target_id, relation_name=relation_name, relation_id=relation_id, resource=resource)
-    print(f"Edge created from {source_id} to {target_id} with relation: {relation_name}")
+    result = tx.run(query, source_id=source_id, target_id=target_id, relation_name=relation_name, relation_id=relation_id, resource=resource)
+    if result.single():
+        print(f"Edge created from {source_id} to {target_id} with relation: {relation_name}")
+    else:
+        print(f"No edge created from {source_id} to {target_id} with relation: {relation_name}")
 
 @retry(stop=stop_after_attempt(5), wait=wait_fixed(2))
 def get_wikidata_relations(wikidata_id):
@@ -192,6 +197,59 @@ def create_edges_from_nlab():
     driver.close()
 
 
+def get_incoming_links(wikidata_id):
+
+    load_dotenv()
+    password = os.getenv("NEO4J_PASSWORD")
+    uri = "bolt://localhost:7687"
+    driver = GraphDatabase.driver(uri, auth=("neo4j", password))
+
+    with driver.session() as session:
+        result = session.run("MATCH (n:Concept) RETURN n.id AS id")
+        node_ids = [record["id"] for record in result]
+    driver.close()
+
+    endpoint_url = "https://query.wikidata.org/sparql"
+    query = f"""
+    SELECT ?item ?property WHERE {{
+      ?item ?property wd:{wikidata_id} .
+    }}
+    """
+    headers = {"Accept": "application/json"}
+    response = requests.get(endpoint_url, params={"query": query}, headers=headers)
+
+    if response.status_code == 200:
+        results = response.json()["results"]["bindings"]
+        return [(result["item"]["value"].split('/')[-1], result["property"]["value"].split('/')[-1]) for result in results if not result["item"]["value"].__contains__('statement') and result["item"]["value"].split('/')[-1] in node_ids]
+    else:
+        raise Exception(f"SPARQL query failed: {response.status_code} - {response.text}")
+
+
+def add_incoming_links(target_id, relations):
+    load_dotenv()
+    password = os.getenv("NEO4J_PASSWORD")
+    uri = "bolt://localhost:7687"
+    driver = GraphDatabase.driver(uri, auth=("neo4j", password))
+
+    with driver.session() as session:
+        for source_id, relation_id in relations:
+            url = f"https://www.wikidata.org/w/api.php"
+            params = {
+                "action": "wbgetentities",
+                "ids": relation_id,
+                "format": "json",
+                "props": "labels",
+                "languages": "en"
+            }
+            response = requests.get(url, params=params).json()
+            relation_name = response.get("entities", {}).get(relation_id, {}).get("labels", {}).get("en", {}).get("value", relation_id)
+            if relation_name.__contains__('('):
+                relation_name = relation_name[:relation_name.index('(')]
+            relation_name = relation_name.upper().replace(" ","_").replace(',','').replace("'",'')
+            session.execute_write(create_wikidata_edge, source_id, target_id, relation_name, relation_id, "Wikidata")
+            
+  
+
 def main():
     current_dir = os.path.dirname(__file__)
     parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
@@ -200,7 +258,15 @@ def main():
     #create_nodes(file_path)
     #create_edges_from_wikidata()
     #create_edges_from_chicago()
-    create_edges_from_nlab()
+    #create_edges_from_nlab()
+
+    concept_links = get_incoming_links("Q24034552")
+    object_links = get_incoming_links("Q246672")
+
+    add_incoming_links("Q24034552", concept_links)
+    add_incoming_links("Q246672", object_links)
+   
+
 
 if __name__ == "__main__":
     main()
