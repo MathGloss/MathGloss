@@ -1,0 +1,9 @@
+---
+layout: page
+title: interchange law
+permalink: /bct/interchange_law
+---
+Thus, $ \xymatrix@C+.5em{ \mathscr{A} \ar[r]^F & \mathscr{A}' \rtwocell^{F'}_{G'}{\hspace{.3em}\alpha'} & \mathscr{A}'' } \qquad \text{gives rise to} \qquad \xymatrix@C+1.5em{ \mathscr{A} \rtwocell<4>^{F'\circ F}_{G'\circ F}{\hspace{.8em}\alpha' F} &\mathscr{A}'' } $ where $ (\alpha' F)_A = \alpha'_{F(A)} $ , and $ \xymatrix@C+.5em{ \mathscr{A} \rtwocell^F_G{\alpha} & \mathscr{A}' \ar[r]^{F'} & \mathscr{A}'' } \qquad \text{gives rise to} \qquad \xymatrix@C+1.5em{ \mathscr{A} \rtwocell<4>^{F'\circ F}_{F' \circ G}{\hspace{.8em}F' \alpha} & \mathscr{A}'' } $ where $ (F'\alpha)_A = F'(\alpha_A) $ . Vertical and horizontal composition interact well: natural transformations $ \xymatrix{ \mathscr{A} \ruppertwocell<8>^F{\alpha} \ar[r]|G \rlowertwocell< - 8>_H{\beta} & \mathscr{A}' \ruppertwocell<8>^{F'}{\hspace{.2em}\alpha'} \ar[r]|{G'} \rlowertwocell< - 8>_{H'}{\hspace{.2em}\beta'} & \mathscr{A}'' } $ obey the **interchange law**, $ (\beta' \circ \alpha') * (\beta \circ \alpha) = (\beta' * \beta) \circ (\alpha' * \alpha) {\colon}\linebreak[0] F' \circ F \to H' \circ H. $ As usual, a statement on composition is accompanied by a statement on identities: $ 1_{F'} * 1_F = 1_{F' \circ F} $ too. All of this enables us to construct, for any categories $ \mathscr{A} $ , $ \mathscr{A}' $ and $ \mathscr{A}'' $ , a functor $ \ftrcat{\mathscr{A}'}{\mathscr{A}''} \times \ftrcat{\mathscr{A}}{\mathscr{A}'} \to \ftrcat{\mathscr{A}}{\mathscr{A}''}, $ given on objects by $ (F', F) \mapsto F' \circ F $ and on maps by $ (\alpha', \alpha) \mapsto \alpha' * \alpha $ .
+
+
+From [Basic Category Theory](https://mathgloss.github.io/MathGloss/bct.html)

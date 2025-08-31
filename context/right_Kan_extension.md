@@ -1,0 +1,11 @@
+---
+layout: page
+title: right Kan extension
+permalink: /context/right_Kan_extension
+---
+ Given functors $F : \mathsf{C} \to \mathsf{E}$, $K : \mathsf{C} \to \mathsf{D}$, a **left Kan extension** of $F$ along $K$ is a functor $\mathrm{Lan}_KF: \mathsf{D} \to \mathsf{E}$ together with a natural transformation $\eta: F \Rightarrow \mathrm{Lan}_KF \cdot  K$ such that for any other such pair $(G : \mathsf{D} \to \mathsf{E}, \gamma : F \Rightarrow GK)$, $\gamma$ factors uniquely through $\eta$ as illustrated.\footnote{Writing $\alpha$ for the natural transformation $\mathrm{Lan}_KF \Rightarrow G$, the right-hand \emph{pasting diagrams} express the equality $\gamma = \alpha K \cdot \eta$, i.e., that $\gamma$ factors as $\xymatrix@C=18pt{F \ar@{=>}[r]^-{\eta} & \mathrm{Lan}_K F \cdot K \ar@{=>}[r]^-{\alpha K} & GK}$.} $\xymatrix{ \mathsf{C} \ar[rr]^F \ar[dr]_K & \ar@{}[d]|(.4){\Downarrow \eta} & \mathsf{E} \\ & \mathsf{D} \ar@{-->}[ur]_{\mathrm{Lan}_KF}}\qquad\qquad\qquad \xymatrix{ \mathsf{C} \ar[rr]^F \ar[dr]_K & \ar@{}[d]|(.4){\Downarrow\gamma} & \mathsf{E} \ar@{}[dr]|*+{=} & \mathsf{C} \ar[rr]^F \ar[dr]_K & \ar@{}[d]_(.4){\Downarrow\eta} & \mathsf{E}  \\ & \mathsf{D} \ar[ur]_G &&  & \mathsf{D} \ar@/^.8pc/[ur]|(.6){\mathrm{Lan}_KF} \ar@{}[ur]|(.4){\exists !}|(.55){\Searrow} \ar@/_.8pc/[ur]_G& } $ Dually, a **right Kan extension** of $F$ along $K$ is a functor $\mathrm{Ran}_K F : \mathsf{D} \to \mathsf{E}$ together with a natural transformation $\epsilon : \mathrm{Ran}_KF \cdot K\Rightarrow F$ such that for any $(G : \mathsf{D} \to \mathsf{E}, \delta : GK \Rightarrow F)$, $\delta$ factors uniquely through $\epsilon$ as illustrated. $\xymatrix{ \mathsf{C} \ar[rr]^F \ar[dr]_K & \ar@{}[d]|(.4){\Uparrow \epsilon} & \mathsf{E} \\ & \mathsf{D} \ar@{-->}[ur]_{\mathrm{Ran}_KF}}\qquad\qquad\qquad \xymatrix{ \mathsf{C} \ar[rr]^F \ar[dr]_K & \ar@{}[d]|(.4){\Uparrow\delta} & \mathsf{E} \ar@{}[dr]|*+{=} & \mathsf{C} \ar[rr]^F \ar[dr]_K & \ar@{}[d]_(.4){\Uparrow\epsilon} & \mathsf{E} \\ & \mathsf{D} \ar[ur]_G &&  & \mathsf{D} \ar@/^.8pc/[ur]|(.6){\mathrm{Ran}_KF} \ar@/_.8pc/[ur]_G \ar@{}[ur]|(.4){\exists !}|(.55){\Nwarrow}& } $
+
+
+SUGGESTION: right Kan extension
+
+From [Category Theory in Context](https://mathgloss.github.io/MathGloss/context.html)

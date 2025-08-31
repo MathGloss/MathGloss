@@ -1,0 +1,449 @@
+{
+    "NormalizedGCDMonoid": {
+        "docstring": "Normalized GCD monoid: a `CancelCommMonoidWithZero` with normalization and `gcd`\n(greatest common divisor) and `lcm` (least common multiple) operations. In this setting `gcd` and\n`lcm` form a bounded lattice on the associated elements where `gcd` is the infimum, `lcm` is the\nsupremum, `1` is bottom, and `0` is top. The type class focuses on `gcd` and we derive the\ncorresponding `lcm` facts from `gcd`.",
+        "()": [
+            "\u03b1 : Type*"
+        ],
+        "[]": [
+            "CancelCommMonoidWithZero \u03b1"
+        ],
+        "{}": [],
+        "extends": [
+            "NormalizationMonoid \u03b1",
+            "GCDMonoid \u03b1"
+        ]
+    },
+    "DivisionSemiring": {
+        "docstring": "A `DivisionSemiring` is a `Semiring` with multiplicative inverses for nonzero elements.\n\nAn instance of `DivisionSemiring K` includes maps `nnratCast : \u211a\u22650 \u2192 K` and `nnqsmul : \u211a\u22650 \u2192 K \u2192 K`.\nThose two fields are needed to implement the `DivisionSemiring K \u2192 Algebra \u211a\u22650 K` instance since we\nneed to control the specific definitions for some special cases of `K` (in particular `K = \u211a\u22650`\nitself). See also note [forgetful inheritance].\n\nIf the division semiring has positive characteristic `p`, our division by zero convention forces\n`nnratCast (1 / p) = 1 / 0 = 0`.",
+        "()": [
+            "K : Type*"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Semiring K",
+            "GroupWithZero K",
+            "NNRatCast K where\n  protected nnratCast"
+        ]
+    },
+    "DivisionRing": {
+        "docstring": "A `DivisionRing` is a `Ring` with multiplicative inverses for nonzero elements.\n\nAn instance of `DivisionRing K` includes maps `ratCast : \u211a \u2192 K` and `qsmul : \u211a \u2192 K \u2192 K`.\nThose two fields are needed to implement the `DivisionRing K \u2192 Algebra \u211a K` instance since we need\nto control the specific definitions for some special cases of `K` (in particular `K = \u211a` itself).\nSee also note [forgetful inheritance]. Similarly, there are maps `nnratCast \u211a\u22650 \u2192 K` and\n`nnqsmul : \u211a\u22650 \u2192 K \u2192 K` to implement the `DivisionSemiring K \u2192 Algebra \u211a\u22650 K` instance.\n\nIf the division ring has positive characteristic `p`, our division by zero convention forces\n`ratCast (1 / p) = 1 / 0 = 0`.",
+        "()": [
+            "K : Type*"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Ring K",
+            "DivInvMonoid K",
+            "Nontrivial K",
+            "NNRatCast K",
+            "RatCast K"
+        ]
+    },
+    "UniqueFactorizationMonoid": {
+        "docstring": "unique factorization monoids.\n\nThese are defined as `CancelCommMonoidWithZero`s with well-founded strict divisibility\nrelations, but this is equivalent to more familiar definitions:\n\nEach element (except zero) is uniquely represented as a multiset of irreducible factors.\nUniqueness is only up to associated elements.\n\nEach element (except zero) is non-uniquely represented as a multiset\nof prime factors.\n\nTo define a UFD using the definition in terms of multisets\nof irreducible factors, use the definition `of_existsUnique_irreducible_factors`\n\nTo define a UFD using the definition in terms of multisets\nof prime factors, use the definition `of_exists_prime_factors`",
+        "()": [
+            "\u03b1 : Type*"
+        ],
+        "[]": [
+            "CancelCommMonoidWithZero \u03b1"
+        ],
+        "{}": [],
+        "extends": [
+            "IsWellFounded \u03b1 DvdNotUnit"
+        ]
+    },
+    "PseudoMetricSpace": {
+        "docstring": "Pseudo metric and Metric spaces\n\nA pseudo metric space is endowed with a distance for which the requirement `d(x,y)=0 \u2192 x = y` might\nnot hold. A metric space is a pseudo metric space such that `d(x,y)=0 \u2192 x = y`.\nEach pseudo metric space induces a canonical `UniformSpace` and hence a canonical\n`TopologicalSpace` This is enforced in the type class definition, by extending the `UniformSpace`\nstructure. When instantiating a `PseudoMetricSpace` structure, the uniformity fields are not\nnecessary, they will be filled in by default. In the same way, each (pseudo) metric space induces a\n(pseudo) emetric space structure. It is included in the structure, but filled in by default.",
+        "()": [
+            "\u03b1 : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Dist \u03b1"
+        ]
+    },
+    "ConnectedSpace": {
+        "docstring": "A connected space is a nonempty one where there is no non-trivial open partition.",
+        "()": [
+            "\u03b1 : Type u"
+        ],
+        "[]": [
+            "TopologicalSpace \u03b1"
+        ],
+        "{}": [],
+        "extends": [
+            "PreconnectedSpace \u03b1"
+        ]
+    },
+    "EuclideanDomain": {
+        "docstring": "A `EuclideanDomain` is a non-trivial commutative ring with a division and a remainder,\n  satisfying `b * (a / b) + a % b = a`.\n  The definition of a Euclidean domain usually includes a valuation function `R \u2192 \u2115`.\n  This definition is slightly generalised to include a well founded relation\n  `r` with the property that `r (a % b) b`, instead of a valuation.",
+        "()": [
+            "R : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "CommRing R",
+            "Nontrivial R"
+        ]
+    },
+    "IsCancelMul": {
+        "docstring": "A mixin for cancellative multiplication.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [
+            "Mul G"
+        ],
+        "{}": [],
+        "extends": [
+            "IsLeftCancelMul G",
+            "IsRightCancelMul G"
+        ]
+    },
+    "IsCancelAdd": {
+        "docstring": "A mixin for cancellative addition.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [
+            "Add G"
+        ],
+        "{}": [],
+        "extends": [
+            "IsLeftCancelAdd G",
+            "IsRightCancelAdd G"
+        ]
+    },
+    "Semigroup": {
+        "docstring": "A semigroup is a type with an associative `(*)`.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Mul G"
+        ]
+    },
+    "AddSemigroup": {
+        "docstring": "An additive semigroup is a type with an associative `(+)`.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Add G"
+        ]
+    },
+    "AddCommMagma": {
+        "docstring": "A commutative additive magma is a type with an addition which commutes.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Add G"
+        ]
+    },
+    "CommMagma": {
+        "docstring": "A commutative multiplicative magma is a type with a multiplication which commutes.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Mul G"
+        ]
+    },
+    "CommSemigroup": {
+        "docstring": "A commutative semigroup is a type with an associative commutative `(*)`.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Semigroup G",
+            "CommMagma G"
+        ]
+    },
+    "AddCommSemigroup": {
+        "docstring": "A commutative additive semigroup is a type with an associative commutative `(+)`.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "AddSemigroup G",
+            "AddCommMagma G"
+        ]
+    },
+    "LeftCancelSemigroup": {
+        "docstring": "A `LeftCancelSemigroup` is a semigroup such that `a * b = a * c` implies `b = c`.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Semigroup G where\n  protected mul_left_cancel"
+        ]
+    },
+    "AddLeftCancelSemigroup": {
+        "docstring": "An `AddLeftCancelSemigroup` is an additive semigroup such that\n`a + b = a + c` implies `b = c`.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "AddSemigroup G where\n  protected add_left_cancel"
+        ]
+    },
+    "RightCancelSemigroup": {
+        "docstring": "A `RightCancelSemigroup` is a semigroup such that `a * b = c * b` implies `a = c`.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Semigroup G where\n  protected mul_right_cancel"
+        ]
+    },
+    "AddRightCancelSemigroup": {
+        "docstring": "An `AddRightCancelSemigroup` is an additive semigroup such that\n`a + b = c + b` implies `a = c`.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "AddSemigroup G where\n  protected add_right_cancel"
+        ]
+    },
+    "MulOneClass": {
+        "docstring": "Typeclass for expressing that a type `M` with multiplication and a one satisfies\n`1 * a = a` and `a * 1 = a` for all `a : M`.",
+        "()": [
+            "M : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "One M",
+            "Mul M"
+        ]
+    },
+    "AddZeroClass": {
+        "docstring": "Typeclass for expressing that a type `M` with addition and a zero satisfies\n`0 + a = a` and `a + 0 = a` for all `a : M`.",
+        "()": [
+            "M : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Zero M",
+            "Add M"
+        ]
+    },
+    "AddMonoid": {
+        "docstring": "An `AddMonoid` is an `AddSemigroup` with an element `0` such that `0 + a = a + 0 = a`.",
+        "()": [
+            "M : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "AddSemigroup M",
+            "AddZeroClass M"
+        ]
+    },
+    "Monoid": {
+        "docstring": "A `Monoid` is a `Semigroup` with an element `1` such that `1 * a = a * 1 = a`.",
+        "()": [
+            "M : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Semigroup M",
+            "MulOneClass M"
+        ]
+    },
+    "InvolutiveNeg": {
+        "docstring": "Auxiliary typeclass for types with an involutive `Neg`.",
+        "()": [
+            "A : Type*"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Neg A where\n  protected neg_neg"
+        ]
+    },
+    "InvolutiveInv": {
+        "docstring": "Auxiliary typeclass for types with an involutive `Inv`.",
+        "()": [
+            "G : Type*"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Inv G where\n  protected inv_inv"
+        ]
+    },
+    "DivInvMonoid": {
+        "docstring": "A `DivInvMonoid` is a `Monoid` with operations `/` and `\u207b\u00b9` satisfying\n`div_eq_mul_inv : \u2200 a b, a / b = a * b\u207b\u00b9`.\n\nThis deduplicates the name `div_eq_mul_inv`.\nThe default for `div` is such that `a / b = a * b\u207b\u00b9` holds by definition.\n\nAdding `div` as a field rather than defining `a / b := a * b\u207b\u00b9` allows us to\navoid certain classes of unification failures, for example:\nLet `Foo X` be a type with a `\u2200 X, Div (Foo X)` instance but no\n`\u2200 X, Inv (Foo X)`, e.g. when `Foo X` is a `EuclideanDomain`. Suppose we\nalso have an instance `\u2200 X [Cromulent X], GroupWithZero (Foo X)`. Then the\n`(/)` coming from `GroupWithZero.div` cannot be definitionally equal to\nthe `(/)` coming from `Foo.Div`.\n\nIn the same way, adding a `zpow` field makes it possible to avoid definitional failures\nin diamonds. See the definition of `Monoid` and Note [forgetful inheritance] for more\nexplanations on this.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Monoid G",
+            "Inv G",
+            "Div G where\n  protected div"
+        ]
+    },
+    "SubNegMonoid": {
+        "docstring": "A `SubNegMonoid` is an `AddMonoid` with unary `-` and binary `-` operations\nsatisfying `sub_eq_add_neg : \u2200 a b, a - b = a + -b`.\n\nThe default for `sub` is such that `a - b = a + -b` holds by definition.\n\nAdding `sub` as a field rather than defining `a - b := a + -b` allows us to\navoid certain classes of unification failures, for example:\nLet `foo X` be a type with a `\u2200 X, Sub (Foo X)` instance but no\n`\u2200 X, Neg (Foo X)`. Suppose we also have an instance\n`\u2200 X [Cromulent X], AddGroup (Foo X)`. Then the `(-)` coming from\n`AddGroup.sub` cannot be definitionally equal to the `(-)` coming from\n`Foo.Sub`.\n\nIn the same way, adding a `zsmul` field makes it possible to avoid definitional failures\nin diamonds. See the definition of `AddMonoid` and Note [forgetful inheritance] for more\nexplanations on this.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "AddMonoid G",
+            "Neg G",
+            "Sub G where\n  protected sub"
+        ]
+    },
+    "NegZeroClass": {
+        "docstring": "Typeclass for expressing that `-0 = 0`.",
+        "()": [
+            "G : Type*"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Zero G",
+            "Neg G where\n  protected neg_zero"
+        ]
+    },
+    "InvOneClass": {
+        "docstring": "Typeclass for expressing that `1\u207b\u00b9 = 1`.",
+        "()": [
+            "G : Type*"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "One G",
+            "Inv G where\n  protected inv_one"
+        ]
+    },
+    "SubtractionMonoid": {
+        "docstring": "A `SubtractionMonoid` is a `SubNegMonoid` with involutive negation and such that\n`-(a + b) = -b + -a` and `a + b = 0 \u2192 -a = b`.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "SubNegMonoid G",
+            "InvolutiveNeg G"
+        ]
+    },
+    "DivisionMonoid": {
+        "docstring": "A `DivisionMonoid` is a `DivInvMonoid` with involutive inversion and such that\n`(a * b)\u207b\u00b9 = b\u207b\u00b9 * a\u207b\u00b9` and `a * b = 1 \u2192 a\u207b\u00b9 = b`.\n\nThis is the immediate common ancestor of `Group` and `GroupWithZero`.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "DivInvMonoid G",
+            "InvolutiveInv G"
+        ]
+    },
+    "Group": {
+        "docstring": "A `Group` is a `Monoid` with an operation `\u207b\u00b9` satisfying `a\u207b\u00b9 * a = 1`.\n\nThere is also a division operation `/` such that `a / b = a * b\u207b\u00b9`,\nwith a default so that `a / b = a * b\u207b\u00b9` holds by definition.\n\nUse `Group.ofLeftAxioms` or `Group.ofRightAxioms` to define a group structure\non a type with the minimum proof obligations.",
+        "()": [
+            "G : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "DivInvMonoid G where\n  protected inv_mul_cancel"
+        ]
+    },
+    "AddGroup": {
+        "docstring": "An `AddGroup` is an `AddMonoid` with a unary `-` satisfying `-a + a = 0`.\n\nThere is also a binary operation `-` such that `a - b = a + -b`,\nwith a default so that `a - b = a + -b` holds by definition.\n\nUse `AddGroup.ofLeftAxioms` or `AddGroup.ofRightAxioms` to define an\nadditive group structure on a type with the minimum proof obligations.",
+        "()": [
+            "A : Type u"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "SubNegMonoid A where\n  protected neg_add_cancel"
+        ]
+    },
+    "MeasureSpace": {
+        "docstring": "A measure space is a measurable space equipped with a\n  measure, referred to as `volume`.",
+        "()": [
+            "\u03b1 : Type*"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "MeasurableSpace \u03b1 where\n  volume"
+        ]
+    },
+    "Distrib": {
+        "docstring": "A typeclass stating that multiplication is left and right distributive\nover addition.",
+        "()": [
+            "R : Type*"
+        ],
+        "[]": [],
+        "{}": [],
+        "extends": [
+            "Mul R",
+            "Add R"
+        ]
+    },
+    "HasDistribNeg": {
+        "docstring": "Typeclass for a negation operator that distributes across multiplication.\n\nThis is useful for dealing with submonoids of a ring that contain `-1` without having to duplicate\nlemmas.",
+        "()": [
+            "\u03b1 : Type*"
+        ],
+        "[]": [
+            "Mul \u03b1"
+        ],
+        "{}": [],
+        "extends": [
+            "InvolutiveNeg \u03b1"
+        ]
+    },
+    "IsDomain": {
+        "docstring": "A domain is a nontrivial semiring such that multiplication by a non zero element\nis cancellative on both sides. In other words, a nontrivial semiring `R` satisfying\n`\u2200 {a b c : R}, a \u2260 0 \u2192 a * b = a * c \u2192 b = c` and\n`\u2200 {a b c : R}, b \u2260 0 \u2192 a * b = c * b \u2192 a = c`.\n\nThis is implemented as a mixin for `Semiring \u03b1`.\nTo obtain an integral domain use `[CommRing \u03b1] [IsDomain \u03b1]`.",
+        "()": [
+            "\u03b1 : Type u"
+        ],
+        "[]": [
+            "Semiring \u03b1"
+        ],
+        "{}": [],
+        "extends": [
+            "IsCancelMulZero \u03b1",
+            "Nontrivial \u03b1"
+        ]
+    }
+}
