@@ -1,0 +1,32 @@
+body { font-family: system-ui, Arial, sans-serif; margin: 20px; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 10px; }
+.toolbar .group { display: flex; align-items: center; gap: 8px; }
+.toolbar label { font-size: 0.95rem; }
+.toolbar button { padding: 6px 10px; font-size: 0.95rem; cursor: pointer; }
+.toolbar input[type="text"] { padding: 6px 8px; font-size: 0.95rem; min-width: 260px; }
+.toolbar .note { color: #666; font-size: 0.9rem; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 12px; table-layout: fixed; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+th { background: #f6f6f6; position: sticky; top: 0; z-index: 1; cursor: pointer; }
+tr:nth-child(even) { background: #fafafa; }
+
+.controls { margin: 10px 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.toggle-column { margin-right: 12px; font-size: 0.9rem; }
+
+.hidden { display: none; }
+
+.sort-ind { font-size: 0.8em; color: #888; margin-left: 4px; }
+
+/* Column resize handle */
+th { position: sticky; }
+th .col-resizer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 6px;
+  height: 100%;
+  cursor: col-resize;
+  user-select: none;
+}
+th .col-resizer:hover { background: rgba(0,0,0,0.06); }

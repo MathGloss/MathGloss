@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MathGloss</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  </head>
+  <body>
+    <h1>MathGloss 2</h1>
+    <div class="toolbar">
+      <div class="group">
+        <input id="search" type="text" placeholder="Search label or sources..." />
+        <span id="counts" class="note"></span>
+      </div>
+      <div class="group">
+        <label><input type="checkbox" id="hide-nlab-only"> Hide nLab-only</label>
+      </div>
+    </div>
+
+    <div id="toggle-buttons" class="controls"></div>
+    <table id="glossary">
+      <colgroup id="colgroup"></colgroup>
+      <thead><tr id="headers"></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+
+    <script>
+      function escapeHtml(s) { return s ? s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c])) : ''; }
+
+      let fullData = [];
+      let filteredData = [];
+      let headersAll = [];
+      let headersDisplay = [];
+      let sortState = { col: null, dir: 1 };
+      let visibleCols = {};
+      let sourceCols = [];
+
+      function detectSources(hdrs) {
+        return hdrs.filter(h => h.endsWith(' Name')).map(h => h.slice(0, -5));
+      }
+
+      function parseCsvAt(path, onOk, onErr){
+        Papa.parse(path, {
+          download: true,
+          header: true,
+          dynamicTyping: false,
+          skipEmptyLines: true,
+          complete: (results) => onOk(results),
+          error: (err) => onErr(err)
+        });
+      }
+
+      function loadDataset(which) {
+        // Always load pruned dataset; include robust path fallbacks for GitHub Pages project path
+        const file = 'database_pruned.csv';
+        const here = window.location.pathname || '';
+        let baseFromWeb = null;
+        const idx = here.lastIndexOf('/web/');
+        if (idx >= 0) {
+          baseFromWeb = here.substring(0, idx); // e.g., /.../mathgloss-2
+        }
+        const candidates = [];
+        if (baseFromWeb) candidates.push(`${baseFromWeb}/data/${file}`);
+        candidates.push('data/' + file);
+        candidates.push('../data/' + file);
+        document.getElementById('counts').textContent = 'Loading…';
+        let tried = [];
+        const tryNext = () => {
+          if (!candidates.length) {
+            const msg = 'Load error: tried ' + tried.join(', ');
+            console.error(msg);
+            document.getElementById('counts').textContent = msg;
+            return;
+          }
+          const path = candidates.shift();
+          tried.push(path);
+          parseCsvAt(path, (results) => {
+            fullData = results.data;
+            // assign stable row indices (1-based) that do not change with sorting
+            fullData.forEach((r, i) => { r.__idx = i + 1; });
+            headersAll = Object.keys(fullData[0] || {});
+            // Display all columns except raw Link columns and the internal __idx helper
+            headersDisplay = ['Index', ...headersAll.filter(h => !h.endsWith(' Link') && h !== '__idx')];
+            sourceCols = detectSources(headersAll);
+            if (Object.keys(visibleCols).length === 0) {
+              headersDisplay.forEach((h, i) => visibleCols[i] = true);
+            }
+            buildHeader();
+            applyFilters();
+          }, (err) => {
+            console.warn('CSV load error for', path, err);
+            tryNext();
+          });
+        };
+        tryNext();
+      }
+
+      function buildHeader() {
+        const thead = document.getElementById('headers');
+        thead.innerHTML = '';
+        const toggleWrap = document.getElementById('toggle-buttons');
+        toggleWrap.innerHTML = '';
+        // Build/refresh colgroup to match columns
+        const cg = document.getElementById('colgroup');
+        if (cg) {
+          cg.innerHTML = '';
+          colWidths = headersDisplay.map(() => null);
+          headersDisplay.forEach(() => {
+            const col = document.createElement('col');
+            cg.appendChild(col);
+          });
+          // Make the Index column skinny by default
+          if (headersDisplay.length > 0 && headersDisplay[0] === 'Index') {
+            colWidths[0] = 48; // px
+          }
+        }
+        headersDisplay.forEach((h, i) => {
+          const th = document.createElement('th');
+          th.dataset.col = i;
+          const displayName = h === 'Index' ? '#' : (h.endsWith(' Name') ? h.slice(0, -5) : h);
+          th.innerHTML = escapeHtml(displayName) + '<span class="sort-ind"></span>';
+          const res = document.createElement('span');
+          res.className = 'col-resizer';
+          res.addEventListener('mousedown', (e) => startResize(e, i));
+          th.appendChild(res);
+          th.addEventListener('click', () => onSort(i));
+          thead.appendChild(th);
+
+          if (h.endsWith(' Name') || h === 'Wikidata ID' || h === 'Wikidata Label') {
+            const label = document.createElement('label');
+            label.className = 'toggle-column';
+            const cb = document.createElement('input');
+            cb.type = 'checkbox';
+            cb.checked = visibleCols[i] !== false;
+            cb.addEventListener('change', () => { visibleCols[i] = cb.checked; renderRows(); });
+            label.appendChild(cb);
+            label.appendChild(document.createTextNode(' ' + displayName));
+            toggleWrap.appendChild(label);
+          }
+        });
+        applyColWidths();
+      }
+
+      function onSort(colIdx) {
+        if (sortState.col === colIdx) sortState.dir *= -1; else { sortState.col = colIdx; sortState.dir = 1; }
+        renderRows();
+      }
+
+      function rowMatchesFilters(row, q) {
+        // text search
+        if (q) {
+          const hay = headersDisplay.map(h => (row[h] || '')).join(' ').toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        // nLab-only (optional toggle)
+        const hideNlabEl = document.getElementById('hide-nlab-only');
+        const hideNlabOnly = hideNlabEl && hideNlabEl.checked;
+        if (hideNlabOnly) {
+          const nlab = (row['nLab Name'] || row['nLab Link'] || '').trim() !== '';
+          if (nlab) {
+            const others = sourceCols.filter(s => s !== 'nLab');
+            const othersHave = others.some(s => (row[s + ' Name'] || row[s + ' Link'] || '').trim() !== '');
+            if (!othersHave) return false;
+          }
+        }
+        return true;
+      }
+
+      function applyFilters() {
+        const q = (document.getElementById('search').value || '').toLowerCase().trim();
+        filteredData = fullData.filter(r => rowMatchesFilters(r, q));
+        renderRows();
+      }
+
+      function renderRows() {
+        const tbody = document.getElementById('rows');
+        tbody.innerHTML = '';
+        let data = filteredData.slice();
+        if (sortState.col != null) {
+          const idx = sortState.col;
+          const key = headersDisplay[idx];
+          data.sort((a, b) => {
+            const av = (a[key] || '').toString();
+            const bv = (b[key] || '').toString();
+            if (av === bv) return 0;
+            return av < bv ? -sortState.dir : sortState.dir;
+          });
+        }
+        data.forEach((row) => {
+          const tr = document.createElement('tr');
+          headersDisplay.forEach((h, i) => {
+            const td = document.createElement('td');
+            td.style.display = visibleCols[i] === false ? 'none' : '';
+            const val = row[h] || '';
+            if (h === 'Index') {
+              td.textContent = row.__idx || '';
+            } else if (h === 'Wikidata ID' && val) {
+              const url = `https://www.wikidata.org/wiki/${encodeURIComponent(val)}`;
+              td.innerHTML = `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(val)}</a>`;
+            } else if (h === 'Wikidata Label') {
+              // Show label as plain text (no hyperlink)
+              td.textContent = val;
+            } else if (h.endsWith(' Name')) {
+              const base = h.slice(0, -5);
+              const linkKey = base + ' Link';
+              const link = row[linkKey];
+              if (val && link) {
+                td.innerHTML = `<a href="${escapeHtml(link)}" target="_blank" rel="noopener">${escapeHtml(val)}</a>`;
+              } else {
+                td.textContent = val;
+              }
+            } else {
+              td.textContent = val;
+            }
+            tr.appendChild(td);
+          });
+          tbody.appendChild(tr);
+        });
+        document.getElementById('counts').textContent = `${data.length} shown of ${fullData.length}`;
+        // update sort indicator
+        const ths = document.querySelectorAll('#headers th');
+        ths.forEach((th, i) => {
+          const span = th.querySelector('.sort-ind');
+          span.textContent = (sortState.col === i) ? (sortState.dir > 0 ? '▲' : '▼') : '';
+        });
+        applyColWidths();
+      }
+
+      function applyColWidths() {
+        const cg = document.getElementById('colgroup');
+        if (!cg) return;
+        const cols = cg.querySelectorAll('col');
+        cols.forEach((c, i) => {
+          const w = colWidths[i];
+          c.style.width = (w && w > 0) ? w + 'px' : '';
+        });
+      }
+
+      function startResize(e, colIdx) {
+        e.preventDefault();
+        e.stopPropagation();
+        const th = document.querySelector(`#headers th[data-col='${colIdx}']`);
+        const startX = e.clientX;
+        const startW = th ? th.getBoundingClientRect().width : 120;
+        const minW = 60;
+        const onMove = (ev) => {
+          const dx = ev.clientX - startX;
+          const newW = Math.max(minW, Math.round(startW + dx));
+          colWidths[colIdx] = newW;
+          applyColWidths();
+        };
+        const onUp = () => {
+          window.removeEventListener('mousemove', onMove);
+          window.removeEventListener('mouseup', onUp);
+        };
+        window.addEventListener('mousemove', onMove);
+        window.addEventListener('mouseup', onUp);
+      }
+
+      // Wire controls
+      document.addEventListener('input', (e) => {
+        if (e.target && e.target.id === 'search') {
+          applyFilters();
+        }
+      });
+      document.addEventListener('change', (e) => {
+        if (e.target && e.target.id === 'hide-nlab-only') {
+          applyFilters();
+        }
+      });
+
+      // Column toggles are always visible under the table header
+
+      // Initial load (pruned dataset)
+      loadDataset('pruned');
+    </script>
+  </body>
+  </html>
