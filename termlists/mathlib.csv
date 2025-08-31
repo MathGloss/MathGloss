@@ -1,0 +1,357 @@
+title,link,suggestion
+vector space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Module/Defs.html#Module,vector space
+product of vector spaces,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Module/Prod.html#Prod.instModule,Product of vector space
+vector subspace,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Module/Submodule/Basic.html#Subspace,Vector subspace
+quotient space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Quotient/Defs.html#Submodule.hasQuotient,quotient space
+sum of subspaces,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Module/Submodule/Lattice.html#Submodule.completeLattice,Sum of subspace
+direct sum,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/DirectSum/Basic.html#DirectSum.IsInternal,Direct sum
+complementary subspaces,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Basis/VectorSpace.html#Submodule.exists_isCompl,complementary subspace
+linear independence,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/LinearIndependent.html#LinearIndependent,linear independence
+generating sets,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Span/Defs.html#Submodule.span,Generating set
+bases,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Basis/Defs.html#Basis,Base
+existence of bases,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Basis/VectorSpace.html#Basis.ofVectorSpace,Existence of a basis
+linear map,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Module/LinearMap/Defs.html#LinearMap,linear map
+range of a linear map,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Module/Submodule/Range.html#LinearMap.range,range of a linear map
+kernel of a linear map,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Module/Submodule/Ker.html#LinearMap.ker,kernel of a linear map
+algebra of endomorphisms of a vector space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Algebra/Basic.html#Module.End.instAlgebra,Algebra of endomorphism of a vector space
+general linear group,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/GeneralLinearGroup.html#LinearMap.GeneralLinearGroup,General Linear Group
+dual vector space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Dual.html#Module.Dual,Dual vector space
+dual basis,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Dual.html#Basis.dualBasis,Dual basis
+transpose of a linear map,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Dual.html#Module.Dual.transpose,transpose of a linear map
+finite-dimensionality,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/FiniteDimensional/Defs.html#FiniteDimensional,finite-dimensional
+isomorphism with $K^n$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Basis/Defs.html#Basis.equivFun,isomorphism with $K^n$
+rank of a linear map,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Dimension/LinearMap.html#LinearMap.rank,Rank of a linear map
+rank of a set of vectors,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Dimension/Constructions.html#Set.finrank,Rank of a vector
+isomorphism with bidual,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Dual.html#Module.evalEquiv,Isomorphism with bidual
+multilinear map,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Multilinear/Basic.html#MultilinearMap,Multilinear map
+determinant of vectors,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Determinant.html#Basis.det,determinant of vector
+determinant of endomorphisms,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Determinant.html#LinearMap.det,Determinant of endomorphism
+orientation of a $\R$-vector space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Orientation.html#Orientation,orientation of a $\R$-vector space
+commutative-ring-valued matrices,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Matrix/Defs.html#Matrix,Commutative-ring-valued matrix
+field-valued matrices,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Matrix/Defs.html#Matrix,Field-valued matrix
+matrix representation of a linear map,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Matrix/ToLin.html#LinearMap.toMatrix,Matrix representation of a linear map
+change of basis,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Matrix/Basis.html#basis_toMatrix_mul_linearMap_toMatrix_mul_basis_toMatrix,change of basis
+rank of a matrix,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Matrix/Rank.html#Matrix.rank,Rank of a matrix
+determinant,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Matrix/Determinant/Basic.html#Matrix.det,Determinant
+invertibility,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Matrix/NonsingularInverse.html#Matrix.inv,Invertibility
+annihilating polynomials,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/AnnihilatingPolynomial.html#Polynomial.annIdeal,annihilating polynomial
+minimal polynomial,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/FieldTheory/Minpoly/Basic.html#minpoly,Minimal polynomial
+characteristic polynomial,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Matrix/Charpoly/Basic.html#Matrix.charpoly,Characteristic Polynomial
+Cayley-Hamilton theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Matrix/Charpoly/Basic.html#Matrix.aeval_self_charpoly,Cayley-Hamilton theorem
+eigenvalue,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Eigenspace/Basic.html#Module.End.HasEigenvalue,eigenvalue
+eigenvector,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Eigenspace/Basic.html#Module.End.HasEigenvector,eigenvector
+generalized eigenspaces,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Eigenspace/Basic.html#Module.End.genEigenspace,Generalized eigenspace
+Jordan-Chevalley-Dunford decomposition,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/JordanChevalley.html#Module.End.exists_isNilpotent_isSemisimple,Jordan-Chevalley-Dunford decomposition
+Schur's lemma,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RepresentationTheory/FDRep.html#FDRep.finrank_hom_simple_simple,Schur's lemma
+matrix exponential,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Algebra/Exponential.html#NormedSpace.exp,Matrix exponential
+group,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Group/Defs.html#Group,group
+group morphism,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Group/Hom/Defs.html#MonoidHom,group morphism
+direct product of groups,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Group/Prod.html#Prod.instGroup,Direct product of a group
+subgroup,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Group/Subgroup/Defs.html#Subgroup,Subgroup
+subgroup generated by a subset,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Group/Subgroup/Lattice.html#Subgroup.closure,Subgroup generated by a subset
+order of an element,https://leanprover-community.github.io//mathlib4_docs/group_theory/order_of_element.html,order of an element
+normal subgroup,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Group/Subgroup/Defs.html#Subgroup.Normal,normal subgroup
+quotient group,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/GroupTheory/QuotientGroup/Defs.html#QuotientGroup.Quotient.group,quotient group
+group action,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Group/Action/Defs.html#MulAction,group action
+stabilizer of a point,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/GroupTheory/GroupAction/Defs.html#MulAction.stabilizer,Stabilizer of a point
+orbit,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/GroupTheory/GroupAction/Defs.html#MulAction.orbit,orbit
+quotient space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/GroupTheory/GroupAction/Quotient.html#MulAction.orbitEquivQuotientStabilizer,quotient space
+class formula,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/GroupTheory/GroupAction/Quotient.html#MulAction.selfEquivSigmaOrbitsQuotientStabilizer,class formula
+conjugacy classes,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Group/Conj.html#ConjClasses,Conjugacy class
+cyclic group,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Group/Defs.html#IsCyclic,Cyclic group
+finite type abelian groups,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/GroupTheory/FiniteAbelian/Basic.html#AddCommGroup.equiv_free_prod_directSum_zmod,Finite type abelian group
+complex roots of unity,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/RootsOfUnity/Complex.html#Complex.mem_rootsOfUnity,Complex root of unity
+primitive complex roots of unity,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/RootsOfUnity/Complex.html#Complex.isPrimitiveRoot_iff,Primitive complex root of unity
+permutation group of a type,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Logic/Equiv/Defs.html#Equiv.Perm,Permutation group
+decomposition into transpositions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/GroupTheory/Perm/Sign.html#Equiv.Perm.truncSwapFactors,decomposition into transposition
+decomposition into cycles with disjoint support,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/GroupTheory/Perm/Cycle/Factors.html#Equiv.Perm.truncCycleFactors,decomposition into a cycle with disjoint support
+signature,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/GroupTheory/Perm/Sign.html#Equiv.Perm.sign,Signature
+alternating group,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/GroupTheory/SpecificGroups/Alternating.html#alternatingGroup,Alternating group
+general linear group,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/GeneralLinearGroup.html#LinearMap.GeneralLinearGroup,General Linear Group
+special linear group,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Matrix/SpecialLinearGroup.html#Matrix.SpecialLinearGroup,Special Linear Group
+orthogonal group,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/UnitaryGroup.html#Matrix.orthogonalGroup,Orthogonal group
+unitary group,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/UnitaryGroup.html#Matrix.unitaryGroup,Unitary group
+Maschke theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RepresentationTheory/Maschke.html#MonoidAlgebra.Submodule.exists_isCompl,Maschke's theorem
+orthogonality of irreducible characters,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RepresentationTheory/Character.html#FDRep.char_orthonormal,Orthogonality of irreducible character
+characters of a finite dimensional representation,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RepresentationTheory/Character.html#FDRep.character,Character of a finite dimensional representation
+ring,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Ring/Defs.html#Ring,Ring
+subrings,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Ring/Subring/Defs.html#Subring,Subring
+ring morphisms,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Ring/Hom/Defs.html#RingHom,ring morphism
+ring structure $\Z$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Ring/Int/Defs.html#Int.instCommRing,ring structure $\mathbb{Z}$
+product of rings,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Ring/Pi.html#Pi.ring,product of a ring
+ideal of a commutative ring,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Ideal/Defs.html#Ideal,ideal of a commutative ring
+quotient rings,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Ideal/Quotient/Defs.html#Ideal.instHasQuotient,quotient ring
+prime ideals,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Ideal/Prime.html#Ideal.IsPrime,prime ideal
+maximal ideals,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Ideal/Maximal.html#Ideal.IsMaximal,maximal ideal
+Chinese remainder theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Ideal/Quotient/Operations.html#Ideal.quotientInfRingEquivPiQuotient,Chinese remainder theorem
+associative algebra over a commutative ring,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Algebra/Defs.html#Algebra,Associative algebra over a commutative ring
+irreducible elements,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Prime/Defs.html#Irreducible,Irreducible element
+invertible elements,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Group/Invertible/Defs.html#Invertible,Invertible element
+coprime elements,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Coprime/Basic.html#IsCoprime,Coprime element
+unique factorisation domain (UFD),https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/UniqueFactorizationDomain/Defs.html#UniqueFactorizationMonoid,Unique factorisation domain
+greatest common divisor,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/GCDMonoid/Basic.html#GCDMonoid.gcd,greatest common divisor
+least common multiple,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/GCDMonoid/Basic.html#GCDMonoid.lcm,Least common multiple
+$A[{X_i}]$ is a UFD when $A$ is a UFD,$ is a UFD when $A$ is a UFD]https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Polynomial/UniqueFactorization.html#MvPolynomial.uniqueFactorizationMonoid,$A[X_i]$ is a UFD when $A$ is a UFD
+principal ideal domain,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Span/Defs.html#Submodule.IsPrincipal,Principal ideal domain
+Euclidean rings,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/EuclideanDomain/Defs.html#EuclideanDomain,Euclidean ring
+Euclid's' algorithm,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Int/GCD.html#Nat.xgcd,Euclid's algorithm
+$\Z$ is a euclidean ring,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/EuclideanDomain/Int.html#Int.euclideanDomain,$\Z$ is a Euclidean ring
+congruence in $\Z$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Int/ModEq.html#Int.ModEq,Congruence in $\mathbb{Z}$
+prime numbers,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Prime/Defs.html#Prime,prime number
+Bézout's identity,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/PrincipalIdealDomain.html#exists_gcd_eq_mul_add_mul,Bézout's identity
+$\Z/n\Z$ and its invertible elements,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/ZMod/Basic.html#ZMod.unitOfCoprime,$\Z/n\Z$ and its invertible element
+Euler's totient function ($\varphi$),https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Nat/Totient.html#Nat.totient,Euler's totient function ($\varphi$)
+$K[X]$ is a euclidean ring when $K$ is a field,$ is a euclidean ring when $K$ is a field]https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Polynomial/FieldDivision.html#Polynomial.instEuclideanDomain,$K[X]$ is a Euclidean ring when $K$ is a field.
+irreducible polynomial,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Prime/Defs.html#Irreducible,Irreducible polynomial
+cyclotomic polynomials in $\Q[X]$,$]https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Polynomial/Cyclotomic/Basic.html#Polynomial.cyclotomic,Cyclotomic polynomial in $\Q[X]$
+Eisenstein's criterion,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/EisensteinCriterion.html#Polynomial.irreducible_of_eisenstein_criterion,Eisenstein's criterion
+polynomial algebra in one or several indeterminates over a commutative ring,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/MvPolynomial/Basic.html#MvPolynomial,Polynomial algebra in one indeterminate over a commutative ring
+roots of a polynomial,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Polynomial/Roots.html#Polynomial.roots,Root of a polynomial
+multiplicity,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Polynomial/Div.html#Polynomial.rootMultiplicity,Multiplicity
+relationship between the coefficients and the roots of a split polynomial,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Polynomial/Vieta.html#Polynomial.coeff_eq_esymm_roots_of_card,Relationship between the coefficient and the root of a split polynomial
+Newton's identities,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/MvPolynomial/Symmetric/NewtonIdentities.html#MvPolynomial.mul_esymm_eq_sum,Newton's identity
+polynomial derivative,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Polynomial/Derivative.html#Polynomial.derivative,Polynomial derivative
+decomposition into sums of homogeneous polynomials,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/MvPolynomial/Homogeneous.html#MvPolynomial.sum_homogeneousComponent,decomposition into sum of homogeneous polynomial
+symmetric polynomials,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/MvPolynomial/Symmetric/Defs.html#MvPolynomial.IsSymmetric,Symmetric Polynomial
+fields,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Field/Defs.html#Field,Field
+characteristic of a ring,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/CharP/Defs.html#ringChar,Characteristic of a ring
+characteristic zero,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/CharZero/Defs.html#CharZero,characteristic zero
+characteristic p,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/CharP/Defs.html#CharP,Characteristic p
+Subfields,https://leanprover-community.github.io//mathlib4_docs/field_theory/subfield.html,Subfield
+Frobenius morphisms,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/CharP/Lemmas.html#frobenius,Frobenius morphism
+field $\Q$ of rational numbers,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Field/Rat.html#Rat.instField,Field $\Q$
+field $\R$ of real numbers,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Real/Basic.html#Real.field,field $\mathbb{R}$
+field $\C$ of complex numbers,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Complex/Basic.html#Complex.instField,Field $\C$
+$\C$ is algebraically closed,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Complex/Polynomial/Basic.html#Complex.exists_root,Algebraically closed
+field of fractions of an integral domain,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Localization/FractionRing.html#IsFractionRing,Field of fractions of an integral domain
+algebraic elements,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Algebraic/Defs.html#IsAlgebraic,Algebraic element
+transcendental elements,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Algebraic/Defs.html#Transcendental,Transcendental element
+algebraic extensions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/Algebraic/Defs.html#Algebra.IsAlgebraic,algebraic extension
+algebraically closed fields,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/FieldTheory/IsAlgClosed/Basic.html#IsAlgClosed,Algebraically closed field
+rupture fields,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/RingTheory/AdjoinRoot.html#AdjoinRoot,rupture field
+splitting fields,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/FieldTheory/SplittingField/Construction.html#Polynomial.SplittingField,Splitting field
+finite fields,https://leanprover-community.github.io//mathlib4_docs/field_theory/finite.html,finite field
+rational fraction fields with one indeterminate over a field,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/FieldTheory/RatFunc/Defs.html#RatFunc,Rational fraction field with one indeterminate over a field
+bilinear forms,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/BilinearMap.html#LinearMap.BilinForm,Bilinear form
+alternating bilinear forms,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/BilinearForm/Properties.html#LinearMap.BilinForm.IsAlt,alternating bilinear form
+symmetric bilinear forms,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/BilinearForm/Properties.html#LinearMap.BilinForm.IsSymm,symmetric bilinear form
+nondegenerate forms,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/BilinearForm/Properties.html#LinearMap.BilinForm.Nondegenerate,nondegenerate form
+matrix representation,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Matrix/BilinearForm.html#BilinForm.toMatrix,matrix representation
+change of coordinates,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Matrix/BilinearForm.html#BilinForm.toMatrix_comp,change of coordinate
+quadratic form,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/QuadraticForm/Basic.html#QuadraticForm,Quadratic form
+polar form of a quadratic,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/QuadraticForm/Basic.html#QuadraticMap.polar,Polar form of a quadratic
+orthogonal elements,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/BilinearForm/Orthogonal.html#LinearMap.BilinForm.IsOrtho,Orthogonal element
+adjoint endomorphism,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/BilinearForm/Properties.html#LinearMap.BilinForm.leftAdjointOfNondegenerate,Adjoint endomorphism
+Gram-Schmidt orthogonalisation,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/GramSchmidtOrtho.html#gramSchmidt_orthogonal,Gram-Schmidt orthogonalization
+Euclidean vector spaces,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Defs.html#InnerProductSpace,Euclidean vector space
+Hermitian vector spaces,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Defs.html#InnerProductSpace,Hermitian vector space
+dual isomorphism in the euclidean case,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Dual.html#InnerProductSpace.toDual,Dual isomorphism in the Euclidean case
+orthogonal complement,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Orthogonal.html#Submodule.orthogonal,Orthogonal complement
+Cauchy-Schwarz inequality,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Basic.html#inner_mul_inner_self_le,Cauchy-Schwarz inequality
+norm,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Defs.html#InnerProductSpace.Core.toNorm,norm
+orthonormal bases,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Projection.html#maximal_orthonormal_iff_basis_of_finiteDimensional,Orthonormal basis
+orthogonal group,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/UnitaryGroup.html#Matrix.orthogonalGroup,Orthogonal group
+unitary group,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/UnitaryGroup.html#Matrix.unitaryGroup,Unitary group
+self-adjoint endomorphism,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Star/SelfAdjoint.html#IsSelfAdjoint,Self-adjoint endomorphism
+diagonalization of a self-adjoint endomorphism,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Spectrum.html#LinearMap.IsSymmetric.eigenvectorBasis_apply_self_apply,diagonalization of a self-adjoint endomorphism
+decomposition of an orthogonal transformation as a product of reflections,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Projection.html#LinearIsometryEquiv.reflections_generate,decomposition of an orthogonal transformation as a product of reflection
+cross product,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/CrossProduct.html#crossProduct,cross product
+triple product,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/CrossProduct.html#triple_product_eq_det,Triple product
+affine space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/AddTorsor.html#AddTorsor,Affine space
+affine function,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/AffineSpace/AffineMap.html#AffineMap,Affine function
+affine subspace,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/AffineSpace/AffineSubspace.html#AffineSubspace,Affine subspace
+barycenter,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/AffineSpace/Combination.html#Finset.affineCombination,Barycenter
+affine span,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/AffineSpace/AffineSubspace.html#affineSpan,Affine span
+affine groups,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/AffineSpace/AffineEquiv.html#AffineEquiv.group,Affine group
+convex subsets,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Convex/Basic.html#Convex,Convex subset
+convex hull of a subset of an affine real space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Convex/Hull.html#convexHull,Convex hull of a subset of an affine real space
+extreme point,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Convex/Extreme.html#Set.extremePoints,Extreme point
+isometries of a Euclidean affine space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Affine/Isometry.html#AffineIsometryEquiv,Isometry of a Euclidean affine space
+group of isometries of a Euclidean affine space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Affine/Isometry.html#AffineIsometryEquiv.instGroup,Isometry
+angles between vectors,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Geometry/Euclidean/Angle/Unoriented/Basic.html#InnerProductGeometry.angle,angle between vectors
+cocyclicity,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Geometry/Euclidean/Sphere/Basic.html#EuclideanGeometry.Concyclic,Cocyclicity
+definition of $\R$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Real/Basic.html#Real,Definition of $\mathbb{R}$
+field structure,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Real/Basic.html#Real.field,Field structure
+order,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Real/Basic.html#Real.linearOrder,order
+convergence,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Order/Filter/Defs.html#Filter.Tendsto,Convergence
+limit point,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Defs/Filter.html#MapClusterPt,Limit point
+recurrent sequences,https://leanprover-community.github.io//mathlib4_docs/./Init/Prelude.html#Nat,Recurrent sequence
+limit infimum and supremum,https://leanprover-community.github.io//mathlib4_docs/order/liminf_limsup.html,Limit infimum and supremum
+Cauchy sequences,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/UniformSpace/Cauchy.html#CauchySeq,Cauchy sequence
+metric structure,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/MetricSpace/Basic.html#Real.metricSpace,Metric structure
+completeness of R,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Instances/Real.html#Real.instCompleteSpace,completeness of R
+Bolzano-Weierstrass theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/MetricSpace/Sequences.html#tendsto_subseq_of_bounded,Bolzano-Weierstrass theorem
+compact subsets of $\R$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/MetricSpace/Bounded.html#Metric.isCompact_iff_isClosed_bounded,Compact subset of $\R$
+connected subsets of $\R$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Order/IntermediateValue.html#setOf_isPreconnected_eq_of_ordered,connected subset of $\R$
+additive subgroups of $\R$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Algebra/Order/Archimedean.html#AddSubgroup.dense_or_cyclic,Additive subgroup of $\R$
+Geometric series,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/SpecificLimits/Normed.html#tsum_geometric_of_norm_lt_one,Geometric series
+convergence of $p$-series for $p>1$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/PSeries.html#Real.summable_one_div_nat_rpow,Convergence of $p$-series for $p>1$
+alternating series,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/SpecificLimits/Normed.html#Antitone.tendsto_alternating_series_of_tendsto_zero,alternating series
+continuity,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Defs/Basic.html#Continuous,Continuity
+limits,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Order/Filter/Defs.html#Filter.Tendsto,Limit
+intermediate value theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Order/IntermediateValue.html#intermediate_value_Icc,Intermediate Value Theorem
+image of a segment,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Order/Compact.html#ContinuousOn.image_Icc,image of a segment
+continuity of monotone functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Order/MonotoneContinuity.html#OrderIso.continuous,Continuity of monotonic function
+continuity of inverse functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Order/MonotoneContinuity.html#OrderIso.toHomeomorph,Continuity of inverse function
+derivative at a point,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/Deriv/Basic.html#HasDerivAt,derivative at a point
+differentiable functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/Deriv/Basic.html#HasDerivAt,"Dthe term ""differentiable functions"" is already in the singular form."
+derivative of a composition of functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/Deriv/Comp.html#deriv_comp,derivative of a composition of function
+derivative of the inverse of a function,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/Deriv/Inverse.html#HasStrictDerivAt.of_local_left_inverse,derivative of the inverse of a function
+Rolle's theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/LocalExtr/Rolle.html#exists_deriv_eq_zero,Rolle's theorem
+mean value theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/MeanValue.html#exists_ratio_deriv_eq_ratio_slope,Mean Value Theorem
+higher order derivatives of functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/IteratedDeriv/Defs.html#iteratedDeriv,Higher order derivative of a function
+$C^k$ functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/ContDiff/Defs.html#ContDiff,$C^k$ function
+Leibniz formula,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/Deriv/Mul.html#deriv_mul,Leibniz's formula
+Taylor's theorem with Lagrange form for remainder,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/Taylor.html#taylor_mean_remainder_lagrange,Taylor's theorem with Lagrange form for remainder
+polynomial functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Algebra/Polynomial/Eval/Defs.html#Polynomial.eval,Pol……
+rational functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/FieldTheory/RatFunc/AsPolynomial.html#RatFunc.eval,Rational function
+logarithms,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/SpecialFunctions/Log/Basic.html#Real.log,logarithm
+exponential,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Complex/Exponential.html#Real.exp,exponential
+power functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/SpecialFunctions/Pow/Real.html#Real.rpow,power function
+trigonometric functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Complex/Exponential.html#Real.sin,Trigonometric function
+hyperbolic trigonometric functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Complex/Exponential.html#Real.sinh,Hyperbolic function
+inverse trigonometric functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/SpecialFunctions/Trigonometric/Inverse.html#Real.arcsin,Inverse trigonometric function
+inverse hyperbolic trigonometric functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/SpecialFunctions/Arsinh.html#Real.arsinh,Inverse Hyperbolic Trigonometric Function
+Riemann sums,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/BoxIntegral/Basic.html#BoxIntegral.integralSum,Riemann sum
+antiderivative of a continuous function,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Integral/FundThmCalculus.html#Continuous.deriv_integral,antiderivative of a continuous function
+change of variable,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Integral/FundThmCalculus.html#intervalIntegral.integral_comp_smul_deriv,Change of variable
+integration by parts,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Integral/FundThmCalculus.html#intervalIntegral.integral_mul_deriv_eq_deriv_mul,Integration by part
+pointwise convergence,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Constructions.html#tendsto_pi_nhds,pointwise convergence
+uniform convergence,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/UniformSpace/UniformConvergence.html#TendstoUniformly,Uniform convergence
+continuity of the limit of a sequence of functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/UniformSpace/UniformConvergence.html#continuous_of_uniform_approx_of_continuous,Continuity of the limit of a sequence
+continuity of the sum of a series of functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/NormedSpace/FunctionSeries.html#continuous_tsum,Continuity of the sum of a series of functions
+differentiability of the limit of a sequence of functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/UniformLimitsDeriv.html#hasFDerivAt_of_tendstoUniformly,Differentiability of the limit of a sequence of functions
+differentiability of the sum of a series of functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/SmoothSeries.html#differentiable_tsum,Differentiability of the sum of a series of functions
+Weierstrass polynomial approximation theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/ContinuousMap/Weierstrass.html#polynomialFunctions_closure_eq_top,Weierstrass polynomial approximation theorem
+Weierstrass trigonometric approximation theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Fourier/AddCircle.html#span_fourier_closure_eq_top,Weierstrass approximation theorem
+convex functions of a real variable,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Convex/Function.html#ConvexOn,Convex function
+continuity,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Convex/Continuous.html#ConvexOn.continuousOn,Continuity
+characterizations of convexity,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Convex/Deriv.html#convexOn_of_deriv2_nonneg,Characterization of convexity
+convexity inequalities,https://leanprover-community.github.io//mathlib4_docs/analysis/mean_inequalities.html,Convexity inequality
+radius of convergence,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Analytic/Basic.html#FormalMultilinearSeries.radius,radius of convergence
+continuity,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Analytic/Basic.html#HasFPowerSeriesOnBall.continuousOn,Continuity
+differentiability with respect to the complex variable,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/FDeriv/Analytic.html#HasFPowerSeriesOnBall.differentiableOn,Differentiability with respect to the complex variable
+complex exponential,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Complex/Exponential.html#Complex.exp,Complex exponential
+cos,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Complex/Exponential.html#Complex.cos,cosine
+sin,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Data/Complex/Exponential.html#Complex.sin,sin
+cos,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/SpecialFunctions/Trigonometric/Series.html#Complex.hasSum_cos,cos
+sin,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/SpecialFunctions/Trigonometric/Series.html#Complex.hasSum_sin,sin
+holomorphic functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/FDeriv/Basic.html#DifferentiableOn,Holomorphic function
+Cauchy formulas,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Complex/CauchyIntegral.html#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable,Cauchy formula
+analyticity of a holomorphic function,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Complex/CauchyIntegral.html#DifferentiableOn.analyticAt,Analyticity of a holomorphic function
+principle of isolated zeros,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Analytic/IsolatedZeros.html#AnalyticAt.eventually_eq_zero_or_eventually_ne_zero,Principle of isolated zero
+principle of analytic continuation,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Analytic/IsolatedZeros.html#AnalyticOnNhd.eqOn_of_preconnected_of_frequently_eq,Principle of Analytic Continuation
+maximum principle,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Complex/AbsMax.html#Complex.eventually_eq_of_isLocalMax_norm,Maximum principle
+holomorphic stability under uniform convergence,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Complex/LocallyUniformLimit.html#TendstoLocallyUniformlyOn.differentiableOn,Holomorphic stability under uniform convergence
+topology of a metric space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/MetricSpace/Pseudo/Defs.html#Metric.isOpen_iff,Topology of a metric space
+induced topology,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Defs/Induced.html#TopologicalSpace.induced,induced topology
+finite product of metric spaces,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/MetricSpace/Basic.html#metricSpacePi,finite product of metric space
+limits of sequences,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/MetricSpace/Pseudo/Defs.html#Metric.tendsto_atTop,limit of a sequence
+cluster points,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Defs/Filter.html#ClusterPt,cluster point
+continuous functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Defs/Basic.html#Continuous,Continuous function
+homeomorphisms,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Homeomorph.html#Homeomorph,homeomorphism
+compactness in terms of open covers (Borel-Lebesgue),https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Compactness/Compact.html#isCompact_iff_finite_subcover,Compactness in terms of open covers (Borel-Lebesgue)
+sequential compactness is equivalent to compactness (Bolzano-Weierstrass),https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Sequences.html#UniformSpace.isCompact_iff_isSeqCompact,Sequential compactness is equivalent to compactness (Bolzano-Weierstrass)
+connectedness,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Connected/Basic.html#ConnectedSpace,connectedness
+connected components,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Connected/Basic.html#connectedComponent,Connected component
+path connectedness,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Connected/PathConnected.html#IsPathConnected,Path connectedness
+Lipschitz functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/EMetricSpace/Lipschitz.html#LipschitzWith,Lipschitz function
+uniformly continuous functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/MetricSpace/Pseudo/Defs.html#Metric.uniformContinuous_iff,Uniformly continuous function
+Heine-Cantor theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/UniformSpace/HeineCantor.html#CompactSpace.uniformContinuous_of_continuous,Heine-Cantor theorem
+complete metric spaces,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/MetricSpace/Cauchy.html#Metric.complete_of_cauchySeq_tendsto,complete metric space
+contraction mapping theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/MetricSpace/Contracting.html#ContractingWith.exists_fixedPoint,Contraction Mapping Theorem
+topology on a normed vector space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Module/Basic.html#NormedSpace.boundedSMul,topology on a normed vector space
+Banach open mapping theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Operator/Banach.html#ContinuousLinearMap.isOpenMap,Banach open mapping theorem
+equivalence of norms in finite dimension,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Algebra/Module/FiniteDimension.html#LinearEquiv.toContinuousLinearEquiv,Equivalence of norm in finite dimension
+norms $\lVert\cdot\rVert_p$ on $\R^n$ and $\C^n$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Lp/PiLp.html#PiLp.normedSpace,norm $\lVert\cdot\rVert_p$ on $\R^n$ and $\C^n$
+absolutely convergent series in Banach spaces,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Group/InfiniteSum.html#Summable.of_norm,Absolutely convergent series in Banach space
+continuous linear maps,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/Algebra/Module/LinearMap.html#ContinuousLinearMap,Continuous linear map
+norm of a continuous linear map,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Operator/ContinuousLinearMap.html#LinearMap.mkContinuous,norm of a continuous linear map
+uniform convergence norm (sup-norm),https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/EMetricSpace/Basic.html#EMetric.tendstoUniformlyOn_iff,Uniform convergence norm (sup-norm)
+normed space of bounded continuous functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/ContinuousMap/Bounded/Basic.html#BoundedContinuousFunction.instNormedSpace,normed space of bounded continuous function
+completeness of the space of bounded continuous functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/ContinuousMap/Bounded/Basic.html#BoundedContinuousFunction.instCompleteSpace,Completeness of the space of bounded continuous function
+Heine-Borel theorem (closed bounded subsets are compact in finite dimension),https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Module/FiniteDimension.html#FiniteDimensional.proper,Heine-Borel theorem
+Riesz' lemma (unit-ball characterization of finite dimension),https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Module/FiniteDimension.html#FiniteDimensional.of_isCompact_closedBall,Riesz' lemma
+Arzela-Ascoli theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Topology/ContinuousMap/Bounded/Basic.html#BoundedContinuousFunction.arzela_ascoli,Arzela-Ascoli theorem
+Hilbert projection theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Projection.html#exists_norm_eq_iInf_of_complete_convex,Hilbert projection theorem
+orthogonal projection onto closed vector subspaces,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Projection.html#orthogonalProjection,Orthogonal projection onto a closed vector subspace
+dual space,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Module/Dual.html#NormedSpace.Dual,Dual space
+Riesz representation theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/Dual.html#InnerProductSpace.toDual,Riesz representation theorem
+inner product space $l^2$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/l2Space.html#lp.instInnerProductSpace,inner product space
+completeness of $l^2$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Normed/Lp/lpSpace.html#lp.completeSpace,Completeness of $l^2$
+inner product space $L^2$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Function/L2Space.html#MeasureTheory.L2.innerProductSpace,inner product space $L^2$
+completeness of $L^2$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Function/LpSpace.html#MeasureTheory.Lp.instCompleteSpace,Completeness of $L^2$
+Hilbert bases,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/l2Space.html#HilbertBasis,Hilbert basis
+"example, the Hilbert basis of trigonometric polynomials",https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Fourier/AddCircle.html#fourierBasis,Hilbert basis
+Lax-Milgram theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/InnerProductSpace/LaxMilgram.html#IsCoercive.continuousLinearEquivOfBilin,Lax-Milgram theorem
+differentiable functions on an open subset of $\R^n$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/FDeriv/Basic.html#DifferentiableOn,Differentiable function on an open subset of $\R^n$
+differentials (linear tangent functions),https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/FDeriv/Basic.html#fderiv,Differential (linear tangent function)
+chain rule,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/FDeriv/Comp.html#fderiv.comp,chain rule
+mean value theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/MeanValue.html#exists_ratio_deriv_eq_ratio_slope,Mean Value Theorem
+differentiable functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/FDeriv/Basic.html#Differentiable,Differentiable function
+$k$-times continuously differentiable functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/ContDiff/Defs.html#ContDiff,$k$-times continuously differentiable function
+partial derivatives commute,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/FDeriv/Symmetric.html#second_derivative_symmetric,partial derivative
+local extrema,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/LocalExtr/Basic.html#IsLocalMin.fderiv_eq_zero,Local extremum
+convexity of functions on an open convex subset of $\R^n$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Convex/Function.html#ConvexOn,Convexity of a function on an open convex subset of $\R^n$
+diffeomorphisms,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Geometry/Manifold/ChartedSpace.html#Structomorph,Diffeomorphism
+inverse function theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/InverseFunctionTheorem/Deriv.html#HasStrictDerivAt.to_localInverse,Inverse Function Theorem
+implicit function theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/Implicit.html#ImplicitFunctionData.implicitFunction,Implicit function theorem
+Cauchy-Lipschitz Theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/ODE/PicardLindelof.html#IsPicardLindelof.exists_forall_hasDerivWithinAt_Icc_eq,Cauchy-Lipschitz Theorem
+Grönwall lemma,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/ODE/Gronwall.html#norm_le_gronwallBound_of_norm_deriv_right_le,Grönwall lemma
+measurable spaces,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/MeasurableSpace/Defs.html#MeasurableSpace,Measurable space
+sigma-algebras,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/MeasurableSpace/Defs.html#MeasurableSpace,Sigma-algebra
+product of sigma-algebras,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/MeasurableSpace/Basic.html#MeasurableSpace.pi,product of sigma-algebra
+Borel sigma-algebras,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Constructions/BorelSpace/Basic.html#BorelSpace,Borel sigma-algebra
+positive measure,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Measure/MeasureSpaceDef.html#MeasureTheory.Measure,Positive measure
+counting measure,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Measure/Count.html#MeasureTheory.Measure.count,Counting Measure
+Lebesgue measure,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Measure/MeasureSpaceDef.html#MeasureTheory.MeasureSpace,Lebesgue measure
+product measure,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/MeasurableSpace/Basic.html#MeasurableSpace.pi,product measure
+measurable functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/MeasurableSpace/Defs.html#Measurable,measurable function
+approximation by step functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Function/SimpleFuncDense.html#MeasureTheory.SimpleFunc.tendsto_approxOn,approximation by step function
+integral of positive measurable functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Integral/Lebesgue.html#MeasureTheory.lintegral,integral of positive measurable function
+monotone convergence theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Integral/Lebesgue.html#MeasureTheory.lintegral_iInf_ae,Monotone Convergence Theorem
+Fatou's lemma,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Integral/Lebesgue.html#MeasureTheory.lintegral_liminf_le,Fatou's lemma
+integrable functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Function/L1Space.html#MeasureTheory.Integrable,Integrable function
+dominated convergence theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Integral/DominatedConvergence.html#MeasureTheory.tendsto_integral_of_dominated_convergence,Dominated convergence theorem
+finite dimensional vector-valued integrable functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Function/L1Space.html#MeasureTheory.Integrable,finite dimensional vector-valued integrable function
+continuity of integrals with respect to parameters,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Integral/DominatedConvergence.html#intervalIntegral.continuous_of_dominated_interval,Continuity of integral with respect to parameter
+$\mathrm{L}^p$ spaces where $1 ≤ p ≤ ∞$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Function/LpSpace.html#MeasureTheory.Lp,$\mathrm{L}^p$ space where $1 ≤ p ≤ ∞$
+Completeness of $\mathrm{L}^p$ spaces,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Function/LpSpace.html#MeasureTheory.Lp.instCompleteSpace,Completeness of $\mathrm{L}^p$ space
+Holder's inequality,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Integral/MeanInequalities.html#NNReal.lintegral_mul_le_Lp_mul_Lq,Holder's Inequality
+Fubini's theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Integral/Prod.html#MeasureTheory.integral_prod,Fubini's theorem
+change of variables for multiple integrals,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Function/Jacobian.html#MeasureTheory.integral_image_eq_integral_abs_det_fderiv_smul,Change of variables for integral
+change of variables to polar co-ordinates,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/SpecialFunctions/PolarCoord.html#integral_comp_polarCoord_symm,change of variable to polar coordinates
+convolution,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Convolution.html#MeasureTheory.convolution,Convolution
+approximation by convolution,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Calculus/BumpFunction/Convolution.html#ContDiffBump.convolution_tendsto_right,approximation by convolution
+regularization by convolution,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Convolution.html#HasCompactSupport.contDiff_convolution_left,Regularization by convolution
+Fourier series of locally integrable periodic real-valued functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Fourier/AddCircle.html#fourierBasis,Fourier series of locally integrable periodic real-valued function
+Riemann-Lebesgue lemma,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Fourier/RiemannLebesgueLemma.html#tendsto_integral_exp_smul_cocompact,Riemann-Lebesgue lemma
+Parseval theorem,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Fourier/AddCircle.html#tsum_sq_fourierCoeff,Parseval's theorem
+Fourier transform on $\mathrm{L}^1(\R^d)$,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Fourier/FourierTransform.html#Real.fourierIntegral,Fourier transform on $\mathrm{L}^1(\R^d)$
+Fourier inversion formula,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Fourier/Inversion.html#Continuous.fourier_inversion,Fourier inversion formula
+probability measure,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Measure/Typeclasses.html#MeasureTheory.IsProbabilityMeasure,probability measure
+events,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/MeasurableSpace/Defs.html#MeasurableSet,Event
+independent events,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/Independence/Basic.html#ProbabilityTheory.iIndepSet,independent event
+sigma-algebra,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/MeasurableSpace/Defs.html#MeasurableSpace,Sigma-algebra
+independent sigma-algebra,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/Independence/Basic.html#ProbabilityTheory.iIndep,Independent Sigma-Algebra
+$0$-$1$ law,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/Independence/ZeroOne.html#ProbabilityTheory.measure_zero_or_one_of_measurableSet_limsup_atTop,The $0$-$1$ law
+Borel-Cantelli lemma (easy direction),https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/OuterMeasure/BorelCantelli.html#MeasureTheory.measure_limsup_eq_zero,Borel-Cantelli lemma (easy direction)
+Borel-Cantelli lemma (difficult direction),https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/BorelCantelli.html#ProbabilityTheory.measure_limsup_eq_one,Borel-Cantelli lemma (difficult direction)
+conditional probability,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/ConditionalProbability.html#ProbabilityTheory.cond,Conditional Probability
+discrete law,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/ProbabilityMassFunction/Basic.html#PMF,Discrete law
+probability density function,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/Density.html#MeasureTheory.HasPDF,probability density function
+independence of random variables,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/Independence/Basic.html#ProbabilityTheory.iIndepFun,independence of random variable
+mean of a random variable,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Integral/Bochner.html#MeasureTheory.integral,mean of a random variable
+variance of a real-valued random variable,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/Variance.html#ProbabilityTheory.variance,Variance of a real-valued random variable
+moments,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/Moments.html#ProbabilityTheory.moment,Moment
+Bernoulli law,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/ProbabilityMassFunction/Constructions.html#PMF.bernoulli,Bernoulli's law
+convergence in probability,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Function/ConvergenceInMeasure.html#MeasureTheory.TendstoInMeasure,Convergence in probability
+$\mathrm{L}^p$ convergence,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Function/LpSpace.html#MeasureTheory.Lp,$\mathrm{L}^p$ convergence
+almost surely convergence,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/OuterMeasure/AE.html#MeasureTheory.ae,almost sure convergence
+Markov inequality,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/MeasureTheory/Integral/Lebesgue.html#MeasureTheory.mul_meas_ge_le_lintegral,Markov inequality
+Chebychev inequality,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/Variance.html#ProbabilityTheory.meas_ge_le_variance_div_sq,Chebyshev inequality
+strong law of large numbers,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Probability/StrongLaw.html#ProbabilityTheory.strong_law_ae,Strong law of large numbers
+Schwartz space of rapidly decreasing functions,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Distribution/SchwartzSpace.html#SchwartzMap,Schwartz space of rapidly decreasing function
+stability by derivation,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/Analysis/Distribution/SchwartzSpace.html#SchwartzMap.fderivCLM,Stability
+Lagrange interpolation,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Lagrange.html#Lagrange.interpolate,Lagrange interpolation
+Lagrange polynomial of a function at (n + 1) points,https://leanprover-community.github.io//mathlib4_docs/./Mathlib/LinearAlgebra/Lagrange.html#Lagrange.interpolate,Lagrange polynomial at (n + 1) points
