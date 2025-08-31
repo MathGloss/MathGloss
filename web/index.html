@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MathGloss 2</title>
+    <title>MathGloss</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
   </head>
@@ -14,7 +14,9 @@
         <input id="search" type="text" placeholder="Search label or sources..." />
         <span id="counts" class="note"></span>
       </div>
-      <div class="group" id="source-filters"></div>
+      <div class="group">
+        <label><input type="checkbox" id="hide-nlab-only"> Hide nLab-only</label>
+      </div>
     </div>
 
     <div id="toggle-buttons" class="controls"></div>
@@ -51,7 +53,7 @@
       }
 
       function loadDataset(which) {
-        // Always load pruned dataset; include robust path fallbacks under mathgloss-2/
+        // Always load pruned dataset; include robust path fallbacks for GitHub Pages project path
         const file = 'database_pruned.csv';
         const here = window.location.pathname || '';
         let baseFromWeb = null;
@@ -61,10 +63,8 @@
         }
         const candidates = [];
         if (baseFromWeb) candidates.push(`${baseFromWeb}/data/${file}`);
-        candidates.push('/mathgloss-2/data/' + file); // absolute from server root
-        candidates.push('mathgloss-2/data/' + file);  // relative folder
-        candidates.push('../data/' + file);
         candidates.push('data/' + file);
+        candidates.push('../data/' + file);
         document.getElementById('counts').textContent = 'Loading…';
         let tried = [];
         const tryNext = () => {
@@ -81,13 +81,13 @@
             // assign stable row indices (1-based) that do not change with sorting
             fullData.forEach((r, i) => { r.__idx = i + 1; });
             headersAll = Object.keys(fullData[0] || {});
-            headersDisplay = ['Index', ...headersAll.filter(h => !h.endsWith(' Link'))];
+            // Display all columns except raw Link columns and the internal __idx helper
+            headersDisplay = ['Index', ...headersAll.filter(h => !h.endsWith(' Link') && h !== '__idx')];
             sourceCols = detectSources(headersAll);
             if (Object.keys(visibleCols).length === 0) {
               headersDisplay.forEach((h, i) => visibleCols[i] = true);
             }
             buildHeader();
-            buildSourceFilters();
             applyFilters();
           }, (err) => {
             console.warn('CSV load error for', path, err);
@@ -111,6 +111,10 @@
             const col = document.createElement('col');
             cg.appendChild(col);
           });
+          // Make the Index column skinny by default
+          if (headersDisplay.length > 0 && headersDisplay[0] === 'Index') {
+            colWidths[0] = 48; // px
+          }
         }
         headersDisplay.forEach((h, i) => {
           const th = document.createElement('th');
@@ -124,36 +128,19 @@
           th.addEventListener('click', () => onSort(i));
           thead.appendChild(th);
 
-          const label = document.createElement('label');
-          label.className = 'toggle-column';
-          const cb = document.createElement('input');
-          cb.type = 'checkbox';
-          cb.checked = visibleCols[i] !== false;
-          cb.addEventListener('change', () => { visibleCols[i] = cb.checked; renderRows(); });
-          label.appendChild(cb);
-          label.appendChild(document.createTextNode(' ' + displayName));
-          toggleWrap.appendChild(label);
+          if (h.endsWith(' Name') || h === 'Wikidata ID' || h === 'Wikidata Label') {
+            const label = document.createElement('label');
+            label.className = 'toggle-column';
+            const cb = document.createElement('input');
+            cb.type = 'checkbox';
+            cb.checked = visibleCols[i] !== false;
+            cb.addEventListener('change', () => { visibleCols[i] = cb.checked; renderRows(); });
+            label.appendChild(cb);
+            label.appendChild(document.createTextNode(' ' + displayName));
+            toggleWrap.appendChild(label);
+          }
         });
         applyColWidths();
-      }
-
-      function buildSourceFilters() {
-        const wrap = document.getElementById('source-filters');
-        wrap.innerHTML = '';
-        if (sourceCols.length) {
-          wrap.appendChild(document.createTextNode('Sources:'));
-        }
-        sourceCols.forEach(src => {
-          const label = document.createElement('label');
-          const cb = document.createElement('input');
-          cb.type = 'checkbox';
-          cb.value = src;
-          cb.checked = false;
-          cb.addEventListener('change', applyFilters);
-          label.appendChild(cb);
-          label.appendChild(document.createTextNode(' ' + src));
-          wrap.appendChild(label);
-        });
       }
 
       function onSort(colIdx) {
@@ -161,30 +148,29 @@
         renderRows();
       }
 
-      function getActiveSourceFilters() {
-        const wrap = document.getElementById('source-filters');
-        const cbs = [...wrap.querySelectorAll('input[type=checkbox]')];
-        return cbs.filter(cb => cb.checked).map(cb => cb.value);
-      }
-
-      function rowMatchesFilters(row, q, requireSources) {
+      function rowMatchesFilters(row, q) {
         // text search
         if (q) {
           const hay = headersDisplay.map(h => (row[h] || '')).join(' ').toLowerCase();
           if (!hay.includes(q)) return false;
         }
-        // source presence
-        if (requireSources.length) {
-          const hasAny = requireSources.some(src => (row[src + ' Name'] || row[src + ' Link'] || '').trim() !== '');
-          if (!hasAny) return false;
+        // nLab-only (optional toggle)
+        const hideNlabEl = document.getElementById('hide-nlab-only');
+        const hideNlabOnly = hideNlabEl && hideNlabEl.checked;
+        if (hideNlabOnly) {
+          const nlab = (row['nLab Name'] || row['nLab Link'] || '').trim() !== '';
+          if (nlab) {
+            const others = sourceCols.filter(s => s !== 'nLab');
+            const othersHave = others.some(s => (row[s + ' Name'] || row[s + ' Link'] || '').trim() !== '');
+            if (!othersHave) return false;
+          }
         }
         return true;
       }
 
       function applyFilters() {
         const q = (document.getElementById('search').value || '').toLowerCase().trim();
-        const requireSources = getActiveSourceFilters();
-        filteredData = fullData.filter(r => rowMatchesFilters(r, q, requireSources));
+        filteredData = fullData.filter(r => rowMatchesFilters(r, q));
         renderRows();
       }
 
@@ -280,8 +266,12 @@
         }
       });
       document.addEventListener('change', (e) => {
-        // no-op currently
+        if (e.target && e.target.id === 'hide-nlab-only') {
+          applyFilters();
+        }
       });
+
+      // Column toggles are always visible under the table header
 
       // Initial load (pruned dataset)
       loadDataset('pruned');

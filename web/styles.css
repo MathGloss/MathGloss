@@ -2,6 +2,7 @@ body { font-family: system-ui, Arial, sans-serif; margin: 20px; }
 .toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 10px; }
 .toolbar .group { display: flex; align-items: center; gap: 8px; }
 .toolbar label { font-size: 0.95rem; }
+.toolbar button { padding: 6px 10px; font-size: 0.95rem; cursor: pointer; }
 .toolbar input[type="text"] { padding: 6px 8px; font-size: 0.95rem; min-width: 260px; }
 .toolbar .note { color: #666; font-size: 0.9rem; }
 
@@ -12,6 +13,8 @@ tr:nth-child(even) { background: #fafafa; }
 
 .controls { margin: 10px 0; display: flex; flex-wrap: wrap; gap: 10px; }
 .toggle-column { margin-right: 12px; font-size: 0.9rem; }
+
+.hidden { display: none; }
 
 .sort-ind { font-size: 0.8em; color: #888; margin-left: 4px; }
 
