@@ -193,7 +193,8 @@ def get_attempt_terms(row: dict) -> Tuple[str, List[str]]:
 
 
 def lookup(mapper: WikiMapper, term: str) -> Optional[str]:
-    """Single-result lookup: try domain-suffixed titles, then exact."""
+    """Single-result lookup: try domain-suffixed titles, then exact.
+    """
     base = normalize_title(term)
     # try category-suffixed titles first (in configured order)
     for suffix in WIKI_CATS:
