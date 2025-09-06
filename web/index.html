@@ -8,7 +8,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
   </head>
   <body>
-    <h1>MathGloss 2</h1>
+    <h1>MathGloss</h1>
     <div class="toolbar">
       <div class="group">
         <input id="search" type="text" placeholder="Search label or sources..." />
@@ -53,8 +53,8 @@
       }
 
       function loadDataset(which) {
-        // Always load pruned dataset; include robust path fallbacks for GitHub Pages project path
-        const file = 'database_pruned.csv';
+        // Prefer unpruned (fresh) dataset; fallback to pruned if present but older
+        const files = ['database.csv', 'database_pruned.csv'];
         const here = window.location.pathname || '';
         let baseFromWeb = null;
         const idx = here.lastIndexOf('/web/');
@@ -62,9 +62,12 @@
           baseFromWeb = here.substring(0, idx); // e.g., /.../mathgloss-2
         }
         const candidates = [];
-        if (baseFromWeb) candidates.push(`${baseFromWeb}/data/${file}`);
-        candidates.push('data/' + file);
-        candidates.push('../data/' + file);
+        const withBuster = (u) => u + (u.includes('?') ? '&' : '?') + 'v=' + Date.now();
+        for (const file of files) {
+          if (baseFromWeb) candidates.push(withBuster(`${baseFromWeb}/data/${file}`));
+          candidates.push(withBuster('data/' + file));
+          candidates.push(withBuster('../data/' + file));
+        }
         document.getElementById('counts').textContent = 'Loading…';
         let tried = [];
         const tryNext = () => {
@@ -125,7 +128,13 @@
           res.className = 'col-resizer';
           res.addEventListener('mousedown', (e) => startResize(e, i));
           th.appendChild(res);
-          th.addEventListener('click', () => onSort(i));
+          // Make Index unsortable; all other headers toggle sort
+          if (h !== 'Index') {
+            th.addEventListener('click', () => onSort(i));
+            th.style.cursor = 'pointer';
+          } else {
+            th.style.cursor = 'default';
+          }
           thead.appendChild(th);
 
           if (h.endsWith(' Name') || h === 'Wikidata ID' || h === 'Wikidata Label') {
@@ -144,6 +153,7 @@
       }
 
       function onSort(colIdx) {
+        if (headersDisplay[colIdx] === 'Index') return; // never sort by the Index column
         if (sortState.col === colIdx) sortState.dir *= -1; else { sortState.col = colIdx; sortState.dir = 1; }
         renderRows();
       }
@@ -151,7 +161,11 @@
       function rowMatchesFilters(row, q) {
         // text search
         if (q) {
-          const hay = headersDisplay.map(h => (row[h] || '')).join(' ').toLowerCase();
+          const hay = headersDisplay
+            .filter(h => h !== 'Index')
+            .map(h => (row[h] || ''))
+            .join(' ')
+            .toLowerCase();
           if (!hay.includes(q)) return false;
         }
         // nLab-only (optional toggle)
@@ -188,14 +202,15 @@
             return av < bv ? -sortState.dir : sortState.dir;
           });
         }
-        data.forEach((row) => {
+        data.forEach((row, rowIdx) => {
           const tr = document.createElement('tr');
           headersDisplay.forEach((h, i) => {
             const td = document.createElement('td');
             td.style.display = visibleCols[i] === false ? 'none' : '';
             const val = row[h] || '';
             if (h === 'Index') {
-              td.textContent = row.__idx || '';
+              // Display 1-based row number for current view; not tied to underlying data order
+              td.textContent = String(rowIdx + 1);
             } else if (h === 'Wikidata ID' && val) {
               const url = `https://www.wikidata.org/wiki/${encodeURIComponent(val)}`;
               td.innerHTML = `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(val)}</a>`;
