@@ -4,7 +4,7 @@ Extract a termlist (title,link) from a PDF index (non-LaTeX) by text‑parsing
 the index. You can either provide a page range of the index inside a full book
 PDF, or simply pass an index‑only PDF and let the script parse all its pages.
 
-Requirements: pdfminer.six (pure Python)
+Requirements: pdfminer.six
 
 Usage
   # Full book PDF + index page range

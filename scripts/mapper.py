@@ -192,9 +192,8 @@ def get_attempt_terms(row: dict) -> Tuple[str, List[str]]:
     return title, attempts
 
 
-def lookup(mapper: WikiMapper, term: str, use_collapsed: bool = False) -> Optional[str]:
+def lookup(mapper: WikiMapper, term: str) -> Optional[str]:
     """Single-result lookup: try domain-suffixed titles, then exact.
-    Optionally (use_collapsed=True), try a slow collapsed-key fallback.
     """
     base = normalize_title(term)
     # try category-suffixed titles first (in configured order)
@@ -206,11 +205,6 @@ def lookup(mapper: WikiMapper, term: str, use_collapsed: bool = False) -> Option
     wid = mapper.title_to_id(base)
     if wid:
         return wid
-    # finally, optional collapsed-key match for sluggy sources (e.g., PlanetMath)
-    if use_collapsed:
-        ck = collapse_key(term)
-        if ck:
-            return mapper.title_to_id_normalized(ck)
     return None
 
 
@@ -220,7 +214,7 @@ def write_alignment(out_path: str, source_name: str, rows: List[Tuple[str, str, 
         # Preferred alignment header: Wikidata ID, <SourceName>, <SourceName link>
         w.writerow(['Wikidata ID', f'{source_name}', f'{source_name} link'])
         for qid, name, link in rows:
-            # Write plain QID (e.g., Q181296), no markdown link
+            # Write plain QID
             w.writerow([qid, name, link])
 
 
@@ -231,7 +225,6 @@ def main():
     ap.add_argument('--source', required=True, help='Source name to use as the alignment column header.')
     ap.add_argument('--out', required=True, help='Output alignment CSV path.')
     ap.add_argument('--check-wikidata', action='store_true', help='Call Wikidata API to filter disambiguations/people/theorems. Optional.')
-    ap.add_argument('--collapsed-fallback', action='store_true', help='Enable slow collapsed-key fallback (use for PlanetMath slugs).')
     args = ap.parse_args()
 
     mapper = WikiMapper(args.db)
@@ -245,16 +238,13 @@ def main():
         if 'title' not in cols or 'link' not in cols:
             raise ValueError('Input CSV must have headers: title,link[,suggestion]')
 
-        # only enable collapsed fallback when requested (or implicitly for PlanetMath)
-        use_collapsed = bool(args.collapsed_fallback or (args.source.strip().lower() == 'planetmath'))
-
         for row in reader:
             display_title, attempts = get_attempt_terms(row)
             qid: Optional[str] = None
             for term in attempts:
                 if not term:
                     continue
-                qid_try = lookup(mapper, term, use_collapsed=use_collapsed)
+                qid_try = lookup(mapper, term)
                 if not qid_try:
                     continue
                 if args.check_wikidata and is_filtered_wikidata_entity(qid_try):
