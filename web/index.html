@@ -53,8 +53,7 @@
       }
 
       function loadDataset(which) {
-        // Prefer unpruned (fresh) dataset; fallback to pruned if present but older
-        const files = ['database.csv', 'database_pruned.csv'];
+        const files = ['database_pruned.csv'];
         const here = window.location.pathname || '';
         let baseFromWeb = null;
         const idx = here.lastIndexOf('/web/');
@@ -215,8 +214,13 @@
               const url = `https://www.wikidata.org/wiki/${encodeURIComponent(val)}`;
               td.innerHTML = `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(val)}</a>`;
             } else if (h === 'Wikidata Label') {
-              // Show label as plain text (no hyperlink)
-              td.textContent = val;
+              // If a precomputed Wikipedia Link is present, hyperlink the label
+              const wp = (row['Wikipedia Link'] || '').trim();
+              if (wp) {
+                td.innerHTML = `<a href="${escapeHtml(wp)}" target="_blank" rel="noopener">${escapeHtml(val)}</a>`;
+              } else {
+                td.textContent = val;
+              }
             } else if (h.endsWith(' Name')) {
               const base = h.slice(0, -5);
               const linkKey = base + ' Link';
