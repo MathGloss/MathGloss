@@ -33,6 +33,7 @@ FILTER_P31: Set[str] = {
     'Q5',         # human
     'Q4167410',   # disambiguation page
     'Q22808320',  # human name disambiguation page
+    'Q11448906',  # science award
 #    'Q65943',     # theorem
 #    'Q207505',    # lemma
 #    'Q108163',    # proposition
