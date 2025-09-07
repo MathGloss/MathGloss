@@ -53,41 +53,7 @@ class WikiMapper:
         row = c.fetchone()
         return row[0] if row and row[0] else None
 
-    def title_to_id_normalized(self, collapsed_key: str) -> Optional[str]:
-        """Fallback: match on a collapsed, case-insensitive key that removes
-        spaces/underscores/hyphens/apostrophes/parentheses/commas/periods/asterisks.
-        This helps map sources like PlanetMath where slugs are all-lowercase
-        without spacing (e.g., "abeliangroup").
-
-        Note: This uses a functional index expression in SQLite, so it won't be
-        super fast without an index; acceptable for moderate batch sizes.
-        """
-        expr = (
-            "lower("
-            "replace("
-            "replace("
-            "replace("
-            "replace("
-            "replace("
-            "replace("
-            "replace("
-            "replace("
-            "wikipedia_title,'_',''),"
-            "'-',''),"
-            "' ',''),"
-            "'(',''),"
-            "')',''),"
-            "',',''),"
-            "'.',''),"
-            "'*','')"
-            ")"
-        )
-        c = self.conn.execute(
-            f"SELECT wikidata_id FROM mapping WHERE {expr}=?",
-            (collapsed_key,)
-        )
-        row = c.fetchone()
-        return row[0] if row and row[0] else None
+    # Note: collapsed-key fallback removed for performance and simplicity.
 
     def id_to_titles(self, wikidata_id: str) -> List[str]:
         c = self.conn.execute(
@@ -135,16 +101,7 @@ def normalize_title(s: str) -> str:
     return s[0].upper() + s[1:]
 
 
-def collapse_key(s: str) -> str:
-    """Produce a collapsed, alnum-only lowercase key for fuzzy equality.
-    Example: "C*-algebra" -> "calgebra"; "$p$-adic number" -> "padicnumber".
-    """
-    s = _strip_tex_noise(s)
-    s = s.lower()
-    # Remove spaces/underscores/hyphens/apostrophes/parentheses/commas/periods/asterisks
-    s = re.sub(r"[\s_\-\'’\(\),\.\*]+", "", s)
-    # Optionally drop other punctuation
-    return s
+# Note: collapse_key removed (deprecated)
 
 
 WD_FILTER_IDS = {
