@@ -39,7 +39,7 @@ import sys
 
 # Reuse the mapper class for id_to_titles if available
 try:
-    from mapper import WikiMapper  # type: ignore
+    from scripts.building.mapper import WikiMapper  # type: ignore
 except Exception:  # pragma: no cover
     WikiMapper = None  # fallback handled at runtime
 
