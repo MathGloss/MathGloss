@@ -10,7 +10,7 @@ Examples:
 import argparse
 from typing import List
 
-from mapper import WikiMapper, lookup, WIKI_CATS, normalize_title
+from scripts.building.mapper import WikiMapper, lookup, WIKI_CATS, normalize_title
 
 def test_terms(mapper: WikiMapper, terms: List[str]) -> None:
     for t in terms:

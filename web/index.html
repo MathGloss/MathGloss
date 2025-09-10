@@ -16,6 +16,7 @@
       </div>
       <div class="group">
         <label><input type="checkbox" id="hide-nlab-only"> Hide nLab-only</label>
+        <label><input type="checkbox" id="hide-planetmath-only"> Hide PlanetMath-only</label>
       </div>
     </div>
 
@@ -178,6 +179,17 @@
             if (!othersHave) return false;
           }
         }
+        // PlanetMath-only (optional toggle)
+        const hidePmEl = document.getElementById('hide-planetmath-only');
+        const hidePmOnly = hidePmEl && hidePmEl.checked;
+        if (hidePmOnly) {
+          const pm = (row['PlanetMath Name'] || row['PlanetMath Link'] || '').trim() !== '';
+          if (pm) {
+            const others = sourceCols.filter(s => s !== 'PlanetMath');
+            const othersHave = others.some(s => (row[s + ' Name'] || row[s + ' Link'] || '').trim() !== '');
+            if (!othersHave) return false;
+          }
+        }
         return true;
       }
 
@@ -285,7 +297,7 @@
         }
       });
       document.addEventListener('change', (e) => {
-        if (e.target && e.target.id === 'hide-nlab-only') {
+        if (e.target && (e.target.id === 'hide-nlab-only' || e.target.id === 'hide-planetmath-only')) {
           applyFilters();
         }
       });
