@@ -1,0 +1,335 @@
+Wikidata ID,Title,Link,Label,Layer,Score,Reason,Alternates,Provenance
+Q3041173,group extension,https://emilyriehl.github.io/files/context.pdf#page=19,group extension,layer3.csv,1.000,exact_letters,,layer_match
+Q2495664,universal coefficient theorem,https://emilyriehl.github.io/files/context.pdf#page=19,universal coefficient theorem,layer3.csv,1.000,exact_letters,,layer_match
+Q1144780,homology,https://emilyriehl.github.io/files/context.pdf#page=19,homology,layer3.csv,1.000,exact_letters,Q3092826 (1.000; exact_letters) homology [layer3.csv],layer_match
+Q1198376,cohomology,https://emilyriehl.github.io/files/context.pdf#page=19,cohomology,layer3.csv,1.000,exact_letters,,layer_match
+Q1326955,exact sequence,https://emilyriehl.github.io/files/context.pdf#page=19,exact sequence,layer2.csv,1.000,exact_letters,Q121145075 (0.867; token_jaccard=0.67) short exact sequence [layer5.csv]; Q65122157 (0.867; token_jaccard=0.67) split exact sequence [layer4.csv],layer_match
+Q719395,category,https://emilyriehl.github.io/files/context.pdf#page=21,category,layer2.csv,1.000,exact_letters,,layer_match
+Q671836,arrow,https://emilyriehl.github.io/files/context.pdf#page=21,Arrow,layer5.csv,1.000,exact_letters,,layer_match
+Q1053064,map,https://emilyriehl.github.io/files/context.pdf#page=21,map,layer5.csv,1.000,exact_letters,,layer_match
+Q11235244,domain,https://emilyriehl.github.io/files/context.pdf#page=21,domain,layer3.csv,1.000,exact_letters,Q2851442 (1.000; exact_letters) domain [layer3.csv]; Q3034360 (1.000; exact_letters) Domain [layer5.csv]; Q97798750 (1.000; exact_letters) Domain [layer5.csv],layer_match
+Q199006,codomain,https://emilyriehl.github.io/files/context.pdf#page=21,codomain,layer1.csv,1.000,exact_letters,,layer_match
+Q131580191,identity morphism,https://emilyriehl.github.io/files/context.pdf#page=21,identity morphism,layer4.csv,1.000,exact_letters,,layer_match
+Q179899,topological space,https://emilyriehl.github.io/files/context.pdf#page=22,topological space,layer1.csv,1.000,exact_letters,Q4352436 (0.867; token_jaccard=0.67) finite topological space [layer4.csv]; Q590554 (0.867; token_jaccard=0.67) noetherian topological space [layer5.csv]; Q1139111 (0.867; token_jaccard=0.67) quotient topological space [layer4.csv]; Q114716129 (0.867; token_jaccard=0.67) topological space theory [layer2.csv],layer_match
+Q1142562,signature,https://emilyriehl.github.io/files/context.pdf#page=22,signature,layer1.csv,1.000,exact_letters,Q3483643 (1.000; exact_letters) Signature [layer3.csv]; Q7512811 (1.000; exact_letters) signature [layer2.csv]; Q890478 (1.000; exact_letters) signature [layer5.csv],layer_match
+Q1575634,concrete category,https://emilyriehl.github.io/files/context.pdf#page=22,concrete category,layer1.csv,1.000,exact_letters,Q131071939 (0.867; token_jaccard=0.67) topological concrete category [layer2.csv],layer_match
+Q121088275,basepoint,https://emilyriehl.github.io/files/context.pdf#page=22,basepoint,layer4.csv,1.000,exact_letters,,layer_match
+Q1143328,chain complex,https://emilyriehl.github.io/files/context.pdf#page=22,chain complex,layer2.csv,1.000,exact_letters,,layer_match
+Q1228851,discrete category,https://emilyriehl.github.io/files/context.pdf#page=23,discrete category,layer3.csv,1.000,exact_letters,,layer_match
+Q208237,monoid,https://emilyriehl.github.io/files/context.pdf#page=23,monoid,layer2.csv,1.000,exact_letters,,layer_match
+Q10567583,small category,https://emilyriehl.github.io/files/context.pdf#page=24,small category,layer2.csv,1.000,exact_letters,Q121771058 (0.867; token_jaccard=0.67) locally small category [layer3.csv],layer_match
+Q1331373,cardinal inaccessible,https://emilyriehl.github.io/files/context.pdf#page=24,inaccessible cardinal,layer5.csv,1.000,token_jaccard=1.00,Q12054637 (0.867; token_jaccard=0.67) weakly inaccessible cardinal [layer4.csv],layer_match
+Q1193137,cardinal regular,https://emilyriehl.github.io/files/context.pdf#page=24,regular cardinal,layer3.csv,1.000,token_jaccard=1.00,,layer_match
+Q1465090,Grothendieck universe,https://emilyriehl.github.io/files/context.pdf#page=24,Grothendieck universe,layer1.csv,1.000,exact_letters,,layer_match
+Q121771058,locally small,https://emilyriehl.github.io/files/context.pdf#page=25,locally small category,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q1340800,endo- morphism,https://emilyriehl.github.io/files/context.pdf#page=25,endomorphism,layer2.csv,1.000,exact_letters,,layer_match
+Q782566,automorphism,https://emilyriehl.github.io/files/context.pdf#page=25,automorphism,layer3.csv,1.000,exact_letters,,layer_match
+Q1196038,groupoid,https://emilyriehl.github.io/files/context.pdf#page=25,groupoid,layer3.csv,1.000,exact_letters,,layer_match
+Q83478,group,https://emilyriehl.github.io/files/context.pdf#page=25,group,layer2.csv,1.000,exact_letters,,layer_match
+Q85174068,fundamental groupoid,https://emilyriehl.github.io/files/context.pdf#page=25,fundamental groupoid,layer4.csv,1.000,exact_letters,,layer_match
+Q541563,subcategory,https://emilyriehl.github.io/files/context.pdf#page=26,subcategory,layer1.csv,1.000,exact_letters,,layer_match
+Q426521,co-,https://emilyriehl.github.io/files/context.pdf#page=27,€co,layer5.csv,1.000,exact_letters,,layer_match
+Q7098616,opposite category,https://emilyriehl.github.io/files/context.pdf#page=27,opposite category,layer3.csv,1.000,exact_letters,,layer_match
+Q3117899,opposite group,https://emilyriehl.github.io/files/context.pdf#page=28,Opposite group,layer3.csv,1.000,exact_letters,,layer_match
+Q1945067,monomorphism,https://emilyriehl.github.io/files/context.pdf#page=29,monomorphism,layer4.csv,1.000,exact_letters,,layer_match
+Q1347208,epimorphism,https://emilyriehl.github.io/files/context.pdf#page=29,epimorphism,layer4.csv,1.000,exact_letters,,layer_match
+Q16947425,epic,https://emilyriehl.github.io/files/context.pdf#page=29,Epic,layer5.csv,1.000,exact_letters,Q2700629 (1.000; exact_letters) Epic [layer5.csv],layer_match
+Q56561486,mono,https://emilyriehl.github.io/files/context.pdf#page=29,Mono,layer5.csv,1.000,exact_letters,,layer_match
+Q11703678,section,https://emilyriehl.github.io/files/context.pdf#page=30,section,layer5.csv,1.000,exact_letters,Q17103180 (1.000; exact_letters) section [layer4.csv],layer_match
+Q57605839,retraction,https://emilyriehl.github.io/files/context.pdf#page=30,retraction,layer4.csv,1.000,exact_letters,,layer_match
+Q2141963,retract,https://emilyriehl.github.io/files/context.pdf#page=30,retract,layer1.csv,1.000,exact_letters,Q7316893 (1.000; exact_letters) retract [layer1.csv],layer_match
+Q121773562,split monomorphism,https://emilyriehl.github.io/files/context.pdf#page=30,split monomorphism,layer5.csv,1.000,exact_letters,,layer_match
+Q121773569,split epimorphism,https://emilyriehl.github.io/files/context.pdf#page=30,split epimorphism,layer5.csv,1.000,exact_letters,,layer_match
+Q179692,axiom of choice,https://emilyriehl.github.io/files/context.pdf#page=30,axiom of choice,layer3.csv,1.000,exact_letters,Q1000116 (0.900; token_jaccard=0.75) axiom of countable choice [layer3.csv]; Q3303153 (0.900; token_jaccard=0.75) axiom of dependent choice [layer3.csv]; Q3511558 (0.900; token_jaccard=0.75) axiom of global choice [layer2.csv]; Q4478785 (0.840; token_jaccard=0.60) equivalent of the axiom of choice [layer2.csv],layer_match
+Q215071,supremum,https://emilyriehl.github.io/files/context.pdf#page=31,supremum,layer2.csv,1.000,exact_letters,,layer_match
+Q864475,functor,https://emilyriehl.github.io/files/context.pdf#page=31,functor,layer2.csv,1.000,exact_letters,,layer_match
+Q2646117,forgetful functor,https://emilyriehl.github.io/files/context.pdf#page=31,forgetful functor,layer4.csv,1.000,exact_letters,,layer_match
+Q662830,fundamental group,https://emilyriehl.github.io/files/context.pdf#page=32,fundamental group,layer4.csv,1.000,exact_letters,Q5508957 (0.867; token_jaccard=0.67) fundamental group scheme [layer5.csv]; Q114703944 (0.867; token_jaccard=0.67) fundamental group theory [layer2.csv]; Q288764 (0.867; token_jaccard=0.67) étale fundamental group [layer4.csv],layer_match
+Q1143328,chain complex cycle,https://emilyriehl.github.io/files/context.pdf#page=32,chain complex,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q431078,free group,https://emilyriehl.github.io/files/context.pdf#page=32,free group,layer2.csv,1.000,exact_letters,Q1454111 (0.867; token_jaccard=0.67) free abelian group [layer3.csv]; Q121069543 (0.867; token_jaccard=0.67) free group action [layer5.csv]; Q122364643 (0.867; token_jaccard=0.67) torsion-free group [layer4.csv],layer_match
+Q17004731,chain rule,https://emilyriehl.github.io/files/context.pdf#page=32,chain rule,layer3.csv,1.000,exact_letters,Q207455 (1.000; exact_letters) chain rule [layer3.csv]; Q2513399 (0.867; token_jaccard=0.67) generalized chain rule [layer3.csv],layer_match
+Q636889,total derivative,https://emilyriehl.github.io/files/context.pdf#page=32,total derivative,layer1.csv,1.000,exact_letters,,layer_match
+Q506041,Jacobian matrix,https://emilyriehl.github.io/files/context.pdf#page=32,Jacobian matrix,layer1.csv,1.000,exact_letters,,layer_match
+Q1144897,Brouwer fixed point theorem,https://emilyriehl.github.io/files/context.pdf#page=33,Brouwer fixed-point theorem,layer3.csv,1.000,exact_letters,Q1422068 (0.900; token_jaccard=0.75) fixed-point theorem [layer4.csv]; Q220680 (0.840; token_jaccard=0.60) Banach fixed-point theorem [layer4.csv]; Q4944908 (0.840; token_jaccard=0.60) Borel fixed-point theorem [layer4.csv]; Q2687556 (0.840; token_jaccard=0.60) Browder fixed point theorem [layer3.csv],layer_match
+Q124662529,contravariant functor,https://emilyriehl.github.io/files/context.pdf#page=35,contravariant functor,layer3.csv,1.000,exact_letters,,layer_match
+Q261527,linear functional,https://emilyriehl.github.io/files/context.pdf#page=35,linear functional,layer3.csv,1.000,exact_letters,Q7233279 (0.867; token_jaccard=0.67) positive linear functional [layer5.csv],layer_match
+Q170058,continuous function,https://emilyriehl.github.io/files/context.pdf#page=36,continuous function,layer2.csv,1.000,exact_letters,Q25488023 (1.000; exact_letters) continuous function [layer2.csv]; Q5165476 (1.000; exact_letters) continuous function [layer3.csv]; Q1537963 (0.867; token_jaccard=0.67) Hölder continuous function [layer5.csv]; Q29035552 (0.867; token_jaccard=0.67) left-continuous function [layer5.csv],layer_match
+Q7241077,presheaf,https://emilyriehl.github.io/files/context.pdf#page=36,presheaf,layer3.csv,1.000,exact_letters,,layer_match
+Q1467124,simplicial set,https://emilyriehl.github.io/files/context.pdf#page=36,simplicial set,layer3.csv,1.000,exact_letters,,layer_match
+Q288465,group action,https://emilyriehl.github.io/files/context.pdf#page=36,group action,layer2.csv,1.000,exact_letters,Q16951242 (0.867; token_jaccard=0.67) continuous group action [layer5.csv]; Q121074575 (0.867; token_jaccard=0.67) faithful group action [layer5.csv]; Q121069543 (0.867; token_jaccard=0.67) free group action [layer5.csv]; Q48975267 (0.867; token_jaccard=0.67) group-scheme action [layer5.csv],layer_match
+Q133868384,G-set,https://emilyriehl.github.io/files/context.pdf#page=36,G-set,layer1.csv,1.000,exact_letters,Q127244 (1.000; token_jaccard=1.00) Gδ set [layer5.csv],layer_match
+Q20827113,G-space,https://emilyriehl.github.io/files/context.pdf#page=36,G-space,layer2.csv,1.000,exact_letters,,layer_match
+Q13443840,product of category,https://emilyriehl.github.io/files/context.pdf#page=37,product category,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q5051852,category of categories,https://emilyriehl.github.io/files/context.pdf#page=38,category of small categories,layer5.csv,0.900,token_jaccard=0.75,,layer_match
+Q766522,categorification of the fundamental theorem of Galois theory,https://emilyriehl.github.io/files/context.pdf#page=39,fundamental theorem of Galois theory,layer3.csv,0.886,token_jaccard=0.71,,layer_match
+Q2020004,Galois extension,https://emilyriehl.github.io/files/context.pdf#page=39,Galois extension,layer5.csv,1.000,exact_letters,,layer_match
+Q730384,Galois group,https://emilyriehl.github.io/files/context.pdf#page=39,Galois group,layer3.csv,1.000,exact_letters,Q332407 (0.867; token_jaccard=0.67) absolute Galois group [layer5.csv],layer_match
+Q1756942,partial function,https://emilyriehl.github.io/files/context.pdf#page=39,partial function,layer1.csv,1.000,exact_letters,,layer_match
+Q60790315,automorphism group,https://emilyriehl.github.io/files/context.pdf#page=40,automorphism group,layer3.csv,1.000,exact_letters,Q40289167 (1.000; token_jaccard=1.00) group automorphism [layer4.csv]; Q97621539 (0.867; token_jaccard=0.67) Edge Automorphism Group [layer4.csv]; Q77980592 (0.867; token_jaccard=0.67) inner automorphism group [layer5.csv]; Q77980689 (0.867; token_jaccard=0.67) outer automorphism group [layer5.csv],layer_match
+Q2297777,dual basis,https://emilyriehl.github.io/files/context.pdf#page=41,dual basis,layer4.csv,1.000,exact_letters,,layer_match
+Q1442189,natural transformation,https://emilyriehl.github.io/files/context.pdf#page=41,natural transformation,layer2.csv,1.000,exact_letters,Q25304046 (0.867; token_jaccard=0.67) lax natural transformation [layer1.csv],layer_match
+Q110535030,natural isomorphism,https://emilyriehl.github.io/files/context.pdf#page=42,natural isomorphism,layer3.csv,1.000,exact_letters,,layer_match
+Q256355,equivariant map,https://emilyriehl.github.io/files/context.pdf#page=43,equivariant map,layer2.csv,1.000,exact_letters,,layer_match
+Q1751823,no cloning theorem,https://emilyriehl.github.io/files/context.pdf#page=44,no-cloning theorem,layer4.csv,1.000,exact_letters,,layer_match
+Q2293759,torsion subgroup,https://emilyriehl.github.io/files/context.pdf#page=44,torsion subgroup,layer4.csv,1.000,exact_letters,,layer_match
+Q1357684,Riesz representation theorem,https://emilyriehl.github.io/files/context.pdf#page=44,Riesz representation theorem,layer3.csv,1.000,exact_letters,Q7314222 (0.867; token_jaccard=0.67) Representation theorem [layer5.csv]; Q17098001 (0.840; token_jaccard=0.60) Riesz–Markov–Kakutani representation theorem [layer4.csv],layer_match
+Q188211,invariant,https://emilyriehl.github.io/files/context.pdf#page=45,invariant,layer2.csv,1.000,exact_letters,Q2370229 (1.000; exact_letters) invariant [layer3.csv]; Q385374 (1.000; exact_letters) invariant [layer4.csv],layer_match
+Q1442189,invertible natural transformation,https://emilyriehl.github.io/files/context.pdf#page=46,natural transformation,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q1082992,equivalence of categories,https://emilyriehl.github.io/files/context.pdf#page=48,equivalence of categories,layer4.csv,1.000,exact_letters,,layer_match
+Q33059348,full functor,https://emilyriehl.github.io/files/context.pdf#page=48,full functor,layer3.csv,1.000,exact_letters,,layer_match
+Q1755355,faithful,https://emilyriehl.github.io/files/context.pdf#page=48,Faithful,layer5.csv,1.000,exact_letters,Q5431279 (1.000; exact_letters) Faithful [layer5.csv],layer_match
+Q12175350,faithful functor,https://emilyriehl.github.io/files/context.pdf#page=48,faithful functor,layer3.csv,1.000,exact_letters,Q120721906 (0.867; token_jaccard=0.67) fully faithful functor [layer4.csv],layer_match
+Q140283,essentially surjective functor,https://emilyriehl.github.io/files/context.pdf#page=48,essentially surjective functor,layer3.csv,1.000,exact_letters,,layer_match
+Q117795251,local,https://emilyriehl.github.io/files/context.pdf#page=49,Local,layer5.csv,1.000,exact_letters,Q27052180 (1.000; exact_letters) Local [layer5.csv],layer_match
+Q980509,embedding,https://emilyriehl.github.io/files/context.pdf#page=49,embedding,layer2.csv,1.000,exact_letters,,layer_match
+Q103927515,full subcategory,https://emilyriehl.github.io/files/context.pdf#page=49,full subcategory,layer2.csv,1.000,exact_letters,,layer_match
+Q3884964,orbit,https://emilyriehl.github.io/files/context.pdf#page=52,orbit,layer4.csv,1.000,exact_letters,Q4130 (1.000; exact_letters) orbit [layer4.csv],layer_match
+Q800350,orbit-stabilizer theorem,https://emilyriehl.github.io/files/context.pdf#page=53,orbit–stabilizer theorem,layer3.csv,1.000,exact_letters,,layer_match
+Q1382400,evil,https://emilyriehl.github.io/files/context.pdf#page=53,Evil,layer5.csv,1.000,exact_letters,Q1382421 (1.000; exact_letters) Evil [layer5.csv]; Q1888074 (1.000; exact_letters) Evil [layer5.csv],layer_match
+Q10567583,essentially small category,https://emilyriehl.github.io/files/context.pdf#page=53,small category,layer2.csv,0.867,token_jaccard=0.67,,layer_match
+Q1084766,abstract nonsense,https://emilyriehl.github.io/files/context.pdf#page=54,abstract nonsense,layer1.csv,1.000,exact_letters,,layer_match
+Q15805655,diagram,https://emilyriehl.github.io/files/context.pdf#page=54,diagram,layer2.csv,1.000,exact_letters,Q843237 (1.000; exact_letters) diagram [layer1.csv],layer_match
+Q621542,commutative diagram,https://emilyriehl.github.io/files/context.pdf#page=54,commutative diagram,layer2.csv,1.000,exact_letters,,layer_match
+Q122384600,commute,https://emilyriehl.github.io/files/context.pdf#page=54,Commute,layer5.csv,1.000,exact_letters,,layer_match
+Q25098802,topological monoid,https://emilyriehl.github.io/files/context.pdf#page=55,topological monoid,layer2.csv,1.000,exact_letters,,layer_match
+Q161172,ring,https://emilyriehl.github.io/files/context.pdf#page=55,ring,layer3.csv,1.000,exact_letters,Q25415527 (1.000; exact_letters) Ring [layer5.csv]; Q531328 (1.000; exact_letters) Ring [layer5.csv]; Q60837942 (1.000; exact_letters) Ring [layer5.csv]; Q111962410 (1.000; token_jaccard=1.00) Ring Ring [layer5.csv],layer_match
+Q3968,algebra,https://emilyriehl.github.io/files/context.pdf#page=55,algebra,layer2.csv,1.000,exact_letters,Q2836000 (1.000; exact_letters) *-algebra [layer3.csv],layer_match
+Q10535634,initial object,https://emilyriehl.github.io/files/context.pdf#page=59,initial object,layer2.csv,1.000,exact_letters,Q25098887 (0.867; token_jaccard=0.67) strict initial object [layer5.csv],layer_match
+Q91432273,terminal object,https://emilyriehl.github.io/files/context.pdf#page=59,terminal object,layer2.csv,1.000,exact_letters,,layer_match
+Q16089841,zero object,https://emilyriehl.github.io/files/context.pdf#page=61,zero object,layer1.csv,1.000,exact_letters,Q91432807 (1.000; exact_letters) zero object [layer2.csv],layer_match
+Q6034125,initial algebra,https://emilyriehl.github.io/files/context.pdf#page=62,initial algebra,layer3.csv,1.000,exact_letters,Q19286128 (1.000; token_jaccard=1.00) initial σ-algebra [layer4.csv],layer_match
+Q2007878,functor category,https://emilyriehl.github.io/files/context.pdf#page=62,functor category,layer3.csv,1.000,exact_letters,,layer_match
+Q1442189,natural transformation composition,https://emilyriehl.github.io/files/context.pdf#page=62,natural transformation,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q4596935,2 category,https://emilyriehl.github.io/files/context.pdf#page=64,strict 2-category,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q25304059,2-functor,https://emilyriehl.github.io/files/context.pdf#page=65,2-functor,layer4.csv,1.000,exact_letters,,layer_match
+Q45715,complete graph,https://emilyriehl.github.io/files/context.pdf#page=67,complete graph,layer2.csv,1.000,exact_letters,Q913598 (0.867; token_jaccard=0.67) complete bipartite graph [layer5.csv]; Q131179462 (0.867; token_jaccard=0.67) complete graph K10 [layer5.csv]; Q131179481 (0.867; token_jaccard=0.67) complete graph K11 [layer5.csv]; Q126735112 (0.867; token_jaccard=0.67) complete graph K2 [layer5.csv],layer_match
+Q184410,four color theorem,https://emilyriehl.github.io/files/context.pdf#page=67,four color theorem,layer3.csv,1.000,exact_letters,,layer_match
+Q638328,discrete dynamical system,https://emilyriehl.github.io/files/context.pdf#page=68,dynamical system,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q179976,recursion,https://emilyriehl.github.io/files/context.pdf#page=68,recursion,layer5.csv,1.000,exact_letters,,layer_match
+Q386320,representable functor,https://emilyriehl.github.io/files/context.pdf#page=69,representable functor,layer3.csv,1.000,exact_letters,,layer_match
+Q112898115,representation,https://emilyriehl.github.io/files/context.pdf#page=69,representation,layer4.csv,1.000,exact_letters,Q2905654 (1.000; exact_letters) representation [layer1.csv],layer_match
+Q1454111,free abelian group,https://emilyriehl.github.io/files/context.pdf#page=70,free abelian group,layer2.csv,1.000,exact_letters,Q7827198 (0.900; token_jaccard=0.75) torsion-free abelian group [layer4.csv]; Q181296 (0.867; token_jaccard=0.67) abelian group [layer1.csv]; Q431078 (0.867; token_jaccard=0.67) free group [layer5.csv],layer_match
+Q127162195,path,https://emilyriehl.github.io/files/context.pdf#page=71,path,layer4.csv,1.000,exact_letters,Q133540897 (1.000; exact_letters) Path [layer5.csv]; Q1366002 (1.000; exact_letters) path [layer3.csv]; Q1415372 (1.000; exact_letters) path [layer5.csv]; Q21408175 (1.000; exact_letters) Path [layer5.csv],layer_match
+Q22283522,loop,https://emilyriehl.github.io/files/context.pdf#page=71,Loop,layer5.csv,1.000,exact_letters,Q25208973 (1.000; exact_letters) Loop [layer5.csv]; Q3836720 (1.000; exact_letters) loop [layer4.csv]; Q4360336 (1.000; exact_letters) Loop [layer5.csv]; Q4558786 (1.000; exact_letters) loop [layer4.csv],layer_match
+Q4038982,free,https://emilyriehl.github.io/files/context.pdf#page=71,free,layer4.csv,1.000,exact_letters,Q5499718 (1.000; exact_letters) Free [layer5.csv],layer_match
+Q2119470,Sierpinski space,https://emilyriehl.github.io/files/context.pdf#page=72,Sierpiński space,layer4.csv,1.000,exact_letters,,layer_match
+Q1144925,currying,https://emilyriehl.github.io/files/context.pdf#page=72,currying,layer1.csv,1.000,exact_letters,,layer_match
+Q5349490,Eilenberg--MacLane space,https://emilyriehl.github.io/files/context.pdf#page=72,Eilenberg–MacLane space,layer1.csv,1.000,exact_letters,,layer_match
+Q121069543,free action,https://emilyriehl.github.io/files/context.pdf#page=74,free group action,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q320577,Yoneda lemma,https://emilyriehl.github.io/files/context.pdf#page=75,Yoneda lemma,layer3.csv,1.000,exact_letters,,layer_match
+Q320577,Yoneda lemma corollary,https://emilyriehl.github.io/files/context.pdf#page=78,Yoneda lemma,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q179208,Cayley's theorem,https://emilyriehl.github.io/files/context.pdf#page=79,Cayley's theorem,layer3.csv,1.000,exact_letters,,layer_match
+Q121074938,transitive group action,https://emilyriehl.github.io/files/context.pdf#page=81,transitive group action,layer3.csv,1.000,exact_letters,Q288465 (0.867; token_jaccard=0.67) group action [layer2.csv],layer_match
+Q17104225,torsor,https://emilyriehl.github.io/files/context.pdf#page=81,torsor,layer4.csv,1.000,exact_letters,,layer_match
+Q382698,affine space,https://emilyriehl.github.io/files/context.pdf#page=81,affine space,layer2.csv,1.000,exact_letters,Q3058163 (0.867; token_jaccard=0.67) eucidean affine space [layer3.csv],layer_match
+Q1163016,tensor product,https://emilyriehl.github.io/files/context.pdf#page=81,tensor product,layer4.csv,1.000,exact_letters,Q39046230 (0.867; token_jaccard=0.67) derived tensor product [layer4.csv]; Q96382131 (0.867; token_jaccard=0.67) inductive tensor product [layer5.csv]; Q1663619 (0.867; token_jaccard=0.67) injective tensor product [layer4.csv]; Q89672221 (0.867; token_jaccard=0.67) projective tensor product [layer4.csv],layer_match
+Q1163016,tensor product symmetry,https://emilyriehl.github.io/files/context.pdf#page=82,tensor product,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q2602722,group ring,https://emilyriehl.github.io/files/context.pdf#page=83,group ring,layer4.csv,1.000,exact_letters,,layer_match
+Q1163016,tensor product associativity,https://emilyriehl.github.io/files/context.pdf#page=83,tensor product,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q5051844,category of elements,https://emilyriehl.github.io/files/context.pdf#page=84,category of elements,layer3.csv,1.000,exact_letters,,layer_match
+Q7631737,subobject classifier,https://emilyriehl.github.io/files/context.pdf#page=88,subobject classifier,layer4.csv,1.000,exact_letters,,layer_match
+Q901718,product,https://emilyriehl.github.io/files/context.pdf#page=91,product,layer2.csv,1.000,exact_letters,Q919107 (1.000; exact_letters) product [layer4.csv],layer_match
+Q2547089,subobject,https://emilyriehl.github.io/files/context.pdf#page=91,subobject,layer4.csv,1.000,exact_letters,,layer_match
+Q106517809,limit,https://emilyriehl.github.io/files/context.pdf#page=91,limit,layer3.csv,1.000,exact_letters,Q112609197 (1.000; exact_letters) Limit [layer5.csv]; Q123514528 (1.000; exact_letters) limit [layer4.csv]; Q1322614 (1.000; exact_letters) limit [layer1.csv]; Q136036266 (1.000; exact_letters) limit [layer2.csv],layer_match
+Q111204834,colimit,https://emilyriehl.github.io/files/context.pdf#page=91,colimit,layer1.csv,1.000,exact_letters,,layer_match
+Q1442189,constant natural transformation,https://emilyriehl.github.io/files/context.pdf#page=92,natural transformation,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q1635267,cone,https://emilyriehl.github.io/files/context.pdf#page=92,cone,layer2.csv,1.000,exact_letters,Q42344 (1.000; exact_letters) cone [layer4.csv]; Q493171 (1.000; exact_letters) cone [layer3.csv]; Q66563361 (1.000; exact_letters) cone [layer4.csv],layer_match
+Q1397439,pullback,https://emilyriehl.github.io/files/context.pdf#page=96,pullback,layer2.csv,1.000,exact_letters,Q25345330 (1.000; exact_letters) pullback [layer3.csv]; Q978505 (1.000; exact_letters) pullback [layer3.csv],layer_match
+Q1640811,fiber,https://emilyriehl.github.io/files/context.pdf#page=97,fiber,layer3.csv,1.000,exact_letters,,layer_match
+Q2634828,inverse limit,https://emilyriehl.github.io/files/context.pdf#page=98,inverse limit,layer2.csv,1.000,exact_letters,,layer_match
+Q692689,coproduct,https://emilyriehl.github.io/files/context.pdf#page=99,coproduct,layer2.csv,1.000,exact_letters,,layer_match
+Q5140810,coequalizer,https://emilyriehl.github.io/files/context.pdf#page=99,coequalizer,layer2.csv,1.000,exact_letters,,layer_match
+Q48893562,fork,https://emilyriehl.github.io/files/context.pdf#page=99,fork,layer5.csv,1.000,exact_letters,Q784753 (1.000; exact_letters) fork [layer4.csv],layer_match
+Q1633079,pushout,https://emilyriehl.github.io/files/context.pdf#page=99,pushout,layer2.csv,1.000,exact_letters,,layer_match
+Q906015,direct limit,https://emilyriehl.github.io/files/context.pdf#page=99,direct limit,layer2.csv,1.000,exact_letters,,layer_match
+Q12510,torus,https://emilyriehl.github.io/files/context.pdf#page=99,torus,layer4.csv,1.000,exact_letters,,layer_match
+Q2156511,cokernel,https://emilyriehl.github.io/files/context.pdf#page=100,cokernel,layer3.csv,1.000,exact_letters,,layer_match
+Q123738054,union,https://emilyriehl.github.io/files/context.pdf#page=100,Union,layer5.csv,1.000,exact_letters,Q185359 (1.000; exact_letters) union [layer4.csv]; Q2669934 (1.000; exact_letters) UNION [layer5.csv],layer_match
+Q13582243,direct sum,https://emilyriehl.github.io/files/context.pdf#page=101,direct sum,layer3.csv,1.000,exact_letters,,layer_match
+Q11317757,guess and check,https://emilyriehl.github.io/files/context.pdf#page=101,Check and Check,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q4370335,complete category,https://emilyriehl.github.io/files/context.pdf#page=103,complete category,layer3.csv,1.000,exact_letters,Q121504772 (0.867; token_jaccard=0.67) finitely complete category [layer5.csv],layer_match
+Q47007889,cocomplete category,https://emilyriehl.github.io/files/context.pdf#page=103,cocomplete category,layer3.csv,1.000,exact_letters,Q121504773 (0.867; token_jaccard=0.67) finitely cocomplete category [layer5.csv],layer_match
+Q217608,fixed point,https://emilyriehl.github.io/files/context.pdf#page=105,fixed point,layer2.csv,1.000,exact_letters,Q131832357 (0.867; token_jaccard=0.67) fixed point theory [layer3.csv]; Q2976255 (0.867; token_jaccard=0.67) fixed-point combinator [layer5.csv]; Q1030759 (0.867; token_jaccard=0.67) fixed-point iteration [layer4.csv]; Q5456331 (0.867; token_jaccard=0.67) fixed-point property [layer3.csv],layer_match
+Q6047782,internal category,https://emilyriehl.github.io/files/context.pdf#page=107,internal category,layer1.csv,1.000,exact_letters,,layer_match
+Q38034847,create,https://emilyriehl.github.io/files/context.pdf#page=108,create,layer4.csv,1.000,exact_letters,,layer_match
+Q41509136,open cover,https://emilyriehl.github.io/files/context.pdf#page=109,open cover,layer5.csv,1.000,exact_letters,,layer_match
+Q110978863,power,https://emilyriehl.github.io/files/context.pdf#page=112,Power,layer5.csv,1.000,exact_letters,Q11756173 (1.000; exact_letters) Power [layer5.csv]; Q125559847 (1.000; exact_letters) Power [layer5.csv]; Q17073246 (1.000; exact_letters) Power [layer5.csv]; Q18170280 (1.000; exact_letters) Power [layer5.csv],layer_match
+Q188524,tensor,https://emilyriehl.github.io/files/context.pdf#page=114,tensor,layer1.csv,1.000,exact_letters,Q3518150 (1.000; exact_letters) tensor [layer2.csv],layer_match
+Q1156912,configuration space,https://emilyriehl.github.io/files/context.pdf#page=119,configuration space,layer2.csv,1.000,exact_letters,Q41636387 (1.000; exact_letters) configuration space [layer2.csv],layer_match
+Q2362924,complete lattice,https://emilyriehl.github.io/files/context.pdf#page=121,complete lattice,layer3.csv,1.000,exact_letters,,layer_match
+Q203066,relation,https://emilyriehl.github.io/files/context.pdf#page=121,relation,layer2.csv,1.000,exact_letters,,layer_match
+Q1935541,fiber space,https://emilyriehl.github.io/files/context.pdf#page=123,Seifert fiber space,layer1.csv,0.867,token_jaccard=0.67,,layer_match
+Q337747,species,https://emilyriehl.github.io/files/context.pdf#page=126,Species,layer5.csv,1.000,exact_letters,,layer_match
+Q847204,limit of a sequence,https://emilyriehl.github.io/files/context.pdf#page=131,limit of a sequence,layer4.csv,1.000,exact_letters,Q33540 (0.840; token_jaccard=0.60) limit of a function [layer2.csv]; Q58623169 (0.840; token_jaccard=0.60) product of a sequence [layer2.csv],layer_match
+Q5449247,filtered category,https://emilyriehl.github.io/files/context.pdf#page=132,filtered category,layer3.csv,1.000,exact_letters,,layer_match
+Q357858,adjoint functor,https://emilyriehl.github.io/files/context.pdf#page=136,adjoint functor,layer3.csv,1.000,exact_letters,,layer_match
+Q1491747,monotone Galois connection,https://emilyriehl.github.io/files/context.pdf#page=138,Galois connection,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q6060386,inverse image,https://emilyriehl.github.io/files/context.pdf#page=138,inverse image functor,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q5280340,direct image,https://emilyriehl.github.io/files/context.pdf#page=138,direct image functor,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q3606768,propositional function,https://emilyriehl.github.io/files/context.pdf#page=138,propositional function,layer2.csv,1.000,exact_letters,,layer_match
+Q773483,existential quantification,https://emilyriehl.github.io/files/context.pdf#page=138,existential quantification,layer5.csv,1.000,exact_letters,,layer_match
+Q126695,universal quantification,https://emilyriehl.github.io/files/context.pdf#page=138,universal quantification,layer5.csv,1.000,exact_letters,,layer_match
+Q5500266,free monoid,https://emilyriehl.github.io/files/context.pdf#page=139,free monoid,layer3.csv,1.000,exact_letters,,layer_match
+Q1292333,free module,https://emilyriehl.github.io/files/context.pdf#page=139,free module,layer3.csv,1.000,exact_letters,Q13163760 (0.867; token_jaccard=0.67) topologically free module [layer3.csv]; Q7827200 (0.867; token_jaccard=0.67) torsion-free module [layer4.csv],layer_match
+Q48998319,Frobenius reciprocity,https://emilyriehl.github.io/files/context.pdf#page=140,Frobenius reciprocity,layer3.csv,1.000,exact_letters,,layer_match
+Q5500202,free category,https://emilyriehl.github.io/files/context.pdf#page=140,free category,layer3.csv,1.000,exact_letters,,layer_match
+Q1491747,antitone Galois connection,https://emilyriehl.github.io/files/context.pdf#page=147,Galois connection,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q147978,Zariski topology,https://emilyriehl.github.io/files/context.pdf#page=147,Zariski topology,layer1.csv,1.000,exact_letters,,layer_match
+Q1068976,Hilbert's Nullstellensatz,https://emilyriehl.github.io/files/context.pdf#page=147,Hilbert's Nullstellensatz,layer3.csv,1.000,exact_letters,,layer_match
+Q1851710,structure,https://emilyriehl.github.io/files/context.pdf#page=147,structure,layer2.csv,1.000,exact_letters,,layer_match
+Q1725874,cartesian closed category,https://emilyriehl.github.io/files/context.pdf#page=149,cartesian closed category,layer4.csv,1.000,exact_letters,Q5135329 (0.867; token_jaccard=0.67) closed category [layer5.csv],layer_match
+Q934367,function space,https://emilyriehl.github.io/files/context.pdf#page=150,function space,layer2.csv,1.000,exact_letters,Q42797338 (0.867; token_jaccard=0.67) function vector space [layer5.csv],layer_match
+Q1071203,free space,https://emilyriehl.github.io/files/context.pdf#page=151,free space,layer2.csv,1.000,exact_letters,,layer_match
+Q2295009,smash product,https://emilyriehl.github.io/files/context.pdf#page=151,smash product,layer2.csv,1.000,exact_letters,,layer_match
+Q2066070,loop space,https://emilyriehl.github.io/files/context.pdf#page=151,loop space,layer2.csv,1.000,exact_letters,,layer_match
+Q91791780,reduced suspension,https://emilyriehl.github.io/files/context.pdf#page=151,reduced suspension,layer2.csv,1.000,exact_letters,,layer_match
+Q357858,multivariable adjoint functor,https://emilyriehl.github.io/files/context.pdf#page=151,adjoint functor,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q25304059,2 functor,https://emilyriehl.github.io/files/context.pdf#page=155,2-functor,layer4.csv,1.000,exact_letters,,layer_match
+Q318737,abelian category,https://emilyriehl.github.io/files/context.pdf#page=159,abelian category,layer1.csv,1.000,exact_letters,Q7239192 (0.867; token_jaccard=0.67) pre-abelian category [layer5.csv]; Q7254426 (0.867; token_jaccard=0.67) pseudo-abelian category [layer4.csv]; Q30715304 (0.867; token_jaccard=0.67) semi-abelian category [layer5.csv],layer_match
+Q381725,left exact functor,https://emilyriehl.github.io/files/context.pdf#page=159,exact functor,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q2914509,kernel,https://emilyriehl.github.io/files/context.pdf#page=159,kernel,layer3.csv,1.000,exact_letters,Q2920416 (1.000; exact_letters) kernel [layer2.csv]; Q3345662 (1.000; exact_letters) kernel [layer3.csv]; Q574844 (1.000; exact_letters) kernel [layer3.csv]; Q687704 (1.000; exact_letters) kernel [layer1.csv],layer_match
+Q6101219,reflective sub category,https://emilyriehl.github.io/files/context.pdf#page=160,reflective subcategory,layer3.csv,1.000,exact_letters,,layer_match
+Q2033899,Stone--Cech compactification,https://emilyriehl.github.io/files/context.pdf#page=160,Stone–Čech compactification,layer2.csv,1.000,exact_letters,,layer_match
+Q353285,additive functor,https://emilyriehl.github.io/files/context.pdf#page=160,additive functor,layer1.csv,1.000,exact_letters,,layer_match
+Q318598,abelianization,https://emilyriehl.github.io/files/context.pdf#page=161,abelianization,layer2.csv,1.000,exact_letters,,layer_match
+Q595298,sheaf,https://emilyriehl.github.io/files/context.pdf#page=161,sheaf,layer3.csv,1.000,exact_letters,,layer_match
+Q124131888,sheafification,https://emilyriehl.github.io/files/context.pdf#page=161,sheafification,layer3.csv,1.000,exact_letters,,layer_match
+Q17099363,nerve of a category,https://emilyriehl.github.io/files/context.pdf#page=162,nerve of a category,layer4.csv,1.000,exact_letters,Q117328064 (0.840; token_jaccard=0.60) A Man of Nerve [layer5.csv]; Q6664610 (0.840; token_jaccard=0.60) localization of a category [layer3.csv]; Q1424012 (0.840; token_jaccard=0.60) nerve of a covering [layer5.csv]; Q15975724 (0.840; token_jaccard=0.60) object of a category [layer3.csv],layer_match
+Q357858,adjoint functor theorem,https://emilyriehl.github.io/files/context.pdf#page=164,adjoint functor,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q1751685,solution set,https://emilyriehl.github.io/files/context.pdf#page=165,solution set,layer2.csv,1.000,exact_letters,,layer_match
+Q100964853,intersection,https://emilyriehl.github.io/files/context.pdf#page=168,Intersection,layer5.csv,1.000,exact_letters,Q127600244 (1.000; exact_letters) Intersection [layer5.csv]; Q17141489 (1.000; exact_letters) intersection [layer1.csv]; Q185837 (1.000; exact_letters) intersection [layer2.csv]; Q55717144 (1.000; exact_letters) Intersection [layer5.csv],layer_match
+Q123015498,locally presentable category,https://emilyriehl.github.io/files/context.pdf#page=170,locally presentable category,layer4.csv,1.000,exact_letters,,layer_match
+Q1193137,regular cardinal,https://emilyriehl.github.io/files/context.pdf#page=170,regular cardinal,layer3.csv,1.000,exact_letters,,layer_match
+Q1780664,comonad,https://emilyriehl.github.io/files/context.pdf#page=173,co-monad,layer2.csv,1.000,exact_letters,,layer_match
+Q1579914,monad,https://emilyriehl.github.io/files/context.pdf#page=174,monad,layer3.csv,1.000,exact_letters,Q1630568 (1.000; exact_letters) monad [layer2.csv],layer_match
+Q1945014,monoidal category,https://emilyriehl.github.io/files/context.pdf#page=174,monoidal category,layer2.csv,1.000,exact_letters,Q2943034 (0.867; token_jaccard=0.67) braided monoidal category [layer2.csv]; Q18205845 (0.867; token_jaccard=0.67) cartesian monoidal category [layer4.csv]; Q5135347 (0.867; token_jaccard=0.67) closed monoidal category [layer5.csv]; Q20809078 (0.867; token_jaccard=0.67) monoidal category action [layer3.csv],layer_match
+Q106671513,ultrafilter,https://emilyriehl.github.io/files/context.pdf#page=176,Ultrafilter,layer2.csv,1.000,exact_letters,Q1571831 (1.000; exact_letters) ultrafilter [layer1.csv],layer_match
+Q355020,probability measure,https://emilyriehl.github.io/files/context.pdf#page=177,probability measure,layer5.csv,1.000,exact_letters,Q25377717 (0.867; token_jaccard=0.67) Sub-probability measure [layer4.csv],layer_match
+Q127915480,Giry monad,https://emilyriehl.github.io/files/context.pdf#page=177,Giry monad,layer3.csv,1.000,exact_letters,,layer_match
+Q3058218,measurable space,https://emilyriehl.github.io/files/context.pdf#page=177,measurable space,layer2.csv,1.000,exact_letters,,layer_match
+Q516776,measurable function,https://emilyriehl.github.io/files/context.pdf#page=177,measurable function,layer2.csv,1.000,exact_letters,Q9392172 (0.867; token_jaccard=0.67) Bochner measurable function [layer1.csv]; Q7624685 (0.867; token_jaccard=0.67) strongly measurable function [layer3.csv]; Q195174 (0.867; token_jaccard=0.67) weakly measurable function [layer3.csv],layer_match
+Q10564851,closure operator,https://emilyriehl.github.io/files/context.pdf#page=178,closure operator,layer3.csv,1.000,exact_letters,,layer_match
+Q106504945,closure,https://emilyriehl.github.io/files/context.pdf#page=178,Closure,layer5.csv,1.000,exact_letters,Q320346 (1.000; exact_letters) closure [layer3.csv]; Q4720939 (1.000; exact_letters) closure [layer1.csv],layer_match
+Q118215311,interior,https://emilyriehl.github.io/files/context.pdf#page=178,Interior,layer5.csv,1.000,exact_letters,Q20653136 (1.000; exact_letters) Interior [layer5.csv]; Q2998430 (1.000; exact_letters) interior [layer4.csv]; Q862761 (1.000; exact_letters) interior [layer3.csv]; Q89127119 (1.000; exact_letters) Interior [layer5.csv],layer_match
+Q3882299,algebra homomorphism,https://emilyriehl.github.io/files/context.pdf#page=180,algebra homomorphism,layer2.csv,1.000,exact_letters,,layer_match
+Q3054915,pointed set,https://emilyriehl.github.io/files/context.pdf#page=180,pointed set,layer2.csv,1.000,exact_letters,,layer_match
+Q5500180,free algebra,https://emilyriehl.github.io/files/context.pdf#page=182,free algebra,layer3.csv,1.000,exact_letters,Q5499761 (0.867; token_jaccard=0.67) free Boolean algebra [layer5.csv]; Q63284555 (0.867; token_jaccard=0.67) free Heyting algebra [layer4.csv]; Q5499906 (0.867; token_jaccard=0.67) free Lie algebra [layer5.csv]; Q117375236 (0.867; token_jaccard=0.67) Quasi-free algebra [layer3.csv],layer_match
+Q1777803,coalgebra,https://emilyriehl.github.io/files/context.pdf#page=182,coalgebra,layer3.csv,1.000,exact_letters,,layer_match
+Q1773982,Kleisli category,https://emilyriehl.github.io/files/context.pdf#page=183,Kleisli category,layer3.csv,1.000,exact_letters,,layer_match
+Q6771323,Markov kernel,https://emilyriehl.github.io/files/context.pdf#page=183,Markov kernel,layer2.csv,1.000,exact_letters,,layer_match
+Q176645,Markov chain,https://emilyriehl.github.io/files/context.pdf#page=183,Markov chain,layer2.csv,1.000,exact_letters,Q4669888 (0.867; token_jaccard=0.67) absorbing Markov chain [layer4.csv],layer_match
+Q1096885,lattice,https://emilyriehl.github.io/files/context.pdf#page=194,lattice,layer3.csv,1.000,exact_letters,Q595364 (1.000; exact_letters) lattice [layer2.csv]; Q6497088 (1.000; exact_letters) lattice [layer4.csv],layer_match
+Q834585,semi lattice,https://emilyriehl.github.io/files/context.pdf#page=194,semilattice,layer3.csv,1.000,exact_letters,,layer_match
+Q20088882,triple,https://emilyriehl.github.io/files/context.pdf#page=197,triple,layer3.csv,1.000,exact_letters,Q581390 (1.000; exact_letters) triple [layer5.csv],layer_match
+Q6505076,Lawvere theory,https://emilyriehl.github.io/files/context.pdf#page=200,Lawvere theory,layer3.csv,1.000,exact_letters,,layer_match
+Q23808682,conservative functor,https://emilyriehl.github.io/files/context.pdf#page=200,conservative functor,layer3.csv,1.000,exact_letters,,layer_match
+Q1454165,free product,https://emilyriehl.github.io/files/context.pdf#page=203,free product,layer3.csv,1.000,exact_letters,Q123736846 (0.867; token_jaccard=0.67) amalgamated free product [layer5.csv],layer_match
+Q1723418,Kan extension,https://emilyriehl.github.io/files/context.pdf#page=210,Kan extension,layer3.csv,1.000,exact_letters,,layer_match
+Q3427423,induced representation,https://emilyriehl.github.io/files/context.pdf#page=212,Induced representation,layer4.csv,1.000,exact_letters,,layer_match
+Q1467124,augmented simplicial set,https://emilyriehl.github.io/files/context.pdf#page=213,simplicial set,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q1723418,Kan extension formula,https://emilyriehl.github.io/files/context.pdf#page=214,Kan extension,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q217608,fixed point functor,https://emilyriehl.github.io/files/context.pdf#page=218,fixed point,layer2.csv,0.867,token_jaccard=0.67,,layer_match
+Q5154570,n skeleton,https://emilyriehl.github.io/files/context.pdf#page=219,N-skeleton,layer3.csv,1.000,exact_letters,,layer_match
+Q1137726,directed graph,https://emilyriehl.github.io/files/context.pdf#page=219,directed graph,layer2.csv,1.000,exact_letters,Q1195339 (0.867; token_jaccard=0.67) directed acyclic graph [layer5.csv]; Q134972231 (0.867; token_jaccard=0.67) directed cyclic graph [layer3.csv]; Q115636432 (0.867; token_jaccard=0.67) labeled directed graph [layer4.csv]; Q130342284 (0.867; token_jaccard=0.67) rooted directed graph [layer5.csv],layer_match
+Q1723418,pointwise Kan extension,https://emilyriehl.github.io/files/context.pdf#page=219,Kan extension,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q20878207,weak equivalence,https://emilyriehl.github.io/files/context.pdf#page=225,weak homotopy equivalence,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q14775269,homotopy category,https://emilyriehl.github.io/files/context.pdf#page=225,homotopy category,layer3.csv,1.000,exact_letters,,layer_match
+Q3413378,quasi-isomorphism,https://emilyriehl.github.io/files/context.pdf#page=226,quasi-isomorphism,layer4.csv,1.000,exact_letters,,layer_match
+Q1626409,homotopy equivalence,https://emilyriehl.github.io/files/context.pdf#page=226,homotopy equivalence,layer2.csv,1.000,exact_letters,Q20878207 (0.867; token_jaccard=0.67) weak homotopy equivalence [layer4.csv],layer_match
+Q20878207,weak homotopy equivalence,https://emilyriehl.github.io/files/context.pdf#page=226,weak homotopy equivalence,layer3.csv,1.000,exact_letters,Q1626409 (0.867; token_jaccard=0.67) homotopy equivalence [layer2.csv],layer_match
+Q320245,total derived functor,https://emilyriehl.github.io/files/context.pdf#page=226,derived functor,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q1723418,absolute Kan extension,https://emilyriehl.github.io/files/context.pdf#page=228,Kan extension,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q48996306,density theorem,https://emilyriehl.github.io/files/context.pdf#page=232,Density theorem,layer3.csv,1.000,exact_letters,Q17098298 (0.867; token_jaccard=0.67) Jacobson density theorem [layer4.csv]; Q1209546 (0.867; token_jaccard=0.67) Kaplansky density theorem [layer4.csv],layer_match
+Q97359844,codensity monad,https://emilyriehl.github.io/files/context.pdf#page=234,codensity monad,layer3.csv,1.000,exact_letters,,layer_match
+Q17150929,coherence,https://emilyriehl.github.io/files/context.pdf#page=239,Coherence,layer5.csv,1.000,exact_letters,Q193147 (1.000; exact_letters) coherence [layer2.csv],layer_match
+Q17103860,symmetric monoidal category,https://emilyriehl.github.io/files/context.pdf#page=239,symmetric monoidal category,layer2.csv,1.000,exact_letters,Q5208531 (0.900; token_jaccard=0.75) Dagger symmetric monoidal category [layer5.csv]; Q1945014 (0.867; token_jaccard=0.67) monoidal category [layer3.csv],layer_match
+Q1987578,unit interval,https://emilyriehl.github.io/files/context.pdf#page=240,unit interval,layer5.csv,1.000,exact_letters,,layer_match
+Q106548123,Grothendieck topos,https://emilyriehl.github.io/files/context.pdf#page=242,Grothendieck topos,layer1.csv,1.000,exact_letters,,layer_match
+Q5379515,enriched category,https://emilyriehl.github.io/files/context.pdf#page=243,enriched category,layer1.csv,1.000,exact_letters,,layer_match
+Q131310283,image,https://emilyriehl.github.io/files/context.pdf#page=243,Image,layer5.csv,1.000,exact_letters,Q16643267 (1.000; exact_letters) Image [layer5.csv]; Q33541017 (1.000; exact_letters) Image [layer5.csv]; Q860623 (1.000; exact_letters) image [layer1.csv],layer_match
+Q381725,exact functor,https://emilyriehl.github.io/files/context.pdf#page=243,exact functor,layer3.csv,1.000,exact_letters,,layer_match
+Q311627,p-adic integers,https://emilyriehl.github.io/files/context.pdf#page=19,P-adic number,,,,,wikimapper
+Q3489713,p-adic solenoid,https://emilyriehl.github.io/files/context.pdf#page=19,Solenoid (mathematics),,,,,wikimapper
+Q1442189,natural,https://emilyriehl.github.io/files/context.pdf#page=19,Natural transformation,,,,,wikimapper
+Q752487,dual vector space,https://emilyriehl.github.io/files/context.pdf#page=19,Dual space,,,,,wikimapper
+Q1425985,preorder,https://emilyriehl.github.io/files/context.pdf#page=23,Preorder,,,,,wikimapper
+Q474715,poset,https://emilyriehl.github.io/files/context.pdf#page=23,PartialOrderedSet,,,,,wikimapper
+Q33401,Russell's paradox,https://emilyriehl.github.io/files/context.pdf#page=24,Russell's paradox,,,,,wikimapper
+Q420725,small,https://emilyriehl.github.io/files/context.pdf#page=24,Small,,,,,wikimapper
+Q77887,von Neumann hierarchy,https://emilyriehl.github.io/files/context.pdf#page=24,Von Neumann universe,,,,,wikimapper
+Q1948412,hom-set,https://emilyriehl.github.io/files/context.pdf#page=25,MorphisM,,,,,wikimapper
+Q189112,isomorphic,https://emilyriehl.github.io/files/context.pdf#page=25,Isomorphism class,,,,,wikimapper
+Q104864167,slice category,https://emilyriehl.github.io/files/context.pdf#page=26,Slice category,,,,,wikimapper
+Q6899873,monic,https://emilyriehl.github.io/files/context.pdf#page=29,Monic,,,,,wikimapper
+Q297152,epi,https://emilyriehl.github.io/files/context.pdf#page=29,EPI,,,,,wikimapper
+Q7333617,right inverse,https://emilyriehl.github.io/files/context.pdf#page=30,Right inverse,,,,,wikimapper
+Q6516970,left inverse,https://emilyriehl.github.io/files/context.pdf#page=30,Left inverse,,,,,wikimapper
+Q17502105,infimum,https://emilyriehl.github.io/files/context.pdf#page=31,Infimum and supremum,,,,,wikimapper
+Q746083,homotopy invariant,https://emilyriehl.github.io/files/context.pdf#page=32,Homotopy,,,,,wikimapper
+Q622825,clustering algorithm,https://emilyriehl.github.io/files/context.pdf#page=34,Cluster Analysis,,,,,wikimapper
+Q864475,covariant functor,https://emilyriehl.github.io/files/context.pdf#page=35,Functor,,,,,wikimapper
+Q864475,bifunctor,https://emilyriehl.github.io/files/context.pdf#page=37,Functor,,,,,wikimapper
+Q1780005,comma category,https://emilyriehl.github.io/files/context.pdf#page=40,Comma category,,,,,wikimapper
+Q1195852,center of a group,https://emilyriehl.github.io/files/context.pdf#page=40,Center (group theory),,,,,wikimapper
+Q522216,commutator subgroup,https://emilyriehl.github.io/files/context.pdf#page=40,Commutator subgroup,,,,,wikimapper
+Q621542,commutative square,https://emilyriehl.github.io/files/context.pdf#page=42,Commutative diagram,,,,,wikimapper
+Q5051825,decategorification,https://emilyriehl.github.io/files/context.pdf#page=46,Categorification,,,,,wikimapper
+Q5422217,extranatural transformation,https://emilyriehl.github.io/files/context.pdf#page=46,Extranatural transformation,,,,,wikimapper
+Q237107,full,https://emilyriehl.github.io/files/context.pdf#page=48,Full,,,,,wikimapper
+Q438562,global,https://emilyriehl.github.io/files/context.pdf#page=49,Global,,,,,wikimapper
+Q541563,full embedding,https://emilyriehl.github.io/files/context.pdf#page=49,Subcategory,,,,,wikimapper
+Q5161408,connected category,https://emilyriehl.github.io/files/context.pdf#page=51,Connected category,,,,,wikimapper
+Q2291918,skeletal category,https://emilyriehl.github.io/files/context.pdf#page=52,Skeleton (category theory),,,,,wikimapper
+Q344864,stabilizer,https://emilyriehl.github.io/files/context.pdf#page=52,Stabilization,,,,,wikimapper
+Q190995,essentially,https://emilyriehl.github.io/files/context.pdf#page=53,Essence,,,,,wikimapper
+Q5399579,essential image,https://emilyriehl.github.io/files/context.pdf#page=53,Essential range,,,,,wikimapper
+Q1386213,algebra for an endofunctor,https://emilyriehl.github.io/files/context.pdf#page=62,F-algebra,,,,,wikimapper
+Q1442189,vertical composition,https://emilyriehl.github.io/files/context.pdf#page=63,Natural transformation,,,,,wikimapper
+Q1442189,whiskering,https://emilyriehl.github.io/files/context.pdf#page=64,Natural transformation,,,,,wikimapper
+Q21199,natural numbers,https://emilyriehl.github.io/files/context.pdf#page=68,Natural numbers,,,,,wikimapper
+Q1417809,universal property,https://emilyriehl.github.io/files/context.pdf#page=69,Universal property,,,,,wikimapper
+Q320577,Yoneda embedding,https://emilyriehl.github.io/files/context.pdf#page=77,Yoneda lemma,,,,,wikimapper
+Q21121474,the,https://emilyriehl.github.io/files/context.pdf#page=80,The,,,,,wikimapper
+Q386320,universal element,https://emilyriehl.github.io/files/context.pdf#page=80,Representable functor,,,,,wikimapper
+Q4907764,bilinear,https://emilyriehl.github.io/files/context.pdf#page=81,Bilinear,,,,,wikimapper
+Q13416298,evaluation map,https://emilyriehl.github.io/files/context.pdf#page=83,Initial topology,,,,,wikimapper
+Q48975267,quotient,https://emilyriehl.github.io/files/context.pdf#page=91,Group-scheme action,,,,,wikimapper
+Q189061,cell complex,https://emilyriehl.github.io/files/context.pdf#page=91,CW complex,,,,,wikimapper
+Q1139111,gluing,https://emilyriehl.github.io/files/context.pdf#page=91,Quotient space (topology),,,,,wikimapper
+Q864475,constant functor,https://emilyriehl.github.io/files/context.pdf#page=92,Functor,,,,,wikimapper
+Q1850712,cocone,https://emilyriehl.github.io/files/context.pdf#page=92,Cone (category theory),,,,,wikimapper
+Q5450158,finest,https://emilyriehl.github.io/files/context.pdf#page=95,The Finest,,,,,wikimapper
+Q5051852,terminal category,https://emilyriehl.github.io/files/context.pdf#page=96,Category of small categories,,,,,wikimapper
+Q1224487,equalizer,https://emilyriehl.github.io/files/context.pdf#page=96,Equaliser (mathematics),,,,,wikimapper
+Q1397439,fiber product,https://emilyriehl.github.io/files/context.pdf#page=97,Fiber product,,,,,wikimapper
+Q2243424,idempotent,https://emilyriehl.github.io/files/context.pdf#page=106,Idempotent (ring theory),,,,,wikimapper
+Q3055409,split idempotent,https://emilyriehl.github.io/files/context.pdf#page=106,Karoubi envelope,,,,,wikimapper
+Q7241053,preserve,https://emilyriehl.github.io/files/context.pdf#page=108,Preserve,,,,,wikimapper
+Q120429,reflect,https://emilyriehl.github.io/files/context.pdf#page=108,Reflecting,,,,,wikimapper
+Q1322614,cocontinuous functor,https://emilyriehl.github.io/files/context.pdf#page=117,Limit (category theory),,,,,wikimapper
+Q2844249,kernel pair,https://emilyriehl.github.io/files/context.pdf#page=121,Regular category,,,,,wikimapper
+Q130998,equivalence relation,https://emilyriehl.github.io/files/context.pdf#page=121,EquivalenceRelation,,,,,wikimapper
+Q1076611,lim inf,https://emilyriehl.github.io/files/context.pdf#page=131,Limit inferior and limit superior,,,,,wikimapper
+Q1292333,free vector space,https://emilyriehl.github.io/files/context.pdf#page=135,Free module,,,,,wikimapper
+Q30701870,formal sum,https://emilyriehl.github.io/files/context.pdf#page=135,Formal sum,,,,,wikimapper
+Q357823,adjunct,https://emilyriehl.github.io/files/context.pdf#page=136,Adjunct,,,,,wikimapper
+Q223683,transpose,https://emilyriehl.github.io/files/context.pdf#page=136,Transpose,,,,,wikimapper
+Q1128678,group completion,https://emilyriehl.github.io/files/context.pdf#page=139,Grothendieck group,,,,,wikimapper
+Q16858946,restriction of scalars,https://emilyriehl.github.io/files/context.pdf#page=140,Restriction of scalars,,,,,wikimapper
+Q1630568,monadic adjunction,https://emilyriehl.github.io/files/context.pdf#page=140,Monad (category theory),,,,,wikimapper
+Q163875,cardinal arithmetic,https://emilyriehl.github.io/files/context.pdf#page=158,Cardinal numbers,,,,,wikimapper
+Q251307,localization,https://emilyriehl.github.io/files/context.pdf#page=160,Localization,,,,,wikimapper
+Q4672496,accessible functor,https://emilyriehl.github.io/files/context.pdf#page=170,Accessible category,,,,,wikimapper
+Q34010,Haskell,https://emilyriehl.github.io/files/context.pdf#page=174,Haskell language,,,,,wikimapper
+Q1579914,maybe monad,https://emilyriehl.github.io/files/context.pdf#page=175,Monad (functional programming),,,,,wikimapper
+Q27948,list monad,https://emilyriehl.github.io/files/context.pdf#page=176,List (abstract data type),,,,,wikimapper
+Q5051859,category of algebras,https://emilyriehl.github.io/files/context.pdf#page=180,Category of commutative rings,,,,,wikimapper
+Q1000660,homomorphism of algebras,https://emilyriehl.github.io/files/context.pdf#page=180,Algebra over a field,,,,,wikimapper
+Q1630568,monadic functor,https://emilyriehl.github.io/files/context.pdf#page=187,Monad (category theory),,,,,wikimapper
+Q915906,group presentation,https://emilyriehl.github.io/files/context.pdf#page=189,Presentation of a group,,,,,wikimapper
+Q5140810,split coequalizer,https://emilyriehl.github.io/files/context.pdf#page=190,Coequaliser,,,,,wikimapper
+Q2143621,elementary topos,https://emilyriehl.github.io/files/context.pdf#page=197,Mathematical topo,,,,,wikimapper
+Q25036778,chain homotopy equivalence,https://emilyriehl.github.io/files/context.pdf#page=226,Glossary of algebraic topology,,,,,wikimapper
+Q5251702,deformation,https://emilyriehl.github.io/files/context.pdf#page=227,Deformation (mathematics),,,,,wikimapper
+Q115221345,geometric realization,https://emilyriehl.github.io/files/context.pdf#page=235,Geometric realization,,,,,wikimapper
+Q1945014,unit object,https://emilyriehl.github.io/files/context.pdf#page=239,Monoidal category,,,,,wikimapper

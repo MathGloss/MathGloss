@@ -1,0 +1,477 @@
+Wikidata ID,Title,Link,Label,Layer,Score,Reason,Alternates,Provenance
+Q803931,Baire property,https://mathgloss.github.io/MathGloss/chicago/Baire_property,property of Baire,layer1.csv,0.867,token_jaccard=0.67,,layer_match
+Q1150180,Baire space,https://mathgloss.github.io/MathGloss/chicago/Baire_space,Baire space,layer1.csv,1.000,exact_letters,Q803936 (1.000; exact_letters) Baire space [layer3.csv],layer_match
+Q3459695,Banach Mazur game,https://mathgloss.github.io/MathGloss/chicago/Banach-Mazur_game,Banach–Mazur game,layer1.csv,1.000,exact_letters,Q25304403 (0.867; token_jaccard=0.67) Banach game [layer5.csv],layer_match
+Q806066,Banach algebra,https://mathgloss.github.io/MathGloss/chicago/Banach_algebra,Banach algebra,layer1.csv,1.000,exact_letters,Q16930464 (1.000; exact_letters) Banach *-algebra [layer2.csv]; Q4742386 (0.867; token_jaccard=0.67) amenable Banach algebra [layer2.csv],layer_match
+Q194397,Banach space,https://mathgloss.github.io/MathGloss/chicago/Banach_space,Banach space,layer1.csv,1.000,exact_letters,,layer_match
+Q15895745,Borel function,https://mathgloss.github.io/MathGloss/chicago/Borel_function,Borel function,layer3.csv,1.000,exact_letters,,layer_match
+Q91578938,Borel space,https://mathgloss.github.io/MathGloss/chicago/Borel_space,Borel space,layer4.csv,1.000,exact_letters,Q25378068 (0.867; token_jaccard=0.67) standard Borel space [layer5.csv],layer_match
+Q1080067,Borel σ algebra,https://mathgloss.github.io/MathGloss/chicago/Borel_σ-algebra,Borel algebra,layer5.csv,1.000,token_jaccard=1.00,,layer_match
+Q273188,Cantor set,https://mathgloss.github.io/MathGloss/chicago/Cantor_set,Cantor set,layer4.csv,1.000,exact_letters,,layer_match
+Q217847,Cauchy sequence,https://mathgloss.github.io/MathGloss/chicago/Cauchy_sequence,cauchy sequence,layer1.csv,1.000,exact_letters,Q7885144 (0.867; token_jaccard=0.67) uniformly Cauchy sequence [layer1.csv],layer_match
+Q867345,Euclidean domain,https://mathgloss.github.io/MathGloss/chicago/Euclidean_domain,Euclidean domain,layer4.csv,1.000,exact_letters,,layer_match
+Q190026,Euler's totient function,https://mathgloss.github.io/MathGloss/chicago/Euler's_totient_function,Euler's totient function,layer2.csv,1.000,exact_letters,,layer_match
+Q769124,Frobenius endomorphism,https://mathgloss.github.io/MathGloss/chicago/Frobenius_endomorphism,Frobenius endomorphism,layer3.csv,1.000,exact_letters,,layer_match
+Q4133834,G harmonic polynomial,https://mathgloss.github.io/MathGloss/chicago/G-harmonic_polynomial,harmonic polynomial,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q3754518,G invariant function,https://mathgloss.github.io/MathGloss/chicago/G-invariant_function,G-function,layer1.csv,0.867,token_jaccard=0.67,,layer_match
+Q2706744,G invariant subspace,https://mathgloss.github.io/MathGloss/chicago/G-invariant_subspace,invariant subspace,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q20827113,G space,https://mathgloss.github.io/MathGloss/chicago/G-space,G-space,layer2.csv,1.000,exact_letters,,layer_match
+Q2020004,Galois extension,https://mathgloss.github.io/MathGloss/chicago/Galois_extension,Galois extension,layer5.csv,1.000,exact_letters,,layer_match
+Q5721625,Hamel basis,https://mathgloss.github.io/MathGloss/chicago/Hamel_basis,Hamel basis,layer1.csv,1.000,exact_letters,,layer_match
+Q620495,Hessian matrix,https://mathgloss.github.io/MathGloss/chicago/Hessian_matrix,Hessian matrix,layer1.csv,1.000,exact_letters,Q2645505 (0.867; token_jaccard=0.67) bordered Hessian matrix [layer5.csv],layer_match
+Q190056,Hilbert space,https://mathgloss.github.io/MathGloss/chicago/Hilbert_space,Hilbert space,layer1.csv,1.000,exact_letters,Q3058230 (0.867; token_jaccard=0.67) projective Hilbert space [layer3.csv]; Q1262627 (0.867; token_jaccard=0.67) rigged Hilbert space [layer5.csv],layer_match
+Q1474543,Jacobian determinant,https://mathgloss.github.io/MathGloss/chicago/Jacobian_determinant,Jacobian determinant,layer5.csv,1.000,exact_letters,,layer_match
+Q506041,Jacobian matrix,https://mathgloss.github.io/MathGloss/chicago/Jacobian_matrix,Jacobian matrix,layer1.csv,1.000,exact_letters,,layer_match
+Q192826,Kronecker delta,https://mathgloss.github.io/MathGloss/chicago/Kronecker_delta,Kronecker delta,layer2.csv,1.000,exact_letters,,layer_match
+Q425432,Laurent series,https://mathgloss.github.io/MathGloss/chicago/Laurent_series,Laurent series,layer3.csv,1.000,exact_letters,,layer_match
+Q827230,Lebesgue measure,https://mathgloss.github.io/MathGloss/chicago/Lebesgue_measure,Lebesgue measure,layer1.csv,1.000,exact_letters,Q25447455 (0.867; token_jaccard=0.67) Lebesgue outer measure [layer2.csv],layer_match
+Q25447455,Lebesgue outer measure,https://mathgloss.github.io/MathGloss/chicago/Lebesgue_outer_measure,Lebesgue outer measure,layer1.csv,1.000,exact_letters,Q827230 (0.867; token_jaccard=0.67) Lebesgue measure [layer5.csv]; Q258374 (0.867; token_jaccard=0.67) outer measure [layer3.csv],layer_match
+Q664495,Lie algebra,https://mathgloss.github.io/MathGloss/chicago/Lie_algebra,Lie algebra,layer2.csv,1.000,exact_letters,Q632521 (0.867; token_jaccard=0.67) affine Lie algebra [layer5.csv]; Q28852305 (0.867; token_jaccard=0.67) classical Lie algebra [layer5.csv]; Q5155287 (0.867; token_jaccard=0.67) compact Lie algebra [layer3.csv]; Q5499906 (0.867; token_jaccard=0.67) free Lie algebra [layer4.csv],layer_match
+Q1136782,Lie algebra representation,https://mathgloss.github.io/MathGloss/chicago/Lie_algebra_representation,Lie algebra representation,layer3.csv,1.000,exact_letters,Q4723980 (0.867; token_jaccard=0.67) algebra representation [layer3.csv]; Q664495 (0.867; token_jaccard=0.67) Lie algebra [layer5.csv],layer_match
+Q622679,Lie group,https://mathgloss.github.io/MathGloss/chicago/Lie_group,Lie group,layer3.csv,1.000,exact_letters,Q85739412 (0.867; token_jaccard=0.67) Abelian Lie group [layer5.csv]; Q3117687 (0.867; token_jaccard=0.67) commutative Lie group [layer2.csv]; Q3117689 (0.867; token_jaccard=0.67) compact Lie group [layer5.csv]; Q5156554 (0.867; token_jaccard=0.67) complex Lie group [layer4.csv],layer_match
+Q305936,Lp space,https://mathgloss.github.io/MathGloss/chicago/Lp_space,Lp space,layer2.csv,1.000,exact_letters,,layer_match
+Q2444982,Noetherian module,https://mathgloss.github.io/MathGloss/chicago/Noetherian_module,Noetherian module,layer1.csv,1.000,exact_letters,,layer_match
+Q582271,Noetherian ring,https://mathgloss.github.io/MathGloss/chicago/Noetherian_ring,noetherian ring,layer2.csv,1.000,exact_letters,Q126898826 (0.867; token_jaccard=0.67) Noetherian commutative ring [layer5.csv],layer_match
+Q2126650,Radon measure,https://mathgloss.github.io/MathGloss/chicago/Radon_measure,Radon measure,layer4.csv,1.000,exact_letters,,layer_match
+Q1369621,Schwartz space,https://mathgloss.github.io/MathGloss/chicago/Schwartz_space,Schwartz space,layer1.csv,1.000,exact_letters,,layer_match
+Q2601117,Stirling numbers of the second kind,https://mathgloss.github.io/MathGloss/chicago/Stirling_numbers_of_the_second_kind,Stirling number of the second kind,layer2.csv,0.886,token_jaccard=0.71,,layer_match
+Q10686808,Sylow p subgroup,https://mathgloss.github.io/MathGloss/chicago/Sylow_p-subgroup,Sylow subgroup,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q284347,T1 space,https://mathgloss.github.io/MathGloss/chicago/T1_space,T1 space,layer3.csv,1.000,exact_letters,,layer_match
+Q3229352,Vitali covering,https://mathgloss.github.io/MathGloss/chicago/Vitali_covering,Vitali covering lemma,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q768074,Weyl group,https://mathgloss.github.io/MathGloss/chicago/Weyl_group,Weyl group,layer1.csv,1.000,exact_letters,,layer_match
+Q664495,abelian Lie algebra,https://mathgloss.github.io/MathGloss/chicago/abelian_Lie_algebra,Lie algebra,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q318705,abelian extension,https://mathgloss.github.io/MathGloss/chicago/abelian_extension,abelian extension,layer1.csv,1.000,exact_letters,,layer_match
+Q181296,abelian group,https://mathgloss.github.io/MathGloss/chicago/abelian_group,abelian group,layer1.csv,1.000,exact_letters,Q85739412 (0.867; token_jaccard=0.67) Abelian Lie group [layer5.csv]; Q7825020 (0.867; token_jaccard=0.67) abelian topological group [layer5.csv]; Q1017231 (0.867; token_jaccard=0.67) elementary abelian group [layer4.csv]; Q3117606 (0.867; token_jaccard=0.67) finite abelian group [layer5.csv],layer_match
+Q318598,abelianization,https://mathgloss.github.io/MathGloss/chicago/abelianization,abelianization,layer2.csv,1.000,exact_letters,,layer_match
+Q332465,absolute convergence,https://mathgloss.github.io/MathGloss/chicago/absolute_convergence,absolute convergence,layer3.csv,1.000,exact_letters,Q7885093 (0.867; token_jaccard=0.67) uniform absolute-convergence [layer2.csv],layer_match
+Q120812,absolute value,https://mathgloss.github.io/MathGloss/chicago/absolute_value,absolute value,layer2.csv,1.000,exact_letters,Q4669840 (1.000; exact_letters) absolute value [layer3.csv]; Q2115697 (0.867; token_jaccard=0.67) pseudo-absolute value [layer4.csv],layer_match
+Q4379157,adjoint representation of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/adjoint_representation_of_a_Lie_algebra,adjoint representation of a Lie algebra,layer4.csv,1.000,exact_letters,,layer_match
+Q3882299,algebra homomorphism,https://mathgloss.github.io/MathGloss/chicago/algebra_homomorphism,algebra homomorphism,layer2.csv,1.000,exact_letters,,layer_match
+Q25488798,algebra ideal,https://mathgloss.github.io/MathGloss/chicago/algebra_ideal,Lie algebra ideal,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q1000660,algebra over a field,https://mathgloss.github.io/MathGloss/chicago/algebra_over_a_field,algebra over a field,layer3.csv,1.000,exact_letters,Q44176931 (0.920; token_jaccard=0.80) trivial algebra over a field [layer2.csv]; Q2030545 (0.840; token_jaccard=0.60) algebra over a ring [layer4.csv],layer_match
+Q550791,algebraic extension,https://mathgloss.github.io/MathGloss/chicago/algebraic_extension,algebraic extension,layer4.csv,1.000,exact_letters,,layer_match
+Q121554727,algebraic integer,https://mathgloss.github.io/MathGloss/chicago/algebraic_integer,algebraic integer,layer3.csv,1.000,exact_letters,Q646245 (1.000; exact_letters) algebraic integer [layer4.csv],layer_match
+Q168817,algebraic number,https://mathgloss.github.io/MathGloss/chicago/algebraic_number,algebraic number,layer3.csv,1.000,exact_letters,Q616608 (0.867; token_jaccard=0.67) algebraic number field [layer4.csv]; Q613048 (0.867; token_jaccard=0.67) algebraic number theory [layer2.csv],layer_match
+Q1047547,algebraically closed,https://mathgloss.github.io/MathGloss/chicago/algebraically_closed,algebraically closed field,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q1139334,almost everywhere,https://mathgloss.github.io/MathGloss/chicago/almost_everywhere,almost everywhere,layer3.csv,1.000,exact_letters,,layer_match
+Q25377974,almost uniform convergence,https://mathgloss.github.io/MathGloss/chicago/almost_uniform_convergence,almost uniform convergence,layer5.csv,1.000,exact_letters,Q1411887 (0.867; token_jaccard=0.67) uniform convergence [layer3.csv],layer_match
+Q438814,alternating group,https://mathgloss.github.io/MathGloss/chicago/alternating_group,alternating group,layer5.csv,1.000,exact_letters,Q122897702 (0.867; token_jaccard=0.67) alternating group graph [layer5.csv],layer_match
+Q215084,analytic function,https://mathgloss.github.io/MathGloss/chicago/analytic_function,analytic function,layer4.csv,1.000,exact_letters,Q7269437 (0.867; token_jaccard=0.67) quasi-analytic function [layer5.csv]; Q120153213 (0.867; token_jaccard=0.67) real analytic function [layer5.csv],layer_match
+Q1780131,argument,https://mathgloss.github.io/MathGloss/chicago/argument,argument,layer3.csv,1.000,exact_letters,Q2185614 (1.000; exact_letters) argument [layer4.csv],layer_match
+Q744960,associative algebra,https://mathgloss.github.io/MathGloss/chicago/associative_algebra,associative algebra,layer2.csv,1.000,exact_letters,Q97165845 (0.867; token_jaccard=0.67) homotopy associative algebra [layer3.csv]; Q4391941 (0.867; token_jaccard=0.67) non-associative algebra [layer5.csv],layer_match
+Q105481096,atlas,https://mathgloss.github.io/MathGloss/chicago/atlas,Atlas,layer5.csv,1.000,exact_letters,Q110473273 (1.000; exact_letters) Atlas [layer5.csv]; Q115474889 (1.000; exact_letters) Atlas [layer5.csv]; Q1303310 (1.000; exact_letters) atlas [layer2.csv]; Q3628243 (1.000; exact_letters) Atlas [layer5.csv],layer_match
+Q782566,automorphism,https://mathgloss.github.io/MathGloss/chicago/automorphism,automorphism,layer3.csv,1.000,exact_letters,,layer_match
+Q60790315,automorphism group,https://mathgloss.github.io/MathGloss/chicago/automorphism_group,automorphism group,layer3.csv,1.000,exact_letters,Q40289167 (1.000; token_jaccard=1.00) group automorphism [layer4.csv]; Q97621539 (0.867; token_jaccard=0.67) Edge Automorphism Group [layer4.csv]; Q77980592 (0.867; token_jaccard=0.67) inner automorphism group [layer5.csv]; Q77980689 (0.867; token_jaccard=0.67) outer automorphism group [layer5.csv],layer_match
+Q809690,barycenter,https://mathgloss.github.io/MathGloss/chicago/barycenter,barycenter,layer5.csv,1.000,exact_letters,,layer_match
+Q179899,based topological space,https://mathgloss.github.io/MathGloss/chicago/based_topological_space,topological space,layer1.csv,0.867,token_jaccard=0.67,,layer_match
+Q189569,basis,https://mathgloss.github.io/MathGloss/chicago/basis,basis,layer3.csv,1.000,exact_letters,Q810193 (1.000; exact_letters) basis [layer3.csv],layer_match
+Q164307,binary operation,https://mathgloss.github.io/MathGloss/chicago/binary_operation,binary operation,layer3.csv,1.000,exact_letters,Q47407349 (0.867; token_jaccard=0.67) external binary operation [layer4.csv]; Q3354893 (0.867; token_jaccard=0.67) internal binary operation [layer4.csv]; Q6094393 (0.867; token_jaccard=0.67) iterated binary operation [layer4.csv]; Q97152408 (0.867; token_jaccard=0.67) partial binary operation [layer3.csv],layer_match
+Q130901,binary relation,https://mathgloss.github.io/MathGloss/chicago/binary_relation,binary relation,layer3.csv,1.000,exact_letters,,layer_match
+Q106371443,boundary,https://mathgloss.github.io/MathGloss/chicago/boundary,boundary,layer2.csv,1.000,exact_letters,Q78323465 (1.000; exact_letters) boundary [layer2.csv]; Q875399 (1.000; exact_letters) boundary [layer3.csv],layer_match
+Q3058212,bounded measure space,https://mathgloss.github.io/MathGloss/chicago/bounded_measure_space,measure space,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q163875,cardinal number,https://mathgloss.github.io/MathGloss/chicago/cardinal_number,cardinal number,layer2.csv,1.000,exact_letters,,layer_match
+Q719395,category,https://mathgloss.github.io/MathGloss/chicago/category,category,layer2.csv,1.000,exact_letters,,layer_match
+Q2518298,category of sets,https://mathgloss.github.io/MathGloss/chicago/category_of_sets,category of sets,layer2.csv,1.000,exact_letters,Q5051853 (0.900; token_jaccard=0.75) category of preordered sets [layer2.csv],layer_match
+Q2000555,category of topological spaces,https://mathgloss.github.io/MathGloss/chicago/category_of_topological_spaces,category of topological spaces,layer2.csv,1.000,exact_letters,Q113834084 (0.920; token_jaccard=0.80) category of pointed topological spaces [layer2.csv]; Q5051854 (0.920; token_jaccard=0.80) category of topological vector spaces [layer5.csv]; Q5051850 (0.840; token_jaccard=0.60) category of metric spaces [layer2.csv],layer_match
+Q511093,centroid,https://mathgloss.github.io/MathGloss/chicago/centroid,centroid,layer3.csv,1.000,exact_letters,,layer_match
+Q849705,characteristic polynomial,https://mathgloss.github.io/MathGloss/chicago/characteristic_polynomial,characteristic polynomial,layer4.csv,1.000,exact_letters,Q114727829 (0.867; token_jaccard=0.67) The characteristic polynomial [layer2.csv],layer_match
+Q3828144,chart,https://mathgloss.github.io/MathGloss/chicago/chart,chart,layer4.csv,1.000,exact_letters,,layer_match
+Q1095987,class,https://mathgloss.github.io/MathGloss/chicago/class,Class,layer5.csv,1.000,exact_letters,,layer_match
+Q986909,class function,https://mathgloss.github.io/MathGloss/chicago/class_function,class function,layer2.csv,1.000,exact_letters,Q25304510 (0.867; token_jaccard=0.67) learnable function class [layer3.csv],layer_match
+Q644719,closed half space,https://mathgloss.github.io/MathGloss/chicago/closed_half-space,half-space,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q106504945,closure,https://mathgloss.github.io/MathGloss/chicago/closure,Closure,layer5.csv,1.000,exact_letters,Q320346 (1.000; exact_letters) closure [layer3.csv]; Q4720939 (1.000; exact_letters) closure [layer1.csv],layer_match
+Q3117689,compact Lie group,https://mathgloss.github.io/MathGloss/chicago/compact_Lie_group,compact Lie group,layer4.csv,1.000,exact_letters,Q1887083 (0.867; token_jaccard=0.67) compact group [layer5.csv]; Q622679 (0.867; token_jaccard=0.67) Lie group [layer5.csv],layer_match
+Q78484790,compact symplectic group,https://mathgloss.github.io/MathGloss/chicago/compact_symplectic_group,compact symplectic group,layer5.csv,1.000,exact_letters,Q1887083 (0.867; token_jaccard=0.67) compact group [layer5.csv]; Q936434 (0.867; token_jaccard=0.67) symplectic group [layer5.csv],layer_match
+Q5156434,complemented lattice,https://mathgloss.github.io/MathGloss/chicago/complemented_lattice,complemented lattice,layer4.csv,1.000,exact_letters,,layer_match
+Q848569,complete metric space,https://mathgloss.github.io/MathGloss/chicago/complete_metric_space,complete metric space,layer4.csv,1.000,exact_letters,Q180953 (0.867; token_jaccard=0.67) metric space [layer5.csv],layer_match
+Q5156554,complex Lie group,https://mathgloss.github.io/MathGloss/chicago/complex_Lie_group,complex Lie group,layer4.csv,1.000,exact_letters,Q622679 (0.867; token_jaccard=0.67) Lie group [layer5.csv],layer_match
+Q381040,complex conjugate,https://mathgloss.github.io/MathGloss/chicago/complex_conjugate,complex conjugate,layer3.csv,1.000,exact_letters,Q10754052 (0.867; token_jaccard=0.67) complex conjugate matrix [layer3.csv],layer_match
+Q467699,complex line integral,https://mathgloss.github.io/MathGloss/chicago/complex_line_integral,line integral,layer2.csv,0.867,token_jaccard=0.67,,layer_match
+Q1783179,complex orthogonal group,https://mathgloss.github.io/MathGloss/chicago/complex_orthogonal_group,orthogonal group,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q936434,complex symplectic group,https://mathgloss.github.io/MathGloss/chicago/complex_symplectic_group,symplectic group,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q929302,complexification of a vector space,https://mathgloss.github.io/MathGloss/chicago/complexification_of_a_vector_space,dimension of a vector space,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q577835,composite field extension,https://mathgloss.github.io/MathGloss/chicago/composite_field_extension,field extension,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q114232251,connected,https://mathgloss.github.io/MathGloss/chicago/connected,Connected,layer5.csv,1.000,exact_letters,Q20728319 (1.000; exact_letters) Connected [layer5.csv]; Q2483961 (1.000; exact_letters) Connected [layer5.csv]; Q27045042 (1.000; exact_letters) Connected [layer5.csv]; Q56305827 (1.000; exact_letters) Connected [layer5.csv],layer_match
+Q91050456,connected component,https://mathgloss.github.io/MathGloss/chicago/connected_component,connected component,layer3.csv,1.000,exact_letters,Q2003238 (0.867; token_jaccard=0.67) strongly connected component [layer3.csv],layer_match
+Q230655,connected graph,https://mathgloss.github.io/MathGloss/chicago/connected_graph,connected graph,layer2.csv,1.000,exact_letters,Q132078220 (0.867; token_jaccard=0.67) Hamilton-connected graph [layer5.csv]; Q122389658 (0.867; token_jaccard=0.67) strongly connected graph [layer4.csv],layer_match
+Q1055807,continuous group representation,https://mathgloss.github.io/MathGloss/chicago/continuous_group_representation,group representation,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q515173,contraction mapping,https://mathgloss.github.io/MathGloss/chicago/contraction_mapping,contraction mapping,layer2.csv,1.000,exact_letters,,layer_match
+Q768656,convergence in measure,https://mathgloss.github.io/MathGloss/chicago/convergence_in_measure,convergence in measure,layer4.csv,1.000,exact_letters,,layer_match
+Q193657,convex set,https://mathgloss.github.io/MathGloss/chicago/convex_set,convex set,layer3.csv,1.000,exact_letters,Q332715 (0.867; token_jaccard=0.67) absolutely convex set [layer5.csv]; Q19597768 (0.867; token_jaccard=0.67) logarithmically convex set [layer5.csv]; Q91483756 (0.867; token_jaccard=0.67) non-convex set [layer3.csv]; Q121010900 (0.867; token_jaccard=0.67) order-convex set [layer5.csv],layer_match
+Q16623445,critical point,https://mathgloss.github.io/MathGloss/chicago/critical_point,Critical Point,layer5.csv,1.000,exact_letters,Q5186748 (1.000; exact_letters) critical point [layer1.csv]; Q577705 (1.000; exact_letters) critical point [layer3.csv],layer_match
+Q3754024,critical value,https://mathgloss.github.io/MathGloss/chicago/critical_value,critical value,layer3.csv,1.000,exact_letters,,layer_match
+Q105085931,cycle,https://mathgloss.github.io/MathGloss/chicago/cycle,Cycle,layer5.csv,1.000,exact_letters,Q114979514 (1.000; exact_letters) Cycle [layer5.csv]; Q30601056 (1.000; exact_letters) Cycle [layer5.csv]; Q49827664 (1.000; exact_letters) Cycle [layer5.csv]; Q5198136 (1.000; exact_letters) Cycle [layer5.csv],layer_match
+Q245462,cyclic group,https://mathgloss.github.io/MathGloss/chicago/cyclic_group,cyclic group,layer2.csv,1.000,exact_letters,Q2790210 (0.867; token_jaccard=0.67) binary cyclic group [layer4.csv]; Q54806735 (0.867; token_jaccard=0.67) finite cyclic group [layer5.csv]; Q54806746 (0.867; token_jaccard=0.67) infinite cyclic group [layer5.csv]; Q16969335 (0.867; token_jaccard=0.67) primary cyclic group [layer5.csv],layer_match
+Q1554628,cyclotomic field,https://mathgloss.github.io/MathGloss/chicago/cyclotomic_field,cyclotomic field,layer4.csv,1.000,exact_letters,,layer_match
+Q1051983,cyclotomic polynomial,https://mathgloss.github.io/MathGloss/chicago/cyclotomic_polynomial,cyclotomic polynomial,layer4.csv,1.000,exact_letters,,layer_match
+Q3493864,degree of field extension,https://mathgloss.github.io/MathGloss/chicago/degree_of_field_extension,Degree of a field extension,layer4.csv,0.920,token_jaccard=0.80,,layer_match
+Q1473607,degree of polynomial,https://mathgloss.github.io/MathGloss/chicago/degree_of_polynomial,degree of a polynomial,layer3.csv,0.900,token_jaccard=0.75,,layer_match
+Q451323,derivation,https://mathgloss.github.io/MathGloss/chicago/derivation,derivation,layer3.csv,1.000,exact_letters,,layer_match
+Q5062152,descending central series,https://mathgloss.github.io/MathGloss/chicago/descending_central_series,central series,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q178546,determinant,https://mathgloss.github.io/MathGloss/chicago/determinant,determinant,layer4.csv,1.000,exact_letters,,layer_match
+Q1058314,diffeomorphism,https://mathgloss.github.io/MathGloss/chicago/diffeomorphism,diffeomorphism,layer3.csv,1.000,exact_letters,,layer_match
+Q1142861,direct sum of modules,https://mathgloss.github.io/MathGloss/chicago/direct_sum_of_modules,direct sum of modules,layer3.csv,1.000,exact_letters,Q4166523 (0.840; token_jaccard=0.60) direct sum of groups [layer4.csv]; Q134607551 (0.840; token_jaccard=0.60) Direct sum of matrices [layer5.csv],layer_match
+Q383851,directional derivative,https://mathgloss.github.io/MathGloss/chicago/directional_derivative,directional derivative,layer3.csv,1.000,exact_letters,,layer_match
+Q1228851,discrete category,https://mathgloss.github.io/MathGloss/chicago/discrete_category,discrete category,layer3.csv,1.000,exact_letters,,layer_match
+Q91267214,discrete topology,https://mathgloss.github.io/MathGloss/chicago/discrete_topology,discrete topology,layer5.csv,1.000,exact_letters,,layer_match
+Q192487,discriminant,https://mathgloss.github.io/MathGloss/chicago/discriminant,discriminant,layer5.csv,1.000,exact_letters,,layer_match
+Q1782332,divisible group,https://mathgloss.github.io/MathGloss/chicago/divisible_group,divisible group,layer2.csv,1.000,exact_letters,,layer_match
+Q1231309,division algebra,https://mathgloss.github.io/MathGloss/chicago/division_algebra,division algebra,layer4.csv,1.000,exact_letters,Q2038861 (0.867; token_jaccard=0.67) normed division algebra [layer5.csv],layer_match
+Q650741,division ring,https://mathgloss.github.io/MathGloss/chicago/division_ring,division ring,layer5.csv,1.000,exact_letters,Q119143608 (0.867; token_jaccard=0.67) topological division ring [layer3.csv],layer_match
+Q4379157,dual representation of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/dual_representation_of_a_Lie_algebra,adjoint representation of a Lie algebra,layer4.csv,0.886,token_jaccard=0.71,,layer_match
+Q752487,dual space,https://mathgloss.github.io/MathGloss/chicago/dual_space,dual space,layer3.csv,1.000,exact_letters,Q91323680 (0.867; token_jaccard=0.67) algebraic dual space [layer5.csv]; Q16630165 (0.867; token_jaccard=0.67) continuous dual space [layer5.csv]; Q3058166 (0.867; token_jaccard=0.67) double dual space [layer4.csv],layer_match
+Q3553768,eigenvalue,https://mathgloss.github.io/MathGloss/chicago/eigenvalue,eigenvalue,layer1.csv,1.000,exact_letters,,layer_match
+Q3555174,eigenvector,https://mathgloss.github.io/MathGloss/chicago/eigenvector,eigenvector,layer3.csv,1.000,exact_letters,,layer_match
+Q1017231,elementary abelian p group,https://mathgloss.github.io/MathGloss/chicago/elementary_abelian_p-group,elementary abelian group,layer4.csv,0.900,token_jaccard=0.75,,layer_match
+Q609566,elementary matrix,https://mathgloss.github.io/MathGloss/chicago/elementary_matrix,elementary matrix,layer4.csv,1.000,exact_letters,,layer_match
+Q980509,embedding,https://mathgloss.github.io/MathGloss/chicago/embedding,embedding,layer2.csv,1.000,exact_letters,,layer_match
+Q1340800,endomorphism,https://mathgloss.github.io/MathGloss/chicago/endomorphism,endomorphism,layer2.csv,1.000,exact_letters,,layer_match
+Q1347208,epimorphism,https://mathgloss.github.io/MathGloss/chicago/epimorphism,epimorphism,layer4.csv,1.000,exact_letters,,layer_match
+Q1211071,equivalence class,https://mathgloss.github.io/MathGloss/chicago/equivalence_class,equivalence class,layer2.csv,1.000,exact_letters,Q5384707 (1.000; exact_letters) equivalence class [layer3.csv],layer_match
+Q256355,equivariant map,https://mathgloss.github.io/MathGloss/chicago/equivariant_map,equivariant map,layer2.csv,1.000,exact_letters,,layer_match
+Q20920008,essential infimum,https://mathgloss.github.io/MathGloss/chicago/essential_infimum,essential infimum,layer2.csv,1.000,exact_letters,,layer_match
+Q1969054,essential supremum,https://mathgloss.github.io/MathGloss/chicago/essential_supremum,essential supremum,layer2.csv,1.000,exact_letters,,layer_match
+Q91316547,essentially bounded,https://mathgloss.github.io/MathGloss/chicago/essentially_bounded,essentially bounded function,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q32998717,exponent of a finite group,https://mathgloss.github.io/MathGloss/chicago/exponent_of_a_finite_group,exponent of a group,layer3.csv,0.920,token_jaccard=0.80,,layer_match
+Q1322786,exterior,https://mathgloss.github.io/MathGloss/chicago/exterior,exterior,layer3.csv,1.000,exact_letters,,layer_match
+Q121074575,faithful group action,https://mathgloss.github.io/MathGloss/chicago/faithful_group_action,faithful group action,layer3.csv,1.000,exact_letters,Q288465 (0.867; token_jaccard=0.67) group action [layer2.csv],layer_match
+Q1172412,field,https://mathgloss.github.io/MathGloss/chicago/field,field,layer5.csv,1.000,exact_letters,Q190109 (1.000; exact_letters) field [layer2.csv],layer_match
+Q577835,field extension,https://mathgloss.github.io/MathGloss/chicago/field_extension,field extension,layer3.csv,1.000,exact_letters,,layer_match
+Q1340572,finitely generated R module,https://mathgloss.github.io/MathGloss/chicago/finitely_generated_R-module,finitely generated module,layer3.csv,0.900,token_jaccard=0.75,,layer_match
+Q431078,free group,https://mathgloss.github.io/MathGloss/chicago/free_group,free group,layer2.csv,1.000,exact_letters,Q1454111 (0.867; token_jaccard=0.67) free abelian group [layer3.csv]; Q121069543 (0.867; token_jaccard=0.67) free group action [layer5.csv]; Q122364643 (0.867; token_jaccard=0.67) torsion-free group [layer4.csv],layer_match
+Q121069543,free group action,https://mathgloss.github.io/MathGloss/chicago/free_group_action,free group action,layer4.csv,1.000,exact_letters,Q431078 (0.867; token_jaccard=0.67) free group [layer5.csv]; Q288465 (0.867; token_jaccard=0.67) group action [layer4.csv],layer_match
+Q1292333,free module,https://mathgloss.github.io/MathGloss/chicago/free_module,free module,layer3.csv,1.000,exact_letters,Q13163760 (0.867; token_jaccard=0.67) topologically free module [layer3.csv]; Q7827200 (0.867; token_jaccard=0.67) torsion-free module [layer4.csv],layer_match
+Q579600,functional,https://mathgloss.github.io/MathGloss/chicago/functional,functional,layer2.csv,1.000,exact_letters,Q99239584 (1.000; exact_letters) functional [layer3.csv],layer_match
+Q864475,functor,https://mathgloss.github.io/MathGloss/chicago/functor,functor,layer2.csv,1.000,exact_letters,,layer_match
+Q662830,fundamental group,https://mathgloss.github.io/MathGloss/chicago/fundamental_group,fundamental group,layer4.csv,1.000,exact_letters,Q5508957 (0.867; token_jaccard=0.67) fundamental group scheme [layer5.csv]; Q114703944 (0.867; token_jaccard=0.67) fundamental group theory [layer2.csv]; Q288764 (0.867; token_jaccard=0.67) étale fundamental group [layer4.csv],layer_match
+Q123430226,game,https://mathgloss.github.io/MathGloss/chicago/game,Game,layer5.csv,1.000,exact_letters,Q16248471 (1.000; exact_letters) Game [layer5.csv]; Q16345351 (1.000; exact_letters) Game [layer5.csv]; Q2402016 (1.000; exact_letters) Game [layer5.csv]; Q24837164 (1.000; exact_letters) Game [layer5.csv],layer_match
+Q524607,general linear group,https://mathgloss.github.io/MathGloss/chicago/general_linear_group,general linear group,layer4.csv,1.000,exact_letters,Q99999421 (0.900; token_jaccard=0.75) complex general linear group [layer5.csv],layer_match
+Q1783179,generalized orthogonal group,https://mathgloss.github.io/MathGloss/chicago/generalized_orthogonal_group,orthogonal group,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q734209,generating set of a group,https://mathgloss.github.io/MathGloss/chicago/generating_set_of_a_group,generating set of a group,layer3.csv,1.000,exact_letters,Q25106477 (0.867; token_jaccard=0.67) generating set of a module [layer3.csv],layer_match
+Q173582,gradient,https://mathgloss.github.io/MathGloss/chicago/gradient,gradient,layer2.csv,1.000,exact_letters,,layer_match
+Q182598,graph of a function,https://mathgloss.github.io/MathGloss/chicago/graph_of_a_function,graph of a function,layer2.csv,1.000,exact_letters,Q1027788 (0.840; token_jaccard=0.60) argument of a function [layer3.csv]; Q750432 (0.840; token_jaccard=0.60) differential of a function [layer1.csv]; Q192439 (0.840; token_jaccard=0.60) domain of a function [layer1.csv]; Q135678594 (0.840; token_jaccard=0.60) graph of logarithmic function [layer4.csv],layer_match
+Q131752,greatest common divisor,https://mathgloss.github.io/MathGloss/chicago/greatest_common_divisor,greatest common divisor,layer2.csv,1.000,exact_letters,Q7226640 (0.900; token_jaccard=0.75) polynomial greatest common divisor [layer4.csv]; Q10892988 (0.867; token_jaccard=0.67) common divisor [layer5.csv],layer_match
+Q83478,group,https://mathgloss.github.io/MathGloss/chicago/group,group,layer2.csv,1.000,exact_letters,,layer_match
+Q288465,group action,https://mathgloss.github.io/MathGloss/chicago/group_action,group action,layer2.csv,1.000,exact_letters,Q16951242 (0.867; token_jaccard=0.67) continuous group action [layer5.csv]; Q121074575 (0.867; token_jaccard=0.67) faithful group action [layer5.csv]; Q121069543 (0.867; token_jaccard=0.67) free group action [layer5.csv]; Q48975267 (0.867; token_jaccard=0.67) group-scheme action [layer5.csv],layer_match
+Q288465,group action invariants,https://mathgloss.github.io/MathGloss/chicago/group_action_invariants,group action,layer2.csv,0.867,token_jaccard=0.67,,layer_match
+Q868169,group homomorphism,https://mathgloss.github.io/MathGloss/chicago/group_homomorphism,group homomorphism,layer2.csv,1.000,exact_letters,Q6543822 (0.867; token_jaccard=0.67) Lie group homomorphism [layer4.csv],layer_match
+Q1055807,group representation,https://mathgloss.github.io/MathGloss/chicago/group_representation,group representation,layer3.csv,1.000,exact_letters,Q7314219 (0.867; token_jaccard=0.67) representation-rigid group [layer5.csv],layer_match
+Q2602722,group ring,https://mathgloss.github.io/MathGloss/chicago/group_ring,group ring,layer4.csv,1.000,exact_letters,,layer_match
+Q599027,harmonic function,https://mathgloss.github.io/MathGloss/chicago/harmonic_function,harmonic function,layer2.csv,1.000,exact_letters,Q7233271 (0.867; token_jaccard=0.67) positive harmonic function [layer4.csv],layer_match
+Q4133834,harmonic polynomial,https://mathgloss.github.io/MathGloss/chicago/harmonic_polynomial,harmonic polynomial,layer3.csv,1.000,exact_letters,,layer_match
+Q202906,homeomorphism,https://mathgloss.github.io/MathGloss/chicago/homeomorphism,homeomorphism,layer3.csv,1.000,exact_letters,Q584521 (1.000; exact_letters) homeomorphism [layer4.csv],layer_match
+Q25488798,ideal of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/ideal_of_a_Lie_algebra,Lie algebra ideal,layer4.csv,0.940,of_swap:lie algebra ideal,Q7037183 (0.867; token_jaccard=0.67) nilradical of a Lie algebra [layer5.csv]; Q17046402 (0.867; token_jaccard=0.67) radical of a Lie algebra [layer4.csv]; Q3930077 (0.867; token_jaccard=0.67) rank of a Lie algebra [layer3.csv],layer_match
+Q5988368,identity component,https://mathgloss.github.io/MathGloss/chicago/identity_component,identity component,layer4.csv,1.000,exact_letters,,layer_match
+Q185813,identity element,https://mathgloss.github.io/MathGloss/chicago/identity_element,identity element,layer3.csv,1.000,exact_letters,,layer_match
+Q193794,identity matrix,https://mathgloss.github.io/MathGloss/chicago/identity_matrix,identity matrix,layer4.csv,1.000,exact_letters,Q1551745 (0.867; token_jaccard=0.67) Woodbury matrix identity [layer5.csv],layer_match
+Q131310283,image,https://mathgloss.github.io/MathGloss/chicago/image,Image,layer5.csv,1.000,exact_letters,Q16643267 (1.000; exact_letters) Image [layer5.csv]; Q33541017 (1.000; exact_letters) Image [layer5.csv]; Q860623 (1.000; exact_letters) image [layer1.csv],layer_match
+Q1464168,index of a subgroup,https://mathgloss.github.io/MathGloss/chicago/index_of_a_subgroup,index of a subgroup,layer4.csv,1.000,exact_letters,,layer_match
+Q214159,inner product space,https://mathgloss.github.io/MathGloss/chicago/inner_product_space,inner product space,layer3.csv,1.000,exact_letters,,layer_match
+Q628792,integral domain,https://mathgloss.github.io/MathGloss/chicago/integral_domain,integral domain,layer4.csv,1.000,exact_letters,,layer_match
+Q118215311,interior,https://mathgloss.github.io/MathGloss/chicago/interior,Interior,layer5.csv,1.000,exact_letters,Q20653136 (1.000; exact_letters) Interior [layer5.csv]; Q2998430 (1.000; exact_letters) interior [layer4.csv]; Q862761 (1.000; exact_letters) interior [layer3.csv]; Q89127119 (1.000; exact_letters) Interior [layer5.csv],layer_match
+Q135475919,interval,https://mathgloss.github.io/MathGloss/chicago/interval,Interval,layer5.csv,1.000,exact_letters,Q185148 (1.000; exact_letters) interval [layer4.csv]; Q189962 (1.000; exact_letters) interval [layer4.csv]; Q33541690 (1.000; exact_letters) Interval [layer5.csv]; Q6057257 (1.000; exact_letters) Interval [layer5.csv],layer_match
+Q2706744,invariant subspace,https://mathgloss.github.io/MathGloss/chicago/invariant_subspace,invariant subspace,layer4.csv,1.000,exact_letters,Q6059532 (0.867; token_jaccard=0.67) Invariant subspace problem [layer2.csv],layer_match
+Q338057,inverse element,https://mathgloss.github.io/MathGloss/chicago/inverse_element,inverse element,layer3.csv,1.000,exact_letters,,layer_match
+Q191884,inverse function,https://mathgloss.github.io/MathGloss/chicago/inverse_function,inverse function,layer2.csv,1.000,exact_letters,Q931001 (0.867; token_jaccard=0.67) inverse function theorem [layer3.csv]; Q640600 (0.867; token_jaccard=0.67) inverse hyperbolic function [layer4.csv]; Q674533 (0.867; token_jaccard=0.67) inverse trigonometric function [layer2.csv],layer_match
+Q17123743,inverse matrix,https://mathgloss.github.io/MathGloss/chicago/inverse_matrix,inverse matrix,layer4.csv,1.000,exact_letters,Q22666682 (0.867; token_jaccard=0.67) inverse-positive matrix [layer4.csv],layer_match
+Q13690522,irreducible representation,https://mathgloss.github.io/MathGloss/chicago/irreducible_representation,irreducible representation,layer5.csv,1.000,exact_letters,,layer_match
+Q1142889,isolated point,https://mathgloss.github.io/MathGloss/chicago/isolated_point,isolated point,layer3.csv,1.000,exact_letters,,layer_match
+Q2297037,isolated singularity,https://mathgloss.github.io/MathGloss/chicago/isolated_singularity,isolated singularity,layer3.csv,1.000,exact_letters,,layer_match
+Q740207,isometry,https://mathgloss.github.io/MathGloss/chicago/isometry,isometry,layer2.csv,1.000,exact_letters,,layer_match
+Q1096885,lattice,https://mathgloss.github.io/MathGloss/chicago/lattice,lattice,layer3.csv,1.000,exact_letters,Q595364 (1.000; exact_letters) lattice [layer2.csv]; Q6497088 (1.000; exact_letters) lattice [layer4.csv],layer_match
+Q185813,left identity element,https://mathgloss.github.io/MathGloss/chicago/left_identity_element,identity element,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q338057,left inverse element,https://mathgloss.github.io/MathGloss/chicago/left_inverse_element,inverse element,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q49095111,limit point,https://mathgloss.github.io/MathGloss/chicago/limit_point,Limit point,layer3.csv,1.000,exact_letters,Q858223 (1.000; exact_letters) limit point [layer4.csv]; Q6549451 (0.867; token_jaccard=0.67) Limit point compact [layer3.csv],layer_match
+Q16977077,linear Lie algebra,https://mathgloss.github.io/MathGloss/chicago/linear_Lie_algebra,linear Lie algebra,layer3.csv,1.000,exact_letters,Q17521172 (0.900; token_jaccard=0.75) general linear Lie algebra [layer3.csv]; Q7574831 (0.900; token_jaccard=0.75) special linear Lie algebra [layer4.csv]; Q664495 (0.867; token_jaccard=0.67) Lie algebra [layer5.csv]; Q114728146 (0.867; token_jaccard=0.67) linear algebra [layer2.csv],layer_match
+Q110679812,locally finite graph,https://mathgloss.github.io/MathGloss/chicago/locally_finite_graph,finite graph,layer1.csv,0.867,token_jaccard=0.67,,layer_match
+Q2136937,locally finite measure,https://mathgloss.github.io/MathGloss/chicago/locally_finite_measure,locally finite measure,layer3.csv,1.000,exact_letters,Q3307145 (0.867; token_jaccard=0.67) finite measure [layer5.csv]; Q291430 (0.867; token_jaccard=0.67) σ-finite measure [layer4.csv],layer_match
+Q16671984,locally path connected,https://mathgloss.github.io/MathGloss/chicago/locally_path-connected,locally path-connected space,layer5.csv,0.900,token_jaccard=0.75,,layer_match
+Q762521,logarithmic derivative,https://mathgloss.github.io/MathGloss/chicago/logarithmic_derivative,logarithmic derivative,layer1.csv,1.000,exact_letters,,layer_match
+Q22283522,loop,https://mathgloss.github.io/MathGloss/chicago/loop,Loop,layer5.csv,1.000,exact_letters,Q25208973 (1.000; exact_letters) Loop [layer5.csv]; Q3836720 (1.000; exact_letters) loop [layer4.csv]; Q4360336 (1.000; exact_letters) Loop [layer5.csv]; Q4558786 (1.000; exact_letters) loop [layer4.csv],layer_match
+Q109314515,lower central series,https://mathgloss.github.io/MathGloss/chicago/lower_central_series,lower central series,layer4.csv,1.000,exact_letters,Q5062152 (0.867; token_jaccard=0.67) central series [layer3.csv],layer_match
+Q126870507,magma,https://mathgloss.github.io/MathGloss/chicago/magma,Magma,layer5.csv,1.000,exact_letters,Q3277050 (1.000; exact_letters) Magma [layer5.csv]; Q679903 (1.000; exact_letters) magma [layer2.csv],layer_match
+Q203920,manifold,https://mathgloss.github.io/MathGloss/chicago/manifold,manifold,layer2.csv,1.000,exact_letters,,layer_match
+Q44337,matrix,https://mathgloss.github.io/MathGloss/chicago/matrix,matrix,layer2.csv,1.000,exact_letters,Q943436 (1.000; exact_letters) Matrix [layer5.csv],layer_match
+Q1049914,matrix multiplication,https://mathgloss.github.io/MathGloss/chicago/matrix_multiplication,matrix multiplication,layer4.csv,1.000,exact_letters,Q917612 (0.867; token_jaccard=0.67) matrix chain multiplication [layer4.csv],layer_match
+Q223683,matrix transpose,https://mathgloss.github.io/MathGloss/chicago/matrix_transpose,transpose matrix,layer4.csv,1.000,token_jaccard=1.00,,layer_match
+Q1203540,maximal ring ideal,https://mathgloss.github.io/MathGloss/chicago/maximal_ring_ideal,maximal ideal,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q16908484,maximal subgroup,https://mathgloss.github.io/MathGloss/chicago/maximal_subgroup,maximal subgroup,layer4.csv,1.000,exact_letters,,layer_match
+Q516776,measurable function,https://mathgloss.github.io/MathGloss/chicago/measurable_function,measurable function,layer2.csv,1.000,exact_letters,Q9392172 (0.867; token_jaccard=0.67) Bochner measurable function [layer1.csv]; Q7624685 (0.867; token_jaccard=0.67) strongly measurable function [layer3.csv]; Q195174 (0.867; token_jaccard=0.67) weakly measurable function [layer3.csv],layer_match
+Q3058212,measure space,https://mathgloss.github.io/MathGloss/chicago/measure_space,measure space,layer3.csv,1.000,exact_letters,,layer_match
+Q180953,metric space,https://mathgloss.github.io/MathGloss/chicago/metric_space,metric space,layer3.csv,1.000,exact_letters,Q124633554 (0.867; token_jaccard=0.67) compact metric space [layer4.csv]; Q848569 (0.867; token_jaccard=0.67) complete metric space [layer5.csv]; Q3966092 (0.867; token_jaccard=0.67) convex metric space [layer4.csv]; Q6034319 (0.867; token_jaccard=0.67) injective metric space [layer5.csv],layer_match
+Q126487387,minor,https://mathgloss.github.io/MathGloss/chicago/minor,Minor,layer5.csv,1.000,exact_letters,Q12827391 (1.000; exact_letters) minor [layer4.csv]; Q1341061 (1.000; exact_letters) minor [layer5.csv],layer_match
+Q3317845,model,https://mathgloss.github.io/MathGloss/chicago/model,Model,layer5.csv,1.000,exact_letters,Q33551297 (1.000; exact_letters) Model [layer5.csv]; Q65241326 (1.000; exact_letters) model [layer2.csv],layer_match
+Q1942302,module homomorphism,https://mathgloss.github.io/MathGloss/chicago/module_homomorphism,module homomorphism,layer2.csv,1.000,exact_letters,,layer_match
+Q208237,monoid,https://mathgloss.github.io/MathGloss/chicago/monoid,monoid,layer2.csv,1.000,exact_letters,,layer_match
+Q1945067,monomorphism,https://mathgloss.github.io/MathGloss/chicago/monomorphism,monomorphism,layer4.csv,1.000,exact_letters,,layer_match
+Q17099189,multiplicative character,https://mathgloss.github.io/MathGloss/chicago/multiplicative_character,multiplicative character,layer3.csv,1.000,exact_letters,,layer_match
+Q2478475,neighborhood,https://mathgloss.github.io/MathGloss/chicago/neighborhood,neighborhood,layer3.csv,1.000,exact_letters,,layer_match
+Q15148889,nilpotent Lie algebra,https://mathgloss.github.io/MathGloss/chicago/nilpotent_Lie_algebra,nilpotent Lie algebra,layer4.csv,1.000,exact_letters,Q664495 (0.867; token_jaccard=0.67) Lie algebra [layer5.csv]; Q16155107 (0.867; token_jaccard=0.67) nilpotent algebra [layer4.csv],layer_match
+Q1755242,nilpotent group,https://mathgloss.github.io/MathGloss/chicago/nilpotent_group,nilpotent group,layer4.csv,1.000,exact_letters,Q4369993 (0.867; token_jaccard=0.67) poly-nilpotent group [layer4.csv],layer_match
+Q7051414,norm,https://mathgloss.github.io/MathGloss/chicago/norm,norm,layer4.csv,1.000,exact_letters,Q7051416 (1.000; exact_letters) norm [layer3.csv]; Q956437 (1.000; exact_letters) norm [layer2.csv],layer_match
+Q1069099,normal form game,https://mathgloss.github.io/MathGloss/chicago/normal-form_game,normal-form game,layer3.csv,1.000,exact_letters,Q1999329 (0.867; token_jaccard=0.67) normal form [layer5.csv],layer_match
+Q2331395,normal extension,https://mathgloss.github.io/MathGloss/chicago/normal_extension,normal extension,layer4.csv,1.000,exact_letters,,layer_match
+Q743179,normal subgroup,https://mathgloss.github.io/MathGloss/chicago/normal_subgroup,normal subgroup,layer5.csv,1.000,exact_letters,Q5015134 (0.867; token_jaccard=0.67) c-normal subgroup [layer5.csv]; Q3492013 (0.867; token_jaccard=0.67) minimal normal subgroup [layer5.csv]; Q7977983 (0.867; token_jaccard=0.67) weakly normal subgroup [layer4.csv],layer_match
+Q1826459,normed linear space,https://mathgloss.github.io/MathGloss/chicago/normed_linear_space,linear space,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q1991405,nowhere dense,https://mathgloss.github.io/MathGloss/chicago/nowhere_dense,nowhere dense set,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q130369375,nullity,https://mathgloss.github.io/MathGloss/chicago/nullity,nullity,layer3.csv,1.000,exact_letters,,layer_match
+Q56640161,open,https://mathgloss.github.io/MathGloss/chicago/open,Open,layer5.csv,1.000,exact_letters,Q60738172 (1.000; exact_letters) Open [layer5.csv]; Q7095927 (1.000; exact_letters) Open [layer5.csv],layer_match
+Q41509136,open cover,https://mathgloss.github.io/MathGloss/chicago/open_cover,open cover,layer5.csv,1.000,exact_letters,,layer_match
+Q7098616,opposite category,https://mathgloss.github.io/MathGloss/chicago/opposite_category,opposite category,layer3.csv,1.000,exact_letters,,layer_match
+Q3884964,orbit,https://mathgloss.github.io/MathGloss/chicago/orbit,orbit,layer4.csv,1.000,exact_letters,Q4130 (1.000; exact_letters) orbit [layer4.csv],layer_match
+Q18408315,order of a group,https://mathgloss.github.io/MathGloss/chicago/order_of_a_group,group order,layer4.csv,0.940,of_swap:group order,Q54555759 (0.920; token_jaccard=0.80) order of a group element [layer5.csv]; Q32998717 (0.840; token_jaccard=0.60) exponent of a group [layer3.csv]; Q3139500 (0.840; token_jaccard=0.60) holomorph of a group [layer3.csv]; Q915906 (0.840; token_jaccard=0.60) presentation of a group [layer1.csv],layer_match
+Q54555759,order of a group element,https://mathgloss.github.io/MathGloss/chicago/order_of_a_group_element,order of a group element,layer3.csv,1.000,exact_letters,,layer_match
+Q1052451,orientation,https://mathgloss.github.io/MathGloss/chicago/orientation,orientation,layer1.csv,1.000,exact_letters,Q2235286 (1.000; exact_letters) orientation [layer2.csv]; Q7102401 (1.000; exact_letters) orientation [layer2.csv]; Q7102403 (1.000; exact_letters) orientation [layer3.csv],layer_match
+Q1780921,orthogonal complement,https://mathgloss.github.io/MathGloss/chicago/orthogonal_complement,orthogonal complement,layer4.csv,1.000,exact_letters,,layer_match
+Q1783179,orthogonal group,https://mathgloss.github.io/MathGloss/chicago/orthogonal_group,orthogonal group,layer4.csv,1.000,exact_letters,Q11061828 (0.867; token_jaccard=0.67) indefinite orthogonal group [layer5.csv]; Q7249468 (0.867; token_jaccard=0.67) projective orthogonal group [layer4.csv]; Q3117934 (0.867; token_jaccard=0.67) special orthogonal group [layer5.csv],layer_match
+Q333871,orthogonal matrix,https://mathgloss.github.io/MathGloss/chicago/orthogonal_matrix,orthogonal matrix,layer2.csv,1.000,exact_letters,Q121357184 (0.867; token_jaccard=0.67) special orthogonal matrix [layer5.csv],layer_match
+Q258374,outer measure,https://mathgloss.github.io/MathGloss/chicago/outer_measure,outer measure,layer3.csv,1.000,exact_letters,Q25447455 (0.867; token_jaccard=0.67) Lebesgue outer measure [layer2.csv]; Q6824326 (0.867; token_jaccard=0.67) Metric outer measure [layer4.csv]; Q26851733 (0.867; token_jaccard=0.67) outer regular measure [layer5.csv],layer_match
+Q26851733,outer regular,https://mathgloss.github.io/MathGloss/chicago/outer_regular,outer regular measure,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q286972,p group,https://mathgloss.github.io/MathGloss/chicago/p-group,𝑝-group,layer4.csv,1.000,exact_letters,Q111610215 (0.867; token_jaccard=0.67) p-adic group [layer3.csv]; Q7116935 (0.867; token_jaccard=0.67) p-stable group [layer5.csv]; Q7236705 (0.867; token_jaccard=0.67) powerful 𝑝-group [layer5.csv]; Q7246615 (0.867; token_jaccard=0.67) pro-p group [layer4.csv],layer_match
+Q2043496,p norm,https://mathgloss.github.io/MathGloss/chicago/p-norm,p-norm,layer3.csv,1.000,exact_letters,,layer_match
+Q7134470,paradoxical set,https://mathgloss.github.io/MathGloss/chicago/paradoxical_set,Paradoxical set,layer2.csv,1.000,exact_letters,,layer_match
+Q186475,partial derivative,https://mathgloss.github.io/MathGloss/chicago/partial_derivative,partial derivative,layer1.csv,1.000,exact_letters,Q2920327 (0.867; token_jaccard=0.67) partial derivative symbol [layer4.csv],layer_match
+Q474715,partially ordered set,https://mathgloss.github.io/MathGloss/chicago/partially_ordered_set,partially ordered set,layer4.csv,1.000,exact_letters,,layer_match
+Q381060,partition of a set,https://mathgloss.github.io/MathGloss/chicago/partition_of_a_set,partition of a set,layer2.csv,1.000,exact_letters,Q5034494 (0.840; token_jaccard=0.60) capacity of a set [layer1.csv]; Q3148876 (0.840; token_jaccard=0.60) image of a set [layer1.csv],layer_match
+Q191690,partition of unity,https://mathgloss.github.io/MathGloss/chicago/partition_of_unity,partition of unity,layer2.csv,1.000,exact_letters,Q9363325 (1.000; exact_letters) partition of unity [layer3.csv]; Q114706258 (0.900; token_jaccard=0.75) theory of partition of unity [layer2.csv],layer_match
+Q3487687,path connected,https://mathgloss.github.io/MathGloss/chicago/path-connected,path-connected space,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q127162195,path,https://mathgloss.github.io/MathGloss/chicago/path,path,layer4.csv,1.000,exact_letters,Q133540897 (1.000; exact_letters) Path [layer5.csv]; Q1366002 (1.000; exact_letters) path [layer3.csv]; Q1415372 (1.000; exact_letters) path [layer5.csv]; Q21408175 (1.000; exact_letters) Path [layer5.csv],layer_match
+Q2997817,perfect field,https://mathgloss.github.io/MathGloss/chicago/perfect_field,perfect field,layer3.csv,1.000,exact_letters,,layer_match
+Q7168101,perfect set,https://mathgloss.github.io/MathGloss/chicago/perfect_set,perfect set,layer5.csv,1.000,exact_letters,,layer_match
+Q161519,permutation,https://mathgloss.github.io/MathGloss/chicago/permutation,permutation,layer1.csv,1.000,exact_letters,,layer_match
+Q1455652,polynomial ring,https://mathgloss.github.io/MathGloss/chicago/polynomial_ring,polynomial ring,layer3.csv,1.000,exact_letters,Q7226641 (0.867; token_jaccard=0.67) polynomial identity ring [layer4.csv],layer_match
+Q206925,power series,https://mathgloss.github.io/MathGloss/chicago/power_series,power series,layer3.csv,1.000,exact_letters,Q1003025 (0.867; token_jaccard=0.67) formal power series [layer5.csv]; Q3045470 (0.867; token_jaccard=0.67) power series expansion [layer2.csv],layer_match
+Q205170,power set,https://mathgloss.github.io/MathGloss/chicago/power_set,power set,layer4.csv,1.000,exact_letters,Q116269680 (0.867; token_jaccard=0.67) power set functor [layer3.csv],layer_match
+Q1393014,pre measure,https://mathgloss.github.io/MathGloss/chicago/pre-measure,pre-measure,layer3.csv,1.000,exact_letters,,layer_match
+Q11710992,prime ideal,https://mathgloss.github.io/MathGloss/chicago/prime_ideal,prime ideal,layer5.csv,1.000,exact_letters,Q863912 (1.000; exact_letters) prime ideal [layer5.csv],layer_match
+Q49008,prime number,https://mathgloss.github.io/MathGloss/chicago/prime_number,prime number,layer3.csv,1.000,exact_letters,Q12894812 (0.867; token_jaccard=0.67) Jacob prime number [layer5.csv]; Q386292 (0.867; token_jaccard=0.67) prime number theorem [layer4.csv],layer_match
+Q44382,principal ideal,https://mathgloss.github.io/MathGloss/chicago/principal_ideal,principal ideal,layer3.csv,1.000,exact_letters,Q1143969 (0.867; token_jaccard=0.67) principal ideal domain [layer4.csv]; Q2905043 (0.867; token_jaccard=0.67) principal ideal ring [layer4.csv]; Q3527196 (0.867; token_jaccard=0.67) principal ideal theorem [layer5.csv],layer_match
+Q1143969,principal ideal domain,https://mathgloss.github.io/MathGloss/chicago/principal_ideal_domain,principal ideal domain,layer3.csv,1.000,exact_letters,Q24769475 (0.867; token_jaccard=0.67) IDEAL domain [layer5.csv]; Q44382 (0.867; token_jaccard=0.67) principal ideal [layer5.csv],layer_match
+Q7245087,principal part,https://mathgloss.github.io/MathGloss/chicago/principal_part,principal part,layer1.csv,1.000,exact_letters,,layer_match
+Q1572094,product measure,https://mathgloss.github.io/MathGloss/chicago/product_measure,product measure,layer3.csv,1.000,exact_letters,,layer_match
+Q1070472,product topology,https://mathgloss.github.io/MathGloss/chicago/product_topology,product topology,layer5.csv,1.000,exact_letters,,layer_match
+Q13415428,projection,https://mathgloss.github.io/MathGloss/chicago/projection,projection,layer2.csv,1.000,exact_letters,Q3134666 (1.000; exact_letters) projection [layer4.csv]; Q519967 (1.000; exact_letters) projection [layer3.csv]; Q7249440 (1.000; exact_letters) projection [layer2.csv],layer_match
+Q132227547,proper ring ideal,https://mathgloss.github.io/MathGloss/chicago/proper_ring_ideal,proper ideal,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q2835967,quaternion algebra,https://mathgloss.github.io/MathGloss/chicago/quaternion_algebra,quaternion algebra,layer3.csv,1.000,exact_letters,,layer_match
+Q619436,quotient ring,https://mathgloss.github.io/MathGloss/chicago/quotient_ring,quotient ring,layer3.csv,1.000,exact_letters,Q5695923 (0.867; token_jaccard=0.67) total quotient ring [layer4.csv],layer_match
+Q17046402,radical of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/radical_of_a_Lie_algebra,radical of a Lie algebra,layer4.csv,1.000,exact_letters,Q7037183 (0.867; token_jaccard=0.67) nilradical of a Lie algebra [layer5.csv]; Q3930077 (0.867; token_jaccard=0.67) rank of a Lie algebra [layer3.csv],layer_match
+Q1428097,radius of convergence,https://mathgloss.github.io/MathGloss/chicago/radius_of_convergence,radius of convergence,layer1.csv,1.000,exact_letters,,layer_match
+Q2128223,rank,https://mathgloss.github.io/MathGloss/chicago/rank,rank,layer4.csv,1.000,exact_letters,Q240268 (1.000; exact_letters) Rank [layer5.csv]; Q656784 (1.000; exact_letters) rank [layer3.csv],layer_match
+Q135615838,rank of a module,https://mathgloss.github.io/MathGloss/chicago/rank_of_a_module,rank of a module,layer3.csv,1.000,exact_letters,Q6664609 (0.840; token_jaccard=0.60) localization of a module [layer3.csv]; Q7280485 (0.840; token_jaccard=0.60) radical of a module [layer3.csv]; Q112927 (0.840; token_jaccard=0.60) rank of a group [layer2.csv],layer_match
+Q2597317,real projective space,https://mathgloss.github.io/MathGloss/chicago/real_projective_space,real projective space,layer3.csv,1.000,exact_letters,Q877775 (0.867; token_jaccard=0.67) projective space [layer3.csv],layer_match
+Q936434,real symplectic group,https://mathgloss.github.io/MathGloss/chicago/real_symplectic_group,symplectic group,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q209,rectangle,https://mathgloss.github.io/MathGloss/chicago/rectangle,rectangle,layer3.csv,1.000,exact_letters,,layer_match
+Q111560513,residue,https://mathgloss.github.io/MathGloss/chicago/residue,Residue,layer5.csv,1.000,exact_letters,Q753375 (1.000; exact_letters) residue [layer1.csv],layer_match
+Q185813,right identity element,https://mathgloss.github.io/MathGloss/chicago/right_identity_element,identity element,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q338057,right inverse element,https://mathgloss.github.io/MathGloss/chicago/right_inverse_element,inverse element,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q161172,ring,https://mathgloss.github.io/MathGloss/chicago/ring,ring,layer3.csv,1.000,exact_letters,Q25415527 (1.000; exact_letters) Ring [layer5.csv]; Q531328 (1.000; exact_letters) Ring [layer5.csv]; Q60837942 (1.000; exact_letters) Ring [layer5.csv]; Q111962410 (1.000; token_jaccard=1.00) Ring Ring [layer5.csv],layer_match
+Q1194212,ring homomorphism,https://mathgloss.github.io/MathGloss/chicago/ring_homomorphism,ring homomorphism,layer2.csv,1.000,exact_letters,,layer_match
+Q2905043,ring ideal,https://mathgloss.github.io/MathGloss/chicago/ring_ideal,principal ideal ring,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q114358367,rng,https://mathgloss.github.io/MathGloss/chicago/rng,RnG,layer3.csv,1.000,exact_letters,Q17102802 (1.000; exact_letters) rng [layer3.csv]; Q7273238 (1.000; exact_letters) R'n'G [layer3.csv],layer_match
+Q557624,rule of product,https://mathgloss.github.io/MathGloss/chicago/rule_of_product,rule of product,layer3.csv,1.000,exact_letters,Q466720 (0.940; of_swap:product rule) product rule [layer4.csv],layer_match
+Q2360148,rule of sum,https://mathgloss.github.io/MathGloss/chicago/rule_of_sum,rule of sum,layer3.csv,1.000,exact_letters,,layer_match
+Q1363919,second countable,https://mathgloss.github.io/MathGloss/chicago/second-countable,second-countable space,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q15847164,self adjoint,https://mathgloss.github.io/MathGloss/chicago/self-adjoint,self-adjoint matrix,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q291126,semidirect product,https://mathgloss.github.io/MathGloss/chicago/semidirect_product,semidirect product,layer3.csv,1.000,exact_letters,,layer_match
+Q207348,semigroup,https://mathgloss.github.io/MathGloss/chicago/semigroup,semigroup,layer4.csv,1.000,exact_letters,,layer_match
+Q2366896,semisimple Lie algebra,https://mathgloss.github.io/MathGloss/chicago/semisimple_Lie_algebra,semisimple Lie algebra,layer4.csv,1.000,exact_letters,Q664495 (0.867; token_jaccard=0.67) Lie algebra [layer5.csv]; Q2851437 (0.867; token_jaccard=0.67) semisimple algebra [layer4.csv],layer_match
+Q1485102,semisimple module,https://mathgloss.github.io/MathGloss/chicago/semisimple_module,semisimple module,layer3.csv,1.000,exact_letters,,layer_match
+Q4379157,semisimple representation of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/semisimple_representation_of_a_Lie_algebra,adjoint representation of a Lie algebra,layer4.csv,0.886,token_jaccard=0.71,,layer_match
+Q2530089,separable polynomial,https://mathgloss.github.io/MathGloss/chicago/separable_polynomial,separable polynomial,layer4.csv,1.000,exact_letters,,layer_match
+Q1135427,sequentially compact,https://mathgloss.github.io/MathGloss/chicago/sequentially_compact,sequentially compact space,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q1764371,signed measure,https://mathgloss.github.io/MathGloss/chicago/signed_measure,signed measure,layer2.csv,1.000,exact_letters,,layer_match
+Q78502771,simple Lie algebra,https://mathgloss.github.io/MathGloss/chicago/simple_Lie_algebra,simple Lie algebra,layer5.csv,1.000,exact_letters,Q664495 (0.867; token_jaccard=0.67) Lie algebra [layer5.csv]; Q1405695 (0.867; token_jaccard=0.67) simple algebra [layer5.csv],layer_match
+Q913022,simple function,https://mathgloss.github.io/MathGloss/chicago/simple_function,simple function,layer3.csv,1.000,exact_letters,,layer_match
+Q571124,simple group,https://mathgloss.github.io/MathGloss/chicago/simple_group,simple group,layer4.csv,1.000,exact_letters,Q4734006 (0.867; token_jaccard=0.67) almost simple group [layer5.csv]; Q3117616 (0.867; token_jaccard=0.67) characteristically simple group [layer5.csv]; Q45033382 (0.867; token_jaccard=0.67) finite simple group [layer5.csv]; Q1003162 (0.867; token_jaccard=0.67) simple Lie group [layer5.csv],layer_match
+Q956233,simple module,https://mathgloss.github.io/MathGloss/chicago/simple_module,simple module,layer4.csv,1.000,exact_letters,,layer_match
+Q912058,simply connected,https://mathgloss.github.io/MathGloss/chicago/simply_connected,simply connected space,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q1824450,singular measure,https://mathgloss.github.io/MathGloss/chicago/singular_measure,Singular measure,layer3.csv,1.000,exact_letters,,layer_match
+Q10567583,small category,https://mathgloss.github.io/MathGloss/chicago/small_category,small category,layer2.csv,1.000,exact_letters,Q121771058 (0.867; token_jaccard=0.67) locally small category [layer3.csv],layer_match
+Q7558992,solvable Lie algebra,https://mathgloss.github.io/MathGloss/chicago/solvable_Lie_algebra,solvable Lie algebra,layer3.csv,1.000,exact_letters,Q664495 (0.867; token_jaccard=0.67) Lie algebra [layer5.csv],layer_match
+Q759832,solvable group,https://mathgloss.github.io/MathGloss/chicago/solvable_group,solvable group,layer4.csv,1.000,exact_letters,Q121356961 (0.867; token_jaccard=0.67) solvable Lie group [layer5.csv],layer_match
+Q1960395,span,https://mathgloss.github.io/MathGloss/chicago/span,span,layer5.csv,1.000,exact_letters,Q7573053 (1.000; exact_letters) span [layer2.csv],layer_match
+Q2140900,special linear group,https://mathgloss.github.io/MathGloss/chicago/special_linear_group,special linear group,layer4.csv,1.000,exact_letters,Q78498942 (0.900; token_jaccard=0.75) projective special linear group [layer4.csv]; Q7574821 (0.900; token_jaccard=0.75) special linear algebraic group [layer5.csv]; Q7574823 (0.867; token_jaccard=0.67) special group [layer5.csv],layer_match
+Q3117934,special orthogonal group,https://mathgloss.github.io/MathGloss/chicago/special_orthogonal_group,special orthogonal group,layer3.csv,1.000,exact_letters,Q1783179 (0.867; token_jaccard=0.67) orthogonal group [layer5.csv]; Q7574823 (0.867; token_jaccard=0.67) special group [layer5.csv],layer_match
+Q684363,special unitary group,https://mathgloss.github.io/MathGloss/chicago/special_unitary_group,special unitary group,layer4.csv,1.000,exact_letters,Q7574823 (0.867; token_jaccard=0.67) special group [layer5.csv]; Q1500617 (0.867; token_jaccard=0.67) unitary group [layer3.csv],layer_match
+Q10807178,spectrum,https://mathgloss.github.io/MathGloss/chicago/spectrum,spectrum,layer5.csv,1.000,exact_letters,Q1365748 (1.000; exact_letters) spectrum [layer2.csv]; Q62531 (1.000; exact_letters) spectrum [layer2.csv]; Q7575263 (1.000; exact_letters) Spectrum [layer5.csv]; Q7575269 (1.000; exact_letters) spectrum [layer1.csv],layer_match
+Q1996100,splitting field,https://mathgloss.github.io/MathGloss/chicago/splitting_field,splitting field,layer3.csv,1.000,exact_letters,,layer_match
+Q7625098,structure constants,https://mathgloss.github.io/MathGloss/chicago/structure_constants,structure constants,layer2.csv,1.000,exact_letters,,layer_match
+Q629933,subalgebra,https://mathgloss.github.io/MathGloss/chicago/subalgebra,subalgebra,layer3.csv,1.000,exact_letters,,layer_match
+Q7631151,subgraph,https://mathgloss.github.io/MathGloss/chicago/subgraph,subgraph,layer3.csv,1.000,exact_letters,,layer_match
+Q466109,subgroup,https://mathgloss.github.io/MathGloss/chicago/subgroup,subgroup,layer3.csv,1.000,exact_letters,,layer_match
+Q2498094,submodule,https://mathgloss.github.io/MathGloss/chicago/submodule,submodule,layer3.csv,1.000,exact_letters,,layer_match
+Q55648664,subrepresentation,https://mathgloss.github.io/MathGloss/chicago/subrepresentation,subrepresentation,layer4.csv,1.000,exact_letters,,layer_match
+Q660730,subspace topology,https://mathgloss.github.io/MathGloss/chicago/subspace_topology,subspace topology,layer5.csv,1.000,exact_letters,,layer_match
+Q1142861,sum of modules,https://mathgloss.github.io/MathGloss/chicago/sum_of_modules,direct sum of modules,layer3.csv,0.900,token_jaccard=0.75,,layer_match
+Q1136376,support,https://mathgloss.github.io/MathGloss/chicago/support,support,layer2.csv,1.000,exact_letters,Q2709287 (1.000; exact_letters) support [layer2.csv],layer_match
+Q215071,supremum,https://mathgloss.github.io/MathGloss/chicago/supremum,supremum,layer2.csv,1.000,exact_letters,,layer_match
+Q3505239,surface,https://mathgloss.github.io/MathGloss/chicago/surface,surface,layer4.csv,1.000,exact_letters,Q484298 (1.000; exact_letters) surface [layer3.csv]; Q66539728 (1.000; exact_letters) surface [layer2.csv],layer_match
+Q3773126,symmetric derivative,https://mathgloss.github.io/MathGloss/chicago/symmetric_derivative,symmetric derivative,layer3.csv,1.000,exact_letters,,layer_match
+Q1147242,symmetric difference,https://mathgloss.github.io/MathGloss/chicago/symmetric_difference,symmetric difference,layer4.csv,1.000,exact_letters,,layer_match
+Q849512,symmetric group,https://mathgloss.github.io/MathGloss/chicago/symmetric_group,symmetric group,layer2.csv,1.000,exact_letters,Q106589398 (0.867; token_jaccard=0.67) affine symmetric group [layer4.csv]; Q5532515 (0.867; token_jaccard=0.67) generalized symmetric group [layer3.csv]; Q10686891 (0.867; token_jaccard=0.67) symmetric group S4 [layer5.csv],layer_match
+Q52241637,symplectic algebra,https://mathgloss.github.io/MathGloss/chicago/symplectic_algebra,symplectic Lie algebra,layer5.csv,0.867,token_jaccard=0.67,,layer_match
+Q909601,tangent space,https://mathgloss.github.io/MathGloss/chicago/tangent_space,tangent space,layer3.csv,1.000,exact_letters,Q2031596 (0.867; token_jaccard=0.67) Zariski tangent space [layer1.csv],layer_match
+Q48995828,tensor product of Lie algebra representations,https://mathgloss.github.io/MathGloss/chicago/tensor_product_of_Lie_algebra_representations,tensor product of representations,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q48995828,tensor product of group representations,https://mathgloss.github.io/MathGloss/chicago/tensor_product_of_group_representations,tensor product of representations,layer4.csv,0.920,token_jaccard=0.80,,layer_match
+Q10260753,topological field,https://mathgloss.github.io/MathGloss/chicago/topological_field,topological field,layer3.csv,1.000,exact_letters,,layer_match
+Q7825035,topological game,https://mathgloss.github.io/MathGloss/chicago/topological_game,topological game,layer3.csv,1.000,exact_letters,,layer_match
+Q1046291,topological group,https://mathgloss.github.io/MathGloss/chicago/topological_group,topological group,layer3.csv,1.000,exact_letters,Q7825020 (0.867; token_jaccard=0.67) abelian topological group [layer5.csv]; Q127766994 (0.867; token_jaccard=0.67) complete topological group [layer5.csv],layer_match
+Q922339,topological ring,https://mathgloss.github.io/MathGloss/chicago/topological_ring,topological ring,layer2.csv,1.000,exact_letters,Q119143608 (0.867; token_jaccard=0.67) topological division ring [layer3.csv],layer_match
+Q179899,topological space,https://mathgloss.github.io/MathGloss/chicago/topological_space,topological space,layer1.csv,1.000,exact_letters,Q4352436 (0.867; token_jaccard=0.67) finite topological space [layer4.csv]; Q590554 (0.867; token_jaccard=0.67) noetherian topological space [layer5.csv]; Q1139111 (0.867; token_jaccard=0.67) quotient topological space [layer4.csv]; Q114716129 (0.867; token_jaccard=0.67) topological space theory [layer2.csv],layer_match
+Q7827200,torsion free module,https://mathgloss.github.io/MathGloss/chicago/torsion_free_module,torsion-free module,layer3.csv,1.000,exact_letters,Q1292333 (0.867; token_jaccard=0.67) free module [layer4.csv],layer_match
+Q2293759,torsion subgroup,https://mathgloss.github.io/MathGloss/chicago/torsion_subgroup,torsion subgroup,layer4.csv,1.000,exact_letters,,layer_match
+Q1936288,total variation,https://mathgloss.github.io/MathGloss/chicago/total_variation,total variation,layer1.csv,1.000,exact_letters,Q115250236 (0.867; token_jaccard=0.67) total process variation [layer5.csv],layer_match
+Q1362228,totally bounded,https://mathgloss.github.io/MathGloss/chicago/totally_bounded,totally bounded space,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q1544261,totally disconnected,https://mathgloss.github.io/MathGloss/chicago/totally_disconnected,totally disconnected space,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q27031549,trace,https://mathgloss.github.io/MathGloss/chicago/trace,Trace,layer5.csv,1.000,exact_letters,Q321102 (1.000; exact_letters) trace [layer4.csv],layer_match
+Q121074938,transitive group action,https://mathgloss.github.io/MathGloss/chicago/transitive_group_action,transitive group action,layer3.csv,1.000,exact_letters,Q288465 (0.867; token_jaccard=0.67) group action [layer2.csv],layer_match
+Q13168732,transposition,https://mathgloss.github.io/MathGloss/chicago/transposition,transposition,layer4.csv,1.000,exact_letters,Q228539 (1.000; exact_letters) transposition [layer4.csv]; Q2514597 (1.000; exact_letters) transposition [layer4.csv]; Q2666112 (1.000; exact_letters) transposition [layer3.csv]; Q78082099 (1.000; exact_letters) transposition [layer3.csv],layer_match
+Q109837757,tree,https://mathgloss.github.io/MathGloss/chicago/tree,Tree,layer5.csv,1.000,exact_letters,Q119132579 (1.000; exact_letters) tree [layer5.csv]; Q223655 (1.000; exact_letters) tree [layer3.csv]; Q272735 (1.000; exact_letters) tree [layer1.csv]; Q2859736 (1.000; exact_letters) tree [layer5.csv],layer_match
+Q91256217,uniformly continuous,https://mathgloss.github.io/MathGloss/chicago/uniformly_continuous,uniformly continuous function,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q1500617,unitary group,https://mathgloss.github.io/MathGloss/chicago/unitary_group,unitary group,layer3.csv,1.000,exact_letters,Q7249475 (0.867; token_jaccard=0.67) projective unitary group [layer4.csv]; Q684363 (0.867; token_jaccard=0.67) special unitary group [layer5.csv],layer_match
+Q727103,unitary matrix,https://mathgloss.github.io/MathGloss/chicago/unitary_matrix,unitary matrix,layer3.csv,1.000,exact_letters,,layer_match
+Q2495534,unitary transformation,https://mathgloss.github.io/MathGloss/chicago/unitary_transformation,unitary transformation,layer3.csv,1.000,exact_letters,,layer_match
+Q5062152,upper central series,https://mathgloss.github.io/MathGloss/chicago/upper_central_series,central series,layer3.csv,0.867,token_jaccard=0.67,,layer_match
+Q125977,vector space,https://mathgloss.github.io/MathGloss/chicago/vector_space,vector space,layer2.csv,1.000,exact_letters,Q5156614 (0.867; token_jaccard=0.67) complex vector space [layer4.csv]; Q3058338 (0.867; token_jaccard=0.67) finite vector space [layer4.csv]; Q42797338 (0.867; token_jaccard=0.67) function vector space [layer5.csv]; Q3058206 (0.867; token_jaccard=0.67) graded vector space [layer3.csv],layer_match
+Q1238720,volume,https://mathgloss.github.io/MathGloss/chicago/volume,volume,layer4.csv,1.000,exact_letters,Q25136239 (1.000; exact_letters) Volume [layer5.csv]; Q39297 (1.000; exact_letters) volume [layer4.csv]; Q4330556 (1.000; exact_letters) volume [layer3.csv]; Q66539727 (1.000; exact_letters) volume [layer2.csv],layer_match
+Q7977932,weak Hausdorff,https://mathgloss.github.io/MathGloss/chicago/weak_Hausdorff,weak Hausdorff space,layer4.csv,0.867,token_jaccard=0.67,,layer_match
+Q11861938,weak convergence,https://mathgloss.github.io/MathGloss/chicago/weak_convergence,weak convergence,layer3.csv,1.000,exact_letters,Q7977941 (1.000; exact_letters) weak convergence [layer3.csv],layer_match
+Q1781358,wedge sum,https://mathgloss.github.io/MathGloss/chicago/wedge_sum,wedge sum,layer2.csv,1.000,exact_letters,,layer_match
+Q35059,width,https://mathgloss.github.io/MathGloss/chicago/width,width,layer5.csv,1.000,exact_letters,,layer_match
+Q120755990,winding number,https://mathgloss.github.io/MathGloss/chicago/winding_number,winding number,layer4.csv,1.000,exact_letters,Q576728 (1.000; exact_letters) winding number [layer3.csv],layer_match
+Q828111,zero divisor,https://mathgloss.github.io/MathGloss/chicago/zero_divisor,zero divisor,layer3.csv,1.000,exact_letters,Q55638229 (0.867; token_jaccard=0.67) zero-divisor graph [layer4.csv],layer_match
+Q3532117,Alexandroff space,https://mathgloss.github.io/MathGloss/chicago/Alexandroff_space,Alexandrov topology,,,,,wikimapper
+Q803935,Baire class,https://mathgloss.github.io/MathGloss/chicago/Baire_class,Baire function,,,,,wikimapper
+Q176244,Frattini subgroup,https://mathgloss.github.io/MathGloss/chicago/Frattini_subgroup,Frattini subgroup,,,,,wikimapper
+Q92552,Galois group of a polynomial,https://mathgloss.github.io/MathGloss/chicago/Galois_group_of_a_polynomial,Galois theory,,,,,wikimapper
+Q724975,Gaussian integers,https://mathgloss.github.io/MathGloss/chicago/Gaussian_integers,Gaussian integer,,,,,wikimapper
+Q1162676,Haar integral,https://mathgloss.github.io/MathGloss/chicago/Haar_integral,Haar measure,,,,,wikimapper
+Q417130,Hausdorff,https://mathgloss.github.io/MathGloss/chicago/Hausdorff,Hausdorff,,,,,wikimapper
+Q214159,Hermitian inner product,https://mathgloss.github.io/MathGloss/chicago/Hermitian_inner_product,Inner product space,,,,,wikimapper
+Q203484,Laplacian,https://mathgloss.github.io/MathGloss/chicago/Laplacian,Laplacian,,,,,wikimapper
+Q853831,Lebesgue integral,https://mathgloss.github.io/MathGloss/chicago/Lebesgue_integral,Lebesgue-integrable,,,,,wikimapper
+Q516776,Lebesgue measurable function,https://mathgloss.github.io/MathGloss/chicago/Lebesgue_measurable_function,Measurable function,,,,,wikimapper
+Q664495,Lie algebra homomorphism,https://mathgloss.github.io/MathGloss/chicago/Lie_algebra_homomorphism,Lie Algebra,,,,,wikimapper
+Q18353697,Lie correspondence,https://mathgloss.github.io/MathGloss/chicago/Lie_correspondence,Lie correspondence,,,,,wikimapper
+Q1334417,Lorentz group,https://mathgloss.github.io/MathGloss/chicago/Lorentz_group,Lorentz group,,,,,wikimapper
+Q1632419,Pontryagin dual,https://mathgloss.github.io/MathGloss/chicago/Pontryagin_dual,Pontryagin duality,,,,,wikimapper
+Q697181,Riemann integrable,https://mathgloss.github.io/MathGloss/chicago/Riemann_integrable,Riemann integral,,,,,wikimapper
+Q4298935,Schur polynomials,https://mathgloss.github.io/MathGloss/chicago/Schur_polynomials,Schur polynomial,,,,,wikimapper
+Q1148924,T0 space,https://mathgloss.github.io/MathGloss/chicago/T0_space,Kolmogorov axiom,,,,,wikimapper
+Q124625185,Young subgroup,https://mathgloss.github.io/MathGloss/chicago/Young_subgroup,Young subgroup,,,,,wikimapper
+Q332504,absolute continuity,https://mathgloss.github.io/MathGloss/chicago/absolute_continuity,Absolute continuity,,,,,wikimapper
+Q1017106,adjoint representation of a Lie group,https://mathgloss.github.io/MathGloss/chicago/adjoint_representation_of_a_Lie_group,Adjoint representation,,,,,wikimapper
+Q225107,adjugate,https://mathgloss.github.io/MathGloss/chicago/adjugate,Adjugate matrix,,,,,wikimapper
+Q382497,affine transformations,https://mathgloss.github.io/MathGloss/chicago/affine_transformations,Affine transformation,,,,,wikimapper
+Q177251,associative,https://mathgloss.github.io/MathGloss/chicago/associative,Associative property,,,,,wikimapper
+Q180907,bijective,https://mathgloss.github.io/MathGloss/chicago/bijective,Bijection,,,,,wikimapper
+Q310647,bounded,https://mathgloss.github.io/MathGloss/chicago/bounded,Club set,,,,,wikimapper
+Q829653,bounded variation,https://mathgloss.github.io/MathGloss/chicago/bounded_variation,Bounded variation,,,,,wikimapper
+Q1195852,center of a group,https://mathgloss.github.io/MathGloss/chicago/center_of_a_group,Center (group theory),,,,,wikimapper
+Q30603786,center of an algebra,https://mathgloss.github.io/MathGloss/chicago/center_of_an_algebra,Center of an algebra,,,,,wikimapper
+Q600043,character of a representation,https://mathgloss.github.io/MathGloss/chicago/character_of_a_representation,Character theory,,,,,wikimapper
+Q11498021,character table,https://mathgloss.github.io/MathGloss/chicago/character_table,Character tables,,,,,wikimapper
+Q836088,characteristic of a field,https://mathgloss.github.io/MathGloss/chicago/characteristic_of_a_field,Characteristic (algebra),,,,,wikimapper
+Q747027,characteristic subgroup,https://mathgloss.github.io/MathGloss/chicago/characteristic_subgroup,Characteristic subgroup,,,,,wikimapper
+Q105356493,circle group,https://mathgloss.github.io/MathGloss/chicago/circle_group,Circle group,,,,,wikimapper
+Q320357,closed,https://mathgloss.github.io/MathGloss/chicago/closed,Closed set,,,,,wikimapper
+Q1747745,comeager,https://mathgloss.github.io/MathGloss/chicago/comeager,Second category,,,,,wikimapper
+Q165474,commutative,https://mathgloss.github.io/MathGloss/chicago/commutative,Commutative,,,,,wikimapper
+Q522216,commutator subgroup,https://mathgloss.github.io/MathGloss/chicago/commutator_subgroup,Commutator subgroup,,,,,wikimapper
+Q381892,compact,https://mathgloss.github.io/MathGloss/chicago/compact,Compact space,,,,,wikimapper
+Q1136376,compact support,https://mathgloss.github.io/MathGloss/chicago/compact_support,Support (mathematics),,,,,wikimapper
+Q106323967,complete reducibility,https://mathgloss.github.io/MathGloss/chicago/complete_reducibility,Semisimple,,,,,wikimapper
+Q207476,complex differentiability,https://mathgloss.github.io/MathGloss/chicago/complex_differentiability,Holomorphic function,,,,,wikimapper
+Q168698,complex exponential,https://mathgloss.github.io/MathGloss/chicago/complex_exponential,Exponential function,,,,,wikimapper
+Q467699,complex integral,https://mathgloss.github.io/MathGloss/chicago/complex_integral,Curve integral,,,,,wikimapper
+Q11567,complex numbers,https://mathgloss.github.io/MathGloss/chicago/complex_numbers,Complex numbers,,,,,wikimapper
+Q1353233,conjugacy classes,https://mathgloss.github.io/MathGloss/chicago/conjugacy_classes,Conjugacy class,,,,,wikimapper
+Q1353233,conjugate subgroups,https://mathgloss.github.io/MathGloss/chicago/conjugate_subgroups,Conjugacy class,,,,,wikimapper
+Q2051983,conjugate transpose,https://mathgloss.github.io/MathGloss/chicago/conjugate_transpose,Adjoint matrix,,,,,wikimapper
+Q5165409,continuous,https://mathgloss.github.io/MathGloss/chicago/continuous,List of continuity-related mathematical topics,,,,,wikimapper
+Q230689,contractible,https://mathgloss.github.io/MathGloss/chicago/contractible,Contractible,,,,,wikimapper
+Q104752,coprime,https://mathgloss.github.io/MathGloss/chicago/coprime,Coprime integers,,,,,wikimapper
+Q66707394,countable,https://mathgloss.github.io/MathGloss/chicago/countable,Countably infinite,,,,,wikimapper
+Q161519,cycle type,https://mathgloss.github.io/MathGloss/chicago/cycle_type,Permutation,,,,,wikimapper
+Q483525,dense,https://mathgloss.github.io/MathGloss/chicago/dense,Dense (mathematics),,,,,wikimapper
+Q1201165,determined,https://mathgloss.github.io/MathGloss/chicago/determined,Winning strategy,,,,,wikimapper
+Q131598137,diameter of a set,https://mathgloss.github.io/MathGloss/chicago/diameter_of_a_set,Diameter of a set,,,,,wikimapper
+Q783507,differentiable,https://mathgloss.github.io/MathGloss/chicago/differentiable,Differentiability,,,,,wikimapper
+Q1142861,direct sum of Lie algebras,https://mathgloss.github.io/MathGloss/chicago/direct_sum_of_Lie_algebras,Direct sum of modules,,,,,wikimapper
+Q2235316,elementary symmetric polynomials,https://mathgloss.github.io/MathGloss/chicago/elementary_symmetric_polynomials,Elementary symmetric function,,,,,wikimapper
+Q3055094,entire,https://mathgloss.github.io/MathGloss/chicago/entire,Entire,,,,,wikimapper
+Q130998,equivalence relation,https://mathgloss.github.io/MathGloss/chicago/equivalence_relation,EquivalenceRelation,,,,,wikimapper
+Q5384710,equivalent metrics,https://mathgloss.github.io/MathGloss/chicago/equivalent_metrics,Equivalence of metrics,,,,,wikimapper
+Q980509,field embedding,https://mathgloss.github.io/MathGloss/chicago/field_embedding,Embedding,,,,,wikimapper
+Q21018636,fixed field,https://mathgloss.github.io/MathGloss/chicago/fixed_field,Fixed field,,,,,wikimapper
+Q774579,fraction ring,https://mathgloss.github.io/MathGloss/chicago/fraction_ring,Field of fractions,,,,,wikimapper
+Q207476,holomorphic,https://mathgloss.github.io/MathGloss/chicago/holomorphic,Holomorphic function,,,,,wikimapper
+Q54938846,homogeneous relation,https://mathgloss.github.io/MathGloss/chicago/homogeneous_relation,Endorelation,,,,,wikimapper
+Q2243424,idempotent,https://mathgloss.github.io/MathGloss/chicago/idempotent,Idempotent (ring theory),,,,,wikimapper
+Q1319773,inconsistent,https://mathgloss.github.io/MathGloss/chicago/inconsistent,Consistency,,,,,wikimapper
+Q17502105,infimum,https://mathgloss.github.io/MathGloss/chicago/infimum,Infimum and supremum,,,,,wikimapper
+Q182003,injective,https://mathgloss.github.io/MathGloss/chicago/injective,Injective function,,,,,wikimapper
+Q214159,inner product,https://mathgloss.github.io/MathGloss/chicago/inner_product,Inner product space,,,,,wikimapper
+Q81376506,isotypic component,https://mathgloss.github.io/MathGloss/chicago/isotypic_component,Isotypic component,,,,,wikimapper
+Q751969,left coset,https://mathgloss.github.io/MathGloss/chicago/left_coset,Coset,,,,,wikimapper
+Q207643,linear transformation,https://mathgloss.github.io/MathGloss/chicago/linear_transformation,Linear map,,,,,wikimapper
+Q27670,linearly dependent,https://mathgloss.github.io/MathGloss/chicago/linearly_dependent,Linear Algebra/Linearly Independent Vectors,,,,,wikimapper
+Q27670,linearly independent,https://mathgloss.github.io/MathGloss/chicago/linearly_independent,Linear Algebra/Linearly Independent Vectors,,,,,wikimapper
+Q845060,local maximum,https://mathgloss.github.io/MathGloss/chicago/local_maximum,Relative extrema,,,,,wikimapper
+Q845060,local minimum,https://mathgloss.github.io/MathGloss/chicago/local_minimum,Relative extrema,,,,,wikimapper
+Q2147620,locally compact group,https://mathgloss.github.io/MathGloss/chicago/locally_compact_group,Locally compact topological group,,,,,wikimapper
+Q13222579,lower bound,https://mathgloss.github.io/MathGloss/chicago/lower_bound,Upper and lower bounds,,,,,wikimapper
+Q1156903,lower sum,https://mathgloss.github.io/MathGloss/chicago/lower_sum,Riemann sum,,,,,wikimapper
+Q622679,matrix Lie group,https://mathgloss.github.io/MathGloss/chicago/matrix_Lie_group,LieGroup,,,,,wikimapper
+Q902017,matrix logarithm,https://mathgloss.github.io/MathGloss/chicago/matrix_logarithm,Logarithm of a matrix,,,,,wikimapper
+Q6803482,meager,https://mathgloss.github.io/MathGloss/chicago/meager,Meager,,,,,wikimapper
+Q599027,mean value property,https://mathgloss.github.io/MathGloss/chicago/mean_value_property,Harmonic function,,,,,wikimapper
+Q192276,measurable,https://mathgloss.github.io/MathGloss/chicago/measurable,Measure theory,,,,,wikimapper
+Q1201815,measure zero,https://mathgloss.github.io/MathGloss/chicago/measure_zero,Null set,,,,,wikimapper
+Q2344169,mesh,https://mathgloss.github.io/MathGloss/chicago/mesh,Partition of an interval,,,,,wikimapper
+Q848569,metric completion,https://mathgloss.github.io/MathGloss/chicago/metric_completion,Complete metric space,,,,,wikimapper
+Q18848,module over a ring,https://mathgloss.github.io/MathGloss/chicago/module_over_a_ring,Module (algebra),,,,,wikimapper
+Q6899873,monic,https://mathgloss.github.io/MathGloss/chicago/monic,Monic,,,,,wikimapper
+Q97303181,multilinear,https://mathgloss.github.io/MathGloss/chicago/multilinear,Multilinear,,,,,wikimapper
+Q1764371,negative variation,https://mathgloss.github.io/MathGloss/chicago/negative_variation,Signed measure,,,,,wikimapper
+Q840023,nilpotent,https://mathgloss.github.io/MathGloss/chicago/nilpotent,Nilpotent,,,,,wikimapper
+Q1747745,nonmeager,https://mathgloss.github.io/MathGloss/chicago/nonmeager,Second category,,,,,wikimapper
+Q360830,normal series,https://mathgloss.github.io/MathGloss/chicago/normal_series,Subgroup series,,,,,wikimapper
+Q860609,ordinary generating function,https://mathgloss.github.io/MathGloss/chicago/ordinary_generating_function,Generating function,,,,,wikimapper
+Q2748415,orientable,https://mathgloss.github.io/MathGloss/chicago/orientable,Orientability,,,,,wikimapper
+Q2748415,oriented manifold,https://mathgloss.github.io/MathGloss/chicago/oriented_manifold,Orientability,,,,,wikimapper
+Q114044192,orthogonal,https://mathgloss.github.io/MathGloss/chicago/orthogonal,Orthogonality (mathematics),,,,,wikimapper
+Q1411166,orthonormal,https://mathgloss.github.io/MathGloss/chicago/orthonormal,Orthonormality,,,,,wikimapper
+Q1082910,partition of an integer,https://mathgloss.github.io/MathGloss/chicago/partition_of_an_integer,Integer partition,,,,,wikimapper
+Q7233276,positive definite,https://mathgloss.github.io/MathGloss/chicago/positive_definite,Positive-definite,,,,,wikimapper
+Q1764371,positive variation,https://mathgloss.github.io/MathGloss/chicago/positive_variation,Signed measure,,,,,wikimapper
+Q836088,prime subfield,https://mathgloss.github.io/MathGloss/chicago/prime_subfield,Characteristic (algebra),,,,,wikimapper
+Q756747,primitive root of unity,https://mathgloss.github.io/MathGloss/chicago/primitive_root_of_unity,Root of unity,,,,,wikimapper
+Q577835,quadratic field extension,https://mathgloss.github.io/MathGloss/chicago/quadratic_field_extension,Field extension,,,,,wikimapper
+Q803531,quadratic integers,https://mathgloss.github.io/MathGloss/chicago/quadratic_integers,Quadratic integer,,,,,wikimapper
+Q1393796,quotient vector space,https://mathgloss.github.io/MathGloss/chicago/quotient_vector_space,Quotient space (linear algebra),,,,,wikimapper
+Q423113,rectifiable,https://mathgloss.github.io/MathGloss/chicago/rectifiable,Rectification,,,,,wikimapper
+Q2136742,reflexive,https://mathgloss.github.io/MathGloss/chicago/reflexive,Reflexive,,,,,wikimapper
+Q408620,regular,https://mathgloss.github.io/MathGloss/chicago/regular,Regular,,,,,wikimapper
+Q751969,right coset,https://mathgloss.github.io/MathGloss/chicago/right_coset,Coset,,,,,wikimapper
+Q609566,row operations,https://mathgloss.github.io/MathGloss/chicago/row_operations,Elementary matrix transformations,,,,,wikimapper
+Q680081,separable metric space,https://mathgloss.github.io/MathGloss/chicago/separable_metric_space,Separable space,,,,,wikimapper
+Q2628674,simple field extension,https://mathgloss.github.io/MathGloss/chicago/simple_field_extension,Primitive element (field theory),,,,,wikimapper
+Q15847822,smooth,https://mathgloss.github.io/MathGloss/chicago/smooth,Smooth,,,,,wikimapper
+Q92552,solvability by radicals,https://mathgloss.github.io/MathGloss/chicago/solvability_by_radicals,Galois theory,,,,,wikimapper
+Q7574831,special linear algebra,https://mathgloss.github.io/MathGloss/chicago/special_linear_algebra,Special linear Lie algebra,,,,,wikimapper
+Q2739990,subbasis,https://mathgloss.github.io/MathGloss/chicago/subbasis,Subbase,,,,,wikimapper
+Q185148,subinterval,https://mathgloss.github.io/MathGloss/chicago/subinterval,Interval on the real line,,,,,wikimapper
+Q360830,subnormal series,https://mathgloss.github.io/MathGloss/chicago/subnormal_series,Subgroup series,,,,,wikimapper
+Q229102,surjective,https://mathgloss.github.io/MathGloss/chicago/surjective,Surjective function,,,,,wikimapper
+Q12485,symmetric,https://mathgloss.github.io/MathGloss/chicago/symmetric,Symmetry,,,,,wikimapper
+Q1163016,tensor product of vector spaces,https://mathgloss.github.io/MathGloss/chicago/tensor_product_of_vector_spaces,Tensor product,,,,,wikimapper
+Q810214,topological basis,https://mathgloss.github.io/MathGloss/chicago/topological_basis,Topological base,,,,,wikimapper
+Q173091,transcendental,https://mathgloss.github.io/MathGloss/chicago/transcendental,Transcendental number,,,,,wikimapper
+Q7834418,transition function,https://mathgloss.github.io/MathGloss/chicago/transition_function,Transition function,,,,,wikimapper
+Q671944,transitive,https://mathgloss.github.io/MathGloss/chicago/transitive,Transitive set,,,,,wikimapper
+Q26905729,typical,https://mathgloss.github.io/MathGloss/chicago/typical,Typical,,,,,wikimapper
+Q1128796,uncountable,https://mathgloss.github.io/MathGloss/chicago/uncountable,Uncountable set,,,,,wikimapper
+Q1052579,unique factorization domain,https://mathgloss.github.io/MathGloss/chicago/unique_factorization_domain,Unique factorization domain,,,,,wikimapper
+Q1156903,upper sum,https://mathgloss.github.io/MathGloss/chicago/upper_sum,Riemann sum,,,,,wikimapper
+Q728435,vector subspace,https://mathgloss.github.io/MathGloss/chicago/vector_subspace,Linear Algebra/Subspace,,,,,wikimapper

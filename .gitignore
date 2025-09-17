@@ -4,3 +4,4 @@ __pycache__/
 data/builds/
 secrets/
 logs/
+experiments/
