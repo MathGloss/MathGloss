@@ -1,44 +1,4 @@
-Wikidata ID,Title,Link,Label,Layer,Score,Reason,Alternates,Provenance
-Q5051849,the category of relations,https://www.clowderproject.com/tag/00JS.html,category of relations,layer3.csv,0.900,token_jaccard=0.75,,layer_match
-Q182598,the graph of a function,https://www.clowderproject.com/tag/00P1.html,graph of a function,layer2.csv,0.920,token_jaccard=0.80,,layer_match
-Q2795123,composition of relations,https://www.clowderproject.com/tag/00QU.html,composition of relations,layer3.csv,1.000,exact_letters,,layer_match
-Q2795123,examples of composition of relations,https://www.clowderproject.com/tag/00QV.html,composition of relations,layer3.csv,0.900,token_jaccard=0.75,,layer_match
-Q2795123,properties of composition of relations,https://www.clowderproject.com/tag/00QW.html,composition of relations,layer3.csv,0.900,token_jaccard=0.75,,layer_match
-Q3753945,the reflexive closure of a relation,https://www.clowderproject.com/tag/00TW.html,closure of a relation,layer2.csv,0.867,token_jaccard=0.67,,layer_match
-Q3753945,the symmetric closure of a relation,https://www.clowderproject.com/tag/00UF.html,closure of a relation,layer2.csv,0.867,token_jaccard=0.67,,layer_match
-Q3753945,the transitive closure of a relation,https://www.clowderproject.com/tag/00V0.html,closure of a relation,layer2.csv,0.867,token_jaccard=0.67,,layer_match
-Q3753945,the equivalence closure of a relation,https://www.clowderproject.com/tag/00VG.html,closure of a relation,layer2.csv,0.867,token_jaccard=0.67,,layer_match
-Q1082992,equivalences of categories equivalence of categories,https://www.clowderproject.com/tag/013R.html,equivalence of categories,layer4.csv,0.900,token_jaccard=0.75,,layer_match
-Q252568,the walking arrow,https://www.clowderproject.com/tag/01TY.html,The Arrow,layer5.csv,0.867,token_jaccard=0.67,,layer_match
-Q2795123,composition of relations 1,https://www.clowderproject.com/tag/02D1.html,composition of relations,layer3.csv,0.900,token_jaccard=0.75,,layer_match
-Q2795123,composition of relations 2,https://www.clowderproject.com/tag/02D2.html,composition of relations,layer3.csv,0.900,token_jaccard=0.75,,layer_match
-Q2795123,composition of relations 3,https://www.clowderproject.com/tag/02D3.html,composition of relations,layer3.csv,0.900,token_jaccard=0.75,,layer_match
-Q2795123,apartness composition of relations,https://www.clowderproject.com/tag/02DA.html,composition of relations,layer3.csv,0.900,token_jaccard=0.75,,layer_match
-Q320577,the yoneda lemma,https://www.clowderproject.com/tag/02HY.html,Yoneda lemma,layer3.csv,0.867,token_jaccard=0.67,,layer_match
-Q11348,functions,https://www.clowderproject.com/tag/0003.html,Mathematical Function,,,,,wikimapper
-Q226183,the empty set,https://www.clowderproject.com/tag/002Z.html,Empty set,,,,,wikimapper
-Q191290,ordered pairs,https://www.clowderproject.com/tag/0035.html,Ordered pair,,,,,wikimapper
-Q4388690,differences,https://www.clowderproject.com/tag/004E.html,Difference,,,,,wikimapper
-Q19924622,complements,https://www.clowderproject.com/tag/0050.html,Complement,,,,,wikimapper
-Q230259,relations,https://www.clowderproject.com/tag/00HG.html,Relation,,,,,wikimapper
-Q134237,square roots,https://www.clowderproject.com/tag/00J9.html,Square root,,,,,wikimapper
-Q130998,equivalence relations,https://www.clowderproject.com/tag/00VA.html,EquivalenceRelation,,,,,wikimapper
-Q224414,categories,https://www.clowderproject.com/tag/00WB.html,Category,,,,,wikimapper
-Q541563,subcategories,https://www.clowderproject.com/tag/00XD.html,Subcategory,,,,,wikimapper
-Q541563,full subcategories,https://www.clowderproject.com/tag/00XE.html,Subcategory,,,,,wikimapper
-Q1228851,discrete categories,https://www.clowderproject.com/tag/00YK.html,Discrete category,,,,,wikimapper
-Q25098934,indiscrete categories,https://www.clowderproject.com/tag/00YU.html,Indiscrete category,,,,,wikimapper
-Q189112,isomorphisms,https://www.clowderproject.com/tag/00Z3.html,Isomorphism class,,,,,wikimapper
-Q1196038,groupoids,https://www.clowderproject.com/tag/00Z5.html,Groupoid,,,,,wikimapper
-Q864475,functors,https://www.clowderproject.com/tag/00ZW.html,Functor,,,,,wikimapper
-Q1064276,fully faithful functors,https://www.clowderproject.com/tag/0129.html,Faithful functor,,,,,wikimapper
-Q23808682,conservative functors,https://www.clowderproject.com/tag/0133.html,Conservative functor,,,,,wikimapper
-Q1442189,natural transformations,https://www.clowderproject.com/tag/017Q.html,Natural transformation,,,,,wikimapper
-Q4903541,bicategories,https://www.clowderproject.com/tag/01CY.html,Bicategory,,,,,wikimapper
-Q235028,sets,https://www.clowderproject.com/tag/01D1.html,SeT,,,,,wikimapper
-Q1945014,monoidal categories,https://www.clowderproject.com/tag/01VW.html,Monoidal category,,,,,wikimapper
-Q3910260,preliminaries,https://www.clowderproject.com/tag/01WJ.html,Preliminary,,,,,wikimapper
-Q1211071,equivalence classes,https://www.clowderproject.com/tag/02B1.html,Equivalence class,,,,,wikimapper
+Wikidata ID,Clowder,Clowder link
 Q226519,section-phantom,https://www.clowderproject.com/tag/0000.html
 Q11348,functions,https://www.clowderproject.com/tag/0003.html
 Q226183,the-empty-set,https://www.clowderproject.com/tag/002Z.html

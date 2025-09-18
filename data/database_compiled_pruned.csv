@@ -65,7 +65,7 @@ Q10370880,Hilbert's sixth problem,,,,,,,,,,,Hilbert's sixth problem,https://ncat
 Q1037559,Pólya enumeration theorem,,,,,,,,,,,Pólya enumeration theorem,https://ncatlab.org/nlab/show/P%C3%B3lya+enumeration+theorem,,
 Q10377738,Taboo,,,,,,,,,,,taboo,https://ncatlab.org/nlab/show/taboo,,
 Q1038716,identity theorem,,,,,,,,,,,,,identity theorem,http://planetmath.org/identitytheorem
-Q103927515,full subcategory,,,,,,,full subcategory,https://emilyriehl.github.io/files/context.pdf#page=49,,,strictly full subcategory,https://ncatlab.org/nlab/show/strictly+full+subcategory,,
+Q103927515,full subcategory,,,,,full-subcategories,https://www.clowderproject.com/tag/00XE.html,full subcategory,https://emilyriehl.github.io/files/context.pdf#page=49,,,strictly full subcategory,https://ncatlab.org/nlab/show/strictly+full+subcategory,,
 Q1040069,Face,,,,,,,,,,,face,https://ncatlab.org/nlab/show/face,,
 Q1041630,Skyrmion,,,,,,,,,,,skyrmion,https://ncatlab.org/nlab/show/skyrmion,,
 Q10417492,Argand diagram,,,,,,,,,,,,,Argand diagram,http://planetmath.org/arganddiagram
@@ -195,7 +195,7 @@ Q10635817,Poker,,,,,,,,,,,,,poker,http://planetmath.org/poker
 Q106371443,boundary,,,boundary,https://mathgloss.github.io/MathGloss/chicago/boundary,,,,,,,boundary,https://ncatlab.org/nlab/show/boundary,,
 Q10638609,Pressure,,,,,,,,,,,pressure,https://ncatlab.org/nlab/show/pressure,,
 Q1064218,Schur decomposition,,,,,,,,,,,,,Schur decomposition,http://planetmath.org/schurdecomposition
-Q1064276,full and faithful functor,full and faithful functor,https://arxiv.org/pdf/1612.09375#page=42,,,fully faithful functors,https://www.clowderproject.com/tag/0129.html,,,,,full and faithful functor,https://ncatlab.org/nlab/show/full+and+faithful+functor,,
+Q1064276,full and faithful functor,full and faithful functor,https://arxiv.org/pdf/1612.09375#page=42,,,fully-faithful-functors,https://www.clowderproject.com/tag/0129.html,,,,,full and faithful functor,https://ncatlab.org/nlab/show/full+and+faithful+functor,,
 Q106432207,relative entropy,,,,,,,,,,,relative entropy,https://ncatlab.org/nlab/show/relative+entropy,relative entropy,http://planetmath.org/relativeentropy
 Q1064342,snake lemma,,,,,,,,,,,connecting homomorphism,https://ncatlab.org/nlab/show/connecting+homomorphism,,
 Q1064405,Parity of a permutation,,,,,,,,,,,signature of a permutation,https://ncatlab.org/nlab/show/signature+of+a+permutation,signature of a permutation,http://planetmath.org/signatureofapermutation
@@ -207,7 +207,7 @@ Q106517809,limit,limit,https://arxiv.org/pdf/1612.09375#page=126,,,,,limit,https
 Q1065257,Squeeze theorem,,,,,,,,,,,,,squeeze rule,http://planetmath.org/squeezerule
 Q106548123,Grothendieck topos,,,,,,,Grothendieck topos,https://emilyriehl.github.io/files/context.pdf#page=242,,,Grothendieck topos,https://ncatlab.org/nlab/show/Grothendieck+topos,,
 Q10656,Hall effect,,,,,,,,,,,Hall effect,https://ncatlab.org/nlab/show/Hall+effect,,
-Q106584784,total relation,,,,,,,,,,,total relation,https://ncatlab.org/nlab/show/total+relation,,
+Q106584784,total relation,,,,,total-relations,https://www.clowderproject.com/tag/00JK.html,,,,,total relation,https://ncatlab.org/nlab/show/total+relation,,
 Q1065966,isomorphism theorem,,,,,,,,,third isomorphism theorem,https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/QuotientGroup/Basic.html#QuotientGroup.quotientQuotientEquivQuotient,,,third isomorphism theorem,http://planetmath.org/thirdisomorphismtheorem
 Q10659709,S,,,,,,,,,,,,,S,http://planetmath.org/s
 Q1065997,proton decay,,,,,,,,,,,proton decay,https://ncatlab.org/nlab/show/proton+decay,,
@@ -257,6 +257,7 @@ Q1071077,primorial,,,,,,,,,,,,,Compositorial,http://planetmath.org/compositorial
 Q1071203,free space,,,,,,,free space,https://emilyriehl.github.io/files/context.pdf#page=151,,,,,,
 Q1071270,Inverse chain rule method,,,,,,,,,change of variables formula,https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Function/Jacobian.html#MeasureTheory.integral_image_eq_integral_abs_det_fderiv_smul,,,substitution for integration,http://planetmath.org/substitutionforintegration
 Q1071795,normal space,,,,,,,,,,,perfectly normal space,https://ncatlab.org/nlab/show/perfectly+normal+space,completely normal,http://planetmath.org/completelynormal
+Q107223533,Relation (mathematics),,,,,relations,https://www.clowderproject.com/tag/00HG.html,,,,,,,,
 Q1072412,Weierstrass M-test,,,,,,,,,,,,,Weierstrass M-test,http://planetmath.org/weierstrassmtest
 Q1072771,Möbius inversion formula,,,,,,,,,inversion formula,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Fourier/Inversion.html#Continuous.fourier_inversion,Möbius inversion,https://ncatlab.org/nlab/show/M%C3%B6bius+inversion,Möbius inversion,http://planetmath.org/mobiusinversion
 Q10728655,superposition,,,,,,,,,,,superposition,https://ncatlab.org/nlab/show/superposition,,
@@ -290,7 +291,7 @@ Q108163,proposition,,,,,,,,,,,proposition,https://ncatlab.org/nlab/show/proposit
 Q108183455,Character,,,,,,,,,character,https://leanprover-community.github.io/mathlib4_docs/Mathlib/RepresentationTheory/Character.html#FDRep.character,character,https://ncatlab.org/nlab/show/character,character,http://planetmath.org/character
 Q108256,eon,,,,,,,,,,,EO(n),https://ncatlab.org/nlab/show/EO%28n%29,,
 Q1082910,Integer partition,,,partition of an integer,https://mathgloss.github.io/MathGloss/chicago/partition_of_an_integer,,,,,,,,,,
-Q1082992,equivalence of categories,equivalence of categories,https://arxiv.org/pdf/1612.09375#page=42,,,equivalences of categories equivalence of categories,https://www.clowderproject.com/tag/013R.html,equivalence of categories,https://emilyriehl.github.io/files/context.pdf#page=48,,,equivalence,https://ncatlab.org/nlab/show/equivalence,,
+Q1082992,equivalence of categories,equivalence of categories,https://arxiv.org/pdf/1612.09375#page=42,,,equivalences-of-categories,https://www.clowderproject.com/tag/013Q.html,equivalence of categories,https://emilyriehl.github.io/files/context.pdf#page=48,,,equivalence,https://ncatlab.org/nlab/show/equivalence,,
 Q10843274,analytic number theory,,,,,,,,,,,analytic number theory,https://ncatlab.org/nlab/show/analytic+number+theory,analytic number theory,http://planetmath.org/analyticnumbertheory
 Q108441000,wave vector,,,,,,,,,,,wave vector,https://ncatlab.org/nlab/show/wave+vector,,
 Q1084766,abstract nonsense,,,,,,,abstract nonsense,https://emilyriehl.github.io/files/context.pdf#page=54,,,,,,
@@ -317,7 +318,7 @@ Q109043086,Barbalat's lemma,,,,,,,,,,,,,Barbălat’s lemma,http://planetmath.or
 Q10904356,Hendecahedron,,,,,,,,,,,,,undecahedron,http://planetmath.org/undecahedron
 Q109051190,Rust,,,,,,,,,,,Rust,https://ncatlab.org/nlab/show/Rust,,
 Q1090524,Skolem normal form,,,,,,,,,,,,,Skolemization,http://planetmath.org/skolemization
-Q10906333,simplex category,,,,,,,,,,,simplex category,https://ncatlab.org/nlab/show/simplex+category,,
+Q10906333,simplex category,,,,,ordinal-categories,https://www.clowderproject.com/tag/00WQ.html,,,,,simplex category,https://ncatlab.org/nlab/show/simplex+category,,
 Q1091024,Continuous linear map,,,,,,,,,,,,,continuous linear mapping,http://planetmath.org/continuouslinearmapping
 Q1091176,Smarandache–Wellin number,,,,,,,,,,,,,Smarandache-Wellin prime,http://planetmath.org/smarandachewellinprime
 Q10912775,evolution equation,,,,,,,,,,,evolution equation,https://ncatlab.org/nlab/show/evolution+equation,,
@@ -366,7 +367,7 @@ Q110382671,string length,,,,,,,,,,,string length scale,https://ncatlab.org/nlab/
 Q110413255,The Black String,,,,,,,,,,,black string,https://ncatlab.org/nlab/show/black+string,,
 Q110427073,Computer number format,,,,,,,,,,,,,computer representation of integers,http://planetmath.org/computerrepresentationofintegers
 Q110473326,Butterfly,,,,,,,,,,,butterfly,https://ncatlab.org/nlab/show/butterfly,,
-Q110535030,natural isomorphism,natural isomorphism,https://arxiv.org/pdf/1612.09375#page=39,,,,,natural isomorphism,https://emilyriehl.github.io/files/context.pdf#page=42,,,natural isomorphism,https://ncatlab.org/nlab/show/natural+isomorphism,,
+Q110535030,natural isomorphism,natural isomorphism,https://arxiv.org/pdf/1612.09375#page=39,,,natural-isomorphisms,https://www.clowderproject.com/tag/018J.html,natural isomorphism,https://emilyriehl.github.io/files/context.pdf#page=42,,,natural isomorphism,https://ncatlab.org/nlab/show/natural+isomorphism,,
 Q110535159,tangent map,,,,,,,,,tangent map,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Geometry/Manifold/MFDeriv/Defs.html#tangentMap,tangent map,https://ncatlab.org/nlab/show/tangent+map,tangent map,http://planetmath.org/tangentmap
 Q11056977,Current,,,,,,,,,,,current,https://ncatlab.org/nlab/show/current,current,http://planetmath.org/current
 Q110571086,K-matrix,,,,,,,,,,,K-matrix model,https://ncatlab.org/nlab/show/K-matrix+model,,
@@ -584,7 +585,7 @@ Q1147161,scalar curvature,,,,,,,,,,,scalar curvature,https://ncatlab.org/nlab/sh
 Q114716117,theory of tensor product of vector spaces,,,,,,,,,,,,,tensor product (vector spaces),http://planetmath.org/tensorproductvectorspaces
 Q114721956,integral theory,,,,,,,,,,,integral homotopy theory,https://ncatlab.org/nlab/show/integral+homotopy+theory,,
 Q114722758,multilinear algebra (field),,,,,,,,,,,multilinear algebra,https://ncatlab.org/nlab/show/multilinear+algebra,,
-Q1147242,symmetric difference,,,symmetric difference,https://mathgloss.github.io/MathGloss/chicago/symmetric_difference,,,,,,,symmetric difference,https://ncatlab.org/nlab/show/symmetric+difference,symmetric difference,http://planetmath.org/symmetricdifference
+Q1147242,symmetric difference,,,symmetric difference,https://mathgloss.github.io/MathGloss/chicago/symmetric_difference,symmetric-differences,https://www.clowderproject.com/tag/0057.html,,,,,symmetric difference,https://ncatlab.org/nlab/show/symmetric+difference,symmetric difference,http://planetmath.org/symmetricdifference
 Q114727876,binomial theorem,,,,,,,,,,,binomial theorem,https://ncatlab.org/nlab/show/binomial+theorem,binomial theorem,http://planetmath.org/binomialtheorem
 Q114727911,Fundamental theorem of calculus,,,,,,,,,,,fundamental theorem of calculus,https://ncatlab.org/nlab/show/fundamental+theorem+of+calculus,fundamental theorem of calculus,http://planetmath.org/fundamentaltheoremofcalculus
 Q114727939,mean value theorem of integral calculus,,,,,,,,,,,,,example of integral mean value theorem,http://planetmath.org/exampleofintegralmeanvaluetheorem
@@ -659,11 +660,12 @@ Q116233307,spin chain,,,,,,,,,,,spin chain,https://ncatlab.org/nlab/show/spin+ch
 Q116251696,Property,,,,,,,,,,,,,property,http://planetmath.org/property
 Q1162633,operational calculus,,,,,,,,,,,operational calculus,https://ncatlab.org/nlab/show/operational+calculus,,
 Q1162676,Haar measure,,,Haar integral,https://mathgloss.github.io/MathGloss/chicago/Haar_integral,,,,,,,Haar integral,https://ncatlab.org/nlab/show/Haar+integral,unimodular group,http://planetmath.org/unimodulargroup
+Q116269680,power set functor,,,,,Tag 01JA,https://www.clowderproject.com/tag/01JA.html,,,,,,,,
 Q116301,periodic point,,,,,,,,,,,,,periodic point,http://planetmath.org/periodicpoint
 Q1163016,tensor product,tensor product,https://arxiv.org/pdf/1612.09375#page=13,tensor product of vector spaces,https://mathgloss.github.io/MathGloss/chicago/tensor_product_of_vector_spaces,,,tensor product associativity,https://emilyriehl.github.io/files/context.pdf#page=83,tensor product,https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/TensorProduct/Basic.html#TensorProduct,tensor product of vector spaces,https://ncatlab.org/nlab/show/tensor+product+of+vector+spaces,tensor product basis,http://planetmath.org/tensorproductbasis
 Q1163608,minimal polynomial,,,,,,,,,minimal polynomial,https://leanprover-community.github.io/mathlib4_docs/Mathlib/FieldTheory/Minpoly/Basic.html#minpoly,,,existence of the minimal polynomial,http://planetmath.org/existenceoftheminimalpolynomial
 Q1164125,superperfect number,,,,,,,,,,,,,superperfect number,http://planetmath.org/superperfectnumber
-Q1165112,singleton,,,,,,,,,,,singleton,https://ncatlab.org/nlab/show/singleton,singleton,http://planetmath.org/singleton
+Q1165112,singleton,,,,,singleton-sets,https://www.clowderproject.com/tag/0031.html,,,,,singleton,https://ncatlab.org/nlab/show/singleton,singleton,http://planetmath.org/singleton
 Q1165184,SageMath,,,,,,,,,,,Sage,https://ncatlab.org/nlab/show/Sage,,
 Q1165717,Waveform,,,,,,,,,,,waveform,https://ncatlab.org/nlab/show/waveform,,
 Q1165804,Hall's conjecture,,,,,,,,,,,,,Marshall Hall’s conjecture,http://planetmath.org/marshallhallsconjecture
@@ -834,7 +836,7 @@ Q1206311,quantum logic,,,,,,,,,,,quantum logic,https://ncatlab.org/nlab/show/qua
 Q1206739,Deviance,,,,,,,,,,,,,deviance,http://planetmath.org/deviance
 Q1206853,Lagrange's identity,,,,,,,,,,,,,Lagrange’s identity,http://planetmath.org/lagrangesidentity
 Q12070446,Model system,,,,,,,,,,,,,system model,http://planetmath.org/systemmodel
-Q120721906,fully faithful functor,,,,,,,,,,,fully faithful functor > history,https://ncatlab.org/nlab/show/fully+faithful+functor+%3E+history,,
+Q120721906,fully faithful functor,,,,,fully-faithful-functors,https://www.clowderproject.com/tag/0129.html,,,,,fully faithful functor > history,https://ncatlab.org/nlab/show/fully+faithful+functor+%3E+history,,
 Q120755990,winding number,,,winding number,https://mathgloss.github.io/MathGloss/chicago/winding_number,,,,,,,winding number,https://ncatlab.org/nlab/show/winding+number,winding number,http://planetmath.org/windingnumber
 Q1207920,derangement,,,,,,,,,,,,,derangement,http://planetmath.org/derangement
 Q1207972,Polish space,,,,,,,,,,,Polish space,https://ncatlab.org/nlab/show/Polish+space,Polish group,http://planetmath.org/polishgroup
@@ -874,6 +876,7 @@ Q121289098,Cut,,,,,,,,,,,,,cut,http://planetmath.org/cut
 Q121302673,Information,,,,,,,,,,,information,https://ncatlab.org/nlab/show/information,,
 Q121311950,simple root,,,,,,,,,,,simple root,https://ncatlab.org/nlab/show/simple+root,simple root,http://planetmath.org/simpleroot
 Q12134,celestial sphere,,,,,,,,,,,celestial sphere,https://ncatlab.org/nlab/show/celestial+sphere,,
+Q12139612,List,,,,,section-lists,https://www.clowderproject.com/tag/01XN.html,,,,,,,,
 Q121416,discrete mathematics,,,,,,,,,,,discrete mathematics,https://ncatlab.org/nlab/show/discrete+mathematics,,
 Q121484797,conjugate subgroup,,,,,,,,,,,conjugate subgroup,https://ncatlab.org/nlab/show/conjugate+subgroup,,
 Q121499459,submonoid,,,,,,,,,,,submonoid,https://ncatlab.org/nlab/show/submonoid,,
@@ -884,7 +887,7 @@ Q121504773,finitely cocomplete category,,,,,,,,,,,finitely cocomplete category,h
 Q12152657,Kleene equality,,,,,,,,,,,Kleene equality,https://ncatlab.org/nlab/show/Kleene+equality,,
 Q121546687,right adjoint,,,,,,,,,,,right adjoint,https://ncatlab.org/nlab/show/right+adjoint,,
 Q121554727,algebraic integer,,,algebraic integer,https://mathgloss.github.io/MathGloss/chicago/algebraic_integer,,,,,,,algebraic integer,https://ncatlab.org/nlab/show/algebraic+integer,algebraic integer,http://planetmath.org/algebraicinteger
-Q12175350,faithful functor,faithful functor,https://arxiv.org/pdf/1612.09375#page=33,,,,,faithful functor,https://emilyriehl.github.io/files/context.pdf#page=48,,,faithful functor,https://ncatlab.org/nlab/show/faithful+functor,,
+Q12175350,faithful functor,faithful functor,https://arxiv.org/pdf/1612.09375#page=33,,,faithful-functors,https://www.clowderproject.com/tag/0117.html,faithful functor,https://emilyriehl.github.io/files/context.pdf#page=48,,,faithful functor,https://ncatlab.org/nlab/show/faithful+functor,,
 Q121771058,locally small category,locally small category,https://arxiv.org/pdf/1612.09375#page=83,,,,,locally small,https://emilyriehl.github.io/files/context.pdf#page=25,,,locally small category,https://ncatlab.org/nlab/show/locally+small+category,,
 Q121773562,split monomorphism,,,,,,,split monomorphism,https://emilyriehl.github.io/files/context.pdf#page=30,,,split monomorphism,https://ncatlab.org/nlab/show/split+monomorphism,,
 Q121773569,split epimorphism,,,,,,,split epimorphism,https://emilyriehl.github.io/files/context.pdf#page=30,,,split epimorphism,https://ncatlab.org/nlab/show/split+epimorphism,,
@@ -913,7 +916,7 @@ Q1227703,Dirichlet's approximation theorem,,,,,,,,,,,,,Dirichlet’s approximati
 Q122811225,Family,family,https://arxiv.org/pdf/1612.09375#page=76,,,,,,,,,family,https://ncatlab.org/nlab/show/family,,
 Q122819008,Diamond,,,,,,,,,,,diamond,https://ncatlab.org/nlab/show/diamond,,
 Q122829696,Slope,,,,,,,,,,,slope,https://ncatlab.org/nlab/show/slope,slope,http://planetmath.org/slope
-Q1228851,discrete category,discrete category,https://arxiv.org/pdf/1612.09375#page=21,discrete category,https://mathgloss.github.io/MathGloss/chicago/discrete_category,discrete categories,https://www.clowderproject.com/tag/00YK.html,discrete category,https://emilyriehl.github.io/files/context.pdf#page=23,,,discrete category,https://ncatlab.org/nlab/show/discrete+category,,
+Q1228851,discrete category,discrete category,https://arxiv.org/pdf/1612.09375#page=21,discrete category,https://mathgloss.github.io/MathGloss/chicago/discrete_category,discrete-categories,https://www.clowderproject.com/tag/00YK.html,discrete category,https://emilyriehl.github.io/files/context.pdf#page=23,,,discrete category,https://ncatlab.org/nlab/show/discrete+category,,
 Q1228885,discriminant of an algebraic number field,,,,,,,,,,,,,root-discriminant,http://planetmath.org/rootdiscriminant
 Q122889655,abundance,,,,,,,,,,,,,abundance,http://planetmath.org/abundance
 Q122894,Diracs constant,,,,,,,,,,,Planck's constant,https://ncatlab.org/nlab/show/Planck%27s+constant,,
@@ -970,14 +973,14 @@ Q12453,Measurement,,,,,,,,,,,measuring,https://ncatlab.org/nlab/show/measuring,,
 Q124579556,finitely presented group,,,,,,,,,presented group,https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/PresentedGroup.html#PresentedGroup,,,,
 Q124625185,Young subgroup,,,Young subgroup,https://mathgloss.github.io/MathGloss/chicago/Young_subgroup,,,,,,,Young subgroup,https://ncatlab.org/nlab/show/Young+subgroup,,
 Q124630682,co-H-space,,,,,,,,,,,co-H-space,https://ncatlab.org/nlab/show/co-H-space,,
-Q124662529,contravariant functor,contravariant functor,https://arxiv.org/pdf/1612.09375#page=30,,,,,contravariant functor,https://emilyriehl.github.io/files/context.pdf#page=35,,,contravariant functor,https://ncatlab.org/nlab/show/contravariant+functor,,
+Q124662529,contravariant functor,contravariant functor,https://arxiv.org/pdf/1612.09375#page=30,,,contravariant-functors,https://www.clowderproject.com/tag/0108.html,contravariant functor,https://emilyriehl.github.io/files/context.pdf#page=35,,,contravariant functor,https://ncatlab.org/nlab/show/contravariant+functor,,
 Q124663039,separated scheme,,,,,,,,,,,,,separated scheme,http://planetmath.org/separatedscheme
 Q124684348,birational map,,,,,,,,,,,birational map,https://ncatlab.org/nlab/show/birational+map,,
 Q124729584,deformation retract,,,,,,,,,,,deformation retract,https://ncatlab.org/nlab/show/deformation+retract,deformation retract,http://planetmath.org/deformationretract
 Q124743,Wronskian,,,,,,,,,,,Wronskian,https://ncatlab.org/nlab/show/Wronskian,Wronskian determinant,http://planetmath.org/wronskiandeterminant
 Q12479,Number theory,,,,,,,,,,,number theory,https://ncatlab.org/nlab/show/number+theory,number theory,http://planetmath.org/numbertheory
 Q12482,set theory,,,,,,,,,,,unsorted set theory,https://ncatlab.org/nlab/show/unsorted+set+theory,set theory,http://planetmath.org/settheory
-Q1248241,Converse relation,,,,,,,,,,,opposite relation,https://ncatlab.org/nlab/show/opposite+relation,,
+Q1248241,Converse relation,,,,,the-converse-of-a-relation,https://www.clowderproject.com/tag/00QF.html,,,,,opposite relation,https://ncatlab.org/nlab/show/opposite+relation,,
 Q12483,AppliedStatistics,,,,,,,,,,,statistics,https://ncatlab.org/nlab/show/statistics,,
 Q124846096,classifying space,,,,,,,,,,,BSO(n),https://ncatlab.org/nlab/show/BSO%28n%29,,
 Q124846097,Classifying space for SU(n),,,,,,,,,,,BSU(n),https://ncatlab.org/nlab/show/BSU%28n%29,,
@@ -1118,12 +1121,12 @@ Q1308481,One-parameter group,,,,,,,,,,,,,one-parameter subgroup,http://planetmat
 Q1308502,Church–Rosser theorem,,,,,,,,,,,Church-Rosser theorem,https://ncatlab.org/nlab/show/Church-Rosser+theorem,,
 Q1308570,Stochastic calculus,,,,,,,,,,,,,stochastic integral,http://planetmath.org/stochasticintegral
 Q1308999,restriction,,,,,,,,,,,restriction,https://ncatlab.org/nlab/show/restriction,restriction of a function,http://planetmath.org/restrictionofafunction
-Q130901,binary relation,,,binary relation,https://mathgloss.github.io/MathGloss/chicago/binary_relation,,,,,,,difunctional relation,https://ncatlab.org/nlab/show/difunctional+relation,,
+Q130901,binary relation,,,binary relation,https://mathgloss.github.io/MathGloss/chicago/binary_relation,relations,https://www.clowderproject.com/tag/00HG.html,,,,,difunctional relation,https://ncatlab.org/nlab/show/difunctional+relation,,
 Q130907516,Normal,,,,,,,,,,,,,normal,http://planetmath.org/normal
 Q1309313,Einstein manifold,,,,,,,,,,,Einstein manifold,https://ncatlab.org/nlab/show/Einstein+manifold,,
 Q130974266,Premonoidal category,,,,,,,,,,,premonoidal category,https://ncatlab.org/nlab/show/premonoidal+category,,
 Q1309836,semifield,,,,,,,,,,,,,semifield,http://planetmath.org/semifield
-Q130998,EquivalenceRelation,equivalence relation,https://arxiv.org/pdf/1612.09375#page=78,equivalence relation,https://mathgloss.github.io/MathGloss/chicago/equivalence_relation,equivalence relations,https://www.clowderproject.com/tag/00VA.html,equivalence relation,https://emilyriehl.github.io/files/context.pdf#page=121,,,identification,https://ncatlab.org/nlab/show/identification,equivalence relation,http://planetmath.org/equivalencerelation
+Q130998,EquivalenceRelation,equivalence relation,https://arxiv.org/pdf/1612.09375#page=78,equivalence relation,https://mathgloss.github.io/MathGloss/chicago/equivalence_relation,equivalence-relations,https://www.clowderproject.com/tag/00VA.html,equivalence relation,https://emilyriehl.github.io/files/context.pdf#page=121,,,identification,https://ncatlab.org/nlab/show/identification,equivalence relation,http://planetmath.org/equivalencerelation
 Q131015,Positivist,,,,,,,,,,,positivism,https://ncatlab.org/nlab/show/positivism,,
 Q131071939,topological concrete category,,,,,,,,,,,topological concrete category,https://ncatlab.org/nlab/show/topological+concrete+category,,
 Q131077085,sheaf of abelian groups,,,,,,,,,,,sheaf of abelian groups,https://ncatlab.org/nlab/show/sheaf+of+abelian+groups,,
@@ -1246,7 +1249,7 @@ Q1341651,Lyapunov stability,,,,,,,,,,,,,Lyapunov stable,http://planetmath.org/ly
 Q134173812,Isolated,,,,,,,,,,,,,isolated,http://planetmath.org/isolated
 Q1341771,Schwarz lemma,,,,,,,,,Schwarz lemma,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Schwarz.html#Complex.abs_le_abs_of_mapsTo_ball_self,,,Schwarz lemma,http://planetmath.org/schwarzlemma
 Q134210,Egyptian Mathematical Leather Roll,,,,,,,,,,,,,Egyptian Mathematical Leather Roll,http://planetmath.org/egyptianmathematicalleatherroll
-Q134237,Square root,,,,,square roots,https://www.clowderproject.com/tag/00J9.html,,,,,square root,https://ncatlab.org/nlab/show/square+root,square root,http://planetmath.org/squareroot
+Q134237,Square root,,,,,square-roots,https://www.clowderproject.com/tag/00J9.html,,,,,square root,https://ncatlab.org/nlab/show/square+root,square root,http://planetmath.org/squareroot
 Q134376491,Action groupoid,,,,,,,,,,,groupoid infinity-action,https://ncatlab.org/nlab/show/groupoid+infinity-action,groupoid action,http://planetmath.org/groupoidaction
 Q134386031,Bott–Chern cohomology,,,,,,,,,,,Bott-Chern cohomology,https://ncatlab.org/nlab/show/Bott-Chern+cohomology,,
 Q1343972,Divergence of the sum of the reciprocals of the primes,,,,,,,,,,,,,prime harmonic series,http://planetmath.org/primeharmonicseries
@@ -1385,7 +1388,7 @@ Q1397835,near-ring,,,,,,,,,,,near-ring,https://ncatlab.org/nlab/show/near-ring,n
 Q1399710,Ultraviolet catastrophe,,,,,,,,,,,ultraviolet catastrophe,https://ncatlab.org/nlab/show/ultraviolet+catastrophe,,
 Q1399751,Nakayama lemma,,,,,,,,,,,Nakayama's lemma,https://ncatlab.org/nlab/show/Nakayama%27s+lemma,Nakayama’s lemma,http://planetmath.org/nakayamaslemma
 Q1402176,Fejér kernel,,,,,,,,,,,,,Fejer kernel,http://planetmath.org/fejerkernel
-Q140283,essentially surjective functor,,,,,,,essentially surjective functor,https://emilyriehl.github.io/files/context.pdf#page=48,,,split essentially surjective functor,https://ncatlab.org/nlab/show/split+essentially+surjective+functor,,
+Q140283,essentially surjective functor,,,,,essentially-surjective-functors,https://www.clowderproject.com/tag/013K.html,essentially surjective functor,https://emilyriehl.github.io/files/context.pdf#page=48,,,split essentially surjective functor,https://ncatlab.org/nlab/show/split+essentially+surjective+functor,,
 Q14041,Messier 87,,,,,,,,,,,Messier 87,https://ncatlab.org/nlab/show/Messier+87,,
 Q1404488,tensor product of Hilbert spaces,,,,,,,,,,,tensor product of Banach spaces,https://ncatlab.org/nlab/show/tensor+product+of+Banach+spaces,,
 Q1405695,simple algebra,,,,,,,,,,,simple algebra,https://ncatlab.org/nlab/show/simple+algebra,,
@@ -1462,7 +1465,7 @@ Q14402006,Reductio ad absurdam,,,,,,,,,,,,,reductio ad absurdum,http://planetmat
 Q14402036,well-founded induction,,,,,,,,,,,,,well-founded induction,http://planetmath.org/wellfoundedinduction
 Q1441456,Ramanujan's sum,,,,,,,,,,,,,Ramanujan sum,http://planetmath.org/ramanujansum
 Q1441762,aspect ratio,,,,,,,,,,,,,aspect ratio,http://planetmath.org/aspectratio
-Q1442189,natural transformation,horizontal composition,https://arxiv.org/pdf/1612.09375#page=45,,,natural transformations,https://www.clowderproject.com/tag/017Q.html,whiskering,https://emilyriehl.github.io/files/context.pdf#page=64,natural transformation,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/NatTrans.html#CategoryTheory.NatTrans,whiskering,https://ncatlab.org/nlab/show/whiskering,natural homomorphism,http://planetmath.org/naturalhomomorphism
+Q1442189,natural transformation,horizontal composition,https://arxiv.org/pdf/1612.09375#page=45,,,natural-isomorphisms,https://www.clowderproject.com/tag/018J.html,whiskering,https://emilyriehl.github.io/files/context.pdf#page=64,natural transformation,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/NatTrans.html#CategoryTheory.NatTrans,whiskering,https://ncatlab.org/nlab/show/whiskering,natural homomorphism,http://planetmath.org/naturalhomomorphism
 Q1443036,Parseval's theorem,,,,,,,,,,,Parseval's theorem,https://ncatlab.org/nlab/show/Parseval%27s+theorem,,
 Q1443624,finite type invariant,,,,,,,,,,,Vassiliev invariant,https://ncatlab.org/nlab/show/Vassiliev+invariant,,
 Q144929,Adam,,,,,,,,,,,Adam,https://ncatlab.org/nlab/show/Adam,,
@@ -2064,7 +2067,7 @@ Q173523,Geometric Progression,,,,,,,,,,,,,geometric sequence,http://planetmath.o
 Q173582,gradient,,,gradient,https://mathgloss.github.io/MathGloss/chicago/gradient,,,,,,,gradient,https://ncatlab.org/nlab/show/gradient,gradient,http://planetmath.org/gradient
 Q1735821,Category mistake,,,,,,,,,,,category mistake,https://ncatlab.org/nlab/show/category+mistake,,
 Q1737199,Kautz graph,,,,,,,,,,,,,Kautz graph,http://planetmath.org/kautzgraph
-Q173740,Cartesian product,,,,,,,,,,,cartesian product,https://ncatlab.org/nlab/show/cartesian+product,generalized Cartesian product,http://planetmath.org/generalizedcartesianproduct
+Q173740,Cartesian product,,,,,binary-products-of-sets,https://www.clowderproject.com/tag/000T.html,,,,,cartesian product,https://ncatlab.org/nlab/show/cartesian+product,generalized Cartesian product,http://planetmath.org/generalizedcartesianproduct
 Q173817,radius,,,,,,,,,,,radius,https://ncatlab.org/nlab/show/radius,radius,http://planetmath.org/radius
 Q1738274,compactly generated space,,,,,,,,,,,compactly generated topological space,https://ncatlab.org/nlab/show/compactly+generated+topological+space,compactly generated,http://planetmath.org/compactlygenerated
 Q17382751,Design,,,,,,,,,,,,,design,http://planetmath.org/design
@@ -2219,7 +2222,7 @@ Q18085712,Permutation model,,,,,,,,,,,permutation model,https://ncatlab.org/nlab
 Q18088039,identically distributed,,,,,,,,,,,,,independent identically distributed,http://planetmath.org/independentidenticallydistributed
 Q18088147,prime field,,,,,,,,,,,prime field,https://ncatlab.org/nlab/show/prime+field,,
 Q18088792,linear manifold,,,,,,,,,,,,,linear manifold,http://planetmath.org/linearmanifold
-Q180907,Bijection,,,bijective,https://mathgloss.github.io/MathGloss/chicago/bijective,,,,,,,one-to-one correspondence,https://ncatlab.org/nlab/show/one-to-one+correspondence,bijection,http://planetmath.org/bijection
+Q180907,Bijection,,,bijective,https://mathgloss.github.io/MathGloss/chicago/bijective,subsection-bijective-relations,https://www.clowderproject.com/tag/02Y8.html,,,,,one-to-one correspondence,https://ncatlab.org/nlab/show/one-to-one+correspondence,bijection,http://planetmath.org/bijection
 Q180953,metric space,metric space,https://arxiv.org/pdf/1612.09375#page=99,metric space,https://mathgloss.github.io/MathGloss/chicago/metric_space,,,,,metric space,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/MetricSpace/Defs.html#MetricSpace,premetric space,https://ncatlab.org/nlab/show/premetric+space,SNCF metric,http://planetmath.org/sncfmetric
 Q180969,Algebraic geometry,algebraic geometry,https://arxiv.org/pdf/1612.09375#page=29,,,,,,,,,algebraic geometry,https://ncatlab.org/nlab/show/algebraic+geometry,algebraic geometry,http://planetmath.org/algebraicgeometry
 Q1810244,London Mathematical Society,,,,,,,,,,,,,London Mathematical Society,http://planetmath.org/londonmathematicalsociety
@@ -2239,7 +2242,7 @@ Q1816967,Urysohn's lemma,,,,,,,,,Urysohn's lemma,https://leanprover-community.gi
 Q1817177,polarization identity,,,,,,,,,,,polarization identity,https://ncatlab.org/nlab/show/polarization+identity,polarization identity,http://planetmath.org/polarizationidentity
 Q181741,event horizon,,,,,,,,,,,event horizon,https://ncatlab.org/nlab/show/event+horizon,,
 Q18192466,semisimple ring,,,,,,,,,,,semisimple ring,https://ncatlab.org/nlab/show/semisimple+ring,semisimple ring,http://planetmath.org/semisimplering
-Q182003,injection,injection,https://arxiv.org/pdf/1612.09375#page=131,injective,https://mathgloss.github.io/MathGloss/chicago/injective,,,,,,,injection,https://ncatlab.org/nlab/show/injection,,
+Q182003,injection,injection,https://arxiv.org/pdf/1612.09375#page=131,injective,https://mathgloss.github.io/MathGloss/chicago/injective,injective-functions,https://www.clowderproject.com/tag/02RJ.html,,,,,injection,https://ncatlab.org/nlab/show/injection,,
 Q18205125,abstract and concrete,,,,,,,,,,,Abstract and Concrete Categories,https://ncatlab.org/nlab/show/Abstract+and+Concrete+Categories,,
 Q18205357,augmentation,,,,,,,,,,,augmented algebra,https://ncatlab.org/nlab/show/augmented+algebra,,
 Q18205845,cartesian monoidal category,,,,,,,,,,,cartesian monoidal category,https://ncatlab.org/nlab/show/cartesian+monoidal+category,,
@@ -2261,7 +2264,7 @@ Q1824450,Singular measure,,,singular measure,https://mathgloss.github.io/MathGlo
 Q182453,Adiabatic process,,,,,,,,,,,adiabatic,https://ncatlab.org/nlab/show/adiabatic,,
 Q182505,Bayes' theorem,,,,,,,,,,,,,Bayes’ theorem,http://planetmath.org/bayestheorem
 Q1825444,Limit set,,,,,,,,,,,,,omega limit set,http://planetmath.org/omegalimitset1
-Q182598,graph of a function,,,graph of a function,https://mathgloss.github.io/MathGloss/chicago/graph_of_a_function,the graph of a function,https://www.clowderproject.com/tag/00P1.html,,,,,graph of a function,https://ncatlab.org/nlab/show/graph+of+a+function,,
+Q182598,graph of a function,,,graph of a function,https://mathgloss.github.io/MathGloss/chicago/graph_of_a_function,the-graph-of-a-function,https://www.clowderproject.com/tag/00P1.html,,,,,graph of a function,https://ncatlab.org/nlab/show/graph+of+a+function,,
 Q1826459,linear space,,,normed linear space,https://mathgloss.github.io/MathGloss/chicago/normed_linear_space,,,,,,,,,,
 Q1826488,general linear model,,,,,,,,,,,,,general linear model,http://planetmath.org/generallinearmodel
 Q182714,Heron's formula,,,,,,,,,,,,,Heron’s formula,http://planetmath.org/heronsformula
@@ -2311,6 +2314,7 @@ Q1851710,structure,,,,,,,structure,https://emilyriehl.github.io/files/context.pd
 Q185264,History of mathematics,,,,,,,,,,,history of mathematics,https://ncatlab.org/nlab/show/history+of+mathematics,,
 Q18535,allegory,,,,,,,,,,,allegory,https://ncatlab.org/nlab/show/allegory,,
 Q185357,Phase transition,,,,,,,,,,,phase transition,https://ncatlab.org/nlab/show/phase+transition,,
+Q185359,Union (set theory),,,,,binary-unions,https://www.clowderproject.com/tag/003H.html,,,,,,,,
 Q185410,Reversible computing,,,,,,,,,,,reversible computation,https://ncatlab.org/nlab/show/reversible+computation,,
 Q1854385,Long division,,,,,,,,,,,,,long division,http://planetmath.org/longdivision
 Q185451,strategy,,,,,,,,,,,,,strategy,http://planetmath.org/strategy
@@ -2324,6 +2328,7 @@ Q1857002,Amenable group,,,,,,,,,,,,,amenable group,http://planetmath.org/amenabl
 Q18579343,Gopakumar-Vafa invariant,,,,,,,,,,,Gopakumar-Vafa invariant,https://ncatlab.org/nlab/show/Gopakumar-Vafa+invariant,,
 Q185813,identity element,,,right identity element,https://mathgloss.github.io/MathGloss/chicago/right_identity_element,,,,,,,identity element,https://ncatlab.org/nlab/show/identity+element,left identity and right identity,http://planetmath.org/leftidentityandrightidentity
 Q185816,Analogy,,,,,,,,,,,analogy,https://ncatlab.org/nlab/show/analogy,,
+Q185837,Intersection (set theory),,,,,binary-intersections,https://www.clowderproject.com/tag/003Y.html,,,,,,,,
 Q185918,Time dilation,,,,,,,,,,,,,time dilation,http://planetmath.org/timedilation
 Q186090,time-invariant system,,,,,,,,,,,,,time invariant,http://planetmath.org/timeinvariant
 Q1862216,odds ratio,,,,,,,,,,,,,odds ratio,http://planetmath.org/oddsratio
@@ -2385,6 +2390,7 @@ Q189224,Pseudocode,,,,,,,,,,,pseudocode,https://ncatlab.org/nlab/show/pseudocode
 Q1892554,operator algebra,,,,,,,,,,,operator algebra,https://ncatlab.org/nlab/show/operator+algebra,,
 Q1892644,torsion of a curve,,,,,,,,,,,torsion of a curve,https://ncatlab.org/nlab/show/torsion+of+a+curve,,
 Q1892897,torus knot,,,,,,,,,,,torus knot,https://ncatlab.org/nlab/show/torus+knot,,
+Q189293,FAQ,,,,,subsection-frequently-asked-questions,https://www.clowderproject.com/tag/02CC.html,,,,,,,,
 Q1893717,Rice's theorem,,,,,,,,,Rice theorem,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/Halting.html#ComputablePred.rice,,,,
 Q189569,basis,,,basis,https://mathgloss.github.io/MathGloss/chicago/basis,,,,,basis,https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Basis/Defs.html#Module.Basis,basis,https://ncatlab.org/nlab/show/basis,basis,http://planetmath.org/basis
 Q1896657,Urelement,,,,,,,,,,,urelement,https://ncatlab.org/nlab/show/urelement,,
@@ -2415,7 +2421,7 @@ Q190913,Chomsky hierarchy,,,,,,,,,,,Chomsky hierarchy,https://ncatlab.org/nlab/s
 Q190995,Essence,,,,,,,essentially,https://emilyriehl.github.io/files/context.pdf#page=53,,,,,,
 Q191062,Mnemonic technique,,,,,,,,,,,,,mnemonic device,http://planetmath.org/mnemonicdevice
 Q191081,logical conjunction,,,,,,,,,,,logical conjunction,https://ncatlab.org/nlab/show/logical+conjunction,,
-Q191290,Ordered pair,,,,,ordered pairs,https://www.clowderproject.com/tag/0035.html,,,,,orderedpair,https://ncatlab.org/nlab/show/orderedpair,ordered pair,http://planetmath.org/orderedpair
+Q191290,Ordered pair,,,,,ordered-pairs,https://www.clowderproject.com/tag/0035.html,,,,,orderedpair,https://ncatlab.org/nlab/show/orderedpair,ordered pair,http://planetmath.org/orderedpair
 Q1914255,maximum principle,,,,,,,,,,,,,maximum principle,http://planetmath.org/maximumprinciple
 Q191494,digraph,,,,,,,,,,,digraph,https://ncatlab.org/nlab/show/digraph,,
 Q191690,partition of unity,,,partition of unity,https://mathgloss.github.io/MathGloss/chicago/partition_of_unity,,,,,,,partition of unity,https://ncatlab.org/nlab/show/partition+of+unity,partition of unity,http://planetmath.org/partitionofunity
@@ -2471,7 +2477,7 @@ Q1941896,model category,,,,,,,,,,,anodyne morphism,https://ncatlab.org/nlab/show
 Q1942302,module homomorphism,,,module homomorphism,https://mathgloss.github.io/MathGloss/chicago/module_homomorphism,,,,,,,,,module homomorphism,http://planetmath.org/modulehomomorphism
 Q194397,Banach space,,,Banach space,https://mathgloss.github.io/MathGloss/chicago/Banach_space,,,,,,,Banach space,https://ncatlab.org/nlab/show/Banach+space,Banach space,http://planetmath.org/banachspace
 Q194404,Monotonic function,order-preserving map,https://arxiv.org/pdf/1612.09375#page=30,,,,,,,,,monotone function,https://ncatlab.org/nlab/show/monotone+function,order-preserving map,http://planetmath.org/orderpreservingmap
-Q1945014,Monoidal category,,,,,monoidal categories,https://www.clowderproject.com/tag/01VW.html,unit object,https://emilyriehl.github.io/files/context.pdf#page=239,monoidal category,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Monoidal/Category.html#CategoryTheory.MonoidalCategory,unitor,https://ncatlab.org/nlab/show/unitor,monoidal category,http://planetmath.org/monoidalcategory
+Q1945014,Monoidal category,,,,,monoidal-categories,https://www.clowderproject.com/tag/01VW.html,unit object,https://emilyriehl.github.io/files/context.pdf#page=239,monoidal category,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Monoidal/Category.html#CategoryTheory.MonoidalCategory,unitor,https://ncatlab.org/nlab/show/unitor,monoidal category,http://planetmath.org/monoidalcategory
 Q1945067,monomorphism,monomorphism,https://arxiv.org/pdf/1612.09375#page=131,monomorphism,https://mathgloss.github.io/MathGloss/chicago/monomorphism,,,monomorphism,https://emilyriehl.github.io/files/context.pdf#page=29,,,strong monomorphism,https://ncatlab.org/nlab/show/strong+monomorphism,,
 Q1946642,h-cobordism,,,,,,,,,,,h-cobordism,https://ncatlab.org/nlab/show/h-cobordism,h-cobordism,http://planetmath.org/hcobordism
 Q194699,Dense order,,,,,,,,,,,dense relation,https://ncatlab.org/nlab/show/dense+relation,,
@@ -2559,7 +2565,7 @@ Q2006762,Double Identity,,,,,,,,,,,,,double angle identity,http://planetmath.org
 Q200694,Propositional calculus,,,,,,,,,,,propositional logic,https://ncatlab.org/nlab/show/propositional+logic,propositional logic,http://planetmath.org/propositionallogic
 Q200726,probability distribution,,,,,,,,,,,probability distribution,https://ncatlab.org/nlab/show/probability+distribution,,
 Q200787,Goedels incompleteness theorem,,,,,,,,,,,incompleteness theorem,https://ncatlab.org/nlab/show/incompleteness+theorem,Gödel’s incompleteness theorems,http://planetmath.org/godelsincompletenesstheorems
-Q2007878,functor category,category functor,https://arxiv.org/pdf/1612.09375#page=38,,,,,functor category,https://emilyriehl.github.io/files/context.pdf#page=62,,,functor category,https://ncatlab.org/nlab/show/functor+category,,
+Q2007878,functor category,category functor,https://arxiv.org/pdf/1612.09375#page=38,,,functor-categories,https://www.clowderproject.com/tag/018S.html,functor category,https://emilyriehl.github.io/files/context.pdf#page=62,,,functor category,https://ncatlab.org/nlab/show/functor+category,,
 Q20088882,triple,,,,,,,triple,https://emilyriehl.github.io/files/context.pdf#page=197,,,triple,https://ncatlab.org/nlab/show/triple,,
 Q20093893,Solid State,,,,,,,,,,,solid state physics,https://ncatlab.org/nlab/show/solid+state+physics,,
 Q2011812,Objective idealism,,,,,,,,,,,objective idealism,https://ncatlab.org/nlab/show/objective+idealism,,
@@ -2610,7 +2616,7 @@ Q205084,Computational complexity theory,,,,,,,,,,,,,Levin reduction,http://plane
 Q205124,Fuchsian group,,,,,,,,,,,Fuchsian group,https://ncatlab.org/nlab/show/Fuchsian+group,,
 Q205140,infinite set,,,,,,,,,,,infinite set,https://ncatlab.org/nlab/show/infinite+set,,
 Q20514253,blockchain,,,,,,,,,,,blockchain,https://ncatlab.org/nlab/show/blockchain,,
-Q205170,power set,set power,https://arxiv.org/pdf/1612.09375#page=77,power set,https://mathgloss.github.io/MathGloss/chicago/power_set,,,,,,,power set,https://ncatlab.org/nlab/show/power+set,power set,http://planetmath.org/powerset
+Q205170,power set,set power,https://arxiv.org/pdf/1612.09375#page=77,power set,https://mathgloss.github.io/MathGloss/chicago/power_set,powersets,https://www.clowderproject.com/tag/006P.html,,,,,power set,https://ncatlab.org/nlab/show/power+set,power set,http://planetmath.org/powerset
 Q2051983,Adjoint matrix,,,conjugate transpose,https://mathgloss.github.io/MathGloss/chicago/conjugate_transpose,,,,,,,,,conjugate transpose,http://planetmath.org/conjugatetranspose
 Q205243,Möbius function,,,,,,,,,,,,,Möbius function,http://planetmath.org/mobiusfunction
 Q2052951,Function of several complex variables,,,,,,,,,,,several complex variables,https://ncatlab.org/nlab/show/several+complex+variables,several complex variables,http://planetmath.org/severalcomplexvariables
@@ -2895,7 +2901,7 @@ Q2257608,Prosthaphaeresis,,,,,,,,,,,,,Prosthaphaeresis formulas,http://planetmat
 Q2259070,lazy caterer's sequence,,,,,,,,,,,,,lazy caterer’s sequence,http://planetmath.org/lazycatererssequence
 Q225973,Ore's theorem,,,,,,,,,,,,,Ore’s theorem,http://planetmath.org/orestheorem1
 Q226014,Poincaré recurrence theorem,,,,,,,,,,,,,Poincaré recurrence theorem,http://planetmath.org/poincarerecurrencetheorem
-Q226183,Empty set,,,,,the empty set,https://www.clowderproject.com/tag/002Z.html,,,,,empty subset,https://ncatlab.org/nlab/show/empty+subset,empty set,http://planetmath.org/emptyset
+Q226183,Empty set,,,,,the-empty-set,https://www.clowderproject.com/tag/002Z.html,,,,,empty subset,https://ncatlab.org/nlab/show/empty+subset,empty set,http://planetmath.org/emptyset
 Q2264419,Dirichlet L-function,,,,,,,,,,,Dirichlet L-function,https://ncatlab.org/nlab/show/Dirichlet+L-function,,
 Q2264756,Separable extension,,,,,,,,,,,separable field extension,https://ncatlab.org/nlab/show/separable+field+extension,,
 Q2265632,magnetic flux quantum,,,,,,,,,,,flux quantum,https://ncatlab.org/nlab/show/flux+quantum,,
@@ -2925,8 +2931,8 @@ Q2285809,Classical groups,,,,,,,,,,,classical Lie group,https://ncatlab.org/nlab
 Q2287715,covariant derivative,,,,,,,,,,,covariant derivative,https://ncatlab.org/nlab/show/covariant+derivative,,
 Q22893904,zonotope,,,,,,,,,,,,,zonotope,http://planetmath.org/zonotope
 Q22907407,Nuprl,,,,,,,,,,,NuPRL,https://ncatlab.org/nlab/show/NuPRL,,
-Q229102,Surjective function,surjection,https://arxiv.org/pdf/1612.09375#page=141,surjective,https://mathgloss.github.io/MathGloss/chicago/surjective,,,,,,,surjection,https://ncatlab.org/nlab/show/surjection,surjective,http://planetmath.org/surjective
-Q2291918,Skeleton (category theory),,,,,,,skeletal category,https://emilyriehl.github.io/files/context.pdf#page=52,,,skeleton,https://ncatlab.org/nlab/show/skeleton,,
+Q229102,Surjective function,surjection,https://arxiv.org/pdf/1612.09375#page=141,surjective,https://mathgloss.github.io/MathGloss/chicago/surjective,surjective-functions,https://www.clowderproject.com/tag/02RX.html,,,,,surjection,https://ncatlab.org/nlab/show/surjection,surjective,http://planetmath.org/surjective
+Q2291918,Skeleton (category theory),,,,,skeletal-categories,https://www.clowderproject.com/tag/00XK.html,skeletal category,https://emilyriehl.github.io/files/context.pdf#page=52,,,skeleton,https://ncatlab.org/nlab/show/skeleton,,
 Q2292874,pumping lemma for regular languages,,,,,,,,,,,,,pumping lemma (regular languages),http://planetmath.org/pumpinglemmaregularlanguages
 Q2293126,Landau's problems,,,,,,,,,,,,,Landau’s problems,http://planetmath.org/landausproblems
 Q2293759,torsion subgroup,,,torsion subgroup,https://mathgloss.github.io/MathGloss/chicago/torsion_subgroup,,,torsion subgroup,https://emilyriehl.github.io/files/context.pdf#page=44,,,torsion subgroup,https://ncatlab.org/nlab/show/torsion+subgroup,,
@@ -3024,7 +3030,7 @@ Q2375830,Glossary of ring theory,,,,,,,,,,,,,nil and nilpotent ideals,http://pla
 Q2379128,Lindström's theorem,,,,,,,,,,,Lindström's theorem,https://ncatlab.org/nlab/show/Lindstr%C3%B6m%27s+theorem,Lindström’s theorem,http://planetmath.org/lindstromstheorem
 Q2379867,XYZ,,,,,,,,,,,xyz,https://ncatlab.org/nlab/show/xyz,,
 Q23807936,algebraic vector bundle,,,,,,,,,,,algebraic vector bundle,https://ncatlab.org/nlab/show/algebraic+vector+bundle,,
-Q23808682,Conservative functor,,,,,conservative functors,https://www.clowderproject.com/tag/0133.html,conservative functor,https://emilyriehl.github.io/files/context.pdf#page=200,,,conservative functor,https://ncatlab.org/nlab/show/conservative+functor,,
+Q23808682,Conservative functor,,,,,conservative-functors,https://www.clowderproject.com/tag/0133.html,conservative functor,https://emilyriehl.github.io/files/context.pdf#page=200,,,conservative functor,https://ncatlab.org/nlab/show/conservative+functor,,
 Q23809,atomic number,,,,,,,,,,,atomic number,https://ncatlab.org/nlab/show/atomic+number,,
 Q238170,Quantum chromodynamics,,,,,,,,,,,QCD,https://ncatlab.org/nlab/show/QCD,,
 Q2383161,T-norm,,,,,,,,,,,t-norm,https://ncatlab.org/nlab/show/t-norm,,
@@ -3063,7 +3069,7 @@ Q2421905,Mayer–Vietoris sequence,,,,,,,,,,,Mayer-Vietoris sequence,https://nca
 Q2423867,Wavelength,,,,,,,,,,,wavelength,https://ncatlab.org/nlab/show/wavelength,,
 Q2425336,conditional convergence,,,,,,,,,,,conditional convergence,https://ncatlab.org/nlab/show/conditional+convergence,,
 Q242657,magnetic moment,,,,,,,,,,,anomalous magnetic moment,https://ncatlab.org/nlab/show/anomalous+magnetic+moment,,
-Q242767,Set theoretic complement,,,,,,,,,,,relative complement,https://ncatlab.org/nlab/show/relative+complement,relative complement,http://planetmath.org/relativecomplement
+Q242767,Set theoretic complement,,,,,complements,https://www.clowderproject.com/tag/0050.html,,,,,relative complement,https://ncatlab.org/nlab/show/relative+complement,relative complement,http://planetmath.org/relativecomplement
 Q2428439,central simple algebra,,,,,,,,,,,Schur index,https://ncatlab.org/nlab/show/Schur+index,central simple algebra,http://planetmath.org/centralsimplealgebra
 Q2429676,Enumerative geometry,,,,,,,,,,,enumerative geometry,https://ncatlab.org/nlab/show/enumerative+geometry,,
 Q243462,Chi-squared distribution,,,,,,,,,,,,,chi-squared random variable,http://planetmath.org/chisquaredrandomvariable
@@ -3146,7 +3152,7 @@ Q25098887,strict initial object,,,,,,,,,,,strict initial object,https://ncatlab.
 Q25098891,Descent along torsors,,,,,,,,,,,Galois descent,https://ncatlab.org/nlab/show/Galois+descent,,
 Q25098898,Perfect complex,,,,,,,,,,,perfect module,https://ncatlab.org/nlab/show/perfect+module,,
 Q25098928,simplicial homotopy,,,,,,,,,,,simplicial homotopy theory,https://ncatlab.org/nlab/show/simplicial+homotopy+theory,,
-Q25098934,Indiscrete category,,,,,indiscrete categories,https://www.clowderproject.com/tag/00YU.html,,,,,indiscrete category,https://ncatlab.org/nlab/show/indiscrete+category,,
+Q25098934,Indiscrete category,,,,,indiscrete-categories,https://www.clowderproject.com/tag/00YU.html,,,,,indiscrete category,https://ncatlab.org/nlab/show/indiscrete+category,,
 Q25099576,Indexed category,,,,,,,,,,,indexed category,https://ncatlab.org/nlab/show/indexed+category,,
 Q25099801,Stacks Project,,,,,,,,,,,The Stacks Project,https://ncatlab.org/nlab/show/The+Stacks+Project,,
 Q25101334,Weak gravity conjecture,,,,,,,,,,,weak gravity conjecture,https://ncatlab.org/nlab/show/weak+gravity+conjecture,,
@@ -3162,11 +3168,11 @@ Q2513496,choice function,,,,,,,,,,,choice function,https://ncatlab.org/nlab/show
 Q2517078,least-squares adjustment,,,,,,,,,,,,,least squares,http://planetmath.org/leastsquares
 Q2517149,Erdős conjecture,,,,,,,,,,,,,Erdős-Turan conjecture,http://planetmath.org/erdhosturanconjecture
 Q2518048,Kodaira vanishing theorem,,,,,,,,,,,Kodaira vanishing theorem,https://ncatlab.org/nlab/show/Kodaira+vanishing+theorem,,
-Q2518298,category of sets,,,category of sets,https://mathgloss.github.io/MathGloss/chicago/category_of_sets,,,,,,,,,,
+Q2518298,category of sets,,,category of sets,https://mathgloss.github.io/MathGloss/chicago/category_of_sets,sets,https://www.clowderproject.com/tag/01D1.html,,,,,,,,
 Q2518906,Direction cosine,,,,,,,,,,,,,direction cosines,http://planetmath.org/directioncosines
 Q2519134,Engineered language,,,,,,,,,,,,,logical language,http://planetmath.org/logicallanguage
 Q251922,prime-counting function,,,,,,,,,,,,,prime counting function,http://planetmath.org/primecountingfunction
-Q2520206,complex logarithm,,,,,,,,,,,,,complex logarithm,http://planetmath.org/complexlogarithm
+Q2520206,complex logarithm,,,,,complex-logarithms,https://www.clowderproject.com/tag/00JA.html,,,,,,,complex logarithm,http://planetmath.org/complexlogarithm
 Q25202931,Freyd cover,,,,,,,,,,,Freyd cover,https://ncatlab.org/nlab/show/Freyd+cover,,
 Q25210879,pop,,,,,,,,,,,,,pop,http://planetmath.org/pop
 Q2523239,Multiple zeta function,,,,,,,,,,,multiple zeta values,https://ncatlab.org/nlab/show/multiple+zeta+values,,
@@ -3306,7 +3312,7 @@ Q2641368,Landau–Ramanujan constant,,,,,,,,,,,,,Landau-Ramanujan Constant,http:
 Q2641564,Tan half-angle formula,,,,,,,,,,,,,tangent of halved angle,http://planetmath.org/tangentofhalvedangle
 Q264224,Complex dynamics,,,,,,,,,,,algebraic dynamics,https://ncatlab.org/nlab/show/algebraic+dynamics,,
 Q2642727,period,,,,,,,,,,,period,https://ncatlab.org/nlab/show/period,period,http://planetmath.org/period
-Q2646117,forgetful functor,forgetful functor,https://arxiv.org/pdf/1612.09375#page=26,,,,,forgetful functor,https://emilyriehl.github.io/files/context.pdf#page=31,,,forgetful functor,https://ncatlab.org/nlab/show/forgetful+functor,,
+Q2646117,forgetful functor,forgetful functor,https://arxiv.org/pdf/1612.09375#page=26,,,forgetful-functors,https://www.clowderproject.com/tag/010C.html,forgetful functor,https://emilyriehl.github.io/files/context.pdf#page=31,,,forgetful functor,https://ncatlab.org/nlab/show/forgetful+functor,,
 Q2647,Data compression/Huffman coding,,,,,,,,,,,,,Huffman’s algorithm,http://planetmath.org/huffmansalgorithm
 Q2651,Arithmetic encoding,,,,,,,,,,,,,arithmetic encoding,http://planetmath.org/arithmeticencoding
 Q265326,Diquark,,,,,,,,,,,diquark,https://ncatlab.org/nlab/show/diquark,,
@@ -3624,7 +3630,7 @@ Q3045793,E7 (mathematics),,,,,,,,,,,E₇,https://ncatlab.org/nlab/show/E%E2%82%8
 Q304878,National Science Foundation,,,,,,,,,,,,,National Science Foundation,http://planetmath.org/nationalsciencefoundation
 Q30504649,top,,,,,,,,,,,top,https://ncatlab.org/nlab/show/top,,
 Q3052356,Tessarine,,,,,,,,,,,tessarines,https://ncatlab.org/nlab/show/tessarines,,
-Q3054915,pointed set,,,,,,,pointed set,https://emilyriehl.github.io/files/context.pdf#page=180,,,pointed set,https://ncatlab.org/nlab/show/pointed+set,pointed set,http://planetmath.org/pointedset
+Q3054915,pointed set,,,,,pointed-sets,https://www.clowderproject.com/tag/009B.html,pointed set,https://emilyriehl.github.io/files/context.pdf#page=180,,,pointed set,https://ncatlab.org/nlab/show/pointed+set,pointed set,http://planetmath.org/pointedset
 Q3054922,totally ordered set,totally ordered set,https://arxiv.org/pdf/1612.09375#page=47,,,,,,,,,totally ordered set > history,https://ncatlab.org/nlab/show/totally+ordered+set+%3E+history,,
 Q3055336,Hartley function,,,,,,,,,,,max-entropy,https://ncatlab.org/nlab/show/max-entropy,derivation of Hartley function,http://planetmath.org/derivationofhartleyfunction
 Q3055345,differential entropy,,,,,,,,,,,,,differential entropy,http://planetmath.org/differentialentropy
@@ -3755,7 +3761,7 @@ Q320369,Clopen set,,,,,,,,,,,clopen subset,https://ncatlab.org/nlab/show/clopen+
 Q320370,closed operator,,,,,,,,,,,,,closed operator,http://planetmath.org/closedoperator
 Q32043,addition,,,,,,,,,,,,,addition,http://planetmath.org/addition
 Q3205712,highly abundant number,,,,,,,,,,,,,highly abundant number,http://planetmath.org/highlyabundantnumber
-Q320577,Yoneda lemma,Yoneda embedding,https://arxiv.org/pdf/1612.09375#page=98,,,the yoneda lemma,https://www.clowderproject.com/tag/02HY.html,Yoneda embedding,https://emilyriehl.github.io/files/context.pdf#page=77,Yoneda embedding,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Yoneda.html#CategoryTheory.yoneda,Yoneda embedding,https://ncatlab.org/nlab/show/Yoneda+embedding,,
+Q320577,Yoneda lemma,Yoneda embedding,https://arxiv.org/pdf/1612.09375#page=98,,,the-yoneda-lemma,https://www.clowderproject.com/tag/02HY.html,Yoneda embedding,https://emilyriehl.github.io/files/context.pdf#page=77,Yoneda embedding,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Yoneda.html#CategoryTheory.yoneda,Yoneda embedding,https://ncatlab.org/nlab/show/Yoneda+embedding,,
 Q320809,Braid,,,,,,,,,,,braiding,https://ncatlab.org/nlab/show/braiding,,
 Q3208514,Higgs prime,,,,,,,,,,,,,Higgs prime,http://planetmath.org/higgsprime
 Q321102,Trace (linear algebra),,,,,,,,,,,,,trace of a matrix,http://planetmath.org/traceofamatrix
@@ -3804,7 +3810,7 @@ Q3299,Gluon,,,,,,,,,,,gluon,https://ncatlab.org/nlab/show/gluon,,
 Q32998717,exponent of a group,,,exponent of a finite group,https://mathgloss.github.io/MathGloss/chicago/exponent_of_a_finite_group,,,,,,,exponent of a group,https://ncatlab.org/nlab/show/exponent+of+a+group,,
 Q3303153,Axiom of dependent choice,,,,,,,,,,,dependent choice,https://ncatlab.org/nlab/show/dependent+choice,axiom of dependent choices,http://planetmath.org/axiomofdependentchoices
 Q3303275,Beltrami identity,,,,,,,,,,,,,Beltrami identity,http://planetmath.org/beltramiidentity
-Q33059348,full functor,full functor,https://arxiv.org/pdf/1612.09375#page=33,,,,,full functor,https://emilyriehl.github.io/files/context.pdf#page=48,,,full functor,https://ncatlab.org/nlab/show/full+functor,,
+Q33059348,full functor,full functor,https://arxiv.org/pdf/1612.09375#page=33,,,full-functors,https://www.clowderproject.com/tag/011S.html,full functor,https://emilyriehl.github.io/files/context.pdf#page=48,,,full functor,https://ncatlab.org/nlab/show/full+functor,,
 Q3306808,orthogonal basis,,,,,,,,,,,orthogonal basis,https://ncatlab.org/nlab/show/orthogonal+basis,,
 Q33100,Seven Bridges of Königsberg,,,,,,,,,,,,,bridges of Königsberg,http://planetmath.org/bridgesofkonigsberg
 Q331350,simplex,,,,,,,,,,,simplex,https://ncatlab.org/nlab/show/simplex,,
@@ -4136,7 +4142,7 @@ Q3859871,Wess–Zumino model,,,,,,,,,,,Wess-Zumino-Witten model,https://ncatlab.
 Q386228,CumulativeDistributionFunction,,,,,,,,,,,,,cumulative distribution function,http://planetmath.org/cumulativedistributionfunction
 Q386272,Feynman diagram,,,,,,,,,,,Feynman diagram,https://ncatlab.org/nlab/show/Feynman+diagram,,
 Q386292,prime number theorem,,,,,,,,,,,prime number theorem,https://ncatlab.org/nlab/show/prime+number+theorem,prime number theorem,http://planetmath.org/primenumbertheorem
-Q386320,representable functor,representable functor,https://arxiv.org/pdf/1612.09375#page=92,,,,,universal element,https://emilyriehl.github.io/files/context.pdf#page=80,,,universal element,https://ncatlab.org/nlab/show/universal+element,,
+Q386320,representable functor,representable functor,https://arxiv.org/pdf/1612.09375#page=92,,,corepresentable-copresheaves-corepresentable-copresheaves,https://www.clowderproject.com/tag/02JF.html,universal element,https://emilyriehl.github.io/files/context.pdf#page=80,,,universal element,https://ncatlab.org/nlab/show/universal+element,,
 Q386597,prime ring,,,,,,,,,,,prime ring,https://ncatlab.org/nlab/show/prime+ring,prime ring,http://planetmath.org/primering
 Q386769,Lattice gauge theory,,,,,,,,,,,lattice gauge theory,https://ncatlab.org/nlab/show/lattice+gauge+theory,,
 Q387015,Trie,,,,,,,,,,,,,trie,http://planetmath.org/trie
@@ -4234,6 +4240,7 @@ Q4060953,Alexander Popov,,,,,,,,,,,Alexander Popov,https://ncatlab.org/nlab/show
 Q4064646,Chiral knot,,,,,,,,,,,,,amphicheiral knot,http://planetmath.org/amphicheiralknot
 Q407153,Ethyl acetate,,,,,,,,,,,,,ETAC,http://planetmath.org/etac
 Q4075274,Riesz sequence,,,,,,,,,,,,,Riesz sequence,http://planetmath.org/rieszsequence
+Q40754,Subtraction,,,,,differences,https://www.clowderproject.com/tag/004E.html,,,,,,,,
 Q4080242,Tower,,,,,,,,,,,tower,https://ncatlab.org/nlab/show/tower,,
 Q408891,Laws of physics,,,,,,,,,,,physical law,https://ncatlab.org/nlab/show/physical+law,,
 Q409415,Airy function,,,,,,,,,,,Airy function,https://ncatlab.org/nlab/show/Airy+function,,
@@ -4723,7 +4730,7 @@ Q5051820,Categories for the Working Mathematician,,,,,,,,,,,Categories for the W
 Q5051825,Categorification,,,,,,,decategorification,https://emilyriehl.github.io/files/context.pdf#page=46,,,decategorification,https://ncatlab.org/nlab/show/decategorification,,
 Q5051844,category of elements,of elements category,https://arxiv.org/pdf/1612.09375#page=162,,,,,category of elements,https://emilyriehl.github.io/files/context.pdf#page=84,,,Elements of ∞-Category Theory,https://ncatlab.org/nlab/show/Elements+of+%E2%88%9E-Category+Theory,,
 Q5051849,category of relations,,,,,the category of relations,https://www.clowderproject.com/tag/00JS.html,,,,,Rel,https://ncatlab.org/nlab/show/Rel,,
-Q5051852,category of small categories,category of categories,https://arxiv.org/pdf/1612.09375#page=26,,,,,terminal category,https://emilyriehl.github.io/files/context.pdf#page=96,,,terminal category,https://ncatlab.org/nlab/show/terminal+category,,
+Q5051852,category of small categories,category of categories,https://arxiv.org/pdf/1612.09375#page=26,,,the-empty-category,https://www.clowderproject.com/tag/00WP.html,terminal category,https://emilyriehl.github.io/files/context.pdf#page=96,,,terminal category,https://ncatlab.org/nlab/show/terminal+category,,
 Q5051857,Module category,category of vector spaces,https://arxiv.org/pdf/1612.09375#page=20,,,,,,,,,module category,https://ncatlab.org/nlab/show/module+category,,
 Q5051859,category of rings,category of rings,https://arxiv.org/pdf/1612.09375#page=19,,,,,category of algebras,https://emilyriehl.github.io/files/context.pdf#page=180,,,,,,
 Q5054343,Cauchy surface,,,,,,,,,,,Cauchy surface,https://ncatlab.org/nlab/show/Cauchy+surface,,
@@ -4751,7 +4758,7 @@ Q50705,square number,,,,,,,,,,,square-free number,https://ncatlab.org/nlab/show/
 Q50707,composite number,,,,,,,,,,,,,composite number,http://planetmath.org/compositenumber
 Q507187,attractor,,,,,,,,,,,,,attractor,http://planetmath.org/attractor
 Q5073749,Character sum,,,,,,,,,,,,,Pólya-Vinogradov inequality,http://planetmath.org/polyavinogradovinequality
-Q5073765,characteristic function,characteristic function,https://arxiv.org/pdf/1612.09375#page=77,,,,,,,,,characteristic function,https://ncatlab.org/nlab/show/characteristic+function,characteristic function,http://planetmath.org/characteristicfunction1
+Q5073765,characteristic function,characteristic function,https://arxiv.org/pdf/1612.09375#page=77,,,the-characteristic-function-of-a-subset,https://www.clowderproject.com/tag/005Z.html,,,,,characteristic function,https://ncatlab.org/nlab/show/characteristic+function,characteristic function,http://planetmath.org/characteristicfunction1
 Q507393,Jacobi triple product,,,,,,,,,,,Jacobi triple product,https://ncatlab.org/nlab/show/Jacobi+triple+product,,
 Q507937,Lucas–Carmichael number,,,,,,,,,,,,,Lucas-Carmichael number,http://planetmath.org/lucascarmichaelnumber
 Q508,googolplex,,,,,,,,,,,,,googolplex,http://planetmath.org/googolplex
@@ -4845,7 +4852,7 @@ Q5161000,congruence subgroup,,,,,,,,,,,congruence subgroup,https://ncatlab.org/n
 Q5161070,Conifold,,,,,,,,,,,conifold transition,https://ncatlab.org/nlab/show/conifold+transition,,
 Q5161148,conjugate-permutable subgroup,,,,,,,,,,,,,permutable subgroup,http://planetmath.org/permutablesubgroup
 Q5161158,Conjugate point,,,,,,,,,,,,,conjugate points,http://planetmath.org/conjugatepoints
-Q5161408,Connected category,,,,,,,connected category,https://emilyriehl.github.io/files/context.pdf#page=51,,,connected category,https://ncatlab.org/nlab/show/connected+category,,
+Q5161408,Connected category,,,,,connected-categories,https://www.clowderproject.com/tag/00YH.html,connected category,https://emilyriehl.github.io/files/context.pdf#page=51,,,connected category,https://ncatlab.org/nlab/show/connected+category,,
 Q5163158,Conserved current,,,,,,,,,,,conserved current,https://ncatlab.org/nlab/show/conserved+current,,
 Q5163667,constant sheaf,,,,,,,,,,,constant presheaf,https://ncatlab.org/nlab/show/constant+presheaf,,
 Q5164407,constructible sheaf,,,,,,,,,,,constructible sheaf,https://ncatlab.org/nlab/show/constructible+sheaf,,
@@ -4942,7 +4949,7 @@ Q5276398,dihedral prime,,,,,,,,,,,,,dihedral prime,http://planetmath.org/dihedra
 Q5277275,dimensional regularization,,,,,,,,,,,dimensional regularization,https://ncatlab.org/nlab/show/dimensional+regularization,,
 Q5277974,Dinatural transformation,,,,,,,,,,,dinatural transformation,https://ncatlab.org/nlab/show/dinatural+transformation,,
 Q527863,Birch and Swinnerton-Dyer conjecture,,,,,,,,,,,Birch and Swinnerton-Dyer conjecture,https://ncatlab.org/nlab/show/Birch+and+Swinnerton-Dyer+conjecture,Birch and Swinnerton-Dyer conjecture,http://planetmath.org/birchandswinnertondyerconjecture
-Q5280340,direct image functor,,,,,,,direct image,https://emilyriehl.github.io/files/context.pdf#page=138,,,higher direct image,https://ncatlab.org/nlab/show/higher+direct+image,direct image (functor),http://planetmath.org/directimagefunctor
+Q5280340,direct image functor,,,,,subsection-direct-images,https://www.clowderproject.com/tag/007F.html,direct image,https://emilyriehl.github.io/files/context.pdf#page=138,,,higher direct image,https://ncatlab.org/nlab/show/higher+direct+image,direct image (functor),http://planetmath.org/directimagefunctor
 Q5280341,direct image with compact support,,,,,,,,,,,direct image with compact support,https://ncatlab.org/nlab/show/direct+image+with+compact+support,,
 Q528053,Digital Identity,,,,,,,,,,,digital identity,https://ncatlab.org/nlab/show/digital+identity,,
 Q5282068,discrete valuation,,,,,,,,,,,discrete valuation,https://ncatlab.org/nlab/show/discrete+valuation,discrete valuation,http://planetmath.org/discretevaluation
@@ -4958,7 +4965,7 @@ Q5287598,Doctrine of internal relations,,,,,,,,,,,internal relation,https://ncat
 Q528955,Kochen–Specker theorem,,,,,,,,,,,Kochen-Specker theorem,https://ncatlab.org/nlab/show/Kochen-Specker+theorem,,
 Q5289836,Domain wall (string theory),,,,,,,,,,,domain wall,https://ncatlab.org/nlab/show/domain+wall,,
 Q528987,Von Neumann bicommutant theorem,,,,,,,,,,,,,von Neumann double commutant theorem,http://planetmath.org/vonneumanndoublecommutanttheorem
-Q5290301,Dominant functor,,,,,,,,,,,dominant functor,https://ncatlab.org/nlab/show/dominant+functor,,
+Q5290301,Dominant functor,,,,,dominant-functors,https://www.clowderproject.com/tag/014K.html,,,,,dominant functor,https://ncatlab.org/nlab/show/dominant+functor,,
 Q5295351,Donaldson's theorem,,,,,,,,,,,Donaldson's theorem,https://ncatlab.org/nlab/show/Donaldson%27s+theorem,Donaldson’s theorem,http://planetmath.org/donaldsonstheorem
 Q5295371,Donaldson theory,,,,,,,,,,,Yang-Mills moduli space,https://ncatlab.org/nlab/show/Yang-Mills+moduli+space,,
 Q5295377,Donaldson–Thomas theory,,,,,,,,,,,Donaldson-Thomas invariant,https://ncatlab.org/nlab/show/Donaldson-Thomas+invariant,,
@@ -5030,7 +5037,7 @@ Q5406122,Euclidean distance matrix,,,,,,,,,,,,,Euclidean distance matrix,http://
 Q5406124,euclidean relation,,,,,,,,,,,euclidean relation,https://ncatlab.org/nlab/show/euclidean+relation,,
 Q5406148,Euclid–Mullin sequence,,,,,,,,,,,,,Euclid-Mullin sequence,http://planetmath.org/euclidmullinsequence
 Q5409003,Eulerian poset,,,,,,,,,,,,,Eulerian poset,http://planetmath.org/eulerianposet
-Q541563,Subcategory,,,,,full subcategories,https://www.clowderproject.com/tag/00XE.html,full embedding,https://emilyriehl.github.io/files/context.pdf#page=49,,,wide subcategory,https://ncatlab.org/nlab/show/wide+subcategory,,
+Q541563,Subcategory,,,,,wide-subcategories,https://www.clowderproject.com/tag/00XG.html,full embedding,https://emilyriehl.github.io/files/context.pdf#page=49,,,wide subcategory,https://ncatlab.org/nlab/show/wide+subcategory,,
 Q5416566,Even code,,,,,,,,,,,,,even code,http://planetmath.org/evencode
 Q5416730,Event structure,,,,,,,,,,,event structure,https://ncatlab.org/nlab/show/event+structure,,
 Q5419218,Exact category,,,,,,,,,,,exact category,https://ncatlab.org/nlab/show/exact+category,,
@@ -5227,6 +5234,7 @@ Q56351550,zero polynomial,,,,,,,,,,,,,zero polynomial,http://planetmath.org/zero
 Q56353263,normal vector,,,,,,,,,,,normal vector,https://ncatlab.org/nlab/show/normal+vector,,
 Q5635438,HOL Light,,,,,,,,,,,HOL Light,https://ncatlab.org/nlab/show/HOL+Light,,
 Q5637553,convergence in probability,,,,,,,,,convergence in probability,https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Function/ConvergenceInMeasure.html#MeasureTheory.TendstoInMeasure,,,convergence in probability,http://planetmath.org/convergenceinprobability
+Q5637899,Preimage,,,,,the-inverse-image-function-associated-to-a-function,https://www.clowderproject.com/tag/0081.html,,,,,,,,
 Q56379412,Forty Two,,,,,,,,,,,,,forty-two,http://planetmath.org/fortytwo
 Q5638112,Hadwiger's theorem,,,,,,,,,,,Hadwiger's theorem,https://ncatlab.org/nlab/show/Hadwiger%27s+theorem,,
 Q5638159,Haefliger structure,,,,,,,,,,,Haefliger structure,https://ncatlab.org/nlab/show/Haefliger+structure,,
@@ -5477,7 +5485,7 @@ Q608294,Max-flow min-cut theorem,,,,,,,,,,,,,maximum flow/minimum cut theorem,ht
 Q60836690,Semiconductor,,,,,,,,,,,semiconductor,https://ncatlab.org/nlab/show/semiconductor,,
 Q6086086,Isomonodromic deformation,,,,,,,,,,,isomonodromic deformation,https://ncatlab.org/nlab/show/isomonodromic+deformation,,
 Q6086096,Isomorphism-closed,,,,,,,,,,,replete subcategory,https://ncatlab.org/nlab/show/replete+subcategory,,
-Q6086107,isomorphism of categories,of categories isomorphism,https://arxiv.org/pdf/1612.09375#page=34,,,,,,,,,,,,
+Q6086107,isomorphism of categories,of categories isomorphism,https://arxiv.org/pdf/1612.09375#page=34,,,isomorphisms-of-categories,https://www.clowderproject.com/tag/0149.html,,,,,,,,
 Q6086323,Isospectral,,,,,,,,,,,,,isospectral,http://planetmath.org/isospectral
 Q60864,bubble sort,,,,,,,,,,,,,bubblesort,http://planetmath.org/bubblesort
 Q6094400,Iterated integral,,,,,,,,,,,iterated integral,https://ncatlab.org/nlab/show/iterated+integral,,
@@ -5518,14 +5526,14 @@ Q620614,assignment problem,,,,,,,,,,,,,assignment problem,http://planetmath.org/
 Q620622,Kernel trick,,,,,,,,,,,kernel method,https://ncatlab.org/nlab/show/kernel+method,,
 Q620702,stable marriage problem,,,,,,,,,,,,,stable marriage problem,http://planetmath.org/stablemarriageproblem
 Q62092387,Principia Mathematica I,,,,,,,,,,,Principia Mathematica,https://ncatlab.org/nlab/show/Principia+Mathematica,,
-Q621461,symmetric relation,,,,,,,,,,,symmetric relation,https://ncatlab.org/nlab/show/symmetric+relation,symmetric relation,http://planetmath.org/symmetricrelation
+Q621461,symmetric relation,,,,,symmetric-relations,https://www.clowderproject.com/tag/00U6.html,,,,,symmetric relation,https://ncatlab.org/nlab/show/symmetric+relation,symmetric relation,http://planetmath.org/symmetricrelation
 Q621476,Pseudovector,,,,,,,,,,,,,axial vector,http://planetmath.org/axialvector
 Q621542,commutative diagram,commutative diagram,https://arxiv.org/pdf/1612.09375#page=19,,,,,commutative square,https://emilyriehl.github.io/files/context.pdf#page=42,,,diagram chasing,https://ncatlab.org/nlab/show/diagram+chasing,,
 Q621550,General topology,,,,,,,,,,,general topology,https://ncatlab.org/nlab/show/general+topology,,
 Q621673,Search tree,,,,,,,,,,,,,search tree,http://planetmath.org/searchtree
 Q621743,Approximate identity,,,,,,,,,,,approximation of the identity,https://ncatlab.org/nlab/show/approximation+of+the+identity,approximate identity,http://planetmath.org/approximateidentity
 Q621744,approximation property,,,,,,,,,,,,,approximation property,http://planetmath.org/approximationproperty
-Q621850,reflexive relation,,,,,,,,,,,reflexive relation,https://ncatlab.org/nlab/show/reflexive+relation,irreflexive,http://planetmath.org/irreflexive
+Q621850,reflexive relation,,,,,reflexive-relations,https://www.clowderproject.com/tag/00TM.html,,,,,reflexive relation,https://ncatlab.org/nlab/show/reflexive+relation,irreflexive,http://planetmath.org/irreflexive
 Q622185,Martin's axiom,,,,,,,,,,,,,Martin’s axiom,http://planetmath.org/martinsaxiom
 Q622679,Lie group,,,matrix Lie group,https://mathgloss.github.io/MathGloss/chicago/matrix_Lie_group,,,,,Lie group,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Geometry/Manifold/Algebra/LieGroup.html#LieGroup,matrix Lie group,https://ncatlab.org/nlab/show/matrix+Lie+group,Lie group,http://planetmath.org/liegroup
 Q622682,Apéry's constant,,,,,,,,,,,,,Apéry’s constant,http://planetmath.org/aperysconstant
@@ -5626,7 +5634,7 @@ Q6459821,LRK,,,,,,,,,,,,,LR(k),http://planetmath.org/lrk
 Q646523,Pick's theorem,,,,,,,,,,,,,Pick’s theorem,http://planetmath.org/pickstheorem
 Q647227,Super-Kamiokande,,,,,,,,,,,Super-Kamiokande,https://ncatlab.org/nlab/show/Super-Kamiokande,,
 Q647547,Maclaurin's inequality,,,,,,,,,,,,,MacLaurin’s inequality,http://planetmath.org/maclaurinsinequality
-Q64861,transitive relation,,,,,,,,,,,transitive relation,https://ncatlab.org/nlab/show/transitive+relation,transitive relation,http://planetmath.org/transitiverelation
+Q64861,transitive relation,,,,,transitive-relations,https://www.clowderproject.com/tag/00UR.html,,,,,transitive relation,https://ncatlab.org/nlab/show/transitive+relation,transitive relation,http://planetmath.org/transitiverelation
 Q6486188,Langlands dual group,,,,,,,,,,,Langlands dual group,https://ncatlab.org/nlab/show/Langlands+dual+group,,
 Q64877966,A.P.,,,,,,,,,,,A. P. Balachandran,https://ncatlab.org/nlab/show/A.+P.+Balachandran,,
 Q64878816,Composition,composition,https://arxiv.org/pdf/1612.09375#page=18,,,,,,,,,composition,https://ncatlab.org/nlab/show/composition,,
@@ -5828,6 +5836,7 @@ Q6860249,Milnor map,,,,,,,,,,,Milnor fiber,https://ncatlab.org/nlab/show/Milnor+
 Q686291,affine group,,,,,,,,,,,affine group,https://ncatlab.org/nlab/show/affine+group,,
 Q6865324,minimal model,,,,,,,,,,,minimal model CFT,https://ncatlab.org/nlab/show/minimal+model+CFT,,
 Q6865333,minimal prime,,,,,,,,,,,,,minimal prime,http://planetmath.org/minimalprime
+Q687704,Kernel (set theory),,,,,the-kernel-of-a-function,https://www.clowderproject.com/tag/00VB.html,,,,,,,,
 Q6887959,Mod,,,,,,,,,,,Mod,https://ncatlab.org/nlab/show/Mod,,
 Q6889105,Modern Algebra,,,,,,,,,,,Moderne Algebra,https://ncatlab.org/nlab/show/Moderne+Algebra,,
 Q688945,Dirac spinor,,,,,,,,,,,Dirac spinor,https://ncatlab.org/nlab/show/Dirac+spinor,,
@@ -5949,7 +5958,7 @@ Q7190517,Picard-Lefschetz formula,,,,,,,,,,,Picard-Lefschetz theory,https://ncat
 Q7190519,Picard-Vessiot theory,,,,,,,,,,,Picard-Vessiot theory,https://ncatlab.org/nlab/show/Picard-Vessiot+theory,,
 Q719112,MathWorld,,,,,,,,,,,,,MathWorld,http://planetmath.org/mathworld
 Q7191425,piecewise linear manifold,,,,,,,,,,,piecewise-linear manifold,https://ncatlab.org/nlab/show/piecewise-linear+manifold,,
-Q719395,category,large category,https://arxiv.org/pdf/1612.09375#page=83,category,https://mathgloss.github.io/MathGloss/chicago/category,,,category,https://emilyriehl.github.io/files/context.pdf#page=21,category,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Category/Basic.html#CategoryTheory.Category,object,https://ncatlab.org/nlab/show/object,,
+Q719395,category,large category,https://arxiv.org/pdf/1612.09375#page=83,category,https://mathgloss.github.io/MathGloss/chicago/category,categories,https://www.clowderproject.com/tag/00WB.html,category,https://emilyriehl.github.io/files/context.pdf#page=21,category,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Category/Basic.html#CategoryTheory.Category,object,https://ncatlab.org/nlab/show/object,,
 Q7194770,Pin group,,,,,,,,,,,pin group,https://ncatlab.org/nlab/show/pin+group,,
 Q7195651,ping-pong lemma,,,,,,,,,,,,,ping-pong lemma,http://planetmath.org/pingponglemma
 Q719602,prevalence,,,,,,,,,,,prevalence,https://ncatlab.org/nlab/show/prevalence,,
@@ -5984,6 +5993,7 @@ Q7226530,Polymatroid,,,,,,,,,,,,,polymatroid,http://planetmath.org/polymatroid
 Q7226641,polynomial identity ring,,,,,,,,,,,polynomial identity ring,https://ncatlab.org/nlab/show/polynomial+identity+ring,standard identity,http://planetmath.org/standardidentity
 Q722700,Erdős–Bacon number,,,,,,,,,,,,,Erdős-Bacon number,http://planetmath.org/erdhosbaconnumber
 Q722878,Master equation,,,,,,,,,,,master equation,https://ncatlab.org/nlab/show/master+equation,,
+Q7233031,Posetal category,,,,,posetal-categories,https://www.clowderproject.com/tag/00X3.html,,,,,,,,
 Q7233211,Positive,,,,,,,,,,,,,positive,http://planetmath.org/positive
 Q7233279,positive linear functional,,,,,,,,,,,,,positive linear functional,http://planetmath.org/positivelinearfunctional
 Q7233606,PostBQP,,,,,,,,,,,PostBQP,https://ncatlab.org/nlab/show/PostBQP,,
@@ -5993,7 +6003,7 @@ Q7239170,pre-Lie algebra,,,,,,,,,,,pre-Lie algebra,https://ncatlab.org/nlab/show
 Q7239192,pre-abelian category,,,,,,,,,,,pre-abelian category,https://ncatlab.org/nlab/show/pre-abelian+category,,
 Q7239729,Predual,,,,,,,,,,,predual,https://ncatlab.org/nlab/show/predual,,
 Q7239914,Pregroup grammar,,,,,,,,,,,pregroup grammar,https://ncatlab.org/nlab/show/pregroup+grammar,,
-Q7241077,presheaf,presheaf,https://arxiv.org/pdf/1612.09375#page=32,,,,,presheaf,https://emilyriehl.github.io/files/context.pdf#page=36,,,Yoneda extension,https://ncatlab.org/nlab/show/Yoneda+extension,,
+Q7241077,presheaf,presheaf,https://arxiv.org/pdf/1612.09375#page=32,,,presheaves-on-a-category,https://www.clowderproject.com/tag/02H6.html,presheaf,https://emilyriehl.github.io/files/context.pdf#page=36,,,Yoneda extension,https://ncatlab.org/nlab/show/Yoneda+extension,,
 Q724168,Petri net,,,,,,,,,,,Petri net,https://ncatlab.org/nlab/show/Petri+net,,
 Q7242162,Pretopological space,,,,,,,,,,,pretopological space,https://ncatlab.org/nlab/show/pretopological+space,,
 Q7242916,Priestley space,,,,,,,,,,,Priestley space,https://ncatlab.org/nlab/show/Priestley+space,,
@@ -6738,7 +6748,7 @@ Q841893,Desargues' theorem,,,,,,,,,,,Desargues' theorem,https://ncatlab.org/nlab
 Q842072,operad,,,,,,,,,,,topological operad,https://ncatlab.org/nlab/show/topological+operad,,
 Q842172,Ulam spiral,,,,,,,,,,,,,Ulam spiral,http://planetmath.org/ulamspiral
 Q842436,Markov's inequality,,,,,,,,,Markov inequality,https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/Lebesgue/Markov.html#MeasureTheory.mul_meas_ge_le_lintegral,,,Markov’s inequality,http://planetmath.org/markovsinequality
-Q842620,disjoint union,disjoint union,https://arxiv.org/pdf/1612.09375#page=76,,,,,,,,,disjoint union,https://ncatlab.org/nlab/show/disjoint+union,disjoint union,http://planetmath.org/disjointunion
+Q842620,disjoint union,disjoint union,https://arxiv.org/pdf/1612.09375#page=76,,,coproducts-of-sets,https://www.clowderproject.com/tag/0021.html,,,,,disjoint union,https://ncatlab.org/nlab/show/disjoint+union,disjoint union,http://planetmath.org/disjointunion
 Q842755,Peano postulates,,,,,,,,,,,Peano arithmetic,https://ncatlab.org/nlab/show/Peano+arithmetic,Peano arithmetic,http://planetmath.org/peanoarithmetic
 Q842953,Lebesgue's density theorem,,,,,,,,,,,,,Lebesgue density theorem,http://planetmath.org/lebesguedensitytheorem
 Q843503,Kaon,,,,,,,,,,,kaon,https://ncatlab.org/nlab/show/kaon,,
@@ -6754,7 +6764,7 @@ Q844980,Leibniz algebra,,,,,,,,,,,Leibniz algebra,https://ncatlab.org/nlab/show/
 Q845060,Relative extrema,,,local minimum,https://mathgloss.github.io/MathGloss/chicago/local_minimum,,,,,local extrema,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Calculus/LocalExtr/Basic.html#IsLocalMin.fderiv_eq_zero,extremum,https://ncatlab.org/nlab/show/extremum,extremum,http://planetmath.org/extremum
 Q845088,Pappus's centroid theorem,,,,,,,,,,,,,Pappus’s centroid theorem,http://planetmath.org/pappusscentroidtheorem
 Q845118,Order of operations,,,,,,,,,,,,,order of operations,http://planetmath.org/orderofoperations
-Q845126,set difference,,,,,,,,,,,,,set difference,http://planetmath.org/setdifference
+Q845126,set difference,,,,,differences,https://www.clowderproject.com/tag/004E.html,,,,,,,set difference,http://planetmath.org/setdifference
 Q845260,Quantum ensemble,,,,,,,,,,,quantum statistical mechanics,https://ncatlab.org/nlab/show/quantum+statistical+mechanics,,
 Q845581,generating function,,,,,,,,,,,generating function,https://ncatlab.org/nlab/show/generating+function,,
 Q845630,239 (number),,,,,,,,,,,,,two hundred thirty-nine,http://planetmath.org/twohundredthirtynine
@@ -6843,6 +6853,7 @@ Q859808,Biharmonic equation,,,,,,,,,,,,,biharmonic equation,http://planetmath.or
 Q860609,Generating function,,,ordinary generating function,https://mathgloss.github.io/MathGloss/chicago/ordinary_generating_function,,,,,,,,,,
 Q860611,International Congress of Mathematicians,,,,,,,,,,,,,International Congress of Mathematicians,http://planetmath.org/internationalcongressofmathematicians
 Q860615,Helmholtz equation,,,,,,,,,,,,,Helmholtz equation,http://planetmath.org/helmholtzequation
+Q860623,Image (mathematics),,,,,the-direct-image-function-associated-to-a-function,https://www.clowderproject.com/tag/007G.html,,,,,,,,
 Q860929,pushforward measure,,,,,,,,,,,pushforward measure,https://ncatlab.org/nlab/show/pushforward+measure,,
 Q861555,³,,,,,,,,,,,,,cube of a number,http://planetmath.org/cubeofanumber
 Q861681,Real Function,,,,,,,,,,,,,real function,http://planetmath.org/realfunction
@@ -6853,7 +6864,7 @@ Q864145,Split-complex number,,,,,,,,,,,split-complex numbers,https://ncatlab.org
 Q864213,Conservative extension,,,,,,,,,,,conservative extension,https://ncatlab.org/nlab/show/conservative+extension,,
 Q864313,Hopf link,,,,,,,,,,,Hopf link - SVG,https://ncatlab.org/nlab/show/Hopf+link+-+SVG,,
 Q864413,complementary angles,,,,,,,,,,,,,complementary angles,http://planetmath.org/complementaryangles
-Q864475,functor,covariant functor,https://arxiv.org/pdf/1612.09375#page=30,functor,https://mathgloss.github.io/MathGloss/chicago/functor,functors,https://www.clowderproject.com/tag/00ZW.html,constant functor,https://emilyriehl.github.io/files/context.pdf#page=92,functor,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Functor/Basic.html#CategoryTheory.Functor,multifunctor,https://ncatlab.org/nlab/show/multifunctor,,
+Q864475,functor,covariant functor,https://arxiv.org/pdf/1612.09375#page=30,functor,https://mathgloss.github.io/MathGloss/chicago/functor,contravariant-functors,https://www.clowderproject.com/tag/0108.html,constant functor,https://emilyriehl.github.io/files/context.pdf#page=92,functor,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Functor/Basic.html#CategoryTheory.Functor,multifunctor,https://ncatlab.org/nlab/show/multifunctor,,
 Q864589,Schwarzian derivative,,,,,,,,,,,Schwarzian derivative,https://ncatlab.org/nlab/show/Schwarzian+derivative,Schwarzian derivative,http://planetmath.org/schwarzianderivative
 Q864919,Alexandroff extension,,,,,,,,,,,one-point compactification,https://ncatlab.org/nlab/show/one-point+compactification,Alexandrov one-point compactification,http://planetmath.org/alexandrovonepointcompactification
 Q865019,Method of exhaustion,,,,,,,,,,,,,method of exhaustion,http://planetmath.org/methodofexhaustion
@@ -7087,7 +7098,7 @@ Q93344,trigonometric function,,,,,,,,,,,tangent function,https://ncatlab.org/nla
 Q933932,Horn clause,,,,,,,,,,,,,Horn clause,http://planetmath.org/hornclause
 Q934200,Mathieu group,,,,,,,,,,,Mathieu group,https://ncatlab.org/nlab/show/Mathieu+group,Mathieu groups,http://planetmath.org/mathieugroups
 Q93430594,nowhere continuous function,,,,,,,,,,,,,continuous nowhere monotonic function,http://planetmath.org/continuousnowheremonotonicfunction
-Q934367,function space,,,,,,,function space,https://emilyriehl.github.io/files/context.pdf#page=150,,,function space,https://ncatlab.org/nlab/show/function+space,function space,http://planetmath.org/functionspace
+Q934367,function space,,,,,Tag 003A,https://www.clowderproject.com/tag/003A.html,function space,https://emilyriehl.github.io/files/context.pdf#page=150,,,function space,https://ncatlab.org/nlab/show/function+space,function space,http://planetmath.org/functionspace
 Q935273,semisimple group,,,,,,,,,,,,,semisimple group,http://planetmath.org/semisimplegroup
 Q9357062,Homotopy theory,,,,,,,,,,,homotopy theory,https://ncatlab.org/nlab/show/homotopy+theory,,
 Q935944,free and bound variables,,,,,,,,,,,,,free and bound variables,http://planetmath.org/freeandboundvariables

@@ -14,14 +14,19 @@
         <input id="search" type="text" placeholder="Search by label or QID" />
         <span id="counts" class="note"></span>
       </div>
+      <div class="group">
+        <label><input type="checkbox" id="hide-nlab-only" /> Hide nLab-only</label>
+        <label><input type="checkbox" id="hide-planetmath-only" /> Hide PlanetMath-only</label>
+      </div>
     </div>
+    <div id="source-filters" class="controls"></div>
 
     <table id="entry-table">
       <thead>
         <tr>
-          <th>Wikidata ID</th>
-          <th>Title</th>
-          <th>Sources</th>
+          <th data-key="qid">Wikidata ID <span class="sort-ind"></span></th>
+          <th data-key="label">Title <span class="sort-ind"></span></th>
+          <th data-key="sources">Sources <span class="sort-ind"></span></th>
         </tr>
       </thead>
       <tbody id="entry-rows"></tbody>
@@ -31,12 +36,19 @@
       const PERMALINK_PREFIX = '/entries';
       const FALLBACK_FILES = ['database_compiled_pruned.csv', 'database_pruned.csv'];
 
-      let allRows = [];
-      let sourcePairs = [];
-
       const searchInput = document.getElementById('search');
       const countsEl = document.getElementById('counts');
       const tbody = document.getElementById('entry-rows');
+      const hideNlabOnlyEl = document.getElementById('hide-nlab-only');
+      const hidePlanetOnlyEl = document.getElementById('hide-planetmath-only');
+      const sourceFiltersEl = document.getElementById('source-filters');
+      const headerCells = document.querySelectorAll('#entry-table thead th');
+
+      let allRows = [];
+      let sourcePairs = [];
+      let activeSources = new Set();
+      let lastFiltered = [];
+      let sortState = { key: 'label', dir: 1 };
 
       const detectSourcePairs = (headers) => {
         const set = new Set(headers);
@@ -45,32 +57,123 @@
           .map((nameHeader) => {
             const base = nameHeader.slice(0, -5);
             const linkHeader = `${base} Link`;
-            return set.has(linkHeader) ? [base, nameHeader, linkHeader] : null;
+            return set.has(linkHeader)
+              ? { base, nameKey: nameHeader, linkKey: linkHeader }
+              : null;
           })
           .filter(Boolean);
       };
 
-      const countSources = (row) => {
-        let total = 0;
-        for (const [, nameKey, linkKey] of sourcePairs) {
-          const name = (row[nameKey] || '').trim();
-          const link = (row[linkKey] || '').trim();
-          if (name && link) total += 1;
-        }
-        return total;
-      };
-
       const entryPermalink = (qid) => `${PERMALINK_PREFIX}/${(qid || '').trim()}.html`;
 
+      const enhanceRow = (row) => {
+        const sourceSet = new Set();
+        sourcePairs.forEach(({ base, nameKey, linkKey }) => {
+          const name = (row[nameKey] || '').trim();
+          const link = (row[linkKey] || '').trim();
+          if (name && link) {
+            sourceSet.add(base);
+          }
+        });
+        row.__sourceSet = sourceSet;
+        row.__sourceCount = sourceSet.size;
+        row.__nlabOnly = sourceSet.size === 1 && sourceSet.has('nLab');
+        row.__planetOnly = sourceSet.size === 1 && sourceSet.has('PlanetMath');
+        return row;
+      };
+
+      const buildSourceFilters = () => {
+        sourceFiltersEl.innerHTML = '';
+        if (!sourcePairs.length) return;
+        const heading = document.createElement('span');
+        heading.textContent = 'Require sources:';
+        heading.className = 'note';
+        sourceFiltersEl.appendChild(heading);
+        sourcePairs.forEach(({ base }) => {
+          const label = document.createElement('label');
+          label.className = 'toggle-column';
+          const cb = document.createElement('input');
+          cb.type = 'checkbox';
+          cb.dataset.base = base;
+          cb.addEventListener('change', () => {
+            if (cb.checked) {
+              activeSources.add(base);
+            } else {
+              activeSources.delete(base);
+            }
+            applyFilters();
+          });
+          label.appendChild(cb);
+          label.appendChild(document.createTextNode(` ${base}`));
+          sourceFiltersEl.appendChild(label);
+        });
+      };
+
+      const rowMatchesSources = (row) => {
+        for (const base of activeSources) {
+          if (!row.__sourceSet.has(base)) return false;
+        }
+        return true;
+      };
+
+      const applyFilters = () => {
+        const term = (searchInput.value || '').trim().toLowerCase();
+        const hideNlab = hideNlabOnlyEl.checked;
+        const hidePlanet = hidePlanetOnlyEl.checked;
+
+        lastFiltered = allRows.filter((row) => {
+          if (hideNlab && row.__nlabOnly) return false;
+          if (hidePlanet && row.__planetOnly) return false;
+          if (!rowMatchesSources(row)) return false;
+          if (!term) return true;
+          const qid = (row['Wikidata ID'] || '').toLowerCase();
+          const label = (row['Wikidata Label'] || '').toLowerCase();
+          return qid.includes(term) || label.includes(term);
+        });
+
+        countsEl.textContent = `Showing ${lastFiltered.length.toLocaleString()} of ${allRows.length.toLocaleString()} entries`;
+        renderRows(lastFiltered);
+      };
+
+      const compareRows = (a, b) => {
+        const dir = sortState.dir;
+        switch (sortState.key) {
+          case 'qid': {
+            const av = (a['Wikidata ID'] || '').toUpperCase();
+            const bv = (b['Wikidata ID'] || '').toUpperCase();
+            return av.localeCompare(bv) * dir;
+          }
+          case 'sources': {
+            const av = a.__sourceCount || 0;
+            const bv = b.__sourceCount || 0;
+            if (av === bv) {
+              const labelA = (a['Wikidata Label'] || '').toLowerCase();
+              const labelB = (b['Wikidata Label'] || '').toLowerCase();
+              return labelA.localeCompare(labelB) * dir;
+            }
+            return (av - bv) * dir;
+          }
+          case 'label':
+          default: {
+            const av = (a['Wikidata Label'] || '').toLowerCase();
+            const bv = (b['Wikidata Label'] || '').toLowerCase();
+            const primary = av.localeCompare(bv);
+            if (primary !== 0) return primary * dir;
+            const qidA = (a['Wikidata ID'] || '').toUpperCase();
+            const qidB = (b['Wikidata ID'] || '').toUpperCase();
+            return qidA.localeCompare(qidB) * dir;
+          }
+        }
+      };
+
       const renderRows = (rows) => {
+        const sorted = rows.slice().sort(compareRows);
         tbody.innerHTML = '';
         const frag = document.createDocumentFragment();
-        rows.forEach((row) => {
+        sorted.forEach((row) => {
           const qid = (row['Wikidata ID'] || '').trim();
           if (!qid) return;
           const label = (row['Wikidata Label'] || qid).trim();
-          const count = countSources(row);
-
           const tr = document.createElement('tr');
 
           const tdQid = document.createElement('td');
@@ -86,29 +189,26 @@
           tr.appendChild(tdTitle);
 
           const tdCount = document.createElement('td');
-          tdCount.textContent = String(count);
+          tdCount.textContent = String(row.__sourceCount || 0);
           tr.appendChild(tdCount);
 
           frag.appendChild(tr);
         });
         tbody.appendChild(frag);
+        updateSortIndicators();
       };
 
-      const applyFilter = () => {
-        const term = (searchInput.value || '').trim().toLowerCase();
-        if (!term) {
-          renderRows(allRows);
-          countsEl.textContent = `Showing ${allRows.length.toLocaleString()} entries`;
-          return;
-        }
-
-        const filtered = allRows.filter((row) => {
-          const qid = (row['Wikidata ID'] || '').toLowerCase();
-          const label = (row['Wikidata Label'] || '').toLowerCase();
-          return qid.includes(term) || label.includes(term);
+      const updateSortIndicators = () => {
+        headerCells.forEach((th) => {
+          const span = th.querySelector('.sort-ind');
+          if (!span) return;
+          const key = th.dataset.key;
+          if (key === sortState.key) {
+            span.textContent = sortState.dir > 0 ? '▲' : '▼';
+          } else {
+            span.textContent = '';
+          }
         });
-        renderRows(filtered);
-        countsEl.textContent = `Showing ${filtered.length.toLocaleString()} of ${allRows.length.toLocaleString()} entries`;
       };
 
       const parseCsv = (path, onOk, onErr) => {
@@ -152,19 +252,11 @@
               attempt();
               return;
             }
-            allRows = rows;
             sourcePairs = detectSourcePairs(results.meta.fields || []);
-            allRows.sort((a, b) => {
-              const labelA = (a['Wikidata Label'] || '').toLowerCase();
-              const labelB = (b['Wikidata Label'] || '').toLowerCase();
-              if (labelA && labelB) {
-                const cmp = labelA.localeCompare(labelB);
-                if (cmp !== 0) return cmp;
-              }
-              return (a['Wikidata ID'] || '').localeCompare(b['Wikidata ID'] || '');
-            });
-            renderRows(allRows);
-            countsEl.textContent = `Showing ${allRows.length.toLocaleString()} entries`;
+            activeSources = new Set();
+            allRows = rows.map(enhanceRow);
+            buildSourceFilters();
+            applyFilters();
           }, (err) => {
             console.warn('Failed to load', next, err);
             attempt();
@@ -173,7 +265,24 @@
         attempt();
       };
 
-      searchInput.addEventListener('input', applyFilter);
+      searchInput.addEventListener('input', applyFilters);
+      hideNlabOnlyEl.addEventListener('change', applyFilters);
+      hidePlanetOnlyEl.addEventListener('change', applyFilters);
+
+      headerCells.forEach((th) => {
+        const key = th.dataset.key;
+        if (!key) return;
+        th.style.cursor = 'pointer';
+        th.addEventListener('click', () => {
+          if (sortState.key === key) {
+            sortState.dir *= -1;
+          } else {
+            sortState = { key, dir: key === 'sources' ? -1 : 1 };
+          }
+          renderRows(lastFiltered);
+        });
+      });
+
       loadData();
     </script>
   </body>

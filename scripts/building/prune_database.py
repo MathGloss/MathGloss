@@ -20,10 +20,12 @@ Notes
 """
 import argparse
 import csv
+import json
 import math
+import os
 import sys
 import time
-from typing import Dict, Iterable, List, Set
+from typing import Any, Dict, Iterable, List, Optional, Set
 
 import requests
 
@@ -84,6 +86,61 @@ def fetch_p31(ids: List[str], *, retries: int = 3, pause: float = 0.2, verbose: 
     return {qid: [] for qid in ids}
 
 
+def _load_cache(path: Optional[str]) -> Dict[str, List[str]]:
+    if not path:
+        return {}
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            if isinstance(data, dict):
+                # ensure lists of strings
+                return {k: list(v) if isinstance(v, list) else [] for k, v in data.items()}
+    except Exception:
+        pass
+    return {}
+
+
+def _save_cache(path: Optional[str], cache: Dict[str, List[str]]) -> None:
+    if not path:
+        return
+    try:
+        os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, ensure_ascii=False, indent=2, sort_keys=True)
+    except Exception:
+        pass
+
+
+def _load_decision_cache(path: Optional[str]) -> Dict[str, Dict[str, Any]]:
+    if not path or not os.path.exists(path):
+        return {}
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            if isinstance(data, dict):
+                out: Dict[str, Dict[str, Any]] = {}
+                for k, v in data.items():
+                    if isinstance(v, dict):
+                        out[k] = v
+                return out
+    except Exception:
+        pass
+    return {}
+
+
+def _save_decision_cache(path: Optional[str], cache: Dict[str, Dict[str, Any]]) -> None:
+    if not path:
+        return
+    try:
+        os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, ensure_ascii=False, indent=2, sort_keys=True)
+    except Exception:
+        pass
+
+
 def main():
     ap = argparse.ArgumentParser(description='Prune database.csv by excluding humans/disambiguations/theorem-like pages via Wikidata API P31 types.')
     ap.add_argument('--in', dest='inp', required=True, help='Path to input database.csv')
@@ -92,6 +149,8 @@ def main():
     ap.add_argument('--verbose', action='store_true', help='Print extra diagnostics and sample P31s')
     ap.add_argument('--fail-on-empty', action='store_true', help='Exit non-zero if no P31 values were retrieved')
     ap.add_argument('--drop-nlab-only', action='store_true', help='Drop rows that only have nLab data and no other source')
+    ap.add_argument('--cache', default='data/cache/prune_p31.json', help='Path to JSON cache for Wikidata P31 lookups (set empty to disable)')
+    ap.add_argument('--decision-cache', default='data/cache/prune_decisions.json', help='Path to cache for drop decisions (set empty to disable)')
     args = ap.parse_args()
 
     # Read all rows
@@ -104,15 +163,48 @@ def main():
     qids = [q for q in qids if q.startswith('Q')]
     qids_unique = sorted(set(qids))
 
-    # Fetch P31s in batches
+    cache_path = (args.cache or '').strip() or None
+    decision_cache_path = (args.decision_cache or '').strip() or None
+    cache = _load_cache(cache_path)
+    decision_cache = _load_decision_cache(decision_cache_path)
+
     p31_map: Dict[str, List[str]] = {}
+    prefilled = 0
+    missing: List[str] = []
+    for qid in qids_unique:
+        decision_entry = decision_cache.get(qid)
+        if decision_entry and decision_entry.get('reason') == 'p31':
+            types = decision_entry.get('types')
+            if isinstance(types, list):
+                p31_map[qid] = [t for t in types if isinstance(t, str)]
+                prefilled += 1
+                continue
+        if qid in cache:
+            p31_map[qid] = cache[qid]
+            prefilled += 1
+        else:
+            missing.append(qid)
+
+    if prefilled:
+        print(f"[prune] Cache hits: {prefilled}", flush=True)
+
     kept, dropped = 0, 0
-    total_batches = max(1, math.ceil(len(qids_unique) / max(1, args.batch_size)))
-    for bi, batch in enumerate(batched(qids_unique, args.batch_size), start=1):
-        print(f"[prune] Fetching P31 batch {bi}/{total_batches} (size={len(batch)})...", flush=True)
-        p31s = fetch_p31(batch, verbose=args.verbose)
-        p31_map.update(p31s)
-        time.sleep(0.05)
+    if missing:
+        total_batches = max(1, math.ceil(len(missing) / max(1, args.batch_size)))
+        for bi, batch in enumerate(batched(missing, args.batch_size), start=1):
+            print(f"[prune] Fetching P31 batch {bi}/{total_batches} (size={len(batch)})...", flush=True)
+            p31s = fetch_p31(batch, verbose=args.verbose)
+            p31_map.update(p31s)
+            cache.update(p31s)
+            time.sleep(0.05)
+        _save_cache(cache_path, cache)
+        _save_decision_cache(decision_cache_path, decision_cache)
+    else:
+        print('[prune] All QIDs satisfied by cache; no fetch needed.', flush=True)
+
+    for qid in qids_unique:
+        p31_map.setdefault(qid, [])
+
     nonempty = sum(1 for v in p31_map.values() if v)
     print(f"[prune] Finished fetching P31 for {len(p31_map)} unique QIDs; non-empty P31 sets: {nonempty}.", flush=True)
     if nonempty == 0:
@@ -142,6 +234,7 @@ def main():
             for t in hit:
                 counts_by_type[t] = counts_by_type.get(t, 0) + 1
             dropped += 1
+            decision_cache[qid] = {'reason': 'p31', 'types': sorted(hit)}
             continue
         if args.drop_nlab_only:
             # Drop if nLab has data but no other source has data
@@ -151,7 +244,11 @@ def main():
             if nlab_has and not others_have:
                 dropped += 1
                 drop_nlab_only_count += 1
+                decision_cache[qid] = {'reason': 'nlab-only'}
                 continue
+        # Row kept; clear any stale drop decision
+        if qid in decision_cache:
+            decision_cache.pop(qid, None)
         kept += 1
         filtered.append(r)
         if i % 500 == 0:
@@ -171,6 +268,9 @@ def main():
             print(f"  {t}: {c}")
     if args.drop_nlab_only:
         print(f"Dropped nLab-only rows: {drop_nlab_only_count}")
+
+    _save_cache(cache_path, cache)
+    _save_decision_cache(decision_cache_path, decision_cache)
 
 
 if __name__ == '__main__':
