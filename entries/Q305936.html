@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lp space — MathGloss</title>
+    <link rel="stylesheet" href="../web/styles.css" />
+    <style>
+      body { max-width: 780px; margin: 24px auto; padding: 0 16px; }
+      nav { margin-bottom: 20px; }
+      nav a { text-decoration: none; font-size: 0.95rem; }
+      .wikidata-meta { margin-bottom: 24px; }
+      .wikidata-meta dt { font-weight: bold; }
+      .wikidata-meta dd { margin: 0 0 8px 0; }
+      .sources h2 { margin-top: 32px; }
+      .sources ul { list-style: disc; padding-left: 20px; }
+      .sources li { margin-bottom: 8px; }
+    </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+  </head>
+  <body>
+    <nav><a href="../web/">← Back to index</a></nav>
+    <h1>Lp space</h1>
+    <section class="wikidata-meta">
+      <dl>
+        <dt>Wikidata ID</dt>
+        <dd><a href="https://www.wikidata.org/wiki/Q305936" target="_blank" rel="noopener">Q305936</a></dd>
+        <dt>Label</dt>
+        <dd>Lp space</dd>
+      </dl>
+    </section>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $1\leq p &lt; \infty$ and let $(X,\Sigma, \mu)$ be a <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure space</a>. Let $F$ be the set of functions $f: X\to \mathbb R$ such that $$\vert \vert f\vert \vert _p = \left(\int_X\vert f\vert ^p\text d\mu\right)^{1/p}\ &lt; \infty$$ where $\vert \vert f\vert \vert _p$ is the <a href="../entries/Q2043496.html" target="_blank" rel="noopener">p-norm</a>. Equivalently, $F$ is the set of functions such that the $p$th power of their absolute value is <a href="../entries/Q853831.html" target="_blank" rel="noopener">integrable</a>. Let $N = \{f \in F \mid f = 0 \text{almost everywhere}\}$. Because the integral of a positive function is zero if and only if it is zero almost everywhere, we have that $N$ is the <a href="https://mathgloss.github.io/MathGloss/chicago/kernel_of_linear_transformation" target="_blank" rel="noopener">kernel</a> of the <a href="../entries/Q2043496.html" target="_blank" rel="noopener">p-norm</a>. The <a href="../entries/Q1826459.html" target="_blank" rel="noopener">normed linear space</a> given by the <a href="../entries/Q1393796.html" target="_blank" rel="noopener">quotient vector space</a> of $F$ by $N$ is $L_p(X,\mu)$.</p>
+<p>For $p = \infty$, consider the set $G$ of functions $f:X \to \mathbb R$  for which there exists $c \in\mathbb R$ such that $\mu(\{\vert f\vert  &gt; c\}) = 0$ and take the <a href="../entries/Q1393796.html" target="_blank" rel="noopener">quotient vector space</a> of this set by the <a href="../entries/Q130998.html" target="_blank" rel="noopener">equivalence relation</a> $\sim$ on $G$ given by $f\sim g$ if $f(x) = g(x)$ <a href="../entries/Q1139334.html" target="_blank" rel="noopener">almost everywhere</a> on $X$.  This space with the <a href="../entries/Q1969054.html" target="_blank" rel="noopener">essential supremum</a> of $f$ as the <a href="../entries/Q7051414.html" target="_blank" rel="noopener">norm</a> is $L_\infty(X,\mu)$.</p>
+    </section>
+<section class="sources">
+      <h2>Sources</h2>
+      <ul>
+        <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Function/LpSpace/Basic.html#MeasureTheory.Lp" target="_blank" rel="noopener">$L^p$ space</a></li>
+        <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/lpspace" target="_blank" rel="noopener">L^p-space</a></li>
+      </ul>
+    </section>
+
+  </body>
+</html>

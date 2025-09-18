@@ -1,0 +1,182 @@
+Wikidata ID,Title,Link,Label,Layer,Score,Reason,Alternates
+Q318598,abelianization,https://arxiv.org/pdf/1612.09375#page=53,abelianization,layer2.csv,1.000,exact_letters,
+Q357858,adjoint functor theorems,https://arxiv.org/pdf/1612.09375#page=167,adjoint functor,layer5.csv,0.867,token_jaccard=0.67,
+Q3968,algebra,https://arxiv.org/pdf/1612.09375#page=100,algebra,layer2.csv,1.000,exact_letters,Q2836000 (1.000; exact_letters) *-algebra [layer3.csv]
+Q744960,associative algebra,https://arxiv.org/pdf/1612.09375#page=50,associative algebra,layer2.csv,1.000,exact_letters,Q97165845 (0.867; token_jaccard=0.67) homotopy associative algebra [layer3.csv]; Q4391941 (0.867; token_jaccard=0.67) non-associative algebra [layer5.csv]
+Q613048,algebraic theory,https://arxiv.org/pdf/1612.09375#page=54,algebraic number theory,layer2.csv,0.867,token_jaccard=0.67,
+Q4724021,algebraic topology,https://arxiv.org/pdf/1612.09375#page=28,algebraic topology,layer5.csv,1.000,exact_letters,
+Q1315869,arity,https://arxiv.org/pdf/1612.09375#page=54,arity,layer2.csv,1.000,exact_letters,
+Q671836,arrow,https://arxiv.org/pdf/1612.09375#page=18,Arrow,layer5.csv,1.000,exact_letters,
+Q177251,associativity,https://arxiv.org/pdf/1612.09375#page=18,associativity,layer2.csv,1.000,exact_letters,
+Q179692,axiom of choice,https://arxiv.org/pdf/1612.09375#page=79,axiom of choice,layer3.csv,1.000,exact_letters,Q1000116 (0.900; token_jaccard=0.75) axiom of countable choice [layer3.csv]; Q3303153 (0.900; token_jaccard=0.75) axiom of dependent choice [layer3.csv]; Q3511558 (0.900; token_jaccard=0.75) axiom of global choice [layer2.csv]; Q4478785 (0.840; token_jaccard=0.60) equivalent of the axiom of choice [layer2.csv]
+Q173183,Boolean algebra,https://arxiv.org/pdf/1612.09375#page=44,boolean algebra,layer3.csv,1.000,exact_letters,Q4973304 (1.000; exact_letters) Boolean algebra [layer2.csv]; Q5156447 (0.867; token_jaccard=0.67) complete Boolean algebra [layer3.csv]; Q5499761 (0.867; token_jaccard=0.67) free Boolean algebra [layer4.csv]; Q7315522 (0.867; token_jaccard=0.67) residuated Boolean algebra [layer3.csv]
+Q263809,C^*-algebra,https://arxiv.org/pdf/1612.09375#page=44,C*-algebra,layer1.csv,1.000,exact_letters,Q85208389 (1.000; token_jaccard=1.00) C∞-algebra [layer3.csv]; Q2602075 (0.867; token_jaccard=0.67) nuclear C*-algebra [layer5.csv]; Q7893894 (0.867; token_jaccard=0.67) universal C*-algebra [layer4.csv]
+Q28727773,cardinality,https://arxiv.org/pdf/1612.09375#page=82,cardinality,layer5.csv,1.000,exact_letters,Q4049983 (1.000; exact_letters) cardinality [layer3.csv]
+Q1725874,cartesian closed category,https://arxiv.org/pdf/1612.09375#page=172,cartesian closed category,layer4.csv,1.000,exact_letters,Q5135329 (0.867; token_jaccard=0.67) closed category [layer3.csv]
+Q719395,category,https://arxiv.org/pdf/1612.09375#page=18,category,layer2.csv,1.000,exact_letters,
+Q5051852,category of categories,https://arxiv.org/pdf/1612.09375#page=26,category of small categories,layer5.csv,0.900,token_jaccard=0.75,
+Q4370335,complete category,https://arxiv.org/pdf/1612.09375#page=167,complete category,layer3.csv,1.000,exact_letters,Q121504772 (0.867; token_jaccard=0.67) finitely complete category [layer5.csv]
+Q1228851,discrete category,https://arxiv.org/pdf/1612.09375#page=21,discrete category,layer3.csv,1.000,exact_letters,
+Q5051844,of elements category,https://arxiv.org/pdf/1612.09375#page=162,category of elements,layer5.csv,1.000,token_jaccard=1.00,
+Q10567583,essentially small category,https://arxiv.org/pdf/1612.09375#page=84,small category,layer2.csv,0.867,token_jaccard=0.67,
+Q121771058,locally small category,https://arxiv.org/pdf/1612.09375#page=83,locally small category,layer3.csv,1.000,exact_letters,Q10567583 (0.867; token_jaccard=0.67) small category [layer2.csv]
+Q5135347,monoidal closed category,https://arxiv.org/pdf/1612.09375#page=173,closed monoidal category,layer5.csv,1.000,token_jaccard=1.00,Q5135329 (0.867; token_jaccard=0.67) closed category [layer5.csv]; Q1945014 (0.867; token_jaccard=0.67) monoidal category [layer3.csv]
+Q7098616,opposite category,https://arxiv.org/pdf/1612.09375#page=24,opposite category,layer3.csv,1.000,exact_letters,
+Q10567583,small category,https://arxiv.org/pdf/1612.09375#page=83,small category,layer2.csv,1.000,exact_letters,Q121771058 (0.867; token_jaccard=0.67) locally small category [layer3.csv]
+Q122953307,well-powered category,https://arxiv.org/pdf/1612.09375#page=176,well-powered category,layer3.csv,1.000,exact_letters,Q122953309 (0.900; token_jaccard=0.75) co-well-powered category [layer4.csv]
+Q23925390,centre,https://arxiv.org/pdf/1612.09375#page=34,centre,layer5.csv,1.000,exact_letters,
+Q5073765,characteristic function,https://arxiv.org/pdf/1612.09375#page=77,characteristic function,layer2.csv,1.000,exact_letters,Q822139 (1.000; exact_letters) characteristic function [layer2.csv]; Q1062955 (0.867; token_jaccard=0.67) characteristic state function [layer5.csv]; Q5073772 (0.867; token_jaccard=0.67) characteristic state function [layer2.csv]
+Q5093291,chess,https://arxiv.org/pdf/1612.09375#page=80,Chess,layer5.csv,1.000,exact_letters,
+Q1095987,class,https://arxiv.org/pdf/1612.09375#page=19,Class,layer5.csv,1.000,exact_letters,
+Q106504945,closure,https://arxiv.org/pdf/1612.09375#page=63,Closure,layer5.csv,1.000,exact_letters,Q320346 (1.000; exact_letters) closure [layer3.csv]; Q4720939 (1.000; exact_letters) closure [layer1.csv]
+Q199006,codomain,https://arxiv.org/pdf/1612.09375#page=19,codomain,layer1.csv,1.000,exact_letters,
+Q5140810,coequalizer,https://arxiv.org/pdf/1612.09375#page=136,coequalizer,layer2.csv,1.000,exact_letters,
+Q1198376,cohomology,https://arxiv.org/pdf/1612.09375#page=32,cohomology,layer3.csv,1.000,exact_letters,
+Q111204834,colimit,https://arxiv.org/pdf/1612.09375#page=134,colimit,layer1.csv,1.000,exact_letters,
+Q120378948,collection,https://arxiv.org/pdf/1612.09375#page=19,Collection,layer5.csv,1.000,exact_letters,Q17008256 (1.000; exact_letters) collection [layer3.csv]; Q18029547 (1.000; exact_letters) collection [layer1.csv]
+Q2532728,complete,https://arxiv.org/pdf/1612.09375#page=167,complete,layer2.csv,1.000,exact_letters,
+Q64878816,composition,https://arxiv.org/pdf/1612.09375#page=18,Composition,layer5.csv,1.000,exact_letters,
+Q1635267,cone,https://arxiv.org/pdf/1612.09375#page=126,cone,layer2.csv,1.000,exact_letters,Q42344 (1.000; exact_letters) cone [layer4.csv]; Q493171 (1.000; exact_letters) cone [layer3.csv]; Q66563361 (1.000; exact_letters) cone [layer4.csv]
+Q692689,coproduct,https://arxiv.org/pdf/1612.09375#page=135,coproduct,layer2.csv,1.000,exact_letters,
+Q85754410,covariant,https://arxiv.org/pdf/1612.09375#page=30,Covariant,layer5.csv,1.000,exact_letters,
+Q5259331,density,https://arxiv.org/pdf/1612.09375#page=162,density,layer1.csv,1.000,exact_letters,
+Q178546,determinant,https://arxiv.org/pdf/1612.09375#page=37,determinant,layer4.csv,1.000,exact_letters,
+Q15805655,diagram,https://arxiv.org/pdf/1612.09375#page=126,diagram,layer2.csv,1.000,exact_letters,Q843237 (1.000; exact_letters) diagram [layer1.csv]
+Q621542,commutative diagram,https://arxiv.org/pdf/1612.09375#page=19,commutative diagram,layer2.csv,1.000,exact_letters,
+Q906015,direct limit,https://arxiv.org/pdf/1612.09375#page=139,direct limit,layer2.csv,1.000,exact_letters,
+Q842620,disjoint union,https://arxiv.org/pdf/1612.09375#page=76,disjoint union,layer4.csv,1.000,exact_letters,
+Q11235244,domain,https://arxiv.org/pdf/1612.09375#page=19,domain,layer3.csv,1.000,exact_letters,Q2851442 (1.000; exact_letters) domain [layer3.csv]; Q3034360 (1.000; exact_letters) Domain [layer5.csv]; Q97798750 (1.000; exact_letters) Domain [layer5.csv]
+Q13118105,duality,https://arxiv.org/pdf/1612.09375#page=24,duality,layer2.csv,1.000,exact_letters,Q1755512 (1.000; exact_letters) duality [layer1.csv]; Q20183224 (1.000; exact_letters) duality [layer2.csv]; Q2974048 (1.000; exact_letters) duality [layer2.csv]; Q5310259 (1.000; exact_letters) Duality [layer5.csv]
+Q1632419,Pontryagin duality,https://arxiv.org/pdf/1612.09375#page=44,Pontryagin duality,layer3.csv,1.000,exact_letters,
+Q7619060,Stone duality,https://arxiv.org/pdf/1612.09375#page=44,Stone duality,layer1.csv,1.000,exact_letters,
+Q3040858,duck,https://arxiv.org/pdf/1612.09375#page=112,Duck,layer5.csv,1.000,exact_letters,
+Q980509,embedding,https://arxiv.org/pdf/1612.09375#page=110,embedding,layer2.csv,1.000,exact_letters,
+Q16947425,epic,https://arxiv.org/pdf/1612.09375#page=141,Epic,layer5.csv,1.000,exact_letters,Q2700629 (1.000; exact_letters) Epic [layer5.csv]
+Q1347208,epimorphism,https://arxiv.org/pdf/1612.09375#page=141,epimorphism,layer4.csv,1.000,exact_letters,
+Q1082992,equivalence of categories,https://arxiv.org/pdf/1612.09375#page=42,equivalence of categories,layer4.csv,1.000,exact_letters,
+Q1755355,faithful,https://arxiv.org/pdf/1612.09375#page=33,Faithful,layer5.csv,1.000,exact_letters,Q5431279 (1.000; exact_letters) Faithful [layer5.csv]
+Q122811225,family,https://arxiv.org/pdf/1612.09375#page=76,Family,layer5.csv,1.000,exact_letters,Q122819325 (1.000; exact_letters) Family [layer5.csv]; Q123347531 (1.000; exact_letters) Family [layer5.csv]; Q124850759 (1.000; exact_letters) Family [layer5.csv]; Q130753814 (1.000; exact_letters) Family [layer5.csv]
+Q1172412,field,https://arxiv.org/pdf/1612.09375#page=54,field,layer5.csv,1.000,exact_letters,Q190109 (1.000; exact_letters) field [layer2.csv]
+Q217608,fixed point,https://arxiv.org/pdf/1612.09375#page=65,fixed point,layer2.csv,1.000,exact_letters,Q131832357 (0.867; token_jaccard=0.67) fixed point theory [layer3.csv]; Q2976255 (0.867; token_jaccard=0.67) fixed-point combinator [layer5.csv]; Q1030759 (0.867; token_jaccard=0.67) fixed-point iteration [layer4.csv]; Q5456331 (0.867; token_jaccard=0.67) fixed-point property [layer3.csv]
+Q48893562,fork,https://arxiv.org/pdf/1612.09375#page=120,fork,layer5.csv,1.000,exact_letters,Q784753 (1.000; exact_letters) fork [layer4.csv]
+Q1149022,Fubini's theorem,https://arxiv.org/pdf/1612.09375#page=159,Fubini's theorem,layer3.csv,1.000,exact_letters,Q1841237 (0.840; token_jaccard=0.60) Fubini's theorem on differentiation [layer3.csv]
+Q1149022,characteristic Fubini's theorem,https://arxiv.org/pdf/1612.09375#page=77,Fubini's theorem,layer3.csv,0.900,token_jaccard=0.75,
+Q1149022,injective Fubini's theorem,https://arxiv.org/pdf/1612.09375#page=131,Fubini's theorem,layer3.csv,0.900,token_jaccard=0.75,
+Q1149022,partial Fubini's theorem,https://arxiv.org/pdf/1612.09375#page=72,Fubini's theorem,layer3.csv,0.900,token_jaccard=0.75,
+Q1149022,surjective Fubini's theorem,https://arxiv.org/pdf/1612.09375#page=141,Fubini's theorem,layer3.csv,0.900,token_jaccard=0.75,
+Q864475,functor,https://arxiv.org/pdf/1612.09375#page=25,functor,layer2.csv,1.000,exact_letters,
+Q2007878,category functor,https://arxiv.org/pdf/1612.09375#page=38,functor category,layer3.csv,1.000,token_jaccard=1.00,
+Q124662529,contravariant functor,https://arxiv.org/pdf/1612.09375#page=30,contravariant functor,layer3.csv,1.000,exact_letters,
+Q1208187,diagonal functor,https://arxiv.org/pdf/1612.09375#page=58,diagonal functor,layer3.csv,1.000,exact_letters,
+Q12175350,faithful functor,https://arxiv.org/pdf/1612.09375#page=33,faithful functor,layer3.csv,1.000,exact_letters,Q120721906 (0.867; token_jaccard=0.67) fully faithful functor [layer4.csv]
+Q2646117,forgetful functor,https://arxiv.org/pdf/1612.09375#page=26,forgetful functor,layer4.csv,1.000,exact_letters,
+Q386320,is representable functor,https://arxiv.org/pdf/1612.09375#page=93,representable functor,layer3.csv,0.867,token_jaccard=0.67,
+Q33059348,full functor,https://arxiv.org/pdf/1612.09375#page=33,full functor,layer3.csv,1.000,exact_letters,
+Q1064276,full and faithful functor,https://arxiv.org/pdf/1612.09375#page=42,full and faithful functor,layer3.csv,1.000,exact_letters,
+Q128032193,identity functor,https://arxiv.org/pdf/1612.09375#page=26,identity functor,layer3.csv,1.000,exact_letters,
+Q386320,representable functor,https://arxiv.org/pdf/1612.09375#page=92,representable functor,layer3.csv,1.000,exact_letters,
+Q133868384,G-set,https://arxiv.org/pdf/1612.09375#page=30,G-set,layer1.csv,1.000,exact_letters,Q127244 (1.000; token_jaccard=1.00) Gδ set [layer5.csv]
+Q131752,greatest common divisor,https://arxiv.org/pdf/1612.09375#page=118,greatest common divisor,layer2.csv,1.000,exact_letters,Q7226640 (0.900; token_jaccard=0.75) polynomial greatest common divisor [layer4.csv]; Q10892988 (0.867; token_jaccard=0.67) common divisor [layer5.csv]
+Q83478,group,https://arxiv.org/pdf/1612.09375#page=14,group,layer2.csv,1.000,exact_letters,
+Q288465,action of group,https://arxiv.org/pdf/1612.09375#page=58,group action,layer2.csv,0.940,of_swap:group action,Q17859776 (0.840; token_jaccard=0.60) orbit of a group action [layer3.csv]
+Q3912012,category of groups,https://arxiv.org/pdf/1612.09375#page=19,category of groups,layer4.csv,1.000,exact_letters,Q1956793 (0.900; token_jaccard=0.75) category of abelian groups [layer2.csv]
+Q431078,free group,https://arxiv.org/pdf/1612.09375#page=27,free group,layer2.csv,1.000,exact_letters,Q1454111 (0.867; token_jaccard=0.67) free abelian group [layer3.csv]; Q121069543 (0.867; token_jaccard=0.67) free group action [layer5.csv]; Q122364643 (0.867; token_jaccard=0.67) torsion-free group [layer4.csv]
+Q662830,fundamental group,https://arxiv.org/pdf/1612.09375#page=15,fundamental group,layer4.csv,1.000,exact_letters,Q5508957 (0.867; token_jaccard=0.67) fundamental group scheme [layer5.csv]; Q114703944 (0.867; token_jaccard=0.67) fundamental group theory [layer2.csv]; Q288764 (0.867; token_jaccard=0.67) étale fundamental group [layer4.csv]
+Q743179,normal subgroup of,https://arxiv.org/pdf/1612.09375#page=143,normal subgroup,layer5.csv,0.867,token_jaccard=0.67,
+Q3117899,opposite group,https://arxiv.org/pdf/1612.09375#page=34,Opposite group,layer3.csv,1.000,exact_letters,
+Q54555759,order of element of group,https://arxiv.org/pdf/1612.09375#page=93,order of a group element,layer5.csv,0.920,token_jaccard=0.80,
+Q1046291,topological group,https://arxiv.org/pdf/1612.09375#page=44,topological group,layer3.csv,1.000,exact_letters,Q7825020 (0.867; token_jaccard=0.67) abelian topological group [layer5.csv]; Q127766994 (0.867; token_jaccard=0.67) complete topological group [layer5.csv]
+Q207476,holomorphic function,https://arxiv.org/pdf/1612.09375#page=161,holomorphic function,layer4.csv,1.000,exact_letters,
+Q1144780,homology,https://arxiv.org/pdf/1612.09375#page=29,homology,layer3.csv,1.000,exact_letters,Q3092826 (1.000; exact_letters) homology [layer3.csv]
+Q746083,homotopy,https://arxiv.org/pdf/1612.09375#page=25,homotopy,layer3.csv,1.000,exact_letters,
+Q11282261,identity,https://arxiv.org/pdf/1612.09375#page=18,Identity,layer4.csv,1.000,exact_letters,Q130979739 (1.000; exact_letters) Identity [layer5.csv]; Q14755224 (1.000; exact_letters) Identity [layer5.csv]; Q17079427 (1.000; exact_letters) identity [layer4.csv]; Q19801105 (1.000; exact_letters) Identity [layer5.csv]
+Q128032193,of functor identity,https://arxiv.org/pdf/1612.09375#page=33,identity functor,layer3.csv,0.867,token_jaccard=0.67,
+Q117225652,of homomorphism identity,https://arxiv.org/pdf/1612.09375#page=138,identity homomorphism,layer4.csv,0.867,token_jaccard=0.67,
+Q6014822,inclusion,https://arxiv.org/pdf/1612.09375#page=14,inclusion,layer1.csv,1.000,exact_letters,
+Q182003,injection,https://arxiv.org/pdf/1612.09375#page=131,injection,layer2.csv,1.000,exact_letters,
+Q1625040,injective object,https://arxiv.org/pdf/1612.09375#page=148,injective object,layer4.csv,1.000,exact_letters,
+Q100964853,intersection,https://arxiv.org/pdf/1612.09375#page=118,Intersection,layer5.csv,1.000,exact_letters,Q127600244 (1.000; exact_letters) Intersection [layer5.csv]; Q17141489 (1.000; exact_letters) intersection [layer1.csv]; Q185837 (1.000; exact_letters) intersection [layer2.csv]; Q55717144 (1.000; exact_letters) Intersection [layer5.csv]
+Q7017933,inverse,https://arxiv.org/pdf/1612.09375#page=20,inverse,layer1.csv,1.000,exact_letters,
+Q6060386,image inverse,https://arxiv.org/pdf/1612.09375#page=65,inverse image functor,layer3.csv,0.867,token_jaccard=0.67,
+Q2634828,limit inverse,https://arxiv.org/pdf/1612.09375#page=128,inverse limit,layer5.csv,1.000,token_jaccard=1.00,
+Q6086107,of categories isomorphism,https://arxiv.org/pdf/1612.09375#page=34,isomorphism of categories,layer5.csv,1.000,token_jaccard=1.00,
+Q110535030,natural isomorphism,https://arxiv.org/pdf/1612.09375#page=39,natural isomorphism,layer3.csv,1.000,exact_letters,
+Q11061460,join,https://arxiv.org/pdf/1612.09375#page=136,join,layer3.csv,1.000,exact_letters,Q2003535 (1.000; exact_letters) JOIN [layer5.csv]; Q3183033 (1.000; exact_letters) join [layer2.csv]; Q6268984 (1.000; exact_letters) join [layer4.csv]
+Q1723418,Kan extension,https://arxiv.org/pdf/1612.09375#page=165,Kan extension,layer3.csv,1.000,exact_letters,
+Q2914509,kernel,https://arxiv.org/pdf/1612.09375#page=14,kernel,layer3.csv,1.000,exact_letters,Q2920416 (1.000; exact_letters) kernel [layer2.csv]; Q3345662 (1.000; exact_letters) kernel [layer3.csv]; Q574844 (1.000; exact_letters) kernel [layer3.csv]; Q687704 (1.000; exact_letters) kernel [layer1.csv]
+Q6489030,large,https://arxiv.org/pdf/1612.09375#page=83,Large,layer5.csv,1.000,exact_letters,
+Q664495,Lie algebra,https://arxiv.org/pdf/1612.09375#page=50,Lie algebra,layer2.csv,1.000,exact_letters,Q632521 (0.867; token_jaccard=0.67) affine Lie algebra [layer5.csv]; Q28852305 (0.867; token_jaccard=0.67) classical Lie algebra [layer5.csv]; Q5155287 (0.867; token_jaccard=0.67) compact Lie algebra [layer3.csv]; Q5499906 (0.867; token_jaccard=0.67) free Lie algebra [layer4.csv]
+Q106517809,limit,https://arxiv.org/pdf/1612.09375#page=126,limit,layer3.csv,1.000,exact_letters,Q112609197 (1.000; exact_letters) Limit [layer5.csv]; Q123514528 (1.000; exact_letters) limit [layer4.csv]; Q1322614 (1.000; exact_letters) limit [layer1.csv]; Q136036266 (1.000; exact_letters) limit [layer2.csv]
+Q2634828,inverse limit,https://arxiv.org/pdf/1612.09375#page=128,inverse limit,layer2.csv,1.000,exact_letters,
+Q121771058,locally small,https://arxiv.org/pdf/1612.09375#page=83,locally small category,layer5.csv,0.867,token_jaccard=0.67,
+Q22283522,loop,https://arxiv.org/pdf/1612.09375#page=100,Loop,layer5.csv,1.000,exact_letters,Q25208973 (1.000; exact_letters) Loop [layer5.csv]; Q3836720 (1.000; exact_letters) loop [layer4.csv]; Q4360336 (1.000; exact_letters) Loop [layer5.csv]; Q4558786 (1.000; exact_letters) loop [layer4.csv]
+Q10855396,lowest common multiple,https://arxiv.org/pdf/1612.09375#page=136,common multiple,layer3.csv,0.867,token_jaccard=0.67,
+Q203920,manifold,https://arxiv.org/pdf/1612.09375#page=141,manifold,layer2.csv,1.000,exact_letters,
+Q1053064,map,https://arxiv.org/pdf/1612.09375#page=18,map,layer5.csv,1.000,exact_letters,
+Q1086961,bilinear map,https://arxiv.org/pdf/1612.09375#page=12,bilinear map,layer4.csv,1.000,exact_letters,
+Q44337,matrix,https://arxiv.org/pdf/1612.09375#page=48,matrix,layer2.csv,1.000,exact_letters,Q943436 (1.000; exact_letters) Matrix [layer5.csv]
+Q117713552,meet,https://arxiv.org/pdf/1612.09375#page=119,meet,layer3.csv,1.000,exact_letters,
+Q180953,metric space,https://arxiv.org/pdf/1612.09375#page=99,metric space,layer3.csv,1.000,exact_letters,Q124633554 (0.867; token_jaccard=0.67) compact metric space [layer4.csv]; Q848569 (0.867; token_jaccard=0.67) complete metric space [layer5.csv]; Q3966092 (0.867; token_jaccard=0.67) convex metric space [layer4.csv]; Q6034319 (0.867; token_jaccard=0.67) injective metric space [layer5.csv]
+Q10585806,minimum,https://arxiv.org/pdf/1612.09375#page=118,minimum,layer5.csv,1.000,exact_letters,
+Q3317845,model,https://arxiv.org/pdf/1612.09375#page=54,Model,layer5.csv,1.000,exact_letters,Q33551297 (1.000; exact_letters) Model [layer5.csv]; Q65241326 (1.000; exact_letters) model [layer2.csv]
+Q208237,monoid,https://arxiv.org/pdf/1612.09375#page=23,monoid,layer2.csv,1.000,exact_letters,
+Q1945067,monomorphism,https://arxiv.org/pdf/1612.09375#page=131,monomorphism,layer4.csv,1.000,exact_letters,
+Q1948412,morphism,https://arxiv.org/pdf/1612.09375#page=18,morphism,layer3.csv,1.000,exact_letters,
+Q1442189,natural transformation,https://arxiv.org/pdf/1612.09375#page=36,natural transformation,layer2.csv,1.000,exact_letters,Q25304046 (0.867; token_jaccard=0.67) lax natural transformation [layer1.csv]
+Q1442189,identity natural transformation,https://arxiv.org/pdf/1612.09375#page=38,natural transformation,layer5.csv,0.867,token_jaccard=0.67,
+Q66361173,naturally,https://arxiv.org/pdf/1612.09375#page=40,Naturally,layer5.csv,1.000,exact_letters,
+Q10535634,initial object,https://arxiv.org/pdf/1612.09375#page=56,initial object,layer2.csv,1.000,exact_letters,Q25098887 (0.867; token_jaccard=0.67) strict initial object [layer5.csv]
+Q2112502,projective object,https://arxiv.org/pdf/1612.09375#page=148,projective object,layer4.csv,1.000,exact_letters,
+Q91432273,terminal object,https://arxiv.org/pdf/1612.09375#page=56,terminal object,layer2.csv,1.000,exact_letters,
+Q78054942,vs.\ preordered set,https://arxiv.org/pdf/1612.09375#page=24,preordered set,layer4.csv,0.867,token_jaccard=0.67,
+Q3054922,totally ordered set,https://arxiv.org/pdf/1612.09375#page=47,totally ordered set,layer1.csv,1.000,exact_letters,
+Q1756942,partial function,https://arxiv.org/pdf/1612.09375#page=72,partial function,layer1.csv,1.000,exact_letters,
+Q474715,partially ordered set,https://arxiv.org/pdf/1612.09375#page=23,partially ordered set,layer4.csv,1.000,exact_letters,
+Q161519,permutation,https://arxiv.org/pdf/1612.09375#page=47,permutation,layer1.csv,1.000,exact_letters,
+Q43260,polynomial,https://arxiv.org/pdf/1612.09375#page=29,polynomial,layer3.csv,1.000,exact_letters,
+Q110978863,power,https://arxiv.org/pdf/1612.09375#page=120,Power,layer5.csv,1.000,exact_letters,Q11756173 (1.000; exact_letters) Power [layer5.csv]; Q125559847 (1.000; exact_letters) Power [layer5.csv]; Q17073246 (1.000; exact_letters) Power [layer5.csv]; Q18170280 (1.000; exact_letters) Power [layer5.csv]
+Q206925,series power,https://arxiv.org/pdf/1612.09375#page=161,power series,layer5.csv,1.000,token_jaccard=1.00,Q1003025 (0.867; token_jaccard=0.67) formal power series [layer5.csv]; Q3045470 (0.867; token_jaccard=0.67) power series expansion [layer2.csv]
+Q205170,set power,https://arxiv.org/pdf/1612.09375#page=77,power set,layer4.csv,1.000,token_jaccard=1.00,Q116269680 (0.867; token_jaccard=0.67) power set functor [layer3.csv]
+Q1144319,predicate,https://arxiv.org/pdf/1612.09375#page=65,predicate,layer3.csv,1.000,exact_letters,
+Q7241077,presheaf,https://arxiv.org/pdf/1612.09375#page=32,presheaf,layer3.csv,1.000,exact_letters,
+Q901718,product,https://arxiv.org/pdf/1612.09375#page=116,product,layer2.csv,1.000,exact_letters,Q919107 (1.000; exact_letters) product [layer4.csv]
+Q1812172,empty product,https://arxiv.org/pdf/1612.09375#page=119,empty product,layer3.csv,1.000,exact_letters,
+Q13415428,projection,https://arxiv.org/pdf/1612.09375#page=116,projection,layer2.csv,1.000,exact_letters,Q3134666 (1.000; exact_letters) projection [layer4.csv]; Q519967 (1.000; exact_letters) projection [layer3.csv]; Q7249440 (1.000; exact_letters) projection [layer2.csv]
+Q1397439,pullback,https://arxiv.org/pdf/1612.09375#page=122,pullback,layer2.csv,1.000,exact_letters,Q25345330 (1.000; exact_letters) pullback [layer3.csv]; Q978505 (1.000; exact_letters) pullback [layer3.csv]
+Q1633079,pushout,https://arxiv.org/pdf/1612.09375#page=138,pushout,layer2.csv,1.000,exact_letters,
+Q3966112,of set quotient,https://arxiv.org/pdf/1612.09375#page=78,quotient set,layer2.csv,0.867,token_jaccard=0.67,
+Q203066,relation,https://arxiv.org/pdf/1612.09375#page=136,relation,layer2.csv,1.000,exact_letters,
+Q161172,ring,https://arxiv.org/pdf/1612.09375#page=10,ring,layer3.csv,1.000,exact_letters,Q25415527 (1.000; exact_letters) Ring [layer5.csv]; Q531328 (1.000; exact_letters) Ring [layer5.csv]; Q60837942 (1.000; exact_letters) Ring [layer5.csv]; Q111962410 (1.000; token_jaccard=1.00) Ring Ring [layer5.csv]
+Q5051859,category of rings,https://arxiv.org/pdf/1612.09375#page=19,category of rings,layer4.csv,1.000,exact_letters,
+Q17102788,of functions ring,https://arxiv.org/pdf/1612.09375#page=30,ring of symmetric functions,layer4.csv,0.900,token_jaccard=0.75,
+Q1455652,polynomial ring,https://arxiv.org/pdf/1612.09375#page=16,polynomial ring,layer3.csv,1.000,exact_letters,Q7226641 (0.867; token_jaccard=0.67) polynomial identity ring [layer4.csv]
+Q111033323,scheme,https://arxiv.org/pdf/1612.09375#page=29,Scheme,layer5.csv,1.000,exact_letters,Q1155772 (1.000; exact_letters) scheme [layer4.csv]; Q3951878 (1.000; exact_letters) scheme [layer2.csv]
+Q11703678,section,https://arxiv.org/pdf/1612.09375#page=79,section,layer5.csv,1.000,exact_letters,Q17103180 (1.000; exact_letters) section [layer4.csv]
+Q110832802,sequence,https://arxiv.org/pdf/1612.09375#page=79,sequence,layer3.csv,1.000,exact_letters,Q133250 (1.000; exact_letters) sequence [layer2.csv]; Q1352777 (1.000; exact_letters) sequence [layer3.csv]; Q20820279 (1.000; exact_letters) Sequence [layer3.csv]; Q23767840 (1.000; exact_letters) Sequence [layer5.csv]
+Q595298,sheaf,https://arxiv.org/pdf/1612.09375#page=32,sheaf,layer3.csv,1.000,exact_letters,
+Q2119470,Sierpi\'nski space,https://arxiv.org/pdf/1612.09375#page=101,Sierpiński space,layer4.csv,1.000,exact_letters,
+Q12507,sphere,https://arxiv.org/pdf/1612.09375#page=140,sphere,layer2.csv,1.000,exact_letters,Q744500 (1.000; exact_letters) Sphere [layer5.csv]
+Q2033899,Stone--\v Cech compactification,https://arxiv.org/pdf/1612.09375#page=172,Stone–Čech compactification,layer4.csv,0.900,token_jaccard=0.75,
+Q2547089,subobject,https://arxiv.org/pdf/1612.09375#page=133,subobject,layer4.csv,1.000,exact_letters,
+Q7631737,classifier subobject,https://arxiv.org/pdf/1612.09375#page=175,subobject classifier,layer4.csv,1.000,token_jaccard=1.00,
+Q177646,subset,https://arxiv.org/pdf/1612.09375#page=77,subset,layer2.csv,1.000,exact_letters,
+Q130565512,sum,https://arxiv.org/pdf/1612.09375#page=135,SUM,layer4.csv,1.000,exact_letters,Q218005 (1.000; exact_letters) sum [layer2.csv]
+Q1812158,empty sum,https://arxiv.org/pdf/1612.09375#page=135,empty sum,layer3.csv,1.000,exact_letters,
+Q215071,supremum,https://arxiv.org/pdf/1612.09375#page=136,supremum,layer2.csv,1.000,exact_letters,
+Q3505239,surface,https://arxiv.org/pdf/1612.09375#page=140,surface,layer4.csv,1.000,exact_letters,Q484298 (1.000; exact_letters) surface [layer3.csv]; Q66539728 (1.000; exact_letters) surface [layer2.csv]
+Q1163016,tensor product,https://arxiv.org/pdf/1612.09375#page=13,tensor product,layer4.csv,1.000,exact_letters,Q39046230 (0.867; token_jaccard=0.67) derived tensor product [layer4.csv]; Q96382131 (0.867; token_jaccard=0.67) inductive tensor product [layer5.csv]; Q1663619 (0.867; token_jaccard=0.67) injective tensor product [layer4.csv]; Q89672221 (0.867; token_jaccard=0.67) projective tensor product [layer4.csv]
+Q179899,topological space,https://arxiv.org/pdf/1612.09375#page=14,topological space,layer1.csv,1.000,exact_letters,Q4352436 (0.867; token_jaccard=0.67) finite topological space [layer4.csv]; Q590554 (0.867; token_jaccard=0.67) noetherian topological space [layer5.csv]; Q1139111 (0.867; token_jaccard=0.67) quotient topological space [layer4.csv]; Q114716129 (0.867; token_jaccard=0.67) topological space theory [layer2.csv]
+Q2000555,category of topological spaces,https://arxiv.org/pdf/1612.09375#page=20,category of topological spaces,layer2.csv,1.000,exact_letters,Q113834084 (0.920; token_jaccard=0.80) category of pointed topological spaces [layer2.csv]; Q5051854 (0.920; token_jaccard=0.80) category of topological vector spaces [layer5.csv]; Q5051850 (0.840; token_jaccard=0.60) category of metric spaces [layer2.csv]
+Q179899,indiscrete topological space,https://arxiv.org/pdf/1612.09375#page=15,topological space,layer1.csv,0.867,token_jaccard=0.67,
+Q2143621,topos,https://arxiv.org/pdf/1612.09375#page=90,topos,layer1.csv,1.000,exact_letters,Q25098768 (1.000; token_jaccard=1.00) ∞-topos [layer5.csv]
+Q4596935,2-category,https://arxiv.org/pdf/1612.09375#page=46,strict 2-category,layer3.csv,0.867,token_jaccard=0.67,
+Q124168363,type,https://arxiv.org/pdf/1612.09375#page=87,type,layer1.csv,1.000,exact_letters,Q834884 (1.000; exact_letters) type [layer1.csv]
+Q123738054,union,https://arxiv.org/pdf/1612.09375#page=76,Union,layer5.csv,1.000,exact_letters,Q185359 (1.000; exact_letters) union [layer4.csv]; Q2669934 (1.000; exact_letters) UNION [layer5.csv]
+Q17548110,uniqueness,https://arxiv.org/pdf/1612.09375#page=9,uniqueness,layer4.csv,1.000,exact_letters,
+Q21647271,variety,https://arxiv.org/pdf/1612.09375#page=44,Variety,layer5.csv,1.000,exact_letters,Q29107373 (1.000; exact_letters) Variety [layer5.csv]; Q3502010 (1.000; exact_letters) variety [layer3.csv]; Q3554826 (1.000; exact_letters) Variety [layer5.csv]; Q554984 (1.000; exact_letters) Variety [layer5.csv]
+Q125977,vector space,https://arxiv.org/pdf/1612.09375#page=11,vector space,layer2.csv,1.000,exact_letters,Q5156614 (0.867; token_jaccard=0.67) complex vector space [layer3.csv]; Q3058338 (0.867; token_jaccard=0.67) finite vector space [layer4.csv]; Q42797338 (0.867; token_jaccard=0.67) function vector space [layer5.csv]; Q3058206 (0.867; token_jaccard=0.67) graded vector space [layer5.csv]
+Q98929437,of linear maps vector space,https://arxiv.org/pdf/1612.09375#page=31,space of linear maps,layer5.csv,0.920,token_jaccard=0.80,
+Q26401,vertex,https://arxiv.org/pdf/1612.09375#page=126,vertex,layer3.csv,1.000,exact_letters,Q362765 (1.000; exact_letters) vertex [layer4.csv]
+Q122953307,well-powered,https://arxiv.org/pdf/1612.09375#page=176,well-powered category,layer5.csv,0.867,token_jaccard=0.67,
+Q10944557,word,https://arxiv.org/pdf/1612.09375#page=27,word,layer1.csv,1.000,exact_letters,Q2594083 (1.000; exact_letters) word [layer3.csv]
+Q320577,Yoneda lemma,https://arxiv.org/pdf/1612.09375#page=102,Yoneda lemma,layer3.csv,1.000,exact_letters,

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unique factorization domain — MathGloss</title>
+    <link rel="stylesheet" href="../web/styles.css" />
+    <style>
+      body { max-width: 780px; margin: 24px auto; padding: 0 16px; }
+      nav { margin-bottom: 20px; }
+      nav a { text-decoration: none; font-size: 0.95rem; }
+      .wikidata-meta { margin-bottom: 24px; }
+      .wikidata-meta dt { font-weight: bold; }
+      .wikidata-meta dd { margin: 0 0 8px 0; }
+      .sources h2 { margin-top: 32px; }
+      .sources ul { list-style: disc; padding-left: 20px; }
+      .sources li { margin-bottom: 8px; }
+    </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+  </head>
+  <body>
+    <nav><a href="../web/">← Back to index</a></nav>
+    <h1>Unique factorization domain</h1>
+    <section class="wikidata-meta">
+      <dl>
+        <dt>Wikidata ID</dt>
+        <dd><a href="https://www.wikidata.org/wiki/Q1052579" target="_blank" rel="noopener">Q1052579</a></dd>
+        <dt>Label</dt>
+        <dd>Unique factorization domain</dd>
+      </dl>
+    </section>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An <a href="../entries/Q628792.html" target="_blank" rel="noopener">integral domain</a> $R$ is a <strong>unique factorization domain</strong> if 1. Every nonzero, non-<a href="https://mathgloss.github.io/MathGloss/chicago/unit_of_a_ring" target="_blank" rel="noopener">unit</a> $r\in R$ can be written as a product of <a href="https://mathgloss.github.io/MathGloss/chicago/irreducible_element_of_an_integral_domain" target="_blank" rel="noopener">irreducibles</a>; and 2. Whenever $p_1\cdots p_n=q_1\cdots q_m$ for $p_i,q_j$ <a href="https://mathgloss.github.io/MathGloss/chicago/irreducible_element_of_an_integral_domain" target="_blank" rel="noopener">irreducible</a> and $m,n\in\mathbb N$, then $m=n$ and there is a relabeling/reordering of the $q_j$ such that $q_i$ is <a href="https://mathgloss.github.io/MathGloss/chicago/associate_elements_in_an_integral_domain" target="_blank" rel="noopener">associate</a> to $p_i$ for all $1\leq i\leq n$.</p>
+<p>In particular, for every <a href="https://mathgloss.github.io/MathGloss/chicago/associate_elements_in_an_integral_domain" target="_blank" rel="noopener">association</a> <a href="../entries/Q1211071.html" target="_blank" rel="noopener">class</a> of <a href="https://mathgloss.github.io/MathGloss/chicago/irreducible_element_of_an_integral_domain" target="_blank" rel="noopener">irreducibles</a>, we can choose a representative, and let $P$ be the collection of such representatives so that every $r\in R$ can be written uniquely as $$r= u\prod_{p\in P} p^{e_p}$$ for $u$ a <a href="https://mathgloss.github.io/MathGloss/chicago/unit_of_a_ring" target="_blank" rel="noopener">unit</a> and all but finitely many of the $e_p$ equal to zero.</p>
+    </section>
+<section class="sources">
+      <h2>Sources</h2>
+      <ul>
+        <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/UniqueFactorizationDomain/Defs.html#UniqueFactorizationMonoid" target="_blank" rel="noopener">unique factorisation domain</a></li>
+        <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/unique+factorization+domain" target="_blank" rel="noopener">unique factorization domain</a></li>
+      </ul>
+    </section>
+
+  </body>
+</html>

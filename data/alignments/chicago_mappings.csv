@@ -1,395 +1,416 @@
 Wikidata ID,Chicago,Chicago link
-Q2976036,Baire class,https://mathgloss.github.io/MathGloss/chicago/baire_class
-Q803931,Baire property,https://mathgloss.github.io/MathGloss/chicago/baire_property
-Q3459695,Banach-Mazur game,https://mathgloss.github.io/MathGloss/chicago/banach-mazur_game
-Q194397,Banach space,https://mathgloss.github.io/MathGloss/chicago/banach_space
-Q3058218,Borel space,https://mathgloss.github.io/MathGloss/chicago/borel_space
-Q1080067,Borel σ-algebra,https://mathgloss.github.io/MathGloss/chicago/borel_σ-algebra
-Q273188,Cantor set,https://mathgloss.github.io/MathGloss/chicago/cantor_set
-Q217847,Cauchy sequence,https://mathgloss.github.io/MathGloss/chicago/cauchy_sequence
-Q867345,Euclidean domain,https://mathgloss.github.io/MathGloss/chicago/euclidean_domain
-Q181365,Euclidean inner product,https://mathgloss.github.io/MathGloss/chicago/euclidean_inner_product
-Q190026,Euler's totient function,https://mathgloss.github.io/MathGloss/chicago/euler's_totient_function
-Q852973,Euler characteristic of a graph,https://mathgloss.github.io/MathGloss/chicago/euler_characteristic_of_a_graph
-Q176244,Frattini subgroup,https://mathgloss.github.io/MathGloss/chicago/frattini_subgroup
-Q2706744,G-invariant subspace,https://mathgloss.github.io/MathGloss/chicago/g-invariant_subspace
-Q2706744,G-invariant vectors,https://mathgloss.github.io/MathGloss/chicago/g-invariant_vectors
-Q4944906,Gale-Stewart game,https://mathgloss.github.io/MathGloss/chicago/gale-stewart_game
-Q724975,Gaussian integers,https://mathgloss.github.io/MathGloss/chicago/gaussian_integers
-Q189569,Hamel basis,https://mathgloss.github.io/MathGloss/chicago/hamel_basis
-Q326908,Hausdorff,https://mathgloss.github.io/MathGloss/chicago/hausdorff
-Q77583424,Hermitian inner product,https://mathgloss.github.io/MathGloss/chicago/hermitian_inner_product
-Q620495,Hessian matrix,https://mathgloss.github.io/MathGloss/chicago/hessian_matrix
-Q190056,Hilbert space,https://mathgloss.github.io/MathGloss/chicago/hilbert_space
-Q1474543,Jacobian determinant,https://mathgloss.github.io/MathGloss/chicago/jacobian_determinant
-Q506041,Jacobian matrix,https://mathgloss.github.io/MathGloss/chicago/jacobian_matrix
-Q192826,Kronecker delta,https://mathgloss.github.io/MathGloss/chicago/kronecker_delta
-Q203484,Laplacian,https://mathgloss.github.io/MathGloss/chicago/laplacian
-Q516776,Lebesgue measurable function,https://mathgloss.github.io/MathGloss/chicago/lebesgue_measurable_function
-Q827230,Lebesgue measure,https://mathgloss.github.io/MathGloss/chicago/lebesgue_measure
-Q25447455,Lebesgue outer measure,https://mathgloss.github.io/MathGloss/chicago/lebesgue_outer_measure
-Q664495,Lie algebra,https://mathgloss.github.io/MathGloss/chicago/lie_algebra
-Q3882299,Lie algebra homomorphism,https://mathgloss.github.io/MathGloss/chicago/lie_algebra_homomorphism
-Q1136782,Lie algebra representation,https://mathgloss.github.io/MathGloss/chicago/lie_algebra_representation
-Q622679,Lie group,https://mathgloss.github.io/MathGloss/chicago/lie_group
-Q1334417,Lorentz group,https://mathgloss.github.io/MathGloss/chicago/lorentz_group
-Q305936,Lp space,https://mathgloss.github.io/MathGloss/chicago/lp_space
-Q1361393,Lusin function,https://mathgloss.github.io/MathGloss/chicago/lusin_function
-Q2444982,Noetherian module,https://mathgloss.github.io/MathGloss/chicago/noetherian_module
-Q582271,Noetherian ring,https://mathgloss.github.io/MathGloss/chicago/noetherian_ring
-Q1632419,Pontryagin dual,https://mathgloss.github.io/MathGloss/chicago/pontryagin_dual
-Q1191319,Radon-Nikodym derivative,https://mathgloss.github.io/MathGloss/chicago/radon-nikodym_derivative
-Q2126650,Radon measure,https://mathgloss.github.io/MathGloss/chicago/radon_measure
-Q697181,Riemann integrable,https://mathgloss.github.io/MathGloss/chicago/riemann_integrable
-Q1369621,Schwartz space,https://mathgloss.github.io/MathGloss/chicago/schwartz_space
-Q2601117,Stirling numbers of the second kind,https://mathgloss.github.io/MathGloss/chicago/stirling_numbers_of_the_second_kind
-Q78269866,Sylow p-subgroup,https://mathgloss.github.io/MathGloss/chicago/sylow_p-subgroup
-Q3229352,Vitali covering,https://mathgloss.github.io/MathGloss/chicago/vitali_covering
-Q768074,Weyl group,https://mathgloss.github.io/MathGloss/chicago/weyl_group
+Q3532117,Alexandroff space,https://mathgloss.github.io/MathGloss/chicago/Alexandroff_space
+Q803935,Baire class,https://mathgloss.github.io/MathGloss/chicago/Baire_class
+Q803931,Baire property,https://mathgloss.github.io/MathGloss/chicago/Baire_property
+Q803936,Baire space,https://mathgloss.github.io/MathGloss/chicago/Baire_space
+Q806066,Banach algebra,https://mathgloss.github.io/MathGloss/chicago/Banach_algebra
+Q194397,Banach space,https://mathgloss.github.io/MathGloss/chicago/Banach_space
+Q516776,Borel function,https://mathgloss.github.io/MathGloss/chicago/Borel_function
+Q47015986,Borel space,https://mathgloss.github.io/MathGloss/chicago/Borel_space
+Q273188,Cantor set,https://mathgloss.github.io/MathGloss/chicago/Cantor_set
+Q217847,Cauchy sequence,https://mathgloss.github.io/MathGloss/chicago/Cauchy_sequence
+Q867345,Euclidean domain,https://mathgloss.github.io/MathGloss/chicago/Euclidean_domain
+Q190026,Euler's totient function,https://mathgloss.github.io/MathGloss/chicago/Euler's_totient_function
+Q176244,Frattini subgroup,https://mathgloss.github.io/MathGloss/chicago/Frattini_subgroup
+Q769124,Frobenius endomorphism,https://mathgloss.github.io/MathGloss/chicago/Frobenius_endomorphism
+Q2020004,Galois extension,https://mathgloss.github.io/MathGloss/chicago/Galois_extension
+Q92552,Galois group of a polynomial,https://mathgloss.github.io/MathGloss/chicago/Galois_group_of_a_polynomial
+Q724975,Gaussian integers,https://mathgloss.github.io/MathGloss/chicago/Gaussian_integers
+Q1162676,Haar integral,https://mathgloss.github.io/MathGloss/chicago/Haar_integral
+Q189569,Hamel basis,https://mathgloss.github.io/MathGloss/chicago/Hamel_basis
+Q417130,Hausdorff,https://mathgloss.github.io/MathGloss/chicago/Hausdorff
+Q214159,Hermitian inner product,https://mathgloss.github.io/MathGloss/chicago/Hermitian_inner_product
+Q620495,Hessian matrix,https://mathgloss.github.io/MathGloss/chicago/Hessian_matrix
+Q190056,Hilbert space,https://mathgloss.github.io/MathGloss/chicago/Hilbert_space
+Q506041,Jacobian determinant,https://mathgloss.github.io/MathGloss/chicago/Jacobian_determinant
+Q506041,Jacobian matrix,https://mathgloss.github.io/MathGloss/chicago/Jacobian_matrix
+Q192826,Kronecker delta,https://mathgloss.github.io/MathGloss/chicago/Kronecker_delta
+Q203484,Laplacian,https://mathgloss.github.io/MathGloss/chicago/Laplacian
+Q425432,Laurent series,https://mathgloss.github.io/MathGloss/chicago/Laurent_series
+Q853831,Lebesgue integral,https://mathgloss.github.io/MathGloss/chicago/Lebesgue_integral
+Q516776,Lebesgue measurable function,https://mathgloss.github.io/MathGloss/chicago/Lebesgue_measurable_function
+Q827230,Lebesgue measure,https://mathgloss.github.io/MathGloss/chicago/Lebesgue_measure
+Q827230,Lebesgue outer measure,https://mathgloss.github.io/MathGloss/chicago/Lebesgue_outer_measure
+Q664495,Lie algebra,https://mathgloss.github.io/MathGloss/chicago/Lie_algebra
+Q664495,Lie algebra homomorphism,https://mathgloss.github.io/MathGloss/chicago/Lie_algebra_homomorphism
+Q1136782,Lie algebra representation,https://mathgloss.github.io/MathGloss/chicago/Lie_algebra_representation
+Q18353697,Lie correspondence,https://mathgloss.github.io/MathGloss/chicago/Lie_correspondence
+Q622679,Lie group,https://mathgloss.github.io/MathGloss/chicago/Lie_group
+Q1334417,Lorentz group,https://mathgloss.github.io/MathGloss/chicago/Lorentz_group
+Q305936,Lp space,https://mathgloss.github.io/MathGloss/chicago/Lp_space
+Q2444982,Noetherian module,https://mathgloss.github.io/MathGloss/chicago/Noetherian_module
+Q582271,Noetherian ring,https://mathgloss.github.io/MathGloss/chicago/Noetherian_ring
+Q1632419,Pontryagin dual,https://mathgloss.github.io/MathGloss/chicago/Pontryagin_dual
+Q2126650,Radon measure,https://mathgloss.github.io/MathGloss/chicago/Radon_measure
+Q697181,Riemann integrable,https://mathgloss.github.io/MathGloss/chicago/Riemann_integrable
+Q4298935,Schur polynomials,https://mathgloss.github.io/MathGloss/chicago/Schur_polynomials
+Q1369621,Schwartz space,https://mathgloss.github.io/MathGloss/chicago/Schwartz_space
+Q2601117,Stirling numbers of the second kind,https://mathgloss.github.io/MathGloss/chicago/Stirling_numbers_of_the_second_kind
+Q1148924,T0 space,https://mathgloss.github.io/MathGloss/chicago/T0_space
+Q284347,T1 space,https://mathgloss.github.io/MathGloss/chicago/T1_space
+Q3229352,Vitali covering,https://mathgloss.github.io/MathGloss/chicago/Vitali_covering
+Q768074,Weyl group,https://mathgloss.github.io/MathGloss/chicago/Weyl_group
+Q124625185,Young subgroup,https://mathgloss.github.io/MathGloss/chicago/Young_subgroup
+Q664495,abelian Lie algebra,https://mathgloss.github.io/MathGloss/chicago/abelian_Lie_algebra
+Q318705,abelian extension,https://mathgloss.github.io/MathGloss/chicago/abelian_extension
 Q181296,abelian group,https://mathgloss.github.io/MathGloss/chicago/abelian_group
-Q318598,abelianization,https://mathgloss.github.io/MathGloss/chicago/abelianization
+Q522216,abelianization,https://mathgloss.github.io/MathGloss/chicago/abelianization
 Q332504,absolute continuity,https://mathgloss.github.io/MathGloss/chicago/absolute_continuity
-Q20827138,absolute continuity of measure,https://mathgloss.github.io/MathGloss/chicago/absolute_continuity_of_measure
 Q332465,absolute convergence,https://mathgloss.github.io/MathGloss/chicago/absolute_convergence
 Q120812,absolute value,https://mathgloss.github.io/MathGloss/chicago/absolute_value
-Q2858846,adjoint of a linear transformation,https://mathgloss.github.io/MathGloss/chicago/adjoint_of_a_linear_transformation
-Q4379157,adjoint representation of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/adjoint_representation_of_a_lie_algebra
-Q1017106,adjoint representation of a Lie group,https://mathgloss.github.io/MathGloss/chicago/adjoint_representation_of_a_lie_group
+Q1017106,adjoint representation of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/adjoint_representation_of_a_Lie_algebra
+Q1017106,adjoint representation of a Lie group,https://mathgloss.github.io/MathGloss/chicago/adjoint_representation_of_a_Lie_group
 Q225107,adjugate,https://mathgloss.github.io/MathGloss/chicago/adjugate
 Q382497,affine transformations,https://mathgloss.github.io/MathGloss/chicago/affine_transformations
-Q382497,algebra homomorphism,https://mathgloss.github.io/MathGloss/chicago/algebra_homomorphism
-Q246506,algebra of subsets,https://mathgloss.github.io/MathGloss/chicago/algebra_of_subsets
+Q1000660,algebra homomorphism,https://mathgloss.github.io/MathGloss/chicago/algebra_homomorphism
 Q1000660,algebra over a field,https://mathgloss.github.io/MathGloss/chicago/algebra_over_a_field
+Q550791,algebraic extension,https://mathgloss.github.io/MathGloss/chicago/algebraic_extension
+Q646245,algebraic integer,https://mathgloss.github.io/MathGloss/chicago/algebraic_integer
+Q168817,algebraic number,https://mathgloss.github.io/MathGloss/chicago/algebraic_number
+Q1047547,algebraically closed,https://mathgloss.github.io/MathGloss/chicago/algebraically_closed
 Q1139334,almost everywhere,https://mathgloss.github.io/MathGloss/chicago/almost_everywhere
-Q25377974,almost uniform convergence,https://mathgloss.github.io/MathGloss/chicago/almost_uniform_convergence
 Q438814,alternating group,https://mathgloss.github.io/MathGloss/chicago/alternating_group
-Q567083,annihilator of a submodule,https://mathgloss.github.io/MathGloss/chicago/annihilator_of_a_submodule
+Q215084,analytic function,https://mathgloss.github.io/MathGloss/chicago/analytic_function
+Q651343,argument,https://mathgloss.github.io/MathGloss/chicago/argument
 Q177251,associative,https://mathgloss.github.io/MathGloss/chicago/associative
 Q744960,associative algebra,https://mathgloss.github.io/MathGloss/chicago/associative_algebra
+Q1303310,atlas,https://mathgloss.github.io/MathGloss/chicago/atlas
 Q782566,automorphism,https://mathgloss.github.io/MathGloss/chicago/automorphism
 Q60790315,automorphism group,https://mathgloss.github.io/MathGloss/chicago/automorphism_group
-Q511093,barycenter,https://mathgloss.github.io/MathGloss/chicago/barycenter
+Q809690,barycenter,https://mathgloss.github.io/MathGloss/chicago/barycenter
 Q189569,basis,https://mathgloss.github.io/MathGloss/chicago/basis
-Q810193,basis for abelian group,https://mathgloss.github.io/MathGloss/chicago/basis_for_abelian_group
 Q180907,bijective,https://mathgloss.github.io/MathGloss/chicago/bijective
 Q164307,binary operation,https://mathgloss.github.io/MathGloss/chicago/binary_operation
 Q130901,binary relation,https://mathgloss.github.io/MathGloss/chicago/binary_relation
 Q875399,boundary,https://mathgloss.github.io/MathGloss/chicago/boundary
-Q875399,boundary points of a manifold,https://mathgloss.github.io/MathGloss/chicago/boundary_points_of_a_manifold
-Q726212,bounded,https://mathgloss.github.io/MathGloss/chicago/bounded
+Q310647,bounded,https://mathgloss.github.io/MathGloss/chicago/bounded
 Q829653,bounded variation,https://mathgloss.github.io/MathGloss/chicago/bounded_variation
+Q163875,cardinal number,https://mathgloss.github.io/MathGloss/chicago/cardinal_number
 Q719395,category,https://mathgloss.github.io/MathGloss/chicago/category
 Q2518298,category of sets,https://mathgloss.github.io/MathGloss/chicago/category_of_sets
+Q2000555,category of topological spaces,https://mathgloss.github.io/MathGloss/chicago/category_of_topological_spaces
 Q1195852,center of a group,https://mathgloss.github.io/MathGloss/chicago/center_of_a_group
-Q190629,centralizer of a subset,https://mathgloss.github.io/MathGloss/chicago/centralizer_of_a_subset
+Q30603786,center of an algebra,https://mathgloss.github.io/MathGloss/chicago/center_of_an_algebra
 Q511093,centroid,https://mathgloss.github.io/MathGloss/chicago/centroid
+Q600043,character of a representation,https://mathgloss.github.io/MathGloss/chicago/character_of_a_representation
 Q11498021,character table,https://mathgloss.github.io/MathGloss/chicago/character_table
+Q836088,characteristic of a field,https://mathgloss.github.io/MathGloss/chicago/characteristic_of_a_field
 Q849705,characteristic polynomial,https://mathgloss.github.io/MathGloss/chicago/characteristic_polynomial
 Q747027,characteristic subgroup,https://mathgloss.github.io/MathGloss/chicago/characteristic_subgroup
-Q3828144,chart,https://mathgloss.github.io/MathGloss/chicago/chart
+Q1303310,chart,https://mathgloss.github.io/MathGloss/chicago/chart
 Q105356493,circle group,https://mathgloss.github.io/MathGloss/chicago/circle_group
-Q2138760,class,https://mathgloss.github.io/MathGloss/chicago/class
+Q217594,class,https://mathgloss.github.io/MathGloss/chicago/class
+Q986909,class function,https://mathgloss.github.io/MathGloss/chicago/class_function
 Q320357,closed,https://mathgloss.github.io/MathGloss/chicago/closed
-Q4558786,closed edge path,https://mathgloss.github.io/MathGloss/chicago/closed_edge_path
-Q644719,closed half-space,https://mathgloss.github.io/MathGloss/chicago/closed_half-space
-Q320346,closure,https://mathgloss.github.io/MathGloss/chicago/closure
-Q97623888,comeager,https://mathgloss.github.io/MathGloss/chicago/comeager
+Q4720939,closure,https://mathgloss.github.io/MathGloss/chicago/closure
+Q1747745,comeager,https://mathgloss.github.io/MathGloss/chicago/comeager
 Q165474,commutative,https://mathgloss.github.io/MathGloss/chicago/commutative
 Q522216,commutator subgroup,https://mathgloss.github.io/MathGloss/chicago/commutator_subgroup
 Q381892,compact,https://mathgloss.github.io/MathGloss/chicago/compact
-Q1780743,compact linear transformation,https://mathgloss.github.io/MathGloss/chicago/compact_linear_transformation
-Q78484790,compact symplectic group,https://mathgloss.github.io/MathGloss/chicago/compact_symplectic_group
+Q1887083,compact Lie group,https://mathgloss.github.io/MathGloss/chicago/compact_Lie_group
+Q1136376,compact support,https://mathgloss.github.io/MathGloss/chicago/compact_support
+Q936434,compact symplectic group,https://mathgloss.github.io/MathGloss/chicago/compact_symplectic_group
+Q5156434,complemented lattice,https://mathgloss.github.io/MathGloss/chicago/complemented_lattice
 Q848569,complete metric space,https://mathgloss.github.io/MathGloss/chicago/complete_metric_space
-Q5156554,complex Lie group,https://mathgloss.github.io/MathGloss/chicago/complex_lie_group
+Q106323967,complete reducibility,https://mathgloss.github.io/MathGloss/chicago/complete_reducibility
+Q5156554,complex Lie group,https://mathgloss.github.io/MathGloss/chicago/complex_Lie_group
 Q381040,complex conjugate,https://mathgloss.github.io/MathGloss/chicago/complex_conjugate
-Q445569,complexification of a vector space,https://mathgloss.github.io/MathGloss/chicago/complexification_of_a_vector_space
-Q2525646,composition series of a group,https://mathgloss.github.io/MathGloss/chicago/composition_series_of_a_group
-Q2525646,composition series of a module,https://mathgloss.github.io/MathGloss/chicago/composition_series_of_a_module
+Q207476,complex differentiability,https://mathgloss.github.io/MathGloss/chicago/complex_differentiability
+Q168698,complex exponential,https://mathgloss.github.io/MathGloss/chicago/complex_exponential
+Q467699,complex integral,https://mathgloss.github.io/MathGloss/chicago/complex_integral
+Q467699,complex line integral,https://mathgloss.github.io/MathGloss/chicago/complex_line_integral
+Q11567,complex numbers,https://mathgloss.github.io/MathGloss/chicago/complex_numbers
+Q1783179,complex orthogonal group,https://mathgloss.github.io/MathGloss/chicago/complex_orthogonal_group
+Q936434,complex symplectic group,https://mathgloss.github.io/MathGloss/chicago/complex_symplectic_group
 Q1353233,conjugacy classes,https://mathgloss.github.io/MathGloss/chicago/conjugacy_classes
+Q1353233,conjugate subgroups,https://mathgloss.github.io/MathGloss/chicago/conjugate_subgroups
 Q2051983,conjugate transpose,https://mathgloss.github.io/MathGloss/chicago/conjugate_transpose
-Q1491995,connected,https://mathgloss.github.io/MathGloss/chicago/connected
-Q91050456,connected component,https://mathgloss.github.io/MathGloss/chicago/connected_component
-Q230655,connected graph,https://mathgloss.github.io/MathGloss/chicago/connected_graph
-Q170058,continuous,https://mathgloss.github.io/MathGloss/chicago/continuous
+Q5161408,connected,https://mathgloss.github.io/MathGloss/chicago/connected
+Q1491995,connected component,https://mathgloss.github.io/MathGloss/chicago/connected_component
+Q72897900,connected graph,https://mathgloss.github.io/MathGloss/chicago/connected_graph
+Q5165409,continuous,https://mathgloss.github.io/MathGloss/chicago/continuous
 Q230689,contractible,https://mathgloss.github.io/MathGloss/chicago/contractible
-Q1131116,contracting sequence of sets in a metric space,https://mathgloss.github.io/MathGloss/chicago/contracting_sequence_of_sets_in_a_metric_space
 Q515173,contraction mapping,https://mathgloss.github.io/MathGloss/chicago/contraction_mapping
 Q768656,convergence in measure,https://mathgloss.github.io/MathGloss/chicago/convergence_in_measure
-Q193657,convex set,https://mathgloss.github.io/MathGloss/chicago/convex_set
+Q474715,convex set,https://mathgloss.github.io/MathGloss/chicago/convex_set
 Q104752,coprime,https://mathgloss.github.io/MathGloss/chicago/coprime
+Q66707394,countable,https://mathgloss.github.io/MathGloss/chicago/countable
 Q577705,critical point,https://mathgloss.github.io/MathGloss/chicago/critical_point
-Q3754024,critical value,https://mathgloss.github.io/MathGloss/chicago/critical_value
-Q212130,cycle,https://mathgloss.github.io/MathGloss/chicago/cycle
+Q124512639,critical value,https://mathgloss.github.io/MathGloss/chicago/critical_value
+Q225014,cycle,https://mathgloss.github.io/MathGloss/chicago/cycle
+Q161519,cycle type,https://mathgloss.github.io/MathGloss/chicago/cycle_type
 Q245462,cyclic group,https://mathgloss.github.io/MathGloss/chicago/cyclic_group
-Q1473607,degree of polynomial,https://mathgloss.github.io/MathGloss/chicago/degree_of_polynomial
-Q673444,dense,https://mathgloss.github.io/MathGloss/chicago/dense
-Q451323,derivation,https://mathgloss.github.io/MathGloss/chicago/derivation
-Q109314515,descending central series,https://mathgloss.github.io/MathGloss/chicago/descending_central_series
+Q1554628,cyclotomic field,https://mathgloss.github.io/MathGloss/chicago/cyclotomic_field
+Q1051983,cyclotomic polynomial,https://mathgloss.github.io/MathGloss/chicago/cyclotomic_polynomial
+Q483525,dense,https://mathgloss.github.io/MathGloss/chicago/dense
+Q398804,derivation,https://mathgloss.github.io/MathGloss/chicago/derivation
 Q178546,determinant,https://mathgloss.github.io/MathGloss/chicago/determinant
+Q1201165,determined,https://mathgloss.github.io/MathGloss/chicago/determined
+Q131598137,diameter of a set,https://mathgloss.github.io/MathGloss/chicago/diameter_of_a_set
 Q1058314,diffeomorphism,https://mathgloss.github.io/MathGloss/chicago/diffeomorphism
-Q636889,differentiable,https://mathgloss.github.io/MathGloss/chicago/differentiable
-Q1047080,differential k-form,https://mathgloss.github.io/MathGloss/chicago/differential_k-form
-Q929302,dimension of group representation,https://mathgloss.github.io/MathGloss/chicago/dimension_of_group_representation
-Q929302,dimension of vector space,https://mathgloss.github.io/MathGloss/chicago/dimension_of_vector_space
-Q13582243,direct sum decomposition of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/direct_sum_decomposition_of_a_lie_algebra
-Q13582243,direct sum of Lie algebras,https://mathgloss.github.io/MathGloss/chicago/direct_sum_of_lie_algebras
-Q13582243,direct sum of group representations,https://mathgloss.github.io/MathGloss/chicago/direct_sum_of_group_representations
-Q13582243,direct sum of module homomorphisms,https://mathgloss.github.io/MathGloss/chicago/direct_sum_of_module_homomorphisms
+Q783507,differentiable,https://mathgloss.github.io/MathGloss/chicago/differentiable
+Q1142861,direct sum of Lie algebras,https://mathgloss.github.io/MathGloss/chicago/direct_sum_of_Lie_algebras
 Q1142861,direct sum of modules,https://mathgloss.github.io/MathGloss/chicago/direct_sum_of_modules
 Q383851,directional derivative,https://mathgloss.github.io/MathGloss/chicago/directional_derivative
 Q1228851,discrete category,https://mathgloss.github.io/MathGloss/chicago/discrete_category
-Q91267214,discrete topology,https://mathgloss.github.io/MathGloss/chicago/discrete_topology
+Q175116,discrete topology,https://mathgloss.github.io/MathGloss/chicago/discrete_topology
+Q192487,discriminant,https://mathgloss.github.io/MathGloss/chicago/discriminant
 Q1782332,divisible group,https://mathgloss.github.io/MathGloss/chicago/divisible_group
 Q1231309,division algebra,https://mathgloss.github.io/MathGloss/chicago/division_algebra
-Q1226939,division in a ring,https://mathgloss.github.io/MathGloss/chicago/division_in_a_ring
 Q650741,division ring,https://mathgloss.github.io/MathGloss/chicago/division_ring
-Q3427408,dual representation of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/dual_representation_of_a_lie_algebra
 Q752487,dual space,https://mathgloss.github.io/MathGloss/chicago/dual_space
-Q1415372,edge path,https://mathgloss.github.io/MathGloss/chicago/edge_path
-Q3553768,eigenvalue,https://mathgloss.github.io/MathGloss/chicago/eigenvalue
-Q3555174,eigenvector,https://mathgloss.github.io/MathGloss/chicago/eigenvector
-Q1017231,elementary abelian p-group,https://mathgloss.github.io/MathGloss/chicago/elementary_abelian_p-group
+Q190524,eigenvalue,https://mathgloss.github.io/MathGloss/chicago/eigenvalue
+Q190524,eigenvector,https://mathgloss.github.io/MathGloss/chicago/eigenvector
 Q609566,elementary matrix,https://mathgloss.github.io/MathGloss/chicago/elementary_matrix
-Q203920,embedded m-dimensional manifold,https://mathgloss.github.io/MathGloss/chicago/embedded_m-dimensional_manifold
-Q1333611,embedded m-dimensional manifold with boundary,https://mathgloss.github.io/MathGloss/chicago/embedded_m-dimensional_manifold_with_boundary
+Q2235316,elementary symmetric polynomials,https://mathgloss.github.io/MathGloss/chicago/elementary_symmetric_polynomials
 Q980509,embedding,https://mathgloss.github.io/MathGloss/chicago/embedding
 Q1340800,endomorphism,https://mathgloss.github.io/MathGloss/chicago/endomorphism
-Q215084,entire,https://mathgloss.github.io/MathGloss/chicago/entire
+Q3055094,entire,https://mathgloss.github.io/MathGloss/chicago/entire
 Q1347208,epimorphism,https://mathgloss.github.io/MathGloss/chicago/epimorphism
 Q1211071,equivalence class,https://mathgloss.github.io/MathGloss/chicago/equivalence_class
 Q130998,equivalence relation,https://mathgloss.github.io/MathGloss/chicago/equivalence_relation
+Q5384710,equivalent metrics,https://mathgloss.github.io/MathGloss/chicago/equivalent_metrics
 Q256355,equivariant map,https://mathgloss.github.io/MathGloss/chicago/equivariant_map
-Q1969054,essential infimum,https://mathgloss.github.io/MathGloss/chicago/essential_infimum
-Q1969054,essential supremum,https://mathgloss.github.io/MathGloss/chicago/essential_supremum
-Q1969054,essentially bounded,https://mathgloss.github.io/MathGloss/chicago/essentially_bounded
-Q32998717,exponent of a finite group,https://mathgloss.github.io/MathGloss/chicago/exponent_of_a_finite_group
-Q1322786,exterior,https://mathgloss.github.io/MathGloss/chicago/exterior
-Q13408581,exterior power of a vector space,https://mathgloss.github.io/MathGloss/chicago/exterior_power_of_a_vector_space
-Q13408581,exterior power of group representations,https://mathgloss.github.io/MathGloss/chicago/exterior_power_of_group_representations
-Q13408581,exterior power of linear transformation,https://mathgloss.github.io/MathGloss/chicago/exterior_power_of_linear_transformation
+Q104804789,essential infimum,https://mathgloss.github.io/MathGloss/chicago/essential_infimum
+Q104804789,essential supremum,https://mathgloss.github.io/MathGloss/chicago/essential_supremum
+Q104804789,essentially bounded,https://mathgloss.github.io/MathGloss/chicago/essentially_bounded
+Q862761,exterior,https://mathgloss.github.io/MathGloss/chicago/exterior
+Q288465,faithful group action,https://mathgloss.github.io/MathGloss/chicago/faithful_group_action
 Q190109,field,https://mathgloss.github.io/MathGloss/chicago/field
-Q1761084,finite length R-module,https://mathgloss.github.io/MathGloss/chicago/finite_length_r-module
-Q1340572,finitely generated R-module,https://mathgloss.github.io/MathGloss/chicago/finitely_generated_r-module
+Q980509,field embedding,https://mathgloss.github.io/MathGloss/chicago/field_embedding
+Q577835,field extension,https://mathgloss.github.io/MathGloss/chicago/field_extension
+Q21018636,fixed field,https://mathgloss.github.io/MathGloss/chicago/fixed_field
+Q774579,fraction ring,https://mathgloss.github.io/MathGloss/chicago/fraction_ring
 Q431078,free group,https://mathgloss.github.io/MathGloss/chicago/free_group
+Q288465,free group action,https://mathgloss.github.io/MathGloss/chicago/free_group_action
 Q1292333,free module,https://mathgloss.github.io/MathGloss/chicago/free_module
 Q579600,functional,https://mathgloss.github.io/MathGloss/chicago/functional
 Q864475,functor,https://mathgloss.github.io/MathGloss/chicago/functor
 Q662830,fundamental group,https://mathgloss.github.io/MathGloss/chicago/fundamental_group
-Q15079592,game,https://mathgloss.github.io/MathGloss/chicago/game
-Q17521172,general linear algebra,https://mathgloss.github.io/MathGloss/chicago/general_linear_algebra
+Q1507104,game,https://mathgloss.github.io/MathGloss/chicago/game
 Q524607,general linear group,https://mathgloss.github.io/MathGloss/chicago/general_linear_group
-Q25106477,generate an R-module,https://mathgloss.github.io/MathGloss/chicago/generate_an_r-module
+Q11061828,generalized orthogonal group,https://mathgloss.github.io/MathGloss/chicago/generalized_orthogonal_group
 Q734209,generating set of a group,https://mathgloss.github.io/MathGloss/chicago/generating_set_of_a_group
 Q173582,gradient,https://mathgloss.github.io/MathGloss/chicago/gradient
 Q182598,graph of a function,https://mathgloss.github.io/MathGloss/chicago/graph_of_a_function
 Q131752,greatest common divisor,https://mathgloss.github.io/MathGloss/chicago/greatest_common_divisor
 Q83478,group,https://mathgloss.github.io/MathGloss/chicago/group
 Q288465,group action,https://mathgloss.github.io/MathGloss/chicago/group_action
-Q217608,group action invariants,https://mathgloss.github.io/MathGloss/chicago/group_action_invariants
 Q868169,group homomorphism,https://mathgloss.github.io/MathGloss/chicago/group_homomorphism
 Q1055807,group representation,https://mathgloss.github.io/MathGloss/chicago/group_representation
 Q2602722,group ring,https://mathgloss.github.io/MathGloss/chicago/group_ring
 Q599027,harmonic function,https://mathgloss.github.io/MathGloss/chicago/harmonic_function
-Q202906,homeomorphism,https://mathgloss.github.io/MathGloss/chicago/homeomorphism
-Q868169,homomorphism of Lie groups,https://mathgloss.github.io/MathGloss/chicago/homomorphism_of_lie_groups
-Q44649,ideal of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/ideal_of_a_lie_algebra
+Q4133834,harmonic polynomial,https://mathgloss.github.io/MathGloss/chicago/harmonic_polynomial
+Q207476,holomorphic,https://mathgloss.github.io/MathGloss/chicago/holomorphic
+Q584521,homeomorphism,https://mathgloss.github.io/MathGloss/chicago/homeomorphism
+Q54938846,homogeneous relation,https://mathgloss.github.io/MathGloss/chicago/homogeneous_relation
+Q664495,ideal of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/ideal_of_a_Lie_algebra
 Q2243424,idempotent,https://mathgloss.github.io/MathGloss/chicago/idempotent
 Q5988368,identity component,https://mathgloss.github.io/MathGloss/chicago/identity_component
 Q185813,identity element,https://mathgloss.github.io/MathGloss/chicago/identity_element
 Q193794,identity matrix,https://mathgloss.github.io/MathGloss/chicago/identity_matrix
-Q860623,image,https://mathgloss.github.io/MathGloss/chicago/image
+Q860530,image,https://mathgloss.github.io/MathGloss/chicago/image
+Q1319773,inconsistent,https://mathgloss.github.io/MathGloss/chicago/inconsistent
 Q1464168,index of a subgroup,https://mathgloss.github.io/MathGloss/chicago/index_of_a_subgroup
+Q17502105,infimum,https://mathgloss.github.io/MathGloss/chicago/infimum
 Q182003,injective,https://mathgloss.github.io/MathGloss/chicago/injective
-Q1139583,inner automorphism of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/inner_automorphism_of_a_lie_algebra
-Q1139583,inner automorphism of a group,https://mathgloss.github.io/MathGloss/chicago/inner_automorphism_of_a_group
-Q23924662,inner product,https://mathgloss.github.io/MathGloss/chicago/inner_product
+Q214159,inner product,https://mathgloss.github.io/MathGloss/chicago/inner_product
 Q214159,inner product space,https://mathgloss.github.io/MathGloss/chicago/inner_product_space
 Q628792,integral domain,https://mathgloss.github.io/MathGloss/chicago/integral_domain
 Q862761,interior,https://mathgloss.github.io/MathGloss/chicago/interior
-Q862761,interior points of a manifold,https://mathgloss.github.io/MathGloss/chicago/interior_points_of_a_manifold
 Q185148,interval,https://mathgloss.github.io/MathGloss/chicago/interval
 Q2706744,invariant subspace,https://mathgloss.github.io/MathGloss/chicago/invariant_subspace
 Q338057,inverse element,https://mathgloss.github.io/MathGloss/chicago/inverse_element
 Q191884,inverse function,https://mathgloss.github.io/MathGloss/chicago/inverse_function
-Q17123743,inverse matrix,https://mathgloss.github.io/MathGloss/chicago/inverse_matrix
-Q2989575,irreducible element of an integral domain,https://mathgloss.github.io/MathGloss/chicago/irreducible_element_of_an_integral_domain
+Q242188,inverse matrix,https://mathgloss.github.io/MathGloss/chicago/inverse_matrix
 Q13690522,irreducible representation,https://mathgloss.github.io/MathGloss/chicago/irreducible_representation
 Q1142889,isolated point,https://mathgloss.github.io/MathGloss/chicago/isolated_point
-Q740207,isometry,https://mathgloss.github.io/MathGloss/chicago/isometry
-Q189112,isomorphism of Lie groups,https://mathgloss.github.io/MathGloss/chicago/isomorphism_of_lie_groups
-Q189112,isomorphism of group representations,https://mathgloss.github.io/MathGloss/chicago/isomorphism_of_group_representations
-Q17098238,isotypic component,https://mathgloss.github.io/MathGloss/chicago/isotypic_component
+Q2297037,isolated singularity,https://mathgloss.github.io/MathGloss/chicago/isolated_singularity
+Q16799755,isometry,https://mathgloss.github.io/MathGloss/chicago/isometry
+Q81376506,isotypic component,https://mathgloss.github.io/MathGloss/chicago/isotypic_component
+Q2754968,lattice,https://mathgloss.github.io/MathGloss/chicago/lattice
 Q751969,left coset,https://mathgloss.github.io/MathGloss/chicago/left_coset
 Q185813,left identity element,https://mathgloss.github.io/MathGloss/chicago/left_identity_element
 Q338057,left inverse element,https://mathgloss.github.io/MathGloss/chicago/left_inverse_element
-Q44649,left ring ideal,https://mathgloss.github.io/MathGloss/chicago/left_ring_ideal
 Q858223,limit point,https://mathgloss.github.io/MathGloss/chicago/limit_point
-Q16977077,linear Lie algebra,https://mathgloss.github.io/MathGloss/chicago/linear_lie_algebra
+Q16977077,linear Lie algebra,https://mathgloss.github.io/MathGloss/chicago/linear_Lie_algebra
 Q207643,linear transformation,https://mathgloss.github.io/MathGloss/chicago/linear_transformation
-Q111783780,linearly dependent,https://mathgloss.github.io/MathGloss/chicago/linearly_dependent
+Q27670,linearly dependent,https://mathgloss.github.io/MathGloss/chicago/linearly_dependent
 Q27670,linearly independent,https://mathgloss.github.io/MathGloss/chicago/linearly_independent
-Q27670,linearly independent group elements,https://mathgloss.github.io/MathGloss/chicago/linearly_independent_group_elements
-Q91052280,local maximum,https://mathgloss.github.io/MathGloss/chicago/local_maximum
-Q91052291,local minimum,https://mathgloss.github.io/MathGloss/chicago/local_minimum
+Q845060,local maximum,https://mathgloss.github.io/MathGloss/chicago/local_maximum
+Q845060,local minimum,https://mathgloss.github.io/MathGloss/chicago/local_minimum
 Q2147620,locally compact group,https://mathgloss.github.io/MathGloss/chicago/locally_compact_group
-Q643300,locally finite cover,https://mathgloss.github.io/MathGloss/chicago/locally_finite_cover
 Q2136937,locally finite measure,https://mathgloss.github.io/MathGloss/chicago/locally_finite_measure
-Q16671984,locally path-connected,https://mathgloss.github.io/MathGloss/chicago/locally_path-connected
-Q4558786,loop,https://mathgloss.github.io/MathGloss/chicago/loop
-Q109314515,lower central series,https://mathgloss.github.io/MathGloss/chicago/lower_central_series
+Q865967,locally path connected,https://mathgloss.github.io/MathGloss/chicago/locally_path-connected
+Q762521,logarithmic derivative,https://mathgloss.github.io/MathGloss/chicago/logarithmic_derivative
+Q232632,loop,https://mathgloss.github.io/MathGloss/chicago/loop
+Q13222579,lower bound,https://mathgloss.github.io/MathGloss/chicago/lower_bound
+Q5062152,lower central series,https://mathgloss.github.io/MathGloss/chicago/lower_central_series
+Q1156903,lower sum,https://mathgloss.github.io/MathGloss/chicago/lower_sum
 Q679903,magma,https://mathgloss.github.io/MathGloss/chicago/magma
 Q203920,manifold,https://mathgloss.github.io/MathGloss/chicago/manifold
 Q44337,matrix,https://mathgloss.github.io/MathGloss/chicago/matrix
-Q622679,matrix Lie group,https://mathgloss.github.io/MathGloss/chicago/matrix_lie_group
+Q622679,matrix Lie group,https://mathgloss.github.io/MathGloss/chicago/matrix_Lie_group
 Q902017,matrix logarithm,https://mathgloss.github.io/MathGloss/chicago/matrix_logarithm
 Q1049914,matrix multiplication,https://mathgloss.github.io/MathGloss/chicago/matrix_multiplication
 Q223683,matrix transpose,https://mathgloss.github.io/MathGloss/chicago/matrix_transpose
-Q1203540,maximal ring ideal,https://mathgloss.github.io/MathGloss/chicago/maximal_ring_ideal
 Q16908484,maximal subgroup,https://mathgloss.github.io/MathGloss/chicago/maximal_subgroup
-Q831672,maximal subtree,https://mathgloss.github.io/MathGloss/chicago/maximal_subtree
-Q1747745,meager,https://mathgloss.github.io/MathGloss/chicago/meager
+Q6803482,meager,https://mathgloss.github.io/MathGloss/chicago/meager
+Q599027,mean value property,https://mathgloss.github.io/MathGloss/chicago/mean_value_property
+Q192276,measurable,https://mathgloss.github.io/MathGloss/chicago/measurable
 Q516776,measurable function,https://mathgloss.github.io/MathGloss/chicago/measurable_function
 Q3058212,measure space,https://mathgloss.github.io/MathGloss/chicago/measure_space
 Q1201815,measure zero,https://mathgloss.github.io/MathGloss/chicago/measure_zero
+Q2344169,mesh,https://mathgloss.github.io/MathGloss/chicago/mesh
+Q848569,metric completion,https://mathgloss.github.io/MathGloss/chicago/metric_completion
 Q180953,metric space,https://mathgloss.github.io/MathGloss/chicago/metric_space
 Q1341061,minor,https://mathgloss.github.io/MathGloss/chicago/minor
-Q215111,module homomorphism,https://mathgloss.github.io/MathGloss/chicago/module_homomorphism
-Q18848,module over a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/module_over_a_lie_algebra
+Q1979154,model,https://mathgloss.github.io/MathGloss/chicago/model
+Q1942302,module homomorphism,https://mathgloss.github.io/MathGloss/chicago/module_homomorphism
 Q18848,module over a ring,https://mathgloss.github.io/MathGloss/chicago/module_over_a_ring
-Q208237,monoid,https://mathgloss.github.io/MathGloss/chicago/monoid
+Q6899873,monic,https://mathgloss.github.io/MathGloss/chicago/monic
+Q2785361,monoid,https://mathgloss.github.io/MathGloss/chicago/monoid
 Q1945067,monomorphism,https://mathgloss.github.io/MathGloss/chicago/monomorphism
+Q97303181,multilinear,https://mathgloss.github.io/MathGloss/chicago/multilinear
 Q17099189,multiplicative character,https://mathgloss.github.io/MathGloss/chicago/multiplicative_character
+Q1764371,negative variation,https://mathgloss.github.io/MathGloss/chicago/negative_variation
 Q2478475,neighborhood,https://mathgloss.github.io/MathGloss/chicago/neighborhood
 Q840023,nilpotent,https://mathgloss.github.io/MathGloss/chicago/nilpotent
-Q15148889,nilpotent Lie algebra,https://mathgloss.github.io/MathGloss/chicago/nilpotent_lie_algebra
+Q15148889,nilpotent Lie algebra,https://mathgloss.github.io/MathGloss/chicago/nilpotent_Lie_algebra
 Q1755242,nilpotent group,https://mathgloss.github.io/MathGloss/chicago/nilpotent_group
-Q97623888,nonmeager,https://mathgloss.github.io/MathGloss/chicago/nonmeager
+Q1747745,nonmeager,https://mathgloss.github.io/MathGloss/chicago/nonmeager
 Q956437,norm,https://mathgloss.github.io/MathGloss/chicago/norm
-Q1069099,normal-form game,https://mathgloss.github.io/MathGloss/chicago/normal-form_game
+Q1069099,normal form game,https://mathgloss.github.io/MathGloss/chicago/normal-form_game
+Q2331395,normal extension,https://mathgloss.github.io/MathGloss/chicago/normal_extension
+Q360830,normal series,https://mathgloss.github.io/MathGloss/chicago/normal_series
 Q743179,normal subgroup,https://mathgloss.github.io/MathGloss/chicago/normal_subgroup
-Q1761121,normalizer of a group,https://mathgloss.github.io/MathGloss/chicago/normalizer_of_a_group
-Q956437,normed linear space,https://mathgloss.github.io/MathGloss/chicago/normed_linear_space
+Q726210,normed linear space,https://mathgloss.github.io/MathGloss/chicago/normed_linear_space
 Q1991405,nowhere dense,https://mathgloss.github.io/MathGloss/chicago/nowhere_dense
 Q2914509,nullity,https://mathgloss.github.io/MathGloss/chicago/nullity
 Q213363,open,https://mathgloss.github.io/MathGloss/chicago/open
-Q41509136,open cover,https://mathgloss.github.io/MathGloss/chicago/open_cover
+Q331481,open cover,https://mathgloss.github.io/MathGloss/chicago/open_cover
 Q7098616,opposite category,https://mathgloss.github.io/MathGloss/chicago/opposite_category
-Q17859776,orbit,https://mathgloss.github.io/MathGloss/chicago/orbit
-Q18408315,order of a group,https://mathgloss.github.io/MathGloss/chicago/order_of_a_group
-Q54555759,order of a group element,https://mathgloss.github.io/MathGloss/chicago/order_of_a_group_element
+Q230664,orbit,https://mathgloss.github.io/MathGloss/chicago/orbit
+Q589491,order of a group,https://mathgloss.github.io/MathGloss/chicago/order_of_a_group
+Q589491,order of a group element,https://mathgloss.github.io/MathGloss/chicago/order_of_a_group_element
 Q860609,ordinary generating function,https://mathgloss.github.io/MathGloss/chicago/ordinary_generating_function
 Q2748415,orientable,https://mathgloss.github.io/MathGloss/chicago/orientable
 Q2748415,orientation,https://mathgloss.github.io/MathGloss/chicago/orientation
-Q1137726,oriented edge,https://mathgloss.github.io/MathGloss/chicago/oriented_edge
-Q215067,orthogonal,https://mathgloss.github.io/MathGloss/chicago/orthogonal
+Q2748415,oriented manifold,https://mathgloss.github.io/MathGloss/chicago/oriented_manifold
+Q114044192,orthogonal,https://mathgloss.github.io/MathGloss/chicago/orthogonal
 Q1780921,orthogonal complement,https://mathgloss.github.io/MathGloss/chicago/orthogonal_complement
 Q1783179,orthogonal group,https://mathgloss.github.io/MathGloss/chicago/orthogonal_group
 Q333871,orthogonal matrix,https://mathgloss.github.io/MathGloss/chicago/orthogonal_matrix
 Q1411166,orthonormal,https://mathgloss.github.io/MathGloss/chicago/orthonormal
-Q451323,outer derivation,https://mathgloss.github.io/MathGloss/chicago/outer_derivation
 Q258374,outer measure,https://mathgloss.github.io/MathGloss/chicago/outer_measure
-Q26851733,outer regular,https://mathgloss.github.io/MathGloss/chicago/outer_regular
-Q2748415,outward pointing,https://mathgloss.github.io/MathGloss/chicago/outward_pointing
-Q11756524,p-adic integers,https://mathgloss.github.io/MathGloss/chicago/p-adic_integers
-Q286972,p-group,https://mathgloss.github.io/MathGloss/chicago/p-group
-Q286972,p-primary component of an abelian group,https://mathgloss.github.io/MathGloss/chicago/p-primary_component_of_an_abelian_group
+Q2126650,outer regular,https://mathgloss.github.io/MathGloss/chicago/outer_regular
+Q286972,p group,https://mathgloss.github.io/MathGloss/chicago/p-group
+Q305936,p norm,https://mathgloss.github.io/MathGloss/chicago/p-norm
 Q7134470,paradoxical set,https://mathgloss.github.io/MathGloss/chicago/paradoxical_set
 Q186475,partial derivative,https://mathgloss.github.io/MathGloss/chicago/partial_derivative
+Q474715,partially ordered set,https://mathgloss.github.io/MathGloss/chicago/partially_ordered_set
+Q381060,partition of a set,https://mathgloss.github.io/MathGloss/chicago/partition_of_a_set
 Q1082910,partition of an integer,https://mathgloss.github.io/MathGloss/chicago/partition_of_an_integer
 Q191690,partition of unity,https://mathgloss.github.io/MathGloss/chicago/partition_of_unity
-Q3487687,path-connected,https://mathgloss.github.io/MathGloss/chicago/path-connected
+Q1491995,path connected,https://mathgloss.github.io/MathGloss/chicago/path-connected
 Q1366002,path,https://mathgloss.github.io/MathGloss/chicago/path
+Q2997817,perfect field,https://mathgloss.github.io/MathGloss/chicago/perfect_field
 Q7168101,perfect set,https://mathgloss.github.io/MathGloss/chicago/perfect_set
 Q161519,permutation,https://mathgloss.github.io/MathGloss/chicago/permutation
 Q1455652,polynomial ring,https://mathgloss.github.io/MathGloss/chicago/polynomial_ring
-Q1052034,positive definite,https://mathgloss.github.io/MathGloss/chicago/positive_definite
+Q7233276,positive definite,https://mathgloss.github.io/MathGloss/chicago/positive_definite
+Q1764371,positive variation,https://mathgloss.github.io/MathGloss/chicago/positive_variation
+Q206925,power series,https://mathgloss.github.io/MathGloss/chicago/power_series
 Q205170,power set,https://mathgloss.github.io/MathGloss/chicago/power_set
-Q1393014,pre-measure,https://mathgloss.github.io/MathGloss/chicago/pre-measure
-Q240651,prime element of an integral domain,https://mathgloss.github.io/MathGloss/chicago/prime_element_of_an_integral_domain
-Q863912,prime ideal,https://mathgloss.github.io/MathGloss/chicago/prime_ideal
+Q1393014,pre measure,https://mathgloss.github.io/MathGloss/chicago/pre-measure
+Q1656686,prime ideal,https://mathgloss.github.io/MathGloss/chicago/prime_ideal
 Q49008,prime number,https://mathgloss.github.io/MathGloss/chicago/prime_number
+Q836088,prime subfield,https://mathgloss.github.io/MathGloss/chicago/prime_subfield
+Q756747,primitive root of unity,https://mathgloss.github.io/MathGloss/chicago/primitive_root_of_unity
 Q44382,principal ideal,https://mathgloss.github.io/MathGloss/chicago/principal_ideal
 Q1143969,principal ideal domain,https://mathgloss.github.io/MathGloss/chicago/principal_ideal_domain
+Q7245087,principal part,https://mathgloss.github.io/MathGloss/chicago/principal_part
 Q1572094,product measure,https://mathgloss.github.io/MathGloss/chicago/product_measure
-Q519967,projection,https://mathgloss.github.io/MathGloss/chicago/projection
+Q1070472,product topology,https://mathgloss.github.io/MathGloss/chicago/product_topology
+Q13415428,projection,https://mathgloss.github.io/MathGloss/chicago/projection
+Q577835,quadratic field extension,https://mathgloss.github.io/MathGloss/chicago/quadratic_field_extension
 Q803531,quadratic integers,https://mathgloss.github.io/MathGloss/chicago/quadratic_integers
-Q173853,quaternion algebra,https://mathgloss.github.io/MathGloss/chicago/quaternion_algebra
-Q3966112,quotient by equivalence relation,https://mathgloss.github.io/MathGloss/chicago/quotient_by_equivalence_relation
-Q1138961,quotient by normal subgroup,https://mathgloss.github.io/MathGloss/chicago/quotient_by_normal_subgroup
-Q1138961,quotient by subgroup,https://mathgloss.github.io/MathGloss/chicago/quotient_by_subgroup
-Q2589508,quotient of Lie algebra by ideal,https://mathgloss.github.io/MathGloss/chicago/quotient_of_lie_algebra_by_ideal
-Q1432554,quotient of modules,https://mathgloss.github.io/MathGloss/chicago/quotient_of_modules
-Q1139111,quotient of topological spaces,https://mathgloss.github.io/MathGloss/chicago/quotient_of_topological_spaces
+Q2835967,quaternion algebra,https://mathgloss.github.io/MathGloss/chicago/quaternion_algebra
 Q619436,quotient ring,https://mathgloss.github.io/MathGloss/chicago/quotient_ring
 Q1393796,quotient vector space,https://mathgloss.github.io/MathGloss/chicago/quotient_vector_space
-Q656784,rank,https://mathgloss.github.io/MathGloss/chicago/rank
-Q1260803,rank of a finitely generated abelian group,https://mathgloss.github.io/MathGloss/chicago/rank_of_a_finitely_generated_abelian_group
-Q936434,real symplectic group,https://mathgloss.github.io/MathGloss/chicago/real_symplectic_group
+Q17046402,radical of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/radical_of_a_Lie_algebra
+Q1428097,radius of convergence,https://mathgloss.github.io/MathGloss/chicago/radius_of_convergence
+Q4120621,rank,https://mathgloss.github.io/MathGloss/chicago/rank
+Q1340572,rank of a module,https://mathgloss.github.io/MathGloss/chicago/rank_of_a_module
+Q2597317,real projective space,https://mathgloss.github.io/MathGloss/chicago/real_projective_space
 Q209,rectangle,https://mathgloss.github.io/MathGloss/chicago/rectangle
-Q3038340,rectifiable,https://mathgloss.github.io/MathGloss/chicago/rectifiable
-Q621850,reflexive,https://mathgloss.github.io/MathGloss/chicago/reflexive
-Q1428110,regular,https://mathgloss.github.io/MathGloss/chicago/regular
+Q423113,rectifiable,https://mathgloss.github.io/MathGloss/chicago/rectifiable
+Q2136742,reflexive,https://mathgloss.github.io/MathGloss/chicago/reflexive
+Q408620,regular,https://mathgloss.github.io/MathGloss/chicago/regular
+Q753375,residue,https://mathgloss.github.io/MathGloss/chicago/residue
 Q751969,right coset,https://mathgloss.github.io/MathGloss/chicago/right_coset
 Q185813,right identity element,https://mathgloss.github.io/MathGloss/chicago/right_identity_element
-Q338057,right inverse element,https://mathgloss.github.io/MathGloss/chicago/right_inverse_element
-Q44649,right ring ideal,https://mathgloss.github.io/MathGloss/chicago/right_ring_ideal
 Q161172,ring,https://mathgloss.github.io/MathGloss/chicago/ring
 Q1194212,ring homomorphism,https://mathgloss.github.io/MathGloss/chicago/ring_homomorphism
 Q44649,ring ideal,https://mathgloss.github.io/MathGloss/chicago/ring_ideal
-Q110571247,ring norm,https://mathgloss.github.io/MathGloss/chicago/ring_norm
-Q2064647,ring of subsets,https://mathgloss.github.io/MathGloss/chicago/ring_of_subsets
 Q17102802,rng,https://mathgloss.github.io/MathGloss/chicago/rng
+Q609566,row operations,https://mathgloss.github.io/MathGloss/chicago/row_operations
 Q557624,rule of product,https://mathgloss.github.io/MathGloss/chicago/rule_of_product
 Q2360148,rule of sum,https://mathgloss.github.io/MathGloss/chicago/rule_of_sum
-Q1363919,second-countable,https://mathgloss.github.io/MathGloss/chicago/second-countable
-Q7449310,semi-locally simply connected,https://mathgloss.github.io/MathGloss/chicago/semi-locally_simply_connected
+Q1363919,second countable,https://mathgloss.github.io/MathGloss/chicago/second-countable
+Q7448009,self adjoint,https://mathgloss.github.io/MathGloss/chicago/self-adjoint
 Q291126,semidirect product,https://mathgloss.github.io/MathGloss/chicago/semidirect_product
 Q207348,semigroup,https://mathgloss.github.io/MathGloss/chicago/semigroup
-Q2366896,semisimple Lie algebra,https://mathgloss.github.io/MathGloss/chicago/semisimple_lie_algebra
+Q2366896,semisimple Lie algebra,https://mathgloss.github.io/MathGloss/chicago/semisimple_Lie_algebra
 Q1485102,semisimple module,https://mathgloss.github.io/MathGloss/chicago/semisimple_module
-Q81376506,semisimple representation of a Lie algebra,https://mathgloss.github.io/MathGloss/chicago/semisimple_representation_of_a_lie_algebra
 Q680081,separable metric space,https://mathgloss.github.io/MathGloss/chicago/separable_metric_space
+Q2530089,separable polynomial,https://mathgloss.github.io/MathGloss/chicago/separable_polynomial
 Q1135427,sequentially compact,https://mathgloss.github.io/MathGloss/chicago/sequentially_compact
-Q1064405,sign of permutation,https://mathgloss.github.io/MathGloss/chicago/sign_of_permutation
 Q1764371,signed measure,https://mathgloss.github.io/MathGloss/chicago/signed_measure
+Q78502771,simple Lie algebra,https://mathgloss.github.io/MathGloss/chicago/simple_Lie_algebra
+Q2628674,simple field extension,https://mathgloss.github.io/MathGloss/chicago/simple_field_extension
 Q913022,simple function,https://mathgloss.github.io/MathGloss/chicago/simple_function
 Q571124,simple group,https://mathgloss.github.io/MathGloss/chicago/simple_group
 Q956233,simple module,https://mathgloss.github.io/MathGloss/chicago/simple_module
 Q912058,simply connected,https://mathgloss.github.io/MathGloss/chicago/simply_connected
 Q1824450,singular measure,https://mathgloss.github.io/MathGloss/chicago/singular_measure
-Q2291918,skeleton of a category,https://mathgloss.github.io/MathGloss/chicago/skeleton_of_a_category
-Q19619110,small category,https://mathgloss.github.io/MathGloss/chicago/small_category
-Q868473,smooth,https://mathgloss.github.io/MathGloss/chicago/smooth
-Q78338964,smooth topological m-dimensional manifold with boundary,https://mathgloss.github.io/MathGloss/chicago/smooth_topological_m-dimensional_manifold_with_boundary
-Q7558992,solvable Lie algebra,https://mathgloss.github.io/MathGloss/chicago/solvable_lie_algebra
+Q719395,small category,https://mathgloss.github.io/MathGloss/chicago/small_category
+Q15847822,smooth,https://mathgloss.github.io/MathGloss/chicago/smooth
+Q92552,solvability by radicals,https://mathgloss.github.io/MathGloss/chicago/solvability_by_radicals
+Q7558992,solvable Lie algebra,https://mathgloss.github.io/MathGloss/chicago/solvable_Lie_algebra
 Q759832,solvable group,https://mathgloss.github.io/MathGloss/chicago/solvable_group
-Q209812,span,https://mathgloss.github.io/MathGloss/chicago/span
+Q7573053,span,https://mathgloss.github.io/MathGloss/chicago/span
 Q7574831,special linear algebra,https://mathgloss.github.io/MathGloss/chicago/special_linear_algebra
 Q2140900,special linear group,https://mathgloss.github.io/MathGloss/chicago/special_linear_group
-Q3117934,special orthogonal group,https://mathgloss.github.io/MathGloss/chicago/special_orthogonal_group
+Q1783179,special orthogonal group,https://mathgloss.github.io/MathGloss/chicago/special_orthogonal_group
 Q684363,special unitary group,https://mathgloss.github.io/MathGloss/chicago/special_unitary_group
+Q6640640,spectrum,https://mathgloss.github.io/MathGloss/chicago/spectrum
+Q1996100,splitting field,https://mathgloss.github.io/MathGloss/chicago/splitting_field
 Q7625098,structure constants,https://mathgloss.github.io/MathGloss/chicago/structure_constants
 Q629933,subalgebra,https://mathgloss.github.io/MathGloss/chicago/subalgebra
-Q7631151,subgraph,https://mathgloss.github.io/MathGloss/chicago/subgraph
+Q2739990,subbasis,https://mathgloss.github.io/MathGloss/chicago/subbasis
+Q166507,subgraph,https://mathgloss.github.io/MathGloss/chicago/subgraph
 Q466109,subgroup,https://mathgloss.github.io/MathGloss/chicago/subgroup
-Q2498094,submodule,https://mathgloss.github.io/MathGloss/chicago/submodule
+Q185148,subinterval,https://mathgloss.github.io/MathGloss/chicago/subinterval
+Q18848,submodule,https://mathgloss.github.io/MathGloss/chicago/submodule
+Q360830,subnormal series,https://mathgloss.github.io/MathGloss/chicago/subnormal_series
 Q55648664,subrepresentation,https://mathgloss.github.io/MathGloss/chicago/subrepresentation
 Q660730,subspace topology,https://mathgloss.github.io/MathGloss/chicago/subspace_topology
 Q1136376,support,https://mathgloss.github.io/MathGloss/chicago/support
-Q484298,surface,https://mathgloss.github.io/MathGloss/chicago/surface
+Q17502105,supremum,https://mathgloss.github.io/MathGloss/chicago/supremum
+Q3505239,surface,https://mathgloss.github.io/MathGloss/chicago/surface
 Q229102,surjective,https://mathgloss.github.io/MathGloss/chicago/surjective
-Q621461,symmetric,https://mathgloss.github.io/MathGloss/chicago/symmetric
+Q12485,symmetric,https://mathgloss.github.io/MathGloss/chicago/symmetric
 Q3773126,symmetric derivative,https://mathgloss.github.io/MathGloss/chicago/symmetric_derivative
 Q1147242,symmetric difference,https://mathgloss.github.io/MathGloss/chicago/symmetric_difference
 Q849512,symmetric group,https://mathgloss.github.io/MathGloss/chicago/symmetric_group
-Q55643402,symmetric power of group representations,https://mathgloss.github.io/MathGloss/chicago/symmetric_power_of_group_representations
+Q766774,symplectic algebra,https://mathgloss.github.io/MathGloss/chicago/symplectic_algebra
 Q909601,tangent space,https://mathgloss.github.io/MathGloss/chicago/tangent_space
-Q48995828,tensor product of Lie algebra representations,https://mathgloss.github.io/MathGloss/chicago/tensor_product_of_lie_algebra_representations
-Q48995828,tensor product of group representations,https://mathgloss.github.io/MathGloss/chicago/tensor_product_of_group_representations
-Q10260753,topological field,https://mathgloss.github.io/MathGloss/chicago/topological_field
+Q1163016,tensor product of vector spaces,https://mathgloss.github.io/MathGloss/chicago/tensor_product_of_vector_spaces
+Q810214,topological basis,https://mathgloss.github.io/MathGloss/chicago/topological_basis
+Q190109,topological field,https://mathgloss.github.io/MathGloss/chicago/topological_field
 Q7825035,topological game,https://mathgloss.github.io/MathGloss/chicago/topological_game
 Q1046291,topological group,https://mathgloss.github.io/MathGloss/chicago/topological_group
-Q203920,topological m-dimensional manifold with boundary,https://mathgloss.github.io/MathGloss/chicago/topological_m-dimensional_manifold_with_boundary
 Q922339,topological ring,https://mathgloss.github.io/MathGloss/chicago/topological_ring
 Q179899,topological space,https://mathgloss.github.io/MathGloss/chicago/topological_space
 Q7827200,torsion free module,https://mathgloss.github.io/MathGloss/chicago/torsion_free_module
@@ -397,25 +418,28 @@ Q2293759,torsion subgroup,https://mathgloss.github.io/MathGloss/chicago/torsion_
 Q1936288,total variation,https://mathgloss.github.io/MathGloss/chicago/total_variation
 Q1362228,totally bounded,https://mathgloss.github.io/MathGloss/chicago/totally_bounded
 Q1544261,totally disconnected,https://mathgloss.github.io/MathGloss/chicago/totally_disconnected
-Q321102,trace,https://mathgloss.github.io/MathGloss/chicago/trace
-Q64861,transitive,https://mathgloss.github.io/MathGloss/chicago/transitive
-Q2666112,transposition,https://mathgloss.github.io/MathGloss/chicago/transposition
-Q272735,tree,https://mathgloss.github.io/MathGloss/chicago/tree
-Q7844662,trivial group representation,https://mathgloss.github.io/MathGloss/chicago/trivial_group_representation
+Q296103,trace,https://mathgloss.github.io/MathGloss/chicago/trace
+Q173091,transcendental,https://mathgloss.github.io/MathGloss/chicago/transcendental
+Q7834418,transition function,https://mathgloss.github.io/MathGloss/chicago/transition_function
+Q671944,transitive,https://mathgloss.github.io/MathGloss/chicago/transitive
+Q288465,transitive group action,https://mathgloss.github.io/MathGloss/chicago/transitive_group_action
+Q212130,transposition,https://mathgloss.github.io/MathGloss/chicago/transposition
+Q3538304,tree,https://mathgloss.github.io/MathGloss/chicago/tree
+Q26905729,typical,https://mathgloss.github.io/MathGloss/chicago/typical
+Q1128796,uncountable,https://mathgloss.github.io/MathGloss/chicago/uncountable
 Q741865,uniformly continuous,https://mathgloss.github.io/MathGloss/chicago/uniformly_continuous
 Q1052579,unique factorization domain,https://mathgloss.github.io/MathGloss/chicago/unique_factorization_domain
-Q118084,unit of a ring,https://mathgloss.github.io/MathGloss/chicago/unit_of_a_ring
-Q929536,unital subring,https://mathgloss.github.io/MathGloss/chicago/unital_subring
 Q1500617,unitary group,https://mathgloss.github.io/MathGloss/chicago/unitary_group
 Q727103,unitary matrix,https://mathgloss.github.io/MathGloss/chicago/unitary_matrix
 Q2495534,unitary transformation,https://mathgloss.github.io/MathGloss/chicago/unitary_transformation
+Q5062152,upper central series,https://mathgloss.github.io/MathGloss/chicago/upper_central_series
+Q1156903,upper sum,https://mathgloss.github.io/MathGloss/chicago/upper_sum
 Q125977,vector space,https://mathgloss.github.io/MathGloss/chicago/vector_space
 Q728435,vector subspace,https://mathgloss.github.io/MathGloss/chicago/vector_subspace
 Q39297,volume,https://mathgloss.github.io/MathGloss/chicago/volume
-Q39297,volume of a rectifiable set,https://mathgloss.github.io/MathGloss/chicago/volume_of_a_rectifiable_set
-Q7977932,weak Hausdorff,https://mathgloss.github.io/MathGloss/chicago/weak_hausdorff
-Q20850777,weak convergence,https://mathgloss.github.io/MathGloss/chicago/weak_convergence
+Q7977932,weak Hausdorff,https://mathgloss.github.io/MathGloss/chicago/weak_Hausdorff
+Q2252662,weak convergence,https://mathgloss.github.io/MathGloss/chicago/weak_convergence
 Q1781358,wedge sum,https://mathgloss.github.io/MathGloss/chicago/wedge_sum
-Q35059,width,https://mathgloss.github.io/MathGloss/chicago/width
+Q17130425,width,https://mathgloss.github.io/MathGloss/chicago/width
+Q576728,winding number,https://mathgloss.github.io/MathGloss/chicago/winding_number
 Q828111,zero divisor,https://mathgloss.github.io/MathGloss/chicago/zero_divisor
-Q217357,σ-algebra,https://mathgloss.github.io/MathGloss/chicago/σ-algebra

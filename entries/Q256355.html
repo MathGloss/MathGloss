@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intertwiner — MathGloss</title>
+    <link rel="stylesheet" href="../web/styles.css" />
+    <style>
+      body { max-width: 780px; margin: 24px auto; padding: 0 16px; }
+      nav { margin-bottom: 20px; }
+      nav a { text-decoration: none; font-size: 0.95rem; }
+      .wikidata-meta { margin-bottom: 24px; }
+      .wikidata-meta dt { font-weight: bold; }
+      .wikidata-meta dd { margin: 0 0 8px 0; }
+      .sources h2 { margin-top: 32px; }
+      .sources ul { list-style: disc; padding-left: 20px; }
+      .sources li { margin-bottom: 8px; }
+    </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+  </head>
+  <body>
+    <nav><a href="../web/">← Back to index</a></nav>
+    <h1>Intertwiner</h1>
+    <section class="wikidata-meta">
+      <dl>
+        <dt>Wikidata ID</dt>
+        <dd><a href="https://www.wikidata.org/wiki/Q256355" target="_blank" rel="noopener">Q256355</a></dd>
+        <dt>Label</dt>
+        <dd>Intertwiner</dd>
+      </dl>
+    </section>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $G$ be a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> <a href="https://mathgloss.github.io/MathGloss/chicago/group_action" target="_blank" rel="noopener">acting</a> on the sets $X$ and $Y$. A function $f:X\to Y$ is <strong>$G$-equivariant</strong> if for all $x\in X$ and all $g\in G$, $$f(g\cdot x) = g\cdot f(x).$$ If the function $f$ is <a href="../entries/Q180907.html" target="_blank" rel="noopener">bijective</a>, then this function is called a <strong>$G$-isomorphism</strong>.</p>
+    </section>
+<section class="sources">
+      <h2>Sources</h2>
+      <ul>
+        <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=37" target="_blank" rel="noopener">equivariant</a></li>
+        <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=43" target="_blank" rel="noopener">equivariant map</a></li>
+        <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/intertwiner" target="_blank" rel="noopener">intertwiner</a></li>
+        <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/equivariant" target="_blank" rel="noopener">equivariant</a></li>
+      </ul>
+    </section>
+
+  </body>
+</html>

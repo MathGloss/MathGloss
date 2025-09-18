@@ -1,0 +1,94 @@
+Wikidata ID,Mathlib,Mathlib link,Wikidata Label
+Q320577,Yoneda embedding,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Yoneda.html#CategoryTheory.yoneda,Yoneda lemma
+Q357858,adjunction,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Adjunction/Basic.html#CategoryTheory.Adjunction,Adjoint functors
+Q1780005,comma category,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Comma/Basic.html#CategoryTheory.Comma,Comma category
+Q246639,limits,https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Limits/IsLimit.html#CategoryTheory.Limits.IsLimit,Limit
+Q21199,natural number,https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Nat,Natural numbers
+Q2039387,extended real number,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Data/EReal/Basic.html#EReal,Extended real number line
+Q868169,group morphism,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Group/Hom/Defs.html#MonoidHom,Group homomorphism
+Q1194212,ring morphism,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Ring/Hom/Defs.html#RingHom,Ring homomorphism
+Q251307,localization,https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/MonoidLocalization/Basic.html#Localization,Localization
+Q1052579,unique factorisation domain,https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/UniqueFactorizationDomain/Defs.html#UniqueFactorizationMonoid,Unique factorization domain
+Q1138992,Lucas-Lehmer primality test,https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/LucasLehmer.html#lucas_lehmer_sufficiency,Lucas–Lehmer primality test
+Q214604,roots of a polynomial,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Polynomial/Roots.html#Polynomial.roots,Zero of a function
+Q656645,Hilbert basis theorem,https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/Polynomial/Basic.html#Polynomial.isNoetherianRing,Hilbert's basis theorem
+Q836088,characteristic of a ring,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/CharP/Defs.html#ringChar,Characteristic (algebra)
+Q836088,characteristic zero,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/CharZero/Defs.html#CharZero,Characteristic (algebra)
+Q836088,characteristic p,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/CharP/Defs.html#CharP,Characteristic (algebra)
+Q769124,Frobenius morphism,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/CharP/Lemmas.html#frobenius,Frobenius endomorphism
+Q2997763,rupture field,https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/AdjoinRoot.html#AdjoinRoot,Rupture field
+Q2997817,perfect closure,https://leanprover-community.github.io/mathlib4_docs/Mathlib/FieldTheory/PerfectClosure.html#PerfectClosure,Perfect field
+Q1491747,Galois correspondence,https://leanprover-community.github.io/mathlib4_docs/Mathlib/FieldTheory/Galois/Basic.html#IsGalois.intermediateFieldEquivSubgroup,Galois connection
+Q25303848,sum of two squares,https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html#Nat.Prime.sq_add_sq,Sum of two squares
+Q756946,sum of four squares,https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumFourSquares.html#Nat.sum_four_squares,Lagrange's four-square theorem
+Q140744,arithmetic functions,https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/ArithmeticFunction.html#ArithmeticFunction,Arithmetic function
+Q694114,Bernoulli numbers,https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/Bernoulli.html#bernoulli,Bernoulli number
+Q3291120,Dirichlet class number formula,https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/NumberField/DedekindZeta.html#NumberField.tendsto_sub_one_mul_dedekindZeta_nhdsGT,Class number formula
+Q752487,dual vector space,https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Dual/Defs.html#Module.Dual,Dual space
+Q7625162,structure theorem,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Module/PID.html#Module.equiv_free_prod_directSum,Structure theorem
+Q242188,invertibility,https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Matrix/NonsingularInverse.html#Matrix.inv,Matrix inversion
+Q6787889,matrix representation,https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Matrix/BilinearForm.html#BilinForm.toMatrix,Matrix representation
+Q858223,cluster point,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/Defs/Filter.html#ClusterPt,Accumulation point
+Q1193403,extension by continuity,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/DenseEmbedding.html#IsDenseInducing.extend,Regular space
+Q1491995,connectedness,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/Connected/Basic.html#ConnectedSpace,Connected space
+Q652446,Cauchy filter,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/UniformSpace/Cauchy.html#Cauchy,Uniform space
+Q170198,infinite sum,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/Algebra/InfiniteSum/Defs.html#HasSum,Series (mathematics)
+Q652707,Lipschitz continuity,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/EMetricSpace/Lipschitz.html#LipschitzWith,Lipschitz continuity
+Q91259930,Hölder continuity,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/MetricSpace/Holder.html#HolderWith,Holder continuous
+Q96373820,Bornology,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/Bornology/Basic.html#Bornology,Bornology
+Q1509647,adjoint operator,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/InnerProductSpace/LinearPMap.html#LinearPMap.adjoint,Adjoint operator
+Q6500908,self-adjoint operator,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Star/SelfAdjoint.html#IsSelfAdjoint,Hermitian operator
+Q9993851,Lax-Milgram theorem,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/InnerProductSpace/LaxMilgram.html#IsCoercive.continuousLinearEquivOfBilin,Weak formulation
+Q868473,$C^k$ function,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Calculus/ContDiff/Defs.html#ContDiff,Smooth function
+Q845060,local extrema,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Calculus/LocalExtr/Basic.html#IsLocalMin.fderiv_eq_zero,Relative extrema
+Q4391173,exponential,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Exponential.html#Real.exp,Exponential (category theory)
+Q674533,inverse trigonometric functions,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Trigonometric/Inverse.html#Real.arcsin,Inverse trigonometric functions
+Q204034,hyperbolic trigonometric functions,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Trigonometric.html#Real.sinh,Hyperbolic functions
+Q21086747,Borel sigma-algebra,https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Constructions/BorelSpace/Basic.html#BorelSpace,Borel set
+Q3799278,Stieltjes measure,https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Measure/Stieltjes.html#StieltjesFunction.measure,Lebesgue–Stieltjes integration
+Q1071270,change of variables formula,https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Function/Jacobian.html#MeasureTheory.integral_image_eq_integral_abs_det_fderiv_smul,Inverse chain rule method
+Q530730,Liouville theorem,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Liouville.html#Differentiable.apply_eq_apply_of_bounded,Liouville's theorem
+Q625303,independence of random variables,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Probability/Independence/Basic.html#ProbabilityTheory.iIndepFun,Independence (probability theory)
+Q2004664,Kolmogorov's $0$-$1$ law,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Probability/Independence/ZeroOne.html#ProbabilityTheory.measure_zero_or_one_of_measurableSet_limsup_atTop,Kolmogorov's zero–one law
+Q842436,Markov inequality,https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/Lebesgue/Markov.html#MeasureTheory.mul_meas_ge_le_lintegral,Markov's inequality
+Q249514,Chebyshev inequality,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Probability/Moments/Variance.html#ProbabilityTheory.meas_ge_le_variance_div_sq,Chebyshev's inequality
+Q382497,affine function,https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/AffineSpace/AffineMap.html#AffineMap,Affine transformation
+Q382504,affine span,https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/AffineSpace/AffineSubspace/Defs.html#affineSpan,Affine hull
+Q11352,angle,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Geometry/Euclidean/Angle/Unoriented/Basic.html#InnerProductGeometry.angle,Angle
+Q203920,interior of a manifold,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Geometry/Manifold/IsManifold/InteriorBoundary.html#ModelWithCorners.interior,ManiFold
+Q203920,boundary of a manifold,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Geometry/Manifold/IsManifold/InteriorBoundary.html#ModelWithCorners.boundary,ManiFold
+Q1154351,prime spectrum,https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/Spectrum/Prime/Defs.html#PrimeSpectrum,Spectrum of a ring
+Q1068976,Nullstellensatz,https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/Nullstellensatz.html#MvPolynomial.vanishingIdeal_zeroLocus_eq_radical,Hilbert's Nullstellensatz
+Q11516722,finite,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Data/Fintype/Pigeonhole.html#Fintype.exists_ne_map_eq_of_card_lt,Finitely
+Q270513,Catalan numbers,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/Enumerative/Catalan.html#catalan,Catalan number
+Q816063,Bell numbers,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/Enumerative/Bell.html#Multiset.bell,Bell number
+Q1268618,Dyck words,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/Enumerative/DyckWord.html#DyckWord,Dyck word
+Q4695203,Four functions theorem,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SetFamily/FourFunctions.html#four_functions_theorem,Ahlswede–Daykin inequality
+Q1872826,LYM inequality,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SetFamily/LYM.html#Finset.lubell_yamamoto_meshalkin_inequality_sum_card_div_choose,LYM inequality
+Q2662236,VC dimension,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SetFamily/Shatter.html#Finset.vcDim,Vapnik–Chervonenkis dimension
+Q692823,Strongly regular graphs,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SimpleGraph/StronglyRegular.html#SimpleGraph.IsSRGWith,Strongly regular graph
+Q62931187,Triangle removal lemma,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SimpleGraph/Triangle/Removal.html#SimpleGraph.triangle_removal,Graph removal lemma
+Q764287,van der Waerden theorem,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/HalesJewett.html#Combinatorics.exists_mono_homothetic_copy,Van der Waerden's theorem
+Q751120,Roth's theorem,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/Additive/Corner/Roth.html#roth_3ap_theorem_nat,Roth's theorem
+Q85798239,Ruzsa triangle inequality,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/Additive/PluenneckeRuzsa.html#Finset.ruzsa_triangle_inequality_sub_sub_sub,Ruzsa triangle inequality
+Q716171,Erdős–Ginzburg–Ziv theorem,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/Additive/ErdosGinzburgZiv.html#ZMod.erdos_ginzburg_ziv,Zero-sum problem
+Q5456381,fixed points,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Dynamics/FixedPoints/Basic.html#Function.fixedPoints,Fixed Point
+Q44337,array,https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Array,Matrix (Mathematics)
+Q4982735,weak sequence,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Data/WSeq/Basic.html#Stream'.WSeq,Buchsbaum ring
+Q474715,ordered set,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Data/Ordmap/Ordset.html#Ordset,PartialOrderedSet
+Q207440,hash map,https://leanprover-community.github.io/mathlib4_docs/Std/Data/HashMap/Basic.html#Std.HashMap,Hash table
+Q2370289,finite map,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Data/Finmap.html#Finmap,Finite morphism
+Q506496,red-black tree,https://leanprover-community.github.io/mathlib4_docs/Batteries/Data/RBMap/Basic.html#Batteries.RBSet,Red–black tree
+Q17092426,W type,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Data/W/Basic.html#WType,Inductive type
+Q1893717,Rice theorem,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/Halting.html#ComputablePred.rice,Rice's theorem
+Q1527413,Turing degrees,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/TuringDegree.html#TuringDegree,Turing degree
+Q192161,language,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/Language.html#Language,Formal language
+Q670618,Arden's lemma,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/Language.html#Language.self_eq_mul_add_iff,Arden's rule
+Q752532,regular language,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/DFA.html#Language.IsRegular,Regular language
+Q400625,DFA,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/DFA.html#DFA,DFA
+Q340313,NFA,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/NFA.html#NFA,NFA
+Q185612,regular expression,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/RegularExpressions.html#RegularExpression,Regular expression
+Q729271,context-free language,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/ContextFreeGrammar.html#Language.IsContextFree,Context-free language
+Q191780,ordinal,https://leanprover-community.github.io/mathlib4_docs/Mathlib/SetTheory/Ordinal/Basic.html#Ordinal,Ordinal numbers
+Q1350299,satisfiability,https://leanprover-community.github.io/mathlib4_docs/Mathlib/ModelTheory/Satisfiability.html#FirstOrder.Language.Theory.IsSatisfiable,Satisfiability problem
+Q877149,elementary embedding,https://leanprover-community.github.io/mathlib4_docs/Mathlib/ModelTheory/ElementaryMaps.html#FirstOrder.Language.ElementaryEmbedding,Elementary embedding

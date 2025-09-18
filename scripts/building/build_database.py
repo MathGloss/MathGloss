@@ -49,8 +49,43 @@ def _normalize_wikidata_id(raw: str) -> str:
     return m.group(0) if m else raw
 
 
+SOURCE_NAME_ALIASES = {
+    'bct': 'BCT',
+    'chicago': 'Chicago',
+    'clowder': 'Clowder',
+    'context': 'Context',
+    'mathlib': 'Mathlib',
+    'nlab': 'nLab',
+    'planetmath': 'PlanetMath',
+}
+
+SOURCE_SUFFIXES = (
+    '_layer_compiled',
+    '_layer_matches',
+    '_layer_misses_wikimapper',
+    '_layer_misses',
+    '_mappings',
+)
+
+
+def _infer_source_name(path: str, fallback: str) -> str:
+    stem = os.path.splitext(os.path.basename(path))[0]
+    for suffix in SOURCE_SUFFIXES:
+        if stem.endswith(suffix):
+            stem = stem[: -len(suffix)]
+            break
+    normalized = stem.strip().lower()
+    if not normalized:
+        return fallback
+    if normalized in SOURCE_NAME_ALIASES:
+        return SOURCE_NAME_ALIASES[normalized]
+    pretty = stem.replace('_', ' ').strip()
+    return pretty.title() if pretty else fallback
+
+
 def read_alignment(path):
     rows = []  # list of tuples: (key, name, link)
+    labels = {}  # key -> label
     with open(path, newline='', encoding='utf-8') as f:
         reader = csv.reader(f)
         headers = next(reader)
@@ -59,7 +94,15 @@ def read_alignment(path):
         raw_second = headers[1]
         # normalize source base, e.g., "Chicago Name" -> "Chicago", or keep "Chicago"
         source_name = raw_second.replace(' Name', '').strip()
+        if source_name.lower() in {'title', 'titles', ''}:
+            source_name = _infer_source_name(path, fallback='Title')
         three_col = len(headers) >= 3
+        header_map = {h.strip().lower(): idx for idx, h in enumerate(headers)}
+        label_idx = None
+        for key in ('label', 'wikidata label'):
+            if key in header_map:
+                label_idx = header_map[key]
+                break
         for r in reader:
             if not r or not r[0].strip():
                 continue
@@ -71,7 +114,11 @@ def read_alignment(path):
                 value = r[1].strip() if len(r) > 1 else ''
                 name, link = split_name_link(value)
             rows.append((key, name, link))
-    return source_name, rows
+            if label_idx is not None and len(r) > label_idx:
+                lbl = r[label_idx].strip()
+                if lbl and key not in labels:
+                    labels[key] = lbl
+    return source_name, rows, labels
 
 def split_name_link(value: str):
     # Parse markdown [Name](URL)
@@ -91,10 +138,11 @@ def split_name_link(value: str):
 def merge_alignments(alignments_dir):
     data = defaultdict(dict)  # key -> {f"{source} Name": name, f"{source} Link": link}
     sources = []
+    inferred_labels = {}
     for fname in sorted(os.listdir(alignments_dir)):
         if not fname.endswith('.csv'):
             continue
-        source, rows = read_alignment(os.path.join(alignments_dir, fname))
+        source, rows, labels = read_alignment(os.path.join(alignments_dir, fname))
         if source not in sources:
             sources.append(source)
         for key, name, link in rows:
@@ -102,7 +150,10 @@ def merge_alignments(alignments_dir):
                 data[key][f"{source} Name"] = name
             if link:
                 data[key][f"{source} Link"] = link
-    return sources, data
+        for key, lbl in labels.items():
+            if lbl and key not in inferred_labels:
+                inferred_labels[key] = lbl
+    return sources, data, inferred_labels
 
 
 def _load_cache(path: Optional[str]) -> Dict[str, str]:
@@ -213,20 +264,25 @@ def main():
     ap.add_argument('--retries', type=int, default=2, help='HTTP retry attempts for online label fetches')
     args = ap.parse_args()
 
-    sources, data = merge_alignments(args.alignments)
+    sources, data, inferred_labels = merge_alignments(args.alignments)
     os.makedirs(os.path.dirname(args.out) or '.', exist_ok=True)
-    labels: Dict[str, str] = {}
+    labels: Dict[str, str] = dict(inferred_labels)
 
     # Online mode takes precedence when requested
     if args.online_labels:
         cache = _load_cache(args.cache)
         cache_hits = 0
         fetched = 0
+        prefilled = sum(1 for key in data.keys() if key in labels and labels[key])
         keys = list(data.keys())
         total = len(keys)
         # Update roughly every 1% or at least every 10 items
         step = max(10, total // 100)
         for i, key in enumerate(keys, 1):
+            if key in labels and labels[key]:
+                if i % step == 0 or i == total:
+                    _print_progress('online', i, total, cache_hits + prefilled, fetched)
+                continue
             if key in cache and cache.get(key):
                 labels[key] = cache[key]
                 cache_hits += 1
@@ -237,12 +293,12 @@ def main():
                     cache[key] = lbl
                     fetched += 1
             if i % step == 0 or i == total:
-                _print_progress('online', i, total, cache_hits, fetched)
+                _print_progress('online', i, total, cache_hits + prefilled, fetched)
         # newline after progress bar
         sys.stderr.write('\n')
         sys.stderr.flush()
         _save_cache(args.cache, cache)
-        print(f"Online labels: {cache_hits} cache hits, {fetched} fetched, cache path: {args.cache}")
+        print(f"Online labels: {prefilled} prefilled, {cache_hits} cache hits, {fetched} fetched, cache path: {args.cache}")
     elif args.db:
         if WikiMapper is None:
             raise RuntimeError('mapper.WikiMapper not available to populate labels; run with --online-labels or ensure scripts are co-located.')
@@ -250,8 +306,13 @@ def main():
         keys = list(data.keys())
         total = len(keys)
         resolved = 0
+        prefilled = sum(1 for key in keys if key in labels and labels[key])
         step = max(10, total // 100)
         for i, key in enumerate(keys, 1):
+            if key in labels and labels[key]:
+                if i % step == 0 or i == total:
+                    _print_progress('db', i, total, resolved + prefilled, 0)
+                continue
             try:
                 titles = mapper.id_to_titles(key)
                 if titles:
@@ -262,11 +323,11 @@ def main():
             except Exception:
                 pass
             if i % step == 0 or i == total:
-                _print_progress('db', i, total, resolved, 0)
+                _print_progress('db', i, total, resolved + prefilled, 0)
         sys.stderr.write('\n')
         sys.stderr.flush()
     write_database_csv(args.out, sources, data, labels)
-    print(f"Wrote {args.out} with {len(data)} rows and {len(sources)} sources. Labels populated: {len(labels)}")
+    print(f"Wrote {args.out} with {len(data)} rows and {len(sources)} sources. Labels populated: {sum(1 for v in labels.values() if v)}")
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quotient ring — MathGloss</title>
+    <link rel="stylesheet" href="../web/styles.css" />
+    <style>
+      body { max-width: 780px; margin: 24px auto; padding: 0 16px; }
+      nav { margin-bottom: 20px; }
+      nav a { text-decoration: none; font-size: 0.95rem; }
+      .wikidata-meta { margin-bottom: 24px; }
+      .wikidata-meta dt { font-weight: bold; }
+      .wikidata-meta dd { margin: 0 0 8px 0; }
+      .sources h2 { margin-top: 32px; }
+      .sources ul { list-style: disc; padding-left: 20px; }
+      .sources li { margin-bottom: 8px; }
+    </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+  </head>
+  <body>
+    <nav><a href="../web/">← Back to index</a></nav>
+    <h1>quotient ring</h1>
+    <section class="wikidata-meta">
+      <dl>
+        <dt>Wikidata ID</dt>
+        <dd><a href="https://www.wikidata.org/wiki/Q619436" target="_blank" rel="noopener">Q619436</a></dd>
+        <dt>Label</dt>
+        <dd>quotient ring</dd>
+      </dl>
+    </section>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $R$ be a <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> and $I$ an <a href="../entries/Q2905043.html" target="_blank" rel="noopener">ideal</a> in $R$. Define an <a href="../entries/Q130998.html" target="_blank" rel="noopener">equivalence relation</a> $\sim$ on $R$ by $a\sim b$ when $a-b \in I$. The <a href="../entries/Q1211071.html" target="_blank" rel="noopener">equivalence classes</a> are given by $<a href="https://mathgloss.github.io/MathGloss/chicago/well-defined" target="_blank" rel="noopener">a] = a+ I = \{a+r \mid r\in I\}$. The set of all such equivalence classes is denoted $R/I$, or the <strong>quotient of $R$ by $I$</strong>.  The operations addition ($(a+I)+ (b+I) = (a+b)+I$) and multiplication ($(a+I)(b+I) = (ab)+I$) are [well-defined</a>. write_proof</p>
+<p>Moreover, this itself is a <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> write_proof.</p>
+<p>The quotient comes with a <a href="../entries/Q229102.html" target="_blank" rel="noopener">surjective</a> <a href="../entries/Q1194212.html" target="_blank" rel="noopener">homomorphism</a> $R\to R/I$ given by $r\mapsto r+I$.</p>
+    </section>
+<section class="sources">
+      <h2>Sources</h2>
+      <ul>
+        <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/Ideal/Quotient/Defs.html#Ideal.Quotient.ring" target="_blank" rel="noopener">quotient ring</a></li>
+        <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/quotient+ring" target="_blank" rel="noopener">quotient ring</a></li>
+        <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/quotientring" target="_blank" rel="noopener">quotient ring</a></li>
+      </ul>
+    </section>
+
+  </body>
+</html>

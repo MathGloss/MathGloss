@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linear map — MathGloss</title>
+    <link rel="stylesheet" href="../web/styles.css" />
+    <style>
+      body { max-width: 780px; margin: 24px auto; padding: 0 16px; }
+      nav { margin-bottom: 20px; }
+      nav a { text-decoration: none; font-size: 0.95rem; }
+      .wikidata-meta { margin-bottom: 24px; }
+      .wikidata-meta dt { font-weight: bold; }
+      .wikidata-meta dd { margin: 0 0 8px 0; }
+      .sources h2 { margin-top: 32px; }
+      .sources ul { list-style: disc; padding-left: 20px; }
+      .sources li { margin-bottom: 8px; }
+    </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+  </head>
+  <body>
+    <nav><a href="../web/">← Back to index</a></nav>
+    <h1>Linear map</h1>
+    <section class="wikidata-meta">
+      <dl>
+        <dt>Wikidata ID</dt>
+        <dd><a href="https://www.wikidata.org/wiki/Q207643" target="_blank" rel="noopener">Q207643</a></dd>
+        <dt>Label</dt>
+        <dd>Linear map</dd>
+      </dl>
+    </section>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $W$ and $V$ be <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector spaces</a> over the same ground field $F$. A function $T: V \to W$ is a <strong>linear transformation</strong> if for all $v,w \in V$ and $\alpha,\beta \in F$, $$T(\alpha v+\beta w) = \alpha T(v) + \beta T(w).$$</p>
+<p>This is the correct notion for a <a href="https://mathgloss.github.io/MathGloss/chicago/homomorphism" target="_blank" rel="noopener">homomorphism</a> of <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector spaces</a>. If a linear transformation is <a href="../entries/Q180907.html" target="_blank" rel="noopener">bijective</a>, then it is an <a href="https://mathgloss.github.io/MathGloss/chicago/isomorphism" target="_blank" rel="noopener">isomorphism</a> of <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector spaces</a>.</p>
+    </section>
+<section class="sources">
+      <h2>Sources</h2>
+      <ul>
+        <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/Algebra/Module/LinearMap.html#ContinuousLinearMap" target="_blank" rel="noopener">continuous linear map</a></li>
+        <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/short+linear+map" target="_blank" rel="noopener">short linear map</a></li>
+        <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/lineartransformation" target="_blank" rel="noopener">linear transformation</a></li>
+      </ul>
+    </section>
+
+  </body>
+</html>

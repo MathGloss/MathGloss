@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>determinant — MathGloss</title>
+    <link rel="stylesheet" href="../web/styles.css" />
+    <style>
+      body { max-width: 780px; margin: 24px auto; padding: 0 16px; }
+      nav { margin-bottom: 20px; }
+      nav a { text-decoration: none; font-size: 0.95rem; }
+      .wikidata-meta { margin-bottom: 24px; }
+      .wikidata-meta dt { font-weight: bold; }
+      .wikidata-meta dd { margin: 0 0 8px 0; }
+      .sources h2 { margin-top: 32px; }
+      .sources ul { list-style: disc; padding-left: 20px; }
+      .sources li { margin-bottom: 8px; }
+    </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+  </head>
+  <body>
+    <nav><a href="../web/">← Back to index</a></nav>
+    <h1>determinant</h1>
+    <section class="wikidata-meta">
+      <dl>
+        <dt>Wikidata ID</dt>
+        <dd><a href="https://www.wikidata.org/wiki/Q178546" target="_blank" rel="noopener">Q178546</a></dd>
+        <dt>Label</dt>
+        <dd>determinant</dd>
+      </dl>
+    </section>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>determinant</strong> of a <a href="../entries/Q207643.html" target="_blank" rel="noopener">linear transformation</a> $T: V\to V$ (where $V$ is finite-<a href="https://mathgloss.github.io/MathGloss/chicago/dimension_of_vector_space" target="_blank" rel="noopener">dimensional</a>) is the unique <a href="https://mathgloss.github.io/MathGloss/chicago/antisymmetric" target="_blank" rel="noopener">antisymmetric</a> $n$-variable <a href="https://mathgloss.github.io/MathGloss/chicago/multilinear" target="_blank" rel="noopener">multilinear</a> map $\text{det}$ such that $$\text{det}:(\mathbb R^n)^n \to \mathbb R$$ such that $\text{det}(e_1,\dots,e_n)=1$. It is defined for a the <a href="https://mathgloss.github.io/MathGloss/chicago/matrix_of_a_linear_transformation" target="_blank" rel="noopener">matrix</a> $A$ of $T$ as $$\text{det}(A) = \text{det}(A_1,\dots,A_n)$$ where the $A_i$ are the columns of $A$.</p>
+    </section>
+<section class="sources">
+      <h2>Sources</h2>
+      <ul>
+        <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=37" target="_blank" rel="noopener">determinant</a></li>
+        <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Matrix/Determinant/Basic.html#Matrix.det" target="_blank" rel="noopener">determinant</a></li>
+        <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/determinant" target="_blank" rel="noopener">determinant</a></li>
+        <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/determinant" target="_blank" rel="noopener">determinant</a></li>
+      </ul>
+    </section>
+
+  </body>
+</html>
