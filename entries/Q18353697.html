@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>Lie correspondence</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Lie_correspondence" target="_blank" rel="noopener">Lie correspondence</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $G$ be a <a href="../entries/Q622679.html" target="_blank" rel="noopener">matrix Lie group</a>. Then the <strong><a href="https://mathgloss.github.io/MathGloss/chicago/Lie_algebra" target="_blank" rel="noopener">Lie algebra</a> of $G$</strong> is the set of all <a href="../entries/Q44337.html" target="_blank" rel="noopener">matrices</a> $X \in M_n(\mathbb C)$ such that the <a href="https://mathgloss.github.io/MathGloss/chicago/exponential_of_linear_transformation" target="_blank" rel="noopener">matrix exponential</a> $e^{tX} \in G$ for all $t \in \mathbb R$.</p>
     </section>
 
   </body>

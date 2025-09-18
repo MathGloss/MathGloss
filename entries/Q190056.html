@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Hilbert space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>Hilbert space</strong> $(H, \langle\cdot,\cdot\rangle)$ is an <a href="https://mathgloss.github.io/MathGloss/chicago/inner_product_space" target="_blank" rel="noopener">inner product space</a> that is <a href="https://mathgloss.github.io/MathGloss/chicago/complete_metric_space" target="_blank" rel="noopener">complete</a> as a <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric space</a> with <a href="https://mathgloss.github.io/MathGloss/chicago/norm_induces_metric" target="_blank" rel="noopener">metric</a> induced by the norm from the inner product.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Hilbert_space" target="_blank" rel="noopener">Hilbert space</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/separable+Hilbert+space" target="_blank" rel="noopener">separable Hilbert space</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/hilbertspace" target="_blank" rel="noopener">Hilbert space</a></li>
       </ul>

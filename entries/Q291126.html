@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>semidirect product</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $H$ and $N$ be <a href="../entries/Q83478.html" target="_blank" rel="noopener">groups</a> and let $\phi: H\to \text{Aut}(N)$ be a <a href="../entries/Q868169.html" target="_blank" rel="noopener">group homomorphism</a> from $H$ to the <a href="../entries/Q60790315.html" target="_blank" rel="noopener">automorphism group</a> of $N$. The <strong>semidirect product</strong> $H\ltimes N$ is a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> on the Cartesian product $H\times N$ with operation $*$ given by $$(h_1,n_1)*(h_2,n_2) = (h_1h_2, n_1\phi(h_1)n_2).$$ The <a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">identity element</a> of $H\ltimes N$ is the ordered pair consisting of the <a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">identity elements</a> of $H$ and $N$, respectively. The inverse with respect to $*$ is given by $$(h,n)^{-1} = (h^{-1},\phi(h^{-1})n^{-1}).$$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/semidirect_product" target="_blank" rel="noopener">semidirect product</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/semidirect+product+group" target="_blank" rel="noopener">semidirect product group</a></li>
       </ul>
     </section>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,16 @@
         <dd>List of continuity-related mathematical topics</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $f: X\to Y$ be a function between <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological spaces</a> $X$ and $Y$. Then $f$ is <strong>continuous</strong> if and only if the <a href="https://mathgloss.github.io/MathGloss/chicago/preimage" target="_blank" rel="noopener">preimage</a> of an <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> set in $Y$ is <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> in $X$.</p>
+<p>A function $f: X\to Y$ between <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric spaces</a> $(X,\rho)$ and $(Y,\sigma)$ is <strong>continuous</strong> at $x\in X$ if and only if for every $\varepsilon &gt; 0$, there exists $\delta&gt; 0$ such that $\sigma(f(x),f(x')) &lt; \varepsilon$ whenever $\rho(x,x') &lt; \delta$.</p>
+<p>A function $f: X\to Y$ between <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric spaces</a> $(X,\rho)$ and $(Y,\sigma)$ is <strong>continuous</strong> at $x\in X$ if and only if for any sequence $\{x_n\}_{n\in\mathbb N}$ in $X$ <a href="https://mathgloss.github.io/MathGloss/chicago/sequence_convergence" target="_blank" rel="noopener">converging</a> to $x$, $\{f(x_n)\}_{n\in \mathbb N}$ converges to $f(x)$.</p>
+<p>These three definitions are all equivalent in their respective contexts.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/continuous" target="_blank" rel="noopener">continuous</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/continuous" target="_blank" rel="noopener">continuous</a></li>
       </ul>
     </section>

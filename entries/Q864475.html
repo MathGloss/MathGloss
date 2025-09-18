@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,19 @@
         <dd>functor</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A covariant <strong>functor</strong> $F:\mathcal C\to \mathcal D$ is a map between <a href="../entries/Q719395.html" target="_blank" rel="noopener">categories</a> $\mathcal C$ and $\mathcal D$. It must assign to each object $A$ of $\mathcal C$ an object $F(A)$ an object of $\mathcal D$ and to each morphism $f:A\to B$ of $\mathcal C$ a morphism $F(f):f(A) \to f(B)$ of $\mathcal D$ such that</p>
+<ul>
+<li>$F(\text{id}_A)) = \text{id}_{F(A)}$;</li>
+<li>$F(g\circ f) = F(g)\circ F(f)$.</li>
+</ul>
+<p>A contravariant functor "reverses the direction of arrows;" that is, $F$ sends $f:A\to B$ to $F(f): f(B) \to f(A)$ and $F(g\circ f) = F(f) \circ F(g)$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=30" target="_blank" rel="noopener">covariant functor</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/functor" target="_blank" rel="noopener">functor</a></li>
         <li><strong>Clowder</strong>: <a href="https://www.clowderproject.com/tag/00ZW.html" target="_blank" rel="noopener">functors</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=92" target="_blank" rel="noopener">constant functor</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Functor/Basic.html#CategoryTheory.Functor" target="_blank" rel="noopener">functor</a></li>

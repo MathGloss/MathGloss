@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,16 @@
         <dd>polynomial ring</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $R$ be a <a href="../entries/Q165474.html" target="_blank" rel="noopener">commutative</a> <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> and $x$ a variable. Then $R<a href="https://mathgloss.github.io/MathGloss/chicago/polynomial" target="_blank" rel="noopener">x]$ is the <strong>polynomial ring</strong> of [polynomials</a> in $x$ with coefficients in $R$.</p>
+<p>We can also define the <strong>polynomial ring</strong> in multiple variables. Let $X = \{x_1,\dots,x_n\}$ be a finite collection of variables. Then $R[X] = R[x_1,\dots,x_n]$ is defined as follows:</p>
+<p>To each function $I:X\to \mathbb N$, associate a monomial $$x^I = x_1^{I(x_1)}+\cdots + x_n^{I(x_n)}.$$ Then $$R[X]= \left\{ \sum_{I:X\to \mathbb N} a_IX^I \mid a_I\in R, a_I = 0 \text{ for all but finitely many } I \right\}.$$ Multiplication and addition are defined exactly how you would think.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=16" target="_blank" rel="noopener">polynomial ring</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/polynomial_ring" target="_blank" rel="noopener">polynomial ring</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/freecommutativealgebra" target="_blank" rel="noopener">free commutative algebra</a></li>
       </ul>
     </section>

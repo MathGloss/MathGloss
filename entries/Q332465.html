@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>absolute convergence</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $A$ be a <a href="../entries/Q806066.html" target="_blank" rel="noopener">Banach algebra</a> with <a href="../entries/Q7051414.html" target="_blank" rel="noopener">norm</a> $\vert \cdot \vert$. Given a sequence $\{a_i\}_{i\in \mathbb N}$ of elements of $A$, the series $$\sum_{i=1}^\infty a_i$$ is <strong>absolutely convergent</strong> if there exists $L \in\mathbb R$ such that  $$\sum_{i=1}^\infty \vert a_i\vert =L.$$</p>
+<p>This means that the partial sums $$\sum_{i=1}^n a_i$$ form a <a href="../entries/Q217847.html" target="_blank" rel="noopener">Cauchy sequence</a> in $A$, and since $A$ is <a href="https://mathgloss.github.io/MathGloss/chicago/complete_metric_space" target="_blank" rel="noopener">complete</a> by definition, the sequence must have a limit in $A$. We denote this limit by the infinite sum.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/absolute_convergence" target="_blank" rel="noopener">absolute convergence</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/absolute+convergence" target="_blank" rel="noopener">absolute convergence</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/absoluteconvergencetheorem" target="_blank" rel="noopener">absolute convergence theorem</a></li>
       </ul>

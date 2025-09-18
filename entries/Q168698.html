@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Exponential function</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>complex exponential</strong> is given by the <a href="../entries/Q206925.html" target="_blank" rel="noopener">power series</a> $$e^z = \sum_{n=0}^\infty \frac{z^n}{n!}$$ which has infinite <a href="../entries/Q1428097.html" target="_blank" rel="noopener">radius of convergence</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/complex_exponential" target="_blank" rel="noopener">complex exponential</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/complexexponentialfunction" target="_blank" rel="noopener">complex exponential function</a></li>
       </ul>
     </section>

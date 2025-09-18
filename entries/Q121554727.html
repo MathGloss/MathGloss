@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>algebraic integer</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An <strong>algebraic integer</strong> is a number that is the root of a <a href="https://mathgloss.github.io/MathGloss/chicago/monic" target="_blank" rel="noopener">monic</a> <a href="../entries/Q1455652.html" target="_blank" rel="noopener">polynomial</a> over $\mathbb Z$. The algebraic integers form a ring. Note that it is *not* a subring (nor even a subset) of $\mathbb Z$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/algebraic_integer" target="_blank" rel="noopener">algebraic integer</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/algebraic+integer" target="_blank" rel="noopener">algebraic integer</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/algebraicinteger" target="_blank" rel="noopener">algebraic integer</a></li>
       </ul>

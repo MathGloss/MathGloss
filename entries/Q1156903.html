@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Riemann sum</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $f: Q\to \mathbb R$ be a <a href="../entries/Q310647.html" target="_blank" rel="noopener">bounded</a> function defined on the <a href="../entries/Q209.html" target="_blank" rel="noopener">rectangle</a> $Q$ and let $P$ be a <a href="../entries/Q381060.html" target="_blank" rel="noopener">partition of a set</a> of $Q$. For each <a href="https://mathgloss.github.io/MathGloss/chicago/subrectangle" target="_blank" rel="noopener">subrectangle</a> $R$ determined by $P$, let $M_R(f) = \sup\limits_{x\in R} f(x)$. The <strong>lower sum</strong> for $f$ determined by $P$ is $$U(f,P) = \sum_{R} M_R(f)\text{vol}(R)$$ where $\text{vol}$ is the <a href="../entries/Q1238720.html" target="_blank" rel="noopener">volume</a> of the <a href="../entries/Q209.html" target="_blank" rel="noopener">rectangle</a> $R$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/upper_sum" target="_blank" rel="noopener">upper sum</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/midpointrule" target="_blank" rel="noopener">midpoint rule</a></li>
       </ul>
     </section>

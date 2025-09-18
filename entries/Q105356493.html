@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Circle group</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>circle <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a></strong>, usually denoted $\mathbb T$, is the complex $1$-<a href="https://mathgloss.github.io/MathGloss/chicago/torus" target="_blank" rel="noopener">torus</a>. Equivalently, it is the multiplicative <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> of <a href="../entries/Q11567.html" target="_blank" rel="noopener">complex numbers</a> with <a href="https://mathgloss.github.io/MathGloss/chicago/complex_absolute_value" target="_blank" rel="noopener">complex absolute value</a> $1$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/circle_group" target="_blank" rel="noopener">circle group</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/circle+group" target="_blank" rel="noopener">circle group</a></li>
       </ul>
     </section>

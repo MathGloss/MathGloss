@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>power series</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>power series</strong> over a <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> $R$ is a series of the form $$\sum_{n=0}^\infty a_n (x-c)^n$$ for $a_n, c\in R$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=161" target="_blank" rel="noopener">series power</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/power_series" target="_blank" rel="noopener">power series</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/PowerSeries/Basic.html#PowerSeries" target="_blank" rel="noopener">power series</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Ribenboim+power+series" target="_blank" rel="noopener">Ribenboim power series</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/termwisedifferentiation" target="_blank" rel="noopener">termwise differentiation</a></li>

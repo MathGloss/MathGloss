@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,16 @@
         <dd>Field of fractions</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $R$ be a <a href="../entries/Q165474.html" target="_blank" rel="noopener">commutative</a> <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> and let $S$ be a subset of $R$ that is closed under multiplication and contains the multiplicative <a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">identity</a>. Then $$S^{-1}R = \left\{\left[\frac{r}{s}\right]\mid r\in R,s\in S\right\}$$  where equivalence of fractions is given by $\left[\frac{r_1}{s_1}\right] =\left[\frac{r_2}{s_2}\right]$ if and only if there exists $k \in S$ such that $kr_1s_2 = kr_2s_1$.</p>
+<p>This is itself a <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> under the usual operations we know and love for fractions of integers.</p>
+<p>If $S$ is exactly the nonzero elements of $R$, then this forms a <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a>.</p>
+<p>write_proof</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/fraction_ring" target="_blank" rel="noopener">fraction ring</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/field+of+fractions" target="_blank" rel="noopener">field of fractions</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/fractionfield" target="_blank" rel="noopener">fraction field</a></li>
       </ul>

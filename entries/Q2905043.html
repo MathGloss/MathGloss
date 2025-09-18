@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>principal ideal ring</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $R$ be a <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a>.  An <strong>ideal</strong> $I$ of $R$ is a subset that is both a <a href="https://mathgloss.github.io/MathGloss/chicago/left_ring_ideal" target="_blank" rel="noopener">left ideal</a> and a <a href="https://mathgloss.github.io/MathGloss/chicago/right_ring_ideal" target="_blank" rel="noopener">right ideal</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/ring_ideal" target="_blank" rel="noopener">ring ideal</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/B%C3%A9zout+ring" target="_blank" rel="noopener">Bézout ring</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/principalidealring" target="_blank" rel="noopener">principal ideal ring</a></li>
       </ul>

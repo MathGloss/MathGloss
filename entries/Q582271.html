@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>noetherian ring</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> $R$ is <strong>Noetherian</strong> if it is <a href="../entries/Q2444982.html" target="_blank" rel="noopener">Noetherian</a> as a <a href="../entries/Q18848.html" target="_blank" rel="noopener">module</a> over itself. <a href="https://mathgloss.github.io/MathGloss/chicago/submodules_of_a_ring_are_ideals" target="_blank" rel="noopener">That is</a>, if there are no infinite increasing chains of <a href="https://mathgloss.github.io/MathGloss/chicago/left_ring_ideal" target="_blank" rel="noopener">left ideals</a> of $R$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Noetherian_ring" target="_blank" rel="noopener">Noetherian ring</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/Noetherian/Defs.html#IsNoetherianRing" target="_blank" rel="noopener">Noetherian ring</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/noetherian+ring" target="_blank" rel="noopener">noetherian ring</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/noetherianring" target="_blank" rel="noopener">noetherian ring</a></li>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>quaternion algebra</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>quaternion algebra</strong> $\mathbb H$ is the four-<a href="https://mathgloss.github.io/MathGloss/chicago/dimension_of_vector_space" target="_blank" rel="noopener">dimensional</a> <a href="../entries/Q744960.html" target="_blank" rel="noopener">associative algebra</a> over $\mathbb R$ <a href="../entries/Q1960395.html" target="_blank" rel="noopener">spanned</a> by the elements $1,\mathbf i,\mathbf j,\mathbf k$ where $1$ is the <a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">identity element</a> and the relations 1. $\mathbf i^2 = \mathbf j^2 = \mathbf k^2 = -1$; 2. $\mathbf{ij} = \mathbf k$; 3. $\mathbf{ji} = -\mathbf k$; 4. $\mathbf{jk} = \mathbf i$; 5. $\mathbf{kj} =-\mathbf i$; 6. $\mathbf{ki} = \mathbf j$; 7. $\mathbf{ik} = -\mathbf j$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/quaternion_algebra" target="_blank" rel="noopener">quaternion algebra</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/quaternionalgebra" target="_blank" rel="noopener">quaternion algebra</a></li>
       </ul>
     </section>

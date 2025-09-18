@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>totally bounded space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A subset $E$ of the <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric space</a> $(X,\rho)$ is <strong>totally bounded</strong> if for all $\varepsilon &gt; 0$, there exists a finite set $\{x_i\}_{i=1}^n$ of points in $X$ such that $$E \subseteq \bigcup_{i=1}^n B(x_i, \varepsilon),$$ where $B(x_i, \varepsilon) = \{x \in X \mid \rho(x_i,x)&lt; \varepsilon\}.$ That is, for every $\varepsilon &gt; 0$, $E$ can be covered by a finite set of balls of radius $\varepsilon$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/totally_bounded" target="_blank" rel="noopener">totally bounded</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/precompact+space" target="_blank" rel="noopener">precompact space</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/totallyboundeduniformspace" target="_blank" rel="noopener">totally bounded uniform space</a></li>
       </ul>

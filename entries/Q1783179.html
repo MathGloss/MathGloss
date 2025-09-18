@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>orthogonal group</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong><a href="../entries/Q333871.html" target="_blank" rel="noopener">orthogonal</a> <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a></strong> $\text{O}(n)$ is the <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> of $n\times n$ <a href="../entries/Q333871.html" target="_blank" rel="noopener">orthogonal matrices</a>.</p>
+<p>This <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> is a <a href="../entries/Q622679.html" target="_blank" rel="noopener">matrix Lie group</a> because it is a <a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroup</a> of the <a href="../entries/Q524607.html" target="_blank" rel="noopener">general linear group</a> $\text{GL}(n,\mathbb C)$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/orthogonal_group" target="_blank" rel="noopener">orthogonal group</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/stable+orthogonal+group" target="_blank" rel="noopener">stable orthogonal group</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/orthogonalgroup" target="_blank" rel="noopener">orthogonal group</a></li>
       </ul>

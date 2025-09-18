@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>outer regular measure</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(X,\Sigma,\mu)$ be a <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure space</a>. A <a href="../entries/Q192276.html" target="_blank" rel="noopener">measurable</a> subset $A$ of $X$ is <strong>outer regular</strong> if $$\mu(A) = \inf\{\mu(G) \mid G\supseteq A, G\text{ open and measurable}\}.$$ [](https://mathgloss.github.io/MathGloss/chicago/infimum)</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/outer_regular" target="_blank" rel="noopener">outer regular</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/outerregular" target="_blank" rel="noopener">outer regular</a></li>
       </ul>
     </section>

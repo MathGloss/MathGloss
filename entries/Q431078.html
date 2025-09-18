@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>free group</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$ is <strong>free</strong> if there exists a <a href="../entries/Q734209.html" target="_blank" rel="noopener">generating set</a> $X$ of $G$ such that every nonempty <a href="https://mathgloss.github.io/MathGloss/chicago/reduced_word" target="_blank" rel="noopener">reduced</a> <a href="https://mathgloss.github.io/MathGloss/chicago/group_word" target="_blank" rel="noopener">group word</a> in $X$ defines a non<a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">trivial</a> element of $G$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=27" target="_blank" rel="noopener">free group</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/free_group" target="_blank" rel="noopener">free group</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=32" target="_blank" rel="noopener">free group</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/FreeGroup/Basic.html#FreeGroup" target="_blank" rel="noopener">free group</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/free+group" target="_blank" rel="noopener">free group</a></li>

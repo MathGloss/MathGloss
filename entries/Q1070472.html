@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>product topology</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $X$ and $Y$ be <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological spaces</a>. The <a href="../entries/Q179899.html" target="_blank" rel="noopener">topology</a> on their <a href="https://mathgloss.github.io/MathGloss/chicago/Cartesian_product" target="_blank" rel="noopener">Cartesian product</a> $X\times Y$ has <a href="../entries/Q810214.html" target="_blank" rel="noopener">basis</a> the products $U\times V$ of <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> sets $U\subset X$ and $V\subset Y$.</p>
+<p>Given a (possibly infinite) set $\{X_i\}_{i\in I}$ of <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological spaces</a>, the <strong>product topology</strong> on $\prod_{i\in I} X_i$ is <a href="https://mathgloss.github.io/MathGloss/chicago/generate_a_topology" target="_blank" rel="noopener">generated</a> by the <a href="https://mathgloss.github.io/MathGloss/chicago/basis_of_a_topology" target="_blank" rel="noopener">basis</a> consisting of all products $\prod_{i\in I} U_i$ for $U$ <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> in $X$ and $U_i = X_i$ for all but finitely many $i\in I$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/product_topology" target="_blank" rel="noopener">product topology</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/producttopology" target="_blank" rel="noopener">product topology</a></li>
       </ul>
     </section>

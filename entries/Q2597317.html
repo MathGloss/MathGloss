@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>real projective space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>real projective space</strong> $\mathbb RP^n$ of dimension $n$ is the <a href="../entries/Q1393796.html" target="_blank" rel="noopener">quotient</a> of $\mathbb R^{n+1}$ by the <a href="../entries/Q130998.html" target="_blank" rel="noopener">equivalence relation</a> $\sim$ given by $x\sim y$ if and only if $x=-y$. This amounts to considering $\mathbb RP^n$ as the set of lines through the origin in $\mathbb R^{n+1}$, or the unit sphere $S^n$ where we identify antipodal points $u$ and $-u$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/real_projective_space" target="_blank" rel="noopener">real projective space</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/real+projective+space" target="_blank" rel="noopener">real projective space</a></li>
       </ul>
     </section>

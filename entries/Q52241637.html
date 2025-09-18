@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>symplectic Lie algebra</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $V$ be a finite-<a href="https://mathgloss.github.io/MathGloss/chicago/dimension_of_vector_space" target="_blank" rel="noopener">dimensional</a> <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector space</a> with $\text{dim}(V)=2\ell$ with <a href="../entries/Q189569.html" target="_blank" rel="noopener">basis</a> $\{v_1,\dots,v_{2\ell}\}$. Define a nondegenerate <a href="https://mathgloss.github.io/MathGloss/chicago/skew-symmetric" target="_blank" rel="noopener">skew-symmetric</a> <a href="https://mathgloss.github.io/MathGloss/chicago/form" target="_blank" rel="noopener">form</a> $f$ on $V$ with the <a href="https://mathgloss.github.io/MathGloss/chicago/matrix_of_a_linear_transformation" target="_blank" rel="noopener">matrix</a> $$s = \begin{bmatrix}0 &amp; I_\ell \\ -I_\ell &amp; 0\end{bmatrix}.$$ Note that the <a href="https://mathgloss.github.io/MathGloss/chicago/dimension_of_vector_space" target="_blank" rel="noopener">dimension</a> being even is required for the existence of a nondegenerate <a href="https://mathgloss.github.io/MathGloss/chicago/multilinear" target="_blank" rel="noopener">bilinear</a> form satisfying $f(v,w) = -f(w,v)$. Then denote by $\mathfrak{sp}(V)$ the <strong>symplectic algebra</strong> consisting of all <a href="../entries/Q1340800.html" target="_blank" rel="noopener">endomorphisms</a> $x$ of $V$ such that $f(x(v),w) = -f(v,x(w)).$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/symplectic_algebra" target="_blank" rel="noopener">symplectic algebra</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/symplectic+Lie+algebra" target="_blank" rel="noopener">symplectic Lie algebra</a></li>
       </ul>
     </section>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Banach space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q1826459.html" target="_blank" rel="noopener">normed linear space</a> $(X, \vert \vert \cdot\vert \vert )$ is <strong>Banach</strong> if it is <a href="https://mathgloss.github.io/MathGloss/chicago/complete_metric_space" target="_blank" rel="noopener">complete</a> under the <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric</a> induced by the norm.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Banach_space" target="_blank" rel="noopener">Banach space</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Banach+space" target="_blank" rel="noopener">Banach space</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/banachspace" target="_blank" rel="noopener">Banach space</a></li>
       </ul>

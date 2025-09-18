@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Bounded variation</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A function $f: <a href="../entries/Q381060.html" target="_blank" rel="noopener">a,b]\to \mathbb R$ is of <strong>bounded variation</strong> if for every [partition of a set</a> $P =\{a= x_0 &lt; &lt;x_1 &lt; \cdots &lt; x_n = b\}$, we have $$\sup_P \sum_{i=1}^n \vert f(x_i)-f(x_{i-1})\vert  &lt;\infty.$$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/bounded_variation" target="_blank" rel="noopener">bounded variation</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/bvfunction" target="_blank" rel="noopener">BV function</a></li>
       </ul>
     </section>

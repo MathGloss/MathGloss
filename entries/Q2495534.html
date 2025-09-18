@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>unitary transformation</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/unitary_transformation" target="_blank" rel="noopener">unitary transformation</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q207643.html" target="_blank" rel="noopener">linear transformation</a> that preserves the <a href="../entries/Q7051414.html" target="_blank" rel="noopener">norm</a> of <a href="../entries/Q125977.html" target="_blank" rel="noopener">vectors</a> is called <strong>unitary</strong>.</p>
     </section>
 
   </body>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,19 @@
         <dd>subgroup</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A subset $H\subset G$ of the <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$ is a <strong>subgroup</strong> of $G$ if it is itself a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> under the <a href="../entries/Q164307.html" target="_blank" rel="noopener">operation</a> inherited from $G$.</p>
+<p>The <strong>subgroup axioms</strong> are</p>
+<ul>
+<li>closure under $*$;</li>
+<li>the <a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">identity element</a> of $G$ is in $H$;</li>
+<li>for every $h\in H$, the <a href="https://mathgloss.github.io/MathGloss/chicago/inverse_element" target="_blank" rel="noopener">inverse element</a> $h^{-1}$ is also in $H$.</li>
+</ul>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/subgroup" target="_blank" rel="noopener">subgroup</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Group/Subgroup/Defs.html#Subgroup" target="_blank" rel="noopener">subgroup</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/subgroup" target="_blank" rel="noopener">subgroup</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/propersubgroup" target="_blank" rel="noopener">proper subgroup</a></li>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>partially ordered set</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>partially ordered set</strong> is a set $X$ together with a <a href="../entries/Q54938846.html" target="_blank" rel="noopener">homogeneous relation</a> $\leq$ such that for all $x,y,z\in X$, 1. $\leq$ is <a href="https://mathgloss.github.io/MathGloss/chicago/reflexive" target="_blank" rel="noopener">reflexive</a>, i.e. $x\leq x$; 2. $\leq$ is <a href="https://mathgloss.github.io/MathGloss/chicago/antisymmetric" target="_blank" rel="noopener">antisymmetric</a>, i.e. if $x\leq y$ and $y\leq x$ then $x=y$; 3. $\leq$ is <a href="../entries/Q671944.html" target="_blank" rel="noopener">transitive</a>, i.e. if $x\leq y$ and $y\leq z$ then $x\leq z$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=23" target="_blank" rel="noopener">partially ordered set</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/partially_ordered_set" target="_blank" rel="noopener">partially ordered set</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=23" target="_blank" rel="noopener">poset</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Data/Ordmap/Ordset.html#Ordset" target="_blank" rel="noopener">ordered set</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/ordinal+sum" target="_blank" rel="noopener">ordinal sum</a></li>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>norm</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>norm</strong> on a <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector space</a> $V$ is a real-valued functional $\vert \vert \cdot\vert \vert $ such that for all $v,w \in V$ and $\alpha \in \mathbb R$, the following properties hold: 1. $\vert \vert v+w\vert \vert  \leq \vert \vert v\vert \vert  + \vert \vert w\vert \vert $; 2. $\vert \vert \alpha v\vert \vert  = \vert \alpha\vert  \cdot \vert \vert v\vert \vert $; 3. $\vert \vert v\vert \vert  \geq 0$ and $\vert \vert v\vert \vert  = 0$ if and only if $v=0$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/norm" target="_blank" rel="noopener">norm</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/norm" target="_blank" rel="noopener">norm</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/norm" target="_blank" rel="noopener">norm</a></li>
       </ul>

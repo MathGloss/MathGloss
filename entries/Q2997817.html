@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>perfect field</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> $F$ is <strong>perfect</strong> if it is of <a href="https://mathgloss.github.io/MathGloss/chicago/characteristic_of_a_field" target="_blank" rel="noopener">characteristic</a> $p&gt;0$ and every element in $p$ is a $p$th power or if it is of <a href="https://mathgloss.github.io/MathGloss/chicago/chatacteristic_of_a_field" target="_blank" rel="noopener">characteristic</a> $0$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/perfect_field" target="_blank" rel="noopener">perfect field</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/FieldTheory/PerfectClosure.html#PerfectClosure" target="_blank" rel="noopener">perfect closure</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/perfect+field" target="_blank" rel="noopener">perfect field</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/perfectfield" target="_blank" rel="noopener">perfect field</a></li>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>equivalence class</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $\sim$ be an <a href="../entries/Q130998.html" target="_blank" rel="noopener">equivalence relation</a> on $X$. The <strong>equivalence class</strong> of $a \in X$, denoted $[a]$, is the set $\{x \in X \mid a \sim X\}$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/equivalence_class" target="_blank" rel="noopener">equivalence class</a></li>
         <li><strong>Clowder</strong>: <a href="https://www.clowderproject.com/tag/02B1.html" target="_blank" rel="noopener">equivalence classes</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/equivalence+class" target="_blank" rel="noopener">equivalence class</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/canonicalprojection" target="_blank" rel="noopener">canonical projection</a></li>

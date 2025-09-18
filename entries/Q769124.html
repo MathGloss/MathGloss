@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Frobenius endomorphism</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $F$ be a <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> of <a href="https://mathgloss.github.io/MathGloss/chicago/characteristic_of_a_field" target="_blank" rel="noopener">characteristic</a> $p$. Then the map $x\mapsto x^p$ is called the <strong>Frobenius endomorphism</strong>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Frobenius_endomorphism" target="_blank" rel="noopener">Frobenius endomorphism</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/CharP/Lemmas.html#frobenius" target="_blank" rel="noopener">Frobenius morphism</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Frobenius+morphism" target="_blank" rel="noopener">Frobenius morphism</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/frobeniusmorphism" target="_blank" rel="noopener">Frobenius morphism</a></li>

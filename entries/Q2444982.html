@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Noetherian module</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $R$ be a <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> and let $M$ be an $R$-<a href="../entries/Q18848.html" target="_blank" rel="noopener">module</a>. Then $M$ is <strong>Noetherian</strong> (or <strong>satisfies the ascending chain condition on submodules</strong>) if there are no infinite increasing chains of <a href="../entries/Q2498094.html" target="_blank" rel="noopener">submodules</a>. That is, if whenever $M_1\subseteq M_2\subseteq M_3\subseteq \cdots$ is an increasing chain of <a href="../entries/Q2498094.html" target="_blank" rel="noopener">submodules</a> of $M$, then there is a positive integer $m$ such that for all $k\geq m$, $M_k=M_m$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Noetherian_module" target="_blank" rel="noopener">Noetherian module</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/Noetherian/Defs.html#IsNoetherian" target="_blank" rel="noopener">Noetherian module</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Noetherian+bimodule" target="_blank" rel="noopener">Noetherian bimodule</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/noetherianmodule" target="_blank" rel="noopener">Noetherian module</a></li>

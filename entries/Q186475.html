@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>partial derivative</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $U \subset \mathbb R^n$ be <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a>. The <strong>partial derivative</strong> of a function $f:U\to\mathbb R^m$ with respect to the $i$th coordinate $x_i$ at $a = (a_1,\dots,a_n) \in U$ is defined as $$\frac{\partial f}{\partial x_i}(a) = \lim_{h\to 0} \frac{f(a_1,\dots,a_i+h,\dots,a_n) - f(a)}{h}.$$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/partial_derivative" target="_blank" rel="noopener">partial derivative</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/partial+differentiation" target="_blank" rel="noopener">partial differentiation</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/partialderivative" target="_blank" rel="noopener">partial derivative</a></li>
       </ul>

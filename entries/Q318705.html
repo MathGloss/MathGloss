@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>abelian extension</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <a href="https://mathgloss.github.io/MathGloss/chicago/field_extension" target="_blank" rel="noopener">field extension</a> $K/F$ is <strong>abelian</strong> if it is <a href="../entries/Q2020004.html" target="_blank" rel="noopener">Galois</a> and its <a href="https://mathgloss.github.io/MathGloss/chicago/Galois_group" target="_blank" rel="noopener">Galois group</a> is <a href="https://mathgloss.github.io/MathGloss/chicago/abelian" target="_blank" rel="noopener">abelian</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/abelian_extension" target="_blank" rel="noopener">abelian extension</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/cyclotomicextension" target="_blank" rel="noopener">cyclotomic extension</a></li>
       </ul>
     </section>

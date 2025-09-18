@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Borel algebra</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>Borel σ-algebra</strong> on a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> $X$ is the <a href="https://mathgloss.github.io/MathGloss/chicago/σ-algebra" target="_blank" rel="noopener">σ-algebra</a> <a href="https://mathgloss.github.io/MathGloss/chicago/generate_a_σ-algebra" target="_blank" rel="noopener">generated</a> by the <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> sets in $X$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Borel_σ-algebra" target="_blank" rel="noopener">Borel σ algebra</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/borelsigmaalgebra" target="_blank" rel="noopener">Borel σ-algebra</a></li>
       </ul>
     </section>

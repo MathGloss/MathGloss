@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,19 @@
         <dd>category</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>category</strong> $\mathcal C$ is a collection of <strong>objects</strong> together with a set $\mathcal C(A,B)$ of <strong>morphisms</strong> or maps between any two objects. In particular, there is always for each object $A$ in $\mathcal C$ an identity morphism $\text{id}_A \in\mathcal C(A,A)$. Finally, a category must obey the following composition law: $$\circ: \mathcal C(B,C)\times \mathcal C(A,B) \to \mathcal C(A,C)$$ for all triples $A$, $B$, $C$ of objects such that composition is <a href="../entries/Q177251.html" target="_blank" rel="noopener">associative</a>, and identity morphisms  are <a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">identities</a> for composition. That is,</p>
+<ul>
+<li>$h\circ(g\circ f) = (h\circ g)\circ f$;</li>
+<li>$\text{id}\circ f = f$;</li>
+<li>$f\circ \text{id} = f$.</li>
+</ul>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=83" target="_blank" rel="noopener">large category</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/category" target="_blank" rel="noopener">category</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=21" target="_blank" rel="noopener">category</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/Category/Basic.html#CategoryTheory.Category" target="_blank" rel="noopener">category</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/object" target="_blank" rel="noopener">object</a></li>

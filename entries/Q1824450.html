@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Singular measure</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(X,\Sigma)$ be a <a href="../entries/Q192276.html" target="_blank" rel="noopener">measurable space</a> and let $\mu$ and $\nu$ both be <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measures</a> on $(X,\Sigma)$. Then $\mu$ and $\nu$ are <strong>singular</strong>, written $\mu \perp \nu$, if there exist disjoint sets $A,B\subset X$ such that $\mu \equiv 0$ outside of $A$ and $\nu \equiv 0$ outside of $B$. That is, $\mu(A') = 0$ for all $A'\subset X\setminus A$ and $\nu(B') =0$ for all $B'\subset X\setminus B$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/singular_measure" target="_blank" rel="noopener">singular measure</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/singularmeasure" target="_blank" rel="noopener">singular measure</a></li>
       </ul>
     </section>

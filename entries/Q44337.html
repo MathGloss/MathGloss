@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>matrix</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An $m\times n$ (real or complex) <strong>matrix</strong> $A$ is a collection of $mn$ <strong>entries</strong> $(a_{ij})$ which are either real or complex numbers arranged in $m$ rows and $n$ columns as follows: $$\begin{bmatrix}a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1n} \\ a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2n} \\ \vdots&amp;\vdots &amp;\ddots &amp;\vdots \\ a_{m1} &amp; a_{m2} &amp;\cdots &amp; a_{mn}\end{bmatrix}$$ Two matrices of the same size may be added together entrywise.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=48" target="_blank" rel="noopener">matrix</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/matrix" target="_blank" rel="noopener">matrix</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Array" target="_blank" rel="noopener">array</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/principal+submatrix" target="_blank" rel="noopener">principal submatrix</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/matrix" target="_blank" rel="noopener">matrix</a></li>

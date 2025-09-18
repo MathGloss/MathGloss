@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>Riemann integral</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q310647.html" target="_blank" rel="noopener">bounded</a> function $f:Q\to\mathbb R$ defined on the <a href="../entries/Q209.html" target="_blank" rel="noopener">rectangle</a> $Q$ in $\mathbb R^n$ is <strong>integrable</strong> if the <a href="https://mathgloss.github.io/MathGloss/chicago/lower_integral" target="_blank" rel="noopener">lower integral</a> of $f$ is equal to the <a href="https://mathgloss.github.io/MathGloss/chicago/upper_integral" target="_blank" rel="noopener">upper integral</a> of $f$. The <strong>integral</strong> of $f$ over $Q$ is defined to be $$\int_Q f = \underline{\int_Q} f = \overline{\int_Q} f.$$</p>
+<p>Alternatively, let $f: S\to \mathbb R$ be a <a href="../entries/Q310647.html" target="_blank" rel="noopener">bounded</a> function from the <a href="../entries/Q310647.html" target="_blank" rel="noopener">bounded</a> set $S$ to $\mathbb R$, and let $f_S$ be the <a href="https://mathgloss.github.io/MathGloss/chicago/extension_of_a_function_to_R^n" target="_blank" rel="noopener">extension</a> of $S$ in the usual sense to $\mathbb R$. Choose $Q$ a <a href="../entries/Q209.html" target="_blank" rel="noopener">rectangle</a> containing $S$. The <strong>integral</strong> of this function over $S$ is $$\int_S f = \int_Q f_S,$$ if it exists.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Riemann_integrable" target="_blank" rel="noopener">Riemann integrable</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Riemann+integration" target="_blank" rel="noopener">Riemann integration</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/riemannintegral" target="_blank" rel="noopener">Riemann integral</a></li>
       </ul>

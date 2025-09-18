@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,17 @@
         <dd>Haar measure</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>We define the <strong>Haar integral</strong> over a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> $X$ follows:</p>
+<p>Any <a href="../entries/Q1080067.html" target="_blank" rel="noopener">Borel</a> <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure</a> $\mu$ on $X$ gives a <a href="../entries/Q207643.html" target="_blank" rel="noopener">linear</a> <a href="../entries/Q579600.html" target="_blank" rel="noopener">functional</a> $$\int:C_c(X) \to \mathbb C, f\mapsto \int_X(f) := \int_X f(x)\text d\mu(x)$$ where $C_c(X)$ is the collection of <a href="../entries/Q5165409.html" target="_blank" rel="noopener">continuous</a> complex-valued functions on $X$ with <a href="../entries/Q1136376.html" target="_blank" rel="noopener">compact support</a> and the <a href="../entries/Q853831.html" target="_blank" rel="noopener">integral</a> is defined according to that measure.</p>
+<p>The Haar integral is this $\mathbb C$-linear function $\int:C_c(X) \to \mathbb C$  such that 1. for all $f\in C_c(X)$, if $f(x) \geq 0$ for all $x\in X$ then $\int_X f \geq 0$. Moreover, $\int_X f= 0$ implies that $f=0$.  (when $f(x)$ is real) 2. For any <a href="../entries/Q381892.html" target="_blank" rel="noopener">compact</a> $K\subset X$, there exists some $c_K\geq 0$ such that for all <a href="../entries/Q5165409.html" target="_blank" rel="noopener">continuous</a> functions with <a href="https://mathgloss.github.io/MathGloss/chicago/support" target="_blank" rel="noopener">support</a> in $K$, $\left\vert \int_X f\right\vert  \leq c_K\cdot \max\limits_{x\in K} \vert f(x)\vert $.</p>
+<p>If we want the integral to be <a href="../entries/Q3754518.html" target="_blank" rel="noopener">invariant</a> with respect to the <a href="https://mathgloss.github.io/MathGloss/chicago/group_action" target="_blank" rel="noopener">action of a group</a>, we choose the <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure</a> to be the <a href="https://mathgloss.github.io/MathGloss/chicago/Haar_measure" target="_blank" rel="noopener">Haar measure</a>.</p>
+<p>Also keep in mind that this is in fact a special case of the <a href="../entries/Q853831.html" target="_blank" rel="noopener">Lebesgue integral</a>!</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Haar_integral" target="_blank" rel="noopener">Haar integral</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Haar+integral" target="_blank" rel="noopener">Haar integral</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/unimodulargroup" target="_blank" rel="noopener">unimodular group</a></li>
       </ul>

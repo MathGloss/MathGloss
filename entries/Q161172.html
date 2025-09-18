@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>ring</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A (unital) <strong>ring</strong> is a set $R$ together with two <a href="../entries/Q164307.html" target="_blank" rel="noopener">binary operations</a> $+$ and $\cdot$ such that 1. $R$ is an <a href="https://mathgloss.github.io/MathGloss/chicago/abelian" target="_blank" rel="noopener">abelian</a> <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> under $+$; 2. $R$ is a <a href="../entries/Q208237.html" target="_blank" rel="noopener">monoid</a> under $\cdot$; 3. $\cdot$ distributes over $+$: $a\cdot (b+c)=(a\cdot b) + (a\cdot c)$ and $(b+c)\cdot a = (b\cdot a) + (c\cdot a)$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=10" target="_blank" rel="noopener">ring</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/ring" target="_blank" rel="noopener">ring</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=55" target="_blank" rel="noopener">ring</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Ring/Defs.html#Ring" target="_blank" rel="noopener">ring</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/ring+object" target="_blank" rel="noopener">ring object</a></li>

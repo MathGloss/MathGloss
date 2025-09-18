@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,15 @@
         <dd>greatest common divisor</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $R$ be a <a href="../entries/Q165474.html" target="_blank" rel="noopener">commutative</a> <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> and let $a,b\in R$. An element $d\in R$ is a <strong>greatest common divisor</strong> of $a$ and $b$ if $d$ <a href="https://mathgloss.github.io/MathGloss/chicago/division_in_a_ring" target="_blank" rel="noopener">divides</a> $a$ and $d$ <a href="https://mathgloss.github.io/MathGloss/chicago/division_in_a_ring" target="_blank" rel="noopener">divides</a> $b$ and for every $d'\in R$ such that $d'$ <a href="https://mathgloss.github.io/MathGloss/chicago/division_in_a_ring" target="_blank" rel="noopener">divides</a> $a$ and $d'$<a href="https://mathgloss.github.io/MathGloss/chicago/division_in_a_ring" target="_blank" rel="noopener">divides</a> $b$, we have that $d'$ <a href="https://mathgloss.github.io/MathGloss/chicago/division_in_a_ring" target="_blank" rel="noopener">divides</a> $d$.</p>
+<p>Equivalently, $d$ is a <strong>greatest common divisor</strong> of $a$ and $b$ if the <a href="../entries/Q2905043.html" target="_blank" rel="noopener">ideal</a> <a href="https://mathgloss.github.io/MathGloss/chicago/generate_a_ring_ideal" target="_blank" rel="noopener">generated</a> by $d$ is the smallest <a href="../entries/Q44382.html" target="_blank" rel="noopener">principal ideal</a> that contains both $a$ and $b$. This <a href="../entries/Q2905043.html" target="_blank" rel="noopener">ideal</a> is unique.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=118" target="_blank" rel="noopener">greatest common divisor</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/greatest_common_divisor" target="_blank" rel="noopener">greatest common divisor</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/GCDMonoid/Basic.html#GCDMonoid.gcd" target="_blank" rel="noopener">greatest common divisor</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/greatest+common+divisor" target="_blank" rel="noopener">greatest common divisor</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/greatestcommondivisor" target="_blank" rel="noopener">greatest common divisor</a></li>

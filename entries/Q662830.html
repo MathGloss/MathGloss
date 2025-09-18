@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>fundamental group</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $X$ be a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> and let $x \in X$. Denote by $\pi_1(X,x)$ the set of <a href="../entries/Q1211071.html" target="_blank" rel="noopener">equivalence classes</a> of <a href="../entries/Q22283522.html" target="_blank" rel="noopener">loops</a> at $x$ under <a href="https://mathgloss.github.io/MathGloss/chicago/homotopy_equivalence_of_paths" target="_blank" rel="noopener">homotopy equivalence of paths</a>. This is called the <strong>fundamental group of $X$ at $x$</strong>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=15" target="_blank" rel="noopener">fundamental group</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/fundamental_group" target="_blank" rel="noopener">fundamental group</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=32" target="_blank" rel="noopener">fundamental group</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/fundamental+group" target="_blank" rel="noopener">fundamental group</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/fundamentalgroup" target="_blank" rel="noopener">fundamental group</a></li>

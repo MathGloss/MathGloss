@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>normal extension</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $E$ be an <a href="../entries/Q550791.html" target="_blank" rel="noopener">algebraic extension</a> of the <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> $F$ and let $\Omega$ be an <a href="../entries/Q1047547.html" target="_blank" rel="noopener">algebraically closed</a> <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> containing $F$. Then $E$ is a <strong>normal extension</strong> of $F$ if it satisfies any of the following three equivalent conditions: 1. For each $\alpha\in E$, $E$ contains a <a href="../entries/Q1996100.html" target="_blank" rel="noopener">splitting field</a> of the <a href="https://mathgloss.github.io/MathGloss/chicago/algebraic_element_of_an_algebra" target="_blank" rel="noopener">minimal polynomial</a> of $\alpha$ over $F$. 2. $\{\alpha\in E\mid E \text{ contains a splitting field of the minimal polynomial of } \alpha \text{ over } F\}$ <a href="https://mathgloss.github.io/MathGloss/chicago/generate_a_field" target="_blank" rel="noopener">generates</a> $E$ as a <a href="https://mathgloss.github.io/MathGloss/chicago/field_extension" target="_blank" rel="noopener">field extension</a> of $F$. 3. For every $F$-<a href="../entries/Q980509.html" target="_blank" rel="noopener">embedding</a> $\phi:E\to \Omega$, we have $\phi(E) \subset E$.</p>
+<p>Equivalently, $E$ is a <strong>normal extension</strong> of $F$ if it is the <a href="../entries/Q1996100.html" target="_blank" rel="noopener">splitting field</a> of a *collection* of <a href="../entries/Q1455652.html" target="_blank" rel="noopener">polynomials</a> in $F[x]$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/normal_extension" target="_blank" rel="noopener">normal extension</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/normal+field+extension" target="_blank" rel="noopener">normal field extension</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/normalextension" target="_blank" rel="noopener">normal extension</a></li>
       </ul>

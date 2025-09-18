@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>symmetric group</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $X$ be a set. The <strong>symmetric group</strong> $S_X$ is the set of all <a href="../entries/Q180907.html" target="_blank" rel="noopener">bijections</a> from $X$ to itself.</p>
+<p>When $X$ is finite with <a href="../entries/Q163875.html" target="_blank" rel="noopener">cardinal number</a> $n$, it is denoted $S_n$ and consists of the set of permutations on $n$ letters.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/symmetric_group" target="_blank" rel="noopener">symmetric group</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/symmetric+midpoint+group" target="_blank" rel="noopener">symmetric midpoint group</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/symmetricgroup1" target="_blank" rel="noopener">symmetric group</a></li>
       </ul>

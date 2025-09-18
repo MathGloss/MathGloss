@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>transposition</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>transposition</strong> $\sigma_{ij}$ is a <a href="../entries/Q849512.html" target="_blank" rel="noopener">permutation</a> in $S_n$ such that for some $i,j \in \{1,\dots ,n\}$, $$\sigma_{ij}(i) = j, \sigma_{ij}(j) = i, \text{ and } \sigma_{ij}(k) = k$$ for all $k\neq i,j$.</p>
+<p>Equivalently, a <strong>transposition</strong> is a 2-<a href="../entries/Q105085931.html" target="_blank" rel="noopener">cycle</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/transposition" target="_blank" rel="noopener">transposition</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/transposition" target="_blank" rel="noopener">transposition</a></li>
       </ul>
     </section>

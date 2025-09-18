@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>Symmetry</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/symmetric" target="_blank" rel="noopener">symmetric</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q130901.html" target="_blank" rel="noopener">binary relation</a> on the set $X$ is <strong>symmetric</strong> if for all $a,b \in X$, $a$ is related to $b$ if and only if $b$ is related to $a$.</p>
     </section>
 
   </body>

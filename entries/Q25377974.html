@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>almost uniform convergence</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/almost_uniform_convergence" target="_blank" rel="noopener">almost uniform convergence</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(X,\Sigma,\mu)$ be a <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure space</a> and let $\{f_n\}_{n\in\mathbb N}$ be a sequence of (measurable) functions $f_n: X\to \mathbb R$. The sequence converges <strong>almost uniformly</strong> to $f$ if for all $\varepsilon &gt; 0$, there exists a set $A\in \Sigma$ of <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure</a> less than $\varepsilon$ such that $f_n$ <a href="https://mathgloss.github.io/MathGloss/chicago/uniform_convergence" target="_blank" rel="noopener">converges uniformly</a> to $f$ on $X\setminus A$.</p>
     </section>
 
   </body>

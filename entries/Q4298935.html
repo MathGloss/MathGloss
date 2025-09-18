@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,16 @@
         <dd>Schur polynomial</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $\Lambda=\{\mu = (\mu_1,\dots, \mu_n)\in\mathbb Z^n \mid \mu_1\geq \cdots\geq \mu_n \geq 0\} \subseteq \mathbb Z^n_{\geq 0}$. For each $\mu \in \Lambda$, define $\nabla_\mu \in \mathbb Z<a href="https://mathgloss.github.io/MathGloss/chicago/invariant_polynomials_under_group_action" target="_blank" rel="noopener">x_1,\dots, x_n]^\text{sign}$ to be the [antisymmetric</a> <a href="../entries/Q1455652.html" target="_blank" rel="noopener">polynomial</a> under the <a href="https://mathgloss.github.io/MathGloss/chicago/sign_representation" target="_blank" rel="noopener">sign representation</a> of the <a href="../entries/Q849512.html" target="_blank" rel="noopener">symmetric group</a> given by $$\nabla_\mu = \sum_{s\in S_n} \text{sign}(s) x^{s(\mu)} = \det\left\vert \begin{matrix}x_1^{\mu_1}  &amp; x_1^{\mu_2} &amp; \cdots &amp; x_1^{\mu_n} \\ x_2^{\mu_1} &amp; x_2^{\mu_2} &amp; \cdots &amp; x_2^{\mu_n} \\ \vdots &amp;\vdots &amp; \ddots &amp;\vdots \\ x_n^{\mu_1} &amp; x_n^{\mu_2}&amp;\cdots &amp; x_n^{\mu_n}\end{matrix} \right\vert .$$ The second equality follows from the Leibniz formula for <a href="../entries/Q178546.html" target="_blank" rel="noopener">determinants</a>.</p>
+<p>Set $\rho \in \Lambda$ to $\rho = (n-1,n-2,\dots, 1, 0)$. Up to sign, $\nabla_\rho$ is the <a href="https://mathgloss.github.io/MathGloss/chicago/Vandermonde_determinant" target="_blank" rel="noopener">Vandermonde determinant</a>.</p>
+<p>Because $\mathbb Z<a href="../entries/Q135615838.html" target="_blank" rel="noopener">x_1,\dots, x_n]^\text{sign}$ is a [rank</a>-one <a href="../entries/Q1292333.html" target="_blank" rel="noopener">free</a> <a href="../entries/Q18848.html" target="_blank" rel="noopener">module</a> over $\mathbb Z<a href="https://mathgloss.github.io/MathGloss/chicago/generate_an_R-module" target="_blank" rel="noopener">x_1,\dots, x_n]^{S_n}$ with [generator</a> $\Delta_n$, it follows that $\nabla_\rho$ is also a <a href="https://mathgloss.github.io/MathGloss/chicago/generate_a_module" target="_blank" rel="noopener">generator</a> of this <a href="../entries/Q18848.html" target="_blank" rel="noopener">module</a>. Thus for every $\mu\in \Lambda$ there exists a unique <a href="../entries/Q1455652.html" target="_blank" rel="noopener">polynomial</a> $s_\mu\in\mathbb Z[x_1,\dots, x_n]^{S_n}$ called the <strong>Schur polynomial</strong> of $\mu$ such that $\nabla_{\mu + \rho} = s_\mu \cdot\nabla_\rho$.</p>
+<p>Explicitly, $s_\mu = \nabla_{\mu + \rho}/\nabla_\rho$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Schur_polynomials" target="_blank" rel="noopener">Schur polynomials</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/schurpolynomial" target="_blank" rel="noopener">Schur polynomial</a></li>
       </ul>
     </section>

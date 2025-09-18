@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Transitive set</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q130901.html" target="_blank" rel="noopener">binary relation</a> on a set $X$ is <strong>transitive</strong> if for all $a,b,c\in X$, if $a$ is related to $b$ and $b$ is related to $c$, then $a$ is related to $c$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/transitive" target="_blank" rel="noopener">transitive</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/transitive+set" target="_blank" rel="noopener">transitive set</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/transitive1" target="_blank" rel="noopener">transitive</a></li>
       </ul>

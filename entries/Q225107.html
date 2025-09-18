@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Adjugate matrix</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $V$ be an $n$-<a href="https://mathgloss.github.io/MathGloss/chicago/dimension_of_vector_space" target="_blank" rel="noopener">dimensional</a> <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector space</a> and let $T:V\to V$ be a <a href="../entries/Q207643.html" target="_blank" rel="noopener">linear transformation</a>. The <strong>adugate</strong> of $T$ is $$\text{adj}(T):V\to V$$ the unique <a href="../entries/Q207643.html" target="_blank" rel="noopener">linear transformation</a> such that for all $v \in V$ and all $w \in \wedge^{n-1}(V)$ the $n-1$-fold <a href="https://mathgloss.github.io/MathGloss/chicago/exterior_power_of_a_vector_space" target="_blank" rel="noopener">exterior product</a> of $V$, $$\text{adj}(T)(v) \wedge w = v \wedge (\wedge^{n-1}(T)(w)) \in \wedge^n(V).$$ [](https://mathgloss.github.io/MathGloss/chicago/exterior_power_of_linear_transformation)</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/adjugate" target="_blank" rel="noopener">adjugate</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/adjugate" target="_blank" rel="noopener">adjugate</a></li>
       </ul>
     </section>

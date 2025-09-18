@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Character theory</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(V,\rho)$ be a finite-<a href="https://mathgloss.github.io/MathGloss/chicago/dimension_of_group_representation" target="_blank" rel="noopener">dimensional</a> <a href="../entries/Q1055807.html" target="_blank" rel="noopener">representation</a> of a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$ where $V$ is a <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector space</a> over the <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> $F$. The <strong>character</strong> of this representation is the function $\chi_\rho:G\to F$ given by $\chi_\rho(g) = \text{Tr}(\rho(g))$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/character_of_a_representation" target="_blank" rel="noopener">character of a representation</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/irreducible+character" target="_blank" rel="noopener">irreducible character</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/orthogonalityrelations" target="_blank" rel="noopener">orthogonality relations</a></li>
       </ul>

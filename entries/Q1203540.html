@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>maximal ideal</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An <a href="../entries/Q2905043.html" target="_blank" rel="noopener">ideal</a> $I$ of the <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> $R$ is <strong>maximal</strong> if for any <a href="../entries/Q2905043.html" target="_blank" rel="noopener">ideal</a> $J$ such that $I\subseteq J$, either $J=I$ or $J=R$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/maximal_ring_ideal" target="_blank" rel="noopener">maximal ring ideal</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/Ideal/Maximal.html#Ideal.IsMaximal" target="_blank" rel="noopener">maximal ideal</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/maximal+ideal+theorem" target="_blank" rel="noopener">maximal ideal theorem</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/maximalideal" target="_blank" rel="noopener">maximal ideal</a></li>

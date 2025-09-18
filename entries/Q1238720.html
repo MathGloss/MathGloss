@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>volume</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>volume</strong> of a <a href="../entries/Q209.html" target="_blank" rel="noopener">rectangle</a> $Q$ in $\mathbb R^n$ is the product of the lengths of the <a href="https://mathgloss.github.io/MathGloss/chicago/component_interval" target="_blank" rel="noopener">component intervals</a> of $Q$: $$\text{vol}(Q) = (b_1-a_1)\cdots(b_n-a_n).$$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/volume" target="_blank" rel="noopener">volume</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/volume" target="_blank" rel="noopener">volume</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/volume" target="_blank" rel="noopener">volume</a></li>
       </ul>

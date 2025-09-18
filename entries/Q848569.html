@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>complete metric space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $X$ be a <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric space</a>. The <strong>completion</strong> of $X$ is the <a href="https://mathgloss.github.io/MathGloss/chicago/complete_metric_space" target="_blank" rel="noopener">complete metric space</a> $(\tilde X, \tilde \rho)$ such that $X$ is a <a href="https://mathgloss.github.io/MathGloss/chicago/dense" target="_blank" rel="noopener">dense</a> subset of $\tilde X$ and $\rho(x,y) = \tilde\rho(x,y)$ for all $x,y \in X$ as constructed <a href="https://mathgloss.github.io/MathGloss/chicago/completion_of_a_metric_space" target="_blank" rel="noopener">here</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/metric_completion" target="_blank" rel="noopener">metric completion</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/complete+space" target="_blank" rel="noopener">complete space</a></li>
       </ul>
     </section>

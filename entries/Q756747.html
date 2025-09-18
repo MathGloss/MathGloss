@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Root of unity</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="https://mathgloss.github.io/MathGloss/chicago/root_of_unity" target="_blank" rel="noopener">root of unity</a> $\zeta$ is <strong>primitive</strong> if it <a href="../entries/Q734209.html" target="_blank" rel="noopener">generates</a> the <a href="../entries/Q245462.html" target="_blank" rel="noopener">cyclic group</a> of all $n$th <a href="https://mathgloss.github.io/MathGloss/chicago/root_of_unity" target="_blank" rel="noopener">roots of unity</a>. Equivalently, it is <strong>primitive</strong> if $\zeta^k\neq 1$ for any positive $k$ less than $n$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/primitive_root_of_unity" target="_blank" rel="noopener">primitive root of unity</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/root+of+unity" target="_blank" rel="noopener">root of unity</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/rootofunity" target="_blank" rel="noopener">root of unity</a></li>
       </ul>

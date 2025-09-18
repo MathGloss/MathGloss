@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>algebraic number</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An <strong>algebraic number</strong> is a number that is a root of a nonzero <a href="../entries/Q1455652.html" target="_blank" rel="noopener">polynomial</a> in one variable over $\mathbb Q$. It is often denoted by $\overline{\mathbb Q}$. The algebraic numbers form a field, but *not* a subfield (nor even a subset) of $\mathbb Q$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/algebraic_number" target="_blank" rel="noopener">algebraic number</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/algebraic+number" target="_blank" rel="noopener">algebraic number</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/degreeofanalgebraicnumber" target="_blank" rel="noopener">degree of an algebraic number</a></li>
       </ul>

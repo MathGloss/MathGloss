@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Radon measure</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $X$ be a <a href="https://mathgloss.github.io/MathGloss/chicago/Hausdorff" target="_blank" rel="noopener">Hausdorff</a> <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> and let $(X, \Sigma, \mu)$ be a <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure space</a> where $\Sigma$ is the <a href="../entries/Q1080067.html" target="_blank" rel="noopener">Borel σ-algebra</a> on $X$. The <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure</a> $\mu$ is a <strong>Radon measure</strong> if it is <a href="https://mathgloss.github.io/MathGloss/chicago/inner_regular" target="_blank" rel="noopener">inner regular</a> and <a href="../entries/Q2136937.html" target="_blank" rel="noopener">locally finite</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Radon_measure" target="_blank" rel="noopener">Radon measure</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Radon+measure" target="_blank" rel="noopener">Radon measure</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/radonmeasure" target="_blank" rel="noopener">Radon measure</a></li>
       </ul>

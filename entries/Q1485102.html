@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>semisimple module</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/semisimple_module" target="_blank" rel="noopener">semisimple module</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q18848.html" target="_blank" rel="noopener">module over a ring</a> $M$ is <strong>semisimple</strong> if it may be written as the <a href="https://mathgloss.github.io/MathGloss/chicago/direct_sum_of_modules" target="_blank" rel="noopener">direct sum</a> of <a href="../entries/Q956233.html" target="_blank" rel="noopener">simple</a> <a href="../entries/Q18848.html" target="_blank" rel="noopener">modules</a>.</p>
     </section>
 
   </body>

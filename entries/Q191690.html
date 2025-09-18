@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>partition of unity</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $\mathcal A$ be a collection of <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> sets in $\mathbb R^n$ and let $A$ be their union. A <strong>partition of unity subordinate to $\mathcal A$</strong> is a countable collection of <a href="https://mathgloss.github.io/MathGloss/chicago/smooth" target="_blank" rel="noopener">smooth</a> functions $\{\phi_i\}_{i\in I}$ such that $\phi_i:\mathbb R^n \to \mathbb R$ such that 1. each $\phi_i \geq 0$. 2. each $\phi_i$ has <a href="../entries/Q1136376.html" target="_blank" rel="noopener">compact support</a> contained in some $U \in \mathcal A$. 3. for all points $a$ of $A$, there exists an <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> neighborhood $V$ of $a$ such that all but finitely many of the $\phi_i$ are zero on $V$. 4. for all points $a$ in $A$, $\sum\limits_{i\in I} \phi_i(a) = 1$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/partition_of_unity" target="_blank" rel="noopener">partition of unity</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/partition+of+unity" target="_blank" rel="noopener">partition of unity</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/partitionofunity" target="_blank" rel="noopener">partition of unity</a></li>
       </ul>

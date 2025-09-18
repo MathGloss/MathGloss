@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>Degree of a field extension</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/degree_of_field_extension" target="_blank" rel="noopener">degree of field extension</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>degree</strong> of a <a href="https://mathgloss.github.io/MathGloss/chicago/field_extension" target="_blank" rel="noopener">field extension</a> $F \subset E$ is the <a href="https://mathgloss.github.io/MathGloss/chicago/dimension_of_vector_space" target="_blank" rel="noopener">dimension</a> of $E$ when considered as a <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector space</a> over $F$. If $E$ is <a href="../entries/Q2628674.html" target="_blank" rel="noopener">simple field extension</a> <a href="https://mathgloss.github.io/MathGloss/chicago/generate_a_field" target="_blank" rel="noopener">generated</a> by $\alpha$, then the degree is also equal to the <a href="../entries/Q1473607.html" target="_blank" rel="noopener">degree</a> of the <a href="https://mathgloss.github.io/MathGloss/chicago/algebraic_element_of_an_algebra" target="_blank" rel="noopener">minimal polynomial</a> in $E[x]$ of $\alpha$ over $F$.</p>
     </section>
 
   </body>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>subalgebra</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $L$ be a <a href="https://mathgloss.github.io/MathGloss/chicago/Lie_algebra" target="_blank" rel="noopener">Lie algebra</a>. A <a href="../entries/Q728435.html" target="_blank" rel="noopener">vector subspace</a> $K$ of $L$ is a <strong>subalgebra</strong> of $L$ if $<a href="https://mathgloss.github.io/MathGloss/chicago/Lie_algebra" target="_blank" rel="noopener">xy] \in K$ whenever $x,y \in K$. Moreover, $K$ is itself a [Lie algebra</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/subalgebra" target="_blank" rel="noopener">subalgebra</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/subalgebra" target="_blank" rel="noopener">subalgebra</a></li>
       </ul>
     </section>

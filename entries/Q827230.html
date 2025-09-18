@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>Lebesgue measure</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>Lebesgue measure</strong> on $\mathbb R^n$ is constructed as follows:</p>
+<p>A set $A \subset\mathbb R^n$ is <strong>Lebesgue measurable</strong> if for every $S\subset \mathbb R^n$, we have the following relation in the <a href="../entries/Q25447455.html" target="_blank" rel="noopener">Lebesgue outer measure</a> $\lambda^*$: $$\lambda^*(S) = \lambda^*(S\cap A) + \lambda^*(S\setminus A).$$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Lebesgue_measure" target="_blank" rel="noopener">Lebesgue measure</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Measure/Haar/OfBasis.html#Real.measureSpace" target="_blank" rel="noopener">Lebesgue measure</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Lebesgue+measure" target="_blank" rel="noopener">Lebesgue measure</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/lebesguemeasure" target="_blank" rel="noopener">Lebesgue measure</a></li>

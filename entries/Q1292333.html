@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>Free module</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $R$ be a <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a>. An $R$-<a href="../entries/Q18848.html" target="_blank" rel="noopener">module</a> $M$ is <strong>free</strong> over a subset $S\subseteq M$ if $S$ is <a href="../entries/Q27670.html" target="_blank" rel="noopener">linearly independent</a> and <a href="https://mathgloss.github.io/MathGloss/chicago/generate_an_R-module" target="_blank" rel="noopener">generates</a> $M$. We say that $S$ forms a <strong>basis</strong> for $M$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=28" target="_blank" rel="noopener">free vector space</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/free_module" target="_blank" rel="noopener">free module</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=135" target="_blank" rel="noopener">free vector space</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/locally+free+module" target="_blank" rel="noopener">locally free module</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/freemodule1" target="_blank" rel="noopener">free module</a></li>

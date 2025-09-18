@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Galois theory</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An element <a href="https://mathgloss.github.io/MathGloss/chicago/algebraic_element_of_an_algebra" target="_blank" rel="noopener">algebraic</a> over the <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> $F$ can be <strong>solved for by radicals</strong> if it is an element of a <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> $K$ which can be obtained as a succession of <a href="../entries/Q571124.html" target="_blank" rel="noopener">simple</a> <a href="https://mathgloss.github.io/MathGloss/chicago/field_extension" target="_blank" rel="noopener">extensions</a> adjoining $n$th roots of elements of $F$. A <a href="../entries/Q1455652.html" target="_blank" rel="noopener">polynomial</a> $f(x) \in F[x]$ can be <strong>solved by radicals</strong> if all of its roots can be solved *for* by radicals.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/solvability_by_radicals" target="_blank" rel="noopener">solvability by radicals</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Galois+theory" target="_blank" rel="noopener">Galois theory</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/infinitegaloistheory" target="_blank" rel="noopener">infinite Galois theory</a></li>
       </ul>

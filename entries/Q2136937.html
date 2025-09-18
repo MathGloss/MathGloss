@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>locally finite measure</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/locally_finite_measure" target="_blank" rel="noopener">locally finite measure</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(X,\mathcal T)$ be a <a href="https://mathgloss.github.io/MathGloss/chicago/Hausdorff" target="_blank" rel="noopener">Hausdorff</a> <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> and let $\Sigma$ be a <a href="https://mathgloss.github.io/MathGloss/chicago/σ-algebra" target="_blank" rel="noopener">σ-algebra</a>  containing $\mathcal T$ (so that $\Sigma$ is at least as fine as the <a href="../entries/Q1080067.html" target="_blank" rel="noopener">Borel σ-algebra</a> on $X$). A <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure</a> $\mu$ on $\Sigma$ is <strong>locally finite</strong> if for all $p \in X$, there exists an <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> neighborhood $N_p$ of $p$ such that the $\mu$-measure of $N_p$ is finite. That is, $$\forall p \in X, \exists N_p \in T \text{ s.t. } p \in N_p \text{ and } \vert \mu(N_p)\vert  &lt; \infty.$$</p>
     </section>
 
   </body>

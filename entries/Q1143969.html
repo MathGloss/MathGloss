@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>principal ideal domain</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An <a href="../entries/Q628792.html" target="_blank" rel="noopener">integral domain</a> $R$ is a <strong>principal ideal domain</strong> if every <a href="../entries/Q2905043.html" target="_blank" rel="noopener">ideal</a> of $R$ is <a href="../entries/Q44382.html" target="_blank" rel="noopener">principal</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/principal_ideal_domain" target="_blank" rel="noopener">principal ideal domain</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Span/Defs.html#Submodule.IsPrincipal" target="_blank" rel="noopener">principal ideal domain</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/principal+ideal+domain" target="_blank" rel="noopener">principal ideal domain</a></li>
       </ul>

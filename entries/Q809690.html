@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>barycenter</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>barycenter</strong> of an <a href="https://mathgloss.github.io/MathGloss/chicago/n-simplex" target="_blank" rel="noopener">n-simplex</a> $<a href="https://mathgloss.github.io/MathGloss/chicago/barycentric_coordinates" target="_blank" rel="noopener">v_0,\dots,v_n]$ is the point $b=\sum_i t_iv_i$ whose [barycentric coordinates</a> $t_i$ are all equal. Specifically, $t_i = \frac{1}{(n+1)}$ for each $i$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/barycenter" target="_blank" rel="noopener">barycenter</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/AffineSpace/Combination.html#Finset.affineCombination" target="_blank" rel="noopener">barycenter</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/barycenter" target="_blank" rel="noopener">barycenter</a></li>
       </ul>

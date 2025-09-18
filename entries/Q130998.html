@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>EquivalenceRelation</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An <strong>equivalence relation</strong> $\sim$ on a set $X$ is a <a href="../entries/Q130901.html" target="_blank" rel="noopener">binary relation</a> that is <a href="https://mathgloss.github.io/MathGloss/chicago/reflexive" target="_blank" rel="noopener">reflexive</a>, <a href="../entries/Q12485.html" target="_blank" rel="noopener">symmetric</a>, and <a href="../entries/Q671944.html" target="_blank" rel="noopener">transitive</a>. That is, for all $a,b,c \in X$, 1. $a\sim a$. 2. $a \sim b$ if and only if $b \sim a$. 3. If $a \sim b$ and $b \sim c$, then $a\sim c$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=78" target="_blank" rel="noopener">equivalence relation</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/equivalence_relation" target="_blank" rel="noopener">equivalence relation</a></li>
         <li><strong>Clowder</strong>: <a href="https://www.clowderproject.com/tag/00VA.html" target="_blank" rel="noopener">equivalence relations</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=121" target="_blank" rel="noopener">equivalence relation</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/identification" target="_blank" rel="noopener">identification</a></li>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Young subgroup</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $\lambda = \{\lambda_1,\dots,\lambda_k\}$ be a <a href="../entries/Q1082910.html" target="_blank" rel="noopener">partition</a>. Let $\alpha_i = \{\lambda_i, \lambda_i + 1, \dots, \lambda_{i+1} - 1\}$ so that $\{1,\dots,n\} = \coprod_{i=1}^k \alpha_i$ as disjoint subsets. Corresponding to this decomposition is the <strong>Young <a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroup</a></strong> of the <a href="../entries/Q849512.html" target="_blank" rel="noopener">symmetric group</a> $S_n$ given by $$S_{\alpha_1} \times \cdots \times S_{\alpha_k}$$ where $S_{\alpha_i} = \{\sigma\in S_n \mid \sigma(j) = j \text{ for all } j\notin \alpha_i\}$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Young_subgroup" target="_blank" rel="noopener">Young subgroup</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Young+subgroup" target="_blank" rel="noopener">Young subgroup</a></li>
       </ul>
     </section>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>homeomorphism</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>homeomorphism</strong> between two <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological spaces</a> $X$ and $Y$ is a function $f: X\to Y$ such that 1. $f$ is <a href="../entries/Q5165409.html" target="_blank" rel="noopener">continuous</a>. 2. $f$ is <a href="../entries/Q180907.html" target="_blank" rel="noopener">bijective</a>. 3. $f^{-1}:Y\to X$ is <a href="../entries/Q5165409.html" target="_blank" rel="noopener">continuous</a>.</p>
+<p>Two <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological spaces</a> $X$ and $Y$ are <strong>homeomorphic</strong> if there exists a homeomorphism between them.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/homeomorphism" target="_blank" rel="noopener">homeomorphism</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/homeomorphism" target="_blank" rel="noopener">homeomorphism</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/homeomorphism1" target="_blank" rel="noopener">homeomorphism</a></li>
       </ul>

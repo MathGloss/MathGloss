@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,19 @@
         <dd>ring homomorphism</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>ring homomorphism</strong> is a map $f:S\to R$ between <a href="../entries/Q161172.html" target="_blank" rel="noopener">rings</a> $S$ and $R$ such that</p>
+<ul>
+<li>$f:(S,+) \to (R,+)$ is a <a href="../entries/Q868169.html" target="_blank" rel="noopener">group homomorphism</a>;</li>
+<li>$f(s_1s_2)= f(s_1)f(s_2)$ for all $s_1,s_2\in S$;</li>
+<li>$f(1) = 1$.</li>
+</ul>
+<p>A <strong>ring <a href="https://mathgloss.github.io/MathGloss/chicago/isomorphism" target="_blank" rel="noopener">isomorphism</a></strong> is a homomorphism that happens to also be a <a href="../entries/Q180907.html" target="_blank" rel="noopener">bijection</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/ring_homomorphism" target="_blank" rel="noopener">ring homomorphism</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Ring/Hom/Defs.html#RingHom" target="_blank" rel="noopener">ring morphism</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/ringhomomorphism" target="_blank" rel="noopener">ring homomorphism</a></li>
       </ul>

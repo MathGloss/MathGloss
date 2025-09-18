@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Null set</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A subset $A \subset\mathbb R^n$ has <strong>measure zero</strong> if for every $\varepsilon &gt; 0$, there exists a countable covering of $A$ by <a href="../entries/Q209.html" target="_blank" rel="noopener">rectangles</a> $\{Q_i\}_{i\in\mathbb N}$ such that the sum of the <a href="../entries/Q1238720.html" target="_blank" rel="noopener">volumes</a> of the $Q_i$ is less than $\varepsilon$, i.e. that $$\sum_{i\in\mathbb N} \text{vol}(Q_i) &lt; \varepsilon.$$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/measure_zero" target="_blank" rel="noopener">measure zero</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/measurezero" target="_blank" rel="noopener">measure zero</a></li>
       </ul>
     </section>

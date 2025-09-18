@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,15 @@
         <dd>order of a group element</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>order</strong> of an element $g$ of the <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$ is the smallest integer $n \geq 1$ such that $g^n = e$, where $e$ is the <a href="../entries/Q83478.html" target="_blank" rel="noopener">group's</a> <a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">identity element</a></p>
+<p>Equivalently, this is the <a href="../entries/Q163875.html" target="_blank" rel="noopener">cardinal number</a> of the <a href="../entries/Q245462.html" target="_blank" rel="noopener">cyclic cyclic</a> <a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroup</a> of $G$ <a href="../entries/Q734209.html" target="_blank" rel="noopener">generated</a> by $g$ alone, if it exists.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=93" target="_blank" rel="noopener">order of element of group</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/order_of_a_group_element" target="_blank" rel="noopener">order of a group element</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/orderofaprofinitegroup" target="_blank" rel="noopener">order of a profinite group</a></li>
       </ul>
     </section>

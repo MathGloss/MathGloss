@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>class function</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>class function</strong> on a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$ is a function that is constant on the <a href="https://mathgloss.github.io/MathGloss/chicago/conjugacy_classes" target="_blank" rel="noopener">conjugacy classes</a> of $G$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/class_function" target="_blank" rel="noopener">class function</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/class+function" target="_blank" rel="noopener">class function</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/classfunction" target="_blank" rel="noopener">class function</a></li>
       </ul>

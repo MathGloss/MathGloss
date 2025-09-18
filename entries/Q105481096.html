@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Atlas</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An <strong>atlas</strong> for a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> $M$ is a collection of <a href="../entries/Q3828144.html" target="_blank" rel="noopener">charts</a> on $M$ that covers $M$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/atlas" target="_blank" rel="noopener">atlas</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/atlas" target="_blank" rel="noopener">atlas</a></li>
       </ul>
     </section>

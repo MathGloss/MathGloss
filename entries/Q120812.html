@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>absolute value</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $F$ be a <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a>. An <strong>absolute value</strong> on $F$ is a map $\vert \cdot\vert :F\to \mathbb R$ such that 1. $\vert x\vert  \geq 0$ for all $x\in F$; 2. $\vert x\vert  = 0$ if and only if $x=0$; 3. $\vert x+y\vert  \leq \vert x\vert  + \vert y\vert$ for all $x,y\in F$; 4. $\vert x\cdot y\vert  = \vert x\vert \cdot \vert y\vert$ for all $x,y\in F$.</p>
+<p>Together, $1$ and $2$ make up the condition that $\vert \cdot\vert$ be <a href="https://mathgloss.github.io/MathGloss/chicago/positive_definite" target="_blank" rel="noopener">positive definite</a> while $3$ is just the <a href="../entries/Q7051414.html" target="_blank" rel="noopener">triangle inequality</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/absolute_value" target="_blank" rel="noopener">absolute value</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/absolute+value" target="_blank" rel="noopener">absolute value</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/modulusofcomplexnumber" target="_blank" rel="noopener">modulus of complex number</a></li>
       </ul>

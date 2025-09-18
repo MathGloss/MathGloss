@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>Dual space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>dual</strong> of a <a href="../entries/Q1826459.html" target="_blank" rel="noopener">normed linear space</a> $X$ is the set of <a href="https://mathgloss.github.io/MathGloss/chicago/bounded_function" target="_blank" rel="noopener">bounded</a> <a href="../entries/Q207643.html" target="_blank" rel="noopener">linear</a> functions $f: X\to \mathbb R$. This set is itself a <a href="../entries/Q1826459.html" target="_blank" rel="noopener">normed linear space</a> under the <a href="https://mathgloss.github.io/MathGloss/chicago/norm_of_a_linear_transformation" target="_blank" rel="noopener">linear transformation norm</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=32" target="_blank" rel="noopener">dual vector space</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/dual_space" target="_blank" rel="noopener">dual space</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=19" target="_blank" rel="noopener">dual vector space</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Dual/Defs.html#Module.Dual" target="_blank" rel="noopener">dual vector space</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/dual+vector+space" target="_blank" rel="noopener">dual vector space</a></li>

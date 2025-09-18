@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Vitali covering lemma</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $X$ be a <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric space</a> with $A \subset X$. Let $\mu$ be the <a href="../entries/Q827230.html" target="_blank" rel="noopener">Lebesgue measure</a>. A collection $\mathcal V$ of sets covering $A$ is a <strong>Vitali covering</strong> if for each $x \in A$ and $\varepsilon &gt; 0$, there exists $U \in \mathcal V$ such that $x \in U$, and the <a href="../entries/Q131598137.html" target="_blank" rel="noopener">diameter</a> of $U$ is nonzero and less than $\varepsilon$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Vitali_covering" target="_blank" rel="noopener">Vitali covering</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/vitalicovering" target="_blank" rel="noopener">Vitali covering</a></li>
       </ul>
     </section>

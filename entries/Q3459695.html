@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,11 @@
         <dd>Banach–Mazur game</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Banach-Mazur_game" target="_blank" rel="noopener">Banach Mazur game</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>Banach-Mazur game</strong> $MB(X,Y, \mathcal W)$ is a <a href="../entries/Q7825035.html" target="_blank" rel="noopener">topological game</a> played as follows:</p>
+<p>Let $X$ be a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a>, $Y$ a fixed subset of $X$, and $\mathcal W$ a family of subsets of $X$ such that 1. each element of $\mathcal W$ has nonempty <a href="../entries/Q118215311.html" target="_blank" rel="noopener">interior</a>. 2. every nonempty subset of $X$ contains an element of $\mathcal W$.</p>
+<p>Players 1 and 2 take turns picking elements of $\mathcal W$ in a sequence $W_1\supset W_2\supset\cdots$. Player 1 wins if and only if $$ Y\cap \left(\bigcap_{n&lt;\omega} W_n\right)$$ is nonempty. If Player 1 loses, Player 2 wins.</p>
     </section>
 
   </body>

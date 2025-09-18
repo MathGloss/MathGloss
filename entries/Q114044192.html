@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Orthogonality (mathematics)</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A set $\{v_i\}_{i\in \Lambda}$ in the <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector space</a> $V$ is <strong>orthogonal</strong> if $\langle v_i, v_j\rangle =0$ for all $i\neq j$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/orthogonal" target="_blank" rel="noopener">orthogonal</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/orthogonal" target="_blank" rel="noopener">orthogonal</a></li>
       </ul>
     </section>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>generating set of a group</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>generating set</strong> of a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$ is a subset $S$ of $G$ such that every element of $G$ can be expressed as a combination under the group <a href="../entries/Q164307.html" target="_blank" rel="noopener">operation</a> of finitely many elements of $S$ and their inverses.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/generating_set_of_a_group" target="_blank" rel="noopener">generating set of a group</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/generatingsetofagroup" target="_blank" rel="noopener">generating set of a group</a></li>
       </ul>
     </section>

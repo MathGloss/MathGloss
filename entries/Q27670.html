@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Linear Algebra/Linearly Independent Vectors</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $V$ be a <a href="../entries/Q18848.html" target="_blank" rel="noopener">module</a> over the <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> $R$. A subset $W \subset V$ is <strong>linearly independent</strong> if for $v_i \in W$ and $\alpha_i \in R$, $$\sum_{i=1}^n \alpha_i v_i=0$$ only when $\alpha_i = 0$ for all $i$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/linearly_independent" target="_blank" rel="noopener">linearly independent</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/linear+independence+%3E+history" target="_blank" rel="noopener">linear independence &gt; history</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/linearlyindependent" target="_blank" rel="noopener">linearly independent</a></li>
       </ul>

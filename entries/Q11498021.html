@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>Character tables</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/character_table" target="_blank" rel="noopener">character table</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>character table</strong> of a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$ is a table that displays the value taken by the <a href="../entries/Q600043.html" target="_blank" rel="noopener">characters</a> of the <a href="../entries/Q13690522.html" target="_blank" rel="noopener">irreducible representations</a> of $G$ on the different <a href="https://mathgloss.github.io/MathGloss/chicago/conjugacy_classes" target="_blank" rel="noopener">conjugacy classes</a> of $G$. Recall that <a href="../entries/Q600043.html" target="_blank" rel="noopener">characters</a> are <a href="../entries/Q986909.html" target="_blank" rel="noopener">class functions</a></p>
     </section>
 
   </body>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>prime ideal</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An <a href="../entries/Q2905043.html" target="_blank" rel="noopener">ideal</a> $\mathfrak p$ of a <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> $R$ is <strong>prime</strong> if it is <a href="https://mathgloss.github.io/MathGloss/chicago/proper_ideal" target="_blank" rel="noopener">proper proper</a> and if $a,b\in R$ such that $ab \in I$, then $a\in \mathfrak p$ or $b\in \mathfrak p$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/prime_ideal" target="_blank" rel="noopener">prime ideal</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/Ideal/Prime.html#Ideal.IsPrime" target="_blank" rel="noopener">prime ideal</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/prime+ideal" target="_blank" rel="noopener">prime ideal</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/primeideal" target="_blank" rel="noopener">prime ideal</a></li>

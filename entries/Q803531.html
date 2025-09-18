@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>Quadratic integer</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/quadratic_integers" target="_blank" rel="noopener">quadratic integers</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>quadratic integers</strong> are <a href="../entries/Q121554727.html" target="_blank" rel="noopener">algebraic integers</a> of <a href="../entries/Q3493864.html" target="_blank" rel="noopener">degree</a> 2. Equivalently, they are solutions to <a href="https://mathgloss.github.io/MathGloss/chicago/monic_polynomial" target="_blank" rel="noopener">monic</a>, integer-valued <a href="../entries/Q1455652.html" target="_blank" rel="noopener">polynomials</a> of <a href="../entries/Q1473607.html" target="_blank" rel="noopener">degree</a> 2. That is, solutions to equations of the form $$x^2+bx+c=0.$$</p>
     </section>
 
   </body>

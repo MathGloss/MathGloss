@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>splitting field</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $F$ be a <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> and let $f$ be a <a href="https://mathgloss.github.io/MathGloss/chicago/monic" target="_blank" rel="noopener">monic</a> <a href="../entries/Q1455652.html" target="_blank" rel="noopener">polynomial</a> with coefficients in $F$. Then a <a href="https://mathgloss.github.io/MathGloss/chicago/field_extension" target="_blank" rel="noopener">field extension</a> $F\subset E$ is a <strong>splitting field</strong> if there exist $\{a_i\}_{i=1}^d$ such that $$f(t) = \prod_{i=1}^d (t-a_i) \in E<a href="https://mathgloss.github.io/MathGloss/chicago/generate_a_field" target="_blank" rel="noopener">t]$$ and moreover $E$ is [generated</a> by these $a_i$, i.e. $E= F(a_1,\dots, a_d)$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/splitting_field" target="_blank" rel="noopener">splitting field</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/FieldTheory/SplittingField/Construction.html#Polynomial.SplittingField" target="_blank" rel="noopener">splitting field</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/splitting+field" target="_blank" rel="noopener">splitting field</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/galoisclosure" target="_blank" rel="noopener">Galois closure</a></li>

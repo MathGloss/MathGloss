@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>Equivalence of metrics</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/equivalent_metrics" target="_blank" rel="noopener">equivalent metrics</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $X$ be a <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric space</a>. Two <a href="../entries/Q180953.html" target="_blank" rel="noopener">metrics</a> $\rho_1$, $\rho_2$ are <strong>equivalent</strong> if there exists $c&gt;0$ such that $$\frac{1}{c}\rho_1(x,y) \leq \rho_2(x,y) \leq c\rho_1(x,y).$$</p>
     </section>
 
   </body>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>Transcendental number</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $F$ be a <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> and let $E$ be a <a href="https://mathgloss.github.io/MathGloss/chicago/field_extension" target="_blank" rel="noopener">field extension</a> of $F$. Let $\Theta \in E$ and consider a nonzero <a href="../entries/Q1455652.html" target="_blank" rel="noopener">polynomial</a> $f\in F[x]$.  If $f(\Theta)\neq 0$, then $\Theta$ is <strong>transcendental</strong> over $F$.</p>
+<p>Equivalently, an element of a <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> is <strong>transcendental</strong> if it is not <a href="https://mathgloss.github.io/MathGloss/chicago/algebraic_element_of_an_algebra" target="_blank" rel="noopener">algebraic</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/transcendental" target="_blank" rel="noopener">transcendental</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/transcendental+number" target="_blank" rel="noopener">transcendental number</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/transcendentalnumber" target="_blank" rel="noopener">transcendental number</a></li>
       </ul>

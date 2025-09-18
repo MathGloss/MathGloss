@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,15 @@
         <dd>Lebesgue-integrable</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>To define the <strong>Lebesgue integral</strong> for a general real-valued function, we must first define it for nonnegative functions.</p>
+<p>Let $(X,\Sigma,\mu)$ be a <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure space</a> and let $f$ be a nonnegative, <a href="https://mathgloss.github.io/MathGloss/chicago/measurable_function" target="_blank" rel="noopener">measurable</a>, extended-real-valued function on $X$ (that is, $f(x) \geq 0$ for all $x \in X$, and it may be the case that $f(x) = +\infty$). Define $$\int_X fd\mu = \sup\left\{\int_X sd\mu \mid 0\leq s\leq f, s \text{ simple}\right\}$$ where the <a href="../entries/Q215071.html" target="_blank" rel="noopener">supremum</a> is taken over the <a href="https://mathgloss.github.io/MathGloss/chicago/Lebesgue_integral_of_a_simple_function" target="_blank" rel="noopener">Lebesgue integrals</a> of nonnegative <a href="../entries/Q913022.html" target="_blank" rel="noopener">simple functions</a> $s$ less than $f$.</p>
+<p>Now let $f$ be a <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measurable</a> extended-real-valued function on $X$. Then $f$ may be written as $f = f^+ - f^-$ where $$f^+(x) =\begin{cases}f(x) &amp; f(x)&gt;0 \\0 &amp;\text{otherwise} \end{cases} \quad\text{and}\quad f^-(x) = \begin{cases}-f(x) &amp; f(x)&lt;0 \\ 0 &amp;\text{otherwise} \end{cases}$$ so that $f^+$ and $f^-$ are both nonnegative and <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measurable</a>. Note that $\vert f\vert  = f^+ + f^-$. The Lebesgue integral of the <a href="https://mathgloss.github.io/MathGloss/chicago/measurable_function" target="_blank" rel="noopener">measurable function</a> $f$ <strong>exists</strong> if at least one of $\int f^+d\mu$ and $\int f^- d\mu$ is finite. In this case, define $$\int f d\mu = \int f^+d\mu - \int f^-d\mu.$$ If $\int\vert f\vert d\mu &lt; \infty$, then $f$ is <strong>Lebesgue integrable</strong>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Lebesgue_integral" target="_blank" rel="noopener">Lebesgue integral</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Lebesgue+integration" target="_blank" rel="noopener">Lebesgue integration</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/lebesgueintegral" target="_blank" rel="noopener">Lebesgue integral</a></li>
       </ul>

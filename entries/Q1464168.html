@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>index of a subgroup</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $H$ be a <a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroup</a> of the <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$. The <strong>index</strong> of $G$ is $[G:H] = \vert G\vert /\vert H\vert $. By Lagrange's theorem, this is always an integer.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/index_of_a_subgroup" target="_blank" rel="noopener">index of a subgroup</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/index+of+a+subgroup" target="_blank" rel="noopener">index of a subgroup</a></li>
       </ul>
     </section>

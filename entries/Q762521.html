@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>logarithmic derivative</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $f$ be a <a href="../entries/Q783507.html" target="_blank" rel="noopener">differentiable</a> function in any sense. The <strong>logarithmic derivative</strong> of $f$ is $f'/f$. This follows from the chain rule as the derivative of the <a href="https://mathgloss.github.io/MathGloss/chicago/logarithm" target="_blank" rel="noopener">logarithm</a> of $f$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/logarithmic_derivative" target="_blank" rel="noopener">logarithmic derivative</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/logarithmicderivative" target="_blank" rel="noopener">logarithmic derivative</a></li>
       </ul>
     </section>

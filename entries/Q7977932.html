@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,10 @@
         <dd>weak Hausdorff space</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/weak_Hausdorff" target="_blank" rel="noopener">weak Hausdorff</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> $X$ is <strong>weak Hausdorff</strong> if for every map $g:K\to X$ from a <a href="../entries/Q381892.html" target="_blank" rel="noopener">compact</a> <a href="https://mathgloss.github.io/MathGloss/chicago/Hausdorff" target="_blank" rel="noopener">Hausdorff</a> <a href="../entries/Q179899.html" target="_blank" rel="noopener">space</a> $K$ is <a href="../entries/Q320357.html" target="_blank" rel="noopener">closed</a> in $X$.</p>
+<p>Note that $g(K)$ is itself <a href="https://mathgloss.github.io/MathGloss/chicago/Hausdorff" target="_blank" rel="noopener">Hausdorff</a>, ( todo: why?) so $g(K)$ is a <a href="../entries/Q381892.html" target="_blank" rel="noopener">compact</a> <a href="../entries/Q660730.html" target="_blank" rel="noopener">subspace</a> of $X$.</p>
     </section>
 
   </body>

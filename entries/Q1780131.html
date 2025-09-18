@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>argument</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $z\in \mathbb C$ be a <a href="../entries/Q11567.html" target="_blank" rel="noopener">complex number</a>. Then the <strong>argument</strong> of $z$, denoted $\text{arg}(z)$, is the angle between the vector in $\mathbb R^2$ corresponding to $z$ and the positive real axis. Equivalently, it is any real number $\theta$ such that $z= r(\cos\theta+i\sin\theta) = re^{i\theta}$, via <a href="https://mathgloss.github.io/MathGloss/chicago/Euler&#x27;s_formula" target="_blank" rel="noopener">Euler's formula</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/argument" target="_blank" rel="noopener">argument</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/argument" target="_blank" rel="noopener">argument</a></li>
       </ul>
     </section>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,10 @@
         <dd>Open</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/open" target="_blank" rel="noopener">open</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A subset $G$ of a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> $(X,\mathcal T)$ is <strong>open</strong> if it is an element of $\mathcal T$.</p>
+<p>When $X$ is a <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric space</a>, a subset $A \subset X$ is <strong>open</strong> if and only if for all $a \in A$, there exists $\varepsilon &gt; 0$ such that $B(a,\varepsilon) = \{x \in X \mid \rho(a,x) &lt; \varepsilon\}\subset A$.</p>
     </section>
 
   </body>

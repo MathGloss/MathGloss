@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>rule of sum</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>If we have $a$ ways of doing one thing and $b$ ways of doing another thing but we cannot do both at the same time, then there are $a+b$ ways to choose to do one thing.</p>
+<p>Set theoretically, the sum of the sizes of a finite collection of pairwise disjoint sets is the <a href="../entries/Q163875.html" target="_blank" rel="noopener">size</a> of the union of the sets. That is, $$\vert S_1\vert  + \vert S_2\vert  + \cdots + \vert S_n\vert  = \vert S_1\cup S_2\cup\cdots\cup S_n\vert .$$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/rule_of_sum" target="_blank" rel="noopener">rule of sum</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/sumrule" target="_blank" rel="noopener">sum rule</a></li>
       </ul>
     </section>

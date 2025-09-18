@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>support</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A function $f: X\to\mathbb R$ has <strong>compact <a href="https://mathgloss.github.io/MathGloss/chicago/support" target="_blank" rel="noopener">support</a></strong> if the <a href="../entries/Q106504945.html" target="_blank" rel="noopener">closure</a> of its <a href="https://mathgloss.github.io/MathGloss/chicago/support" target="_blank" rel="noopener">support</a> $S$ is <a href="../entries/Q381892.html" target="_blank" rel="noopener">compact</a> as a subset of $X$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/compact_support" target="_blank" rel="noopener">compact support</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/support+of+a+function" target="_blank" rel="noopener">support of a function</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/supportoffunction" target="_blank" rel="noopener">support of function</a></li>
       </ul>

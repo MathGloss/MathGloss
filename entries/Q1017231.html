@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>elementary abelian group</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An <strong>elementary abelian $p$-group</strong> is an <a href="https://mathgloss.github.io/MathGloss/chicago/abelian" target="_blank" rel="noopener">abelian</a> <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$ in which every non<a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">trivial</a> element has <a href="../entries/Q54555759.html" target="_blank" rel="noopener">order</a> $p$ where $p$ is <a href="../entries/Q49008.html" target="_blank" rel="noopener">prime</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/elementary_abelian_p-group" target="_blank" rel="noopener">elementary abelian p group</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/elementaryabeliangroup" target="_blank" rel="noopener">elementary abelian group</a></li>
       </ul>
     </section>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Interior</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $X$ be a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a>. For any $A\subset X$, the <strong>interior</strong> $\text{int}(A)$ of $A$ is the largest <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> set contained in $A$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/interior" target="_blank" rel="noopener">interior</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=178" target="_blank" rel="noopener">interior</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/interior" target="_blank" rel="noopener">interior</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/interior" target="_blank" rel="noopener">interior</a></li>

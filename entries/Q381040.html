@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>complex conjugate</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>complex conjugate</strong> of a <a href="../entries/Q11567.html" target="_blank" rel="noopener">complex number</a> $z = x+iy$ is $\overline z = x-iy$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/complex_conjugate" target="_blank" rel="noopener">complex conjugate</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/complex+conjugation" target="_blank" rel="noopener">complex conjugation</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/complexconjugate" target="_blank" rel="noopener">complex conjugate</a></li>
       </ul>

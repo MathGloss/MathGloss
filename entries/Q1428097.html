@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>radius of convergence</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>radius of convergence</strong> of a <a href="../entries/Q206925.html" target="_blank" rel="noopener">power series</a> $$f(x) = \sum_{n=0}^\infty a_n(x-c)^n$$over a <a href="../entries/Q806066.html" target="_blank" rel="noopener">Banach algebra</a> with <a href="../entries/Q7051414.html" target="_blank" rel="noopener">norm</a> $\vert \cdot\vert $ is a real number $r$ such that the <a href="https://mathgloss.github.io/MathGloss/chicago/series_convergence" target="_blank" rel="noopener">series converges</a> to $f(x)$ for all $\vert x-a\vert &lt;r$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/radius_of_convergence" target="_blank" rel="noopener">radius of convergence</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/convergence+radius" target="_blank" rel="noopener">convergence radius</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/radiusofconvergence" target="_blank" rel="noopener">radius of convergence</a></li>
       </ul>

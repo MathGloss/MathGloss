@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>alternating group</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>alternating group</strong> $A_n$ is the <a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroup</a> of the <a href="../entries/Q849512.html" target="_blank" rel="noopener">symmetric group</a> $S_n$ given by the <a href="https://mathgloss.github.io/MathGloss/chicago/kernel" target="_blank" rel="noopener">kernel</a> of the <a href="https://mathgloss.github.io/MathGloss/chicago/sign_homomorphism" target="_blank" rel="noopener">sign homomorphism</a>. That is, it consists of all permutations whose sign is $1$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/alternating_group" target="_blank" rel="noopener">alternating group</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/alternating+group" target="_blank" rel="noopener">alternating group</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/simplicityofthealternatinggroups" target="_blank" rel="noopener">simplicity of the alternating groups</a></li>
       </ul>

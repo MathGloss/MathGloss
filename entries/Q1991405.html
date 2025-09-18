@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>nowhere dense set</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $X$ be a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a>. A set $A\subset X$ is <strong>nowhere dense</strong> in $X$ if for every nonempty <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> subset $G\subset X$, there exists a nonempty <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> subset $H\subset G$ such that $A\cap H=\emptyset$.</p>
+<p>Equivalently, a set $A\subset X$ id <strong>nowhere dense</strong> in $X$ if its <a href="../entries/Q106504945.html" target="_blank" rel="noopener">closure</a> has empty <a href="../entries/Q118215311.html" target="_blank" rel="noopener">interior</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/nowhere_dense" target="_blank" rel="noopener">nowhere dense</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/nowhere+dense+set" target="_blank" rel="noopener">nowhere dense set</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/nowheredense" target="_blank" rel="noopener">nowhere dense</a></li>
       </ul>

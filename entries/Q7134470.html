@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>Paradoxical set</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/paradoxical_set" target="_blank" rel="noopener">paradoxical set</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $G$ be a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> <a href="https://mathgloss.github.io/MathGloss/chicago/group_action" target="_blank" rel="noopener">acting</a> on a set $A$. Then $A$ is <strong>$G$-paradoxical</strong> if there exist disjoint subsets $A_1,\dots, A_n, B_1,\dots, B_m\subset A$ and group elements $g_1,\dots,g_n,h_1,\dots,h_m\in G$ such that $$A=\bigcup_{i=1}^n g_i(A_i) \text{ and } A=\bigcup_{i=1}^m h_i(B_i).$$</p>
     </section>
 
   </body>

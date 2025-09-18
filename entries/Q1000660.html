@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>algebra over a field</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An <strong>algebra over a <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a></strong> $F$ is a <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector space</a> $U$ over $F$ with a <a href="https://mathgloss.github.io/MathGloss/chicago/multilinear" target="_blank" rel="noopener">bilinear</a> <a href="../entries/Q164307.html" target="_blank" rel="noopener">binary operation</a> $U\times U \to U$ that is not necessarily <a href="../entries/Q177251.html" target="_blank" rel="noopener">associative</a> but that follows left and right <a href="https://mathgloss.github.io/MathGloss/chicago/distributive" target="_blank" rel="noopener">distributivity</a>.</p>
+<p>One can loosen this definition and only require $F$ to be a <a href="../entries/Q165474.html" target="_blank" rel="noopener">commutative</a> <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a>, but then you just get an algebra over a ring.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/algebra_over_a_field" target="_blank" rel="noopener">algebra over a field</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=180" target="_blank" rel="noopener">homomorphism of algebras</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/algebras" target="_blank" rel="noopener">algebras</a></li>
       </ul>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>torsion-free module</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $R$ be an <a href="../entries/Q628792.html" target="_blank" rel="noopener">integral domain</a> and let $M$ be an $R$-<a href="../entries/Q18848.html" target="_blank" rel="noopener">module</a>. Then $M$ is <strong>torsion-free</strong> if its <a href="https://mathgloss.github.io/MathGloss/chicago/torsion_submodule" target="_blank" rel="noopener">torsion</a> <a href="../entries/Q2498094.html" target="_blank" rel="noopener">submodule</a> is trivial.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/torsion_free_module" target="_blank" rel="noopener">torsion free module</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/torsion-free+module" target="_blank" rel="noopener">torsion-free module</a></li>
       </ul>
     </section>

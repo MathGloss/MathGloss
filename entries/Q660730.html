@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>subspace topology</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $A\subset X$ be a subset of the <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> $X$. The <strong>subspace topology</strong> on $A$ is the topology in which the <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> sets are given by all sets $A \cap U$ where $U\subset X$ is <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> in $X$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/subspace_topology" target="_blank" rel="noopener">subspace topology</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/open+subspace" target="_blank" rel="noopener">open subspace</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/subspacetopology" target="_blank" rel="noopener">subspace topology</a></li>
       </ul>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>Surjective function</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A function $f:A\to B$ is <strong>surjective</strong> if for all $b \in B$ there exists $a\in A$ such that $f(a)=b$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=141" target="_blank" rel="noopener">surjection</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/surjective" target="_blank" rel="noopener">surjective</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/surjection" target="_blank" rel="noopener">surjection</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/surjective" target="_blank" rel="noopener">surjective</a></li>
       </ul>

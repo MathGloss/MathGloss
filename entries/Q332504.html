@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Absolute continuity</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A function $f:<a href="../entries/Q135475919.html" target="_blank" rel="noopener">a,b]\to \mathbb R^n$ is <strong>absolutely continuous</strong> if for every $\varepsilon &gt; 0$, there exists $\delta &gt; 0$ such that if $\{(x_i,y_i)\}_{i=1}^k$ are pairwise disjoint sub[intervals</a> of $[a,b]$ with total combined length less than $\delta$, then $$\sum_{i=1}^k \vert f(y_i) - f(x_i)\vert  &lt; \varepsilon.$$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/absolute_continuity" target="_blank" rel="noopener">absolute continuity</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/absolutely+continuous+function" target="_blank" rel="noopener">absolutely continuous function</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/absolutelycontinuousfunction" target="_blank" rel="noopener">absolutely continuous function</a></li>
       </ul>

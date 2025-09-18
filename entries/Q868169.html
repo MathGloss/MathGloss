@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>group homomorphism</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong><a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> homomorphism</strong>is a function $f: G\to H$ between <a href="../entries/Q83478.html" target="_blank" rel="noopener">groups</a> $G$ and $H$ is a function that preserves the group <a href="../entries/Q164307.html" target="_blank" rel="noopener">operation</a>; that is $f(gh)=f(g)f(g)$ for all $g,h \in G$.</p>
+<p>A <strong>group <a href="https://mathgloss.github.io/MathGloss/chicago/isomorphism" target="_blank" rel="noopener">isomorphism</a></strong> is a homomorphism that is also <a href="../entries/Q180907.html" target="_blank" rel="noopener">bijective</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/group_homomorphism" target="_blank" rel="noopener">group homomorphism</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Group/Hom/Defs.html#MonoidHom" target="_blank" rel="noopener">group morphism</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/grouphomomorphism" target="_blank" rel="noopener">group homomorphism</a></li>
       </ul>

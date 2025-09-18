@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Adjoint matrix</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong><a href="../entries/Q381040.html" target="_blank" rel="noopener">conjugate</a> <a href="../entries/Q223683.html" target="_blank" rel="noopener">matrix transpose</a></strong> of a complex $m\times n$ <a href="../entries/Q44337.html" target="_blank" rel="noopener">matrix</a> $A$ is the $n \times m$ <a href="../entries/Q44337.html" target="_blank" rel="noopener">matrix</a> $A^*$ given by taking the usual <a href="../entries/Q223683.html" target="_blank" rel="noopener">matrix transpose</a> $A^T$ and then setting $A^*$ to be the <a href="../entries/Q44337.html" target="_blank" rel="noopener">matrix</a> whose entries are the <a href="../entries/Q381040.html" target="_blank" rel="noopener">complex conjugates</a> of each entry of $A^T$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/conjugate_transpose" target="_blank" rel="noopener">conjugate transpose</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/conjugatetranspose" target="_blank" rel="noopener">conjugate transpose</a></li>
       </ul>
     </section>

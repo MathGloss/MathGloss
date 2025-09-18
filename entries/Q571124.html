@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>simple group</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$ is <strong>simple</strong> if it contains no <a href="../entries/Q743179.html" target="_blank" rel="noopener">normal subgroups</a> other than the <a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroup</a> containing the <a href="https://mathgloss.github.io/MathGloss/chicago/identity" target="_blank" rel="noopener">identity</a> and itself.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/simple_group" target="_blank" rel="noopener">simple group</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/simple+group" target="_blank" rel="noopener">simple group</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/simplegroup" target="_blank" rel="noopener">simple group</a></li>
       </ul>

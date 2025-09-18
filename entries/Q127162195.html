@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>path</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $X$ be a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a>. A <strong>path</strong> in $X$ is a <a href="../entries/Q5165409.html" target="_blank" rel="noopener">continuous</a> function from the unit <a href="../entries/Q135475919.html" target="_blank" rel="noopener">interval</a> $I$ to $X$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/path" target="_blank" rel="noopener">path</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=71" target="_blank" rel="noopener">path</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/path" target="_blank" rel="noopener">path</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/path1" target="_blank" rel="noopener">path</a></li>

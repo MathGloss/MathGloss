@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>inner product space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(V,F)$ be a <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector space</a>. A function $\langle\cdot,\cdot\rangle: V\times V \to F$ is an <strong>inner product</strong> on $V$ if 1. it is <a href="https://mathgloss.github.io/MathGloss/chicago/multilinear" target="_blank" rel="noopener">bilinear</a>; 2. it is <a href="../entries/Q165474.html" target="_blank" rel="noopener">commutative</a>; 3. $\langle v, v\rangle \geq 0$ for all $v \in V$ and $\langle v,v\rangle = 0$ if and only if $v=0$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/inner_product" target="_blank" rel="noopener">inner product</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/inner+product+space" target="_blank" rel="noopener">inner product space</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/orthogonalvectors" target="_blank" rel="noopener">orthogonal vectors</a></li>
       </ul>

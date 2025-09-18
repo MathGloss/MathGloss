@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Closed set</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $X$ be a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a>. The subset $A \subset X$ is <strong>closed</strong> if its complement $X\setminus A$ is <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a>. Equivalently, if $X$ is a <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric space</a>, then a subset $A \subset X$ is <a href="../entries/Q320357.html" target="_blank" rel="noopener">closed</a> if and only if it contains all of its <a href="../entries/Q49095111.html" target="_blank" rel="noopener">limit points</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/closed" target="_blank" rel="noopener">closed</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/locally+closed+set" target="_blank" rel="noopener">locally closed set</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/closedset" target="_blank" rel="noopener">closed set</a></li>
       </ul>

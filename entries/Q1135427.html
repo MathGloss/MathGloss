@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>sequentially compact space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> $X$ is <strong>sequentially compact</strong> if every sequence in $X$ has a <a href="https://mathgloss.github.io/MathGloss/chicago/sequence_convergence" target="_blank" rel="noopener">convergent</a> subsequence.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/sequentially_compact" target="_blank" rel="noopener">sequentially compact</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/sequentially+compact+topological+space" target="_blank" rel="noopener">sequentially compact topological space</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/sequentiallycompact" target="_blank" rel="noopener">sequentially compact</a></li>
       </ul>

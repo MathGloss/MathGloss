@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Interval</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The set $A\subset \mathbb R$ is an <strong>interval</strong> if for all $a,b \in A$ with $a&lt;b$ and $x\in \mathbb R$, $$a&lt;x&lt;b \implies x\in A.$$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/interval" target="_blank" rel="noopener">interval</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/interval" target="_blank" rel="noopener">interval</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/interval" target="_blank" rel="noopener">interval</a></li>
       </ul>

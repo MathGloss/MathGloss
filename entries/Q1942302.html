@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>module homomorphism</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $M$ and $N$ be <a href="../entries/Q18848.html" target="_blank" rel="noopener">modules</a> over the <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> $R$. A <strong>module <a href="https://mathgloss.github.io/MathGloss/chicago/homomorphism" target="_blank" rel="noopener">homomorphism</a></strong> between $M$ and $N$ is a function $f:M\to N$ such that for any $x,y \in M$ and $r\in R$, 1. $f(x+y) = f(x) + f(y)$ 2. $f(rx) = rf(x)$ where the operation in (2) is the scalar multiplication.</p>
+<p>If a module <a href="https://mathgloss.github.io/MathGloss/chicago/homomorphism" target="_blank" rel="noopener">homomorphism</a> is <a href="../entries/Q180907.html" target="_blank" rel="noopener">bijective</a>, then it is an <a href="https://mathgloss.github.io/MathGloss/chicago/isomorphism" target="_blank" rel="noopener">isomorphism</a> of modules.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/module_homomorphism" target="_blank" rel="noopener">module homomorphism</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/modulehomomorphism" target="_blank" rel="noopener">module homomorphism</a></li>
       </ul>
     </section>

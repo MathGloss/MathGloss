@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,15 @@
         <dd>orbit</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $G$ be a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> <a href="https://mathgloss.github.io/MathGloss/chicago/group_action" target="_blank" rel="noopener">acting</a> on a set $X$. The <strong>orbit</strong> of some $x \in X$  is the set of elements of $X$ to which $x$ can be moved by the elements of $G$. It is denoted $$G\cdot x = \{g\cdot x \mid g \in G\}.$$</p>
+<p>The set of orbits of points of $X$ creates a partition of $X$ with associated <a href="../entries/Q130998.html" target="_blank" rel="noopener">equivalence relation</a> given by $x\sim y$ if and only if there exists $g \in G$ with $g\cdot x =y$, and the orbits are <a href="../entries/Q1211071.html" target="_blank" rel="noopener">equivalence classes</a>.</p>
+<p>Equivalently, an <strong>orbit</strong> of $x$ is the subset of $X$ containing $x$ on which the action of $G$ is <a href="../entries/Q121074938.html" target="_blank" rel="noopener">transitive transitive</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/orbit" target="_blank" rel="noopener">orbit</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=52" target="_blank" rel="noopener">orbit</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/orbit" target="_blank" rel="noopener">orbit</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/orbit" target="_blank" rel="noopener">orbit</a></li>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Sylow subgroup</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $p$ be a prime number. A <strong>Sylow $p$-<a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroup</a></strong> of a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$ is a maximal <a href="../entries/Q286972.html" target="_blank" rel="noopener">p-subgroup</a> of $G$. That is, it is a <a href="../entries/Q286972.html" target="_blank" rel="noopener">p-group</a> that is a <a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroup</a> of $G$ and that is not a proper <a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroup</a> of any other <a href="https://mathgloss.github.io/MathGloss/chicago/########p-subgroup" target="_blank" rel="noopener">p-subgroup</a> of $G$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Sylow_p-subgroup" target="_blank" rel="noopener">Sylow p subgroup</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Sylow+p-subgroup" target="_blank" rel="noopener">Sylow p-subgroup</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/sylowpsubgroup" target="_blank" rel="noopener">Sylow p-subgroup</a></li>
       </ul>

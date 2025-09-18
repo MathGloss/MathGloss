@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>Intertwiner</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $G$ be a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> <a href="https://mathgloss.github.io/MathGloss/chicago/group_action" target="_blank" rel="noopener">acting</a> on the sets $X$ and $Y$. A function $f:X\to Y$ is <strong>$G$-equivariant</strong> if for all $x\in X$ and all $g\in G$, $$f(g\cdot x) = g\cdot f(x).$$ If the function $f$ is <a href="../entries/Q180907.html" target="_blank" rel="noopener">bijective</a>, then this function is called a <strong>$G$-isomorphism</strong>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=37" target="_blank" rel="noopener">equivariant</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/equivariant_map" target="_blank" rel="noopener">equivariant map</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=43" target="_blank" rel="noopener">equivariant map</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/intertwiner" target="_blank" rel="noopener">intertwiner</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/equivariant" target="_blank" rel="noopener">equivariant</a></li>

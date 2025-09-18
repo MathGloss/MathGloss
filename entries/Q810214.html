@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Topological base</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>basis</strong> for a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topology</a> $\tau$ on a set $X$ is a collection $\mathcal B$ of subsets of $X$ such that 1. All points are contained in at least one element of $\mathcal B$, and 2. If $x\in B'\cap B''$ then there exists at least one $B\in \mathcal B$ such that $x\in B \subset B'\cap B''$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/topological_basis" target="_blank" rel="noopener">topological basis</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/topological+base" target="_blank" rel="noopener">topological base</a></li>
       </ul>
     </section>

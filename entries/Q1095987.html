@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>Class</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $U \subset \mathbb R^n$ be <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a>. A function $f: U\to \mathbb R^m$ is of <strong>class</strong> $C^k$ if its <a href="../entries/Q783507.html" target="_blank" rel="noopener">derivatives</a> $Df, D^2f,\dots, D^kf$ all exist and are <a href="../entries/Q5165409.html" target="_blank" rel="noopener">continuous</a> on $U$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=19" target="_blank" rel="noopener">class</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/class" target="_blank" rel="noopener">class</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/class" target="_blank" rel="noopener">class</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/class" target="_blank" rel="noopener">class</a></li>
       </ul>

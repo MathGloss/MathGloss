@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>contraction mapping</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(X,\rho)$ be a <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric space</a>. Then a function $f:X\to X$ is a <strong>contraction mapping</strong> if there exists $r \in [0,1)$ such that for all $x,y \in x$, $$\rho(f(x),f(y)) \leq r\rho(x,y).$$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/contraction_mapping" target="_blank" rel="noopener">contraction mapping</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/MetricSpace/Contracting.html#ContractingWith.exists_fixedPoint" target="_blank" rel="noopener">contraction mapping theorem</a></li>
       </ul>
     </section>

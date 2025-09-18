@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>Countably infinite</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A set $X$ is <strong>countable</strong> if there exists a <a href="../entries/Q180907.html" target="_blank" rel="noopener">bijection</a> between $X$ and the set $\mathbb N$ of natural numbers.</p>
+<p>$\vert \mathbb N\vert = \aleph_0$ is the <a href="../entries/Q163875.html" target="_blank" rel="noopener">cardinal number</a> of the naturals.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/countable" target="_blank" rel="noopener">countable</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/countable" target="_blank" rel="noopener">countable</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/countable" target="_blank" rel="noopener">countable</a></li>
       </ul>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Game</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>game</strong> is something which may be represented as a <a href="../entries/Q1069099.html" target="_blank" rel="noopener">normal-form game</a> or an <a href="https://mathgloss.github.io/MathGloss/chicago/extended-form_game" target="_blank" rel="noopener">extended-form game</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/game" target="_blank" rel="noopener">game</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/game" target="_blank" rel="noopener">game</a></li>
       </ul>
     </section>

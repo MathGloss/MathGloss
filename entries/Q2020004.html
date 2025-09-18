@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>Galois extension</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="https://mathgloss.github.io/MathGloss/chicago/field_extension" target="_blank" rel="noopener">field extension</a> $E/F$ is <strong>Galois</strong> if it is <a href="../entries/Q550791.html" target="_blank" rel="noopener">algebraic</a>, <a href="../entries/Q2331395.html" target="_blank" rel="noopener">normal</a>, and <a href="https://mathgloss.github.io/MathGloss/chicago/separable_field" target="_blank" rel="noopener">separable</a>. The <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> of <a href="../entries/Q60790315.html" target="_blank" rel="noopener">automorphisms</a> of $E$ that fix $F$, denoted $\text{Gal}(E/F)$, is called the <strong>Galois group</strong> of $E$ over $F$.</p>
+<p>Equivalently, $E$ is <strong>Galois</strong> over $F$ if the <a href="../entries/Q18408315.html" target="_blank" rel="noopener">order</a> of the <a href="https://mathgloss.github.io/MathGloss/chicago/set_of_automorphisms_fixing_a_subfield_is_a_subgroup" target="_blank" rel="noopener">automorphism group</a> $\text{Aut}(E/F)$ is equal to the <a href="../entries/Q3493864.html" target="_blank" rel="noopener">degree</a> of $E$ over $F$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Galois_extension" target="_blank" rel="noopener">Galois extension</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=39" target="_blank" rel="noopener">Galois extension</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Hopf-Galois+extension" target="_blank" rel="noopener">Hopf-Galois extension</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/galoisextension" target="_blank" rel="noopener">Galois extension</a></li>

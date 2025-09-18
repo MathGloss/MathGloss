@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>essential supremum</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(X,\Sigma, \mu)$ be a <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure space</a>. The <strong>essential supremum</strong> $\alpha$ of a function $f:X\to \mathbb R$ is the smallest real number $\alpha$ such that $\mu(\{x\mid f(x) &gt; \alpha\}) = 0$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/essential_supremum" target="_blank" rel="noopener">essential supremum</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/essential+supremum" target="_blank" rel="noopener">essential supremum</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/essentialsupremum" target="_blank" rel="noopener">essential supremum</a></li>
       </ul>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Euclidean domain</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> $R$ is a <strong>Euclidean domain</strong> if there exists a <a href="https://mathgloss.github.io/MathGloss/chicago/ring_norm" target="_blank" rel="noopener">norm</a> $N$ on $R$ such that for all nonzero $a,b\in R$, there exist $q,r\in R$ such that $a = qb+r$ and either $r=0$ or $N(r) &lt; N(b)$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Euclidean_domain" target="_blank" rel="noopener">Euclidean domain</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/EuclideanDomain/Defs.html#EuclideanDomain" target="_blank" rel="noopener">Euclidean domain</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Euclidean+ring" target="_blank" rel="noopener">Euclidean ring</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/euclideanvaluation" target="_blank" rel="noopener">Euclidean valuation</a></li>

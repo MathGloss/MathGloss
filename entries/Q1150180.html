@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>Baire space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> is a <strong>Baire space</strong> if every nonempty <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> set in $X$ is <a href="../entries/Q1747745.html" target="_blank" rel="noopener">nonmeager</a>.</p>
+<p>Equivalently, a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> is a <strong>Baire space</strong> if every <a href="../entries/Q66707394.html" target="_blank" rel="noopener">countable</a> intersection of <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> <a href="https://mathgloss.github.io/MathGloss/chicago/dense" target="_blank" rel="noopener">dense</a> sets is also <a href="https://mathgloss.github.io/MathGloss/chicago/dense" target="_blank" rel="noopener">dense</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Baire_space" target="_blank" rel="noopener">Baire space</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Baire+space" target="_blank" rel="noopener">Baire space</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/bairespace1" target="_blank" rel="noopener">Baire space</a></li>
       </ul>

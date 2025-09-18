@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,10 @@
         <dd>rank of a module</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/rank_of_a_module" target="_blank" rel="noopener">rank of a module</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $R$ be a <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> and let $M$ be a <a href="../entries/Q1292333.html" target="_blank" rel="noopener">free</a> $R$-<a href="../entries/Q18848.html" target="_blank" rel="noopener">module</a>. Then the cardinality of a <a href="https://mathgloss.github.io/MathGloss/chicago/basis_of_a_module" target="_blank" rel="noopener">basis</a> for $M$ is the <strong>rank</strong> of $M$.</p>
+<p>We can also define the <strong>rank</strong> for <a href="../entries/Q18848.html" target="_blank" rel="noopener">modules</a> that are not <a href="../entries/Q1292333.html" target="_blank" rel="noopener">free</a>: it is the maximum number of <a href="../entries/Q27670.html" target="_blank" rel="noopener">linearly independent</a> elements of $M$.</p>
     </section>
 
   </body>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Bijection</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A function $f:A\to B$ is <strong>bijective</strong> if it is both <a href="../entries/Q182003.html" target="_blank" rel="noopener">injective</a> and <a href="../entries/Q229102.html" target="_blank" rel="noopener">surjective</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/bijective" target="_blank" rel="noopener">bijective</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/one-to-one+correspondence" target="_blank" rel="noopener">one-to-one correspondence</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/bijection" target="_blank" rel="noopener">bijection</a></li>
       </ul>

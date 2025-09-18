@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>symmetric derivative</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/symmetric_derivative" target="_blank" rel="noopener">symmetric derivative</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $\nu$ be a <a href="../entries/Q1080067.html" target="_blank" rel="noopener">Borel</a> <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure</a> on $\mathbb R^n$ (i.e. the underlying <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure space</a> is $(\mathbb R^n, \mathcal B, \nu)$). The <strong>symmetric derivative</strong> of $\nu$ at $x \in \mathbb R^n$ is $$(D\nu)(x) = \lim_{r\to 0} \frac{\nu(B(x,r))}{\mu(B(x,r))}$$ if this limit exists. This is the derivative ( todo: link to 208 notions?) in the <a href="https://mathgloss.github.io/MathGloss/chicago/symmetric_differential_basis" target="_blank" rel="noopener">symmetric differential basis</a>.</p>
     </section>
 
   </body>

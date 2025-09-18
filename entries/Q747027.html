@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Characteristic subgroup</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroup</a> $H$ of a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$ is <strong>characteristic in $G$</strong> if every <a href="../entries/Q868169.html" target="_blank" rel="noopener">automorphism</a> of $G$ leaves $H$ invariant.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/characteristic_subgroup" target="_blank" rel="noopener">characteristic subgroup</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/fullyinvariantsubgroup" target="_blank" rel="noopener">fully invariant subgroup</a></li>
       </ul>
     </section>

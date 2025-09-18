@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Subbase</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(X,\tau)$ be a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a>. A <strong>subbasis</strong> $S$ for the <a href="../entries/Q179899.html" target="_blank" rel="noopener">topology</a> $\tau$ is a subset of $\tau$ such that every  set in $\tau$ is a union of finite intersection of sets in $S$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/subbasis" target="_blank" rel="noopener">subbasis</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/subbasis" target="_blank" rel="noopener">subbasis</a></li>
       </ul>
     </section>

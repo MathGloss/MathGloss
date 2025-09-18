@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>topological group</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>topological group</strong> is a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> $G$ that is also a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> such that the <a href="../entries/Q164307.html" target="_blank" rel="noopener">binary operation</a> on the <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> and the inverse map are both <a href="../entries/Q5165409.html" target="_blank" rel="noopener">continuous</a>. That is, the two maps $$\cdot:G\times G\to G \text{ given by } (x,y)\mapsto xy$$$$\text{inv}:G\to G \text{ given by } x\mapsto x^{-1}$$ are both <a href="../entries/Q5165409.html" target="_blank" rel="noopener">continuous</a> where $G\times G$ is given the <a href="../entries/Q1070472.html" target="_blank" rel="noopener">product topology</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=44" target="_blank" rel="noopener">topological group</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/topological_group" target="_blank" rel="noopener">topological group</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/Algebra/Group/Defs.html#IsTopologicalGroup" target="_blank" rel="noopener">topological group</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/topological+group" target="_blank" rel="noopener">topological group</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/topologicaltransformationgroup" target="_blank" rel="noopener">topological transformation group</a></li>

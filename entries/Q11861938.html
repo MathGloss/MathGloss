@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>weak convergence</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $X$ be a <a href="../entries/Q1826459.html" target="_blank" rel="noopener">normed linear space</a> with <a href="../entries/Q752487.html" target="_blank" rel="noopener">dual space</a> $X^*$. A sequence $\{x_i\}_{i\in\mathbb N}$ in $X$ converges <strong>weakly</strong> to $x \in X$ if $\lim\limits_{i\to\infty} f(x_i)=f(x)$ for all $f\in X^*$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/weak_convergence" target="_blank" rel="noopener">weak convergence</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/weakconvergence" target="_blank" rel="noopener">weak convergence</a></li>
       </ul>
     </section>

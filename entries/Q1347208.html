@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>epimorphism</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $C$ be a <a href="../entries/Q719395.html" target="_blank" rel="noopener">category</a>. A <a href="../entries/Q719395.html" target="_blank" rel="noopener">morphism</a> $f\in \text{Hom}_C(A,B)$ is an <strong>epimorphism</strong> if for all objects $Z$ of $C$ and all morphisms $\alpha,\beta\in \text{Hom}_C(B,Z)$, $$\alpha \circ f= \beta\circ f\implies \alpha = \beta.$$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=141" target="_blank" rel="noopener">epimorphism</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/epimorphism" target="_blank" rel="noopener">epimorphism</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=29" target="_blank" rel="noopener">epimorphism</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/strong+epimorphism" target="_blank" rel="noopener">strong epimorphism</a></li>
       </ul>

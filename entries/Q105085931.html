@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Cycle</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>cycle</strong> is an element $\sigma$ of the <a href="../entries/Q849512.html" target="_blank" rel="noopener">symmetric group</a> $S_X$ if the <a href="https://mathgloss.github.io/MathGloss/chicago/group_action" target="_blank" rel="noopener">action</a> on $X$ of the <a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroup</a> <a href="../entries/Q734209.html" target="_blank" rel="noopener">generated</a> by $\sigma$ has at most one <a href="../entries/Q3884964.html" target="_blank" rel="noopener">orbit</a> with more than one element.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/cycle" target="_blank" rel="noopener">cycle</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/cycle" target="_blank" rel="noopener">cycle</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/cycle12" target="_blank" rel="noopener">cycle</a></li>
       </ul>

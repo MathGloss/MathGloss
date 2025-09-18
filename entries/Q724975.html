@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Gaussian integer</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> of <strong>Gaussian integers</strong> is exactly $$\mathbb Z<a href="../entries/Q867345.html" target="_blank" rel="noopener">i] = \{a+bi\mid a,b\in\mathbb Z, i^2=-1\}.$$ It is a [Euclidean domain</a> with <a href="https://mathgloss.github.io/MathGloss/chicago/ring_norm" target="_blank" rel="noopener">norm</a> $N(a+bi) = a^2+b^2 = (a+bi)(a-bi)$. This norm is multiplicative.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Gaussian_integers" target="_blank" rel="noopener">Gaussian integers</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/gaussianinteger" target="_blank" rel="noopener">Gaussian integer</a></li>
       </ul>
     </section>

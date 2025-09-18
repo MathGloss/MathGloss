@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Semisimple</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q1055807.html" target="_blank" rel="noopener">representation</a> $\rho$ of a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$ is called <strong>completely reducible</strong> or is said to have the <strong>complete reducibility property</strong> if it can be written as a <a href="https://mathgloss.github.io/MathGloss/chicago/direct_sum_of_group_representations" target="_blank" rel="noopener">direct sum</a> of <a href="../entries/Q13690522.html" target="_blank" rel="noopener">irreducible</a> <a href="../entries/Q1055807.html" target="_blank" rel="noopener">representations</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/complete_reducibility" target="_blank" rel="noopener">complete reducibility</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/semisimple+object" target="_blank" rel="noopener">semisimple object</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/completelyreducible" target="_blank" rel="noopener">completely reducible</a></li>
       </ul>

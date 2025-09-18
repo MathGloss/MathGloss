@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>topological field</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>topological field</strong> is a <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> $F$ that is a <a href="../entries/Q922339.html" target="_blank" rel="noopener">topological ring</a> and also whose inverse maps $F\times F^\times\to F$ for both <a href="../entries/Q164307.html" target="_blank" rel="noopener">binary operations</a> are also <a href="../entries/Q5165409.html" target="_blank" rel="noopener">continuous</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/topological_field" target="_blank" rel="noopener">topological field</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/topological+field" target="_blank" rel="noopener">topological field</a></li>
       </ul>
     </section>

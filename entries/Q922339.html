@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>topological ring</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>topological ring</strong> is a <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> $R$ together with a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topology</a> on the <a href="https://mathgloss.github.io/MathGloss/chicago/forgetful_functor" target="_blank" rel="noopener">underlying set</a> where the addition map $+:R\times R\to R$ (given by $+(a,b) = a+b$ for all $a,b\in R$) and the multiplication map $\cdot:R\times R\to R$ (given by $\cdot(a,b)= ab$ for all $a,b\in R$) are both <a href="../entries/Q5165409.html" target="_blank" rel="noopener">continuous</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/topological_ring" target="_blank" rel="noopener">topological ring</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/Algebra/Ring/Basic.html#IsTopologicalRing" target="_blank" rel="noopener">topological ring</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/topological+ring" target="_blank" rel="noopener">topological ring</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/topologicalring" target="_blank" rel="noopener">topological ring</a></li>

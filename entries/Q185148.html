@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Interval on the real line</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $P$ be a <a href="../entries/Q381060.html" target="_blank" rel="noopener">partition of a set</a> of the interval $[a,b]$. Then arrange the elements of $P$ in increasing order: $$a = t_0 &lt; t_1&lt; \cdots&lt; t_k = b.$$ The $[t_i, t_i+1]$ are the <strong>subintervals</strong> of $[a,b]$ given by $P$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/subinterval" target="_blank" rel="noopener">subinterval</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/subinterval" target="_blank" rel="noopener">subinterval</a></li>
       </ul>
     </section>

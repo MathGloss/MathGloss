@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>convex set</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $V$ be a <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector space</a>. A subset $K\subset V$ is <strong>convex</strong> if for all $x,y \in K$ and $t \in [0,1]$, the vector $tx + (1-t)y$ is in $K$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/convex_set" target="_blank" rel="noopener">convex set</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/convex+set" target="_blank" rel="noopener">convex set</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/convexset" target="_blank" rel="noopener">convex set</a></li>
       </ul>

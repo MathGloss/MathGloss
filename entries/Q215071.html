@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>supremum</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(X,\leq)$ be a <a href="../entries/Q474715.html" target="_blank" rel="noopener">poset</a> and let $S\subseteq X$. The <strong>supremum</strong> of this subset, if it exists, is an <a href="https://mathgloss.github.io/MathGloss/chicago/upper_bound" target="_blank" rel="noopener">upper bound</a> $b$ of $S$ in $X$such that for all <a href="https://mathgloss.github.io/MathGloss/chicago/uper_bound" target="_blank" rel="noopener">upper bounds</a> $x$ of $S$ in $X$, $b\leq x$. That is, the supremum is the least upper bound.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=136" target="_blank" rel="noopener">supremum</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/supremum" target="_blank" rel="noopener">supremum</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=31" target="_blank" rel="noopener">supremum</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/supremum" target="_blank" rel="noopener">supremum</a></li>
       </ul>

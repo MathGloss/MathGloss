@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Lie group</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>matrix <a href="https://mathgloss.github.io/MathGloss/chicago/Lie_group" target="_blank" rel="noopener">Lie group</a></strong> is a <a href="https://mathgloss.github.io/MathGloss/chicago/closed_subgroup" target="_blank" rel="noopener">closed subgroup</a> of the <a href="../entries/Q524607.html" target="_blank" rel="noopener">general linear</a> <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $\text{GL}(n,\mathbb C)$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/matrix_Lie_group" target="_blank" rel="noopener">matrix Lie group</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Geometry/Manifold/Algebra/LieGroup.html#LieGroup" target="_blank" rel="noopener">Lie group</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/matrix+Lie+group" target="_blank" rel="noopener">matrix Lie group</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/liegroup" target="_blank" rel="noopener">Lie group</a></li>

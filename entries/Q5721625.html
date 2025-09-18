@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>Hamel basis</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Hamel_basis" target="_blank" rel="noopener">Hamel basis</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>An <a href="../entries/Q1411166.html" target="_blank" rel="noopener">orthonormal sequence</a> of vectors $\{v_i\}_{i\in\mathbb N}$ in a <a href="../entries/Q190056.html" target="_blank" rel="noopener">Hilbert space</a> $H$ is an <strong>orthonormal (Hamel) basis</strong> for $H$ if $$h = \sum_{i\in\mathbb N} \langle v_i, h\rangle v_i$$ for all $h \in H$.</p>
     </section>
 
   </body>

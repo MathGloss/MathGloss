@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Euler&#x27;s totient function</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p><strong>Euler's totient function</strong>, written $\phi(n)$, is a function $\mathbb N\to\mathbb N$ that gives the number of integers less than $n$ that are <a href="../entries/Q104752.html" target="_blank" rel="noopener">coprime</a> to $n$. That is, the number of integers less than $n$ whose <a href="../entries/Q131752.html" target="_blank" rel="noopener">greatest common divisor</a> with $n$ is 1.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Euler&#x27;s_totient_function" target="_blank" rel="noopener">Euler&#x27;s totient function</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Data/Nat/Totient.html#Nat.totient" target="_blank" rel="noopener">Euler&#x27;s totient function ($\varphi$)</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/totient" target="_blank" rel="noopener">totient</a></li>
       </ul>

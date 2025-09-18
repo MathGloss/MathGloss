@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>simply connected space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> $X$ is <strong>simply connected</strong> if it is <a href="../entries/Q3487687.html" target="_blank" rel="noopener">path-connected</a> and for every two <a href="../entries/Q5165409.html" target="_blank" rel="noopener">continuous</a> maps $\gamma_1:<a href="https://mathgloss.github.io/MathGloss/chicago/homotopy" target="_blank" rel="noopener">0,1]\to X$ and $\gamma_2:[0,1]\to X$ there exists a [homotopy</a> $F:<a href="https://mathgloss.github.io/MathGloss/chicago/Lie_Groups,_Lie_Algebras,_and_Represenations" target="_blank" rel="noopener">0,1]\times[0,1]\to X$ such that $F(x,0)= \gamma_1(x)$ and $F(x,1) = \gamma_2(x)$.  [</a></p>
+<p>A <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> $X$ is <strong>simply connected</strong> if it is <a href="../entries/Q3487687.html" target="_blank" rel="noopener">path-connected</a> and has trivial <a href="../entries/Q662830.html" target="_blank" rel="noopener">fundamental group</a>. [](https://mathgloss.github.io/MathGloss/chicago/A_Concise_Course_in_Algebraic_Topology)</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/simply_connected" target="_blank" rel="noopener">simply connected</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/simply+connected+space" target="_blank" rel="noopener">simply connected space</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/simplyconnected" target="_blank" rel="noopener">simply connected</a></li>
       </ul>

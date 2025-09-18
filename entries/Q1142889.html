@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>isolated point</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A point $x$ is an <strong>isolated point</strong> of a subset $S$ of a <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a> $X$ if it is an element of $S$ but there exists a <a href="../entries/Q2478475.html" target="_blank" rel="noopener">neighborhood</a> of $x$ containing no other points of $S$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/isolated_point" target="_blank" rel="noopener">isolated point</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/isolated+point" target="_blank" rel="noopener">isolated point</a></li>
       </ul>
     </section>

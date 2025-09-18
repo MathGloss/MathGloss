@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Coprime integers</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Two elements of a <a href="../entries/Q165474.html" target="_blank" rel="noopener">commutative</a> <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a> are <strong>coprime</strong> if their  <a href="../entries/Q131752.html" target="_blank" rel="noopener">greatest common divisor</a> is $1$. Specifically, if it is the additive <a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">identity element</a> of the <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/coprime" target="_blank" rel="noopener">coprime</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/coprime+integers" target="_blank" rel="noopener">coprime integers</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/probabilitythattwopositiveintegersarerelativelyprime" target="_blank" rel="noopener">probability that two positive integers are relatively prime</a></li>
       </ul>

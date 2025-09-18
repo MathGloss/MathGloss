@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>division algebra</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>division algebra</strong> $D$  is an <a href="../entries/Q1000660.html" target="_blank" rel="noopener">algebra</a> over the <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> $F$ such that for any element $a$ in $D$ and any non-zero element $b$ in $D$, there exists exactly one element $x\in D$ with $a=bx$ and exactly one element $y \in D$ such that $a=yb$.</p>
+<p>If $D$ is an <a href="../entries/Q744960.html" target="_blank" rel="noopener">associative algebra</a>, then we just require that $D$ have an <a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">identity element</a> under the <a href="../entries/Q164307.html" target="_blank" rel="noopener">binary operation</a> and every nonzero element have a <a href="https://mathgloss.github.io/MathGloss/chicago/inverse_element" target="_blank" rel="noopener">multiplicative inverse</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/division_algebra" target="_blank" rel="noopener">division algebra</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/division+algebra" target="_blank" rel="noopener">division algebra</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/divisionalgebra" target="_blank" rel="noopener">division algebra</a></li>
       </ul>

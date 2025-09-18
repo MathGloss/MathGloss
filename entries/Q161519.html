@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,14 @@
         <dd>permutation</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>If $\sigma \in S_n$ is an element of the <a href="../entries/Q849512.html" target="_blank" rel="noopener">symmetric group</a> on $n$ letters, then it <a href="https://mathgloss.github.io/MathGloss/chicago/cycle_decomposition" target="_blank" rel="noopener">is</a> the product of disjoint <a href="../entries/Q105085931.html" target="_blank" rel="noopener">cycles</a> of length $n_1\leq\cdots\leq n_r$ (including the $1$-cycles!) and moreover the sum of the $n_i$ is equal to $n$. The <a href="../entries/Q1082910.html" target="_blank" rel="noopener">partition</a> of $n$ given by the $n_i$ is called the <strong>cycle type</strong> of $\sigma$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=47" target="_blank" rel="noopener">permutation</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/cycle_type" target="_blank" rel="noopener">cycle type</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/permutation" target="_blank" rel="noopener">permutation</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/cyclenotation" target="_blank" rel="noopener">cycle notation</a></li>
       </ul>

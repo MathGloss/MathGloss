@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>simple Lie algebra</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>If a <a href="https://mathgloss.github.io/MathGloss/chicago/Lie_algebra" target="_blank" rel="noopener">Lie algebra</a> has no <a href="../entries/Q25488798.html" target="_blank" rel="noopener">ideals</a> except for $\{0\}$ and itself, then it is <strong>simple</strong>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/simple_Lie_algebra" target="_blank" rel="noopener">simple Lie algebra</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/simple+Lie+algebra" target="_blank" rel="noopener">simple Lie algebra</a></li>
       </ul>
     </section>

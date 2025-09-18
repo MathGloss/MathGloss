@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>symmetric difference</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>The <strong>symmetric difference</strong> of two sets $A$ and $B$ is given by $$A\triangle B = (A\setminus B)\cup(B\setminus A) = (A\cup B)\setminus (A\cap B).$$ It is the set of elements that are in exactly one of $A$ or $B$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/symmetric_difference" target="_blank" rel="noopener">symmetric difference</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/symmetric+difference" target="_blank" rel="noopener">symmetric difference</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/symmetricdifference" target="_blank" rel="noopener">symmetric difference</a></li>
       </ul>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>finitely generated module</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $R$ be a <a href="../entries/Q161172.html" target="_blank" rel="noopener">ring</a>. An $R$-<a href="../entries/Q18848.html" target="_blank" rel="noopener">module</a> $M$ is <strong>finitely generated</strong> if it is <a href="https://mathgloss.github.io/MathGloss/chicago/generate_an_R-module" target="_blank" rel="noopener">generated</a> by a finite subset of itself.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/finitely_generated_R-module" target="_blank" rel="noopener">finitely generated R module</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/finitely+presented+module" target="_blank" rel="noopener">finitely presented module</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/finitelygeneratedprojectivemodule" target="_blank" rel="noopener">finitely generated projective module</a></li>
       </ul>

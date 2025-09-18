@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>central series</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $G$ be a <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a>. The <strong>upper central series</strong> for $G$ is an ascending sequence of <a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroups</a> of $G$ defined as follows: Let $Z_0(G) = \{e\}$ and let $Z_1(G)$ be the <a href="../entries/Q1195852.html" target="_blank" rel="noopener">center</a> $Z(G)$. Then for each $i\geq 1$, define $Z_{i+1}(G)$ to be a <a href="../entries/Q466109.html" target="_blank" rel="noopener">subgroup</a> of $G$ containing $Z_i(G)$ such that the <a href="https://mathgloss.github.io/MathGloss/chicago/quotient_by_normal_#########quotient" target="_blank" rel="noopener">quotient by normal quotient</a> $Z_{i+1}(G)/Z_i(G) = Z(G/Z_i(G))$.  Note that because the <a href="https://mathgloss.github.io/MathGloss/chicago/center_is_a_normal_subgroup" target="_blank" rel="noopener">center is a normal subgroup</a>, these <a href="https://mathgloss.github.io/MathGloss/chicago/quotient_by_normal_#########quotients" target="_blank" rel="noopener">quotient by normal quotients</a> are well-defined. Also note that this series may or may not reach $G$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/upper_central_series" target="_blank" rel="noopener">upper central series</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/upper+central+series" target="_blank" rel="noopener">upper central series</a></li>
       </ul>
     </section>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>Schwartz space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $F$ be a <a href="https://mathgloss.github.io/MathGloss/chicago/local_field" target="_blank" rel="noopener">local</a> <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a> with a <a href="https://mathgloss.github.io/MathGloss/chicago/non-Archimedean_absolute_value" target="_blank" rel="noopener">non-Archimedean</a> <a href="../entries/Q120812.html" target="_blank" rel="noopener">absolute value</a>. Then the <strong>Schwartz space</strong>, or the collection of <strong>Schwartz-Bruhat functions</strong>, consists of the functions from $F$ to $\mathbb C$ that are <a href="https://mathgloss.github.io/MathGloss/chicago/locally_constant" target="_blank" rel="noopener">locally constant</a> and have <a href="../entries/Q1136376.html" target="_blank" rel="noopener">compact support</a>.</p>
+<p>It is often either denoted $C_c^\infty(F)$ or $\mathcal S(F)$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/Schwartz_space" target="_blank" rel="noopener">Schwartz space</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Distribution/SchwartzSpace.html#SchwartzMap" target="_blank" rel="noopener">Schwartz space</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/Schwartz+space" target="_blank" rel="noopener">Schwartz space</a></li>
       </ul>

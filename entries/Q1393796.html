@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Quotient space (linear algebra)</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Define an <a href="../entries/Q130998.html" target="_blank" rel="noopener">equivalence relation</a> $\sim$ on a <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector space</a> $V$ with <a href="../entries/Q728435.html" target="_blank" rel="noopener">subspace</a> $W$ by $$v_1 \sim v_2 \text{ if } v_1-v_2 \in W.$$ Then the <strong>quotient</strong> of $V$ by $W$ is the set of <a href="../entries/Q1211071.html" target="_blank" rel="noopener">equivalence classes</a> of $\sim$ in $V$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/quotient_vector_space" target="_blank" rel="noopener">quotient vector space</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Quotient/Defs.html#Submodule.hasQuotient" target="_blank" rel="noopener">quotient space</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/quotient+space" target="_blank" rel="noopener">quotient space</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/quotientspace" target="_blank" rel="noopener">quotient space</a></li>

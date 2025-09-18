@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Primitive element (field theory)</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="https://mathgloss.github.io/MathGloss/chicago/field_extension" target="_blank" rel="noopener">field extension</a> <a href="https://mathgloss.github.io/MathGloss/chicago/generate_a_field" target="_blank" rel="noopener">generated</a> by a single element is called <strong>simple</strong>. The single element which generates this field is called <strong>primitive</strong> for the extension.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/simple_field_extension" target="_blank" rel="noopener">simple field extension</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/simplefieldextension" target="_blank" rel="noopener">simple field extension</a></li>
       </ul>
     </section>

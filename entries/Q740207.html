@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>isometry</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A function $f: X\to Y$ between <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric spaces</a> $(X, \rho)$ and $(Y,\sigma)$ is an <strong>isometry</strong> if for all $a,b \in X$, $$\sigma(f(a), f(b)) = \rho(a,b).$$ Two <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric spaces</a> are <strong>isometric</strong> if there exists an isometry between them.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/isometry" target="_blank" rel="noopener">isometry</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/linear+isometry" target="_blank" rel="noopener">linear isometry</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/isometricisomorphism" target="_blank" rel="noopener">isometric isomorphism</a></li>
       </ul>

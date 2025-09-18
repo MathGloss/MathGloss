@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>algebraic extension</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="https://mathgloss.github.io/MathGloss/chicago/field_extension" target="_blank" rel="noopener">field extension</a> $F/K$ is <strong>algebraic</strong> if every element of $K$ is <a href="https://mathgloss.github.io/MathGloss/chicago/algebraic_element_of_an_algebra" target="_blank" rel="noopener">algebraic</a> over $F$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/algebraic_extension" target="_blank" rel="noopener">algebraic extension</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/RingTheory/Algebraic/Defs.html#Algebra.IsAlgebraic" target="_blank" rel="noopener">algebraic extension</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/algebraic+extension" target="_blank" rel="noopener">algebraic extension</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/algebraicextension" target="_blank" rel="noopener">algebraic extension</a></li>

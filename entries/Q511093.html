@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>centroid</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $S \subset\mathbb R^n$ be <a href="https://mathgloss.github.io/MathGloss/chicago/rectifiable" target="_blank" rel="noopener">rectifiable</a> with nonzero <a href="https://mathgloss.github.io/MathGloss/chicago/volume_of_a_rectifiable_set" target="_blank" rel="noopener">volume</a>. The <strong>centroid</strong> of $S$ is the point $c(S) \in \mathbb R^n$ whose $k$th coordinate is given by the <a href="../entries/Q697181.html" target="_blank" rel="noopener">integral</a> $$c_k(S) = \frac{1}{\text{vol}(S)} \int_S \pi_k,$$ where $\pi_k:\mathbb R^n \to\mathbb R$ is such that $(x_1,\dots,x_n)\mapsto x_k$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/centroid" target="_blank" rel="noopener">centroid</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/centroid" target="_blank" rel="noopener">centroid</a></li>
       </ul>
     </section>

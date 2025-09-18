@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>winding number</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $z_0\in \mathbb C$ and let $\gamma:<a href="../entries/Q5165409.html" target="_blank" rel="noopener">0,1]\to \mathbb C\setminus \{z_0\}$ be a [continuous</a> <a href="../entries/Q22283522.html" target="_blank" rel="noopener">loop</a> that does not pass through $z_0$. The <strong>winding number</strong> of $\gamma$ around $\alpha$ is the <a href="https://mathgloss.github.io/MathGloss/chicago/complex_line_integral" target="_blank" rel="noopener">complex line integral</a> $$\text{Ind}_\gamma(\alpha) = \frac{1}{2\pi i}\int_\gamma \frac{1}{\zeta - z_0} \text d\zeta,$$ a special case of the <a href="https://mathgloss.github.io/MathGloss/chicago/Cauchy_integral_formula" target="_blank" rel="noopener">Cauchy integral formula</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/winding_number" target="_blank" rel="noopener">winding number</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/winding+number" target="_blank" rel="noopener">winding number</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/windingnumber" target="_blank" rel="noopener">winding number</a></li>
       </ul>

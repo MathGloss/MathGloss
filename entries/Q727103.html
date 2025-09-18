@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>unitary matrix</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A complex $n\times n$ <a href="../entries/Q44337.html" target="_blank" rel="noopener">matrix</a> $U$ is <strong>unitary</strong> if its <a href="../entries/Q2051983.html" target="_blank" rel="noopener">conjugate transpose</a> $U^*$ is equal to its <a href="../entries/Q17123743.html" target="_blank" rel="noopener">inverse</a> $U^{-1}$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/unitary_matrix" target="_blank" rel="noopener">unitary matrix</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/unitary+matrix" target="_blank" rel="noopener">unitary matrix</a></li>
       </ul>
     </section>

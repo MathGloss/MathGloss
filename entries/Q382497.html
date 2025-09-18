@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Affine transformation</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $F$ be a <a href="../entries/Q1172412.html" target="_blank" rel="noopener">field</a>.  The <strong>affine transformations</strong> of $F$$$\text{Aff}(F) = \{t_bm_a\mid b\in F, a\in F^\times\}$$ really combinations of scaling and translation: $x\mapsto ax+b$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/affine_transformations" target="_blank" rel="noopener">affine transformations</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/AffineSpace/AffineMap.html#AffineMap" target="_blank" rel="noopener">affine function</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/affine+function" target="_blank" rel="noopener">affine function</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/affinetransformation" target="_blank" rel="noopener">affine transformation</a></li>

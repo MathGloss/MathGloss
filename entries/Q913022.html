@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>simple function</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(X,\Sigma)$ be a <a href="../entries/Q192276.html" target="_blank" rel="noopener">measurable space</a>, and let $\{A_i\}_{i=1}^n$ be a sequence of disjoint <a href="../entries/Q192276.html" target="_blank" rel="noopener">measurable</a> sets, and let $\{a_i\}_{i=1}^n$ be a sequence of real numbers. A <strong>simple function</strong> is a function $f:X\to \mathbb R$ of the form $$f(x) = \sum_{k=1}^n a_k\chi_{A_k}(x)$$ where $\chi_A$ is the <a href="https://mathgloss.github.io/MathGloss/chicago/characteristic_function" target="_blank" rel="noopener">characteristic function</a> of $A$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/simple_function" target="_blank" rel="noopener">simple function</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/simple+function" target="_blank" rel="noopener">simple function</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/simplefunction" target="_blank" rel="noopener">simple function</a></li>
       </ul>

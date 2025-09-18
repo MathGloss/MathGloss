@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>tensor product of representations</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(V_1,\rho_1)$ and $(V_2,\rho_2))$ be <a href="../entries/Q1055807.html" target="_blank" rel="noopener">representations</a> of the <a href="../entries/Q83478.html" target="_blank" rel="noopener">group</a> $G$. The <strong>tensor product</strong> of $V_1$ and $V_2$ is a <a href="../entries/Q1055807.html" target="_blank" rel="noopener">representation</a> of $G$ over the <a href="../entries/Q1163016.html" target="_blank" rel="noopener">tensor product of vector spaces</a> $V_1\otimes V_2$ under the <a href="../entries/Q207643.html" target="_blank" rel="noopener">linear transformation</a> $\rho_1\otimes \rho_2 = \rho:G\to V_1\otimes V_2$ such that $\rho(g)(v_1\otimes v_2) = (\rho_1(g)v_1)\otimes (\rho_2(g)v_2)$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/tensor_product_of_group_representations" target="_blank" rel="noopener">tensor product of group representations</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/tensor+product+of+representations" target="_blank" rel="noopener">tensor product of representations</a></li>
       </ul>
     </section>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,15 @@
         <dd>topological space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>topological space</strong> is a set $X$ together with a collection $T$ of subsets of $X$. The elements of $T$ are called the <a href="../entries/Q56640161.html" target="_blank" rel="noopener">open</a> sets and they satisfy the following properties: 1. $X\in T$ and $\emptyset \in T$. 2. Arbitrary unions of open sets are open. 3. Finite intersections of open sets are open.</p>
+<p>$T$ is called a <strong>topology</strong> on $X$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=15" target="_blank" rel="noopener">indiscrete topological space</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/topological_space" target="_blank" rel="noopener">topological space</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=22" target="_blank" rel="noopener">topological space</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/Defs/Basic.html#TopologicalSpace" target="_blank" rel="noopener">topological space</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/unified+topological+space" target="_blank" rel="noopener">unified topological space</a></li>

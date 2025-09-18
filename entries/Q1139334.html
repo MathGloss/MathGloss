@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>almost everywhere</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $(X,\Sigma,\mu)$ be a <a href="../entries/Q3058212.html" target="_blank" rel="noopener">measure space</a>. A property $P$ holds <strong>almost everywhere</strong> in $X$ if there exists a set $N \in \Sigma$ such that $\mu(N) = 0$ and $P$ is true for all $x \in X\setminus N$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/almost_everywhere" target="_blank" rel="noopener">almost everywhere</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/almosteverywhere" target="_blank" rel="noopener">almost everywhere</a></li>
       </ul>
     </section>

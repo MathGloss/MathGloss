@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>finite graph</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <a href="https://mathgloss.github.io/MathGloss/chicago/graph" target="_blank" rel="noopener">graph</a> $X$ is <strong>locally finite</strong> if each vertex is a <a href="../entries/Q106371443.html" target="_blank" rel="noopener">boundary</a> point of only finitely many eges or if $X$ is a <a href="https://mathgloss.github.io/MathGloss/chicago/locally_compact" target="_blank" rel="noopener">locally compact</a> <a href="../entries/Q179899.html" target="_blank" rel="noopener">topological space</a>.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/locally_finite_graph" target="_blank" rel="noopener">locally finite graph</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/finite+graph" target="_blank" rel="noopener">finite graph</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/locallyfinitegraph" target="_blank" rel="noopener">locally finite graph</a></li>
       </ul>

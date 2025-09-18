@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>adjoint representation of a Lie algebra</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/semisimple_representation_of_a_Lie_algebra" target="_blank" rel="noopener">semisimple representation of a Lie algebra</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $\mathfrak g$ be a <a href="https://mathgloss.github.io/MathGloss/chicago/Lie_algebra" target="_blank" rel="noopener">Lie algebra</a>. A <strong>semisimple representation</strong> of $\mathfrak g$ is a <a href="../entries/Q207643.html" target="_blank" rel="noopener">linear</a> <a href="../entries/Q1136782.html" target="_blank" rel="noopener">representation</a> of $\mathfrak g$ that may be written as the <a href="https://mathgloss.github.io/MathGloss/chicago/direct_sum_of_group_representations" target="_blank" rel="noopener">direct sum</a> of <a href="../entries/Q13690522.html" target="_blank" rel="noopener">irreducible representations</a>.</p>
     </section>
 
   </body>

@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>uniformly continuous function</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A function $f:X\to Y$ between <a href="../entries/Q180953.html" target="_blank" rel="noopener">metric spaces</a> $(X,\rho)$ and $(Y, \sigma)$ is <strong>uniformly continuous</strong> if for all $x,y \in X$ and all $\varepsilon &gt; 0$, there exists $\delta &gt; 0$ such that $\sigma(f(x), f(y)) &lt; \varepsilon$ whenever $\rho(x,y) &lt; \delta$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/uniformly_continuous" target="_blank" rel="noopener">uniformly continuous</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/MetricSpace/Pseudo/Defs.html#Metric.uniformContinuous_iff" target="_blank" rel="noopener">uniformly continuous function</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/uniformlycontinuous" target="_blank" rel="noopener">uniformly continuous</a></li>
       </ul>

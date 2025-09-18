@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>harmonic function</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A function $f:\mathbb C\to \mathbb C$ has the <strong>mean value property</strong> if for every $z\in \mathbb C$ and every $r&gt;0$, $f(z)$ is equal to the <a href="../entries/Q467699.html" target="_blank" rel="noopener">complex integral</a> $$f(z) = \frac{1}{2\pi}\int_0^{2\pi} f(z + r\cos\theta +ir\sin\theta)\text d\theta.$$</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/mean_value_property" target="_blank" rel="noopener">mean value property</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/harmonic+function" target="_blank" rel="noopener">harmonic function</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/harmonicfunction1" target="_blank" rel="noopener">harmonic function</a></li>
       </ul>

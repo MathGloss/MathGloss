@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,14 @@
         <dd>measure space</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>measure</strong> $\mu$ on a <a href="../entries/Q192276.html" target="_blank" rel="noopener">measurable</a> space $(X,\mathcal M)$ is a function $\mu:\mathcal M \to <a href="https://mathgloss.github.io/MathGloss/chicago/extended_real_numbers" target="_blank" rel="noopener">0,\infty]$ valued on the [extended real numbers</a> for which $\mu(\emptyset) = 0$ for any <a href="../entries/Q66707394.html" target="_blank" rel="noopener">countable</a>, pairwise disjoint collection $\{E_i\}_{i\in\mathbb N}$ of measurable sets, $$\mu\left(\bigcup_{i\in\mathbb N} E_i\right) = \sum_{i\in\mathbb N} \mu(E_i).$$</p>
+<p>A <strong>measure space</strong> is a <a href="../entries/Q192276.html" target="_blank" rel="noopener">measurable</a> space $(X,\mathcal M)$ together with a <strong>measure</strong> $\mu$ on $\mathcal M$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/measure_space" target="_blank" rel="noopener">measure space</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/measure+space" target="_blank" rel="noopener">measure space</a></li>
       </ul>
     </section>

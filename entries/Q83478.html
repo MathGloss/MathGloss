@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,21 @@
         <dd>group</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>group</strong> is a set $G$ together with a <a href="../entries/Q164307.html" target="_blank" rel="noopener">binary operation</a> $\cdot:G\times G \to G$ satisfying the following properties: 1. $\cdot$ is <a href="../entries/Q177251.html" target="_blank" rel="noopener">associative</a>; 2. there exists an <a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">identity element</a> $e \in G$ such that $g\cdot e = g = e\cdot g$ for all $g \in G$. 3. for each $g \in G$ there exists an <a href="https://mathgloss.github.io/MathGloss/chicago/inverse_element" target="_blank" rel="noopener">inverse element</a> $g^{-1}$ such that $g\cdot g^{-1} = e = g^{-1}\cdot g$.</p>
+<p>Groups can be thought of as</p>
+<ul>
+<li><a href="../entries/Q177251.html" target="_blank" rel="noopener">associative</a> <a href="../entries/Q126870507.html" target="_blank" rel="noopener">magmas</a></li>
+<li><a href="../entries/Q207348.html" target="_blank" rel="noopener">semigroups</a> with an <a href="https://mathgloss.github.io/MathGloss/chicago/identity_element" target="_blank" rel="noopener">identity</a> and with <a href="https://mathgloss.github.io/MathGloss/chicago/inverse_element" target="_blank" rel="noopener">inverses</a></li>
+<li><a href="../entries/Q208237.html" target="_blank" rel="noopener">monoids</a> with <a href="https://mathgloss.github.io/MathGloss/chicago/inverse_element" target="_blank" rel="noopener">inverses</a></li>
+<li><a href="../entries/Q719395.html" target="_blank" rel="noopener">categories</a> with a single object and every morphism an isomorphism</li>
+</ul>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
         <li><strong>BCT</strong>: <a href="https://arxiv.org/pdf/1612.09375#page=14" target="_blank" rel="noopener">group</a></li>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/group" target="_blank" rel="noopener">group</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=25" target="_blank" rel="noopener">group</a></li>
         <li><strong>Mathlib</strong>: <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Group/Defs.html#Group" target="_blank" rel="noopener">group</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/group" target="_blank" rel="noopener">group</a></li>

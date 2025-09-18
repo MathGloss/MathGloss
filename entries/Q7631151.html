@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>subgraph</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>subgraph</strong> $A$ of a <a href="https://mathgloss.github.io/MathGloss/chicago/graph" target="_blank" rel="noopener">graph</a> $X$ is a <a href="https://mathgloss.github.io/MathGloss/chicago/graph" target="_blank" rel="noopener">graph</a> $A\subset X$ with $A^0\subset X^0$. That is, $A$ is a union of some of the vertices and edges of $X$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/subgraph" target="_blank" rel="noopener">subgraph</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/subgraph" target="_blank" rel="noopener">subgraph</a></li>
       </ul>
     </section>

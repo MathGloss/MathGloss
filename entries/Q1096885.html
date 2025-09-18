@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,15 @@
         <dd>lattice</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>A <strong>lattice</strong> is a <a href="../entries/Q474715.html" target="_blank" rel="noopener">partially ordered set</a> in which every pair of elements has a unique <a href="../entries/Q17502105.html" target="_blank" rel="noopener">infimum</a> and a unique <a href="../entries/Q215071.html" target="_blank" rel="noopener">supremum</a>.</p>
+<p>If $(X, \leq)$ is a lattice, we call the <a href="../entries/Q215071.html" target="_blank" rel="noopener">supremum</a> of $x$ and $y$ the <strong>join</strong> of $x$ and $y$ and denote it $x\lor y$. Similarly, we call the <a href="../entries/Q17502105.html" target="_blank" rel="noopener">infimum</a> of $x$ and $y$ their <strong>meet</strong> and denote it $x\land y$. These are in fact <a href="../entries/Q164307.html" target="_blank" rel="noopener">binary operations</a> on $X$. Moreover, they respect the <a href="../entries/Q474715.html" target="_blank" rel="noopener">partial order</a> on $X$.</p>
+<p>We can also define a <strong>lattice</strong> as a triple $(L, \lor,\land)$ where $L$ is a set and $\lor$ and $\land$ are two <a href="../entries/Q165474.html" target="_blank" rel="noopener">commutative</a>, <a href="../entries/Q177251.html" target="_blank" rel="noopener">associative</a> <a href="../entries/Q164307.html" target="_blank" rel="noopener">binary operations</a> on $L$ satisfying the following <strong>absorption laws</strong> for all $a,b \in L$: 1. $a\lor (a\land b) = a$; 2. $a\land (a\lor b) = a$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/lattice" target="_blank" rel="noopener">lattice</a></li>
         <li><strong>Context</strong>: <a href="https://emilyriehl.github.io/files/context.pdf#page=194" target="_blank" rel="noopener">lattice</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/lattice+model" target="_blank" rel="noopener">lattice model</a></li>
         <li><strong>PlanetMath</strong>: <a href="http://planetmath.org/lattice" target="_blank" rel="noopener">lattice</a></li>

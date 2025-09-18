@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,10 @@
         <dd>matrix multiplication</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/matrix_multiplication" target="_blank" rel="noopener">matrix multiplication</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>For $A$ an $m\times n$ <a href="../entries/Q44337.html" target="_blank" rel="noopener">matrix</a> and $B$ an $n\times p$ matrix with entries $(a_{ij})$ and $(b_{k\ell})$ respectively, the <strong>product</strong> $C=AB$ is the $m\times p$ matrix whose entries are given by $$c_{ij} = \sum_{k=1}^n a_{ik}b_{kj}$$ for $1 \leq i \leq m$ and $1 \leq j \leq m$.</p>
+<p>Note that this <a href="../entries/Q164307.html" target="_blank" rel="noopener">binary operation</a> is not <a href="../entries/Q165474.html" target="_blank" rel="noopener">commutative</a>, and $BA$ may not even be defined even though $AB$ is due to differing dimensions.</p>
     </section>
 
   </body>

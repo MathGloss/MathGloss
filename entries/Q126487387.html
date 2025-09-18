@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,10 +35,13 @@
         <dd>Minor</dd>
       </dl>
     </section>
-    <section class="sources">
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $V$ be a <a href="../entries/Q125977.html" target="_blank" rel="noopener">vector space</a> and let $T: V\to V$ be a <a href="../entries/Q207643.html" target="_blank" rel="noopener">linear transformation</a> with <a href="https://mathgloss.github.io/MathGloss/chicago/matrix_of_a_linear_transformation" target="_blank" rel="noopener">corresponding matrix</a> $A$. The <a href="../entries/Q44337.html" target="_blank" rel="noopener">matrix</a> coefficients of the <a href="https://mathgloss.github.io/MathGloss/chicago/matrix_for_exterior_product_of_linear_transformation_is_given_by_minors_of_matrix_for_linear_transformation" target="_blank" rel="noopener">matrix corresponding</a> to the <a href="https://mathgloss.github.io/MathGloss/chicago/exterior_power_of_linear_transformation" target="_blank" rel="noopener">exterior product</a> $\wedge^m(T)$ of $T$ are called the <strong>minors</strong> of $A$.</p>
+    </section>
+<section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/minor" target="_blank" rel="noopener">minor</a></li>
         <li><strong>nLab</strong>: <a href="https://ncatlab.org/nlab/show/minor" target="_blank" rel="noopener">minor</a></li>
       </ul>
     </section>

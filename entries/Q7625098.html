@@ -16,6 +16,13 @@
       .sources ul { list-style: disc; padding-left: 20px; }
       .sources li { margin-bottom: 8px; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\(', '\)']], displayMath: [['$$', '$$'], ['\[', '\]']] },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
   </head>
   <body>
     <nav><a href="../web/">← Back to index</a></nav>
@@ -28,11 +35,9 @@
         <dd>structure constants</dd>
       </dl>
     </section>
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><strong>Chicago</strong>: <a href="https://mathgloss.github.io/MathGloss/chicago/structure_constants" target="_blank" rel="noopener">structure constants</a></li>
-      </ul>
+        <section class="mathgloss-definition">
+      <h2>MathGloss Definition</h2>
+<p>Let $L$ be a <a href="https://mathgloss.github.io/MathGloss/chicago/Lie_algebra" target="_blank" rel="noopener">Lie algebra</a> with <a href="../entries/Q189569.html" target="_blank" rel="noopener">basis</a> $\{x_1,\dots,x_n\}$. The <strong>structure constants</strong> $a_{ij}^k$ are the constants in the expressions $$[x_ix_j] = \sum_{k=1}^n a_{ik}^k x_k.$$</p>
     </section>
 
   </body>
