@@ -356,19 +356,47 @@ def ensure_source_node(session, *, source_id: str, name: str, kind: Optional[str
     session.execute_write(_tx)
 
 
-def write_batch(session, batch: Sequence[PreparedRelation]) -> None:
+def write_batch(session, batch: Sequence[PreparedRelation], *, allow_create_concepts: bool) -> None:
     payload = [item.to_dict() for item in batch]
+
+    if allow_create_concepts:
+
+        def _tx(tx):
+            tx.run(
+                """
+                UNWIND $batch AS row
+                MERGE (src:Concept {id: row.source_id})
+                FOREACH (_ IN CASE WHEN row.source_qid IS NULL THEN [] ELSE [1] END | SET src.qid = coalesce(src.qid, row.source_qid))
+                FOREACH (_ IN CASE WHEN row.source_label IS NULL THEN [] ELSE [1] END | SET src.label = coalesce(src.label, row.source_label))
+                MERGE (tgt:Concept {id: row.target_id})
+                FOREACH (_ IN CASE WHEN row.target_qid IS NULL THEN [] ELSE [1] END | SET tgt.qid = coalesce(tgt.qid, row.target_qid))
+                FOREACH (_ IN CASE WHEN row.target_label IS NULL THEN [] ELSE [1] END | SET tgt.label = coalesce(tgt.label, row.target_label))
+                MERGE (a:Assertion {id: row.assertion_id})
+                ON CREATE SET a.pred = row.pred,
+                              a.property_id = row.property_id,
+                              a.property_label = row.property_label,
+                              a.source_name = row.source_name
+                FOREACH (_ IN CASE WHEN a.pred IS NULL THEN [1] ELSE [] END | SET a.pred = row.pred)
+                FOREACH (_ IN CASE WHEN a.property_id IS NULL THEN [1] ELSE [] END | SET a.property_id = row.property_id)
+                FOREACH (_ IN CASE WHEN a.property_label IS NULL THEN [1] ELSE [] END | SET a.property_label = row.property_label)
+                FOREACH (_ IN CASE WHEN a.source_name IS NULL THEN [1] ELSE [] END | SET a.source_name = row.source_name)
+                FOREACH (_ IN CASE WHEN row.confidence IS NULL THEN [] ELSE [1] END | SET a.confidence = row.confidence)
+                FOREACH (_ IN CASE WHEN row.model IS NULL THEN [] ELSE [1] END | SET a.model = row.model)
+                MERGE (a)-[:SUBJECT]->(src)
+                MERGE (a)-[:OBJECT]->(tgt)
+                """,
+                batch=payload,
+            )
+
+        session.execute_write(_tx)
+        return
 
     def _tx(tx):
         tx.run(
             """
             UNWIND $batch AS row
-            MERGE (src:Concept {id: row.source_id})
-            FOREACH (_ IN CASE WHEN row.source_qid IS NULL THEN [] ELSE [1] END | SET src.qid = coalesce(src.qid, row.source_qid))
-            FOREACH (_ IN CASE WHEN row.source_label IS NULL THEN [] ELSE [1] END | SET src.label = coalesce(src.label, row.source_label))
-            MERGE (tgt:Concept {id: row.target_id})
-            FOREACH (_ IN CASE WHEN row.target_qid IS NULL THEN [] ELSE [1] END | SET tgt.qid = coalesce(tgt.qid, row.target_qid))
-            FOREACH (_ IN CASE WHEN row.target_label IS NULL THEN [] ELSE [1] END | SET tgt.label = coalesce(tgt.label, row.target_label))
+            MATCH (src:Concept {id: row.source_id})
+            MATCH (tgt:Concept {id: row.target_id})
             MERGE (a:Assertion {id: row.assertion_id})
             ON CREATE SET a.pred = row.pred,
                           a.property_id = row.property_id,
@@ -409,6 +437,7 @@ def parse_args(argv: Sequence[str]) -> argparse.Namespace:
     parser.add_argument("--source-kind", default=DEFAULT_SOURCE_KIND, help="kind attribute for the Source node")
     parser.add_argument("--source-url", default=DEFAULT_SOURCE_URL, help="url_root for the Source node")
     parser.add_argument("--skip-source-merge", action="store_true", help="do not create/update the Source node")
+    parser.add_argument("--match-existing", action="store_true", help="only attach relations when Concept nodes already exist")
     parser.add_argument("--dry-run", action="store_true", help="preview the first batch instead of writing")
     parser.add_argument("--no-progress", action="store_true", help="suppress progress output")
     return parser.parse_args(argv)
@@ -434,7 +463,10 @@ def main(argv: Sequence[str] | None = None) -> int:
         for item in preview_batch:
             print(item)
         print("Cypher writes (simplified):")
-        print("MERGE (:Concept {id}) … ; MERGE (:Assertion {id}) … ;")
+        if args.match_existing:
+            print("MATCH (:Concept {id}) … ; MERGE (:Assertion {id}) … ;")
+        else:
+            print("MERGE (:Concept {id}) … ; MERGE (:Assertion {id}) … ;")
         return 0
 
     if args.password_prompt and not args.password:
@@ -473,7 +505,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         for batch in batched(relations_iter, args.batch_size):
             if not batch:
                 continue
-            write_batch(session, batch)
+            write_batch(session, batch, allow_create_concepts=not args.match_existing)
             processed += len(batch)
             if not args.no_progress:
                 if total_rows:
