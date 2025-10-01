@@ -36,6 +36,8 @@ FILTER_P31: Set[str] = {
     'Q4167410',   # disambiguation page
     'Q22808320',  # human name disambiguation page
     'Q11448906',  # science award
+    'Q13406463',  # wikimedia list article
+    'Q1936384',   # area of mathematics
 #    'Q65943',     # theorem
 #    'Q207505',    # lemma
 #    'Q108163',    # proposition

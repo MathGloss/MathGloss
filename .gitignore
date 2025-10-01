@@ -2,7 +2,9 @@ __pycache__/
 *.pyc
 .DS_Store
 data/builds/
+data/relations/*.json
 secrets/
 logs/
 experiments/
 layers/
+.venv
