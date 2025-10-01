@@ -1,93 +1,148 @@
 # MathGloss
 
-MathGloss is a small, scriptable toolkit for building a cross‑source glossary of mathematical terms and mapping them to Wikidata. It ships with:
+MathGloss is a scriptable toolkit for aligning mathematical knowledge sources
+with Wikidata, producing a unified glossary that powers static sites, data
+releases, and graph experiments. The project centers on small, composable
+"agents"—Python scripts that each own one step of the pipeline and exchange
+well-defined CSV artifacts.
 
-- A simple data pipeline for ingesting term lists from various sources
-- A mapper, based on [wikimapper](https://github.com/jcklie/wikimapper) that resolves human‑readable titles to Wikidata IDs via a local index
-- A merged, canonical database (`data/database.csv`) suitable for a static UI
-- A lightweight web UI (`web/`) to browse, filter, and link out to sources
+## Key Capabilities
+- Ingest term lists from textbooks, wikis, lecture notes, and generated
+  contexts into a consistent `title,link[,suggestion]` format.
+- Map those terms to Wikidata QIDs using a local index or layered label sets,
+  then merge the results into a canonical database for consumption by the UI.
+- Prune, enrich, and export the database with Wikipedia sitelinks, cached
+  labels, and curated filters.
+- Generate derived relationship data (e.g., Mathlib extends graphs, Wikidata
+  relation edges) and load the concepts into Neo4j for exploratory analysis.
 
-## Repository Layout
-- `data/` — inputs and builds (CSV)
-  - `data/alignments/` — per‑source mappings: `Wikidata ID,<Source>,<Source link>`
-  - `data/database.csv` — merged table across sources
-  - `data/database_pruned.csv` — optional pruned table (see Pruning)
-- `scripts/` — CLI utilities (pure Python, no hardcoded paths)
-- `web/` — static UI that loads `data/database_pruned.csv` (or `database.csv`)
+## Repository Overview
+- `AGENTS.md` — reference guide for every automation script and how they hand
+  work off to each other.
+- `data/` — canonical CSVs (`database*.csv`, per-source term lists, alignments,
+  relation caches).
+  - `data/alignments/` — mapper outputs per source.
+  - `data/cache/` — Wikidata label/pruning caches.
+  - `data/relations/` — graph exports and LLM-assisted relation caches.
+- `scripts/` — Python agents grouped by responsibility.
+  - `scripts/other/` — termlist ingest helpers, map tester, utilities.
+  - `scripts/building/` — mappers, database builder, label enrichment, pruning.
+  - `scripts/graphing/` — graph-oriented tooling (relation fetchers, Neo4j
+    loaders, Mathlib extends extraction).
+- `layers/` — SPARQL-generated layer CSVs plus the builder script used by the
+  experimental mapper.
+- `web/` — static user interface that reads the merged/pruned database.
 
-## Prerequisites
-- Python 3.10+
-- A local SQLite index mapping Wikipedia page titles to Wikidata IDs (table `mapping(wikipedia_title TEXT, wikidata_id TEXT)`). Can be found [here](https://dumps.wikimedia.org/wikidatawiki/entities/)
-- Optional: `pdfminer.six` for extracting terms from PDF indices of textbooks; `requests` for pruning by Wikidata properties.
+## Setup
+1. Use Python 3.10 or newer.
+2. Create and activate a virtual environment (`python -m venv .venv && source
+   .venv/bin/activate`).
+3. Install the core dependencies: `python -m pip install -r requirements.txt`.
+   - The list includes `requests` for Wikidata/API calls, the Neo4j Python
+     driver for graph loaders, and `ollama` for optional local LLM inference.
+4. Obtain a wikimapper-style SQLite index with a `mapping(wikipedia_title TEXT,
+   wikidata_id TEXT)` table. Build one with
+   [wikimapper](https://github.com/jcklie/wikimapper) or reuse an existing
+   index. Point mapper scripts to it via `--db`.
+5. When running Neo4j loaders, set `NEO4J_URI`, `NEO4J_USER`, and
+   `NEO4J_PASSWORD`, or supply them via CLI flags.
 
-Install optional deps for features you use:
-- `python -m pip install pdfminer.six requests`
+## Standard Pipeline
+1. **Ingest term lists** with the relevant agent for each source. Each script
+   writes a `title,link` CSV in `data/` (optionally `suggestion`).
+2. **Optionally enrich** with `scripts/other/make_clowder_suggestions.py` to
+   add heuristic alternate spellings.
+3. **Map to Wikidata** using `scripts/building/mapper.py` (SQLite index) or
+   `scripts/building/mapper_new.py` (layer-based experiments). Inspect tricky
+   cases interactively with `scripts/other/maptest.py`.
+4. **Merge alignments** via `scripts/building/build_database.py`, drawing
+   labels from the index or the Wikidata API (`--online-labels`).
+5. **Augment** with `scripts/building/add_enwiki_links.py` to populate a
+   `Wikipedia Link` column.
+6. **Prune** using `scripts/building/prune_database.py` to drop humans,
+   disambiguations, list articles, broad areas, and science awards by default
+   (`Q5`, `Q4167410`, `Q22808320`, `Q13406463`, `Q1936384`, `Q11448906`).
+   Additional flags (e.g., `--drop-nlab-only`, `--keep-people`) tailor the
+   output to project needs.
+7. **Publish** the resulting CSVs (`data/database.csv`,
+   `data/database_pruned.csv`, or compiled variants) and update the static UI
+   or downstream analyses.
 
-## Quick Start
-1) Prepare per‑source term lists (`title,link[,suggestion]`). Examples below show how to extract these. Suggestion is optional, and usually refers to different word forms of terms you might use to improve the number of Wikidata hits you get.
-2) Map each term list to Wikidata IDs using the local index.
-3) Merge alignments into a single database.
-4) (Optional) Prune out irrelevant entities using the Wikidata API.
-5) Open the UI locally or publish via GitHub Pages.
+For a script-by-script breakdown, see `AGENTS.md`.
 
-## Ingest: Make term lists
+## Term List Agents
+- **Mathlib:** `scripts/other/make_mathlib_termlist_from_overview.py` parses a
+  saved Mathlib overview HTML file. Use `--base-url` to keep links absolute and
+  `--allow-domain`/`--allow-path` to filter stray anchors.
+- **nLab:** `scripts/other/make_nlab_termlist_from_xhtml.py` processes the
+  exported `all_pages` XHTML listing and keeps `/nlab/show/` entries.
+- **Chicago:** `scripts/other/make_chicago_termlist.py` scans the local
+  `chicago/` markdown tree, taking the first heading as the title and building
+  shareable URLs from a provided base.
+- **PDF indices:** `scripts/other/make_termlist_from_index.py` converts LaTeX
+  `.idx/.ind` files or text dumps into CSV rows with optional `--page-offset`.
+- **Clowder suggestions:** `scripts/other/make_clowder_suggestions.py` adds a
+  `suggestion` column that normalizes names for better mapper recall.
 
-Making term lists is task that has to be specialized to each source. A summary of the sources currently included in MathGloss:
+## Mapping and Quality Control
+- **Index-backed mapper:** `scripts/building/mapper.py` uses the SQLite index
+  to resolve titles. Supports per-source naming via `--source`, explicit output
+  paths via `--out`, and optional network filters with `--check-wikidata`.
+- **Layer mapper:** `scripts/building/mapper_new.py` compares normalized titles
+  against the `layers/` CSVs or a prebuilt catalog.
+- **Layer catalog helper:** `scripts/building/build_layer_catalog.py` speeds up
+  repeated layer-based runs by precomputing token indexes.
+- **Map tester:** `scripts/other/maptest.py` lets you probe mapper outcomes for
+  sample strings before large batch jobs.
 
-- Mathlib (data/mathlib.csv): parsed from a saved copy of the [Mathlib Overview page](https://leanprover-community.github.io/mathlib-overview.html). Use `scripts/make_mathlib_termlist_from_overview.py` with `--base-url https://leanprover-community.github.io/` to resolve root‑relative links and keep items under `/mathlib4_docs/`.
-- nLab (data/nlab.csv): parsed from [all page titles](https://ncatlab.org/nlab/all_pages) in the nLab. Use `scripts/make_nlab_termlist_from_xhtml.py`; anchors filtered to `/nlab/show/` and resolved to absolute URLs.
-- Chicago (data/chicago.csv): generated from the local `chicago/` Markdown corpus, which is a collection of definitions from [Lucy's](https://math.berkeley.edu/~lucy/forest/index/index.xml) undergrad notes. Use `scripts/make_chicago_termlist.py --dir chicago --base-url https://mathgloss.github.io/MathGloss/chicago`.
-- Context (data/context.csv): extracted from the index of [Category Theory in Context](https://emilyriehl.github.io/files/context.pdf) by [Emily Riehl](https://emilyriehl.github.io) and linked to PDF pages (via `#page=`). Use either `scripts/make_termlist_from_index.py` for LaTeX `.idx/.ind` or `scripts/make_pdf_index_termlist.py` for text‑parsed indices.
-- BCT (data/bct.csv): extracted from the index of [Basic Category Theory](https://arxiv.org/abs/1612.09375) by [Tom Leinster](https://webhomes.maths.ed.ac.uk/~tl/) with arXiv PDF page anchors.
-- PlanetMath (data/planetmath.csv): parsed from the [PlanetMath alphabetical index](https://planetmath.org/alphabetical.html), then spaces are added by checking each linked page's title.
-- Clowder (data/alignments/clowder_mappings.csv): tags from [Emily de Oliveira Santos's](https://topological-modular-forms.github.io) [Clowder Project](https://www.clowderproject.com).
+## Database Assembly and Post-Processing
+- **Merger:** `scripts/building/build_database.py` aggregates per-source
+  alignments under `data/alignments/` and hydrates human-readable labels from
+  the index or live Wikidata lookups. Caches persist in `data/cache/` when
+  `--cache` is provided.
+- **Wikipedia linker:** `scripts/building/add_enwiki_links.py` fills the
+  `Wikipedia Link` column using batched Wikidata API calls; safe to re-run.
+- **Pruner:** `scripts/building/prune_database.py` filters out unwanted QIDs
+  and supports additional toggles such as `--drop-nlab-only` and
+  `--keep-disambiguations`.
 
-## Map: Term list → Wikidata IDs
+## Relationship and Graph Tooling
+- **Wikidata relation fetcher:** `scripts/graphing/fetch_relations.py` issues
+  SPARQL queries for pairs of concepts in the compiled database, producing
+  `data/relations/graph_edges.csv` and caches to skip repeated calls.
+- **Neo4j loaders:**
+  - `scripts/graphing/load_mentions_to_neo4j.py` inserts concept and mention
+    nodes, batching data from the compiled/pruned database.
+  - `scripts/graphing/load_relations_to_neo4j.py` pushes relation edges into
+    Neo4j, optionally reading cached results.
+- **Mathlib extends extraction:**
+  - `scripts/graphing/mathlib_extends_relations.py` walks Mathlib declaration
+    URLs to discover Lean `extends` hierarchies and map them back to MathGloss
+    entries, writing detailed relations plus optional `*_edges.csv` exports.
+  - `scripts/graphing/chicago_relationship_inference.py` and
+    `scripts/graphing/nlab_relationship_inference.py` leverage cached LLM
+    outputs under `data/relations/` to infer subclass links between non-Mathlib
+    sources.
+- **Support utilities:** `scripts/graphing/concept_extractor.py` normalizes
+  markdown links, and `scripts/graphing/mathlib_statement_lookup.py` resolves
+  Mathlib doc URLs to Lean declarations.
 
-Map a term list using a local SQLite index (no network required):
-- `python scripts/mapper.py --db /path/to/index.db --csv data/mathlib.csv --source Mathlib --out data/alignments/mathlib_mappings.csv`
+## Web UI
+Serve the static site locally with `python -m http.server -d . 8000` and open
+`http://localhost:8000/web/`. The UI defaults to `data/database_pruned.csv` but
+can be pointed at other compiled CSVs by editing `web/index.html`.
 
-Notes
-- The mapper tries common disambiguation suffixes (e.g., `_(mathematics)`), then exact title. This is done to 
-- It normalizes light math markup (e.g., `$p$-adic` → `p-adic`).
-- Optional filter (network): `--check-wikidata` excludes people, disambiguations, theorem‑like pages.
-- The mapper is based on [wikimapper](https://github.com/jcklie/wikimapper) by [Jan-Christoph Klie](https://mrklie.com)
+## Additional Documentation
+- `AGENTS.md` — authoritative agent reference and pipeline hand-off guide.
+- `NatFoM slides.pdf` — presentation deck summarizing project goals.
+- Source directories (`chicago/`, `entries/`) host the raw content used when
+  generating term lists.
 
-Repeat for each `data/<source>.csv` to produce `data/alignments/<source>_mappings.csv`.
+## License and Citation
 
-## Merge: Build the database
+MathGloss is released under the repository's LICENSE. If you draw on MathGloss
+in a publication, please cite:
 
-Combine all per‑source alignments into a canonical table. If you provide the index, labels are populated from Wikipedia titles.
+- MathGloss: Building mathematical glossaries from text (Nov 2023).
+  https://arxiv.org/abs/2311.12649
 
-- `python scripts/build_database.py --alignments data/alignments --out data/database.csv --db /path/to/index.db`
-
-Output columns
-- `Wikidata ID`, `Wikidata Label`
-- For each source `S`: `S Name`, `S Link`
-
-## Prune (optional)
-
-Filter out non‑topic entities via Wikidata API (network):
-
-- `python scripts/prune_database.py --in data/database.csv --out data/database_pruned.csv --batch-size 50 --verbose`
-
-What it drops by default (via P31 “instance of”):
-- Humans (Q5), disambiguation pages (Q4167410, Q22808320), theorem/lemma/proposition (Q65943, Q207505, Q108163)
-
-Tip: If rate‑limited, reduce `--batch-size` (e.g., 20).
-
-## Browse the UI
-
-Local preview
-- `python -m http.server -d . 8000`
-- Open `http://localhost:8000/web/` (the UI loads `data/database_pruned.csv` by default).
-
-View online at https://mathgloss.github.io/MathGloss
-
-## License and citation
-
-This toolkit is open source under the LICENSE included in the repo.
-
-If you use MathGloss in research or a project, please consider citing the preprint:
-
-- MathGloss: Building mathematical glossaries from text (Nov 2023) — https://arxiv.org/abs/2311.12649
