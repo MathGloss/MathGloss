@@ -34,7 +34,21 @@
 
     <script>
       const PERMALINK_PREFIX = '../entries';
-      const FALLBACK_FILES = ['database.csv', 'database_pruned.csv'];
+      const DEFAULT_DATASETS = ['database.csv', 'database_pruned.csv'];
+
+      const datasetParam = new URLSearchParams(window.location.search).get('dataset');
+      const queryDatasets = datasetParam
+        ? datasetParam
+            .split(',')
+            .map((s) => s.trim())
+            .filter(Boolean)
+        : [];
+      const overrideDatasets = Array.isArray(window.DATASET_FILES)
+        ? window.DATASET_FILES.filter(Boolean)
+        : [];
+      const FALLBACK_FILES = Array.from(
+        new Set([...queryDatasets, ...overrideDatasets, ...DEFAULT_DATASETS])
+      );
 
       const searchInput = document.getElementById('search');
       const countsEl = document.getElementById('counts');
