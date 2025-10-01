@@ -1,0 +1,3 @@
+wikidata_id,label,lean_name,mathlib_name,mathlib_link
+Q1425985,Preorder,Preorder,Preorder,https://leanprover-community.github.io/mathlib4_docs/Order/Defs/PartialOrder.html#Preorder
+Q258374,outer measure,OuterMeasure,OuterMeasure,https://leanprover-community.github.io/mathlib4_docs/MeasureTheory/OuterMeasure/Defs.html#OuterMeasure

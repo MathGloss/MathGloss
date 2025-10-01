@@ -673,7 +673,6 @@ Q1165838,hexagonal number,,,,,,,,,,,,,hexagonal number,http://planetmath.org/hex
 Q1165839,range,,,,,,,,,,,range,https://ncatlab.org/nlab/show/range,range,http://planetmath.org/range
 Q1165883,Philosophy of physics,,,,,,,,,,,philosophy of physics,https://ncatlab.org/nlab/show/philosophy+of+physics,,
 Q11660,artificial intelligence,,,,,,,,,,,,,artificial intelligence,http://planetmath.org/artificialintelligence
-Q11660139,Zero,,,,,,,,,,,zero,https://ncatlab.org/nlab/show/zero,zero,http://planetmath.org/zero
 Q1166618,mathematical logic,,,,,,,,,,,logic,https://ncatlab.org/nlab/show/logic,logic,http://planetmath.org/logic
 Q1166643,algebra extension,,,,,,,,,,,algebra extension,https://ncatlab.org/nlab/show/algebra+extension,,
 Q1166774,Stone's representation theorem for Boolean algebras,,,,,,,,,,,boolean space,https://ncatlab.org/nlab/show/boolean+space,,
@@ -879,7 +878,7 @@ Q12134,celestial sphere,,,,,,,,,,,celestial sphere,https://ncatlab.org/nlab/show
 Q12139612,List,,,,,section-lists,https://www.clowderproject.com/tag/01XN.html,,,,,,,,
 Q121416,discrete mathematics,,,,,,,,,,,discrete mathematics,https://ncatlab.org/nlab/show/discrete+mathematics,,
 Q121484797,conjugate subgroup,,,,,,,,,,,conjugate subgroup,https://ncatlab.org/nlab/show/conjugate+subgroup,,
-Q121499459,submonoid,,,,,,,,,,,submonoid,https://ncatlab.org/nlab/show/submonoid,,
+Q121499459,submonoid,,,,,,,,,Submonoid,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Group/Submonoid/Defs.html#Submonoid,submonoid,https://ncatlab.org/nlab/show/submonoid,,
 Q121504326,orthocomplemented lattice,,,,,,,,,,,,,orthocomplemented lattice,http://planetmath.org/orthocomplementedlattice
 Q121504573,dual equivalence,,,,,,,,,,,dual equivalence,https://ncatlab.org/nlab/show/dual+equivalence,,
 Q121504772,finitely complete category,,,,,,,,,,,finitely complete category,https://ncatlab.org/nlab/show/finitely+complete+category,,
@@ -1208,7 +1207,7 @@ Q133250,Sequence,finite sequence,https://arxiv.org/pdf/1612.09375#page=43,,,,,,,
 Q1332643,Boundary condition,,,,,,,,,,,boundary condition,https://ncatlab.org/nlab/show/boundary+condition,,
 Q133270306,Interchange law,interchange law,https://arxiv.org/pdf/1612.09375#page=46,,,,,,,,,,,,
 Q1332977,subsequence,,,,,,,,,,,,,subsequence,http://planetmath.org/subsequence
-Q1333055,semiring,,,,,,,,,,,rig,https://ncatlab.org/nlab/show/rig,rig,http://planetmath.org/rig
+Q1333055,semiring,,,,,,,,,Semiring,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Ring/Defs.html#Semiring,rig,https://ncatlab.org/nlab/show/rig,rig,http://planetmath.org/rig
 Q133311,Tribe,,,,,,,,,,,tribe,https://ncatlab.org/nlab/show/tribe,,
 Q133327,spacetime,,,,,,,,,,,spacetime,https://ncatlab.org/nlab/show/spacetime,,
 Q1333611,manifold with boundary,,,,,,,,,,,manifold with boundary,https://ncatlab.org/nlab/show/manifold+with+boundary,,
@@ -1658,7 +1657,6 @@ Q157002,equilateral triangle,,,,,,,,,,,,,regular triangle,http://planetmath.org/
 Q1570472,primitive recursive function,,,,,,,,,primitive recursive function,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/Primrec.html#Primrec,,,primitive recursive function,http://planetmath.org/primitiverecursivefunction
 Q1570979,Spin-orbit coupling,,,,,,,,,,,spin-orbit coupling,https://ncatlab.org/nlab/show/spin-orbit+coupling,,
 Q1571290,perfect group,,,,,,,,,,,perfect group,https://ncatlab.org/nlab/show/perfect+group,perfect group,http://planetmath.org/perfectgroup
-Q15713853,One,,,,,,,,,,,one,https://ncatlab.org/nlab/show/one,,
 Q1571916,Hall subgroup,,,,,,,,,,,,,Hall subgroup,http://planetmath.org/hallsubgroup
 Q15720844,Giuseppe,,,,,,,,,,,Giuseppe,https://ncatlab.org/nlab/show/Giuseppe,,
 Q1572094,product measure,,,product measure,https://mathgloss.github.io/MathGloss/chicago/product_measure,,,,,,,,,product measure,http://planetmath.org/productmeasure
@@ -2648,7 +2646,7 @@ Q207014,parallel postulate,,,,,,,,,,,parallel postulate,https://ncatlab.org/nlab
 Q20707005,Conformal bootstrap,,,,,,,,,,,conformal bootstrap,https://ncatlab.org/nlab/show/conformal+bootstrap,,
 Q207103,Russian Constructivists,,,,,,,,,,,Russian constructivism,https://ncatlab.org/nlab/show/Russian+constructivism,,
 Q207264,Fermat number,,,,,,,,,,,Fermat number,https://ncatlab.org/nlab/show/Fermat+number,Fermat numbers,http://planetmath.org/fermatnumbers
-Q207348,semigroup,,,semigroup,https://mathgloss.github.io/MathGloss/chicago/semigroup,,,,,,,semigroup,https://ncatlab.org/nlab/show/semigroup,adjoining an identity to a semigroup,http://planetmath.org/adjoininganidentitytoasemigroup
+Q207348,semigroup,,,semigroup,https://mathgloss.github.io/MathGloss/chicago/semigroup,,,,,Semigroup,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Group/Defs.html#Semigroup,semigroup,https://ncatlab.org/nlab/show/semigroup,adjoining an identity to a semigroup,http://planetmath.org/adjoininganidentitytoasemigroup
 Q207387,Planck length,,,,,,,,,,,Planck length,https://ncatlab.org/nlab/show/Planck+length,,
 Q2074239,Hadamard's lemma,,,,,,,,,,,Hadamard lemma,https://ncatlab.org/nlab/show/Hadamard+lemma,,
 Q207440,Hash table,,,,,,,,,hash map,https://leanprover-community.github.io/mathlib4_docs/Std/Data/HashMap/Basic.html#Std.HashMap,,,,
@@ -2671,8 +2669,7 @@ Q20820411,convergence in the p-th mean,,,,,,,,,,,,,convergence in the mean,http:
 Q208216,triangle inequality theorem,,,,,,,,,,,triangle inequality,https://ncatlab.org/nlab/show/triangle+inequality,triangle inequality,http://planetmath.org/triangleinequality
 Q208225,Pythagorean triple,,,,,,,,,,,Pythagorean triple,https://ncatlab.org/nlab/show/Pythagorean+triple,Pythagorean triplet,http://planetmath.org/pythagoreantriplet
 Q2082317,Cesàro mean,,,,,,,,,,,,,Cesàro summability,http://planetmath.org/cesarosummability
-Q208237,monoid,monoid,https://arxiv.org/pdf/1612.09375#page=23,monoid,https://mathgloss.github.io/MathGloss/chicago/monoid,,,monoid,https://emilyriehl.github.io/files/context.pdf#page=23,,,monoid,https://ncatlab.org/nlab/show/monoid,monoid,http://planetmath.org/monoid
-Q208238,Vienna Circle,,,,,,,,,,,Vienna Circle,https://ncatlab.org/nlab/show/Vienna+Circle,,
+Q208237,monoid,monoid,https://arxiv.org/pdf/1612.09375#page=23,monoid,https://mathgloss.github.io/MathGloss/chicago/monoid,,,monoid,https://emilyriehl.github.io/files/context.pdf#page=23,monoid,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Group/Defs.html#Monoid,monoid,https://ncatlab.org/nlab/show/monoid,monoid,http://planetmath.org/monoid
 Q20827113,G-space,,,G space,https://mathgloss.github.io/MathGloss/chicago/G-space,,,G-space,https://emilyriehl.github.io/files/context.pdf#page=36,,,,,,
 Q20827138,Absolutely continuous measure,,,,,,,,,,,absolutely continuous measure,https://ncatlab.org/nlab/show/absolutely+continuous+measure,absolutely continuous,http://planetmath.org/absolutelycontinuous
 Q2083446,Sextic,,,,,,,,,,,,,sextic equation,http://planetmath.org/sexticequation
@@ -5661,7 +5658,7 @@ Q65056565,Genus-two surface,,,,,,,,,,,double torus,https://ncatlab.org/nlab/show
 Q6505810,Lazard ring,,,,,,,,,,,Lazard ring,https://ncatlab.org/nlab/show/Lazard+ring,,
 Q650670,nilpotent matrix,,,,,,,,,,,,,nilpotent transformation,http://planetmath.org/nilpotenttransformation
 Q650738,folk theorem,,,,,,,,,,,folk theorem,https://ncatlab.org/nlab/show/folk+theorem,,
-Q650741,division ring,,,division ring,https://mathgloss.github.io/MathGloss/chicago/division_ring,,,,,,,skewfield,https://ncatlab.org/nlab/show/skewfield,division ring,http://planetmath.org/divisionring
+Q650741,division ring,,,division ring,https://mathgloss.github.io/MathGloss/chicago/division_ring,,,,,DivisionRing,https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/Field/Defs.html#DivisionRing,skewfield,https://ncatlab.org/nlab/show/skewfield,division ring,http://planetmath.org/divisionring
 Q65079865,A1,,,,,,,,,,,A1,https://ncatlab.org/nlab/show/A1,,
 Q65088643,Height function,,,,,,,,,,,,,length of a polynomial,http://planetmath.org/lengthofapolynomial
 Q65089963,Bredon cohomology,,,,,,,,,,,Bredon cohomology,https://ncatlab.org/nlab/show/Bredon+cohomology,,
@@ -6754,7 +6751,6 @@ Q842953,Lebesgue's density theorem,,,,,,,,,,,,,Lebesgue density theorem,http://p
 Q843503,Kaon,,,,,,,,,,,kaon,https://ncatlab.org/nlab/show/kaon,,
 Q843632,Sequent,,,,,,,,,,,sequent,https://ncatlab.org/nlab/show/sequent,sequent,http://planetmath.org/sequent
 Q8437543,indefinite integral,,,,,,,,,,,indefinite integral,https://ncatlab.org/nlab/show/indefinite+integral,,
-Q843813,C,,,,,,,,,,,,,C,http://planetmath.org/c1
 Q843905,Circumference,,,,,,,,,,,circumference of a circle,https://ncatlab.org/nlab/show/circumference+of+a+circle,,
 Q844118,modus tollens,,,,,,,,,,,,,modus tollens,http://planetmath.org/modustollens
 Q844128,canonical bundle,,,,,,,,,,,canonical sheaf,https://ncatlab.org/nlab/show/canonical+sheaf,,
