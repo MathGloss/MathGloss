@@ -10,7 +10,7 @@ visualisation or analysis tools.
 Example
 -------
     python scripts/graphing/fetch_relations.py \
-        --input data/database_compiled_pruned.csv \
+        --input data/database.csv \
         --output data/graph_edges.csv
 
 The script respects Wikidata's usage policy by defaulting to one request per
@@ -36,7 +36,7 @@ except ImportError as exc:  # pragma: no cover
 
 DEFAULT_ENDPOINT = "https://query.wikidata.org/sparql"
 DEFAULT_USER_AGENT = "MathGlossRelationFetcher/0.1 (+https://mathgloss.github.io)"
-DEFAULT_INPUT = Path("data/database_compiled_pruned.csv")
+DEFAULT_INPUT = Path("data/database.csv")
 DEFAULT_OUTPUT = Path("data/graph_edges.csv")
 DEFAULT_SOURCE_CHUNK = 40
 DEFAULT_TARGET_CHUNK = 200

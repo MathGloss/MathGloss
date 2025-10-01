@@ -19,7 +19,7 @@ except ImportError as exc:  # pragma: no cover
     raise SystemExit("neo4j python driver is required: pip install neo4j") from exc
 
 
-DEFAULT_INPUT = Path("data/database_compiled_pruned.csv")
+DEFAULT_INPUT = Path("data/database.csv")
 DEFAULT_BATCH_SIZE = 200
 DEFAULT_URI = os.environ.get("NEO4J_URI", "bolt://localhost:7687")
 DEFAULT_USER = os.environ.get("NEO4J_USER", "neo4j")
@@ -249,7 +249,7 @@ def write_batch(session, rows: Sequence[ConceptMention]) -> None:
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input", type=Path, default=DEFAULT_INPUT, help="Path to database_compiled_pruned.csv")
+    parser.add_argument("--input", type=Path, default=DEFAULT_INPUT, help="Path to database.csv")
     parser.add_argument("--uri", default=DEFAULT_URI, help="Neo4j bolt URI")
     parser.add_argument("--user", default=DEFAULT_USER, help="Neo4j username")
     parser.add_argument("--password", default=DEFAULT_PASSWORD, help="Neo4j password")

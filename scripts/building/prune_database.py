@@ -38,6 +38,8 @@ FILTER_P31: Set[str] = {
     'Q11448906',  # science award
     'Q13406463',  # wikimedia list article
     'Q1936384',   # area of mathematics
+    'Q11424',      # film
+    'Q15416',   #television program
 #    'Q65943',     # theorem
 #    'Q207505',    # lemma
 #    'Q108163',    # proposition
