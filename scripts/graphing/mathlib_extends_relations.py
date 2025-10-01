@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Derive extends-based relationships between Mathlib declarations.
 
-Given a MathGloss database CSV (e.g. ``data/database_compiled_pruned.csv``)
+Given a MathGloss database CSV (e.g. ``data/database.csv``)
 and a local Mathlib checkout, this script walks each ``Mathlib Link`` entry,
 extracts the Lean declaration referenced by the URL, and records the
 ``extends`` hierarchy discovered in the Lean source. For every ancestor we
@@ -11,7 +11,7 @@ relationships such as ``Group`` ⊑ ``Monoid``.
 Usage example::
 
     python scripts/graphing/mathlib_extends_relations.py \
-        --database data/database_compiled_pruned.csv \
+        --database data/database.csv \
         --mathlib-dir /path/to/mathlib \
         --out data/relations/mathlib_extends_relations.csv
 
@@ -73,7 +73,7 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--database",
         type=Path,
-        default=Path("data/database_compiled_pruned.csv"),
+        default=Path("data/database.csv"),
         help="CSV containing MathGloss entries with Mathlib links.",
     )
     parser.add_argument(

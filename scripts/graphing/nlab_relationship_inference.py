@@ -59,7 +59,7 @@ from scripts.graphing.chicago_relationship_inference import (
 DEFAULT_NLAB_JSON = Path("secrets/nlab/nlab_scrape.json")
 DEFAULT_OUTPUT = Path("data/relations/nlab_llm_relations.csv")
 DEFAULT_CACHE = Path("data/relations/nlab_relation_cache.json")
-DEFAULT_DATABASE = Path("data/database_compiled_pruned.csv")
+DEFAULT_DATABASE = Path("data/database.csv")
 NLAB_BASE_URL = "https://ncatlab.org/nlab/show/"
 
 
