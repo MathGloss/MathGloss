@@ -139,7 +139,7 @@ def chicago_identifier(qid: Optional[str], label: Optional[str], url: Optional[s
 
 def normalize_chicago_row(row: Dict[str, str]) -> Optional[Dict[str, str]]:
     relation = sanitize_label(row.get("relation"))
-    if not relation or relation.lower() == "none":
+    if not relation or relation.lower() in {"none", "no_relation"}:
         return None
     source_label = sanitize_label(row.get("parent_label")) or None
     target_label = sanitize_label(row.get("child_label")) or None
@@ -183,7 +183,7 @@ def nlab_identifier(qid: Optional[str], label: Optional[str], url: Optional[str]
 
 def normalize_nlab_row(row: Dict[str, str]) -> Optional[Dict[str, str]]:
     relation = sanitize_label(row.get("relation"))
-    if not relation or relation.lower() == "none":
+    if not relation or relation.lower() in {"none", "no_relation"}:
         return None
     source_label = sanitize_label(row.get("parent_label")) or None
     target_label = sanitize_label(row.get("child_label")) or None
@@ -248,6 +248,10 @@ def prepare_relation(row: Dict[str, str], source_name: str) -> Optional[Prepared
     source_label = sanitize_label(row.get("source_label", "")) or None
     target_label = sanitize_label(row.get("target_label", "")) or None
     property_label = sanitize_label(row.get("property_label", "")) or property_id
+    lower_pid = property_id.lower()
+    lower_label = property_label.lower()
+    if lower_pid == "no_relation" or lower_label == "no_relation" or lower_pid.endswith(":no_relation"):
+        return None
     pred = to_predicate(property_id, property_label)
     confidence_value = row.get("confidence")
     confidence: Optional[float]
