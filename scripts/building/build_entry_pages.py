@@ -147,7 +147,7 @@ def parse_chicago_markdown(md_path: Path, slug_to_qid: Dict[str, str]) -> str:
             return f'<a href="{url}" target="_blank" rel="noopener">{label}</a>'
 
         escaped = re.sub(r'\*\*(.+?)\*\*', repl_bold, escaped)
-        escaped = re.sub(r'\[(.+?)\]\((https?://[^)]+)\)', repl_link, escaped)
+        escaped = re.sub(r'\[([^\]]+)\]\((https?://[^)]+)\)', repl_link, escaped)
         return escaped
 
     blocks: List[str] = []
