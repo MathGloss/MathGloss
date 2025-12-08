@@ -6,6 +6,10 @@ releases, and graph experiments. The project centers on small, composable
 "agents"—Python scripts that each own one step of the pipeline and exchange
 well-defined CSV artifacts.
 
+You can read about [MathGloss](https://mathgloss.github.io/MathGloss/) 
+ * [MathGloss: Building mathematical glossaries from text](https://arxiv.org/abs/2311.12649)
+   Lucy Horowitz, Valeria de Paiva, preprint 2023
+
 ## Key Capabilities
 - Ingest term lists from textbooks, wikis, lecture notes, and generated
   contexts into a consistent `title,link[,suggestion]` format.
